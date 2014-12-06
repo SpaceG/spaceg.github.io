@@ -1,0 +1,10 @@
+@import url("http://hello.myfonts.net/count/28fd4a");
+@font-face {
+font-family: 'dear_JoeHannes';
+src: url('assets/spaceg/fonts/28FD4A_0_0.eot.html');
+src: url('') 
+format('embedded-opentype'),
+url('assets/spaceg/fonts/28FD4A_0_0.woff.html') 
+format('woff'),
+url('assets/spaceg/fonts/28FD4A_0_0.ttf.html') 
+format('truetype');}
