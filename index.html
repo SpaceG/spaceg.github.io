@@ -246,7 +246,7 @@ display: table;
 min-width: 100%;
 height: 900px;
 background: url(https://media.giphy.com/media/8MzJeUlNew4AU/giphy.gif) center;
-opacity: 0.9;
+opacity: 0.7;
 background-repeat: no-repeat;
 /* background: no-repeat center center; */
 background-attachment: scroll;
@@ -607,7 +607,45 @@ $(window).bind("scroll", function() {
 </script>
 
 <!-- jQuery Plugin -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var text="Galaxies a still more glorious dawn awaits shores of the cosmic ocean bits of moving fluff the only home we've ever known finite but unbounded colonies astonishment laws of physics a very small stage in a vast cosmic arena brain is the seed of intelligence realm of the galaxies Apollonius of Perga rogue intelligent beings courage of our questions made in the interiors of collapsing stars laws of physics how far away, rings of Uranus the carbon in our apple pies rings of Uranus a very small stage in a vast cosmic arena brain is the seed of intelligence preserve and cherish that pale blue dot muse about, globular star cluster ship of the imagination shores of the cosmic ocean, as a patch of light? Ship of the imagination, with pretty stories for which there's little good evidence across the centuries, brain is the seed of intelligence muse about, Vangelis hydrogen atoms";
+var delay=50;
+var currentChar=1;
+var destination="[not defined]";
 
+function type()
+{
+  if (document.getElementById)
+  {
+    var dest=document.getElementById(destination);
+    if (dest)
+    {
+      dest.innerHTML=text.substr(0, currentChar);
+      currentChar++
+      if (currentChar>text.length)
+      {
+        currentChar=1;
+        setTimeout("type()", 5000);
+      }
+      else
+      {
+        setTimeout("type()", delay);
+      }
+    }
+  }
+}
+function startTyping(textParam, delayParam, destinationParam)
+{
+  text=textParam;
+  delay=delayParam;
+  currentChar=1;
+  destination=destinationParam;
+  type();
+}
+
+//-->
+</SCRIPT>
 
   </head>
 
@@ -692,9 +730,7 @@ $(window).bind("scroll", function() {
 
 		<div class="front-ending-start w100 h100" >
 				      <div class="download-section">
-           
-        </div>
-			<div class="display-table">
+				      	<div class="display-table">
 				<div class="display-table-cell site-middle text-center">
 					 <div class="container" id="introduction">
                             <div class="inner animated" >
@@ -708,6 +744,43 @@ $(window).bind("scroll", function() {
                           
                             </div>
                          </div>
+                     </div><!--<i class="fa fa-globe" id="new-world"></i> -->
+                     				<!--	<div class="page-tagline">the power <br>front end engineering</div> -->
+
+					<div class="page-tagline"> <!--<img src="img/chrome.png" style="width: 30px" alt="img03"/> -->	<a href="https://www.google.ch/intl/de/chrome/browser/desktop/index.html"  target="_blank" ><img src="img/logo-chrome-experiment.png" alt="img03"/></a><br><br>the power of<br>front end engineering</div><br>
+<a href="https://api.giphy.com/"  target="_blank" >Gif Api by <img src="img/api_giphy_logo.png" style="width:40px;" alt="img03"/></a>
+				<!--	<div class="text-center front-end-landing-spaceg">Start Up Hub offers day and overnight Hacker Camps experiences for boys and girls of all ages.</div> -->
+				<!-- social display:none 	<div class="front-end-landing-spaceg-landing-social"> 
+						<a href="http://github.com/spaceg" target="_blank" class="github"><i class="fa fa-github"></i></a>
+						<a href="http://twitter.com/lucasgatsas" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+           
+        </div>
+			<div class="display-table">
+				<div class="display-table-cell site-middle text-center">
+					 <div class="container" id="introduction">
+
+						<div class="row header">
+							<div class="col-md-11">
+								<h3>No Contract. Cancel when you Want.</h3>
+	        				<p>	<a href="/terms/">
+	        					<strong>FQA/Terms</strong></a> - All plans Include!</p><DIV ID="textDestination">...</DIV>
+							</div>
+						</div>
+                       <!--     <div class="inner animated" >
+                                <div class="max-width">
+									<div class="title-wrap animated fadeIn">
+											<h1 id="title-top-script">
+											<i class="fa fa-crosshairs"></i>
+										</h1>
+									</div>
+                                <p class="animated fadeIn delay">I'm a Designer &amp; Front-End Developer/ Engineer based in the City of <a href="https://www.google.ch/search?q=switzerland+st+gallen&rlz=1C5CHFA_enCH586CH586&espv=2&biw=1453&bih=914&source=lnms&tbm=isch&sa=X&ei=liZzVL2eNonAOcvQgMAP&ved=0CAcQ_AUoAg" target="_blank" title="link google">Saint Gall, Switzerland.</a></p>
+                          
+                            </div>
+                         </div> -->
                      </div><!--<i class="fa fa-globe" id="new-world"></i> -->
                      				<!--	<div class="page-tagline">the power <br>front end engineering</div> -->
 
@@ -802,7 +875,8 @@ $(window).bind("scroll", function() {
 							</div>
 						</div>
 						<div class="row charts">
-				  <div class="center-block" style="width:400px;background-color:none;">     <div class="chart last">
+				  <div class="center-block" style="width:400px;background-color:none;">     
+				  	<div class="chart last">
 
 		
 									<div class="quantity">
@@ -1408,7 +1482,7 @@ $(window).bind("scroll", function() {
 <!-- section 5 -->
 
 
-
+<!--
 
 		<section class="front-end-home-section home-landing landing fillscreen" id="work" style="background-image:url();">
 		<div class="spaceg-branding"></div>
@@ -1437,7 +1511,7 @@ $(window).bind("scroll", function() {
 					<div class="page-tagline"> 				
         <!--<img src="img/chrome.png" style="width: 30px" alt="img03"/> -->	<!--<a href="https://www.google.ch/intl/de/chrome/browser/desktop/index.html"  target="_blank" >
 						<img src="img/logo-chrome-experiment.png" alt="img03"/>--> <!--</a><br><br>the power of<br>front end engineering	<p><h1>Check out My New App!</h1></p>				<p>We are taking care of the last steps for the project launch and soon we will have our first beta release. <br>If you don’t want to miss our release you can sign up for the project newsletter.</p>	<br> follow me <a href="https://twitter.com/LucasGatsas" target="_blank"> @LucasGatsas</a><br> -->
-				<div id="pricing">
+			<!--	<div id="pricing">
 					<div class="container">
 						<div class="row header">
 							<div class="col-md-12">
@@ -1454,7 +1528,7 @@ $(window).bind("scroll", function() {
 										<span class="dollar"></span>
 										<span class="price">24 </span>
 									<!--	<span class="period">/month</span> -->
-									</div>
+							<!--		</div> 
 									<div class="plan-name">Months</div>
 									<div class="specs">
 										<div class="spec">
@@ -1464,7 +1538,7 @@ $(window).bind("scroll", function() {
 										<div class="spec">
 												<p>We are taking care of the last steps for the project launch and soon we will have our first beta release. If you don’t want to miss our release you can sign up for the project newsletter.</p>	
 												<!-- Button -->
-										<div class="form-group">
+								<!--		<div class="form-group">
    											<label class="col-md-4 control-label" for="singlebutton"></label>
    												<div class="col-md-4 center-block">
       										<button id="singlebutton" name="singlebutton" class="btn btn-primary center-block">
@@ -1483,7 +1557,7 @@ $(window).bind("scroll", function() {
 						<div class="row">
  								 <div class="center-block" style="width:400px;background-color:none;">          
   										<!-- <img class="img-circle img-responsive img-center" src="images/newfront_colors_01.png" alt=""> -->
-										</div>
+									<!--	</div>
 									</div>	
 								</div>
 							</div>
@@ -1518,7 +1592,7 @@ $(window).bind("scroll", function() {
             </div>
 			</p>
 		</div>
-	</section>
+	</section> -->
 
 
 
@@ -1658,6 +1732,8 @@ $(window).scroll(function(){
 
 
 
-
+<SCRIPT LANGUAGE="JavaScript">
+startTyping(text, 50, "textDestination");
+</script>
   </body>
 </html>
