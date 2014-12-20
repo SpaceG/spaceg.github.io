@@ -19,6 +19,40 @@
 <style>
 
 
+.jumbotron {
+padding: 0px 0;
+}
+.jumbotron {
+padding: 0px 0px;
+margin-bottom: 30px;
+color: inherit;
+background-color: #eee;
+}
+pre code {
+padding: 0;
+font-size: inherit;
+color: inherit;
+white-space: pre-wrap;
+background-color: transparent;
+border-radius: 0;
+/* float: left; */
+}
+code {
+padding: 2px 4px;
+font-size: 90%;
+color: #c7254e;
+background-color: #f9f2f4;
+border-radius: 4px;
+float: left;
+text-align: left;
+}
+
+
+
+.cover-container {
+text-align: center;
+}
+
 /*
  * Globals
  */
@@ -49,13 +83,24 @@ html,
 body {
   height: 100%;
   background-color: none;
-}
-body {
+
   color: #fff;
-  text-align: center;
+ 
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+h1, .h1 {
+font-size: 36px;
+text-align: center;
+}
+.lead {
+font-size: 21px;
+text-align: center;
 
+}
+
+.front-end-hexa-footer-logo {
+text-align: center;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -284,10 +329,18 @@ function fadeToggle(el, hide) {
               </nav>
             </div>
           </div>
-
+<br><br><br><br>
           <div class="inner cover">
             <h1 class="cover-heading">Gradient your Space.</h1>
-            <p class="lead">hexacolors.js is jquery Tool for Change different Gradient Background Colors. Download Open Source for Free and Color your Space.<pre><code> <script type="text/javascript">
+            <p class="lead">hexacolors.js is jquery Tool for Change different Gradient Background Colors. Download Open Source for Free and Color your Space.
+
+
+ 
+
+  </p><br><br></div>
+
+<header class="jumbotron hero-spacer">
+                    	<pre><code> 
 $(function() {
     fadeToggle( $('.gradient.one') );
     fadeToggle( $('.gradient.two') );
@@ -297,12 +350,18 @@ function fadeToggle(el, hide) {
     el.fadeToggle(5000,null,function() { fadeToggle(el); });
 }
  
-</script>
 
 
- </code></pre>  </p><br><br>
-            Work with 
-           <div class="front-end-hexa-footer-logo"> <a href="http://www.colorhexa.com/"><img src="img/logo2.png"></a> </div><br>
+ </code></pre> 
+        </header>
+
+
+        
+
+
+
+        
+           <div class="front-end-hexa-footer-logo">     Work with <a href="http://www.colorhexa.com/"><img src="img/logo2.png"></a> </div><br>
 
               <br>Read Article on Awwwards<br>
               <div class="logo">
@@ -313,6 +372,8 @@ function fadeToggle(el, hide) {
               <a href="#" class="btn btn-lg btn-default">Download Source</a>
             </p>
           </div>
+
+          <br><br>
 
           <div class="mastfoot">
             <div class="inner">
