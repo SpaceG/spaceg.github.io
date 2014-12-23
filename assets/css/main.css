@@ -277,7 +277,9 @@ a:visited,
 a:active {
   font-weight: 600;
   color: #f5f6f7;
-  text-decoration: none; }
+  text-decoration: none;
+font-family: Open Sans;
+   }
   a:link:hover,
   a:visited:hover,
   a:active:hover {

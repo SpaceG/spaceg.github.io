@@ -5932,6 +5932,7 @@ border: 1px solid rgba(36, 36, 36, 0.19999999999999996);}
   position: fixed;
   -webkit-transition: opacity 3s;
   transition: opacity 3s;
+  height: 100%;
 }
 
 .home-landing .video-container.show {
@@ -6082,17 +6083,17 @@ border: 1px solid rgba(36, 36, 36, 0.19999999999999996);}
 }
 
 .video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  min-height: 530px;
-  padding-bottom: 56.25%;
-  background-image: url("https://media1.break.com/breakstudios/2012/7/12/2001stargate.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  background-size: cover;
+ position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 0;
+min-height: 530px;
+padding-bottom: 56.25%;
+background-image: url("http://38.media.tumblr.com/968bb885c913df11883be9e213a17adc/tumblr_n5erptt0jE1relaado1_r1_400.gif");
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
 }
 
 .video-container video {
