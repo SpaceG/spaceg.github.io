@@ -1,6 +1,36 @@
 /*!
 * Copyright 2014 Lucas Gatsas 
 */
+
+
+/* buttons  */
+
+
+.btn {
+border: none;
+background: none;
+color: #ffffff;
+padding: 9px 12px 10px;
+line-height: 22px;
+text-decoration: none;
+text-shadow: none;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 90px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-transition: 0.25s;
+-moz-transition: 0.25s;
+-o-transition: 0.25s;
+transition: 0.25s;
+-webkit-backface-visibility: hidden;
+border: 1px solid white;
+}
+
+
+
+
 @import url("https://hello.myfonts.net/count/28fd4a");
 @font-face {
 font-family: 'dear_JoeHannes';
