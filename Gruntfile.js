@@ -1,51 +1,74 @@
 module.exports = function(grunt) {
-	//Configuration.
-	grunt.initConfig({
-		pkg: grunt.file.readJSON('package.json') ,
-		jshint: {
-			options: {
-				smarttabs: false,
-				curly: true,
-				immed: true,
-				latedef: true,
-				noarg: true,
-				quotmark: 'single',
-				undef: true,
-				unused: true,
-				strict: true,
-				trailing: true,
-				globals: {
-					window: true,
-					document: true,
-					navigator: true,
-					define: true,
-					module: true
-				}
-			},
-			all: ['src/**/*.js']
-		},
-		qunit: {
-			all: ['test/index.html', 'test/loading.html']
-		},
-		uglify: {
-			options: {
-				banner: '/*! skrollr <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>) | Lucas Gatsas - https://github.com/ | Free to use under terms of MIT license */\n'
-			},
 
-			all: {
-				files: {
-					'dist/skrollr.min.js': 'src/skrollr.js'
-				}
-			}
-		}
-	});
+    // Project configuration.
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        uglify: {
+            main: {
+                src: 'js/<%= pkg.name %>.js',
+                dest: 'js/<%= pkg.name %>.min.js'
+            }
+        },
+        less: {
+            expanded: {
+                options: {
+                    paths: ["css"]
+                },
+                files: {
+                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
+                }
+            },
+            minified: {
+                options: {
+                    paths: ["css"],
+                    cleancss: true
+                },
+                files: {
+                    "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
+                }
+            }
+        },
+        banner: '/*!\n' +
+            ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+            ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n' +
+            ' */\n',
+        usebanner: {
+            dist: {
+                options: {
+                    position: 'top',
+                    banner: '<%= banner %>'
+                },
+                files: {
+                    src: ['css/<%= pkg.name %>.css', 'css/<%= pkg.name %>.min.css', 'js/<%= pkg.name %>.min.js']
+                }
+            }
+        },
+        watch: {
+            scripts: {
+                files: ['js/<%= pkg.name %>.js'],
+                tasks: ['uglify'],
+                options: {
+                    spawn: false,
+                },
+            },
+            less: {
+                files: ['less/*.less'],
+                tasks: ['less'],
+                options: {
+                    spawn: false,
+                }
+            },
+        },
+    });
 
-	//Dependencies.
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-qunit');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
+    // Load the plugins.
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-banner');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
-	//Tasks.
-	grunt.registerTask('default', ['jshint', 'qunit', 'uglify']);
-	grunt.registerTask('travis', ['jshint', 'qunit']);
+    // Default task(s).
+    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+
 };
