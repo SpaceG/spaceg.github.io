@@ -428,7 +428,7 @@ border: 1px solid #0D0D0D;
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #404040;
 }
 img::selection {
   color: white;
