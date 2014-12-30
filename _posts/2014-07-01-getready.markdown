@@ -3,7 +3,7 @@ layout:     post
 title:      "The dreams of yesterday are the hopes of today and the reality of tomorrow."
 date:       2014-07-01 12:00:00
 author:     "Lucas Gatsas"
-header-img: "img/post-bg-02.jpg"
+header-img: "img/Green-Abstract-Outer-Space-Galaxies-Planets-Orbit.jpg"
 ---
 
 <p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned!</p>
