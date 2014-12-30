@@ -256,7 +256,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #BBBBBB;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -280,7 +280,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #919191;
+  color: #BBBBBB;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
