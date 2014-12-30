@@ -69,7 +69,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #B6B6B6;
 }
 a img:hover,
 a img:focus {
@@ -428,7 +428,7 @@ border: 1px solid #0D0D0D;
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #404040;
 }
 img::selection {
   color: white;
