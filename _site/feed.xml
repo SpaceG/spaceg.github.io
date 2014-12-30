@@ -5,8 +5,8 @@
     <description>Hello, my Name is Lucas Gatsas</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Dec 2014 01:38:10 +0100</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2014 01:38:10 +0100</lastBuildDate>
+    <pubDate>Tue, 30 Dec 2014 01:54:08 +0100</pubDate>
+    <lastBuildDate>Tue, 30 Dec 2014 01:54:08 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -57,7 +57,8 @@ Jekyll Install -  _Jekyll Open Source_, with GITHUB.
   (which you can change it to another port like &lt;br /&gt;
   localhost:8080 with : &lt;br /&gt;
   localserver port: PORT  and Listen on the given port. --port PORT). &lt;br /&gt;
-  See more on the (see [the conf](http://jekyllrb.com/docs/configuration/)) 
+  See more on the (see &lt;br /&gt;
+  [the conf](http://jekyllrb.com/docs/configuration/)) 
   Serve Command Options.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
