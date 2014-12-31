@@ -501,8 +501,6 @@ font-family: Georgia, times, arial;
 font-size: 36px;
 font-weight: 300;
 }
-
-
 @media (max-width: 768px) {
 button#toggle-bottom-fadeout {
 display: none;
