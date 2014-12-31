@@ -6,13 +6,13 @@ author:     "Lucas Gatsas"
 header-img: "img/Green-Abstract-Outer-Space-Galaxies-Planets-Orbit.jpg"
 ---
 
-<p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned!</p>
+<p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned! This Blog is dedicated to my Git's!</p>
 
 
 
 <h2 class="section-heading">The Development Processes!</h2>
 
-<p>I will describe my developmet Processes @ my Official Website!</p>
+<p>I will describe and Blog about my development Processes @ my Official Website!</p>
 
 
 
@@ -20,6 +20,9 @@ header-img: "img/Green-Abstract-Outer-Space-Galaxies-Planets-Orbit.jpg"
 
 
 <h2 class="section-heading">Start Up Projects in Progress.</h2>
+
+
+<p>Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.</p>
 
 <!--
 
