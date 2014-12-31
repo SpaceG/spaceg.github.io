@@ -489,8 +489,9 @@ border: 1px solid rgb(176, 176, 176);
 border-radius: 90px;
 padding: 7px;
 margin-top: 7px;
+padding-right: 13px;
+padding-left: 13px;
 }
-
 h1#top-title-font-weight-bold {
 font-weight: 700;
 text-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
