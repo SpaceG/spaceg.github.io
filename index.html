@@ -6,6 +6,12 @@ description: "Hello, my Name is Lucas Gatsas. I'm a Designer & Front-End Develop
 header-img: "img/MountainRange.jpg"
 ---
 
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
