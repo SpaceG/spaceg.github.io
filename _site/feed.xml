@@ -5,8 +5,8 @@
     <description>Hello, my Name is Lucas Gatsas</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Dec 2014 06:37:14 +0100</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2014 06:37:14 +0100</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 01:44:28 +0100</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 01:44:28 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -21,14 +21,11 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Start Up Projects in Progress.&lt;/h2&gt;
 
-&lt;p&gt;As &lt;/p&gt;
+&lt;!--
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
 
 </description>
         <pubDate>Tue, 01 Jul 2014 14:00:00 +0200</pubDate>
