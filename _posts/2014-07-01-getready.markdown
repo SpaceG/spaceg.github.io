@@ -26,7 +26,7 @@ header-img: "img/Green-Abstract-Outer-Space-Galaxies-Planets-Orbit.jpg"
 
 <p> Here is my Install Video </p>
 
-<iframe width="100%" height="315" src="//www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="//www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen></iframe>
 
 
 <!--
