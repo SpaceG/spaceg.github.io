@@ -72,10 +72,50 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<style>
+body {
+  overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+</style>
+
+
+
 </head>
 
 
+
+
+
 <body>
+	<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
 
     <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -172,15 +212,21 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned!</p>
+				<p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned! This Blog is dedicated to my Git's!</p>
 
 <h2 class="section-heading">The Development Processes!</h2>
 
-<p>I will describe my developmet Processes @ my Official Website!</p>
+<p>I will describe and Blog about my development Processes @ my Official Website!</p>
 
 <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
 
 <h2 class="section-heading">Start Up Projects in Progress.</h2>
+
+<p>Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.</p>
+
+<p> Here is my Install Video </p>
+
+<iframe width="100%" height="515" src="//www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen=""></iframe>
 
 <!--
 
@@ -324,6 +370,21 @@ $(window).scroll(function(){
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/clean-blog.min.js "></script>
+
+
+    <!-- Preloader -->
+<script type="text/javascript">
+  //<![CDATA[
+    $(window).load(function() { // makes sure the whole site is loaded
+      $('#status').fadeOut(); // will first fade out the loading animation
+      $('#preloader').delay(250).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(150).css({'overflow':'visible'});
+    })
+  //]]>
+</script>
+<!-- jQuery Plugin -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
 
 
 </body>

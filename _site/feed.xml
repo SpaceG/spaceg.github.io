@@ -5,21 +5,27 @@
     <description>Hello, my Name is Lucas Gatsas</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 31 Dec 2014 01:44:28 +0100</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 01:44:28 +0100</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 05:22:09 +0100</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 05:22:09 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>The dreams of yesterday are the hopes of today and the reality of tomorrow.</title>
-        <description>&lt;p&gt;This is my First Post, Hello World! I will try out to describe my Code&#39;s here on my GitHub Blog, this isn&#39;t my Official Website!  I&#39;m current working on it! also Stay Tuned!&lt;/p&gt;
+        <description>&lt;p&gt;This is my First Post, Hello World! I will try out to describe my Code&#39;s here on my GitHub Blog, this isn&#39;t my Official Website!  I&#39;m current working on it! also Stay Tuned! This Blog is dedicated to my Git&#39;s!&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;The Development Processes!&lt;/h2&gt;
 
-&lt;p&gt;I will describe my developmet Processes @ my Official Website!&lt;/p&gt;
+&lt;p&gt;I will describe and Blog about my development Processes @ my Official Website!&lt;/p&gt;
 
 &lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Start Up Projects in Progress.&lt;/h2&gt;
+
+&lt;p&gt;Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.&lt;/p&gt;
+
+&lt;p&gt; Here is my Install Video &lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;//www.youtube.com/embed/hRqgJlxoEnI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;!--
 
