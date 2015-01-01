@@ -117,7 +117,7 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -213,6 +213,8 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+  color: black;
+font-weight: 600;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -485,7 +487,7 @@ padding: 15px 25px;
 border-radius: 90px;
 }
 a#roundbutton {
-border: 1px solid rgb(176, 176, 176);
+border: 1px solid black;
 border-radius: 90px;
 padding: 7px;
 margin-top: 7px;
@@ -496,14 +498,19 @@ h1#top-title-font-weight-bold {
 font-weight: 700;
 text-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
 letter-spacing: -2px;
+color: black;
 }
 a#blog-title-left-top {
 font-family: Georgia, times, arial;
 font-size: 36px;
 font-weight: 300;
 margin-top: -5px;
+color: black;
 }
 @media (max-width: 768px) {
 button#toggle-bottom-fadeout {
 display: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #000000;
 }
