@@ -181,7 +181,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
-  min-height: 733px;
+  min-height: 633px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -493,6 +493,17 @@ padding: 7px;
 margin-top: 7px;
 padding-right: 13px;
 padding-left: 13px;
+color: black;
+}
+a#roundbutton:hover {
+border: 1px solid black;
+border-radius: 90px;
+padding: 7px;
+margin-top: 7px;
+padding-right: 13px;
+padding-left: 13px;
+color: white;
+background:black;
 }
 h1#top-title-font-weight-bold {
 font-weight: 700;
@@ -514,3 +525,4 @@ display: none;
 .navbar-inverse .navbar-nav>li>a {
 color: #000000;
 }
+
