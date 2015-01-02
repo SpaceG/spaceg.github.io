@@ -16,7 +16,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 </code><br>
 
 
-<p> Another Way you can get ssl is, during the Popular cryptographic software library Open Source SSL which on is available on a Source Base !
+<p> Another Way you can get ssl is, during the Popular Cryptographic Software Library Open Source SSL which on is available on a Source Base !
 	Be aware of the the most big Hole! The Heartbleed Bug! 
 	There are many other Open Sources and Scripts. If you are good, you can both write your own self. 
 	Here some Links : 
