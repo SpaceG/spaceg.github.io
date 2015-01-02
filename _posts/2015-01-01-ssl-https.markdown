@@ -28,6 +28,9 @@ Open SSL Source
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/Scan.jpeg" alt="Post Sample Image">
+</a>
 
 <h2 class="section-heading">Install</h2>
 
