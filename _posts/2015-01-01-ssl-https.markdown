@@ -23,7 +23,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 <p>But it on your Top in the Header after some meta tags.</p>
 
-[Transport Layer Security](http://en.wikipedia.org/wiki/Transport_Layer_Security)
+[Transport Layer Security and  Secure Sockets Layer (SSL)](http://en.wikipedia.org/wiki/Transport_Layer_Security)
 Transport Layer Security - ssl 
 <br>
 [Open SSL Source](http://en.wikipedia.org/wiki/OpenSSL)
