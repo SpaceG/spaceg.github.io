@@ -207,13 +207,13 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.1,
 			display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
-  color: black;
+color: rgb(144, 144, 144);
 font-weight: 400;
 }
 @media only screen and (min-width: 768px) {
@@ -509,7 +509,7 @@ h1#top-title-font-weight-bold {
 font-weight: 700;
 text-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
 letter-spacing: -2px;
-color: black;
+color: rgb(58, 58, 58);
 }
 a#blog-title-left-top {
 font-family: Georgia, times, arial;
