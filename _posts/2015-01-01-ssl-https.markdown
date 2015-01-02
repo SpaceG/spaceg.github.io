@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 
-<p>Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. </p>
+<p>Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script! This Code is writen in Javascript. </p>
 
 
 <code>var host = "YOURDOMAIN.github.io";
