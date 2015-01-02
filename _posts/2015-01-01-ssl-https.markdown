@@ -7,15 +7,22 @@ author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 
-<p>Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. </p>
+<p>Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. </p>
+
+<p> Another Way you can get ssl is, during the Open Source SSL which on is available on a Source Base !
+	There are many other Open Sources and Scripts. If you are good, you can both write your own self. 
+	Here some Links : 
+	<br>
 
 
+</p><br>
+[Open SSL Source](https://www.openssl.org/)
+Open SSL Source
 
 
 <code>var host = "YOURDOMAIN.github.io";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.p
-    rotocol = "https";
+    window.location.protocol = "https";
 </code><br>
 
 
