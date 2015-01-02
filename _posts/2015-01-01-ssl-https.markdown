@@ -7,7 +7,9 @@ author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 
-<p>Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After some Searches i found out. there is a simple script from Eric Mill. This Code based on Javascript. </p>
+<p>Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. </p>
+
+
 
 
 <code>var host = "YOURDOMAIN.github.io";
@@ -21,7 +23,12 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 <p>But it on your Top in the Header after some meta tags.</p>
 
-
+[Transport Layer Security](http://en.wikipedia.org/wiki/Transport_Layer_Security)
+Transport Layer Security - ssl 
+<br>
+[Open SSL Source](http://en.wikipedia.org/wiki/OpenSSL)
+Open SSL Source
+<br>
 
 <blockquote>Good Things never ending!</blockquote>
 

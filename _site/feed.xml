@@ -5,13 +5,13 @@
     <description>Hello, my Name is Lucas Gatsas</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Jan 2015 03:01:59 +0100</pubDate>
-    <lastBuildDate>Fri, 02 Jan 2015 03:01:59 +0100</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2015 03:07:30 +0100</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2015 03:07:30 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>ssl - https over GitHub.</title>
-        <description>&lt;p&gt;Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After some Searches i found out. there is a simple script from Eric Mill. This Code based on Javascript. &lt;/p&gt;
+        <description>&lt;p&gt;Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;var host = &quot;YOURDOMAIN.github.io&quot;;
 if ((host == window.location.host) &amp;amp;&amp;amp; (window.location.protocol != &quot;https:&quot;))
@@ -22,6 +22,13 @@ if ((host == window.location.host) &amp;amp;&amp;amp; (window.location.protocol 
 &lt;h2 class=&quot;section-heading&quot;&gt;Install&lt;/h2&gt;
 
 &lt;p&gt;But it on your Top in the Header after some meta tags.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;Transport Layer Security&lt;/a&gt;
+Transport Layer Security - ssl 
+&lt;br /&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/OpenSSL&quot;&gt;Open SSL Source&lt;/a&gt;
+Open SSL Source
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;Good Things never ending!&lt;/blockquote&gt;
 
