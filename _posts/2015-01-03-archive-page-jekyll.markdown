@@ -7,9 +7,8 @@ author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 
-
 <h2 class="section-heading">Create the archive.html file.</h2>
-
+<br>
 
 <script src="https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js"></script>
 
