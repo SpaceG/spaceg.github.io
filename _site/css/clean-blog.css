@@ -494,6 +494,7 @@ margin-top: 7px;
 padding-right: 13px;
 padding-left: 13px;
 color: black;
+font-weight: 700;
 }
 a#roundbutton:hover {
 border: 1px solid black;
