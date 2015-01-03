@@ -5,21 +5,21 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Jan 2015 10:27:12 +0100</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 10:27:12 +0100</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2015 10:43:34 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2015 10:43:34 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Archive - Page over Jekyll.</title>
-        <description>&lt;script src=&quot;https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js&quot;&gt;&lt;/script&gt;
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;The Set Up.&lt;/h2&gt;
+&lt;p&gt;Create the archive.html file.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://gist.githubusercontent.com/SpaceG/a649063bf0379f3ce3b6/raw/Archive%20Page%20for%20Jekyll&quot;&gt;Raw Code on GitHub.&lt;/a&gt; Raw Code&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/SpaceG/spaceg.github.io/blob/master/archive.html&quot;&gt;Raw Code on GitHub.&lt;/a&gt; Raw Code&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;Create a archive.html to your Static Html jekyll Files. and enter &lt;code&gt; ctrl + c &lt;/code&gt; and type in command line &lt;code&gt;jekyll serve &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Create a archive.html to your Static Html jekyll Files and enter &lt;code&gt; ctrl + c &lt;/code&gt; and type in command line &lt;code&gt;jekyll serve &lt;/code&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;Good Things never ending!&lt;/blockquote&gt;
 
