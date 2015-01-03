@@ -9,27 +9,18 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 
 
 
-  <code data-gist-id="<gista649063bf0379f3ce3b61>"></code>
-<code>
-
-
-</code><br>
-
 
 <script src="https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js"></script>
 
-  <code data-gist-id="<gista649063bf0379f3ce3b6>"></code>
+<br>
 
 
+[Raw Code on GitHub.](https://gist.githubusercontent.com/SpaceG/a649063bf0379f3ce3b6/raw/Archive%20Page%20for%20Jekyll) Raw Code
 
-[The Heartbleed](http://heartbleed.com/) The Heartbleed
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/Scan.jpeg" alt="Post Sample Image">
-</a>
 
 <h2 class="section-heading">Install</h2>
 
+Make a archive.html to your Static Html jekyll Files. and enter <code> ctrl + c </code> and type in command line <code>jekyll serve </code>
 
 <blockquote>Good Things never ending!</blockquote>
 

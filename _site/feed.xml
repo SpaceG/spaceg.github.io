@@ -5,54 +5,21 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Jan 2015 10:07:12 +0100</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 10:07:12 +0100</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2015 10:26:26 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2015 10:26:26 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Archive - Page over Jekyll.</title>
-        <description>&lt;p&gt;Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script! This Code is writen in Javascript. &lt;/p&gt;
+        <description>&lt;script src=&quot;https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;code data-gist-id=&quot;&amp;lt;gista649063bf0379f3ce3b61&amp;gt;&quot;&gt;&lt;/code&gt;
-&lt;code&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;/code&amp;gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;code data-gist-id=&quot;&amp;lt;gista649063bf0379f3ce3b6&amp;gt;&quot;&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt; Another Way you can get ssl is, during the Popular Cryptographic Software Library Open Source SSL which on is available on a Source Base !
-	Be aware of the the most biggest Hole! The Heartbleed Bug! 
-	There are many other Open Sources and Scripts. If you are good, you can both write your own self. 
-	Here some Links : 
-	&lt;br /&gt;
-
-
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.openssl.org/&quot;&gt;Open SSL Source&lt;/a&gt;
-Open SSL Source&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openssl/openssl&quot;&gt;Open SSL Source on Github.&lt;/a&gt;
-Open SSL Source&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://heartbleed.com/&quot;&gt;The Heartbleed&lt;/a&gt; The Heartbleed&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/Scan.jpeg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gist.githubusercontent.com/SpaceG/a649063bf0379f3ce3b6/raw/Archive%20Page%20for%20Jekyll&quot;&gt;Raw Code on GitHub.&lt;/a&gt; Raw Code&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Install&lt;/h2&gt;
 
-&lt;p&gt;But it on your Top in the Header after some meta tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;Transport Layer Security and  Secure Sockets Layer (SSL)&lt;/a&gt;
- Secure Sockets Layer (SSL)
-&lt;br /&gt;
-&lt;a href=&quot;http://en.wikipedia.org/wiki/OpenSSL&quot;&gt;Open SSL Source&lt;/a&gt;
-Open SSL Source
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Make a archive.html to your Static Html jekyll Files. and enter &lt;code&gt; ctrl + c &lt;/code&gt; and type in command line &lt;code&gt;jekyll serve &lt;/code&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;Good Things never ending!&lt;/blockquote&gt;
 
