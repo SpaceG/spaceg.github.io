@@ -8,6 +8,7 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 
 
+<h2 class="section-heading">Create the archive.html file.</h2>
 
 
 <script src="https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js"></script>
@@ -15,7 +16,7 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 <br>
 
 
-[Raw Code on GitHub.](https://gist.githubusercontent.com/SpaceG/a649063bf0379f3ce3b6/raw/Archive%20Page%20for%20Jekyll) Raw Code
+[Raw Code on GitHub.](https://github.com/SpaceG/spaceg.github.io/blob/master/archive.html) Raw Code
 
 
 <h2 class="section-heading">Install</h2>
