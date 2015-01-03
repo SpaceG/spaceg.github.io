@@ -20,7 +20,7 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 
 <h2 class="section-heading">Install</h2>
 
-Make a archive.html to your Static Html jekyll Files. and enter <code> ctrl + c </code> and type in command line <code>jekyll serve </code>
+Create a archive.html to your Static Html jekyll Files. and enter <code> ctrl + c </code> and type in command line <code>jekyll serve </code>
 
 <blockquote>Good Things never ending!</blockquote>
 
