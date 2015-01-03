@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Jan 2015 10:26:26 +0100</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 10:26:26 +0100</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2015 10:27:12 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2015 10:27:12 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -19,7 +19,7 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Install&lt;/h2&gt;
 
-&lt;p&gt;Make a archive.html to your Static Html jekyll Files. and enter &lt;code&gt; ctrl + c &lt;/code&gt; and type in command line &lt;code&gt;jekyll serve &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Create a archive.html to your Static Html jekyll Files. and enter &lt;code&gt; ctrl + c &lt;/code&gt; and type in command line &lt;code&gt;jekyll serve &lt;/code&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;Good Things never ending!&lt;/blockquote&gt;
 
