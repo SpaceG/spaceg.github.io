@@ -7,22 +7,48 @@ author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 <h2 class="section-heading">The Set Up.</h2>
-Create the archive.html file.
+Download my New Jekyll Theme - Science Medium Theme V.0.2.0
 
 <script src="https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js"></script>
 <br>
-[Raw Code on GitHub.](https://github.com/SpaceG/spaceg.github.io/blob/master/archive.html) Raw Code
-
-Create a archive.html to your Static Html jekyll Files and enter <code> ctrl + c </code> and type in command line <code>jekyll serve </code>
-
-<blockquote>Good Things never ending!</blockquote>
+[Download](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) Raw Code
 
 
-<!--
+The official Jekyll version of the Clean Blog theme by 
+
+###[View Live Demo &rarr;](https://spaceg.github.io/)
+
+## Before You Begin
+
+In the _config.yml file, the base URL is set to ###[ _config.yml &rarr;](https://github.com/SpaceG/CleanMagicMedium-Jekyll-Theme/blob/master/_config.yml/) which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+
+It should look like this:
+`baseurl: ""`
+
+## What's Included
+
+A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+
+A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+
+You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+
+Download Jekyll 
+###[Download Jekyll  &rarr;](https://github.com/jekyll/jekyll)
+
+
+
+
+
+
+<blockquote>Theme Preview</blockquote>
+
+
+
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
-</a> -->
+    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
 
 
 
