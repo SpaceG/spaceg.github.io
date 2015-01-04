@@ -5,9 +5,75 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Jan 2015 10:43:34 +0100</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 10:43:34 +0100</lastBuildDate>
+    <pubDate>Sun, 04 Jan 2015 07:12:29 +0100</pubDate>
+    <lastBuildDate>Sun, 04 Jan 2015 07:12:29 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>How Install Laravel on Mac Os X - { PHP Framework } on Xampp</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Laravel Install &lt;/h2&gt;
+
+&lt;blockquote&gt;Update the Post Today! Stay in Space!&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Mon, 05 Jan 2015 14:00:02 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/05/install-laravel-on-xampp/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/05/install-laravel-on-xampp/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Science Medium Jekyll Theme V.0.2.0</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Science Medium Jekyll Theme&lt;/h2&gt;
+&lt;p&gt;Download my New Jekyll Theme - Science Medium Theme V.0.2.0&lt;/p&gt;
+
+&lt;blockquote&gt;Theme Preview&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0&quot;&gt;Download&lt;/a&gt; Raw Code&lt;/p&gt;
+
+&lt;p&gt;The official Jekyll version of the Clean Blog theme by &lt;/p&gt;
+
+&lt;h3 id=&quot;view-live-demo-rarrhttpsspaceggithubio&quot;&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;View Live Demo →&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;before-you-begin&quot;&gt;Before You Begin&lt;/h2&gt;
+
+&lt;p&gt;In the _config.yml file, the base URL is set to ###&lt;a href=&quot;https://github.com/SpaceG/CleanMagicMedium-Jekyll-Theme/blob/master/_config.yml/&quot;&gt; _config.yml →&lt;/a&gt; which is this themes gh-pages preview. It’s recommended that you remove the base URL before working with this theme locally!&lt;/p&gt;
+
+&lt;p&gt;It should look like this:
+&lt;code&gt;baseurl: &quot;&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-included&quot;&gt;What’s Included&lt;/h2&gt;
+
+&lt;p&gt;A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run &lt;code&gt;jekyll serve&lt;/code&gt; in your command line and preview the build in your browser. You can use &lt;code&gt;jekyll serve --watch&lt;/code&gt; to watch for changes in the source files as well.&lt;/p&gt;
+
+&lt;p&gt;A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering &lt;code&gt;grunt&lt;/code&gt; into your command line which will build the files. You can use &lt;code&gt;grunt watch&lt;/code&gt; if you are working on the JavaScript or the LESS.&lt;/p&gt;
+
+&lt;p&gt;You can run &lt;code&gt;jekyll serve --watch&lt;/code&gt; and &lt;code&gt;grunt watch&lt;/code&gt; at the same time to watch for changes and then build them all at once.&lt;/p&gt;
+
+&lt;p&gt;Download Jekyll 
+###&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Download Jekyll  →&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 04 Jan 2015 13:00:00 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/04/science-medium-jekyll-theme/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/04/science-medium-jekyll-theme/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Archive - Page over Jekyll.</title>
