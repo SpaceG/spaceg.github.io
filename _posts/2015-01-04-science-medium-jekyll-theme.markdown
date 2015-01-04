@@ -9,8 +9,20 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 <h2 class="section-heading">The Set Up.</h2>
 Download my New Jekyll Theme - Science Medium Theme V.0.2.0
 
-<script src="https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js"></script>
-<br>
+
+
+
+<blockquote>Theme Preview</blockquote>
+
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
 [Download](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) Raw Code
 
 
@@ -36,19 +48,6 @@ You can run `jekyll serve --watch` and `grunt watch` at the same time to watch f
 Download Jekyll 
 ###[Download Jekyll  &rarr;](https://github.com/jekyll/jekyll)
 
-
-
-
-
-
-<blockquote>Theme Preview</blockquote>
-
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
 
 
 
