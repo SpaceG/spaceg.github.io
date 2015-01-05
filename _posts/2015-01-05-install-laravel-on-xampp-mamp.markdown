@@ -24,14 +24,14 @@ Get Composer :
 <p>Laravel is a very Fast Popular PHP Framework for develop Web Applications.</p>
 
 
-<blockquote>Laravel over Xampp.</blockquote>
+
 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/laravel_logo1.png" alt="Post Sample Image">
 </a>
 
-
+<blockquote>Laravel over Xampp.</blockquote>
 
  <code>/Applications/XAMPP/htdocs/L33 </code>
 
