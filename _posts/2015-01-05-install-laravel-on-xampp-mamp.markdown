@@ -13,7 +13,7 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 Do you need Xampp or Mamp to Install this awesome Framework to built your own Apps. And the Composer to run Laravel correct on your localhost server. 
 
 Get Composer :
-###[View Live Demo &rarr;](https://getcomposer.org/)
+###[View Application &rarr;](https://getcomposer.org/)
 
 
 <a href="#">
