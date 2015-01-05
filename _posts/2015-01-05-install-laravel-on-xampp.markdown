@@ -11,6 +11,12 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 <blockquote>Update the Post Today! Stay in Space!</blockquote>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/laravel_logo1.png" alt="Post Sample Image">
+</a>
+
+
+
  <code>/Applications/XAMPP/htdocs/L33 </code>
 
  <code>ls</code>
