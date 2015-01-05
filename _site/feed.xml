@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Jan 2015 07:12:29 +0100</pubDate>
-    <lastBuildDate>Sun, 04 Jan 2015 07:12:29 +0100</lastBuildDate>
+    <pubDate>Mon, 05 Jan 2015 02:26:32 +0100</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2015 02:26:32 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -14,6 +14,75 @@
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Laravel Install &lt;/h2&gt;
 
 &lt;blockquote&gt;Update the Post Today! Stay in Space!&lt;/blockquote&gt;
+
+&lt;p&gt;/Applications/XAMPP/htdocs/L33&lt;/p&gt;
+
+&lt;p&gt;ls&lt;/p&gt;
+
+&lt;p&gt;which php&lt;/p&gt;
+
+&lt;p&gt;/Applications/XAMPP/xamppfiles/bin/php&lt;/p&gt;
+
+&lt;p&gt;sudo vi ~/.bash_profile&lt;/p&gt;
+
+&lt;p&gt;password: &lt;/p&gt;
+
+&lt;p&gt;:wq&lt;/p&gt;
+
+&lt;p&gt;then back to bash type&lt;/p&gt;
+
+&lt;p&gt;which php
+/Applications/XAMPP/xamppfiles/bin/php&lt;/p&gt;
+
+&lt;p&gt;composer install &lt;/p&gt;
+
+&lt;p&gt;wait&lt;/p&gt;
+
+&lt;p&gt;find app/storage -type d -exec chmod 777 {} \;
+find app/storage -type f -exec chmod 777 {} \;&lt;/p&gt;
+
+&lt;p&gt;Install Composer&lt;/p&gt;
+
+&lt;p&gt;Let’s you download and install Composer before
+You need to install composer software on you OS , you can get from getcomposer.org and follow instruction on website  i won’t teah you to install composer , Let’s you do it yourself.&lt;/p&gt;
+
+&lt;p&gt;https://getcomposer.org/&lt;/p&gt;
+
+&lt;p&gt;Get Laravel&lt;/p&gt;
+
+&lt;p&gt;Then download Laravel from github here  and place your folder in XAMPP/htdoc&lt;/p&gt;
+
+&lt;p&gt;/Applications/XAMPP/htdoc/{you folder}&lt;/p&gt;
+
+&lt;p&gt;before you install it , you have to check php path that point to /Applications/XAMPP/xamppfiles/bin/php&lt;/p&gt;
+
+&lt;p&gt;Terminal Bash :
+cd /Applications/XAMPP/htdocs/L4&lt;/p&gt;
+
+&lt;p&gt;Terminal Command Line :&lt;/p&gt;
+
+&lt;p&gt;sudo vi ~/.bash_profile&lt;/p&gt;
+
+&lt;p&gt;export  Path :&lt;/p&gt;
+
+&lt;p&gt;“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”&lt;/p&gt;
+
+&lt;p&gt;If finish use ESC to exit&lt;/p&gt;
+
+&lt;p&gt;hen type composer install after you have finish installation go to browser and enter to &lt;/p&gt;
+
+&lt;p&gt;localhost/{your laraval}&lt;/p&gt;
+
+&lt;p&gt;Last problem and solve
+Boooom!!! you will get a error on your screen , Go to terminal again user both command&lt;/p&gt;
+
+&lt;p&gt;find app/storage -type d -exec chmod 777 {} \;
+find app/storage -type f -exec chmod 777 {} \;
+then refresh browser you will get complete to install Laravel , Hope to enjoy it Byeeeee !&lt;/p&gt;
+
+&lt;p&gt;Update&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;**&lt;/em&gt;Don’t forget restart apache service after set path in ~/.bash_profile&lt;/p&gt;
 
 &lt;!-- 
 &lt;a href=&quot;#&quot;&gt;
@@ -105,7 +174,7 @@
     
       <item>
         <title>ssl - https over GitHub.</title>
-        <description>&lt;p&gt;Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script! This Code is writen in Javascript. &lt;/p&gt;
+        <description>&lt;p&gt;Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! I figured out how can I do this, how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script! This Code is writen in Javascript. &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;var host = &quot;YOURDOMAIN.github.io&quot;;
 if ((host == window.location.host) &amp;amp;&amp;amp; (window.location.protocol != &quot;https:&quot;))
