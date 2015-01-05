@@ -10,7 +10,7 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 
 
 
-Do you need Xampp or Mamp to Install this awesome Framework to built your own Apps. And the Composer to run Laravel correct on your localhost server. 
+Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server. 
 
 Get Composer :
 ###[View Application &rarr;](https://getcomposer.org/)
@@ -319,9 +319,7 @@ Open a New Terminal again:=)
 
 
 Preload your Localhost and BOOOOMM!
-
-
-here is the index of your Laravel PHP Framework to build APPS!
+The index of your Laravel PHP Framework to build APPS!
 
 
 
@@ -367,7 +365,7 @@ Note: If the above fails due to permissions, run the mv line again with sudo.
 		Order, allow,deny
 		Allow from all
 	</Directory>
-</VirtualHost>
+</ VirtualHost >
 
 </code>
 
