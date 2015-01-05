@@ -6,9 +6,11 @@ date:       2015-01-05 13:00:02
 author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
-<h2 class="section-heading">Laravel Install </h2>
+<h2 class="section-heading">Laravel Install - The Popular PHP Framework to Code Web Applications. </h2>
 
-<blockquote>Update the Post Today! Stay in Space!</blockquote>
+<p>Laravel is a very Fast Popular PHP Framework for develop Web Applications.</p>
+
+<blockquote>Laravel over Xampp.</blockquote>
 
 
 <a href="#">
@@ -134,7 +136,7 @@ Update
 
 
 
-
+<blockquote>Laravel over Mamp</blockquote>
 
 
 
