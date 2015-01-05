@@ -33,6 +33,10 @@ Get Composer :
 
 <blockquote>Laravel over Xampp.</blockquote>
 
+###[ Download Xampp for Mac Os X. &rarr;](https://www.apachefriends.org/de/download.html)
+
+###[ Download Laravel. &rarr;](http://laravel.com/)
+
  <code>/Applications/XAMPP/htdocs/L33 </code>
 
  <code>ls</code>
@@ -153,9 +157,10 @@ Update
 <blockquote>Laravel over Mamp</blockquote>
 
 
+###[ Download Mamp for Mac Os X. &rarr;](http://www.mamp.info/de/)
 
 
-
+###[ Download Laravel. &rarr;](http://laravel.com/)
 
 
 Install Laravel on MAMP ! 
