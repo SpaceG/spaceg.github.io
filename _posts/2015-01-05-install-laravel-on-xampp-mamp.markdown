@@ -163,21 +163,11 @@ Update
 ###[ Download Laravel. &rarr;](http://laravel.com/)
 
 
-Install Laravel on MAMP ! 
-
-
-download 
-laravel
-laravel.com
-
-
-download
-composer
-getcomposer.org
+Install Laravel on MAMP !
 
 
 
-install and run Temrinal .bash
+install and run Terminal .bash
 
 
 type :
