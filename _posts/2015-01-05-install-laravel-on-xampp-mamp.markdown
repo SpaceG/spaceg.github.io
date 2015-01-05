@@ -8,7 +8,21 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
 <h2 class="section-heading">Laravel Install - The Popular PHP Framework to Code Web Applications. </h2>
 
+
+
+Do you need Xampp or Mamp to Install this awesome Framework to built your own Apps. And the Composer to run Laravel correct on your localhost server. 
+
+Get Composer :
+###[View Live Demo &rarr;](https://getcomposer.org/)
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/logo-composer-transparent.png" alt="Post Sample Image">
+</a>
+
+
 <p>Laravel is a very Fast Popular PHP Framework for develop Web Applications.</p>
+
 
 <blockquote>Laravel over Xampp.</blockquote>
 
