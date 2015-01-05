@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How Install Laravel on Mac Os X - { PHP Framework } on Xampp"
+title:      "How Install Laravel on Mac Os X - { PHP Framework } on Xampp + Mamp"
 subtitle:   "Laravel on Xampp localhost"
 date:       2015-01-05 13:00:02
 author:     "Lucas Gatsas"
