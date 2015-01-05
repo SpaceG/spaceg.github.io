@@ -127,6 +127,9 @@ Update
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/folder-mamp.png" alt="Post Sample Image">
+</a>
 
 
 
