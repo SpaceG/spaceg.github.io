@@ -2,7 +2,7 @@
 layout:     post
 title:      "Get Introduction - Get Started"
 subtitle:   "Laravel on Xampp + Mamp localhost"
-date:       2015-01-05 13:00:02
+date:       2015-01-06 13:00:02
 author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 ---
