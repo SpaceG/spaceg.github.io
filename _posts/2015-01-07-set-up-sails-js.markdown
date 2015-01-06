@@ -17,10 +17,15 @@ You need the <code> sudo npm install </code> [npmjs.com](https://www.npmjs.com/)
 
 
 [npmjs.com](https://www.npmjs.com/)
+
 [sails.org](http://sailsjs.org/)
+
 [github.com](https://github.com/)
+
 [lesscss.org](http://lesscss.org/)
+
 [gruntjs.com](http://gruntjs.com/)
+
 [node.js](http://nodejs.org/)
 
 
