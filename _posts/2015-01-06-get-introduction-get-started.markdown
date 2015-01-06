@@ -10,7 +10,7 @@ header-img: "img/nR9H3uc.jpg"
 
 
 
-I created our App Tree Today, a Mind Map for our Web App. I have created it with mind
+I created our App Tree Today, a Mind Map for our Web App. I have created it with MindMeister.
 
 Mindmeister:
 ###[Mindmeister](http://www.mindmeister.com/)
