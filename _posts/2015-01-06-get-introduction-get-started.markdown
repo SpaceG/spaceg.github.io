@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How Install Laravel on Mac Os X - { PHP Framework } on Xampp + Mamp"
+title:      "Get Introduction - Get Started"
 subtitle:   "Laravel on Xampp + Mamp localhost"
 date:       2015-01-05 13:00:02
 author:     "Lucas Gatsas"
@@ -10,14 +10,14 @@ header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
 
 
 
-Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server. 
+I create my Tree Today, a Mind Map for our Web App. I have created it with mind
 
 Get Composer :
-###[View Application &rarr;](https://getcomposer.org/)
+###[Mindmeister](http://www.mindmeister.com/)
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/logo-composer-transparent.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a>
 
 
