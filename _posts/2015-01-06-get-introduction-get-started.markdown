@@ -4,7 +4,7 @@ title:      "Get Introduction - Get Started"
 subtitle:   "Try to build Apps in a Totaly different Way, like the most."
 date:       2015-01-06 13:00:02
 author:     "Lucas Gatsas"
-header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
+header-img: "img/nR9H3uc.jpg"
 ---
 <h2 class="section-heading">App Tree. </h2>
 
