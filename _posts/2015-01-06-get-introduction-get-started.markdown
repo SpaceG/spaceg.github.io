@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Get Introduction - Get Started"
-subtitle:   "Laravel on Xampp + Mamp localhost"
+subtitle:   "Try to build Apps in a Totaly different Way, like the most."
 date:       2015-01-06 13:00:02
 author:     "Lucas Gatsas"
 header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
