@@ -10,7 +10,43 @@ header-img: "img/tumblr_n7fgokF2Ul1st5lhmo1_1280.jpg"
 
 
 Sails.js:
-###[sails.js](http://www.mindmeister.com/)
+###[sails.js](http://sailsjs.org/)
+
+
+You need the <code> sudo npm install </code> [npmjs.com](https://www.npmjs.com/)  installer to run sails.js correctly. Go Download it via Commandline type
+
+
+[npmjs.com](https://www.npmjs.com/)
+[sails.org](http://sailsjs.org/)
+[github.com](https://github.com/)
+[lesscss.org](http://lesscss.org/)
+[gruntjs.com](http://gruntjs.com/)
+[node.js](http://nodejs.org/)
+
+
+
+
+
+<code> sudo npm install </code>
+
+
+<code> sails lift </code>
+
+
+
+
+http://localhost:1337/
+
+
+
+info: To see your app, visit http://localhost:1337
+info: To shut down Sails, press <CTRL> + C at any time.
+
+
+
+
+
+
 
 <!--
 <a href="#">
