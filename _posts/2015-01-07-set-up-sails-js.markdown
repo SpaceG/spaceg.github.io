@@ -4,7 +4,7 @@ title:      "Set Up sails.js - Sails Js - Framework"
 subtitle:   "Build larger Applications with Sails.js"
 date:       2015-01-06 13:00:02
 author:     "Lucas Gatsas"
-header-img: "img/tumblr_n7fgokF2Ul1st5lhmo1_1280.jpg"
+header-img: "img/img_squiddy@2x.png"
 ---
 <h2 class="section-heading">sails.js </h2>
 
@@ -50,6 +50,9 @@ info: To shut down Sails, press <CTRL> + C at any time.
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/Screenshot-2014-09-09-07.23.05.png" alt="Post Sample Image">
+</a>
 
 
 
