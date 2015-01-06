@@ -21,7 +21,7 @@ Mindmeister:
 </a>
 
 
-<p>I had search about a Mind Map and found this MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.</p>
+<p>I had searched for a Mind Map and found MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.</p>
 
 
 
