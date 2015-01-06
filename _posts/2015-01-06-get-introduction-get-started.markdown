@@ -10,7 +10,7 @@ header-img: "img/nR9H3uc.jpg"
 
 
 
-I create my Tree Today, a Mind Map for our Web App. I have created it with mind
+I created our App Tree Today, a Mind Map for our Web App. I have created it with mind
 
 Mindmeister:
 ###[Mindmeister](http://www.mindmeister.com/)
@@ -21,12 +21,16 @@ Mindmeister:
 </a>
 
 
-<p>I have search about a Mind map and found this MindMeister. A company from Germany. Really nice and fast to sketch out some Applications or Sketches.</p>
+<p>I had search about a Mind Map and found this MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.</p>
 
 
 
 
-<blockquote>Laravel over Xampp.</blockquote>
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
 
 
 <!-- 
