@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Set Up sails.js - Sails Js - Framework"
+title:      "Set Up sails.js - Sails js - Framework"
 subtitle:   "Build larger Applications with Sails.js"
 date:       2015-01-06 13:00:02
 author:     "Lucas Gatsas"
@@ -31,6 +31,9 @@ Download
 
 Download
 [node.js](http://nodejs.org/)
+
+Download
+[brew.sh](http://brew.sh/)
 
 
 
