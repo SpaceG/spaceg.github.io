@@ -5,41 +5,227 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Jan 2015 02:26:32 +0100</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2015 02:26:32 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Jan 2015 00:12:03 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Jan 2015 00:12:03 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>How Install Laravel on Mac Os X - { PHP Framework } on Xampp</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Laravel Install &lt;/h2&gt;
+        <title>backbone.js </title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Give your JS App some Backbone with Models, Views, Collections, and Events &lt;/h2&gt;
 
-&lt;blockquote&gt;Update the Post Today! Stay in Space!&lt;/blockquote&gt;
+&lt;p&gt;Backbone.js
+###&lt;a href=&quot;https://github.com/jashkenas/backbone/&quot;&gt;Backbone.js&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;/Applications/XAMPP/htdocs/L33&lt;/p&gt;
+&lt;p&gt;Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.&lt;/p&gt;
 
-&lt;p&gt;ls&lt;/p&gt;
+&lt;p&gt;Download
+&lt;a href=&quot;https://github.com/jashkenas/backbone/&quot;&gt;backbone.js&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;which php&lt;/p&gt;
+&lt;p&gt;Download
+&lt;a href=&quot;http://backbonejs.org/&quot;&gt;backbone.js Introductions&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;/Applications/XAMPP/xamppfiles/bin/php&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/backbone.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;sudo vi ~/.bash_profile&lt;/p&gt;
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;p&gt;Update Post Soon!&lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Thu, 08 Jan 2015 14:00:02 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/08/backbone.js/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/08/backbone.js/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Set Up sails.js - Sails js - Framework</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;sails.js &lt;/h2&gt;
+
+&lt;p&gt;Sails.js:
+###&lt;a href=&quot;http://sailsjs.org/&quot;&gt;sails.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You need the &lt;code&gt; sudo npm install &lt;/code&gt; &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;npmjs.com&lt;/a&gt;  installer to run sails.js correctly. Go Download it via Commandline type&lt;/p&gt;
+
+&lt;p&gt;You Need also some tools to run Sails js!&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;https://www.npmjs.com/&quot;&gt;npmjs.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://sailsjs.org/&quot;&gt;sails.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://lesscss.org/&quot;&gt;lesscss.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://gruntjs.com/&quot;&gt;gruntjs.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://nodejs.org/&quot;&gt;node.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://brew.sh/&quot;&gt;brew.sh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Open Terminal and Type: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo npm install &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sails lift &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;http://localhost:1337/&lt;/p&gt;
+
+&lt;p&gt;info: To see your app, visit http://localhost:1337
+info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/Screenshot-2014-09-09-07.23.05.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;p&gt;Update Post Soon!&lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Tue, 06 Jan 2015 14:00:02 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/06/set-up-sails-js/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/06/set-up-sails-js/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Get Introduction - Get Started</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;App Tree. &lt;/h2&gt;
+
+&lt;p&gt;I created our App Tree Today, a Mind Map for our Web App. I have created it with MindMeister.&lt;/p&gt;
+
+&lt;p&gt;Mindmeister:
+###&lt;a href=&quot;http://www.mindmeister.com/&quot;&gt;Mindmeister&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I had searched for a Mind Map and found MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.&lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Tue, 06 Jan 2015 14:00:02 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/06/get-introduction-get-started/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/06/get-introduction-get-started/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How Install Laravel on Mac Os X - { PHP Framework } on Xampp + Mamp</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Laravel Install - The Popular PHP Framework to Code Web Applications. &lt;/h2&gt;
+
+&lt;p&gt;Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server. &lt;/p&gt;
+
+&lt;p&gt;Get Composer :
+###&lt;a href=&quot;https://getcomposer.org/&quot;&gt;View Application →&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/logo-composer-transparent.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Laravel is a very Fast Popular PHP Framework for develop Web Applications.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;//www.youtube.com/embed/uWuIqaFzPzY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/laravel_logo1.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;Laravel over Xampp.&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;download-xampp-for-mac-os-x-rarrhttpswwwapachefriendsorgdedownloadhtml&quot;&gt;&lt;a href=&quot;https://www.apachefriends.org/de/download.html&quot;&gt; Download Xampp for Mac Os X. →&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;download-laravel-rarrhttplaravelcom&quot;&gt;&lt;a href=&quot;http://laravel.com/&quot;&gt; Download Laravel. →&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;/Applications/XAMPP/htdocs/L33 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; which php&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; /Applications/XAMPP/xamppfiles/bin/php &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo vi ~/.bash_profile &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;password: &lt;/p&gt;
 
-&lt;p&gt;:wq&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;**********************************&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;then back to bash type&lt;/p&gt;
 
 &lt;p&gt;which php
-/Applications/XAMPP/xamppfiles/bin/php&lt;/p&gt;
+&lt;code&gt;/Applications/XAMPP/xamppfiles/bin/php&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;composer install &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;composer install &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;wait&lt;/p&gt;
+&lt;p&gt;wait, it need a bit time. &lt;/p&gt;
 
-&lt;p&gt;find app/storage -type d -exec chmod 777 {} \;
-find app/storage -type f -exec chmod 777 {} \;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find app/storage -type d -exec chmod 777 {} \; &lt;/code&gt;
+&lt;code&gt;find app/storage -type f -exec chmod 777 {} \;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Install Composer&lt;/p&gt;
 
@@ -52,37 +238,165 @@ You need to install composer software on you OS , you can get from getcomposer.o
 
 &lt;p&gt;Then download Laravel from github here  and place your folder in XAMPP/htdoc&lt;/p&gt;
 
-&lt;p&gt;/Applications/XAMPP/htdoc/{you folder}&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; /Applications/XAMPP/htdoc/{you folder} &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;before you install it , you have to check php path that point to /Applications/XAMPP/xamppfiles/bin/php&lt;/p&gt;
+&lt;p&gt;before you install it , you have to check php path that point to &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; /Applications/XAMPP/xamppfiles/bin/php &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Terminal Bash :
-cd /Applications/XAMPP/htdocs/L4&lt;/p&gt;
+&lt;code&gt;cd /Applications/XAMPP/htdocs/L4&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Terminal Command Line :&lt;/p&gt;
 
-&lt;p&gt;sudo vi ~/.bash_profile&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo vi ~/.bash_profile&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;export  Path :&lt;/p&gt;
 
-&lt;p&gt;“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;If finish use ESC to exit&lt;/p&gt;
 
-&lt;p&gt;hen type composer install after you have finish installation go to browser and enter to &lt;/p&gt;
+&lt;p&gt;Type composer install after you have finish installation go to browser and enter to &lt;/p&gt;
 
-&lt;p&gt;localhost/{your laraval}&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;localhost/{your laraval}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Last problem and solve
 Boooom!!! you will get a error on your screen , Go to terminal again user both command&lt;/p&gt;
 
-&lt;p&gt;find app/storage -type d -exec chmod 777 {} \;
-find app/storage -type f -exec chmod 777 {} \;
-then refresh browser you will get complete to install Laravel , Hope to enjoy it Byeeeee !&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find app/storage -type d -exec chmod 777 {} \;&lt;/code&gt;
+&lt;code&gt;find app/storage -type f -exec chmod 777 {} \;&lt;/code&gt;
+then refresh browser you will get complete to install Laravel , Hope to enjoy it!&lt;/p&gt;
 
 &lt;p&gt;Update&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;**&lt;/em&gt;Don’t forget restart apache service after set path in ~/.bash_profile&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;**&lt;/em&gt;Don’t forget restart apache service after set path in&lt;code&gt; ~/.bash_profile&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/folder-mamp.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;Laravel over Mamp&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;download-mamp-for-mac-os-x-rarrhttpwwwmampinfode&quot;&gt;&lt;a href=&quot;http://www.mamp.info/de/&quot;&gt; Download Mamp for Mac Os X. →&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;download-laravel-rarrhttplaravelcom-1&quot;&gt;&lt;a href=&quot;http://laravel.com/&quot;&gt; Download Laravel. →&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Install Laravel on MAMP !&lt;/p&gt;
+
+&lt;p&gt;install and run Terminal .bash&lt;/p&gt;
+
+&lt;p&gt;type :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;curl -sS https://getcomposer.org/installer | php &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;type: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;php composer.phar&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;type:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;composer&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;to exit : type&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;exit&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Open a New Terminal Bash&lt;/p&gt;
+
+&lt;p&gt;type: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mv composer.phar /usr/local/bin/composer&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;type: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;composer&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;type to exit : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;go back to localhost of the index &lt;/p&gt;
+
+&lt;p&gt;localhost/&lt;/p&gt;
+
+&lt;p&gt;localhost:8888/&lt;/p&gt;
+
+&lt;p&gt;Open New Terminal :&lt;/p&gt;
+
+&lt;p&gt;type: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd /Applications/MAMP/htdocs/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;composer create-project laravel/laravel spaceg --prefer-dist&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;rm -R ./*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd ~ &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls - l&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls -ls&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nano .bash_profile&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;enter the php version&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;export PATH=/Applications/MAMP/bin/php/php5.6.2/bin/:$PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;php5.6.2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ctrl o&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ctrl x&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Open a New Terminal again:=)&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd /Applications/MAMP/htdocs/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;composer create-project laravel/laravel/ yourprojectname&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preload your Localhost and BOOOOMM!
+The index of your Laravel PHP Framework to build APPS!&lt;/p&gt;
+
+&lt;p&gt;Globally#&lt;/p&gt;
+
+&lt;p&gt;You can place this file anywhere you wish. If you put it in your PATH, you can access it globally. On unixy systems you can even make it executable and invoke it without php.&lt;/p&gt;
+
+&lt;p&gt;You can run these commands to easily access composer from anywhere on your system:&lt;/p&gt;
+
+&lt;p&gt;curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+Note: If the above fails due to permissions, run the mv line again with sudo.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+DocumentRoot &quot;/Path/To/New/Document/Root&quot;
+ServerName spaceg.github.io
+&amp;lt;Directory &quot;/Path/To/New/Document/Root&quot;&amp;gt;
+	Options All
+	AllowOverride All
+	Order, allow,deny
+	Allow from all
+&amp;lt;/Directory&amp;gt; &amp;lt;/ VirtualHost &amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
 
 &lt;!-- 
 &lt;a href=&quot;#&quot;&gt;
@@ -95,8 +409,8 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 </description>
         <pubDate>Mon, 05 Jan 2015 14:00:02 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/05/install-laravel-on-xampp/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/05/install-laravel-on-xampp/</guid>
+        <link>https://spaceg.github.io/2015/01/05/install-laravel-on-xampp-mamp/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/05/install-laravel-on-xampp-mamp/</guid>
         
         
       </item>
