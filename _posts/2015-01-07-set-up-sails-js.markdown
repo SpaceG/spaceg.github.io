@@ -16,14 +16,19 @@ Sails.js:
 You need the <code> sudo npm install </code> [npmjs.com](https://www.npmjs.com/)  installer to run sails.js correctly. Go Download it via Commandline type
 
 You Need also some tools to run Sails js!
+
 Download
 [npmjs.com](https://www.npmjs.com/)
+
 Download
 [sails.org](http://sailsjs.org/)
+
 Download
 [lesscss.org](http://lesscss.org/)
+
 Download
 [gruntjs.com](http://gruntjs.com/)
+
 Download
 [node.js](http://nodejs.org/)
 
