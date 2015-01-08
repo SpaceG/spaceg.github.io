@@ -51,7 +51,7 @@ or the Matrix of Backbone in index.html + Javascript Library. </h2>
 <pre style="color:black;background:white;"><pre><small>&lt;!DOCTYPE html&gt;</small>
  <b>&lt;</b><b>html</b><b>&gt;</b>
  <b>&lt;</b><b>head</b><b>&gt;</b>
-<b>&lt;</b><b>title</b><b>&gt;</b> Backbone Tutorial <b>&lt;/</b><b>title</b><b>&gt;</b>
+<b>&lt;</b><b>title</b><b>&gt;</b> Backbone.js <b>&lt;/</b><b>title</b><b>&gt;</b>
 <b>&lt;</b><b>script src="jquery-1.11.0.min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b>
 <b>&lt;</b><b>script src="underscore-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.6.0 --&gt;</i>
 <b>&lt;</b><b>script src="backbone-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.1.1 --&gt;</i>
