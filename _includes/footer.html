@@ -126,5 +126,13 @@ $(window).scroll(function(){
     })
   //]]>
 </script>
-<!-- jQuery Plugin -->
+<script src="{{ "/js/prettify.js " | prepend: site.baseurl }}"></script>
 
+<!-- jQuery Plugin -->
+<script>
+  !function ($) {
+    $(function(){
+      window.prettyPrint && prettyPrint()
+    })
+  }(window.jQuery)
+</script>

@@ -19,10 +19,16 @@ Download
 [backbone.js](https://github.com/jashkenas/backbone/)
 
 
+
 Download
 [backbone.js Introductions](http://backbonejs.org/)
 
 
+Download
+[Jquery Introductions](http://jquery.com/download/)
+
+Download
+[Underscore.js Introductions](http://underscorejs.org/)
 
 
 
@@ -37,6 +43,24 @@ Download
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
+<h2 class="section-heading">	Skeletal Structure
+or the Matrix of Backbone in index.html + Javascript Library. </h2>
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre><small>&lt;!DOCTYPE html&gt;</small>
+ <b>&lt;</b><b>html</b><b>&gt;</b>
+ <b>&lt;</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>title</b><b>&gt;</b> Backbone Tutorial <b>&lt;/</b><b>title</b><b>&gt;</b>
+<b>&lt;</b><b>script src="jquery-1.11.0.min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b>
+<b>&lt;</b><b>script src="underscore-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.6.0 --&gt;</i>
+<b>&lt;</b><b>script src="backbone-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.1.1 --&gt;</i>
+<b>&lt;/</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>body</b><b>&gt;</b>
+
+<b>&lt;/</b><b>body</b><b>&gt;</b>
+<b>&lt;/</b><b>html</b><b>&gt;</b>
+</pre></pre></div>
 
 <p>Update Post Soon!</p>
 

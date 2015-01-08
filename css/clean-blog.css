@@ -524,3 +524,18 @@ margin-bottom: 10px;
 list-style: none;
 }
 /* Preloader */
+
+
+pre {
+display: block;
+padding: 9.5px;
+margin: 0 0 10px;
+font-size: 13px;
+line-height: 1.42857143;
+color: none;
+word-break: break-all;
+word-wrap: break-word;
+background-color: none;
+border: 0px solid #ccc;
+border-radius: 4px;
+}

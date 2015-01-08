@@ -58,7 +58,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/clean-blog.css">
     <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+   <!--  <link rel="stylesheet" href="/css/syntax.css"> -->
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -73,6 +73,11 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.0/gist-embed.min.js"></script>
 <style>#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url(https://www.cathaybk.com.tw/cathaybk/vip/event/2014/201408Fund/img/status.gif); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}</style>
+
+
+    <link rel="stylesheet" href="/css/prettify.css">
+
+
 </head>
 
 
@@ -200,6 +205,12 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <p>Download
 <a href="http://backbonejs.org/">backbone.js Introductions</a></p>
 
+<p>Download
+<a href="http://jquery.com/download/">Jquery Introductions</a></p>
+
+<p>Download
+<a href="http://underscorejs.org/">Underscore.js Introductions</a></p>
+
 <p><a href="#">
     <img src="/img/backbone.png" alt="Post Sample Image" />
 </a></p>
@@ -208,6 +219,24 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <a href="#">
     <img src="/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
+
+<h2 class="section-heading">	Skeletal Structure
+or the Matrix of Backbone in index.html + Javascript Library. </h2>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre><small>&lt;!DOCTYPE html&gt;</small>
+ <b>&lt;</b><b>html</b><b>&gt;</b>
+ <b>&lt;</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>title</b><b>&gt;</b> Backbone Tutorial <b>&lt;/</b><b>title</b><b>&gt;</b>
+<b>&lt;</b><b>script src="jquery-1.11.0.min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b>
+<b>&lt;</b><b>script src="underscore-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.6.0 --&gt;</i>
+<b>&lt;</b><b>script src="backbone-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.1.1 --&gt;</i>
+<b>&lt;/</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>body</b><b>&gt;</b>
+
+<b>&lt;/</b><b>body</b><b>&gt;</b>
+<b>&lt;/</b><b>html</b><b>&gt;</b>
+</pre></pre></div>
 
 <p>Update Post Soon!</p>
 
@@ -374,8 +403,16 @@ $(window).scroll(function(){
     })
   //]]>
 </script>
-<!-- jQuery Plugin -->
+<script src="/js/prettify.js "></script>
 
+<!-- jQuery Plugin -->
+<script>
+  !function ($) {
+    $(function(){
+      window.prettyPrint && prettyPrint()
+    })
+  }(window.jQuery)
+</script>
 
 
 </body>
