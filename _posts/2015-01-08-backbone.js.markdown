@@ -2,7 +2,7 @@
 layout:     post
 title:      "backbone.js "
 subtitle:   "Give your JS App some Backbone with Models, Views, Collections, and Events"
-date:       2015-01-08 13:00:02
+date:       2015-01-08 13:00:40
 author:     "Lucas Gatsas"
 header-img: "img/maxresdefault.jpg"
 ---
