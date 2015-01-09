@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Jan 2015 04:05:34 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jan 2015 04:05:34 +0100</lastBuildDate>
+    <pubDate>Fri, 09 Jan 2015 03:29:47 +0100</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2015 03:29:47 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -46,7 +46,7 @@ or the Matrix of Backbone in index.html + Javascript Library. &lt;/h2&gt;
 &lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;&lt;small&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/small&gt;
  &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;html&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
  &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;head&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
-&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;title&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt; Backbone Tutorial &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;title&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;title&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt; Backbone.js &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;title&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
 &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;script src=&quot;jquery-1.11.0.min.js&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt; &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;script&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
 &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;script src=&quot;underscore-min.js&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt; &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;script&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&lt;i&gt;&amp;lt;!-- Version 1.6.0 --&amp;gt;&lt;/i&gt;
 &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;script src=&quot;backbone-min.js&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt; &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;script&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&lt;i&gt;&amp;lt;!-- Version 1.1.1 --&amp;gt;&lt;/i&gt;
@@ -75,7 +75,7 @@ or the Matrix of Backbone in index.html + Javascript Library. &lt;/h2&gt;
  --&gt;
 
 </description>
-        <pubDate>Thu, 08 Jan 2015 14:00:02 +0100</pubDate>
+        <pubDate>Thu, 08 Jan 2015 14:00:40 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/08/backbone.js/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/08/backbone.js/</guid>
         
