@@ -17,7 +17,7 @@ let's see the Available Grunt commands for Bootstrap. [Commands on Bootsrap](htt
 
 Then, from the command line:
 Install <code>grunt-cli</code> globally with <code>npm install -g grunt-cli.</code>
-Navigate to the root /bootstrap/ directory, then run npm install. npm will look at the package.json file and automatically install the necessary local dependencies listed there.   
+Navigate to the root <code> /bootstrap/ </code> directory, then run <code> npm install </code>. npm will look at the <code> package.json </code> file and automatically install the necessary local dependencies listed there.   
 
 
 
