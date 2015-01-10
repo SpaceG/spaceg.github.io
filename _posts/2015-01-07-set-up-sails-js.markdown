@@ -68,6 +68,10 @@ info: To shut down Sails, press <CTRL> + C at any time.
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png" alt="Post Sample Image">
+</a> 
+
 
 <p>Update Post Soon!</p>
 
@@ -81,14 +85,10 @@ info: To shut down Sails, press <CTRL> + C at any time.
 </blockquote>
 
 
-<!-- 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
 
 
 
- -->
+
 
 
 

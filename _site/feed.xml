@@ -5,9 +5,713 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Jan 2015 03:29:47 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Jan 2015 03:29:47 +0100</lastBuildDate>
+    <pubDate>Fri, 09 Jan 2015 20:43:26 +0100</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2015 20:43:26 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Material Design - UI</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;UI - Google Material Design &lt;/h2&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;https://#&quot;&gt;backbone.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt; The Design.&lt;/h2&gt;
+
+&lt;p&gt;Update Post Soon!&lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Sun, 11 Jan 2015 14:00:40 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/11/material-design/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/11/material-design/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bootstrap Currently v3.3.1 - Front-End Framework</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.&lt;/h2&gt;
+
+&lt;p&gt;Bootstrap makes front-end web development faster and easier. It&#39;s made for folks of all skill levels, devices of all shapes, and projects of all sizes. &lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap Currently v3.3.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;style&gt;
+header.intro-header {
+background: #6f5499;
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/bootstrap-wordpress-themes.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Javascript Library&lt;/h2&gt;
+
+&lt;p&gt;
+Varying modal content based on trigger button
+Have a bunch of buttons that all trigger the same modal, just with slightly different contents? Use event.relatedTarget and HTML data-* attributes (possibly via jQuery) to vary the contents of the modal depending on which button was clicked. See the Modal Events docs for details on relatedTarget, &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;$(&#39;#exampleModal&#39;).on(&#39;show.bs.modal&#39;, function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data(&#39;whatever&#39;) // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal&#39;s content. We&#39;ll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find(&#39;.modal-title&#39;).text(&#39;New message to &#39; + recipient)
+  modal.find(&#39;.modal-body input&#39;).val(recipient)
+})
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;btn btn-primary&quot;&lt;/b&gt; data-toggle&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal&quot;&lt;/b&gt; data-target&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;#exampleModal&quot;&lt;/b&gt; data-whatever&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;@lucasgatsas&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Open modal for @lucasgatsas&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;btn btn-primary&quot;&lt;/b&gt; data-toggle&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal&quot;&lt;/b&gt; data-target&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;#exampleModal&quot;&lt;/b&gt; data-whatever&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;@lucasgatsas&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Open modal for @lucasgatsas&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;btn btn-primary&quot;&lt;/b&gt; data-toggle&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal&quot;&lt;/b&gt; data-target&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;#exampleModal&quot;&lt;/b&gt; data-whatever&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;@twbootstrap&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Open modal for @twbootstrap&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+...more buttons...
+
+
+
+&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal fade&quot;&lt;/b&gt; id&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;exampleModal&quot;&lt;/b&gt; tabindex&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;-1&quot;&lt;/b&gt; role&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;dialog&quot;&lt;/b&gt; aria-labelledby&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;exampleModalLabel&quot;&lt;/b&gt; aria-hidden&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;true&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+  &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal-dialog&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+    &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal-content&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+      &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal-header&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+        &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;close&quot;&lt;/b&gt; data-dismiss&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal&quot;&lt;/b&gt; aria-label&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;Close&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;span&lt;/b&gt; aria-hidden&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;true&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&amp;amp;times;&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;span&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+        &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;h4&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal-title&quot;&lt;/b&gt; id&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;exampleModalLabel&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;New message&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;h4&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+      &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+      &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal-body&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+        &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;form&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+          &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;form-group&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+            &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;label&lt;/b&gt; for&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;recipient-name&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;control-label&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Recipient:&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;label&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+            &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;input&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;text&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;form-control&quot;&lt;/b&gt; id&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;recipient-name&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+          &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+          &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;form-group&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+            &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;label&lt;/b&gt; for&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;message-text&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;control-label&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Message:&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;label&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+            &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;textarea&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;form-control&quot;&lt;/b&gt; id&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;message-text&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;textarea&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+          &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+        &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;form&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+      &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+      &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;div&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal-footer&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+        &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;btn btn-default&quot;&lt;/b&gt; data-dismiss&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Close&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+        &lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; class&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;btn btn-primary&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Send message&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+      &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+    &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+  &lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;div&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Usage
+The modal plugin toggles your hidden content on demand, via data attributes or JavaScript. It also adds .modal-open to the &amp;lt;body&amp;gt; to override default scrolling behavior and generates a .modal-backdrop to provide a click area for dismissing shown modals when clicking outside the modal.&lt;/p&gt;
+
+&lt;p&gt;Via data attributes
+Activate a modal without writing JavaScript. Set data-toggle=”modal” on a controller element, like a button, along with a data-target=”#foo” or href=”#foo” to target a specific modal to toggle.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;&lt;b&gt;&amp;lt;&lt;/b&gt;&lt;b&gt;button&lt;/b&gt; type&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;button&quot;&lt;/b&gt; data-toggle&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;modal&quot;&lt;/b&gt; data-target&lt;i&gt;=&lt;/i&gt;&lt;b&gt;&quot;#myModal&quot;&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;Launch modal&lt;b&gt;&amp;lt;/&lt;/b&gt;&lt;b&gt;button&lt;/b&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Update Post Soon!&lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Sat, 10 Jan 2015 14:00:40 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/10/bootstrap-front-end-framework.v.3/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/10/bootstrap-front-end-framework.v.3/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>normalize.css or reset.css</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Css Resets &lt;/h2&gt;
+
+&lt;p&gt;Backbone.js
+###&lt;a href=&quot;https://github.com/jashkenas/backbone/&quot;&gt;Backbone.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the pioneers of the CSS Reset method, Eric Meyer, created a Reset stylesheet that is still in use on millions of websites today. Most people use it in its unedited form, despite Meyer’s recommendation against this:
+
+The reset styles given here are intentionally very generic … I don’t particularly recommend that you just use this in its unaltered state in your own projects. It should be tweaked, edited, extended, and otherwise tuned to match your specific reset baseline. … In other words, this is a starting point, not a self-contained black box of no-touchiness.
+As a starting-point for developers and designers to customise to their own needs, this script is dynamite – more information on customisations coming soon.
+&lt;br /&gt;
+V2.0 of the stylesheet is provided below in full and minified formats, for you to copy and paste:
+
+
+
+
+&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;/**
+ * Eric Meyer&#39;s Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: &#39;&#39;;
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/backbone.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Normalize.css - A modern, HTML5-ready alternative to CSS resets &lt;/h2&gt;
+&lt;p&gt;makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; npm install normalize.css  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; component install necolas/normalize.css
+  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; bower install normalize.css  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;http://necolas.github.io/normalize.css/&quot;&gt;Normalize.css&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox &amp;lt; 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type=&quot;button&quot;], /* 1 */
+input[type=&quot;reset&quot;],
+input[type=&quot;submit&quot;] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It&#39;s recommended that you don&#39;t attempt to style these elements.
+ * Firefox&#39;s implementation doesn&#39;t respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type=&quot;checkbox&quot;],
+input[type=&quot;radio&quot;] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome&#39;s increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type=&quot;number&quot;]::-webkit-inner-spin-button,
+input[type=&quot;number&quot;]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type=&quot;search&quot;] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type=&quot;search&quot;]::-webkit-search-cancel-button,
+input[type=&quot;search&quot;]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren&#39;t caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don&#39;t inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Update Post Soon!&lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Fri, 09 Jan 2015 14:00:40 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/09/normalize.css-or-reset.css/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/09/normalize.css-or-reset.css/</guid>
+        
+        
+      </item>
     
       <item>
         <title>backbone.js </title>
@@ -131,6 +835,10 @@ info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p
     &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
 &lt;/a&gt; --&gt;
 
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
 &lt;p&gt;Update Post Soon!&lt;/p&gt;
 
 &lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
@@ -138,15 +846,6 @@ info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p
 - Steve Jobs
 
 &lt;/blockquote&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
 
 </description>
         <pubDate>Tue, 06 Jan 2015 14:00:02 +0100</pubDate>
@@ -563,151 +1262,6 @@ Open SSL Source
         <pubDate>Thu, 01 Jan 2015 13:00:00 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/01/ssl-https/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/01/ssl-https/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The dreams of yesterday are the hopes of today and the reality of tomorrow.</title>
-        <description>&lt;p&gt;This is my First Post, Hello World! I will try out to describe my Code&#39;s here on my GitHub Blog, this isn&#39;t my Official Website!  I&#39;m current working on it! also Stay Tuned! This Blog is dedicated to my Git&#39;s!&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Development Processes!&lt;/h2&gt;
-
-&lt;p&gt;I will describe and Blog about my development Processes @ my Official Website!&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Start Up Projects in Progress.&lt;/h2&gt;
-
-&lt;p&gt;Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.&lt;/p&gt;
-
-&lt;p&gt; Here is my Install Video &lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;//www.youtube.com/embed/hRqgJlxoEnI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-</description>
-        <pubDate>Tue, 01 Jul 2014 14:00:00 +0200</pubDate>
-        <link>https://spaceg.github.io/2014/07/01/getready/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2014/07/01/getready/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jekyll set Up</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;The Set Up&lt;/h2&gt;
-
-&lt;p&gt;# Install
-&quot;[Jekyll! v2.3.0](https://jekyllrb.com/)&quot;
-Set Up Install Guide, 
-Jekyll Install -  _Jekyll Open Source_, with GITHUB. 
-&lt;/p&gt;
-
-&lt;p&gt;
-  You can also Host Jekyll on GITHUB. Only do you have to use is: &lt;br /&gt;
-  A Good Text Editor like &lt;br /&gt;
-  Sublime Text 3, &lt;br /&gt;
-  Termnial Command Lines from X-Code, &lt;br /&gt;
-  and of course a localhost:4000 &lt;br /&gt;
-  (which you can change it to another port like &lt;br /&gt;
-  localhost:8080 with : &lt;br /&gt;
-  localserver port: PORT  and Listen on the given port. --port PORT). &lt;br /&gt;
-  See more on the (see &lt;br /&gt;
-  http://jekyllrb.com/docs/configuration 
-  Serve Command Options.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-&lt;p&gt;#### Install Options &lt;/p&gt;
-&lt;p&gt;Linux, Unix, or Mac OS X Install &lt;br /&gt;Termnial :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-  - sudo gem install Jekyll! v2.3.0
-    password: *************************
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;See which Version: &lt;br /&gt; Version :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-  - jekyll -v
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Set Up your Project: &lt;br /&gt; Set Up :&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-  - cd Desktop/
-  - jekyll new your-project-site
-  - /users/Home/Desktop/your-project-site
-  - cd your-project-site/
-  - jekyll serve
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Port localhost: &lt;br /&gt; localhost:&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-  - http://0.0.0.0:4000/
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Find Your Files: &lt;br /&gt; Command:&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-  - jekyll serve --watch
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;others&quot;&gt;Others&lt;/h4&gt;
-
-&lt;p&gt;You’ll find a lot of other variables inside the file, e.g.:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the site &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt;, &lt;code&gt;icon&lt;/code&gt; and default &lt;code&gt;cover&lt;/code&gt; image.&lt;/li&gt;
-  &lt;li&gt;text of the &lt;code&gt;copyright&lt;/code&gt; message.&lt;/li&gt;
-  &lt;li&gt;the number of posts per page (&lt;code&gt;paginate&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;the &lt;code&gt;permalink&lt;/code&gt;’s structure (see &lt;a href=&quot;https://jekyllrb.com/docs/pagination/&quot;&gt;the docs&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;versions&quot;&gt;Versions&lt;/h2&gt;
-
-&lt;p&gt;Here is a  List:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;
-Jeykill 0.3.x
-&lt;br /&gt;
-&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;
-Sublime Text 3
-&lt;br /&gt;
-&lt;a href=&quot;https://github.com&quot;&gt;GITHUB&lt;/a&gt;
-GitHub
-&lt;br /&gt;
-&lt;a href=&quot;https://developer.apple.com/xcode/&quot;&gt;CommandLine Tools&lt;/a&gt;)
-CommandLine
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll! v2.3.0 is already &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;available for download on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Want to see something else added or report a bug? &lt;a href=&quot;https://github.com/spaceg/spaceg.github.io/issues/new&quot;&gt;Open an issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 26 Feb 2014 13:00:00 +0100</pubDate>
-        <link>https://spaceg.github.io/2014/02/26/jekyll-setup/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2014/02/26/jekyll-setup/</guid>
         
         
       </item>
