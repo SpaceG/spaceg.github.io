@@ -68,51 +68,6 @@ Have a bunch of buttons that all trigger the same modal, just with slightly diff
 
 
 
-<b>&lt;</b><b>div</b> class<i>=</i><b>"modal fade"</b> id<i>=</i><b>"exampleModal"</b> tabindex<i>=</i><b>"-1"</b> role<i>=</i><b>"dialog"</b> aria-labelledby<i>=</i><b>"exampleModalLabel"</b> aria-hidden<i>=</i><b>"true"</b><b>&gt;</b>
-  <b>&lt;</b><b>div</b> class<i>=</i><b>"modal-dialog"</b><b>&gt;</b>
-    <b>&lt;</b><b>div</b> class<i>=</i><b>"modal-content"</b><b>&gt;</b>
-      <b>&lt;</b><b>div</b> class<i>=</i><b>"modal-header"</b><b>&gt;</b>
-        <b>&lt;</b><b>button</b> type<i>=</i><b>"button"</b> class<i>=</i><b>"close"</b> data-dismiss<i>=</i><b>"modal"</b> aria-label<i>=</i><b>"Close"</b><b>&gt;</b><b>&lt;</b><b>span</b> aria-hidden<i>=</i><b>"true"</b><b>&gt;</b>&amp;times;<b>&lt;/</b><b>span</b><b>&gt;</b><b>&lt;/</b><b>button</b><b>&gt;</b>
-        <b>&lt;</b><b>h4</b> class<i>=</i><b>"modal-title"</b> id<i>=</i><b>"exampleModalLabel"</b><b>&gt;</b>New message<b>&lt;/</b><b>h4</b><b>&gt;</b>
-      <b>&lt;/</b><b>div</b><b>&gt;</b>
-      <b>&lt;</b><b>div</b> class<i>=</i><b>"modal-body"</b><b>&gt;</b>
-        <b>&lt;</b><b>form</b><b>&gt;</b>
-          <b>&lt;</b><b>div</b> class<i>=</i><b>"form-group"</b><b>&gt;</b>
-            <b>&lt;</b><b>label</b> for<i>=</i><b>"recipient-name"</b> class<i>=</i><b>"control-label"</b><b>&gt;</b>Recipient:<b>&lt;/</b><b>label</b><b>&gt;</b>
-            <b>&lt;</b><b>input</b> type<i>=</i><b>"text"</b> class<i>=</i><b>"form-control"</b> id<i>=</i><b>"recipient-name"</b><b>&gt;</b>
-          <b>&lt;/</b><b>div</b><b>&gt;</b>
-          <b>&lt;</b><b>div</b> class<i>=</i><b>"form-group"</b><b>&gt;</b>
-            <b>&lt;</b><b>label</b> for<i>=</i><b>"message-text"</b> class<i>=</i><b>"control-label"</b><b>&gt;</b>Message:<b>&lt;/</b><b>label</b><b>&gt;</b>
-            <b>&lt;</b><b>textarea</b> class<i>=</i><b>"form-control"</b> id<i>=</i><b>"message-text"</b><b>&gt;</b><b>&lt;/</b><b>textarea</b><b>&gt;</b>
-          <b>&lt;/</b><b>div</b><b>&gt;</b>
-        <b>&lt;/</b><b>form</b><b>&gt;</b>
-      <b>&lt;/</b><b>div</b><b>&gt;</b>
-      <b>&lt;</b><b>div</b> class<i>=</i><b>"modal-footer"</b><b>&gt;</b>
-        <b>&lt;</b><b>button</b> type<i>=</i><b>"button"</b> class<i>=</i><b>"btn btn-default"</b> data-dismiss<i>=</i><b>"modal"</b><b>&gt;</b>Close<b>&lt;/</b><b>button</b><b>&gt;</b>
-        <b>&lt;</b><b>button</b> type<i>=</i><b>"button"</b> class<i>=</i><b>"btn btn-primary"</b><b>&gt;</b>Send message<b>&lt;/</b><b>button</b><b>&gt;</b>
-      <b>&lt;/</b><b>div</b><b>&gt;</b>
-    <b>&lt;/</b><b>div</b><b>&gt;</b>
-  <b>&lt;/</b><b>div</b><b>&gt;</b>
-<b>&lt;/</b><b>div</b><b>&gt;</b>
-</pre></pre></div>
-
-Usage
-The modal plugin toggles your hidden content on demand, via data attributes or JavaScript. It also adds .modal-open to the <body> to override default scrolling behavior and generates a .modal-backdrop to provide a click area for dismissing shown modals when clicking outside the modal.
-
-
-Via data attributes
-Activate a modal without writing JavaScript. Set data-toggle="modal" on a controller element, like a button, along with a data-target="#foo" or href="#foo" to target a specific modal to toggle.
-
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre><b>&lt;</b><b>button</b> type<i>=</i><b>"button"</b> data-toggle<i>=</i><b>"modal"</b> data-target<i>=</i><b>"#myModal"</b><b>&gt;</b>Launch modal<b>&lt;/</b><b>button</b><b>&gt;</b>
-</pre></pre></div>
-
-
-
-<p>Update Post Soon!</p>
-
-
 
 
 <blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
