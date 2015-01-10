@@ -11,11 +11,11 @@ header-img: "img/"
 
 <p>Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes. </p>
 
-<p> What is Bootstrap? Bootsrap is a Fast Farmaework for Front-End Developers. To build fast, sleek, clean Front-End Design. Watch the Opensource base [Bootstrap Currently v3.3.1](http://getbootstrap.com/getting-started/) for Sass or dist files check out here [Sass Bootstrap Currently v3.3.1](https://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz/) . For Introduction and how to work with Bootstrap. See the Docs. [Docs Bootstrap v3.3.1] (http://getbootstrap.com/getting-started/#whats-included/) . Get Started with Bootstarp. See the Basic Set Up [Template Bootstrap v3.3.1](http://getbootstrap.com/getting-started/#template). Compiling CSS and JavaScript with [Grunt](http://gruntjs.com/Grunt/) let's see the Available Grunt commands for Bootstrap. [Commands on Bootsrap] (http://getbootstrap.com/getting-started/#grunt/).
+What is Bootstrap? Bootsrap is a Fast Farmaework for Front-End Developers. To build fast, sleek, clean Front-End Design. Watch the Opensource base [Bootstrap Currently v3.3.1](http://getbootstrap.com/getting-started/) for Sass or dist files check out here [Sass Bootstrap Currently v3.3.1](https://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz/) . For Introduction and how to work with Bootstrap. See the Docs. [Docs Bootstrap v3.3.1] (http://getbootstrap.com/getting-started/#whats-included/) . Get Started with Bootstarp. See the Basic Set Up [Template Bootstrap v3.3.1](http://getbootstrap.com/getting-started/#template). Compiling CSS and JavaScript with [Grunt](http://gruntjs.com/Grunt/) let's see the Available Grunt commands for Bootstrap. [Commands on Bootsrap] (http://getbootstrap.com/getting-started/#grunt/).
 
 Then, from the command line:
 Install <code>grunt-cli</code> globally with <code>npm install -g grunt-cli.</code>
-Navigate to the root /bootstrap/ directory, then run npm install. npm will look at the package.json file and automatically install the necessary local dependencies listed there.   </p>
+Navigate to the root /bootstrap/ directory, then run npm install. npm will look at the package.json file and automatically install the necessary local dependencies listed there.   
 
 
 
