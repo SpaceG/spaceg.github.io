@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Material Design - UI"
-subtitle:   "Google Material Design"
+title:      "Work Online"
+subtitle:   "Online Work - Networking"
 date:       2015-01-11 13:00:44
 author:     "Lucas Gatsas"
 header-img: "img/google-design-google-plus-cover-material.jpg"
 ---
-<h2 class="section-heading">UI - Google Material Design </h2>
+<h2 class="section-heading">Online Work - Networking </h2>
 
 
 
@@ -14,12 +14,12 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 Download
 [backbone.js](https://#)
 
-
+<!--
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/static.squarespace.jpg" alt="Post Sample Image">
 </a>
-
+-->
 
 
 <!--
@@ -27,7 +27,7 @@ Download
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
-<h2 class="section-heading"> The Design.</h2>
+<h2 class="section-heading">Networking </h2>
 
 
 <p>Update Post Soon!</p>
