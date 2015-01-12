@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "An Introduction To Object Oriented CSS (OOCSS)"
-subtitle:   "OOCss - Object Orient"
+title:      "why do dou will not a programmer in a month!"
+subtitle:   "Learning - "
 date:       2015-01-13 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/google-design-google-plus-cover-material.jpg"
