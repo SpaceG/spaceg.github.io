@@ -11,11 +11,6 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 
 
 
-Download
-[backbone.js](https://#)
-
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/static.squarespace.jpg" alt="Post Sample Image">
 </a>
