@@ -5,13 +5,17 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Jan 2015 08:10:29 +0100</pubDate>
-    <lastBuildDate>Tue, 13 Jan 2015 08:10:29 +0100</lastBuildDate>
+    <pubDate>Tue, 13 Jan 2015 13:30:46 +0100</pubDate>
+    <lastBuildDate>Tue, 13 Jan 2015 13:30:46 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>Why do dou will not a Programmer in a Month!</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Introduction OOCSS&lt;/h2&gt;
+        <title>less/css - Introduction</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;A Less.js Introduction&lt;/h2&gt;
+
+&lt;p&gt;Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.&lt;/p&gt;
+
+&lt;p&gt;Less runs inside Node, in the browser and inside Rhino. There are also many 3rd party tools that allow you to compile your files and watch for changes.&lt;/p&gt;
 
 &lt;!--
 
@@ -25,7 +29,52 @@
     &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
 &lt;/a&gt; --&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;OOCSS &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;lesscss.org&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/less-wordpress1.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Fri, 16 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/16/introduction-less-css/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/16/introduction-less-css/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why do dou will not a Programmer in a Month!</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;I don&#39;t want be a Programmer..I want build Start Ups!&lt;/h2&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Learning Stuff! &lt;/h2&gt;
 
 &lt;p&gt;Update Post Soon!&lt;/p&gt;
 
@@ -45,9 +94,9 @@
  --&gt;
 
 </description>
-        <pubDate>Wed, 14 Jan 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/14/why-do-you-will-be-not-a-programmer-in-a-year-full-of-learning/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/14/why-do-you-will-be-not-a-programmer-in-a-year-full-of-learning/</guid>
+        <pubDate>Thu, 15 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/15/why-do-you-will-be-not-a-programmer-in-a-year-full-of-learning/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/15/why-do-you-will-be-not-a-programmer-in-a-year-full-of-learning/</guid>
         
         
       </item>
@@ -55,6 +104,11 @@
       <item>
         <title>WCAG 2.0 on Color Contrast - Ratio</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;WCAG 2.0 on Color Contrast - Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background.&lt;/h2&gt;
+
+&lt;p&gt;A Good Friend of me gave me a good Tip yesterday about the Failure in White Font Colors on Ratio Contrast. There are some Colors which give you a failure output, but the strange thing is, the most web dev don’t know it about. You can read here some Introductions and Details about the right Color Contrast Ration Effect. Go See &lt;a href=&quot;http://lea.verou.me/&quot;&gt;Lea Verou&lt;/a&gt; Awesome Doc about Ratio: 
+&lt;a href=&quot;http://leaverou.github.io/contrast-ratio/&quot;&gt;WCAG 2.0 on Color Contrast - Ratio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a nice Docs too on W3 &lt;a href=&quot;http://www.w3.org/TR/WCAG/#visual-audio-contrast&quot;&gt;W3.org Docs - WCAG 2.0 on Color Contrast - Ratio&lt;/a&gt; &lt;/p&gt;
 
 &lt;!--
 
@@ -69,8 +123,6 @@
 &lt;/a&gt; --&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;WCAG 2.0 on Color Contrast&lt;/h2&gt;
-
-&lt;p&gt;Update Post Soon!&lt;/p&gt;
 
 &lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
 
@@ -1059,44 +1111,6 @@ info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p
         <pubDate>Tue, 06 Jan 2015 14:00:02 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/06/set-up-sails-js/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/06/set-up-sails-js/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Get Introduction - Get Started</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;App Tree. &lt;/h2&gt;
-
-&lt;p&gt;I created our App Tree Today, a Mind Map for our Web App. I have created it with MindMeister.&lt;/p&gt;
-
-&lt;p&gt;Mindmeister:
-###&lt;a href=&quot;http://www.mindmeister.com/&quot;&gt;Mindmeister&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I had searched for a Mind Map and found MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.&lt;/p&gt;
-
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
-
-&lt;/blockquote&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-</description>
-        <pubDate>Tue, 06 Jan 2015 14:00:02 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/06/get-introduction-get-started/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/06/get-introduction-get-started/</guid>
         
         
       </item>
