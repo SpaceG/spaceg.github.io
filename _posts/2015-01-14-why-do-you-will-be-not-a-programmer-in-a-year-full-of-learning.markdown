@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "why do dou will not a programmer in a month!"
-subtitle:   "Learning - "
+title:      "Why do dou will not a Programmer in a Month!"
+subtitle:   "Learning - Code Everyday - Every Freetime"
 date:       2015-01-13 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/google-design-google-plus-cover-material.jpg"
