@@ -2,7 +2,7 @@
 layout:     post
 title:      "Work Online"
 subtitle:   "Online Work - Networking"
-date:       2015-01-11 13:00:44
+date:       2015-01-12 13:00:44
 author:     "Lucas Gatsas"
 header-img: "img/google-design-google-plus-cover-material.jpg"
 ---
