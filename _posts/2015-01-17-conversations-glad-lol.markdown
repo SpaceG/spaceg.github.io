@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Conversations - Funny :)"
+title:      "Conversations - Funny + Validator w3.org :)"
 subtitle:   "There are some nice funny talks sometimes."
 date:       2015-01-17 14:00:44
 author:     "Lucas Gatsas"
@@ -10,7 +10,7 @@ header-img: "img/design.png"
 
 Sometimes i love my Conversations during the Web Processes, because it's not everytime hard work, you need sometimes to make a short break and talks about somethings.,etc. There are some very funny Conversations. Maybe i will gonna upload some very funny Screenshoots of my Conversations during the Skype and Web Dev. 
 
-Because i use very lot the valiador fromt w3.org to see the failures and errors in the front end. And i have checked the Page and Site of Lea Verou and Mary. >> 
+Because i use very lot the Validator from w3.org to see the failures and errors in the front end. And i have checked the Page and Site of Lea Verou and Mary. >> 
 
 
 [Validator w3.org Check HTML5](http://validator.w3.org/check?uri=http%3A%2F%2Fleaverou.github.io%2Fcontrast-ratio&charset=%28detect+automatically%29&doctype=Inline&group=0)
@@ -23,7 +23,8 @@ If you want check your site self. Check our site here
 
 [Validator w3.org](http://validator.w3.org)
 
-
+Now i have check my Blog (This Blog spaceg.github.io) about HTML5 Validator  for my some errors in the mark up and Boom [Validator w3.org](http://validator.w3.org/check?uri=https%3A%2F%2Fspaceg.github.io%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices)
+This document was successfully checked as HTML5!
 
 <!--
 
