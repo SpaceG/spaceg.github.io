@@ -2,7 +2,7 @@
 layout:     post
 title:      "Why do dou will not a Programmer in a Month!"
 subtitle:   "Learning - Code Everyday - Every Freetime"
-date:       2015-01-14 14:00:44
+date:       2015-01-15 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/1280px-Web_development_timelineKopie.png"
 ---
