@@ -6,7 +6,7 @@ date:       2015-01-14 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/1280px-Web_development_timelineKopie.png"
 ---
-<h2 class="section-heading">Introduction OOCSS</h2>
+<h2 class="section-heading">I don't want be a Programmer..I want build Start Ups!</h2>
 
 
 
@@ -25,7 +25,7 @@ header-img: "img/1280px-Web_development_timelineKopie.png"
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
-<h2 class="section-heading">OOCSS </h2>
+<h2 class="section-heading">Learning Stuff! </h2>
 
 
 <p>Update Post Soon!</p>
