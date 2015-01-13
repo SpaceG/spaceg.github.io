@@ -30,7 +30,7 @@ A Good Friend of me gave me a good Tip yesterday about the Failure in White Font
 <h2 class="section-heading">WCAG 2.0 on Color Contrast</h2>
 
 
-<p>Update Post Soon!</p>
+
 
 
 
