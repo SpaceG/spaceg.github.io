@@ -1,18 +1,16 @@
 ---
 layout:     post
-title:      "Work Online"
-subtitle:   "Online Work - Networking"
-date:       2015-01-12 13:00:44
+title:      "WCAG 2.0 on Color Contrast - Ratio"
+subtitle:   "hsla(200,0%,0%,.7) - Ratio"
+date:       2015-01-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/google-design-google-plus-cover-material.jpg"
+header-img: "img/contrast_radio_001.png"
 ---
-<h2 class="section-heading">Online Work - Networking </h2>
+<h2 class="section-heading">WCAG 2.0 on Color Contrast - Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background.</h2>
 
 
 
 
-Download
-[backbone.js](https://#)
 
 <!--
 
@@ -27,7 +25,7 @@ Download
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
-<h2 class="section-heading">Networking </h2>
+<h2 class="section-heading">WCAG 2.0 on Color Contrast</h2>
 
 
 <p>Update Post Soon!</p>

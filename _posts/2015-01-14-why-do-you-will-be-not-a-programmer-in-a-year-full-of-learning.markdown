@@ -4,7 +4,7 @@ title:      "Why do dou will not a Programmer in a Month!"
 subtitle:   "Learning - Code Everyday - Every Freetime"
 date:       2015-01-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/google-design-google-plus-cover-material.jpg"
+header-img: "img/1280px-Web_development_timelineKopie.png"
 ---
 <h2 class="section-heading">Introduction OOCSS</h2>
 
@@ -31,11 +31,9 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 <p>Update Post Soon!</p>
 
 
+http://en.wikipedia.org/wiki/Web_development
 
-
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
+<blockquote>"That's thirty minutes away. I'll be there in ten" - Journey in Space.
 
 </blockquote>
 

@@ -4,7 +4,7 @@ title:      "An Introduction To Object Oriented CSS (OOCSS)"
 subtitle:   "OOCss - Object Orient"
 date:       2015-01-13 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/google-design-google-plus-cover-material.jpg"
+header-img: "img/3296789176_b916c963a2_oKopie.png"
 ---
 <h2 class="section-heading">Introduction OOCSS</h2>
 
@@ -33,21 +33,19 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 
 
 
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
+<blockquote> "Find a Job you Love and you'll never work a day in your life". - 
 
 </blockquote>
 
 
-<!-- 
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/the-cascade-grids-headings-and-selectors-from-an-oocss-perspective-ajax-experience-2009-1-728.jpg" alt="Post Sample Image">
 </a> 
 
 
 
- -->
+
 
 
 
