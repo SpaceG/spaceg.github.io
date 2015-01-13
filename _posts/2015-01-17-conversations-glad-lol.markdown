@@ -10,6 +10,21 @@ header-img: "img/design.png"
 
 Sometimes i love my Conversations during the Web Processes, because it's not everytime hard work, you need sometimes to make a short break and talks about somethings.,etc. There are some very funny Conversations. Maybe i will gonna upload some very funny Screenshoots of my Conversations during the Skype and Web Dev. 
 
+Because i use very lot the valiador fromt w3.org to see the failures and errors in the front end. And i have checked the Page and Site of Lea Verou and Mary. >> 
+
+
+[Validator w3.org Check HTML5](http://validator.w3.org/check?uri=http%3A%2F%2Fleaverou.github.io%2Fcontrast-ratio&charset=%28detect+automatically%29&doctype=Inline&group=0)
+
+[Validator w3.org Check CSS](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fleaverou.github.io%2Fcontrast-ratio%2F%23white-on-%2523101015&profile=css3&usermedium=all&warning=1&vextwarning=&lang=de)
+
+Because, we have to lol beacue, we have checked a really Big Internet Start Up Company which shows over 500 Errors back! Unbelievable how many Big Sites are have to much many Errors. 
+
+If you want check your site self. Check our site here 
+
+[Validator w3.org](http://validator.w3.org)
+
+
+
 <!--
 
 <a href="#">
