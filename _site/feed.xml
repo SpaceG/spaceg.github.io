@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Jan 2015 03:58:30 +0100</pubDate>
-    <lastBuildDate>Tue, 13 Jan 2015 03:58:30 +0100</lastBuildDate>
+    <pubDate>Tue, 13 Jan 2015 08:10:29 +0100</pubDate>
+    <lastBuildDate>Tue, 13 Jan 2015 08:10:29 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -97,7 +97,16 @@
     
       <item>
         <title>An Introduction To Object Oriented CSS (OOCSS)</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Introduction OOCSS&lt;/h2&gt;
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Introduction to OOCSS&lt;/h2&gt;
+
+&lt;p&gt;Go See: 
+&lt;a href=&quot;https://github.com/stubbornella/oocss/wiki/&quot;&gt;OOCss on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go See: 
+&lt;a href=&quot;http://oocss.org/grids_docs.html&quot;&gt;OOCss Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go See: 
+&lt;a href=&quot;http://www.stubbornella.org/content/2014/05/09/sexist-by-design/&quot;&gt;SEXIST BY DESIGN?&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--
 
@@ -113,7 +122,64 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;OOCSS &lt;/h2&gt;
 
-&lt;p&gt;Update Post Soon!&lt;/p&gt;
+&lt;p&gt;Have you ever heard the phrase “Content is King”? Being a Web developer, and therefore having a job that’s often linked to content creation, it’s likely you have. It’s a fairly overused but true statement about what draws visitors to a site.&lt;/p&gt;
+
+&lt;p&gt;The Other Question is how do you can Go 
+&lt;a href=&quot;http://www.stevesouders.com/blog/&quot;&gt;speed is king&lt;/a&gt;
+ up your site during less code in your app. Best Practices for Speeding Up Your Web Site by Yahoo : 
+&lt;a href=&quot;https://developer.yahoo.com/performance/rules.html&quot;&gt;speed up&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go See: 
+&lt;a href=&quot;http://www.stevesouders.com/blog/2009/10/06/business-impact-of-high-performance/&quot;&gt;speed is king&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;The Media Object&lt;/h2&gt;
+
+&lt;p&gt;One of the pioneers of the OOCSS movement is&lt;a href=&quot;http://www.stubbornella.org/content/2014/05/09/sexist-by-design/&quot;&gt;Nicole Sullivan&lt;/a&gt;. She’s created a reusable module called the &lt;a href=&quot;https://github.com/stubbornella/oocss/wiki/Content&quot;&gt;media object&lt;/a&gt;  which, as she explains, can &lt;a href=&quot;http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/&quot;&gt;save hundreds of lines of code.&lt;/a&gt; &lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Example of a OOcss &lt;/h2&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:#000000;background:#ffffff;&quot;&gt;&lt;pre&gt;.header-inside {
+	width: &lt;span style=&quot;color:#008c00; &quot;&gt;980&lt;/span&gt;px;
+	height: &lt;span style=&quot;color:#008c00; &quot;&gt;260&lt;/span&gt;px;
+	padding: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
+	margin: &lt;span style=&quot;color:#008c00; &quot;&gt;0&lt;/span&gt; auto;
+	position: relative;
+	overflow: hidden;
+}
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:#000000;background:#ffffff;&quot;&gt;&lt;pre&gt;.globalwidth {
+	width: &lt;span style=&quot;color:#008c00; &quot;&gt;980&lt;/span&gt;px;
+	margin: &lt;span style=&quot;color:#008c00; &quot;&gt;0&lt;/span&gt; auto;
+	position: relative;
+	padding-left: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
+	padding-right: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
+	overflow: hidden;
+}
+
+.header-inside {
+	padding-top: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
+	padding-bottom: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
+	height: &lt;span style=&quot;color:#008c00; &quot;&gt;260&lt;/span&gt;px;
+}
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:#000000;background:#ffffff;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;header&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#274796; &quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#074726; &quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#808030; &quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#0000e6; &quot;&gt;&quot;header-inside globalwidth&quot;&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;header&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#274796; &quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#074726; &quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#808030; &quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#0000e6; &quot;&gt;&quot;main globalwidth&quot;&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;footer&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#274796; &quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#074726; &quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#808030; &quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#0000e6; &quot;&gt;&quot;footer-inside globalwidth&quot;&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;footer&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;blockquote&gt; &quot;Find a Job you Love and you&#39;ll never work a day in your life&quot;. - 
 
@@ -139,6 +205,8 @@
 
 &lt;p&gt;And one of my most Secret to Work Online in my Network which one i have build during the last two years are: &quot;Successful People build each other up. They motivate, inspire, and push each other. Unsuccessful People just hate, blame, and complain everything.&quot; In the last two years i have meet some Developers, but most them were very crazy demotivate to work on a Project. &lt;/p&gt;
 
+&lt;p&gt;More to read soon!&lt;/p&gt;
+
 &lt;h2 class=&quot;section-heading&quot;&gt;Networking &lt;/h2&gt;
 
 &lt;blockquote&gt;Don&#39;t be afraid to let the World see what you&#39;re good at! - unknown
@@ -148,7 +216,7 @@
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/brain-startup.png&quot; alt=&quot;Post Sample Image&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;“if you have a brain you are a Start Up.” and below on the Wall :) &quot;Wir sind am Start und Die Welt ist Gross!&quot; in german. 
+&lt;blockquote&gt;“if you have a brain you are a Start Up.” and below on the Wall :) &quot;Wir sind am Start und Die Welt ist Gross!&quot; in Germany. 
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
@@ -169,9 +237,9 @@
 &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/3.0/de/&quot;&gt;Lizenz der Bilder: Creative Commons Namensnennung-Nicht-kommerziell 3.0 Deutschland (CC BY-NC 3.0 Germany&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 13 Jan 2015 14:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/13/work-online/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/13/work-online/</guid>
+        <pubDate>Mon, 12 Jan 2015 14:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/12/work-online/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/12/work-online/</guid>
         
         
       </item>

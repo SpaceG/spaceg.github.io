@@ -193,7 +193,16 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">Introduction OOCSS</h2>
+				<h2 class="section-heading">Introduction to OOCSS</h2>
+
+<p>Go See: 
+<a href="https://github.com/stubbornella/oocss/wiki/">OOCss on GitHub</a></p>
+
+<p>Go See: 
+<a href="http://oocss.org/grids_docs.html">OOCss Docs</a></p>
+
+<p>Go See: 
+<a href="http://www.stubbornella.org/content/2014/05/09/sexist-by-design/">SEXIST BY DESIGN?</a></p>
 
 <!--
 
@@ -209,7 +218,64 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 <h2 class="section-heading">OOCSS </h2>
 
-<p>Update Post Soon!</p>
+<p>Have you ever heard the phrase “Content is King”? Being a Web developer, and therefore having a job that’s often linked to content creation, it’s likely you have. It’s a fairly overused but true statement about what draws visitors to a site.</p>
+
+<p>The Other Question is how do you can Go 
+<a href="http://www.stevesouders.com/blog/">speed is king</a>
+ up your site during less code in your app. Best Practices for Speeding Up Your Web Site by Yahoo : 
+<a href="https://developer.yahoo.com/performance/rules.html">speed up</a></p>
+
+<p>Go See: 
+<a href="http://www.stevesouders.com/blog/2009/10/06/business-impact-of-high-performance/">speed is king</a></p>
+
+<h2 class="section-heading">The Media Object</h2>
+
+<p>One of the pioneers of the OOCSS movement is<a href="http://www.stubbornella.org/content/2014/05/09/sexist-by-design/">Nicole Sullivan</a>. She’s created a reusable module called the <a href="https://github.com/stubbornella/oocss/wiki/Content">media object</a>  which, as she explains, can <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">save hundreds of lines of code.</a> </p>
+
+<h2 class="section-heading">Example of a OOcss </h2>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre>.header-inside {
+	width: <span style="color:#008c00; ">980</span>px;
+	height: <span style="color:#008c00; ">260</span>px;
+	padding: <span style="color:#008c00; ">20</span>px;
+	margin: <span style="color:#008c00; ">0</span> auto;
+	position: relative;
+	overflow: hidden;
+}
+</pre></pre></div>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre>.globalwidth {
+	width: <span style="color:#008c00; ">980</span>px;
+	margin: <span style="color:#008c00; ">0</span> auto;
+	position: relative;
+	padding-left: <span style="color:#008c00; ">20</span>px;
+	padding-right: <span style="color:#008c00; ">20</span>px;
+	overflow: hidden;
+}
+
+.header-inside {
+	padding-top: <span style="color:#008c00; ">20</span>px;
+	padding-bottom: <span style="color:#008c00; ">20</span>px;
+	height: <span style="color:#008c00; ">260</span>px;
+}
+</pre></pre></div>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre><span style="color:#a65700; ">&lt;</span><span style="color:#5f5035; ">header</span><span style="color:#a65700; ">&gt;</span>
+	<span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"header-inside globalwidth"</span><span style="color:#a65700; ">&gt;</span>
+	<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+<span style="color:#a65700; ">&lt;/</span><span style="color:#5f5035; ">header</span><span style="color:#a65700; ">&gt;</span>
+
+<span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"main globalwidth"</span><span style="color:#a65700; ">&gt;</span>
+<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+
+<span style="color:#a65700; ">&lt;</span><span style="color:#5f5035; ">footer</span><span style="color:#a65700; ">&gt;</span>
+	<span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"footer-inside globalwidth"</span><span style="color:#a65700; ">&gt;</span>
+	<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+<span style="color:#a65700; ">&lt;/</span><span style="color:#5f5035; ">footer</span><span style="color:#a65700; ">&gt;</span>
+</pre></pre></div>
 
 <blockquote> "Find a Job you Love and you'll never work a day in your life". - 
 
@@ -226,7 +292,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/01/13/work-online/" data-toggle="tooltip" data-placement="top" title="Work Online">&larr; Previous Post</a>
+                        <a href="/2015/01/12/work-online/" data-toggle="tooltip" data-placement="top" title="Work Online">&larr; Previous Post</a>
                     </li>
                     
                     
