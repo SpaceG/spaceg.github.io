@@ -4,9 +4,9 @@ title:      "less/css - Introduction"
 subtitle:   "less.js lesscss.org"
 date:       2015-01-16 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/contrast_radio_001.png"
+header-img: "img/less_css_programming-wallpaper-1680x1260.jpg"
 ---
-<h2 class="section-heading">WCAG 2.0 on Color Contrast - Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background.</h2>
+<h2 class="section-heading">A Less.js Introduction</h2>
 
 Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.
 
