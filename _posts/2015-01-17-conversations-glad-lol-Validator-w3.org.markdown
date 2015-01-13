@@ -23,7 +23,7 @@ If you want check your site self. Check our site here
 
 [Validator w3.org](http://validator.w3.org)
 
-Now i have check my Blog (This Blog spaceg.github.io) about HTML5 Validator  for my some errors in the mark up and Boom [Validator w3.org](http://validator.w3.org/check?uri=https%3A%2F%2Fspaceg.github.io%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices)
+Now i have check my Blog (This Blog spaceg.github.io) about HTML5 Validator  for my some errors in the mark up and Boom [spaceg.github.io Validator w3.org](http://validator.w3.org/check?uri=https%3A%2F%2Fspaceg.github.io%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices)
 
 
 This document was successfully checked as HTML5!
