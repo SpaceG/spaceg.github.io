@@ -17,7 +17,7 @@ Because i use now the Validator from w3.org to see the failures and errors in th
 
 [Validator w3.org Check CSS](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fleaverou.github.io%2Fcontrast-ratio%2F%23white-on-%2523101015&profile=css3&usermedium=all&warning=1&vextwarning=&lang=de)
 
-Because, we have to lol because, we have checked a really Big Internet Start Up Company which shows over 500 Errors back! Unbelievable how many Big Sites are have to much Errors. 
+We have to lol, well, we have checked a really Big Internet Start Up Company which shows over 500 Errors back! Unbelievable how many Big Sites are have to much Errors. 
 
 If you want check your site self. Check your site here 
 
