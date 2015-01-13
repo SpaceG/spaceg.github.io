@@ -9,7 +9,7 @@ header-img: "img/contrast_radio_001.png"
 <h2 class="section-heading">WCAG 2.0 on Color Contrast - Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background.</h2>
 
 
-A Good Friend of me gave me a good Tip yesterday about the Failure in White Font Colors on Ratio Contrast. There are some Colors which give you a failure output, but the strange thing is, the most web dev don't know it about. You can read here some Introductions and Details about the right Color Contrast Ration Effect. Go See Lea Verou Awesome Doc about Ratio: 
+A Good Friend of me gave me a good Tip yesterday about the Failure in White Font Colors on Ratio Contrast. There are some Colors which give you a failure output, but the strange thing is, the most web dev don't know it about. You can read here some Introductions and Details about the right Color Contrast Ration Effect. Go See [Lea Verou](http://lea.verou.me/) Awesome Doc about Ratio: 
 [WCAG 2.0 on Color Contrast - Ratio](http://leaverou.github.io/contrast-ratio/)
 
 
