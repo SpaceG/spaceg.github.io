@@ -24,11 +24,6 @@ Navigate to the root <code> /bootstrap/ </code> directory, then run <code> npm i
 Download
 [Bootstrap Currently v3.3.1](http://getbootstrap.com/)
 
-<style>
-header.intro-header {
-background: #6f5499;
-}
-</style>
 
 
 <a href="#">

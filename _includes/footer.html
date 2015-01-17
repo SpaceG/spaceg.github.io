@@ -36,6 +36,8 @@
                     <li>
                         <a href="https://github.com/{{ site.github_username }}">
                             <span class="fa-stack fa-lg">
+
+                              <i class="fa fa-arrow-circle-o-down"></i>
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                             </span>
@@ -51,11 +53,48 @@
         </div>
     </div>
 </footer>
+<!-- jQuery -->
+<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ "/js/jquery.infinitescroll.min.js" | prepend: site.baseurl }}"></script>
+<script>
+  $(function(){
+ 
+    var $container = $('#container');
+ 
+    $container.imagesLoaded(function(){
+      $container.masonry({
+        itemSelector: '.box',
+        columnWidth: 100
+      });
+    });
+ 
+    $container.infinitescroll({
+      navSelector  : '#page-nav',    // selector for the paged navigation
+      nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
+      itemSelector : '.box',     // selector for all items you'll retrieve
+      loading: {
+          finishedMsg: 'No more pages to load.',
+          img: 'http://i.imgur.com/6RMhx.gif'
+        }
+      },
+      // trigger Masonry as a callback
+      function( newElements ) {
+        // hide new items while they are loading
+        var $newElems = $( newElements ).css({ opacity: 0 });
+        // ensure that images load before adding to masonry layout
+        $newElems.imagesLoaded(function(){
+          // show elems now they're ready
+          $newElems.animate({ opacity: 1 });
+          $container.masonry( 'appended', $newElems, true );
+        });
+      }
+    );
+  });
+</script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-        <!-- Custom Theme JavaScript -->
     <script type="text/javascript">
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
@@ -115,8 +154,7 @@ $(window).scroll(function(){
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
 
-
-    <!-- Preloader -->
+<!--
 <script type="text/javascript">
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
@@ -125,10 +163,11 @@ $(window).scroll(function(){
       $('body').delay(50).css({'overflow':'visible'});
     })
   //]]>
-</script>
+</script> -->
 <script src="{{ "/js/prettify.js " | prepend: site.baseurl }}"></script>
 
-<!-- jQuery Plugin -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 <script>
   !function ($) {
     $(function(){

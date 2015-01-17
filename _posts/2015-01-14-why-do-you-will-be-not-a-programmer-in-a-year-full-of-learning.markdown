@@ -31,7 +31,6 @@ header-img: "img/1280px-Web_development_timelineKopie.png"
 <p>Update Post Soon!</p>
 
 
-http://en.wikipedia.org/wiki/Web_development
 
 <blockquote>"That's thirty minutes away. I'll be there in ten" - Journey in Space.
 

@@ -3,41 +3,69 @@ layout: page
 description: "Hello, my Name is @LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!
 
 "
+img:
+header-img:  
+feature: abstract-1.jpg
+
 
 ---
 
+<div class="scroll">
+
+{% for post in site.posts %}
+
+
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" >    {% if post.image.header-img %}
+      <div class="intro-header">
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }}"></a>
+      </div>
+    {% endif %}
+    <div class="post-meta">
+      <span class="entry-date date published updated">
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+        </time>
+      </span>
+      <span class="author vcard">
+        <span class="fn">
+          <a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
+    </span>
+    </span>
+      {% if site.reading_time %}
+    
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        {% assign readtime = post.content | number_of_words | divided_by:site.words_per_minute %}
+        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+      </span>
+      {% endif %}
+    </div>
+    {% if post.link %}
+     
+      <h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% else %}
+
+      <h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+
+    {% endif %}
+  </header>
 
 
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
+  <article class="container hentry">
+  <div class="entry-content">
+    {{ post.content }}
+  </div>
+</article>
 {% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+
+
+   
+    <a href="example-page2.html">next page</a>
+</div>
+
+<script type="text/javascript">
+$('.scroll').jscroll();
+
+</script>
