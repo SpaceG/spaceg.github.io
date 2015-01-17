@@ -9,6 +9,10 @@
 nav.navbar.navbar-inverse.navbar-fixed-top-top {
 padding-top: 0px;
 }
+.navbar-inverse {
+background-color: #FFF;
+border-color: #FFFFFF;
+}
 
  header.intro-header {
 background: #6f5499;
