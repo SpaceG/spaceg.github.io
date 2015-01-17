@@ -10,7 +10,6 @@ feature: abstract-1.jpg
 
 ---
 
-<div class="scroll">
 
 {% for post in site.posts %}
 
@@ -61,11 +60,3 @@ feature: abstract-1.jpg
 
 
 
-   
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>
-</div>
-
-<script type="text/javascript">
-$('.scroll').jscroll();
-
-</script>

@@ -174,9 +174,7 @@ border-color: #FFFFFF;
 <div class="container front-end">
 	<div class="row">
 		<div class="posts">
-			<div class="scroll">
-
-
+			
 
 
 <header class="intro-header" style="background-image: url('/img/tumblr_mpp6jgOer51st5lhmo1_1280.jpg')" >    
@@ -2362,14 +2360,7 @@ CommandLine
 
 
 
-   
-    <a href="/page9"></a>
-</div>
 
-<script type="text/javascript">
-$('.scroll').jscroll();
-
-</script>
 		</div>
 	</div>
 </div>
@@ -2434,42 +2425,6 @@ $('.scroll').jscroll();
 <!-- jQuery -->
 <script src="/js/jquery.min.js"></script>
 
-<script src="/js/jquery.infinitescroll.min.js"></script>
-<script>
-  $(function(){
- 
-    var $container = $('#container');
- 
-    $container.imagesLoaded(function(){
-      $container.masonry({
-        itemSelector: '.box',
-        columnWidth: 100
-      });
-    });
- 
-    $container.infinitescroll({
-      navSelector  : '#page-nav',    // selector for the paged navigation
-      nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
-      itemSelector : '.box',     // selector for all items you'll retrieve
-      loading: {
-          finishedMsg: 'No more pages to load.',
-          img: 'http://i.imgur.com/6RMhx.gif'
-        }
-      },
-      // trigger Masonry as a callback
-      function( newElements ) {
-        // hide new items while they are loading
-        var $newElems = $( newElements ).css({ opacity: 0 });
-        // ensure that images load before adding to masonry layout
-        $newElems.imagesLoaded(function(){
-          // show elems now they're ready
-          $newElems.animate({ opacity: 1 });
-          $container.masonry( 'appended', $newElems, true );
-        });
-      }
-    );
-  });
-</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
