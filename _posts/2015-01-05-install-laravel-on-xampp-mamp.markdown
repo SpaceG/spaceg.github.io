@@ -109,7 +109,7 @@ Terminal Command Line :
 
 export  Path :
 
-<code>“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”</code>
+“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”
 
 
 If finish use ESC to exit
