@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Why do dou will not a Programmer in a Month!"
+title:      "Why do you will be not a Programmer in a Month!"
 subtitle:   "Learning - Code Everyday - Every Freetime"
 date:       2015-01-15 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/1280px-Web_development_timelineKopie.png"
 ---
-<h2 class="section-heading">I don't want be a Programmer..I want build Start Ups!</h2>
+<h2 class="section-heading">Build Start Ups!</h2>
 
 
 
