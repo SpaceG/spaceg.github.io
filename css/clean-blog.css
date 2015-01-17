@@ -6,6 +6,10 @@
  */
 
 
+nav.navbar.navbar-inverse.navbar-fixed-top-top {
+padding-top: 0px;
+}
+
  header.intro-header {
 background: #6f5499;
 background-color: #808080;
