@@ -14,7 +14,7 @@ feature: abstract-1.jpg
 {% for post in site.posts %}
 
 
-<header class="intro-header">  
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" >  
   {% if post.image.header-img %}
       <div class="intro-header">
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }}"></a>
