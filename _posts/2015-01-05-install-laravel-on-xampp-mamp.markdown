@@ -90,7 +90,7 @@ Get Laravel
 
 Then download Laravel from github here  and place your folder in XAMPP/htdoc
 
- <code> /Applications/XAMPP/htdoc/{you folder} </code>
+ /Applications/XAMPP/htdoc/{you folder} 
 
 
  before you install it , you have to check php path that point to 
@@ -109,7 +109,9 @@ Terminal Command Line :
 
 export  Path :
 
-“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”
+“PATH=/Applications/
+
+XAMPP/xamppfiles/bin:$PATH”
 
 
 If finish use ESC to exit
