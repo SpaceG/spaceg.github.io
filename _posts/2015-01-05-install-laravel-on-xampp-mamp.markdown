@@ -109,8 +109,7 @@ Terminal Command Line :
 
 export  Path :
 
-“PATH=/Applications/
-XAMPP/xamppfiles/bin:$PATH”
+“PATH=/Applications/XAMPP/xamppfiles/bin:$PATH”
 
 
 If finish use ESC to exit
@@ -347,7 +346,9 @@ Note: If the above fails due to permissions, run the mv line again with sudo.
 
 
 export 
+
 PATH=/Applications/MAMP/
+
 bin/php/PHP_VERSION/bin/:$PATH
 
 <code>
