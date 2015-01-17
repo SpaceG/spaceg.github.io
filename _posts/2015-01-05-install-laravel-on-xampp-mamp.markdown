@@ -240,7 +240,7 @@ type:
 
 <code>ls</code>
 
-<code>composer create-project laravel/laravel spaceg --prefer-dist</code>
+composer create-project laravel/laravel spaceg --prefer-dist
 
 
 <code>ls</code> 
@@ -269,7 +269,9 @@ type:
 
 
 export 
+
 PATH=/Applications/MAMP/
+
 bin/php/PHP_VERSION/bin/:$PATH
 
 
@@ -279,7 +281,9 @@ bin/php/PHP_VERSION/bin/:$PATH
 
 
 export 
+
 PATH=/Applications/MAMP/
+
 bin/php/php5.6.2/bin/:$PATH
 
 
