@@ -268,7 +268,8 @@ type:
 
 
 
-export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH
+export 
+PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH
 
 
 
@@ -276,7 +277,8 @@ export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH
 <code>enter the php version</code> 
 
 
-export PATH=/Applications/MAMP/bin/php/php5.6.2/bin/:$PATH
+export 
+PATH=/Applications/MAMP/bin/php/php5.6.2/bin/:$PATH
 
 
 
@@ -341,7 +343,8 @@ Note: If the above fails due to permissions, run the mv line again with sudo.
 
 
 
-<code>export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH</code>
+export 
+PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH
 
 <code>
 
