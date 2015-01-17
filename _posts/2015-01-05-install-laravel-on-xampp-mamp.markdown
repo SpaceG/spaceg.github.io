@@ -268,8 +268,7 @@ type:
 
 
 
-
-<code>export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH</code>
+export PATH=/Applications/MAMP/bin/php/PHP_VERSION/bin/:$PATH
 
 
 
@@ -277,7 +276,7 @@ type:
 <code>enter the php version</code> 
 
 
-<code>export PATH=/Applications/MAMP/bin/php/php5.6.2/bin/:$PATH</code>
+export PATH=/Applications/MAMP/bin/php/php5.6.2/bin/:$PATH
 
 
 
