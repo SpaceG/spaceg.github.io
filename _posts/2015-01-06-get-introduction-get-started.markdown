@@ -17,7 +17,7 @@ Mindmeister:
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 
 

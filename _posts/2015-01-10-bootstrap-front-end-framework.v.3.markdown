@@ -27,7 +27,7 @@ Download
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bootstrap-wordpress-themes.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/bootstrap-wordpress-themes.jpg" alt="Post Sample Image" style="height: 500px;">
 </a>
 
 

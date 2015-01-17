@@ -17,7 +17,7 @@ Get Composer :
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/logo-composer-transparent.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/logo-composer-transparent.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 
 
@@ -28,7 +28,7 @@ Get Composer :
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/laravel_logo1.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/laravel_logo1.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 
 <blockquote>Laravel over Xampp.</blockquote>
@@ -155,7 +155,7 @@ Update
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/folder-mamp.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/folder-mamp.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 
 

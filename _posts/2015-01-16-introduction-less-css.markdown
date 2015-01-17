@@ -30,7 +30,7 @@ Less runs inside Node, in the browser and inside Rhino. There are also many 3rd 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/less-wordpress1.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/less-wordpress1.jpg" alt="Post Sample Image" style="height: 500px;">
 </a> 
 
 

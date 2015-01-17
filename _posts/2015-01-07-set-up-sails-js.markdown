@@ -58,7 +58,7 @@ info: To shut down Sails, press <CTRL> + C at any time.
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/Screenshot-2014-09-09-07.23.05.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/Screenshot-2014-09-09-07.23.05.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 
 
@@ -69,7 +69,7 @@ info: To shut down Sails, press <CTRL> + C at any time.
 </a> -->
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png" alt="Post Sample Image" style="height: 500px;"> 
 </a> 
 
 
