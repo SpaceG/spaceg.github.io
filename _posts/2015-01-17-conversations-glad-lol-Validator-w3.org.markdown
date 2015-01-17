@@ -45,7 +45,7 @@ This document was successfully checked as HTML5!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/design.png" alt="Post Sample Image" style="height: 400px;">
+    <img src="{{ site.baseurl }}/img/design.png" alt="Post Sample Image" style="height: 600px;">
 </a> 
 
 
