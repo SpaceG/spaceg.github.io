@@ -4,7 +4,7 @@ title:      "Sails js - sails.js"
 subtitle:   "sign up oAuth"
 date:       2015-01-17 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/design.png"
+header-img: "img/tumblr_mpp6jgOer51st5lhmo1_1280.jpg"
 ---
 <h2 class="section-heading">sails.js oAuth sign up/in</h2>
 
