@@ -43,7 +43,9 @@ Get Composer :
 
 <code> which php</code>
 
-<code> /Applications/XAMPP/xamppfiles/bin/php </code>
+ /Applications/XAMPP/
+
+ xamppfiles/bin/php 
 
  <code> sudo vi ~/.bash_profile </code>
 
@@ -60,7 +62,10 @@ then back to bash type
 
 
 which php
-<code>/Applications/XAMPP/xamppfiles/bin/php</code>
+
+/Applications/XAMPP/
+
+xamppfiles/bin/php
 
 <code>composer install </code>
 
