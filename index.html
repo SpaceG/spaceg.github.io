@@ -62,7 +62,7 @@ feature: abstract-1.jpg
 
 
    
-    <a href="example-page2.html"></a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>
 </div>
 
 <script type="text/javascript">
