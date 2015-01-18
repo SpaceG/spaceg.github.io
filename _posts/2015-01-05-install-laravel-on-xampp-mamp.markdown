@@ -51,7 +51,7 @@ Get Composer :
 
 password: 
 
-<code>**********************************</code>
+<code>*********************</code>
 
 <code>:wq</code>
 
