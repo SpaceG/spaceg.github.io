@@ -96,16 +96,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 
-<script type="text/javascript">
-var divs = $('.navbar-fixed-bottom');
-$(window).scroll(function(){
-   if($(window).scrollTop()<10){
-         divs.stop(true,true).fadeIn("fast");
-   } else {
-         divs.stop(true,true).fadeOut("fast");
-   }
-});
-</script>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
