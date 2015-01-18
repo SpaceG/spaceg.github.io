@@ -15,22 +15,22 @@ Do you need Xampp or Mamp to Install this awesome Framework to build your own Ap
 Get Composer :
 ###[View Application &rarr;](https://getcomposer.org/)
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/logo-composer-transparent.png" alt="Post Sample Image" style="height: 500px;">
 </a>
-
+-->
 
 <p>Laravel is a very Fast Popular PHP Framework for develop Web Applications.</p>
 
 
 <iframe width="100%" height="515" src="//www.youtube.com/embed/uWuIqaFzPzY" frameborder="0" allowfullscreen></iframe>
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/laravel_logo1.png" alt="Post Sample Image" style="height: 500px;">
 </a>
-
+-->
 <blockquote>Laravel over Xampp.</blockquote>
 
 ###[ Download Xampp for Mac Os X. &rarr;](https://www.apachefriends.org/de/download.html)
