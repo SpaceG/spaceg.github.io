@@ -32,9 +32,7 @@ Open SSL Source
 
 [The Heartbleed](http://heartbleed.com/) The Heartbleed
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/Scan.jpeg" alt="Post Sample Image" style="height: 500px;">
-</a>
+
 
 <h2 class="section-heading">Install</h2>
 
