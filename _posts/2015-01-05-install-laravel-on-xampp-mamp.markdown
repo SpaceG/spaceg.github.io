@@ -101,7 +101,9 @@ Then download Laravel from github here  and place your folder in XAMPP/htdoc
  before you install it , you have to check php path that point to 
 
 
- <code> /Applications/XAMPP/xamppfiles/bin/php </code>
+ /Applications/XAMPP/
+
+ xamppfiles/bin/php 
 
 Terminal Bash :
 <code>cd /Applications/XAMPP/htdocs/L4</code>
