@@ -10,7 +10,7 @@ feature: abstract-1.jpg
 ---
 
 
-{% for post in site.posts %}
+{% for post in site.posts limit: 10 %}  
 
 
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" >  
@@ -57,6 +57,6 @@ feature: abstract-1.jpg
   </div>
 </article>
 {% endfor %}
-
+<div class="infinite-spinner"></div>
 
 
