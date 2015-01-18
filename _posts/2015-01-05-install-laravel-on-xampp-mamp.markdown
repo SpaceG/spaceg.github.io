@@ -151,14 +151,14 @@ Update
 
 
 
-
+<!--
 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/folder-mamp.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 
-
+ -->
 
 
 <blockquote>Laravel over Mamp</blockquote>
