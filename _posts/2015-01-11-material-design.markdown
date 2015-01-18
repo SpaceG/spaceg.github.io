@@ -14,34 +14,34 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google_12113.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/google_12113.png" alt="Post Sample Image"  style="height: 500px;width:500px;">
 </a>
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google1234.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/google1234.png" alt="Post Sample Image"  style="height: 500px;width:500px;">
 </a>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google3241.png" alt="Post Sample Image">
-</a>
-
-
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/google7.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/google3241.png" alt="Post Sample Image"  style="height: 500px;width:500px;">
 </a>
 
 
 
 
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google22.png" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/google7.png" alt="Post Sample Image"  style="height: 500px;width:500px;">
+</a>
+
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/google22.png" alt="Post Sample Image"  style="height: 500px;width:500px;">
 </a>
 
 
