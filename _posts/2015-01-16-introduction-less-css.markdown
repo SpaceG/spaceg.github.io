@@ -29,10 +29,6 @@ Less runs inside Node, in the browser and inside Rhino. There are also many 3rd 
 <h2 class="section-heading">lesscss.org</h2>
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/less-wordpress1.jpg" alt="Post Sample Image" style="height: 500px;width:500px;">
-</a> 
-
 
 
 
