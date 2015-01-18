@@ -32,10 +32,6 @@ Download
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/backbone.png" alt="Post Sample Image" style="height: 500px;">
-</a>
-
 
 
 <!--
