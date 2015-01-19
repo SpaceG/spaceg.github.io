@@ -37,7 +37,8 @@ Get Composer :
 
 ###[ Download Laravel. &rarr;](http://laravel.com/)
 
- <code>/Applications/XAMPP/htdocs/L33 </code>
+/Applications/XAMPP/
+htdocs/L33 
 
  <code>ls</code>
 
@@ -47,11 +48,11 @@ Get Composer :
 
  xamppfiles/bin/php 
 
- <code> sudo vi ~/.bash_profile </code>
+ sudo vi ~/.bash_profile 
 
 password: 
 
-<code>*********************</code>
+<code>*************</code>
 
 <code>:wq</code>
 
