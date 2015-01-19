@@ -15,7 +15,32 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 </script>
 
+    <script type="text/javascript">
+// jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});
 
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+</script>
 
 
 
@@ -150,6 +175,7 @@ border-color: #FFFFFF;
 
 
 
+
     <!-- Page Header -->
 <header class="intro-header" style="background-image: url('/')">
     <div class="container">
@@ -175,6 +201,106 @@ border-color: #FFFFFF;
 	<div class="row">
 		<div class="posts">
 			
+
+
+<header class="intro-header" style="background-image: url('/img/Github-for-beginners.png')" >  
+  
+    <div class="post-meta">
+      <span class="entry-date date published updated">
+        <time datetime="2015-01-19T15:00:44+01:00">
+          <a href="https://spaceg.github.io/2015/01/19/github-workflow/">January 19, 2015</a>
+        </time>
+      </span>
+      <span class="author vcard">
+        <span class="fn">
+          <a href="https://spaceg.github.io/about/" title="About "></a>
+    </span>
+    </span>
+      
+    </div>
+    
+
+      <h1 class="post-title"><a href="https://spaceg.github.io/2015/01/19/github-workflow/" rel="bookmark" title="Github - Introduction" itemprop="url">Github - Introduction</a></h1>
+
+    
+  </header>
+
+
+
+  <article class="container hentry">
+  <div class="entry-content">
+    <h2 class="section-heading">Github Introduction</h2>
+
+<p>Today, i gona show some Steps on Github using Ui from GitHub.</p>
+
+<p>Download
+<a href="https://mac.github.com/">GitHub for Mac</a></p>
+
+<p>Since, we work on our Start Up we use some Tools to work Faster on it.</p>
+
+<p>I’m a Macuser and Work on Mac, with GitHub UI/ Desktop App for Commits and Synch my Changes on our App which one we have Branched. We have also 3 Clones up.</p>
+
+<p>My Friend use Linux and there are also some Differents Way to work on it. Specially we use sails.js for our App.
+We also work on “.ejs”, files, but they are basically html.</p>
+
+<p>In case you still can’t see any updates :</p>
+
+<p>git pull origin master</p>
+
+<p>sudo npm update</p>
+
+<p>sails lift</p>
+
+<p>git add -A -&gt; add all unstaged files to the stagin area
+git commit -m “Short description of your commit” -&gt; Commit </p>
+
+<p>the files from the staging area to the head of your local branch</p>
+
+<p>git checkout {Branch Name}</p>
+
+<p>to check where you are -&gt; git status</p>
+
+<p>if you want to push -&gt; git push origin {Branch Name}</p>
+
+<!--
+
+<a href="#">
+    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
+</a>
+-->
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+<!--
+
+<a href="#">
+    <img src="/img/design.png" alt="Post Sample Image">
+</a> 
+
+
+-->
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
+
+
+  </div>
+</article>
+
 
 
 <header class="intro-header" style="background-image: url('/img/tumblr_mpp6jgOer51st5lhmo1_1280.jpg')" >  
@@ -1769,7 +1895,7 @@ info: To shut down Sails, press <ctrl> + C at any time.</ctrl></p>
 
 <p>password: </p>
 
-<p><code>**********************************</code></p>
+<p><code>*********************</code></p>
 
 <p><code>:wq</code></p>
 
@@ -1805,7 +1931,9 @@ You need to install composer software on you OS , you can get from getcomposer.o
 
 <p>before you install it , you have to check php path that point to </p>
 
-<p><code> /Applications/XAMPP/xamppfiles/bin/php </code></p>
+<p>/Applications/XAMPP/</p>
+
+<p>xamppfiles/bin/php </p>
 
 <p>Terminal Bash :
 <code>cd /Applications/XAMPP/htdocs/L4</code></p>
@@ -2438,36 +2566,9 @@ CommandLine
     </div>
 </footer>
 <!-- jQuery -->
-<script src="/js/jquery.min.js"></script>
 
 
 
-    <script type="text/javascript">
-// jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-});
-
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-</script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -2481,16 +2582,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 
-<script type="text/javascript">
-var divs = $('.navbar-fixed-bottom');
-$(window).scroll(function(){
-   if($(window).scrollTop()<10){
-         divs.stop(true,true).fadeIn("fast");
-   } else {
-         divs.stop(true,true).fadeOut("fast");
-   }
-});
-</script>
 
 <!-- jQuery -->
 <script src="/js/jquery.min.js "></script>

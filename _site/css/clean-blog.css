@@ -7,7 +7,7 @@
 
 
 nav.navbar.navbar-inverse.navbar-fixed-top-top {
-padding-top: 40px;
+padding-top: 55px;
 }
 .navbar-inverse {
 background-color: #FFF;
@@ -96,11 +96,11 @@ hr.small {
 }
 .navbar-custom {
   background: white;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
+  z-index: 2;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
@@ -114,7 +114,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
+    background: rgba(255, 255, 255, 1);
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
