@@ -4,7 +4,7 @@ title:      "Github - WorkFlow"
 subtitle:   "Github"
 date:       2015-01-19 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/tumblr_mpp6jgOer51st5lhmo1_1280.jpg"
+header-img: "img/Github-for-beginners.png"
 ---
 <h2 class="section-heading">Github WorkFlow</h2>
 
