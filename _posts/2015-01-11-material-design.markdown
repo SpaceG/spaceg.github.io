@@ -41,7 +41,7 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google22.png" alt="Post Sample Image"  style="height: 100%;width:100%">
+    <img src="{{ site.baseurl }}/img/google22.png" alt="Post Sample Image"  style="width:100%">
 </a>
 
 
