@@ -20,6 +20,12 @@ This is for me.. liek a Bug in Whole Hole. Anyway! Only Way, to have it without 
 Happy Coding!
 
 
+More Links :
+
+[cast sender sdk](https://code.google.com/p/google-cast-sdk/issues/detail?id=309) 
+
+
+[Errors in the Console](https://google-cast-sdk.googlecode.com/issues/attachment?aid=3090040000&name=cast_sender_js_error.png&token=ABZ6GAf4evtyKtwQtu0EEZvJfWhp5oURZA%3A1421678089522&inline=1) 
 
 
 
