@@ -14,19 +14,19 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google_12113.png" alt="Post Sample Image"  style="height: 100%;width:100%">
+    <img src="{{ site.baseurl }}/img/google_12113.png" alt="Post Sample Image"  style="width:100%">
 </a>
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google1234.png" alt="Post Sample Image"  style="height: 100%;width:100%">
+    <img src="{{ site.baseurl }}/img/google1234.png" alt="Post Sample Image"  style="width:100%">
 </a>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google3241.png" alt="Post Sample Image"  style="height: 100%;width:100%">
+    <img src="{{ site.baseurl }}/img/google3241.png" alt="Post Sample Image"  style="width:100%">
 </a>
 
 
@@ -34,7 +34,7 @@ header-img: "img/google-design-google-plus-cover-material.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google7.png" alt="Post Sample Image"  style="height: 100%;width:100%">
+    <img src="{{ site.baseurl }}/img/google7.png" alt="Post Sample Image"  style="width:100%">
 </a>
 
 
