@@ -1,7 +1,7 @@
 #My Jekyll Theme for GitHub. 
 
 
-- recoded be Lucas Gatsas.
+- feel free to use and modify in all ways. 
 
 
 
