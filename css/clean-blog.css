@@ -57,7 +57,7 @@ color: white;
 html {
 
 font-size: 62.5%;
-  
+
 }
 body {
 font-family: "Merriweather", serif;
@@ -313,6 +313,7 @@ font-weight: 400;
   font-size: 36px;
   margin-top: 60px;
   font-weight: 700;
+  color: #2E2E2E;
 }
 .caption {
   text-align: center;
