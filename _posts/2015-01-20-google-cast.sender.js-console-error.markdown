@@ -10,6 +10,9 @@ header-img: "img/console-error.png"
 
 Now, I'm working on my New Blog today [SpaceG](https://spaceg.github.io), after finish my new Design  i have checked out the Console about javascript Errors! There are some Bug from You Tube Javascript, in the www-embed-player.js file of Google and You Tube. Excat this line, which shows up in the console. <code> function Wj(a){return"chrome-extension://"+a+"/cast_sender.js"} </code>
 
+<blockquote class="twitter-tweet" lang="de"><p><a href="https://t.co/lDeTazgMxE">https://t.co/lDeTazgMxE</a> error when chrome cast extension is not installed <a href="https://twitter.com/google">@google</a> <a href="https://twitter.com/hashtag/javascript?src=hash">#javascript</a> <a href="https://twitter.com/hashtag/console?src=hash">#console</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/557184382742831104">19. Januar 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 This is a Terrible Thing from oYouTube Javascript. And wish i could fix this bug. Now after i google About it and ask someone in my Network about this Problem, i found on Stackoverflow a Answer :  [StackOverFlow](http://stackoverflow.com/questions/25814914/chrome-youtube-cast-sender-js-console-error)
 
 This is Terrible because nobody download this Cast App [Google Cast](https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd) 
