@@ -4,7 +4,7 @@ title:      "Github - Introduction"
 subtitle:   "Github"
 date:       2015-01-19 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Github-for-beginners.png"
+header-img: "img/jetpack-octocat-airlock-b1d6ad7f41f88e5207896fe1f63ca30b.jpg"
 ---
 <h2 class="section-heading">Github Introduction</h2>
 
