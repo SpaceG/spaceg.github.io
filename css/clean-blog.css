@@ -1,10 +1,13 @@
 /*!
 
- 
+ Top Stylesheet for my Blog! 
+ spaceg.github.io 
 
 
  */
-
+i#github-icon-top {
+font-size: 20px;
+}
 
 nav.navbar.navbar-inverse.navbar-fixed-top-top {
 padding-top: 55px;
