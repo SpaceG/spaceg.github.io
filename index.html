@@ -60,14 +60,37 @@ feature: abstract-1.jpg
 {% endfor %}
 
 </div>
+
+
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
     {% if paginator.next_page %}
-    <li id="next">
+    <li class="next">
         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
     </li>
     {% endif %}
-
+</ul>
+{% endif %}
 <!--
   <a id="next" href="index2.html">next page?</a> -->
+
+
+
+
+
+
+
+
+
+
+<!--
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
   <script>window.jQuery || document.write("<script src="{{ "/js/jquery-1.6.1.js " | prepend: site.baseurl }}">\x3C/script>")</script>
@@ -109,5 +132,5 @@ feature: abstract-1.jpg
       
     });
   </script>
- 
+ -->
 
