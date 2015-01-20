@@ -14,6 +14,8 @@ This is a Terrible Thing from oYouTube Javascript. And wish i could fix this bug
 
 This is Terrible because nobody download this Cast App [Google Cast](https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd) 
 
+<blockquote class="twitter-tweet" lang="de"><p>the same <a href="https://twitter.com/hashtag/shit?src=hash">#shit</a> here cast_sender_js <a href="https://twitter.com/hashtag/google?src=hash">#google</a> <a href="https://twitter.com/hashtag/chrome?src=hash">#chrome</a> &gt;&gt; <a href="https://t.co/LWLT2NALKj">https://t.co/LWLT2NALKj</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/557185085699809280">19. Januar 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This is for me.. liek a Bug in Whole Hole. Anyway! Only Way, to have it without Error, i do not embed YOuTube Videos in My Blog, but i want to show Up how to Know How and Give Users Tips durring the Videos Like Installing Videos etc. I Have foudn Another forum about this kind of a Problem. [My Twitter Status](https://twitter.com/LucasGatsas/status/557185085699809280) and here [My Twitter Status](https://twitter.com/LucasGatsas/status/557184382742831104). Gosh Thanks I'm not the Only one with this Kind One. Maybe Google and YouTube have to Slove this Problem. Because it's distrub to work on, even do you don't know from where it's come. 
 
