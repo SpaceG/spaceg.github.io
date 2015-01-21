@@ -22,7 +22,6 @@ background: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
 
 
 
-
 /*
 header.intro-header:before {
 position: absolute;
@@ -64,6 +63,9 @@ background-size: cover;
 -o-background-size: cover;
 }
 
+header.intro-header {
+margin-bottom: -40px;
+}
 .container.front-end {
 width: 100%;
 }
