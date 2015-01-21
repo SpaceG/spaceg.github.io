@@ -63,9 +63,7 @@ background-size: cover;
 -o-background-size: cover;
 }
 
-header.intro-header {
-margin-bottom: -40px;
-}
+
 .container.front-end {
 width: 100%;
 }
