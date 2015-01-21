@@ -11,7 +11,7 @@ header-img: "img/gobbleotron.gif"
 
 
 {% for post in site.posts %}
-
+  <div id="content">
 
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;">  
   {% if post.image.header-img %}
@@ -59,7 +59,7 @@ header-img: "img/gobbleotron.gif"
 {% endfor %}
 
 <br><br>
-
+</div>
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
