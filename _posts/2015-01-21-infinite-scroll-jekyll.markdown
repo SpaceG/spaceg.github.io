@@ -8,7 +8,7 @@ header-img: "img/earth_00.jpg"
 ---
 <h2 class="section-heading">Infinite Scroll for Jekyll</h2>
 
-
+Get Infinite on your Jekyll Theme!
 
 
 Happy Coding!
