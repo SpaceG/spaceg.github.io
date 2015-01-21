@@ -9,6 +9,19 @@ header-img: "img/1280px-Web_development_timelineKopie.png"
 <h2 class="section-heading">Build Start Ups!</h2>
 
 
+Links:
+Sails makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture. It's especially good for building chat, realtime dashboards, or multiplayer games; but you can use it for any web application project - top to bottom.
+[Sails.js | Realtime MVC Framework for Node.js](http://sailsjs.org/#/) 
+
+
+Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.
+[Backbone.js | Front Javascript Framework](http://backbonejs.org/) 
+
+
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. 
+[Ruby | Programming Language](https://www.ruby-lang.org/) 
+
+
 
 
 
