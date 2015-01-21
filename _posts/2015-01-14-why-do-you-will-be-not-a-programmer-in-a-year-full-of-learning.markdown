@@ -9,7 +9,8 @@ header-img: "img/1280px-Web_development_timelineKopie.png"
 <h2 class="section-heading">Build Start Ups!</h2>
 
 
-Links:
+Stuff to Learn!
+
 Sails makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture. It's especially good for building chat, realtime dashboards, or multiplayer games; but you can use it for any web application project - top to bottom.
 [Sails.js | Realtime MVC Framework for Node.js](http://sailsjs.org/#/) 
 
