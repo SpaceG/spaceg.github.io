@@ -6,7 +6,7 @@ date:       2015-01-15 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/1280px-Web_development_timelineKopie.png"
 ---
-<h2 class="section-heading">Learning Stuff! </h2>
+<h2 class="section-heading">Learning Stuff and Code Everyday Epic Next Levels. </h2>
 
 Stuff to Learn!
 
