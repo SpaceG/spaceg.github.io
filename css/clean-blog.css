@@ -35,6 +35,7 @@ width: 100%;
 article.container.hentry {
 max-width: 770px;
 text-align: justify;
+margin-bottom: 180px;
 }
 
 h1.post-title {
