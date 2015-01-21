@@ -6,8 +6,7 @@ date:       2015-01-15 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/1280px-Web_development_timelineKopie.png"
 ---
-<h2 class="section-heading">Build Start Ups!</h2>
-
+<h2 class="section-heading">Learning Stuff! </h2>
 
 Stuff to Learn!
 
@@ -39,10 +38,9 @@ Ruby is a dynamic, reflective, object-oriented, general-purpose programming lang
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
-<h2 class="section-heading">Learning Stuff! </h2>
 
 
-<p>Update Post Soon!</p>
+
 
 
 
