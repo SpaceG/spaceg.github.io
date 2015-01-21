@@ -1,0 +1,5 @@
+siteurl: https://spaceg.github.io/
+url: "https://spaceg.github.io"
+markdown: maruku
+pygments: false
+paginate: 2
