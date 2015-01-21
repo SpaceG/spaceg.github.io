@@ -85,7 +85,7 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #A8A8A8;
 }
 a:hover,
 a:focus {
@@ -96,8 +96,7 @@ a img:focus {
 
 }
 blockquote {
-  color: #808080;
-  font-style: italic;
+color: #B6B6B6;  font-style: italic;
 }
 hr.small {
   max-width: 100px;
