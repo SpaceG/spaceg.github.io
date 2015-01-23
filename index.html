@@ -11,7 +11,7 @@ header-img: "img/gobbleotron.gif"
 <div class="content">
 
 
-  {% for post in site.siteurl limit: 10 %}  
+  {% for post in paginator.posts limit: 10 %}  
 
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;">  
   {% if post.image.header-img %}
