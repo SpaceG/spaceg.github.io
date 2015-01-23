@@ -13,6 +13,6 @@ google_username:  https://plus.google.com/101826267816845608605/posts
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 2
+paginate: 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
