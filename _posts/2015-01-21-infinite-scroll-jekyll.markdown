@@ -10,7 +10,7 @@ header-img: "img/earth_00.jpg"
 
 
 Get Infinite on your Jekyll Theme!
-Now we me [@LucasGatsas](https://www.twitter.com/LucasGatsas) and Kerill [@railsr7](https://www.twitter.com/@railsr7) nice Russian Web Developer! :) have fixed the infinite Scroll on my New Jekyll Theme 
+Now we me [@LucasGatsas](https://www.twitter.com/LucasGatsas) and Kerill [@railsr7](https://www.twitter.com/@railsr7) nice Russian Hacker and Web Developer! :) have fixed the infinite Scroll on my New Jekyll Theme 
 [CleanMagicMedium-Jekyll-V.0.2.0 ± Infinte Scroll](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
 Now have a take a look. ! Hope do you Like it. - 
 
