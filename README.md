@@ -1,7 +1,11 @@
-#My Jekyll Theme for GitHub. 
+#My Jekyll Theme for GitHub Pages. 
+
+Clean Magic Medium-Jekyll Theme -V.0.3.0
+Developet by Lucas Gatsas @LucasGatsas and Kerill @railsr7 on Twitter
 
 
-- feel free to use and modify in all ways. 
+-Last Update Sa.24.January.2014 19:10:17 CET – Central European Time / European Central Time (Standard Time)
+
 
 
 
