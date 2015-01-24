@@ -3,4 +3,4 @@ url: "https://spaceg.github.io"
 baseurl: "https://spaceg.github.io"
 markdown: maruku
 pygments: false
-paginate: 
+paginate: 2
