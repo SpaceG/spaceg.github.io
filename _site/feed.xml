@@ -1,13 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lucas Gatsas</title>
+    <title>l.g</title>
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Jan 2015 11:08:22 +0100</pubDate>
-    <lastBuildDate>Mon, 19 Jan 2015 11:08:22 +0100</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 19:04:30 +0100</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 19:04:30 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Infinite Scroll for Jekyll</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Infinite Scroll for Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Get Infinite on your Jekyll Theme!&lt;/p&gt;
+
+&lt;p&gt;Happy Coding!&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Wed, 21 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/21/infinite-scroll-jekyll/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/21/infinite-scroll-jekyll/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Chrome YouTube cast_sender.js console error</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Chrome YouTube cast_sender.js console error&lt;/h2&gt;
+
+&lt;p&gt;Now, I’m working on my New Blog today &lt;a href=&quot;https://spaceg.github.io&quot;&gt;SpaceG&lt;/a&gt;, after finish my new Design  i have checked out the Console about javascript Errors! There are some Bug from You Tube Javascript, in the www-embed-player.js file of Google and You Tube. Excat this line, which shows up in the console. &lt;code&gt; function Wj(a){return&quot;chrome-extension://&quot;+a+&quot;/cast_sender.js&quot;} &lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://t.co/lDeTazgMxE&quot;&gt;https://t.co/lDeTazgMxE&lt;/a&gt; error when chrome cast extension is not installed &lt;a href=&quot;https://twitter.com/google&quot;&gt;@google&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/javascript?src=hash&quot;&gt;#javascript&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/console?src=hash&quot;&gt;#console&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557184382742831104&quot;&gt;19. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This is a Terrible Thing from oYouTube Javascript. And wish i could fix this bug. Now after i google About it and ask someone in my Network about this Problem, i found on Stackoverflow a Answer :  &lt;a href=&quot;http://stackoverflow.com/questions/25814914/chrome-youtube-cast-sender-js-console-error&quot;&gt;StackOverFlow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is Terrible because nobody download this Cast App &lt;a href=&quot;https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd&quot;&gt;Google Cast&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;the same &lt;a href=&quot;https://twitter.com/hashtag/shit?src=hash&quot;&gt;#shit&lt;/a&gt; here cast_sender_js &lt;a href=&quot;https://twitter.com/hashtag/google?src=hash&quot;&gt;#google&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/chrome?src=hash&quot;&gt;#chrome&lt;/a&gt; &amp;gt;&amp;gt; &lt;a href=&quot;https://t.co/LWLT2NALKj&quot;&gt;https://t.co/LWLT2NALKj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557185085699809280&quot;&gt;19. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This is for me.. liek a Bug in Whole Hole. Anyway! Only Way, to have it without Error, i do not embed YOuTube Videos in My Blog, but i want to show Up how to Know How and Give Users Tips durring the Videos Like Installing Videos etc. I Have foudn Another forum about this kind of a Problem. &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557185085699809280&quot;&gt;My Twitter Status&lt;/a&gt; and here &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557184382742831104&quot;&gt;My Twitter Status&lt;/a&gt;. Gosh Thanks I’m not the Only one with this Kind One. Maybe Google and YouTube have to Slove this Problem. Because it’s distrub to work on, even do you don’t know from where it’s come. &lt;/p&gt;
+
+&lt;p&gt;Happy Coding!&lt;/p&gt;
+
+&lt;p&gt;More Links :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://code.google.com/p/google-cast-sdk/issues/detail?id=309&quot;&gt;cast sender sdk&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://google-cast-sdk.googlecode.com/issues/attachment?aid=3090040000&amp;amp;name=cast_sender_js_error.png&amp;amp;token=ABZ6GAf4evtyKtwQtu0EEZvJfWhp5oURZA%3A1421678089522&amp;amp;inline=1&quot;&gt;Errors in the Console&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Tue, 20 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/20/google-cast.sender.js-console-error/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/20/google-cast.sender.js-console-error/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Github - Introduction</title>
@@ -242,7 +362,18 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
     
       <item>
         <title>Why do you will be not a Programmer in a Month!</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Build Start Ups!&lt;/h2&gt;
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Learning Stuff and Code Everyday Epic Next Levels. &lt;/h2&gt;
+
+&lt;p&gt;Stuff to Learn!&lt;/p&gt;
+
+&lt;p&gt;Sails makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture. It’s especially good for building chat, realtime dashboards, or multiplayer games; but you can use it for any web application project - top to bottom.
+&lt;a href=&quot;http://sailsjs.org/#/&quot;&gt;Sails.js | Realtime MVC Framework for Node.js&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.
+&lt;a href=&quot;http://backbonejs.org/&quot;&gt;Backbone.js | Front Javascript Framework&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. 
+&lt;a href=&quot;https://www.ruby-lang.org/&quot;&gt;Ruby | Programming Language&lt;/a&gt; &lt;/p&gt;
 
 &lt;!--
 
@@ -255,10 +386,6 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 &lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
 &lt;/a&gt; --&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Learning Stuff! &lt;/h2&gt;
-
-&lt;p&gt;Update Post Soon!&lt;/p&gt;
 
 &lt;blockquote&gt;&quot;That&#39;s thirty minutes away. I&#39;ll be there in ten&quot; - Journey in Space.
 
@@ -472,129 +599,6 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
         <pubDate>Mon, 12 Jan 2015 14:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/12/work-online/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/12/work-online/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Material Design - UI</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;UI - Google Material Design &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google_12113.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 100%;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google1234.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 100%;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google3241.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 100%;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google7.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 100%;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google22.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 100%;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt; The Design.&lt;/h2&gt;
-
-&lt;p&gt;Update Post Soon!&lt;/p&gt;
-
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
-
-&lt;/blockquote&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-</description>
-        <pubDate>Sun, 11 Jan 2015 14:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/11/material-design/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/11/material-design/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Bootstrap Currently v3.3.1 - Front-End Framework</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.&lt;/h2&gt;
-
-&lt;p&gt;Bootstrap makes front-end web development faster and easier. It&#39;s made for folks of all skill levels, devices of all shapes, and projects of all sizes. &lt;/p&gt;
-
-&lt;p&gt;What is Bootstrap? Bootsrap is a Fast Farmaework for Front-End Developers. To build fast, sleek, clean Front-End Design. Watch the Opensource base &lt;a href=&quot;http://getbootstrap.com/getting-started/&quot;&gt;Bootstrap Currently v3.3.1&lt;/a&gt; for Sass or dist files check out here &lt;a href=&quot;http://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz/&quot;&gt;Sass Bootstrap Currently v3.3.1&lt;/a&gt; . For Introduction and how to work with Bootstrap. See the Docs. &lt;a href=&quot;http://getbootstrap.com/getting-started/#whats-included&quot;&gt;Docs Bootstrap v3.3.1&lt;/a&gt; . Get Started with Bootstarp. See the Basic Set Up &lt;a href=&quot;http://getbootstrap.com/getting-started/#template&quot;&gt;Template Bootstrap v3.3.1&lt;/a&gt;. Compiling CSS and JavaScript with 
-&lt;a href=&quot;https://gruntjs.com/Grunt/&quot;&gt;Grunt&lt;/a&gt; 
-let’s see the Available Grunt commands for Bootstrap. &lt;a href=&quot;http://getbootstrap.com/getting-started/#grunt&quot;&gt;Commands on Bootsrap&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Then, from the command line:
-Install &lt;code&gt;grunt-cli&lt;/code&gt; globally with &lt;code&gt;npm install -g grunt-cli.&lt;/code&gt;
-Navigate to the root &lt;code&gt; /bootstrap/ &lt;/code&gt; directory, then run &lt;code&gt; npm install &lt;/code&gt;. npm will look at the &lt;code&gt; package.json &lt;/code&gt; file and automatically install the necessary local dependencies listed there.   &lt;/p&gt;
-
-&lt;p&gt;Download
-&lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap Currently v3.3.1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/bootstrap-wordpress-themes.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 500px;&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Javascript Library&lt;/h2&gt;
-
-&lt;p&gt;
-Varying modal content based on trigger button
-Have a bunch of buttons that all trigger the same modal, just with slightly different contents? Use event.relatedTarget and HTML data-* attributes (possibly via jQuery) to vary the contents of the modal depending on which button was clicked. See the Modal Events docs for details on relatedTarget, &lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;$(&#39;#exampleModal&#39;).on(&#39;show.bs.modal&#39;, function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data(&#39;whatever&#39;) // Extract info from data-* attributes
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal&#39;s content. We&#39;ll use jQuery here, but you could use a data binding library or other methods instead.
-  var modal = $(this)
-  modal.find(&#39;.modal-title&#39;).text(&#39;New message to &#39; + recipient)
-  modal.find(&#39;.modal-body input&#39;).val(recipient)
-})
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
-
-&lt;/blockquote&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-</description>
-        <pubDate>Sat, 10 Jan 2015 14:00:40 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/10/bootstrap-front-end-framework.v.3/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/10/bootstrap-front-end-framework.v.3/</guid>
         
         
       </item>
