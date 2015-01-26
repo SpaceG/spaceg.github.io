@@ -582,13 +582,13 @@ padding: 15px 25px;
 border-radius: 90px;
 }
 a#roundbutton {
-border: 1px solid rgba(0, 0, 0, 0.2);
+border: 1px solid rgba(200, 200, 200, 0.83);
 border-radius: 90px;
 padding: 7px;
 margin-top: 13px;
 padding-right: 13px;
 padding-left: 13px;
-color: black;
+color: lightgrey;
 font-weight: 700;
 }
 a#roundbutton:hover {
