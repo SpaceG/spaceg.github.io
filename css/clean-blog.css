@@ -612,7 +612,7 @@ font-family: Georgia, times, arial;
 font-size: 36px;
 font-weight: 300;
 margin-top: -5px;
-color: black;
+/*color: black;*/
 }
 @media (max-width: 768px) {
 button#toggle-bottom-fadeout {
