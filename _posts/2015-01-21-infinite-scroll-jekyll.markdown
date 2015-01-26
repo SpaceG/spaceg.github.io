@@ -4,7 +4,7 @@ title:      "Infinite Scroll for Jekyll"
 subtitle:   "How to add the infinte Scroll to Jekyll"
 date:       2015-01-21 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/earth_00.jpg"
+header-img: "img/image(_3).jpg"
 ---
 <h2 class="section-heading">Infinite Scroll for Jekyll</h2>
 
