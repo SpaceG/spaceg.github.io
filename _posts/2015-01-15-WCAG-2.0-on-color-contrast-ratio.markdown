@@ -4,7 +4,7 @@ title:      "WCAG 2.0 on Color Contrast - Ratio"
 subtitle:   "hsla(200,0%,0%,.7) - Ratio"
 date:       2015-01-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/contrast_radio_001.png"
+header-img: "img/tumblr_n06zda82uR1qei2wfo1_1280.jpg"
 ---
 <h2 class="section-heading">WCAG 2.0 on Color Contrast - Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background.</h2>
 
