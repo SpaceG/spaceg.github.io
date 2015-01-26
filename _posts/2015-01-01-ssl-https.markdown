@@ -4,7 +4,7 @@ title:      "ssl - https over GitHub."
 subtitle:   "Javascript - ssl script for https."
 date:       2015-01-01 12:00:00
 author:     "Lucas Gatsas"
-header-img: "img/analog-dark-forest-hipster-Favim.com-979568.jpg"
+header-img: "img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg"
 ---
 
 <p>Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! I figured out how can I do this, how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script! This Code is writen in Javascript. </p>
