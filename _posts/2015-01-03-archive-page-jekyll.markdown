@@ -4,7 +4,7 @@ title:      "Archive - Page over Jekyll."
 subtitle:   "create a archive page with jekyll."
 date:       2015-01-03 12:00:00
 author:     "Lucas Gatsas"
-header-img: "img/600fsull_by_bluespirit33-d7ttrnl.gif"
+header-img: "img/PageImage-531144-5233796-tumblr_mifgwjL82x1rkz363o2_1280+(1).jpg"
 ---
 <h2 class="section-heading">The Set Up.</h2>
 Create the archive.html file.
