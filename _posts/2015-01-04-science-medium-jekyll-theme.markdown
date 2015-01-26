@@ -4,7 +4,7 @@ title:      "Science Medium Jekyll Theme V.0.2.0"
 subtitle:   "Free Jekyll Theme."
 date:       2015-01-04 12:00:00
 author:     "Lucas Gatsas"
-header-img: "img/jekyllthemewhite.png"
+header-img: "img/odeyssey_1.png"
 ---
 <h2 class="section-heading">Science Medium Jekyll Theme</h2>
 Download my New Jekyll Theme - Science Medium Theme V.0.2.0
