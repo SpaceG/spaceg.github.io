@@ -114,7 +114,7 @@ One of the pioneers of the OOCSS movement is[Nicole Sullivan](http://www.stubbor
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/the-cascade-grids-headings-and-selectors-from-an-oocss-perspective-ajax-experience-2009-1-728.jpg" alt="Post Sample Image" style="height: 500px;">
+    <img src="{{ site.baseurl }}/img/the-cascade-grids-headings-and-selectors-from-an-oocss-perspective-ajax-experience-2009-1-728.jpg" alt="Post Sample Image" style="width:100%">
 </a> 
 
 

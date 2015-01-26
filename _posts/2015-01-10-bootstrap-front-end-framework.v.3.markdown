@@ -25,12 +25,12 @@ Download
 [Bootstrap Currently v3.3.1](http://getbootstrap.com/)
 
 
-
+<!--
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bootstrap-wordpress-themes.jpg" alt="Post Sample Image" style="height: 500px;">
+    <img src="{{ site.baseurl }}/img/bootstrap-wordpress-themes.jpg" alt="Post Sample Image" style="width:100%">
 </a>
 
-
+-->
 
 <!--
 <a href="#">

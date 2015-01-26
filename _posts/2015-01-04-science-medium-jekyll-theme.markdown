@@ -18,7 +18,7 @@ Download my New Jekyll Theme - Science Medium Theme V.0.2.0
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image" style="height: 500px;">
+    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image" style="width:100%">
 </a> 
 
 

@@ -33,7 +33,7 @@ header-img: "img/5141876846_e5d5cbfac6_o.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/brain-startup.png" alt="Post Sample Image" style="height: 500px;">
+    <img src="{{ site.baseurl }}/img/brain-startup.png" alt="Post Sample Image" style="width:100%">
 </a>
 <blockquote>“if you have a brain you are a Start Up.” and below on the Wall :) "Wir sind am Start und Die Welt ist Gross!" in Germany. 
 </blockquote>
@@ -42,7 +42,7 @@ header-img: "img/5141876846_e5d5cbfac6_o.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/coders.jpg" alt="Post Sample Image" style="height: 500px;">
+    <img src="{{ site.baseurl }}/img/coders.jpg" alt="Post Sample Image" style="width:100%">
 </a> 
 
 
@@ -56,7 +56,7 @@ header-img: "img/5141876846_e5d5cbfac6_o.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/startup.jpg" alt="Post Sample Image" style="height: 500px;">
+    <img src="{{ site.baseurl }}/img/startup.jpg" alt="Post Sample Image" style="width:100%">
 </a> 
 
 
