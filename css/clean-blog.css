@@ -17,8 +17,8 @@ width: 100%;
 min-height: 900px;
 background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(129, 129, 129, 0.11)), color-stop(100%, rgba(6, 6, 6, 0.68)));
 background: -webkit-linear-gradient(top, rgba(76, 76, 76, 0.34) 0%, rgba(215, 215, 215, 0.63) 100%);
-background: -moz-linear-gradient(top, rgba(76, 76, 76, 0.34) 0%, rgba(215, 215, 215, 0.63) 100%);
-background: -o-linear-gradient(top, rgba(76, 76, 76, 0.34) 0%, rgba(215, 215, 215, 0.63) 100%);
+background: -moz-linear-gradient(top, rgba(76, 76, 76, 0.34) 0%,  rgba(215, 215, 215, 0.63) 100%);
+background: -o-linear-gradient(top, rgba(76, 76, 76, 0.34) 0%,  rgba(215, 215, 215, 0.63) 100%);
 background: linear-gradient(top, rgba(76, 76, 76, 0.34) 0%, rgba(215, 215, 215, 0.63) 100%);
 }
 
@@ -304,14 +304,13 @@ border-bottom: 1px solid transparent;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 18px;
-  line-height: 1.1,
-			display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  margin: 10px 0 0;
-color: rgb(210, 210, 210);
-font-weight: 400;
+font-size: 18px;
+line-height: 1.1, display: block;
+font-family: "Merriweather", serif;
+font-weight: 300;
+margin: 10px 0 0;
+color: rgb(231, 231, 231);
+font-weight: 100;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,

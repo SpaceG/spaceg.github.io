@@ -5,9 +5,60 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Jan 2015 03:04:00 +0100</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2015 03:04:00 +0100</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2015 06:52:02 +0100</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2015 06:52:02 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Clean Magic Jekyll Theme V.0.3.0</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;Update Today my New Jekyll Theme. :) &lt;/p&gt;
+
+&lt;p&gt;Happy Coding!&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+
+- Steve Jobs
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Tue, 27 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Infinite Scroll for Jekyll</title>
@@ -57,8 +108,8 @@ Now have a take a look. ! Hope do you Like it. - &lt;/p&gt;
 
 </description>
         <pubDate>Wed, 21 Jan 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/21/infinite-scroll-jekyll/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/21/infinite-scroll-jekyll/</guid>
+        <link>https://spaceg.github.io/2015/01/21/infinite-scroll-jekyll%20Kopie/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/21/infinite-scroll-jekyll%20Kopie/</guid>
         
         
       </item>
@@ -541,62 +592,6 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
         <pubDate>Mon, 12 Jan 2015 14:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/12/work-online/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/12/work-online/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Material Design - UI</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;UI - Google Material Design &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google_12113.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google1234.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google3241.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google7.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/google22.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt; The Design.&lt;/h2&gt;
-
-&lt;p&gt;Update Post Soon!&lt;/p&gt;
-
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
-
-&lt;/blockquote&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-</description>
-        <pubDate>Sun, 11 Jan 2015 14:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/11/material-design/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/11/material-design/</guid>
         
         
       </item>
