@@ -2,7 +2,7 @@
 layout:     post
 title:      "Angular.js"
 subtitle:   "AngularJS — Superheroic JavaScript MVW Framework"
-date:       2015-01-27 14:00:44
+date:       2015-01-28 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg"
 ---
