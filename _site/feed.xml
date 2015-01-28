@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Jan 2015 21:36:27 +0100</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2015 21:36:27 +0100</lastBuildDate>
+    <pubDate>Wed, 28 Jan 2015 02:50:33 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Jan 2015 02:50:33 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -61,10 +61,12 @@
       </item>
     
       <item>
-        <title>Clean Magic Jekyll Theme V.0.3.0</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Download&lt;/h2&gt;
+        <title>Angular.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
 
-&lt;p&gt;Update Today my New Jekyll Theme. :) &lt;/p&gt;
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;Happy Coding!&lt;/p&gt;
 
