@@ -4,7 +4,7 @@ title:      "normalize.css or reset.css"
 subtitle:   "Normalize.css - A modern, HTML5-ready alternative to CSS resets"
 date:       2015-01-09 13:00:40
 author:     "Lucas Gatsas"
-header-img: "img/image_(6).jpg"
+header-img: "img/black-and-white-dark-grunge-hippie-Favim.com-2417806.gif"
 ---
 <h2 class="section-heading">Css Resets </h2>
 
