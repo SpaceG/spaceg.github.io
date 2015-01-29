@@ -4,7 +4,7 @@ title:      "Angular.js"
 subtitle:   "AngularJS — Superheroic JavaScript MVW Framework"
 date:       2015-01-28 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg"
+header-img: "img/5858750522_1f22edfd37_b-1.jpg"
 ---
 <h2 class="section-heading">AngularJS — Superheroic JavaScript MVW Framework</h2>
 
@@ -15,10 +15,23 @@ Angular.js - is a fast Javascript MVW Framework.
 
 
 Happy Coding!
+I Got this tip from Helen, [Helen V. Holmes](http://helenvholmes.com/#/portfolio) during my Ask about her Page Script and Code.
+Because the Page have only a frame in the index.html file and the rest based on Javascript. 
+<br>
 
+<div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="http://helenvholmes.com/img/yo.jpg" alt="">  <h3>Helen V. Holmes
+                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
+                </h3></div>
+        <div class="col-md-4"></div>
+      </div>
 
+I Got this tip from Helen, [Helen V. Holmes](http://helenvholmes.com/#/portfolio) 
 
-
+<a href="#">
+    <img src="{{ site.baseurl }}/img/concepts-startup.png" alt="Post Sample Image" style="width:100%">
+</a> 
 
 
 <!--
@@ -45,11 +58,6 @@ Happy Coding!
 
 
 
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
-
-</blockquote>
 
 
 <!-- 
