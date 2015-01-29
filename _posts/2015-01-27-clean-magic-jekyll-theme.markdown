@@ -4,7 +4,7 @@ title:      "Clean Magic Jekyll Theme V.0.3.0"
 subtitle:   "Download my New Jekyll Theme"
 date:       2015-01-27 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg"
+header-img: "img/Clouds_1_.jpg"
 ---
 <h2 class="section-heading">Download</h2>
 
