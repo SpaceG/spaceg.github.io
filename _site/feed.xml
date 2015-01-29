@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Jan 2015 13:34:30 +0100</pubDate>
-    <lastBuildDate>Wed, 28 Jan 2015 13:34:30 +0100</lastBuildDate>
+    <pubDate>Thu, 29 Jan 2015 15:12:56 +0100</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2015 15:12:56 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -29,8 +29,6 @@ Because the Page have only a frame in the index.html file and the rest based on 
                 &lt;/h3&gt;&lt;/div&gt;
         &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
       &lt;/div&gt;
-
-&lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;http://helenvholmes.com/#/portfolio&quot;&gt;Helen V. Holmes&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;

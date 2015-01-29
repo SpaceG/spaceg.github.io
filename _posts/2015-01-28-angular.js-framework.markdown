@@ -27,7 +27,6 @@ Because the Page have only a frame in the index.html file and the rest based on 
         <div class="col-md-4"></div>
       </div>
 
-I Got this tip from Helen, [Helen V. Holmes](http://helenvholmes.com/#/portfolio) 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/concepts-startup.png" alt="Post Sample Image" style="width:100%">
