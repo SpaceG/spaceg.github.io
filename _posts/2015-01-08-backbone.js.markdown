@@ -4,7 +4,7 @@ title:      "backbone.js "
 subtitle:   "Give your JS App some Backbone with Models, Views, Collections, and Events"
 date:       2015-01-08 13:00:40
 author:     "Lucas Gatsas"
-header-img: "img/maxresdefault.jpg"
+header-img: "img/1500x500.jpg"
 ---
 <h2 class="section-heading">Give your JS App some Backbone with Models, Views, Collections, and Events </h2>
 
