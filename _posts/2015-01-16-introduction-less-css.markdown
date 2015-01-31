@@ -4,7 +4,7 @@ title:      "less/css - Introduction"
 subtitle:   "less.js - lesscss.org"
 date:       2015-01-16 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/less_css_programming-wallpaper-1680x1260.jpg"
+header-img: "img/lucas-gatsas-02.jpg"
 ---
 <h2 class="section-heading">A Less.js Introduction</h2>
 
