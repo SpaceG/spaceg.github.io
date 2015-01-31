@@ -393,10 +393,10 @@ font-weight: 100;
 }
 .section-heading {
   font-size: 36px;
-  margin-top: 60px;
-  font-weight: 700;
-  color: #2E2E2E;
-  text-align: center;
+margin-top: 60px;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.83);
+text-align: center;
 }
 .caption {
   text-align: center;
