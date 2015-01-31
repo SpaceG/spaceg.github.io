@@ -4,7 +4,7 @@ title:      "Chrome YouTube cast_sender.js console error"
 subtitle:   "Console Check out about Errors"
 date:       2015-01-20 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/eC1hckR.jpg"
+header-img: "img/lucas-gatsas-12.jpg"
 ---
 <h2 class="section-heading">Chrome YouTube cast_sender.js console error</h2>
 

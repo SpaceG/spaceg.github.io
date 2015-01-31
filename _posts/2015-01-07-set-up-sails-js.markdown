@@ -4,7 +4,7 @@ title:      "Set Up sails.js - Sails js - Framework"
 subtitle:   "Build larger Applications with Sails.js"
 date:       2015-01-06 13:00:02
 author:     "Lucas Gatsas"
-header-img: "img/p1018859.jpg"
+header-img: "img/lucas-gatsas-13.jpg"
 ---
 <h2 class="section-heading">sails.js </h2>
 
