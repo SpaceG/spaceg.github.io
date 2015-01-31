@@ -4,7 +4,7 @@ title:      "Material Design - UI"
 subtitle:   "Google Material Design"
 date:       2015-01-11 13:00:44
 author:     "Lucas Gatsas"
-header-img: "img/google-design-google-plus-cover-material.jpg"
+header-img: "img/lucas-gatsas-04.jpg"
 ---
 <h2 class="section-heading">UI - Google Material Design </h2>
 

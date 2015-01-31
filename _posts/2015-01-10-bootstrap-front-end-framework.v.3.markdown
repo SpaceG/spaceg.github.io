@@ -4,7 +4,7 @@ title:      "Bootstrap Currently v3.3.1 - Front-End Framework"
 subtitle:   "Bootstrap makes front-end web development faster and easier."
 date:       2015-01-10 13:00:40
 author:     "Lucas Gatsas"
-header-img: "img/Galaxy-Purple-Space-and-Planet.jpg"
+header-img: "img/lucas-gatsas-05.jpg"
 ---
 <h2 class="section-heading">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</h2>
 
