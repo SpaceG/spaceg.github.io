@@ -54,7 +54,6 @@ header-img: "img/lucas-gatsas-04.jpg"
 <h2 class="section-heading"> The Design.</h2>
 
 
-<p>Update Post Soon!</p>
 
 
 
