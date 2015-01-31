@@ -4,7 +4,7 @@ title:      "An Introduction To Object Oriented CSS (OOCSS)"
 subtitle:   "OOCss - Object Orient"
 date:       2015-01-13 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/3296789176_b916c963a2_oKopie.png"
+header-img: "img/lucas-gatsas-10.png"
 ---
 <h2 class="section-heading">Introduction to OOCSS</h2>
 

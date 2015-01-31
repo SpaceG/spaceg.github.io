@@ -4,7 +4,7 @@ title:      "Work Online"
 subtitle:   "Online Work - Networking"
 date:       2015-01-12 13:00:44
 author:     "Lucas Gatsas"
-header-img: "img/5141876846_e5d5cbfac6_o.jpg"
+header-img: "img/lucas-gatsas-11.jpg"
 ---
 <h2 class="section-heading">Online Work - Networking </h2>
 
