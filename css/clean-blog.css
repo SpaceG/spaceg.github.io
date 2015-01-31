@@ -254,7 +254,7 @@ border-bottom: 1px solid transparent;
     color:  #777;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: rgba(64, 64, 64, 0.49);
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
