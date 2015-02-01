@@ -10,7 +10,10 @@
 .spaceg-content {
 text-align: center;
 }
-
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+color: #555;
+background-color: rgba(231, 231, 231, 0);
+}
 
 .container.head {
 width: 100%;
