@@ -598,6 +598,7 @@ padding-right: 13px;
 padding-left: 13px;
 color: lightgrey;
 font-weight: 700;
+font-family: 'Open Sans';
 }
 a#roundbutton:hover {
 border: 1px solid black;
