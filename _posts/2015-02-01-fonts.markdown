@@ -4,7 +4,7 @@ title:      "Get Started with Fonts"
 subtitle:   "Fonts Choose"
 date:       2015-01-28 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/cover-tm156.jpg"
+header-img: "img/img_3182.jpg"
 ---
 <h2 class="section-heading">Different Fonts Already.</h2>
 
