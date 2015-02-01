@@ -29,6 +29,9 @@
                    <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
+                
+               
+                {% for page in site.pages %}{% if page.title %}
                     <li><a href="#">Sent Items</a></li>
                     <li class="divider"></li>
                     <li><a href="#">Trash</a></li>
@@ -39,8 +42,6 @@
 
 
 
-               
-                {% for page in site.pages %}{% if page.title %}
                
                
                 {% endif %}{% endfor %}
