@@ -17,7 +17,11 @@ background-color: rgba(231, 231, 231, 0);
 i#icon-top {
 font-size: 28px;
 }
-
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+color: #262626;
+text-decoration: none;
+background-color: rgba(255, 255, 255, 0);
+}
 .container.head {
 width: 100%;
 min-height: 900px;
