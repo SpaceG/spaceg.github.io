@@ -26,7 +26,9 @@
                     <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                    <li><a href="#">Drafts</a></li>
+                   <li>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </li>
                     <li><a href="#">Sent Items</a></li>
                     <li class="divider"></li>
                     <li><a href="#">Trash</a></li>
@@ -39,9 +41,7 @@
 
                
                 {% for page in site.pages %}{% if page.title %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
+               
                
                 {% endif %}{% endfor %}
 
