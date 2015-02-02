@@ -31,7 +31,7 @@ The <code>angular.js</code> file is the only one we need for a running AngularJS
 
 
 
-By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. the directives are in angular.js.
+By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/concepts-startup.png" alt="Post Sample Image" style="width:50%">
