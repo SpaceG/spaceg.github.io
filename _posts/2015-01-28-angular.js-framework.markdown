@@ -8,7 +8,7 @@ header-img: "img/lucas-gatsas-09.jpg"
 ---
 <h2 class="section-heading">AngularJS — Superheroic JavaScript MVW Framework</h2>
 
-Angular.js - is a fast Javascript MVW Framework.[Angular.js](https://angularjs.org/) 
+Angular.js - is a fast Javascript MVW Framework. [Angular.js](https://angularjs.org/) 
 
 
 I Got this tip from Helen, [Helen V. Holmes](https://twitter.com/helenvholmes) My Ask about her Page Script and Code,
