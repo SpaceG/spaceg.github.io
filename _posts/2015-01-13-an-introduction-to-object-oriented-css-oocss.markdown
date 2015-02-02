@@ -92,7 +92,7 @@ One of the pioneers of the OOCSS movement is[Nicole Sullivan](http://www.stubbor
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:#000000;background:#ffffff;"><pre><span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
 	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"header-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
-	<span style="color:#BABABA; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
 <span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
 
 <span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"main globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
