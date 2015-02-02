@@ -18,6 +18,9 @@ I Got this tip from Helen, [Helen V. Holmes](https://twitter.com/helenvholmes) M
 because the Page have only a frame in the index.html file and the rest based on Javascript. 
 <br>
 
+The <code>angular.js</code> file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here [Angular.js](https://angularjs.org/) Alternative, do cou can download it and integrate locally. - 
+
+
 <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
