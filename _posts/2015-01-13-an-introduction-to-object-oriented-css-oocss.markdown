@@ -72,18 +72,18 @@ One of the pioneers of the OOCSS movement is[Nicole Sullivan](http://www.stubbor
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:#000000;background:#ffffff;"><pre>.globalwidth {
-	width: <span style="color:#008c00; ">980</span>px;
-	margin: <span style="color:#008c00; ">0</span> auto;
+	width: <span style="color:#9D9D9D; ">980</span>px;
+	margin: <span style="color:#9D9D9D;  ">0</span> auto;
 	position: relative;
-	padding-left: <span style="color:#008c00; ">20</span>px;
-	padding-right: <span style="color:#008c00; ">20</span>px;
+	padding-left: <span style="color:#9D9D9D;  ">20</span>px;
+	padding-right: <span style="color:#9D9D9D;  ">20</span>px;
 	overflow: hidden;
 }
 
 .header-inside {
-	padding-top: <span style="color:#008c00; ">20</span>px;
-	padding-bottom: <span style="color:#008c00; ">20</span>px;
-	height: <span style="color:#008c00; ">260</span>px;
+	padding-top: <span style="color:#9D9D9D;  ">20</span>px;
+	padding-bottom: <span style="color:#9D9D9D;  ">20</span>px;
+	height: <span style="color:#9D9D9D;  ">260</span>px;
 }
 </pre></pre></div>
 
