@@ -13,14 +13,14 @@ Now, I'm working on my New Blog today [SpaceG](https://spaceg.github.io), after 
 <blockquote class="twitter-tweet tw-align-center" data-link-color="#666" lang="de"><p><a href="https://t.co/lDeTazgMxE">https://t.co/lDeTazgMxE</a> error when chrome cast extension is not installed <a href="https://twitter.com/google">@google</a> <a href="https://twitter.com/hashtag/javascript?src=hash">#javascript</a> <a href="https://twitter.com/hashtag/console?src=hash">#console</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/557184382742831104">19. Januar 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This is a Terrible Thing from oYouTube Javascript. And wish i could fix this bug. Now after i google About it and ask someone in my Network about this Problem, i found on Stackoverflow a Answer :  [StackOverFlow](http://stackoverflow.com/questions/25814914/chrome-youtube-cast-sender-js-console-error)
+This is a Terrible Thing  the javascript from youtube. And wish i could fix this bug. Now after google About it and ask someone in my Network about this Problem, i found on Stackoverflow an Answer :  [StackOverFlow](http://stackoverflow.com/questions/25814914/chrome-youtube-cast-sender-js-console-error)
 
 This is Terrible because nobody download this Cast App [Google Cast](https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd) 
 
 <blockquote class="twitter-tweet tw-align-center" data-link-color="#666" lang="de"><p>the same <a href="https://twitter.com/hashtag/shit?src=hash">#shit</a> here cast_sender_js <a href="https://twitter.com/hashtag/google?src=hash">#google</a> <a href="https://twitter.com/hashtag/chrome?src=hash">#chrome</a> &gt;&gt; <a href="https://t.co/LWLT2NALKj">https://t.co/LWLT2NALKj</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/557185085699809280">19. Januar 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The only Way to have it without Error, i do not embed YouTube Videos in My Blog, but i want to show Up how to Know How and give users Tips durring the Videos Like Installing Videos etc. I Have foudn Another forum about this kind of a Problem. [My Twitter Status](https://twitter.com/LucasGatsas/status/557185085699809280) and here [My Twitter Status](https://twitter.com/LucasGatsas/status/557184382742831104). Gosh Thanks I'm not the Only one with this Kind One. Maybe Google and YouTube have to Slove this Problem. Because it's distrub to work on, even do you don't know from where it's come. 
+The only Way to have it without Error, i do not embed YouTube Videos in My Blog, but i want to show up how do that work and give users Tips during Installing Videos etc. I Have found Another forum about this kind of a Problem. [My Twitter Status](https://twitter.com/LucasGatsas/status/557185085699809280) and here [My Twitter Status](https://twitter.com/LucasGatsas/status/557184382742831104). Thanks I'm not the only one with this kind one. Maybe Google and YouTube have to slove this Problem. Because it's distrub to work on, even do you don't know from where it's come. 
 
 Happy Coding!
 
