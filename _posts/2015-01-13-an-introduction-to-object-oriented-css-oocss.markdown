@@ -59,10 +59,10 @@ One of the pioneers of the OOCSS movement is[Nicole Sullivan](http://www.stubbor
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:#000000;background:#ffffff;"><pre>.header-inside {
-	width: <span style="color:#008c00; ">980</span>px;
-	height: <span style="color:#008c00; ">260</span>px;
-	padding: <span style="color:#008c00; ">20</span>px;
-	margin: <span style="color:#008c00; ">0</span> auto;
+	width: <span style="color:#9D9D9D; ">980</span>px;
+	height: <span style="color:#9D9D9D; ">260</span>px;
+	padding: <span style="color:#9D9D9D; ">20</span>px;
+	margin: <span style="color:#9D9D9D; ">0</span> auto;
 	position: relative;
 	overflow: hidden;
 }
