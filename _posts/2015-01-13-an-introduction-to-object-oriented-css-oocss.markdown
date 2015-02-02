@@ -90,18 +90,18 @@ One of the pioneers of the OOCSS movement is[Nicole Sullivan](http://www.stubbor
 
 
 <div style="overflow:auto; height=200; width=100%;">
-<pre style="color:#000000;background:#ffffff;"><pre><span style="color:#a65700; ">&lt;</span><span style="color:#5f5035; ">header</span><span style="color:#a65700; ">&gt;</span>
-	<span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"header-inside globalwidth"</span><span style="color:#a65700; ">&gt;</span>
-	<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
-<span style="color:#a65700; ">&lt;/</span><span style="color:#5f5035; ">header</span><span style="color:#a65700; ">&gt;</span>
+<pre style="color:#000000;background:#ffffff;"><pre><span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"header-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
 
-<span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"main globalwidth"</span><span style="color:#a65700; ">&gt;</span>
-<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"main globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
 
-<span style="color:#a65700; ">&lt;</span><span style="color:#5f5035; ">footer</span><span style="color:#a65700; ">&gt;</span>
-	<span style="color:#a65700; ">&lt;</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#274796; "> </span><span style="color:#074726; ">class</span><span style="color:#808030; ">=</span><span style="color:#0000e6; ">"footer-inside globalwidth"</span><span style="color:#a65700; ">&gt;</span>
-	<span style="color:#a65700; ">&lt;/</span><span style="color:#800000; font-weight:bold; ">div</span><span style="color:#a65700; ">&gt;</span>
-<span style="color:#a65700; ">&lt;/</span><span style="color:#5f5035; ">footer</span><span style="color:#a65700; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">footer</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"footer-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">footer</span><span style="color:#BABABA; ">&gt;</span>
 </pre></pre></div>
 
 
