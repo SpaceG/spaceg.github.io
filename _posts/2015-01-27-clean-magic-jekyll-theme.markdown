@@ -8,22 +8,22 @@ header-img: "img/lucas-gatsas-07.jpg"
 ---
 <h2 class="section-heading">Download</h2>
 
-Update Today my New Jekyll Theme. :) 
-
-
-Happy Coding!
+This is my New Jekyll Theme (Clean Magic).
 
 
 
 
+[Download](https://angularjs.org/) 
 
 
-<!--
+[Demo](https://angularjs.org/) 
+
+
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/static.squarespace.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-clean-magic-jekyll-theme.png" alt="Post Sample Image" style="width:100%">
 </a>
--->
+
 
 
 <!--
