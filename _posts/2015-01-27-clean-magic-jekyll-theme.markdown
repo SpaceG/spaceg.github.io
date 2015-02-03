@@ -25,10 +25,10 @@ header-img: "img/lucas-gatsas-07.jpg"
 
 This is my New Jekyll Theme (Clean Magic). 
 
-[Download](https://angularjs.org/) 
+[Download](https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/) 
 
 
-[Demo](https://angularjs.org/) 
+[Demo](https://spaceg.github.io/) 
 
 
 <!--
