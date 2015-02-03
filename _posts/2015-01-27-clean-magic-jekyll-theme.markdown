@@ -8,15 +8,6 @@ header-img: "img/lucas-gatsas-07.jpg"
 ---
 <h2 class="section-heading">Download</h2>
 
-This is my New Jekyll Theme (Clean Magic). 
-
-
-
-
-[Download](https://angularjs.org/) 
-
-
-[Demo](https://angularjs.org/) 
 
 
 
@@ -32,6 +23,12 @@ This is my New Jekyll Theme (Clean Magic).
 </a>
 
 
+This is my New Jekyll Theme (Clean Magic). 
+
+[Download](https://angularjs.org/) 
+
+
+[Demo](https://angularjs.org/) 
 
 
 <!--
