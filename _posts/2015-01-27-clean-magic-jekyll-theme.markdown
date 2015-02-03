@@ -8,7 +8,7 @@ header-img: "img/lucas-gatsas-07.jpg"
 ---
 <h2 class="section-heading">Download</h2>
 
-This is my New Jekyll Theme (Clean Magic).
+This is my New Jekyll Theme (Clean Magic). 
 
 
 
@@ -23,6 +23,14 @@ This is my New Jekyll Theme (Clean Magic).
 <a href="#">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-clean-magic-jekyll-theme.png" alt="Post Sample Image" style="width:100%">
 </a>
+
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-13.png" alt="Post Sample Image" style="width:100%">
+</a>
+
 
 
 
