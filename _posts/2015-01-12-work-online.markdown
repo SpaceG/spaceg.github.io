@@ -10,13 +10,12 @@ header-img: "img/lucas-gatsas-11.jpg"
 
 
 
-<p>I Will beginn this Post with a Quote "Find a Job you Love and you'll never work a day in your Life." This is my Insperation and Motivation to work everyday on my Start Up Project. " Life is too short to work for a boring company or at a boring Job. Keep up the good work and never give up." </p>
+<p>I will begin this Post with a Quote "Find a Job you Love and you'll never work a day in your Life." This is my Insperation and Motivation to Work everyday on my Start Up Project. " Life is too short to work for a boring company or at a boring Job. Keep up the good work and never give up." </p>
 
 
-<p>And one of my most Secret to Work Online in my Network which one i have build during the last two years are: "Successful People build each other up. They motivate, inspire, and push each other. Unsuccessful People just hate, blame, and complain everything." In the last two years i have meet some Developers, but most them were very crazy demotivate to work on a Project. </p>
+<p>And one of my most Secret to Work Online in my Network which one i have build during the last two years are: "Successful People build each other up. They motivate, inspire, and push each other. Unsuccessful People just hate, blame, and complain everything." In the last two years i have met some Developers, but most them were very crazy demotivate to work on a Project. </p>
 
 
-<p>More to read soon!</p>
 
 
 <h2 class="section-heading">Networking </h2>

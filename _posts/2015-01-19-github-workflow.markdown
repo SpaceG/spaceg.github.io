@@ -8,7 +8,7 @@ header-img: "img/jetpack-octocat-clouds-11760c12e5f33fb4ecec2ce20b894461.jpg"
 ---
 <h2 class="section-heading">Github Introduction</h2>
 
-Today, i gona show some Steps on Github using Ui from GitHub.
+Today, I gonna show you some Steps on Github using Ui from GitHub.
 
 Download
 [GitHub for Mac](https://mac.github.com/)
