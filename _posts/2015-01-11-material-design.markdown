@@ -58,10 +58,7 @@ header-img: "img/lucas-gatsas-04.jpg"
 
 
 
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
-
+<blockquote>There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
 </blockquote>
 
 

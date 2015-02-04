@@ -19,7 +19,7 @@ This Blog are use the Style Fonts
 [Merriweather Serif](http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Merriweather).
 
 
-These are my Fonts which use it. -   
+These are my Fonts.
 
 <br>
 <!--
@@ -76,4 +76,7 @@ These are my Fonts which use it. -
  -->
 
 
+<blockquote>Good Art is a Taste, Good Design is an Opinion! - 
+
+</blockquote>
 

@@ -45,7 +45,7 @@ Open SSL Source
 Open SSL Source
 <br>
 
-<blockquote>Good Things never ending!</blockquote>
+<blockquote>Computers are good at following instructions, but not at reading your mind. ~ Donald Knuth</blockquote>
 
 
 <!--
