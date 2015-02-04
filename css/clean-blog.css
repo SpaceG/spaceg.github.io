@@ -43,7 +43,7 @@ cursor: pointer;
 }
 .modal-open .modal {
 overflow-x: hidden;
-overflow-y: auto;
+overflow-y: hidden;
 }
 .fade.in {
 opacity: 1;
