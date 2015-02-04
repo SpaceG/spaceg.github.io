@@ -85,6 +85,7 @@ transition: opacity 0.15s linear;
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
     border-radius: 90%;
+    height: 210px;
 }
 
 .portfolio-modal .modal-content .item-details {
