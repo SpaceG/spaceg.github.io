@@ -25,7 +25,7 @@ header-img: "img/lucas-gatsas-07.jpg"
 
 This is my New Jekyll Theme (Clean Magic). 
 
-[Download](https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/) 
+[Download](https://github.com/SpaceG/CleanMagic) 
 
 
 [Demo](https://spaceg.github.io/) 
