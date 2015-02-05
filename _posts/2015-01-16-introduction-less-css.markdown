@@ -15,7 +15,7 @@ Less runs inside Node, in the browser and inside Rhino. There are also many 3rd 
 
 
 
-[lesscss.org](https://www.lesscss.org)  
+[lesscss.org](http://www.lesscss.org)  
 
 <!--
 
