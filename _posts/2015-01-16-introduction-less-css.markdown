@@ -13,6 +13,10 @@ Less is a CSS pre-processor, meaning that it extends the CSS language, adding fe
 Less runs inside Node, in the browser and inside Rhino. There are also many 3rd party tools that allow you to compile your files and watch for changes.
 
 
+
+
+[lesscss.org](https://www.lesscss.org)  
+
 <!--
 
 <a href="#">
@@ -26,7 +30,7 @@ Less runs inside Node, in the browser and inside Rhino. There are also many 3rd 
     <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
 </a> -->
 
-<h2 class="section-heading">lesscss.org</h2>
+
 
 
 
