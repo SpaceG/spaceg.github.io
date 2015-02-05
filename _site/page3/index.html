@@ -90,6 +90,7 @@ $('.navbar-collapse ul li a').click(function() {
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -111,7 +112,7 @@ $('.navbar-collapse ul li a').click(function() {
     <div id="status">&nbsp;</div>
 </div>
 
-    <a href="https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0"><img style="z-index:3;position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>
+    <!--<a href="https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0"><img style="z-index:3;position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a> -->
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
@@ -129,27 +130,35 @@ $('.navbar-collapse ul li a').click(function() {
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+
+
+
+
+  <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-bars" id="icon-top"></i></a>
+                <ul class="dropdown-menu">
+                   <li>
                     <a href="/">Home</a>
                 </li>
-                
-                <li>
-                    <a href="/about/">Start Ups</a>
-                </li>
-               
-                
-                <li>
-                    <a href="/archive/">Archive</a>
-                </li>
-               
-                
-
+                    <li><a href="https://spaceg.github.io/about">About Me</a></li>
+                    <li><a href="https://spaceg.github.io/archive/">Archive</a></li>
+                    <li class="divider"></li>
+                   
                   <li>
                     <a href="https://github.com/spaceg"><i class="fa fa-github" id="github-icon-top"></i></a>
                 </li>
+                </ul>
+            </li>
+
+
+     
+
+
 
                     <li>
-    <!-- <a href="https://www.google.ch/intl/de/chrome/browser/desktop/index.html"  target="_blank" ><img src="img/api_giphy_logo.png" style="width:40px;" alt="img03"/>--> <a class="navbar-brand" href="https://twitter.com/LucasGatsas"><img src="https://pbs.twimg.com/profile_images/559425037925498880/UL8HyKsM_400x400.jpeg" id="small-img-nav" width="40" height="40" class="img-circle" alt="newspace"></a>
+
+                
+   <a class="navbar-brand portfolio-link" href="#portfolioModal1" data-toggle="modal"><img src="https://pbs.twimg.com/profile_images/562741191653875712/93TyTG3x.png" id="small-img-nav" width="40" height="40" class="img-circle" alt="newspace"></a>
                     </li>
 
                <li>
@@ -198,7 +207,44 @@ $('.navbar-collapse ul li a').click(function() {
 -->
 
 
-
+<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h1>Lucas Gatsas</h1>
+                            <hr class="star-primary">
+                            <img src="https://pbs.twimg.com/profile_images/562741191653875712/93TyTG3x.png" class="img-responsive img-centered" alt="">
+                            <p>Hello, my name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland.<a href="https://www.twitter.com/LucasGatsas">follow</a>. </p>
+                          <!--  <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Page Header -->
@@ -232,7 +278,7 @@ $('.navbar-collapse ul li a').click(function() {
 
             <section class="spaceg-beetween">
                     <div class="spaceg-content">
-                            <p>Follow me <a href="https://www.twitter.com/@LucasGatsas"><strong><i class="fa fa-twitter"></i> @LucasGatsas</strong></a></p>
+                            <p>Follow me <a href="https://www.twitter.com/@LucasGatsas"><strong> @LucasGatsas</strong></a></p>
                     </div>
 
             </section>
@@ -245,7 +291,130 @@ $('.navbar-collapse ul li a').click(function() {
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/5141876846_e5d5cbfac6_o.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-10.png')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-13T15:00:44+01:00">
+							<a href="https://spaceg.github.io/2015/01/13/an-introduction-to-object-oriented-css-oocss/">January 13, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://spaceg.github.io/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/13/an-introduction-to-object-oriented-css-oocss/" rel="bookmark" title="An Introduction To Object Oriented CSS (OOCSS)" itemprop="url">An Introduction To Object Oriented CSS (OOCSS)</a></h1>
+				
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Introduction to OOCSS</h2>
+
+<p>Go See: 
+<a href="https://github.com/stubbornella/oocss/wiki/">OOCss on GitHub</a></p>
+
+<p>Go See: 
+<a href="http://oocss.org/grids_docs.html">OOCss Docs</a></p>
+
+<p>Go See: 
+<a href="http://www.stubbornella.org/content/2014/05/09/sexist-by-design/">SEXIST BY DESIGN?</a></p>
+
+<!--
+
+<a href="#">
+    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
+</a>
+-->
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">OOCSS </h2>
+
+<p>Have you ever heard the phrase “Content is King”? Being a Web developer, and therefore having a job that’s often linked to content creation, it’s likely you have. It’s a fairly overused but true statement about what draws visitors to a site.</p>
+
+<p>The Other Question is how do you can Go 
+<a href="http://www.stevesouders.com/blog/">speed is king</a>
+ up your site during less code in your app. Best Practices for Speeding Up Your Web Site by Yahoo : 
+<a href="https://developer.yahoo.com/performance/rules.html">speed up</a></p>
+
+<p>Go See: 
+<a href="http://www.stevesouders.com/blog/2009/10/06/business-impact-of-high-performance/">speed is king</a></p>
+
+<h2 class="section-heading">The Media Object</h2>
+
+<p>One of the pioneers of the OOCSS movement is<a href="http://www.stubbornella.org/content/2014/05/09/sexist-by-design/">Nicole Sullivan</a>. She’s created a reusable module called the <a href="https://github.com/stubbornella/oocss/wiki/Content">media object</a>  which, as she explains, can <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">save hundreds of lines of code.</a> </p>
+
+<h2 class="section-heading">Example of a OOcss </h2>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre>.header-inside {
+	width: <span style="color:#9D9D9D; ">980</span>px;
+	height: <span style="color:#9D9D9D; ">260</span>px;
+	padding: <span style="color:#9D9D9D; ">20</span>px;
+	margin: <span style="color:#9D9D9D; ">0</span> auto;
+	position: relative;
+	overflow: hidden;
+}
+</pre></pre></div>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre>.globalwidth {
+	width: <span style="color:#9D9D9D; ">980</span>px;
+	margin: <span style="color:#9D9D9D;  ">0</span> auto;
+	position: relative;
+	padding-left: <span style="color:#9D9D9D;  ">20</span>px;
+	padding-right: <span style="color:#9D9D9D;  ">20</span>px;
+	overflow: hidden;
+}
+
+.header-inside {
+	padding-top: <span style="color:#9D9D9D;  ">20</span>px;
+	padding-bottom: <span style="color:#9D9D9D;  ">20</span>px;
+	height: <span style="color:#9D9D9D;  ">260</span>px;
+}
+</pre></pre></div>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre><span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"header-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
+
+<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"main globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+
+<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">footer</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"footer-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">footer</span><span style="color:#BABABA; ">&gt;</span>
+</pre></pre></div>
+
+<blockquote> "Find a Job you Love and you'll never work a day in your life". - 
+
+</blockquote>
+
+<p><a href="#">
+    <img src="/img/the-cascade-grids-headings-and-selectors-from-an-oocss-perspective-ajax-experience-2009-1-728.jpg" alt="Post Sample Image" style="width:100%" />
+</a> </p>
+
+
+		</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-11.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
@@ -272,11 +441,9 @@ $('.navbar-collapse ul li a').click(function() {
 		<div class="entry-content">
 			<h2 class="section-heading">Online Work - Networking </h2>
 
-<p>I Will beginn this Post with a Quote "Find a Job you Love and you'll never work a day in your Life." This is my Insperation and Motivation to work everyday on my Start Up Project. " Life is too short to work for a boring company or at a boring Job. Keep up the good work and never give up." </p>
+<p>I will begin this Post with a Quote "Find a Job you Love and you'll never work a day in your Life." This is my Insperation and Motivation to Work everyday on my Start Up Project. " Life is too short to work for a boring company or at a boring Job. Keep up the good work and never give up." </p>
 
-<p>And one of my most Secret to Work Online in my Network which one i have build during the last two years are: "Successful People build each other up. They motivate, inspire, and push each other. Unsuccessful People just hate, blame, and complain everything." In the last two years i have meet some Developers, but most them were very crazy demotivate to work on a Project. </p>
-
-<p>More to read soon!</p>
+<p>And one of my most Secret to Work Online in my Network which one i have build during the last two years are: "Successful People build each other up. They motivate, inspire, and push each other. Unsuccessful People just hate, blame, and complain everything." In the last two years i have met some Developers, but most them were very crazy demotivate to work on a Project. </p>
 
 <h2 class="section-heading">Networking </h2>
 
@@ -313,7 +480,7 @@ $('.navbar-collapse ul li a').click(function() {
 
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/google-design-google-plus-cover-material.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-04.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
@@ -367,12 +534,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 <h2 class="section-heading"> The Design.</h2>
 
-<p>Update Post Soon!</p>
-
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
-
+<blockquote>There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
 </blockquote>
 
 <!-- 
@@ -390,7 +552,7 @@ $('.navbar-collapse ul li a').click(function() {
 
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/Galaxy-Purple-Space-and-Planet.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-05.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
@@ -481,7 +643,7 @@ Have a bunch of buttons that all trigger the same modal, just with slightly diff
 
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/image_(6).jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-16.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
@@ -1027,97 +1189,6 @@ th {
   padding: 0;
 }
 </pre></pre></div>
-<p>Update Post Soon!</p>
-
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
-
-</blockquote>
-
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
-
-
-
- -->
-
-
-		</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/maxresdefault.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-01-08T14:00:40+01:00">
-							<a href="https://spaceg.github.io/2015/01/08/backbone.js/">January 08, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://spaceg.github.io/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/08/backbone.js/" rel="bookmark" title="backbone.js " itemprop="url">backbone.js </a></h1>
-				
-			</header>
-
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Give your JS App some Backbone with Models, Views, Collections, and Events </h2>
-
-<p>Backbone.js
-###<a href="https://github.com/jashkenas/backbone/">Backbone.js</a></p>
-
-<p>Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.</p>
-
-<p>Download
-<a href="https://github.com/jashkenas/backbone/">backbone.js</a></p>
-
-<p>Download
-<a href="http://backbonejs.org/">backbone.js Introductions</a></p>
-
-<p>Download
-<a href="http://jquery.com/download/">Jquery Introductions</a></p>
-
-<p>Download
-<a href="http://underscorejs.org/">Underscore.js Introductions</a></p>
-
-<!--
-<a href="#">
-    <img src="/img/gitlist.io.png" alt="Post Sample Image">
-</a> -->
-
-<h2 class="section-heading">	Skeletal Structure
-or the Matrix of Backbone in index.html + Javascript Library. </h2>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre><small>&lt;!DOCTYPE html&gt;</small>
- <b>&lt;</b><b>html</b><b>&gt;</b>
- <b>&lt;</b><b>head</b><b>&gt;</b>
-<b>&lt;</b><b>title</b><b>&gt;</b> Backbone.js <b>&lt;/</b><b>title</b><b>&gt;</b>
-<b>&lt;</b><b>script src="jquery-1.11.0.min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b>
-<b>&lt;</b><b>script src="underscore-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.6.0 --&gt;</i>
-<b>&lt;</b><b>script src="backbone-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.1.1 --&gt;</i>
-<b>&lt;/</b><b>head</b><b>&gt;</b>
-<b>&lt;</b><b>body</b><b>&gt;</b>
-
-<b>&lt;/</b><b>body</b><b>&gt;</b>
-<b>&lt;/</b><b>html</b><b>&gt;</b>
-</pre></pre></div>
-
-<p>Update Post Soon!</p>
 
 <blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
 
@@ -1229,9 +1300,10 @@ $('.content').jscroll({
                     </li>
                     
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; l.g 2015 - 2016. <br> This Site is Hosted on  </p>
+                <p class="copyright text-muted">Copyright &copy; l.g 2015 - 2016. <br> 2013, 2014, 2015 </p>
 <div class="col-md-12">
-   <a href="https://pages.github.com/"><img src="/img/gh-pages-logo.png" id="logo-github" alt="Post Sample Image" class="img-responsive center-block"></a>  <p class="copyright text-muted"> Running with <a href="https://github.com/jekyll/jekyll"><img src="/img/jekyll.png"  id="logo-jekyll" alt="Post Sample Image" class="img-responsive center-block"></a></p>
+     <p class="copyright text-muted"> Running with
+    <a href="https://github.com/jekyll/jekyll">Jekyll Theme</a> Hosted on <a href="https://pages.github.com/"> Github</a></p>
     </div>
             </div>
         </div>

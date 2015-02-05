@@ -5,22 +5,94 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Jan 2015 15:18:30 +0100</pubDate>
-    <lastBuildDate>Thu, 29 Jan 2015 15:18:30 +0100</lastBuildDate>
+    <pubDate>Thu, 05 Feb 2015 01:49:05 +0100</pubDate>
+    <lastBuildDate>Thu, 05 Feb 2015 01:49:05 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Get Started with Fonts</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Different Fonts Already.&lt;/h2&gt;
+
+&lt;p&gt;This is a Article about my Fonts Experiments. I Work alot with Fonts in the Front-End Work and Design. 
+I can spend of hours with these Fonts. Sometimes i don’t like it to purchase a Font?! - Why i should Purchase one?
+This is the Way, i decide to use Google Fonts with their Library of Fonts. - 
+Please Have take alook. &lt;a href=&quot;https://www.google.com/fonts&quot;&gt;Google Fonts&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;This Blog are use the Style Fonts 
+&lt;a href=&quot;https://www.google.com/fonts#UsePlace:use/Collection:Playfair+Display+SC&quot;&gt;Playfair Display SC&lt;/a&gt; And The 
+&lt;a href=&quot;http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Merriweather&quot;&gt;Merriweather Serif&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These are my Fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:50%&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+&lt;blockquote&gt;Good Art is a Taste, Good Design is an Opinion! - 
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 01 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/01/fonts/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/01/fonts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Angular.js</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
 
-&lt;p&gt;Angular.js - is a fast Javascript MVW Framework.&lt;/p&gt;
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;Happy Coding!
-I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; during my Ask about her Page Script and Code.
-Because the Page have only a frame in the index.html file and the rest based on Javascript. 
+&lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; My Ask about her Page Script and Code,
+because the Page have only a frame in the index.html file and the rest based on Javascript. 
 &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
@@ -30,8 +102,10 @@ Because the Page have only a frame in the index.html file and the rest based on 
         &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
       &lt;/div&gt;
 
+&lt;p&gt;By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:50%&quot; /&gt;
 &lt;/a&gt; &lt;/p&gt;
 
 &lt;!--
@@ -63,6 +137,9 @@ Because the Page have only a frame in the index.html file and the rest based on 
 
  --&gt;
 
+&lt;blockquote&gt;Every large system that works started as small system that worked.
+
+&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 28 Jan 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/28/angular.js-framework/</link>
@@ -75,16 +152,19 @@ Because the Page have only a frame in the index.html file and the rest based on 
         <title>Clean Magic Jekyll Theme V.0.3.0</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Download&lt;/h2&gt;
 
-&lt;p&gt;Update Today my New Jekyll Theme. :) &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas-clean-magic-jekyll-theme.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Happy Coding!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas-13.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;!--
+&lt;p&gt;This is my New Jekyll Theme (Clean Magic). &lt;/p&gt;
 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt;
---&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagic&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;Demo&lt;/a&gt; &lt;/p&gt;
 
 &lt;!--
 &lt;a href=&quot;#&quot;&gt;
@@ -99,9 +179,7 @@ Because the Page have only a frame in the index.html file and the rest based on 
 
 --&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
+&lt;blockquote&gt;Programming is like, write a Book. .- 
 
 &lt;/blockquote&gt;
 
@@ -153,9 +231,7 @@ Now have a take a look. ! Hope do you Like it. - &lt;/p&gt;
 
 --&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
+&lt;blockquote&gt;You can&#39;t trust code that you did not totally create yourself. (Especially code from companies that employ people like me.) No amount of source-level verification or scrutiny will protect you from using untrusted code. - Kenneth Thompson
 
 &lt;/blockquote&gt;
 
@@ -182,17 +258,17 @@ Now have a take a look. ! Hope do you Like it. - &lt;/p&gt;
 
 &lt;p&gt;Now, I’m working on my New Blog today &lt;a href=&quot;https://spaceg.github.io&quot;&gt;SpaceG&lt;/a&gt;, after finish my new Design  i have checked out the Console about javascript Errors! There are some Bug from You Tube Javascript, in the www-embed-player.js file of Google and You Tube. Excat this line, which shows up in the console. &lt;code&gt; function Wj(a){return&quot;chrome-extension://&quot;+a+&quot;/cast_sender.js&quot;} &lt;/code&gt;&lt;/p&gt;
 
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://t.co/lDeTazgMxE&quot;&gt;https://t.co/lDeTazgMxE&lt;/a&gt; error when chrome cast extension is not installed &lt;a href=&quot;https://twitter.com/google&quot;&gt;@google&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/javascript?src=hash&quot;&gt;#javascript&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/console?src=hash&quot;&gt;#console&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557184382742831104&quot;&gt;19. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://t.co/lDeTazgMxE&quot;&gt;https://t.co/lDeTazgMxE&lt;/a&gt; error when chrome cast extension is not installed &lt;a href=&quot;https://twitter.com/google&quot;&gt;@google&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/javascript?src=hash&quot;&gt;#javascript&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/console?src=hash&quot;&gt;#console&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557184382742831104&quot;&gt;19. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;This is a Terrible Thing from oYouTube Javascript. And wish i could fix this bug. Now after i google About it and ask someone in my Network about this Problem, i found on Stackoverflow a Answer :  &lt;a href=&quot;http://stackoverflow.com/questions/25814914/chrome-youtube-cast-sender-js-console-error&quot;&gt;StackOverFlow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a Terrible Thing  the javascript from youtube. And wish i could fix this bug. Now after google About it and ask someone in my Network about this Problem, i found on Stackoverflow an Answer :  &lt;a href=&quot;http://stackoverflow.com/questions/25814914/chrome-youtube-cast-sender-js-console-error&quot;&gt;StackOverFlow&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is Terrible because nobody download this Cast App &lt;a href=&quot;https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd&quot;&gt;Google Cast&lt;/a&gt; &lt;/p&gt;
 
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;the same &lt;a href=&quot;https://twitter.com/hashtag/shit?src=hash&quot;&gt;#shit&lt;/a&gt; here cast_sender_js &lt;a href=&quot;https://twitter.com/hashtag/google?src=hash&quot;&gt;#google&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/chrome?src=hash&quot;&gt;#chrome&lt;/a&gt; &amp;gt;&amp;gt; &lt;a href=&quot;https://t.co/LWLT2NALKj&quot;&gt;https://t.co/LWLT2NALKj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557185085699809280&quot;&gt;19. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;the same &lt;a href=&quot;https://twitter.com/hashtag/shit?src=hash&quot;&gt;#shit&lt;/a&gt; here cast_sender_js &lt;a href=&quot;https://twitter.com/hashtag/google?src=hash&quot;&gt;#google&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/chrome?src=hash&quot;&gt;#chrome&lt;/a&gt; &amp;gt;&amp;gt; &lt;a href=&quot;https://t.co/LWLT2NALKj&quot;&gt;https://t.co/LWLT2NALKj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557185085699809280&quot;&gt;19. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;This is for me.. liek a Bug in Whole Hole. Anyway! Only Way, to have it without Error, i do not embed YOuTube Videos in My Blog, but i want to show Up how to Know How and Give Users Tips durring the Videos Like Installing Videos etc. I Have foudn Another forum about this kind of a Problem. &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557185085699809280&quot;&gt;My Twitter Status&lt;/a&gt; and here &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557184382742831104&quot;&gt;My Twitter Status&lt;/a&gt;. Gosh Thanks I’m not the Only one with this Kind One. Maybe Google and YouTube have to Slove this Problem. Because it’s distrub to work on, even do you don’t know from where it’s come. &lt;/p&gt;
+&lt;p&gt;The only Way to have it without Error, i do not embed YouTube Videos in My Blog, but i want to show up how do that work and give users Tips during Installing Videos etc. I Have found Another forum about this kind of a Problem. &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557185085699809280&quot;&gt;My Twitter Status&lt;/a&gt; and here &lt;a href=&quot;https://twitter.com/LucasGatsas/status/557184382742831104&quot;&gt;My Twitter Status&lt;/a&gt;. Thanks I’m not the only one with this kind one. Maybe Google and YouTube have to slove this Problem. Because it’s distrub to work on, even do you don’t know from where it’s come. &lt;/p&gt;
 
 &lt;p&gt;Happy Coding!&lt;/p&gt;
 
@@ -222,9 +298,7 @@ Now have a take a look. ! Hope do you Like it. - &lt;/p&gt;
 
 --&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
+&lt;blockquote&gt;A good programmer is someone who always look both ways before crossing a one-way street.
 
 &lt;/blockquote&gt;
 
@@ -249,7 +323,7 @@ Now have a take a look. ! Hope do you Like it. - &lt;/p&gt;
         <title>Github - Introduction</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Github Introduction&lt;/h2&gt;
 
-&lt;p&gt;Today, i gona show some Steps on Github using Ui from GitHub.&lt;/p&gt;
+&lt;p&gt;Today, I gonna show you some Steps on Github using Ui from GitHub.&lt;/p&gt;
 
 &lt;p&gt;Download
 &lt;a href=&quot;https://mac.github.com/&quot;&gt;GitHub for Mac&lt;/a&gt;&lt;/p&gt;
@@ -300,9 +374,9 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 
 --&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+&lt;blockquote&gt;One of my most productive days was throwing away 1000 lines of code.
 
-- Steve Jobs
+        — Ken Thompson
 
 &lt;/blockquote&gt;
 
@@ -347,9 +421,9 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 
 --&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+&lt;blockquote&gt;When in doubt, use brute force.
 
-- Steve Jobs
+        — Ken Thompson
 
 &lt;/blockquote&gt;
 
@@ -392,9 +466,9 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;lesscss.org&lt;/h2&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+&lt;blockquote&gt;Deleted code is debugged code.
 
-- Steve Jobs
+        — Jeff Sickel
 
 &lt;/blockquote&gt;
 
@@ -486,9 +560,9 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;WCAG 2.0 on Color Contrast&lt;/h2&gt;
 
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
+&lt;blockquote&gt;UNIX was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things.
 
-- Steve Jobs
+        — Doug Gwyn
 
 &lt;/blockquote&gt;
 
@@ -505,108 +579,6 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
         <pubDate>Wed, 14 Jan 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/14/WCAG-2.0-on-color-contrast-ratio/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/14/WCAG-2.0-on-color-contrast-ratio/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>An Introduction To Object Oriented CSS (OOCSS)</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Introduction to OOCSS&lt;/h2&gt;
-
-&lt;p&gt;Go See: 
-&lt;a href=&quot;https://github.com/stubbornella/oocss/wiki/&quot;&gt;OOCss on GitHub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Go See: 
-&lt;a href=&quot;http://oocss.org/grids_docs.html&quot;&gt;OOCss Docs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Go See: 
-&lt;a href=&quot;http://www.stubbornella.org/content/2014/05/09/sexist-by-design/&quot;&gt;SEXIST BY DESIGN?&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt;
---&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;OOCSS &lt;/h2&gt;
-
-&lt;p&gt;Have you ever heard the phrase “Content is King”? Being a Web developer, and therefore having a job that’s often linked to content creation, it’s likely you have. It’s a fairly overused but true statement about what draws visitors to a site.&lt;/p&gt;
-
-&lt;p&gt;The Other Question is how do you can Go 
-&lt;a href=&quot;http://www.stevesouders.com/blog/&quot;&gt;speed is king&lt;/a&gt;
- up your site during less code in your app. Best Practices for Speeding Up Your Web Site by Yahoo : 
-&lt;a href=&quot;https://developer.yahoo.com/performance/rules.html&quot;&gt;speed up&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Go See: 
-&lt;a href=&quot;http://www.stevesouders.com/blog/2009/10/06/business-impact-of-high-performance/&quot;&gt;speed is king&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Media Object&lt;/h2&gt;
-
-&lt;p&gt;One of the pioneers of the OOCSS movement is&lt;a href=&quot;http://www.stubbornella.org/content/2014/05/09/sexist-by-design/&quot;&gt;Nicole Sullivan&lt;/a&gt;. She’s created a reusable module called the &lt;a href=&quot;https://github.com/stubbornella/oocss/wiki/Content&quot;&gt;media object&lt;/a&gt;  which, as she explains, can &lt;a href=&quot;http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/&quot;&gt;save hundreds of lines of code.&lt;/a&gt; &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Example of a OOcss &lt;/h2&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:#000000;background:#ffffff;&quot;&gt;&lt;pre&gt;.header-inside {
-	width: &lt;span style=&quot;color:#008c00; &quot;&gt;980&lt;/span&gt;px;
-	height: &lt;span style=&quot;color:#008c00; &quot;&gt;260&lt;/span&gt;px;
-	padding: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
-	margin: &lt;span style=&quot;color:#008c00; &quot;&gt;0&lt;/span&gt; auto;
-	position: relative;
-	overflow: hidden;
-}
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:#000000;background:#ffffff;&quot;&gt;&lt;pre&gt;.globalwidth {
-	width: &lt;span style=&quot;color:#008c00; &quot;&gt;980&lt;/span&gt;px;
-	margin: &lt;span style=&quot;color:#008c00; &quot;&gt;0&lt;/span&gt; auto;
-	position: relative;
-	padding-left: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
-	padding-right: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
-	overflow: hidden;
-}
-
-.header-inside {
-	padding-top: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
-	padding-bottom: &lt;span style=&quot;color:#008c00; &quot;&gt;20&lt;/span&gt;px;
-	height: &lt;span style=&quot;color:#008c00; &quot;&gt;260&lt;/span&gt;px;
-}
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:#000000;background:#ffffff;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;header&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#274796; &quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#074726; &quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#808030; &quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#0000e6; &quot;&gt;&quot;header-inside globalwidth&quot;&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;header&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-
-&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#274796; &quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#074726; &quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#808030; &quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#0000e6; &quot;&gt;&quot;main globalwidth&quot;&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-
-&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;footer&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#274796; &quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#074726; &quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#808030; &quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#0000e6; &quot;&gt;&quot;footer-inside globalwidth&quot;&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#800000; font-weight:bold; &quot;&gt;div&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color:#5f5035; &quot;&gt;footer&lt;/span&gt;&lt;span style=&quot;color:#a65700; &quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;blockquote&gt; &quot;Find a Job you Love and you&#39;ll never work a day in your life&quot;. - 
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/the-cascade-grids-headings-and-selectors-from-an-oocss-perspective-ajax-experience-2009-1-728.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt; &lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 13 Jan 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/13/an-introduction-to-object-oriented-css-oocss/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/13/an-introduction-to-object-oriented-css-oocss/</guid>
         
         
       </item>
