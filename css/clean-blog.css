@@ -1,14 +1,22 @@
 /*!
-
  Top Stylesheet for my Blog! 
- spaceg.github.io write by Lucas Gatsas. 2015 Mo. 2 February. 
-
-
+ spaceg.github.io by Lucas Gatsas. 
  */
+ /* New Update Mo. 2 Feb. 2015 -02:33:45*/
+/* New Update Fr. 6 Feb. 2015 -01:57:13 */
+
+
 
  p.font-style-inline-small {
 font-size: 13px;
 color: rgba(128, 128, 128, 0.74);
+}
+h1.font-style-inline-small-h1 {
+font-family: 'Playfair Display', serif;
+font-weight: 100;
+/* font-size: 76px; */
+color: rgb(58, 58, 58);
+/* text-transform: uppercase; */
 }
 .portfolio-modal .modal-content {
 padding: 100px 0;
