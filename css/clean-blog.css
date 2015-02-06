@@ -5,6 +5,11 @@
 
 
  */
+
+ p.font-style-inline-small {
+font-size: 13px;
+color: rgba(128, 128, 128, 0.74);
+}
 .portfolio-modal .modal-content {
 padding: 100px 0;
 min-height: 100%;
