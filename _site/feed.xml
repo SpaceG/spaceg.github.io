@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Feb 2015 01:52:45 +0100</pubDate>
-    <lastBuildDate>Thu, 05 Feb 2015 01:52:45 +0100</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2015 00:28:33 +0100</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2015 00:28:33 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -490,6 +490,8 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 
 &lt;p&gt;Less runs inside Node, in the browser and inside Rhino. There are also many 3rd party tools that allow you to compile your files and watch for changes.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;http://www.lesscss.org&quot;&gt;lesscss.org&lt;/a&gt;  &lt;/p&gt;
+
 &lt;!--
 
 &lt;a href=&quot;#&quot;&gt;
@@ -501,8 +503,6 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
 &lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
 &lt;/a&gt; --&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;lesscss.org&lt;/h2&gt;
 
 &lt;blockquote&gt;Deleted code is debugged code.
 
