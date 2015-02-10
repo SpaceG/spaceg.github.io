@@ -4,7 +4,7 @@ title:      "y-combinator Hacker News"
 subtitle:   "My Jekyll Theme (CleanMagic)"
 date:       2015-02-09 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/hacker-news-y-combinator-lucas-gatsas.png"
+header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
 ---
 <h2 class="section-heading">My CleanMagic Theme @ Hacker News</h2>
 
