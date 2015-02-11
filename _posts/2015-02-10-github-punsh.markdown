@@ -39,8 +39,6 @@ This can sometimes 24 hours to 32 Hours non stop on a Code. i will write most do
 
 
 
-[news.ycombinator.com](https://news.ycombinator.com/item?id=9019283) and 
-
 
 
 And now I'm also included the Google Analytic Tool to see around that. - 
