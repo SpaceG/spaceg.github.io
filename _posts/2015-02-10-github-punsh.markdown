@@ -4,7 +4,7 @@ title:      "How many Hours do you sleep?"
 subtitle:   "Culture Shock at my PunshCard @ Github"
 date:       2015-02-10 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Айвазовский_И.К._Волна.jpg"
+header-img: "img/space-sheep.jpg"
 ---
 <h2 class="section-heading">Work Easy and Hard</h2>
 
