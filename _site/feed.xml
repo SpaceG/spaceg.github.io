@@ -5,9 +5,56 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Feb 2015 02:23:47 +0100</pubDate>
-    <lastBuildDate>Tue, 10 Feb 2015 02:23:47 +0100</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 02:05:23 +0100</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 02:05:23 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How many Hours do you sleep?</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Easy and Hard&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/punsh_card.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i think this Statitic say everything. 
+I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) !&lt;/p&gt;
+
+&lt;p&gt;Specialy i love to work in a Team, this is so funny :)! For me, when i beginn to Code, i have to wait until i have my rest and the perfect mood and energy to change my Work Modus to 100%. - Then i can spend hours on hours until i say i need to sleep right now:)! &lt;/p&gt;
+
+&lt;p&gt;This can sometimes 24 hours to 32 Hours non stop on a Code. i will write most down until i go sleep, because every next day is another day and the Motivation is sometimes not the same. i know this feeling, better you write it in a step down, then do you have rest and can do other details on the code, project or start up or whatevery do you right now on work it. - &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=9019283&quot;&gt;news.ycombinator.com&lt;/a&gt; and &lt;/p&gt;
+
+&lt;p&gt;And now I’m also included the Google Analytic Tool to see around that. - 
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/10/github-punsh/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/10/github-punsh/</guid>
+        
+        
+      </item>
     
       <item>
         <title>y-combinator Hacker News</title>
@@ -545,51 +592,6 @@ git commit -m “Short description of your commit” -&amp;gt; Commit &lt;/p&gt;
         <pubDate>Sat, 17 Jan 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/01/17/sails.js/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/01/17/sails.js/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>less/css - Introduction</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;A Less.js Introduction&lt;/h2&gt;
-
-&lt;p&gt;Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.&lt;/p&gt;
-
-&lt;p&gt;Less runs inside Node, in the browser and inside Rhino. There are also many 3rd party tools that allow you to compile your files and watch for changes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.lesscss.org&quot;&gt;lesscss.org&lt;/a&gt;  &lt;/p&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt;
---&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;blockquote&gt;Deleted code is debugged code.
-
-        — Jeff Sickel
-
-&lt;/blockquote&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-</description>
-        <pubDate>Fri, 16 Jan 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/16/introduction-less-css/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/16/introduction-less-css/</guid>
         
         
       </item>
