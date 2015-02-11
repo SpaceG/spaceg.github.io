@@ -20,7 +20,7 @@
             debug: false,
             autoTrigger: true,
             autoTriggerUntil: false,
-            loadingHtml: '<small>Loading...</small>',
+            loadingHtml: '<small class="new" style="padding-left: 40px;">Loading...</small>',
             padding: 0,
             nextSelector: 'a:last',
             contentSelector: '',
