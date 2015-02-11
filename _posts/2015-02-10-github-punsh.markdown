@@ -6,7 +6,7 @@ date:       2015-02-10 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/space-sheep.jpg"
 ---
-<h2 class="section-heading">Work Easy and Hard</h2>
+<h2 class="section-heading">Work Easy and Strong on your Project.</h2>
 
 
 
