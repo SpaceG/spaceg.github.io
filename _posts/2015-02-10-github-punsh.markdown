@@ -31,7 +31,7 @@ header-img: "img/space-sheep.jpg"
 
 
 This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i think this Statitic say everything. 
-I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) !
+I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) ! More to come soon.
 
 
 
