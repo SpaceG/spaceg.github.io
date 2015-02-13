@@ -34,7 +34,8 @@ This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i
 I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) ! More to come soon.
 
 
-
+<blockquote class="twitter-tweet tw-align-center" data-link-color="#666" lang="de"><p>How many hours sleep you at Night or @ Day? Tell Me &gt;&gt; <a href="https://twitter.com/hashtag/webdevelopment?src=hash">#webdevelopment</a> <a href="https://twitter.com/hashtag/frontend?src=hash">#frontend</a> <a href="https://twitter.com/hashtag/webdev?src=hash">#webdev</a> <a href="https://twitter.com/hashtag/startuo?src=hash">#startuo</a> <a href="https://twitter.com/hashtag/developer?src=hash">#developer</a> <a href="https://twitter.com/hashtag/programmers?src=hash">#programmers</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/564961794427736064">10. Februar 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!--
 <a href="#">
