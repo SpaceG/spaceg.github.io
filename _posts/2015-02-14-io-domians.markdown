@@ -23,11 +23,11 @@ header-img: "img/lucas-gatsas-18.jpg"
       </div>
 -->
 
-<!--
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/punsh_card.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/startup_docu_4.png" alt="Post Sample Image" style="width:100%">
 </a>
--->
+
 
 
 
