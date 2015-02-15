@@ -55,9 +55,15 @@ Nice Conversation with Giancarlo :) -
     <img src="{{ site.baseurl }}/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
 </a>
 -->
+[.io Article @ Wikipedia](http://en.wikipedia.org/wiki/.io).
 
+<blockquote>
 
-<blockquote>"You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It's Logic -Based Creativity"
+	"IO is also commonly used in IT as an abbreviation for input/output, which makes the .io domain useful for domain hacks and services wanting to be associated with technology.[14]"
+
+	As with most domains, many .io domains are bought by third parties who do not intend to use them for websites. There is no exact figure of how many of the .io-domains that have been bought that are actually in use, but there have been multiple cases in which .io-domains have been sold for substantial amounts of money.
+
+	.io domains may not be used "for any purpose that is sexual or pornographic or that is against the statutory laws of any Nation". Breaching this requirement "NIC.IO reserves the right to immediately deactivate the offending registration".[11]
 
 </blockquote>
 
