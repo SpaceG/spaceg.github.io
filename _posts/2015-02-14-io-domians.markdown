@@ -41,11 +41,6 @@ Get Amazing Fast Support and Like Namecheap really. -
     <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Post Sample Image" style="width:100%">
 </a>
 
-Nice Conversation with Giancarlo :) - 
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/startup_docu.png" alt="Post Sample Image" style="width:100%">
-</a>
 
 
 
