@@ -197,6 +197,45 @@ If you notice we are leveraging HTTP verbs, we have two login actions but differ
 
 
 
+Step 6: configuring Express Middleware
+Since we are using Passport we have to customize our middleware in yourproject/config/http.js:
+
+
+
+
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>http <span class="token operator">=</span> <span class="token punctuation">{</span>
+   middleware<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+
+    passportInit    <span class="token punctuation">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">initialize</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    passportSession <span class="token punctuation">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">session</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+     order<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+            <span class="token string">'startRequestTimer'</span><span class="token punctuation">,</span>
+            <span class="token string">'cookieParser'</span><span class="token punctuation">,</span>
+            <span class="token string">'session'</span><span class="token punctuation">,</span>
+            <span class="token string">'passportInit'</span><span class="token punctuation">,</span>     
+            <span class="token string">'passportSession'</span><span class="token punctuation">,</span> 
+            <span class="token string">'myRequestLogger'</span><span class="token punctuation">,</span>
+            <span class="token string">'bodyParser'</span><span class="token punctuation">,</span>
+            <span class="token string">'handleBodyParserError'</span><span class="token punctuation">,</span>
+            <span class="token string">'compress'</span><span class="token punctuation">,</span>
+            <span class="token string">'methodOverride'</span><span class="token punctuation">,</span>
+            <span class="token string">'poweredBy'</span><span class="token punctuation">,</span>
+            <span class="token string">'router'</span><span class="token punctuation">,</span>
+            <span class="token string">'www'</span><span class="token punctuation">,</span>
+            <span class="token string">'favicon'</span><span class="token punctuation">,</span>
+            <span class="token string">'404'</span><span class="token punctuation">,</span>
+            <span class="token string">'500'</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+     <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+
+
+
+
 
 
 <blockquote>When in doubt, use brute force.
