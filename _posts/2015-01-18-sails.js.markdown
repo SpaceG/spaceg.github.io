@@ -127,7 +127,8 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
 
 
-
+Step 4: create login and signup views
+Create this file yourproject/views/signup.ejs:
 
 
 
