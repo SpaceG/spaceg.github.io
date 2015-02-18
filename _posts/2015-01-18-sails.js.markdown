@@ -323,6 +323,19 @@ Then let's bind the policy to the PostController by updating yourproject/config/
 
 
 
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>policies <span class="token operator">=</span> <span class="token punctuation">{</span>
+
+   <span class="token string">'*'</span><span class="token punctuation">:</span> <span class="token keyword">true</span><span class="token punctuation">,</span>
+
+  <span class="token string">'PostController'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'*'</span><span class="token punctuation">:</span> <span class="token string">'isAuthenticated'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+
 
 
 
