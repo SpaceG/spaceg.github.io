@@ -142,6 +142,10 @@ Create this file yourproject/views/signup.ejs:
 
 
 
+And then this yourproject/views/login.ejs:
+
+
+
 
 <blockquote>When in doubt, use brute force.
 
