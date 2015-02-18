@@ -156,10 +156,15 @@ And then this yourproject/views/login.ejs:
 </pre>
 
 
-
 These forms look the same, besides the action.
 
 
+
+
+
+
+Step 5: configuring the routes
+Let's set up our routes in yourproject/config/routes.js like this:
 
 
 
