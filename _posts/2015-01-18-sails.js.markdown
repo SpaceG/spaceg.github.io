@@ -233,6 +233,8 @@ Since we are using Passport we have to customize our middleware in yourproject/c
 </pre>
 
 
+Into the order array we added passportInit and passportSession after the session element. The name of this array is quite self-explanatory, the elements must be ordered this way.
+
 
 
 
