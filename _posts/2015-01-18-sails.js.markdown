@@ -28,6 +28,20 @@ Open the terminal, go to your project folder and run:
 
 [sudo] npm install
 
+
+
+Step 2: create user model
+To create a user model run the following command:
+
+sails generate api user
+
+This will automatically create a model and a controller. You can find the model at yourproject/api/models/User.js. Let's make that file look like this:
+
+
+
+
+
+
 <!--
 
 <a href="#">
