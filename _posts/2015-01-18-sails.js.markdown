@@ -1,13 +1,29 @@
 ---
 layout:     post
-title:      "Sails js - sails.js"
-subtitle:   "sign up oAuth"
+title:      "Implement Passport.js authentication with Sails.js ~0.10"
+subtitle:   "Passport.js and sails.js"
 date:       2015-01-17 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-15.jpg"
 ---
-<h2 class="section-heading">sails.js oAuth sign up/in</h2>
+<h2 class="section-heading">sailsjs, passportjs, nodejss</h2>
 
+Step 1: dependencies
+Add these dependencies to the yourproject/package.json file:
+
+
+
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+  <span class="token string">"dependencies"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    <span class="token string">"bcrypt"</span><span class="token punctuation">:</span> <span class="token string">"~0.8.0"</span><span class="token punctuation">,</span>
+    <span class="token string">"passport"</span><span class="token punctuation">:</span> <span class="token string">"~0.2.1"</span><span class="token punctuation">,</span>
+    <span class="token string">"passport-local"</span><span class="token punctuation">:</span> <span class="token string">"~1.0.0"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> 
+</code>
+</pre>
 
 
 <!--
