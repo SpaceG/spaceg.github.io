@@ -83,26 +83,6 @@ Run this command from your terminal:
 sails generate controller auth
 
 Then go to yourproject/api/controllers/AuthController.js and alter it in this way:
-<!--
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/static.squarespace.jpg" alt="Post Sample Image">
-</a>
--->
-
-
-<!--
-<a href="#">
-    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
-</a> -->
-<!--
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/design.png" alt="Post Sample Image">
-</a> 
-
-
--->
 
 
 
@@ -114,14 +94,6 @@ Then go to yourproject/api/controllers/AuthController.js and alter it in this wa
 </blockquote>
 
 
-<!-- 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
-
-
-
- -->
 
 
 
