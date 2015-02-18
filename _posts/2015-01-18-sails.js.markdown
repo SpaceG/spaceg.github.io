@@ -193,6 +193,12 @@ Let's set up our routes in yourproject/config/routes.js like this:
 
 
 
+If you notice we are leveraging HTTP verbs, we have two login actions but different routes.
+
+
+
+
+
 <blockquote>When in doubt, use brute force.
 
         — Ken Thompson
