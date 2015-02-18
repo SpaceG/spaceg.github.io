@@ -157,6 +157,12 @@ And then this yourproject/views/login.ejs:
 
 
 
+These forms look the same, besides the action.
+
+
+
+
+
 
 <blockquote>When in doubt, use brute force.
 
