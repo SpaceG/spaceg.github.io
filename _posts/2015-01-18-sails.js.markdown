@@ -24,7 +24,9 @@ Add these dependencies to the yourproject/package.json file:
 <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> 
 </code>
 </pre>
+Open the terminal, go to your project folder and run:
 
+[sudo] npm install
 
 <!--
 
