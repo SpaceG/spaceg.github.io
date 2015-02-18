@@ -336,6 +336,8 @@ Then let's bind the policy to the PostController by updating yourproject/config/
 </pre>
 
 
+Now the 'GET /post' route (and all the other routes automatically generated for this controller ) is available only to authenticated users.
+
 
 
 
