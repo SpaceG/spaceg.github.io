@@ -356,6 +356,20 @@ go to http://localhost:1337/logout for logging out
 
 
 
+[→ Get the repository on Github](https://github.com/iliketomatoes/passport_with_sails) 
+
+
+I would very much appreciate your comments, especially if you find an error or you need a further explanation.
+References:
+
+[→ Sails.js](http://sailsjs.org/#/documentation/concepts) 
+[→ Passort.js](http://passportjs.org/) 
+[→ Waterline](hhttps://github.com/balderdashy/waterline) 
+
+
+
+
+
 
 <blockquote>When in doubt, use brute force.
 
