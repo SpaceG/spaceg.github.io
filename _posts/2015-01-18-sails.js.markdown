@@ -169,6 +169,30 @@ Let's set up our routes in yourproject/config/routes.js like this:
 
 
 
+
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>routes <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    view<span class="token punctuation">:</span> <span class="token string">'homepage'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token string">'get /login'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+       view<span class="token punctuation">:</span> <span class="token string">'login'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token string">'post /login'</span><span class="token punctuation">:</span> <span class="token string">'AuthController.login'</span><span class="token punctuation">,</span>
+
+  <span class="token string">'/logout'</span><span class="token punctuation">:</span> <span class="token string">'AuthController.logout'</span><span class="token punctuation">,</span>
+
+  <span class="token string">'get /signup'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    view<span class="token punctuation">:</span> <span class="token string">'signup'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+
+
+
 <blockquote>When in doubt, use brute force.
 
         — Ken Thompson
