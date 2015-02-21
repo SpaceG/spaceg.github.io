@@ -30,11 +30,10 @@ header-img: "img/lucas-gatsas-ux-ui.jpg"
 
 
 
-<!--
 <a href="#">
-    <img src="{{ site.baseurl }}/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/uiux-design-diagram.png" alt="Post Sample Image" style="width:100%">
 </a>
--->
+
 
 
 <blockquote>
