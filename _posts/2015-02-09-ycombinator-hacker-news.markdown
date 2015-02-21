@@ -23,11 +23,11 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
       </div>
 -->
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/y-hacker-news-lg-001.png" alt="Post Sample Image" style="width:100%">
 </a>
-
+-->
 
 
 My Article @ Hacker News Y Combinator - Silicon Valley. 
@@ -47,14 +47,14 @@ This is my New Jekyll Theme (Clean Magic).
 [Download](https://github.com/SpaceG/CleanMagic) 
 
 
-[Demo](https://spaceg.github.io/) 
+[See Demo Theme](https://spaceg.github.io/) 
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/y-hacker-news-lg-002.png" alt="Post Sample Image" style="width:100%">
 </a>
 
-
+-->
 
 <blockquote>"You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It's Logic -Based Creativity"
 
