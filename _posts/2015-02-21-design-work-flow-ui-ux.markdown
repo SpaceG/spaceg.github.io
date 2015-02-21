@@ -38,7 +38,8 @@ header-img: "img/lucas-gatsas-ux-ui.jpg"
 
 <blockquote>
 
-	
+	"I Closely Follow Everthing about User Interface Or Human-Computer Interface:
+	Technology That Makes Computers Closer to the Way Human Being Actually Functions" - Francois -Henri Pinault Lifehack Quotes
 
 </blockquote>
 
