@@ -4,7 +4,7 @@ title:      "Design Workflow UI/UX"
 subtitle:   "Set Up Domains"
 date:       2015-02-21 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/uxui.jpg"
+header-img: "img/lucas-gatsas-ux-ui.jpg"
 ---
 <h2 class="section-heading">Design UI/UX Interface </h2>
 
