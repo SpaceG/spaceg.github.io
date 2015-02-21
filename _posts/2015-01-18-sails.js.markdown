@@ -363,7 +363,7 @@ I would very much appreciate your comments, especially if you find an error or y
 References:
 
 [→ Sails.js](http://sailsjs.org/#/documentation/concepts) 
-[→ Passort.js](http://passportjs.org/) 
+[→ Passport.js](http://passportjs.org/) 
 [→ Waterline](hhttps://github.com/balderdashy/waterline) 
 
 
