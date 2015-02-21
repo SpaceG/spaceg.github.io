@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Design Workflow UI/UX"
-subtitle:   "Set Up Domains"
-date:       2015-02-21 14:00:44
+title:      "Subdomain Name for Github"
+subtitle:   "Subdomains Set Up on Github"
+date:       2015-02-22 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-18.jpg"
 ---
-<h2 class="section-heading">Design UI/UX Interface </h2>
+<h2 class="section-heading">Set Up a Subdomain for my Blog on Github.</h2>
 
 
 
