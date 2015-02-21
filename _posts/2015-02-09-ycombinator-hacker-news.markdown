@@ -42,7 +42,7 @@ My Article @ Hacker News Y Combinator - Silicon Valley.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-This is my New Jekyll Theme (Clean Magic). 
+If you want you can downlaod my (Clean Magic) Theme for Jekyll. 
 
 [Download](https://github.com/SpaceG/CleanMagic) 
 
