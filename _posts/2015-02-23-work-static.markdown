@@ -29,7 +29,7 @@ More to Read soon. i have always right now to go Back to Work.-
 
 <h2 class="section-heading">196 Hours</h2>
 
-<h2 class="section-heading">5700 Lines of Code</h2>
+<h2 class="section-heading">5934 Lines of Code</h2>
 <!--
 <div class="row">
         <div class="col-md-4"></div>
