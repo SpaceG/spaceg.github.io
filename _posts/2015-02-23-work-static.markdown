@@ -13,7 +13,7 @@ header-img: "img/22.jpg"
 
 
 <p>
-And Day looks in moment like so, Wake Up in The Morning, if have sleep, because the last days i'm work only at night, because i have excat a sleep Ryhtmus for 6 - 8 Hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my Mate Giancarlo about the enxt details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my icoming Mails then i work again again on the Start Up till the Evening. Write some New COde make re-design of the current Layout. etc. Talk later again with Giancarlo about the New Details.
+And Day looks in moment like so, Wake Up in The Morning, if have sleep, because the last days i'm work only at night, because i have excat a sleep Ryhtmus for 6 - 8 Hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my Mate Giancarlo about the enxt details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. Talk later again with Giancarlo about the New Details.
 
 	</p>
 
