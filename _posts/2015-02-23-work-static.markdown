@@ -25,7 +25,7 @@ More to Read soon. i have always right now to go Back to Work.-
 
 <br>
 
-<h2 class="section-heading">173 Coffee</h2>
+<h2 class="section-heading">173 Coffees</h2>
 
 <h2 class="section-heading">196 Hours</h2>
 
