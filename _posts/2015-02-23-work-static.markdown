@@ -21,7 +21,7 @@ And my Day look like so in moment, Wake Up in The Morning most time (07:00), if 
 
 <p> 
 Between Start Up and Study. 
-Some People ask me everytime, how do you can work so long..? my answer is, i do love what i doing, this is the most secret. find something that do you love and make it very big. - this is always a good mood to work on my Start Up. - i don't know.. i think i wish have a bit more time for other things. - but sometimes i realize that's is everything what i have. - and i use all, and to capitalize everything! even do you have nothing. - the other thing is I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, disciplined to be a good web developer. 
+Some People ask me everytime, how do you can work so long..? my answer is, i do love what i doing, this is the most secret. find something that do you love and make it very big. - this is always a good mood to work on my Start Up. - i don't know.. i think i wish have a bit more time for other things. - but sometimes i realize that's is everything what i have. - and i use all to capitalize everything! even do you have nothing. - (Digital World). I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, disciplined to be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
 
 
 
