@@ -9,7 +9,12 @@ header-img: "img/lucas-gatsas-ux-ui.jpg"
 <h2 class="section-heading">Design UI/UX Interface </h2>
 
 
+<p>
+Update Post Soon. Stay in Space. 
 
+	</p>
+
+ 
  
 
 <br>
