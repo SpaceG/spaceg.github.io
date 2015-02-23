@@ -4,6 +4,7 @@
  */
  /* New Update Mo. 2 Feb. 2015 -02:33:45*/
 /* New Update Fr. 6 Feb. 2015 -01:57:13 */
+/* New Update Sa. 21. February. 2015 -02:58:16*/
 
 
 
@@ -72,6 +73,7 @@ left: 0;
 z-index: 1040;
 -webkit-overflow-scrolling: touch;
 outline: 0;
+margin-right: -20px;
 }
 .fade {
 opacity: 0;
@@ -849,4 +851,6 @@ border-radius: 4px;
     opacity: 0;
   }
 }
+
+
 
