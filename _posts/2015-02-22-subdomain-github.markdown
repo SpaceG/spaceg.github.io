@@ -9,6 +9,10 @@ header-img: "img/Space-Engine-mountain-range.jpg"
 <h2 class="section-heading">Set Up a Subdomain for my Blog on Github.</h2>
 
 
+<p>
+Update Post Soon. Stay in Space. 
+
+	</p>
 
  
 
