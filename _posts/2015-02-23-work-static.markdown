@@ -9,7 +9,7 @@ header-img: "img/22.jpg"
 <h2 class="section-heading">Work Static</h2>
 
 
-<p>Our Work Static Time in Hours till now. Since exact from the 1. of January till now i have spend alot of Time in our Start Up. I had lay the Seed excat from the first of January, crazy how the Times goes on, since then i have worked already everyday on our Start Up. Now we are in the middle, happy to have the strong part behind me. I have done the most Front-End Work and Javascript details. Now i will beginn the Hardwork of the Design which one need to much Time. I have only spend 10 Hours into the Layout, then after choose the main colors, then the Fonts which one i have change thousand of Times already. And a good design need still alot of Tiem and Work, this sounds to me  will never end, because the Design looks everyday better. - </p>
+<p>Our Work Static Time in Hours till now. Since exact from the 1. of January till now i have spend alot of Time in our Start Up. I had laid the Seeds excat from the first of January, crazy how the Times goes on, since then i have worked already everyday on our Start Up. Now we are in the middle, happy to have the strong part behind me. I have done the most Front-End Work and Javascript details. Now i will beginn the Hardwork of the Design which one need to much Time. I have only spend 10 Hours into the Layout, then after choose the main colors, then the Fonts which one i have change thousand of Times already. And a good design need still alot of Tiem and Work, this sounds to me  will never end, because the Design looks everyday better. - </p>
 
 
 
