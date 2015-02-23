@@ -10,11 +10,14 @@ header-img: "img/22.jpg"
 
 
 <p>Our Work Static Time in Hours till now. Since exact from the 1. of January till now i have spend alot of Time in our Start Up. I had lay the Seed excat from the first of January, crazy how the Times goes on, since then i have worked already everyday on our Start Up. Now we are in the middle, happy to have the strong part behind me. I have done the most Front-End Work and Javascript details. Now i will beginn the Hardwork of the Design which one need to much Time. I have only spend 10 Hours into the Layout, then after choose the main colors, then the Fonts which one i have change thousand of Times already. And a good design need still alot of Tiem and Work, this sounds to me  will never end, because the Design looks everyday better. - </p>
-<!--
-<p>
-And Day looks in moment like so, Wake Up in The Morning, if have sleep, because the last days i'm work only at night, because i have excat a sleep Ryhtmus for 6 - 8 Hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my Mate Giancarlo about the enxt details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. Talk later again with Giancarlo about the New Details. hallo
 
-	</p> -->
+
+
+<p>
+And my Day look like so in moment, Wake Up in The Morning most time (07:00), if I slept, because since the last days i'm work at day and night, because i love my work much and can even spend more Time in our Start Up. My Ryhtmus for sleep is 6 - 8 Hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my Mate Giancarlo about the enxt details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. 
+
+
+	</p>
 
 <p>
 More to Read soon. i have always right now to go Back to Work.- 
