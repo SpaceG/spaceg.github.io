@@ -32,7 +32,7 @@ Some People ask me everytime, how do you can work so long..? my answer is, i do 
 
 
 <p>
-More to Read soon. i have always right now to go Back to Work.- 
+
 
 	</p>
 
