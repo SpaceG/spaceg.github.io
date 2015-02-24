@@ -6,7 +6,7 @@ date:       2015-02-22 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Space-Engine-mountain-range.jpg"
 ---
-<h2 class="section-heading">Set Up a Subdomain for my Blog on Github.</h2>
+<h2 class="section-heading">Setting up a custom domain with GitHub Pages</h2>
 
 
 
