@@ -35,7 +35,7 @@ My Radio Chanel [hbr1.com the best Psy do you can get it. -](http://hbr1.com/)
 
 	</p>
 
-<br>
+<br><br>
 
 <h2 class="section-heading">5 Club Mate's</h2>
 
@@ -66,5 +66,8 @@ My Radio Chanel [hbr1.com the best Psy do you can get it. -](http://hbr1.com/)
 </a>
 -->
 
+<br>
 
-
+<blockquote>
+“Be really picky with your hiring, and hire the absolute best people you possibly can. People are the most important component of almost every business, and attracting the best talent possible is going to make a huge difference.”
+</blockquote>
