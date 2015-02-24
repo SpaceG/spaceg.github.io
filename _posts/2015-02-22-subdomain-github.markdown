@@ -34,6 +34,8 @@ I will set up my  Apex Domain @ Github, because i do host my Stuff and Website o
 So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  [About custom domains for GitHub Pages sites](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/)
 
 
+
+If you're using a [Custom Domain](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/) to redirect your GitHub Pages site, you must create and commit a CNAME file to your GitHub Pages repository that contains the custom domain.
 [Adding a CNAME file to your Repository](https://help.github.com/articles/adding-a-cname-file-to-your-repository/)
 
 
