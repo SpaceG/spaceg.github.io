@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Feb 2015 21:55:42 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 21:55:42 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Feb 2015 22:53:02 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2015 22:53:02 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -75,12 +75,26 @@ Some People ask me everytime, how do you can work so long..? my answer is, i do 
         <title>Subdomain Name for Github</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Set Up a Subdomain for my Blog on Github.&lt;/h2&gt;
 
-&lt;p&gt;
-Update Post Soon. Stay in Space. 
+&lt;p&gt;Get Read with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the NextDays or Weeks. However, i think i will do that right now, when i have and get more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - &lt;/p&gt;
 
-	&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Sub Domains&lt;/h2&gt;
+&lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
+We strongly recommend that you use a custom subdomain for these reasons:&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;It gives your GitHub Pages site the benefit of our Content Delivery Network.&lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content Delivery Network. -Wikipedia&lt;/a&gt;
+It will not be affected by changes in the underlying IP addresses of GitHub’s servers.
+Pages will load significantly faster because &lt;a href=&quot;http://en.wikipedia.org/wiki/Denial-of-service_attack&quot;&gt;Denial-of-service Attack&lt;/a&gt; protection can be implemented more efficiently.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Apex Domains&lt;/h2&gt;
+&lt;p&gt;An apex domain is usually configured with an &lt;code&gt;A&lt;/code&gt;, &lt;code&gt;ALIAS&lt;/code&gt;, or &lt;code&gt;ANAME&lt;/code&gt; record through your DNS provider and is often assigned to one or more IP addresses.&lt;/p&gt;
+
+&lt;p&gt;I will set up my  Apex Domain @ Github, because i do host my Stuff and Website on Github. - There also some Points to set up one to your  Repositories. So far i have create a &lt;a href=&quot;https://help.github.com/articles/user-organization-and-project-pages/&quot;&gt;User, Organization, and Project Pages&lt;/a&gt;. Which one can do everybody, if you have a Github account. You need also One to get Set Up your &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;About custom domains for GitHub Pages sites&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. - &lt;/p&gt;
 
 &lt;!--
 &lt;div class=&quot;row&quot;&gt;

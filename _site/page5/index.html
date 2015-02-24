@@ -83,7 +83,7 @@ $('.navbar-collapse ul li a').click(function() {
     <meta property="og:image" content="/img/fbmeta324123534t234qt.png"/>
     <meta property="og:title" content="Hello, my Name is @LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"/>
     <meta property="og:site_name" content="Hello, my Name is @LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"/>
-    <link rel="canonical" href="https://spaceg.github.io/">
+    <link rel="canonical" href="https://spaceg.github.io/page5/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/clean-blog.css">
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -359,12 +359,12 @@ list-style: none;
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/22.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-05.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-02-23T15:00:44+01:00">
-							<a href="https://spaceg.github.io/2015/02/23/work-static/">February 23, 2015</a>
+						<time datetime="2015-01-10T14:00:40+01:00">
+							<a href="https://spaceg.github.io/2015/01/10/bootstrap-front-end-framework.v.3/">January 10, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -376,7 +376,7 @@ list-style: none;
 				</div>
 		
 				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/02/23/work-static/" rel="bookmark" title="Work Static from our Start Up" itemprop="url">Work Static from our Start Up</a></h1>
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/10/bootstrap-front-end-framework.v.3/" rel="bookmark" title="Bootstrap Currently v3.3.1 - Front-End Framework" itemprop="url">Bootstrap Currently v3.3.1 - Front-End Framework</a></h1>
 				
 			</header>
 
@@ -384,57 +384,633 @@ list-style: none;
     </article>
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Work Static</h2>
+			<h2 class="section-heading">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</h2>
 
-<p>Our Work Static Time in Hours till now. Since exact from the 1. of January till now i have spend alot of Time in our Start Up. I had laid the Seeds excat from the 1. of January 2015, crazy how the Times goes on, since then i have worked already everyday on our Start Up. Now we are in the middle, happy to have the strong part behind me. I have done the most Front-End Work and Javascript details. Now i will beginn the Hardwork of the Design which one need to much Time. I have only spend 10 Hours into the Layout, then after choose the main colors, then the Fonts which one i have change thousand of Times already. And a good design need still alot of Time and Work, this sounds to me  will never end, because the Design looks everyday better. - </p>
+<p>Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes. </p>
+
+<p>What is Bootstrap? Bootsrap is a Fast Farmaework for Front-End Developers. To build fast, sleek, clean Front-End Design. Watch the Opensource base <a href="http://getbootstrap.com/getting-started/">Bootstrap Currently v3.3.1</a> for Sass or dist files check out here <a href="http://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz/">Sass Bootstrap Currently v3.3.1</a> . For Introduction and how to work with Bootstrap. See the Docs. <a href="http://getbootstrap.com/getting-started/#whats-included">Docs Bootstrap v3.3.1</a> . Get Started with Bootstarp. See the Basic Set Up <a href="http://getbootstrap.com/getting-started/#template">Template Bootstrap v3.3.1</a>. Compiling CSS and JavaScript with 
+<a href="http://gruntjs.com/Grunt/">Grunt</a> 
+let’s see the Available Grunt commands for Bootstrap. <a href="http://getbootstrap.com/getting-started/#grunt">Commands on Bootsrap</a>.</p>
+
+<p>Then, from the command line:
+Install <code>grunt-cli</code> globally with <code>npm install -g grunt-cli.</code>
+Navigate to the root <code> /bootstrap/ </code> directory, then run <code> npm install </code>. npm will look at the <code> package.json </code> file and automatically install the necessary local dependencies listed there.   </p>
+
+<p>Download
+<a href="http://getbootstrap.com/">Bootstrap Currently v3.3.1</a></p>
+
+<!--
+<a href="#">
+    <img src="/img/bootstrap-wordpress-themes.jpg" alt="Post Sample Image" style="width:100%">
+</a>
+
+-->
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">Javascript Library</h2>
 
 <p>
-And my Day look like so in moment, Wake Up in The Morning most time (07:00), if I slept, because since the last days i'm work at day and night, because i love my work much and can even spend more Time in our Start Up. My Ryhtmus for sleep is 6 - 8 Hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my mate Giancarlo about the next details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. 
+Varying modal content based on trigger button
+Have a bunch of buttons that all trigger the same modal, just with slightly different contents? Use event.relatedTarget and HTML data-* attributes (possibly via jQuery) to vary the contents of the modal depending on which button was clicked. See the Modal Events docs for details on relatedTarget, </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</pre></pre></div>
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
 
 
-	</p>
 
-<p> 
-Between Start Up and Study. 
-Some People ask me everytime, how do you can work so long..? my answer is, i do love what i doing, this is the most secret. find something that do you love and make it very big. - this is always a good mood to work on my Start Up. - i don't know.. i think i wish have a bit more time for other things. - but sometimes i realize that's is everything what i have. - and i use all to capitalize everything! even do you have nothing. - (Digital World). I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, disciplined to be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
+ -->
 
+
+		</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-16.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-09T14:00:40+01:00">
+							<a href="https://spaceg.github.io/2015/01/09/normalize.css-or-reset.css/">January 09, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://spaceg.github.io/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/09/normalize.css-or-reset.css/" rel="bookmark" title="normalize.css or reset.css" itemprop="url">normalize.css or reset.css</a></h1>
+				
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Css Resets </h2>
+
+<p>Backbone.js
+###<a href="https://github.com/jashkenas/backbone/">Backbone.js</a></p>
+
+<p>One of the pioneers of the CSS Reset method, Eric Meyer, created a Reset stylesheet that is still in use on millions of websites today. Most people use it in its unedited form, despite Meyer’s recommendation against this:
+
+The reset styles given here are intentionally very generic … I don’t particularly recommend that you just use this in its unaltered state in your own projects. It should be tweaked, edited, extended, and otherwise tuned to match your specific reset baseline. … In other words, this is a starting point, not a self-contained black box of no-touchiness.
+As a starting-point for developers and designers to customise to their own needs, this script is dynamite – more information on customisations coming soon.
+<br />
+V2.0 of the stylesheet is provided below in full and minified formats, for you to copy and paste:
 
 
 
 
 </p>
-
-<p>My Radio Chanel <a href="http://hbr1.com/">hbr1.com the best Psy do you can get it. -</a> </p>
-
-<p>
-
-	</p>
-
-<p><br /></p>
-
-<h2 class="section-heading">5 Club Mate's</h2>
-
-<h2 class="section-heading">175 Coffees</h2>
-
-<h2 class="section-heading">202 Hours</h2>
-
-<h2 class="section-heading">5938 Lines of Code</h2>
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+</pre></pre></div>
 
 <!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
+
+<a href="#">
+    <img src="/img/backbone.png" alt="Post Sample Image">
+</a>
+
 -->
 
 <!--
 <a href="#">
-    <img src="/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
-</a>
--->
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">Normalize.css - A modern, HTML5-ready alternative to CSS resets </h2>
+<p>makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.</p>
+
+<p><code> npm install normalize.css  </code></p>
+
+<p><code> component install necolas/normalize.css
+  </code></p>
+
+<p><code> bower install normalize.css  </code></p>
+
+<p>Download
+<a href="http://necolas.github.io/normalize.css/">Normalize.css</a></p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox &lt; 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+</pre></pre></div>
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
 
 
 		</div>
@@ -442,12 +1018,12 @@ Some People ask me everytime, how do you can work so long..? my answer is, i do 
 
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/Space-Engine-mountain-range.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-08.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-02-22T15:00:44+01:00">
-							<a href="https://spaceg.github.io/2015/02/22/subdomain-github/">February 22, 2015</a>
+						<time datetime="2015-01-08T14:00:40+01:00">
+							<a href="https://spaceg.github.io/2015/01/08/backbone.js/">January 08, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -459,7 +1035,7 @@ Some People ask me everytime, how do you can work so long..? my answer is, i do 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/02/22/subdomain-github/" rel="bookmark" title="Subdomain Name for Github" itemprop="url">Subdomain Name for Github</a></h1>
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/08/backbone.js/" rel="bookmark" title="backbone.js " itemprop="url">backbone.js </a></h1>
 				
 			</header>
 
@@ -467,50 +1043,64 @@ Some People ask me everytime, how do you can work so long..? my answer is, i do 
     </article>
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Set Up a Subdomain for my Blog on Github.</h2>
+			<h2 class="section-heading">Give your JS App some Backbone with Models, Views, Collections, and Events </h2>
 
-<p>Get Read with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the NextDays or Weeks. However, i think i will do that right now, when i have and get more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - </p>
+<p>Backbone.js
+###<a href="https://github.com/jashkenas/backbone/">Backbone.js</a></p>
 
-<h2 class="section-heading">Sub Domains</h2>
-<p>A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
-We strongly recommend that you use a custom subdomain for these reasons:</p>
+<p>Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.</p>
 
-<p>It gives your GitHub Pages site the benefit of our Content Delivery Network.<a href="http://en.wikipedia.org/wiki/Content_delivery_network">Content Delivery Network. -Wikipedia</a>
-It will not be affected by changes in the underlying IP addresses of GitHub’s servers.
-Pages will load significantly faster because <a href="http://en.wikipedia.org/wiki/Denial-of-service_attack">Denial-of-service Attack</a> protection can be implemented more efficiently.</p>
+<p>Download
+<a href="https://github.com/jashkenas/backbone/">backbone.js</a></p>
 
-<h2 class="section-heading">Apex Domains</h2>
-<p>An apex domain is usually configured with an <code>A</code>, <code>ALIAS</code>, or <code>ANAME</code> record through your DNS provider and is often assigned to one or more IP addresses.</p>
+<p>Download
+<a href="http://backbonejs.org/">backbone.js Introductions</a></p>
 
-<p>I will set up my  Apex Domain @ Github, because i do host my Stuff and Website on Github. - There also some Points to set up one to your  Repositories. So far i have create a <a href="https://help.github.com/articles/user-organization-and-project-pages/">User, Organization, and Project Pages</a>. Which one can do everybody, if you have a Github account. You need also One to get Set Up your <a href="https://pages.github.com/">Github Pages</a> .</p>
+<p>Download
+<a href="http://jquery.com/download/">Jquery Introductions</a></p>
 
-<p>So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/">About custom domains for GitHub Pages sites</a></p>
-
-<p><a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">Adding a CNAME file to your Repository</a></p>
-
-<p>ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. - </p>
-
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
--->
+<p>Download
+<a href="http://underscorejs.org/">Underscore.js Introductions</a></p>
 
 <!--
 <a href="#">
-    <img src="/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
-</a>
--->
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
 
-<blockquote>
+<h2 class="section-heading">	Skeletal Structure
+or the Matrix of Backbone in index.html + Javascript Library. </h2>
 
-	
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre><small>&lt;!DOCTYPE html&gt;</small>
+ <b>&lt;</b><b>html</b><b>&gt;</b>
+ <b>&lt;</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>title</b><b>&gt;</b> Backbone.js <b>&lt;/</b><b>title</b><b>&gt;</b>
+<b>&lt;</b><b>script src="jquery-1.11.0.min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b>
+<b>&lt;</b><b>script src="underscore-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.6.0 --&gt;</i>
+<b>&lt;</b><b>script src="backbone-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.1.1 --&gt;</i>
+<b>&lt;/</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>body</b><b>&gt;</b>
+
+<b>&lt;/</b><b>body</b><b>&gt;</b>
+<b>&lt;/</b><b>html</b><b>&gt;</b>
+</pre></pre></div>
+
+<p>Update Post Soon!</p>
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
 
 </blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
 
 
 		</div>
@@ -518,12 +1108,12 @@ Pages will load significantly faster because <a href="http://en.wikipedia.org/wi
 
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-ux-ui.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-13.jpg')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-02-21T15:00:44+01:00">
-							<a href="https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/">February 21, 2015</a>
+						<time datetime="2015-01-06T14:00:02+01:00">
+							<a href="https://spaceg.github.io/2015/01/06/set-up-sails-js/">January 06, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -535,7 +1125,7 @@ Pages will load significantly faster because <a href="http://en.wikipedia.org/wi
 				</div>
 		
 				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/" rel="bookmark" title="Design Workflow UI/UX" itemprop="url">Design Workflow UI/UX</a></h1>
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/06/set-up-sails-js/" rel="bookmark" title="Set Up sails.js - Sails js - Framework" itemprop="url">Set Up sails.js - Sails js - Framework</a></h1>
 				
 			</header>
 
@@ -543,33 +1133,62 @@ Pages will load significantly faster because <a href="http://en.wikipedia.org/wi
     </article>
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Design UI/UX Interface </h2>
+			<h2 class="section-heading">sails.js </h2>
 
-<p>
-Update Post Soon. Stay in Space. 
+<p>Sails.js:
+###<a href="http://sailsjs.org/">sails.js</a></p>
 
-	</p>
+<p>You need the <code> sudo npm install </code> <a href="https://www.npmjs.com/">npmjs.com</a>  installer to run sails.js correctly. Go Download it via Commandline type</p>
 
-<p><br /></p>
+<p>You Need also some tools to run Sails js!</p>
 
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
--->
+<p>Download
+<a href="https://www.npmjs.com/">npmjs.com</a></p>
+
+<p>Download
+<a href="http://sailsjs.org/">sails.org</a></p>
+
+<p>Download
+<a href="http://lesscss.org/">lesscss.org</a></p>
+
+<p>Download
+<a href="http://gruntjs.com/">gruntjs.com</a></p>
+
+<p>Download
+<a href="http://nodejs.org/">node.js</a></p>
+
+<p>Download
+<a href="http://brew.sh/">brew.sh</a></p>
+
+<p>Open Terminal and Type: </p>
+
+<p><code> sudo npm install </code></p>
+
+<p><code> sails lift </code></p>
+
+<p>http://localhost:1337/</p>
+
+<p>info: To see your app, visit http://localhost:1337
+info: To shut down Sails, press <ctrl> + C at any time.</ctrl></p>
 
 <p><a href="#">
-    <img src="/img/uiux-design-diagram.png" alt="Post Sample Image" style="width:100%" />
+    <img src="/img/Screenshot-2014-09-09-07.23.05.png" alt="Post Sample Image" style="width:100%" />
 </a></p>
 
-<blockquote>
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
 
-	"I Closely Follow Everthing about User Interface Or Human-Computer Interface:
-	Technology That Makes Computers Closer to the Way Human Being Actually Functions" - Francois -Henri Pinault Lifehack Quotes
+<!--
+<a href="#">
+    <img src="/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png" alt="Post Sample Image" style="height: 500px;"> 
+</a> 
+-->
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
 
 </blockquote>
 
@@ -579,12 +1198,12 @@ Update Post Soon. Stay in Space.
 
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-18.jpg')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-06.png')" style="margin-bottom:-40px;">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-02-14T15:00:44+01:00">
-							<a href="https://spaceg.github.io/2015/02/14/io-domians/">February 14, 2015</a>
+						<time datetime="2015-01-06T14:00:02+01:00">
+							<a href="https://spaceg.github.io/2015/01/06/get-introduction-get-started/">January 06, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -596,7 +1215,7 @@ Update Post Soon. Stay in Space.
 				</div>
 		
 				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/02/14/io-domians/" rel="bookmark" title=".io - Domains" itemprop="url">.io - Domains</a></h1>
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/06/get-introduction-get-started/" rel="bookmark" title="Get Introduction - Get Started" itemprop="url">Get Introduction - Get Started</a></h1>
 				
 			</header>
 
@@ -604,121 +1223,33 @@ Update Post Soon. Stay in Space.
     </article>
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">.io Domains @ Namecheap.com</h2>
+			<h2 class="section-heading">App Tree. </h2>
 
-<p><br /></p>
+<p>I created our App Tree Today, a Mind Map for our Web App. I have created it with MindMeister.</p>
 
-<p>I’m decide to Set Up our Domian Names @ Namecheap.com <a href="https://www.namecheap.com/">Namecheap.com</a>. A good Company from Los Angeles U.S.A. </p>
-
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
--->
-
-<p>Get Amazing Fast Support and Like Namecheap really. - </p>
+<p>Mindmeister:
+###<a href="http://www.mindmeister.com/">Mindmeister</a></p>
 
 <p><a href="#">
-    <img src="/img/startup_docu_4.png" alt="Post Sample Image" style="width:100%" />
+    <img src="/img/gitlist.io.png" alt="Post Sample Image" style="width:100%" />
 </a></p>
 
-<p><a href="#">
-    <img src="/img/domian_name_docu.png" alt="Post Sample Image" style="width:100%" />
-</a></p>
+<p>I had searched for a Mind Map and found MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.</p>
 
-<!--
-Nice Conversation with Giancarlo :) - 
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
 
-<a href="#">
-    <img src="/img/startup_docu.png" alt="Post Sample Image" style="width:100%">
-</a>
-
--->
-
-<!--
-<a href="#">
-    <img src="/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
-</a>
--->
-<p><a href="http://en.wikipedia.org/wiki/.io">.io Article @ Wikipedia</a>.</p>
-
-<blockquote>
-
-	"IO is also commonly used in IT as an abbreviation for input/output, which makes the .io domain useful for domain hacks and services wanting to be associated with technology.[14]"
-
-	As with most domains, many .io domains are bought by third parties who do not intend to use them for websites. There is no exact figure of how many of the .io-domains that have been bought that are actually in use, but there have been multiple cases in which .io-domains have been sold for substantial amounts of money.
-
-	.io domains may not be used "for any purpose that is sexual or pornographic or that is against the statutory laws of any Nation". Breaching this requirement "NIC.IO reserves the right to immediately deactivate the offending registration".[11]
+- Steve Jobs
 
 </blockquote>
 
-
-		</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/space-sheep.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-02-10T15:00:44+01:00">
-							<a href="https://spaceg.github.io/2015/02/10/github-punsh/">February 10, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://spaceg.github.io/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/02/10/github-punsh/" rel="bookmark" title="How many Hours do you sleep?" itemprop="url">How many Hours do you sleep?</a></h1>
-				
-			</header>
-
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Work Easy and Strong on your Project.</h2>
-
-<p><br />
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
---></p>
-
-<p><a href="#">
-    <img src="/img/punsh_card.png" alt="Post Sample Image" style="width:100%" />
-</a></p>
-
-<p>This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i think this Statitic say everything. 
-I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) ! More to come soon.</p>
-
-<blockquote class="twitter-tweet tw-align-center" data-link-color="#666" lang="de"><p>How many hours sleep you at Night or @ Day? Tell Me &gt;&gt; <a href="https://twitter.com/hashtag/webdevelopment?src=hash">#webdevelopment</a> <a href="https://twitter.com/hashtag/frontend?src=hash">#frontend</a> <a href="https://twitter.com/hashtag/webdev?src=hash">#webdev</a> <a href="https://twitter.com/hashtag/startuo?src=hash">#startuo</a> <a href="https://twitter.com/hashtag/developer?src=hash">#developer</a> <a href="https://twitter.com/hashtag/programmers?src=hash">#programmers</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/564961794427736064">10. Februar 2015</a></blockquote>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!--
+<!-- 
 <a href="#">
-    <img src="/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
-</a>
--->
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
 
-<blockquote>"You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It's Logic -Based Creativity"
 
-</blockquote>
+
+ -->
 
 
 		</div>
@@ -730,11 +1261,13 @@ I believe in good Work and good Learning everyday Code and write everyday code t
   
   <div class="pagination">
     
-      <span>&laquo; Prev</span>
+      
+        <a href="/page4/">&laquo; Prev</a>
+          
     
 
     
-      <a class='next' href="/page2/">Next &raquo;</a>
+      <a class='next' href="/page6/">Next &raquo;</a>
     
   </div>
   
