@@ -64,6 +64,7 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 
 
 <blockquote>
+Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge and thrill, and now hacking is big business. - Kevin Mitnick 
 
 	
 
