@@ -2,7 +2,7 @@
 layout:     post
 title:      "Virtual Servers Set Up on Digital Ocean"
 subtitle:   "Virtual Servers Digital Ocean"
-date:       2015-02-23 14:00:44
+date:       2015-02-26 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/cloud-virtual-server.png"
 ---
