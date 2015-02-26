@@ -16,6 +16,8 @@ header-img: "img/cloud-virtual-server.png"
 Update Today the Article. 
 	</p>
 
+<h2 class="section-heading">Watching for Virtual Servers </h2>
+
 <br><br>
 
 <h2 class="section-heading">7 Club Mate's</h2>
