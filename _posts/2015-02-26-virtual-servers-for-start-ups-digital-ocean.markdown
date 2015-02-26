@@ -18,7 +18,7 @@ Update Today the Article.
 
 <h2 class="section-heading">Start Up Static</h2>
 
-<br><br>
+<br>
 
 <h2 class="section-heading">7 Club Mate's</h2>
 
