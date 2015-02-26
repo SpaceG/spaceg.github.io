@@ -16,7 +16,7 @@ header-img: "img/cloud-virtual-server.png"
 Update Today the Article. 
 	</p>
 
-<h2 class="section-heading">Watching for Virtual Servers </h2>
+<h2 class="section-heading">Start Up Static</h2>
 
 <br><br>
 
