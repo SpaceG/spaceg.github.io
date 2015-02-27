@@ -21,12 +21,12 @@ Update Article soon.!
 -->
 
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/digital_ocean.png" alt="Post Sample Image" style="width:100%">
 </a>
 
-
+-->
 <br>
 
 <blockquote>
