@@ -38,5 +38,5 @@ Update Article soon.!
 <h2 class="section-heading">7102 Lines of Code</h2>
 
 <blockquote>
-I know it’s stressful being a CEO, but you have to celebrate with your team. Set goals earlier on that you can hit to build the team’s confidence in their ability to achieve them and your ability to properly set them.”
+“Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder
 </blockquote>
