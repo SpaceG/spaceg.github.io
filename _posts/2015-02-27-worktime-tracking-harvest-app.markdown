@@ -27,7 +27,15 @@ Update Article soon.!
 </a>
 
 -->
-<br>
+<br><br>
+
+<h2 class="section-heading">7 Club Mate's</h2>
+
+<h2 class="section-heading">186 Coffees</h2>
+
+<h2 class="section-heading">215 Hours</h2>
+
+<h2 class="section-heading">7102 Lines of Code</h2>
 
 <blockquote>
 I know it’s stressful being a CEO, but you have to celebrate with your team. Set goals earlier on that you can hit to build the team’s confidence in their ability to achieve them and your ability to properly set them.”
