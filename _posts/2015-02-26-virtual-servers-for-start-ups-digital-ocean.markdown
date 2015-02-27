@@ -16,19 +16,6 @@ header-img: "img/cloud-virtual-server.png"
 Update Today the Article. 
 	</p>
 
-<h2 class="section-heading">Start Up Static</h2>
-
-<br>
-
-<h2 class="section-heading">7 Club Mate's</h2>
-
-<h2 class="section-heading">185 Coffees</h2>
-
-<h2 class="section-heading">209 Hours</h2>
-
-<h2 class="section-heading">6938 Lines of Code</h2>
-
-
 <!--
 <div class="row">
         <div class="col-md-4"></div>
