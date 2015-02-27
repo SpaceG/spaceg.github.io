@@ -10,11 +10,13 @@ header-img: "img/cloud-virtual-server.png"
 
 
 
-<p>
+
+Last we are looking for some Virtual Servers for our new Start Up. There are many good Host - Providers. In the End we decide it for Digital Ocean.
+There are really good Virtual Servers up for Web Developers etc. Over 400,000 developers have deployed to Digital Ocean Cloud. [Digital Oceans](https://www.digitalocean.com/) 
 
 
-Update Today the Article. 
-	</p>
+
+
 
 <!--
 <div class="row">
