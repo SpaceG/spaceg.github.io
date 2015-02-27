@@ -4,7 +4,7 @@ title:      "Worktime Tracking App from Havest App"
 subtitle:   "Track your Worktime"
 date:       2015-02-27 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/day_to_night_matte_painting_by_minimonstermill-d5v6a5c-1.jpg"
+header-img: "img/Michelangelo Erschaffung Adams.jpg"
 ---
 <h2 class="section-heading">Tracking your Worktime </h2>
 
