@@ -14,6 +14,10 @@ header-img: "img/cloud-virtual-server.png"
 Last Week we were in search of Virtual Servers for our new Start Up. There are many good Host - Providers. In the End we decide it for Digital Ocean a (Digital Company from New York City U.S.A.
 There are really good Virtual Servers up for Web Developers etc. Over 400,000 developers have deployed to Digital Ocean Cloud.  [Digital Oceans](https://www.digitalocean.com/) 
 
+They Say : 
+SSD-Only Cloud
+We’ve created the fastest and most convenient cloud technology to help you easily and more efficiently manage your infrastructure so you can get back to coding. We provide all of our users with high-performance SSD Hard Drives, a flexible API, and the ability to select the nearest data center location.
+
 We Started with $ 10 / mo - 1GBMemory - 1 CoreProcessor - 30GBSSD Disk - 2TBTransfer
 
 More to read soon. - ;)
