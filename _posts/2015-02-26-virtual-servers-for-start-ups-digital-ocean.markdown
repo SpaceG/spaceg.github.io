@@ -33,13 +33,10 @@ More to read soon. - ;)
 
 
 
-
-
-<!--
 <a href="#">
-    <img src="{{ site.baseurl }}/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/DO_Logo_Vertical_Black-1f85f3b9.png" alt="Post Sample Image" style="width:100%">
 </a>
--->
+
 
 <br>
 
