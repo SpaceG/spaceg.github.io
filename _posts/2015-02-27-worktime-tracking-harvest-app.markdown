@@ -55,14 +55,18 @@ I found another Termianl Code called [CLOC](http://cloc.sourceforge.net/) Count 
 
 
 It’s easy to install on OS X:
+
+
 <code>$ brew install cloc </code>
 
 
 And on Debian-based Linuxes:
+
 <code>$ aptitude install cloc </code>
 
 
 To use it, simply cd into the root directory and run:
+
 <code>$ cloc .</code>
 
 
