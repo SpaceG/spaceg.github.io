@@ -58,6 +58,9 @@ It’s easy to install on OS X:
 <code>$ brew install cloc </code>
 
 
+And on Debian-based Linuxes:
+
+<code>$ aptitude install cloc </code>
 
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
