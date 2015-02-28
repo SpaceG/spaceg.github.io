@@ -33,7 +33,7 @@ Update Article soon.!
 
 <h2 class="section-heading">186 Coffees</h2>
 
-<h2 class="section-heading">217 Hours</h2>
+<h2 class="section-heading">219 Hours</h2>
 
 <h2 class="section-heading">7104 Lines of Code</h2>
 
