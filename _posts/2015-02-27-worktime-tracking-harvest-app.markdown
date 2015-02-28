@@ -105,6 +105,8 @@ export PS1="\u@\h \W\[\033[31m\]\$(parse_git_branch)\[\033[00m\] $ "
 </code>
 
 
+Restart your terminal and change directories to your repository and you should now see the branch in parenthesis at the end of your prompt.
+
 <br>
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
