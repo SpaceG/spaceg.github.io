@@ -25,7 +25,7 @@ Update Article soon.!
 [spaceggithubio.harvestapp.com](https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime) 
 
 - Links 
-[harvestapp.com](https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime) 
+[harvestapp.com](https://harvestapp.com/) 
 
 
 
