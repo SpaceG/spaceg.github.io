@@ -96,8 +96,16 @@ Linux General:  <code> ~/.bash_profile </code>
 
 
 Add in the file the following lines:
+<code>
+parse_git_branch() {
+       git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \W\[\033[31m\]\$(parse_git_branch)\[\033[00m\] $ "
+ 
+</code>
 
 
+<br>
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
