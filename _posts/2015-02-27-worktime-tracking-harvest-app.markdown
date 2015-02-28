@@ -8,7 +8,7 @@ header-img: "img/adam.jpg"
 ---
 <h2 class="section-heading">Tracking your Worktime </h2>
 
-Update Article soon.! 
+
 
 <!--
 <div class="row">
