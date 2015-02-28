@@ -43,6 +43,7 @@ I have found a Script to Count Lines of Code of our Start Up. We write alot of C
 [Count Lines of Code in Mac OS X](http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html) 
 
 
+<code> find . -type f -name '*.php' -exec awk 'END {print NR}' '{}' + 2>/dev/null | awk '{ total+=$1 }END{print total}' </code>
 
 
 
