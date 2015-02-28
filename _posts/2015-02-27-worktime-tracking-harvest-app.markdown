@@ -65,6 +65,9 @@ And on Debian-based Linuxes:
 
 To use it, simply cd into the root directory and run:
 
+<code>$ cloc .</code>
+
+
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
