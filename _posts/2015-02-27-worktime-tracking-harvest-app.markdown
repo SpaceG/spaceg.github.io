@@ -81,6 +81,19 @@ You can, of course, customize the poop out of it as well.
 
 <br>
 
+
+
+
+Quick and easy way to show the current Git branch on your command prompt
+
+
+If you work with lots of branches in Git it is nice to be able to see at a glance which branch you are on instead of typing git branch each time. Here are 4 quick lines you can add to your bash prompt that will show the current branch.
+
+You will need to edit your user bash config which can be in different locations depending on your operating system.
+
+OS X: <code> ~/.profile </code>
+
+
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
 
