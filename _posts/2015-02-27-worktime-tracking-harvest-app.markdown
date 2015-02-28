@@ -94,6 +94,12 @@ You will need to edit your user bash config which can be in different locations 
 OS X: <code> ~/.profile </code>
 Linux General:  <code> ~/.bash_profile </code>
 
+~ represents the path to your user home directory. For my user, spaceodyssey, on OS X the path is <code> /Users/home/spaceodyssey. </code>
+
+
+
+
+
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
