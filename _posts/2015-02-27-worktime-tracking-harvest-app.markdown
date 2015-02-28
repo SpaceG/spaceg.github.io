@@ -75,7 +75,11 @@ The default output will show you a breakdown by language. Here’s an example of
     <img src="{{ site.baseurl }}/img/cloc-redacted.png" alt="Post Sample Image" style="width:100%">
 </a>
 
+You can, of course, customize the poop out of it as well.
 
+cloc --help to nerd out.
+
+<br>
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
