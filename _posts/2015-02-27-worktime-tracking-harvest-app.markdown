@@ -71,6 +71,9 @@ To use it, simply cd into the root directory and run:
 
 
 The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
+<a href="#">
+    <img src="{{ site.baseurl }}/img/cloc-redacted.png" alt="Post Sample Image" style="width:100%">
+</a>
 
 
 
