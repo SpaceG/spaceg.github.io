@@ -63,6 +63,9 @@ And on Debian-based Linuxes:
 <code>$ aptitude install cloc </code>
 
 
+To use it, simply cd into the root directory and run:
+
+
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
 
