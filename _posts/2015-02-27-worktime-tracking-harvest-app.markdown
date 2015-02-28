@@ -25,7 +25,8 @@ Update Article soon.!
 [spaceggithubio.harvestapp.com](https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime) 
 
 
-Screenshot Pre
+Screenshot Preview.
+Start Right Now the Time Count for Today! 
 <a href="#">
     <img src="{{ site.baseurl }}/img/wf1.png" alt="Post Sample Image" style="width:100%">
 </a>
