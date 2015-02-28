@@ -77,7 +77,7 @@ The default output will show you a breakdown by language. Here’s an example of
 
 You can, of course, customize the poop out of it as well.
 
-cloc --help to nerd out.
+<code>cloc --help</code> to nerd out.
 
 <br>
 
