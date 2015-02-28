@@ -36,6 +36,17 @@ Start Right Now the Time Count for Today!
     <img src="{{ site.baseurl }}/img/wf1.png" alt="Post Sample Image" style="width:100%">
 </a>
 
+
+
+
+I have found a script to count Lines of code of our Start Up. We write alot of code and Lines.
+
+
+
+
+
+
+
 <br><br>
 
 <h2 class="section-heading">7 Club Mate's</h2>
