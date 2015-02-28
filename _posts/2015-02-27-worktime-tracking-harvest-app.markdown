@@ -40,7 +40,7 @@ Start Right Now the Time Count for Today!
 
 
 I have found a Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
-
+[Count Lines of Code in Mac OS X](http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html) 
 
 
 
