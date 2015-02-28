@@ -92,7 +92,7 @@ If you work with lots of branches in Git it is nice to be able to see at a glanc
 OS X: <code> ~/.profile </code>
 Linux General:  <code> ~/.bash_profile </code>
 
-~ represents the path to your user home directory. For my user, spaceodyssey, on OS X the path is <code> /Users/home/spaceodyssey. </code>
+~ represents the path to your user home directory. For my  <code>user, spaceodyssey, </code> on OS X the path is <code> /Users/home/spaceodyssey. </code>
 
 
 Add in the file the following lines:
