@@ -92,6 +92,7 @@ If you work with lots of branches in Git it is nice to be able to see at a glanc
 You will need to edit your user bash config which can be in different locations depending on your operating system.
 
 OS X: <code> ~/.profile </code>
+Linux General:  <code> ~/.bash_profile </code>
 
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
