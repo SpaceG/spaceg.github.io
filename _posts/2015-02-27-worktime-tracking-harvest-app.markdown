@@ -55,7 +55,7 @@ I found another Termianl Code called [CLOC](http://cloc.sourceforge.net/) Count 
 It’s easy to install on OS X:
 
 
-<code>
+<code>$ brew install cloc </code>
 
 
 
