@@ -43,7 +43,7 @@ My Radio Chanel [hbr1.com the best Psychedelic do you can get it. -](http://hbr1
 
 <h2 class="section-heading">219 Hours</h2>
 
-<h2 class="section-heading">7104 Lines of Code</h2>s
+<h2 class="section-heading">7104 Lines of Code</h2>
 
 
 <!--
