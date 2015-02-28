@@ -39,7 +39,7 @@ Start Right Now the Time Count for Today!
 
 
 
-I have found a script to count Lines of code of our Start Up. We write alot of code and Lines.
+I have found a Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
 
 
 
