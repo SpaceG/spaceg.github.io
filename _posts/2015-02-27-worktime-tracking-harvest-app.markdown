@@ -70,6 +70,9 @@ To use it, simply cd into the root directory and run:
 <code>$ cloc .</code>
 
 
+The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
+
+
 
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
