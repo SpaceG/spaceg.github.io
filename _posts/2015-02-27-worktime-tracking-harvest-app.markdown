@@ -25,12 +25,11 @@ Update Article soon.!
 [spaceggithubio.harvestapp.com](https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime) 
 
 
-<!--
+Screenshot Pre
 <a href="#">
-    <img src="{{ site.baseurl }}/img/digital_ocean.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/wf1.png" alt="Post Sample Image" style="width:100%">
 </a>
 
--->
 <br><br>
 
 <h2 class="section-heading">7 Club Mate's</h2>
