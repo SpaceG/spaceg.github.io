@@ -48,6 +48,18 @@ I have found a Script to Count Lines of Code of our Start Up. We write alot of C
 
 
 
+
+
+I found another Termianl Code called [CLOC](http://cloc.sourceforge.net/) Count Lines of Code
+
+It’s easy to install on OS X:
+
+
+<code>
+
+
+
+
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
 
