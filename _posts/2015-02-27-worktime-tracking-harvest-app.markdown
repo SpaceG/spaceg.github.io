@@ -44,7 +44,7 @@ I have found a Script to Count Lines of Code of our Start Up. We write alot of C
 
 
 
-And Today i hit the 1000 K of contribrutions on Github!
+And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
 
 <a href="#">
