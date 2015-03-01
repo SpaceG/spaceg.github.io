@@ -4,6 +4,9 @@ Clean Magic Medium-Jekyll Theme -V.0.3.0
 Developet by Lucas Gatsas @LucasGatsas and Kerill @railsr7 on Twitter
 
 
+Change Logs :) 
+
+-Last Update Sa.24.January.2014 19:10:17 CET – Central European Time / European Central Time (Standard Time)
 -Last Update Sa.24.January.2014 19:10:17 CET – Central European Time / European Central Time (Standard Time)
 
 
