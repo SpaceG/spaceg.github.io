@@ -67,8 +67,8 @@ My Radio Chanel [hbr1.com the best Psychedelic do you can get it. -](http://hbr1
 -->
 
 <br>
-
+<br>
 <blockquote>
-“Without music, life would be a mistake.” 
+“Without Music, Life would be a Mistake.” 
 ― Friedrich Nietzsche
 </blockquote>
