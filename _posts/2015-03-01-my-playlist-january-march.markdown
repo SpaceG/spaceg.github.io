@@ -37,6 +37,7 @@ Tracks:
 
 [Solar Fields - Discovering](https://www.youtube.com/watch?v=OXzeOLGXJeo) 
 
+[Solar Fields - Magic Eye](https://www.youtube.com/watch?v=2OLGyHRJMlw) 
 
 
 <br>
