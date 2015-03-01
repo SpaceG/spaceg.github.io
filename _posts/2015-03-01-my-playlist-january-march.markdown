@@ -22,6 +22,21 @@ Tracks:
 
 [Kryptic Minds - Six Degrees](https://www.youtube.com/watch?v=3ENNbC_UmEM&list=RD3ENNbC_UmEM) 
 
+
+
+
+
+Artist: 
+
+<strong>Solar Fields</strong> - The Sight is White
+
+Tracks:
+
+[Solar Fields - The Sight is White](https://www.youtube.com/watch?v=7Z_4w-34uA0) 
+
+
+
+
 <!--
 <div class="row">
         <div class="col-md-4"></div>
