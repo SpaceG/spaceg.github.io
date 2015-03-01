@@ -4,18 +4,13 @@
 
 
 <head>
-
+<!-- loads the http over https ssl - welcome to my website! 
+                                                    follow me at my twitter  --> 
 <script type="text/javascript">
 var host = "spaceg.github.io";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
-
 </script>
-
-
-   
-
-
 <!--
     <script type="text/javascript">
 // jQuery to collapse the navbar on scroll
@@ -85,7 +80,7 @@ $('.navbar-collapse ul li a').click(function() {
     <meta property="og:site_name" content="Hello, my Name is @LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"/>
     <link rel="canonical" href="https://spaceg.github.io/page6/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/spacegstylesheets.css">
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -124,7 +119,7 @@ list-style: none;
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/" id="blog-title-left-top">g</a>
-        </div>
+        </div>   
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -316,7 +311,7 @@ list-style: none;
 
 
     <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/odeyssey.jpg')">
+<header class="intro-header" style="background-image: url('/')">
     <div class="container head">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -343,13 +338,13 @@ list-style: none;
         </div>
     </div>
 </header>
-
+<!--
             <section class="spaceg-beetween">
                     <div class="spaceg-content">
                             <p>Follow me <a href="https://www.twitter.com/@LucasGatsas"><strong> @LucasGatsas</strong></a></p>
                     </div>
 
-            </section>
+            </section> -->
 
 
 <!-- Main Content -->
@@ -357,6 +352,251 @@ list-style: none;
 	<div class="row">
 		<div class="posts">
 			<div class="content">
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-08.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-08T14:00:40+01:00">
+							<a href="https://spaceg.github.io/2015/01/08/backbone.js/">January 08, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://spaceg.github.io/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/08/backbone.js/" rel="bookmark" title="backbone.js " itemprop="url">backbone.js </a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/01/08/backbone.js/" rel="bookmark" title="backbone.js " itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Give your JS App some Backbone with Models, Views, Collections, and Events </h2>
+
+<p>Backbone.js
+###<a href="https://github.com/jashkenas/backbone/">Backbone.js</a></p>
+
+<p>Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.</p>
+
+<p>Download
+<a href="https://github.com/jashkenas/backbone/">backbone.js</a></p>
+
+<p>Download
+<a href="http://backbonejs.org/">backbone.js Introductions</a></p>
+
+<p>Download
+<a href="http://jquery.com/download/">Jquery Introductions</a></p>
+
+<p>Download
+<a href="http://underscorejs.org/">Underscore.js Introductions</a></p>
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">	Skeletal Structure
+or the Matrix of Backbone in index.html + Javascript Library. </h2>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre><small>&lt;!DOCTYPE html&gt;</small>
+ <b>&lt;</b><b>html</b><b>&gt;</b>
+ <b>&lt;</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>title</b><b>&gt;</b> Backbone.js <b>&lt;/</b><b>title</b><b>&gt;</b>
+<b>&lt;</b><b>script src="jquery-1.11.0.min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b>
+<b>&lt;</b><b>script src="underscore-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.6.0 --&gt;</i>
+<b>&lt;</b><b>script src="backbone-min.js"</b><b>&gt;</b> <b>&lt;/</b><b>script</b><b>&gt;</b><i>&lt;!-- Version 1.1.1 --&gt;</i>
+<b>&lt;/</b><b>head</b><b>&gt;</b>
+<b>&lt;</b><b>body</b><b>&gt;</b>
+
+<b>&lt;/</b><b>body</b><b>&gt;</b>
+<b>&lt;/</b><b>html</b><b>&gt;</b>
+</pre></pre></div>
+
+<p>Update Post Soon!</p>
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
+
+
+		</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-13.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-06T14:00:02+01:00">
+							<a href="https://spaceg.github.io/2015/01/06/set-up-sails-js/">January 06, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://spaceg.github.io/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/06/set-up-sails-js/" rel="bookmark" title="Set Up sails.js - Sails js - Framework" itemprop="url">Set Up sails.js - Sails js - Framework</a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/01/06/set-up-sails-js/" rel="bookmark" title="Set Up sails.js - Sails js - Framework" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">sails.js </h2>
+
+<p>Sails.js:
+###<a href="http://sailsjs.org/">sails.js</a></p>
+
+<p>You need the <code> sudo npm install </code> <a href="https://www.npmjs.com/">npmjs.com</a>  installer to run sails.js correctly. Go Download it via Commandline type</p>
+
+<p>You Need also some tools to run Sails js!</p>
+
+<p>Download
+<a href="https://www.npmjs.com/">npmjs.com</a></p>
+
+<p>Download
+<a href="http://sailsjs.org/">sails.org</a></p>
+
+<p>Download
+<a href="http://lesscss.org/">lesscss.org</a></p>
+
+<p>Download
+<a href="http://gruntjs.com/">gruntjs.com</a></p>
+
+<p>Download
+<a href="http://nodejs.org/">node.js</a></p>
+
+<p>Download
+<a href="http://brew.sh/">brew.sh</a></p>
+
+<p>Open Terminal and Type: </p>
+
+<p><code> sudo npm install </code></p>
+
+<p><code> sails lift </code></p>
+
+<p>http://localhost:1337/</p>
+
+<p>info: To see your app, visit http://localhost:1337
+info: To shut down Sails, press <ctrl> + C at any time.</ctrl></p>
+
+<p><a href="#">
+    <img src="/img/Screenshot-2014-09-09-07.23.05.png" alt="Post Sample Image" style="width:100%" />
+</a></p>
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<!--
+<a href="#">
+    <img src="/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png" alt="Post Sample Image" style="height: 500px;"> 
+</a> 
+-->
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+
+		</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-06.png')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-06T14:00:02+01:00">
+							<a href="https://spaceg.github.io/2015/01/06/get-introduction-get-started/">January 06, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://spaceg.github.io/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/06/get-introduction-get-started/" rel="bookmark" title="Get Introduction - Get Started" itemprop="url">Get Introduction - Get Started</a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/01/06/get-introduction-get-started/" rel="bookmark" title="Get Introduction - Get Started" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">App Tree. </h2>
+
+<p>I created our App Tree Today, a Mind Map for our Web App. I have created it with MindMeister.</p>
+
+<p>Mindmeister:
+###<a href="http://www.mindmeister.com/">Mindmeister</a></p>
+
+<p><a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image" style="width:100%" />
+</a></p>
+
+<p>I had searched for a Mind Map and found MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.</p>
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
+
+
+		</div>
+	</article>
+
   
     <article>
 			<header class="intro-header" style="background-image: url('/img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg')" style="margin-bottom:-40px;">  
@@ -377,6 +617,8 @@ list-style: none;
 		
 				
 				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/05/install-laravel-on-xampp-mamp/" rel="bookmark" title="How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp" itemprop="url">How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp</a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/01/05/install-laravel-on-xampp-mamp/" rel="bookmark" title="How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
 				
 			</header>
 
@@ -673,6 +915,8 @@ ServerName spaceg.github.io
 		
 				
 				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/04/science-medium-jekyll-theme/" rel="bookmark" title="Science Medium Jekyll Theme V.0.2.0" itemprop="url">Science Medium Jekyll Theme V.0.2.0</a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/01/04/science-medium-jekyll-theme/" rel="bookmark" title="Science Medium Jekyll Theme V.0.2.0" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
 				
 			</header>
 
@@ -712,182 +956,6 @@ ServerName spaceg.github.io
 
 <p>Download Jekyll 
 ###<a href="https://github.com/jekyll/jekyll">Download Jekyll  →</a></p>
-
-
-		</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-14.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-01-03T13:00:00+01:00">
-							<a href="https://spaceg.github.io/2015/01/03/archive-page-jekyll/">January 03, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://spaceg.github.io/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/03/archive-page-jekyll/" rel="bookmark" title="Archive - Page over Jekyll." itemprop="url">Archive - Page over Jekyll.</a></h1>
-				
-			</header>
-
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">The Set Up.</h2>
-<p>Create the archive.html file.</p>
-
-<script src="https://gist.github.com/SpaceG/a649063bf0379f3ce3b6.js"></script>
-
-<p><br />
-<a href="https://github.com/SpaceG/spaceg.github.io/blob/master/archive.html">Raw Code on GitHub.</a> Raw Code</p>
-
-<p>Create a archive.html to your Static Html jekyll Files and enter <code> ctrl + c </code> and type in command line <code>jekyll serve </code></p>
-
-<blockquote>Good Things never ending!</blockquote>
-
-<!--
-
-<a href="#">
-    <img src="/img/post-sample-image.jpg" alt="Post Sample Image">
-</a> -->
-
-
-		</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-01-01T13:00:00+01:00">
-							<a href="https://spaceg.github.io/2015/01/01/ssl-https/">January 01, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://spaceg.github.io/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/01/01/ssl-https/" rel="bookmark" title="ssl - https over GitHub." itemprop="url">ssl - https over GitHub.</a></h1>
-				
-			</header>
-
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<p>Happy New Year Everybody. Good Code 2015. 1. of January! Back to work! I figured out how can I do this, how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script! This Code is writen in Javascript. </p>
-
-<p><code>var host = "YOURDOMAIN.github.io";
-if ((host == window.location.host) &amp;&amp; (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-</code><br /></p>
-
-<p> Another Way you can get ssl is, during the Popular Cryptographic Software Library Open Source SSL which on is available on a Source Base !
-	Be aware of the the most biggest Hole! The Heartbleed Bug! 
-	There are many other Open Sources and Scripts. If you are good, you can both write your own self. 
-	Here some Links : 
-	<br />
-
-
-</p>
-<p><br />
-<a href="https://www.openssl.org/">Open SSL Source</a>
-Open SSL Source</p>
-
-<p><a href="https://github.com/openssl/openssl">Open SSL Source on Github.</a>
-Open SSL Source</p>
-
-<p><a href="http://heartbleed.com/">The Heartbleed</a> The Heartbleed</p>
-
-<h2 class="section-heading">Install</h2>
-
-<p>But it on your Top in the Header after some meta tags.</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Transport_Layer_Security">Transport Layer Security and  Secure Sockets Layer (SSL)</a>
- Secure Sockets Layer (SSL)
-<br />
-<a href="http://en.wikipedia.org/wiki/OpenSSL">Open SSL Source</a>
-Open SSL Source
-<br /></p>
-
-<blockquote>Computers are good at following instructions, but not at reading your mind. ~ Donald Knuth</blockquote>
-
-<!--
-
-<a href="#">
-    <img src="/img/post-sample-image.jpg" alt="Post Sample Image">
-</a> -->
-
-
-		</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/odeyssey.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2014-07-01T14:00:00+02:00">
-							<a href="https://spaceg.github.io/2014/07/01/getready/">July 01, 2014</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://spaceg.github.io/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2014/07/01/getready/" rel="bookmark" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." itemprop="url">The dreams of yesterday are the hopes of today and the reality of tomorrow.</a></h1>
-				
-			</header>
-
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned! This Blog is dedicated to my Git's!</p>
-
-<h2 class="section-heading">The Development Processes!</h2>
-
-<p>I will describe and Blog about my development Processes @ my Official Website!</p>
-
-<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<h2 class="section-heading">Start Up Projects in Progress.</h2>
-
-<p>Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.</p>
-
-<p> Here is my Install Video </p>
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen=""></iframe>
-
-<!--
-
-<a href="#">
-    <img src="/img/post-sample-image.jpg" alt="Post Sample Image">
-</a> -->
 
 
 		</div>
@@ -998,7 +1066,7 @@ $('.content').jscroll({
 
 <script src="/js/bootstrap.min.js "></script>
 
-<script src="/js/clean-blog.min.js "></script> 
+<script src="/js/spacegstylesheets.min.js"></script> 
 
 <script type="text/javascript">
   //<![CDATA[
