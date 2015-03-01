@@ -44,11 +44,11 @@ Tracks:
 
 Artist: 
 
-<strong>H.U.V.A Network</strong> - The Sight is White
+<strong>H.U.V.A Network</strong> - Tokyo
 
 Tracks:
 
-[H.U.V.A. Network - Dissolving Time](https://www.youtube.com/watch?v=K77vHPno2pU) 
+[H.U.V.A. Network - Dissolving Time](https://www.youtube.com/watch?v=JNUHSchOszs) 
 
 
 
