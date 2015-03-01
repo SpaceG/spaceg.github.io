@@ -119,13 +119,15 @@ And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](http
 
 <br><br>
 
-<h2 class="section-heading">7 Club Mate's</h2>
+<h2 class="section-heading">8 Club Mate's</h2>
 
 <h2 class="section-heading">187 Coffees</h2>
 
-<h2 class="section-heading">220 Hours</h2>
+<h2 class="section-heading">228 Hours</h2>
 
-<h2 class="section-heading">7104 Lines of Code</h2>
+<h2 class="section-heading">7203 Lines of Code</h2>
+
+
 
 <blockquote>
 “Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder
