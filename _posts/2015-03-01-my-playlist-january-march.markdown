@@ -6,7 +6,7 @@ date:       2015-03-01 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/adam.jpg"
 ---
-<h2 class="section-heading">Tracking your Worktime </h2>
+<h2 class="section-heading">My Playlist</h2>
 
 I hear a lot of Music. Here is a Playlist from January - March. 
 
