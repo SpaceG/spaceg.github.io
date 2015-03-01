@@ -40,6 +40,9 @@ color: white;
 a#readmore-link {
 color: white;
 }
+i#icon-top {
+font-size: 20px;
+}
 	.pagination{
 		display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}.pagination.jscroll-next-parent{display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}#pagination{display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}#pagination.jscroll-next-parent{display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px}
 		.navbar-default .navbar-nav>li>a{color:#B6B6B6}.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#FFF}.navbar-default .navbar-toggle{border-color:#FFF}i#github-icon-top{font-size:20px}nav.navbar.navbar-inverse.navbar-fixed-top-top{padding-top:55px}.navbar-inverse{background-color:#FFF;border-color:#FFF}header
