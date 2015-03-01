@@ -11,7 +11,7 @@ header-img: "img/adam.jpg"
 I hear a lot of Music. Here is a Playlist from January - March. 
 
 
-Kryptic Minds | Can't Sleep
+<strong>Kryptic Minds</strong> - Can't Sleep
 
 Tracks:
 
