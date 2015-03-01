@@ -18,7 +18,7 @@ if you want download the theme, do you can download it. here
 
 
 
-
+New Link to my New Theme Coming soon! 
 
 
 
