@@ -77,5 +77,5 @@ And my Favorite Radio Chanel !
 
 
 <blockquote>
-“Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder
-</blockquote>
+“Without Music, Life would be a Mistake.” 
+― Friedrich Nietzsche </blockquote>

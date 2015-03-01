@@ -67,8 +67,7 @@ My Radio Chanel [hbr1.com the best Psychedelic do you can get it. -](http://hbr1
 -->
 
 <br>
-<br>
+
 <blockquote>
-“Without Music, Life would be a Mistake.” 
-― Friedrich Nietzsche
+“Be really picky with your hiring, and hire the absolute best people you possibly can. People are the most important component of almost every business, and attracting the best talent possible is going to make a huge difference.”
 </blockquote>
