@@ -14,7 +14,7 @@ header-img: "img/22.jpg"
 
 
 <p>
-My Days looks like at the moment., Wake Up in The Morning most Time (07:00), if I slept, because in the last Days, I work during the Day and at Night, because i love my work much and can even spend more Time in our Start Up. My Ryhtmus for sleep is 6 - 8 Hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my mate Giancarlo about the next details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. 
+My Days looks like at the moment., Wake Up in The Morning most Time (07:00), if I slept, because in the last Days, I work during the Day and at Night. My Sleeprhythm are exactly 6 - 8 hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. Then I speak a few details with Giancarlo. Then Write some New Code and do re-design of the current Layout.
 
 
 	</p>
