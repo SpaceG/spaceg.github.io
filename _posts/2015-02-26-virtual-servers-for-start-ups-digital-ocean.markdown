@@ -12,7 +12,7 @@ header-img: "img/cloud-virtual-server.png"
 
 
 Last Week we were in search of Virtual Servers for our new Start Up. There are many good Host - Providers. In the End we decide it for Digital Ocean a (Digital Company from New York City U.S.A.)
-The have good Virtual Servers up for Web Developers etc. Over 400,000 developers have deployed to Digital Ocean Cloud.  [Digital Oceans](https://www.digitalocean.com/) 
+They have good Virtual Servers up for Web Developers etc. Over 400,000 developers have deployed to Digital Ocean Cloud.  [Digital Oceans](https://www.digitalocean.com/) 
 
 They Say : 
 SSD-Only Cloud
