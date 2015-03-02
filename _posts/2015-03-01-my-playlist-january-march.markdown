@@ -27,7 +27,7 @@ Tracks:
 
 Artist: 
 
-<strong>Burial</strong> Burial & Kode9 
+<strong>Burial</strong>  & Kode9 
 
 Tracks:
 
