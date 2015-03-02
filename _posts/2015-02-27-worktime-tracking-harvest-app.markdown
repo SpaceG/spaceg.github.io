@@ -8,7 +8,7 @@ header-img: "img/adam.jpg"
 ---
 <h2 class="section-heading">Tracking your Worktime </h2>
 
-I have discovered a good App to track the Work Time. Go See [harvestapp.com](https://harvestapp.com/). Till now i use a small script from my Desktop App. I need a clean Timecounter and Harvestapp is perfect for. Now i decide to 
+I have discovered a good App to track the Work Time. Go See [harvestapp.com](https://harvestapp.com/). So far I have used a small Script. I need a clean Timecounter and Harvestapp is perfect for. Now i decide to 
 sign up to [spaceggithubio.harvestapp.com](https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime).
 
 <!--
