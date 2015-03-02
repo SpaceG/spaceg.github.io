@@ -46,7 +46,7 @@ I got this Script to Count Lines of Code of our Start Up. We write alot of Code 
 
 <br>
 
-I found another Termianl Code called [CLOC](http://cloc.sourceforge.net/) Count Lines of Code or download it directly @ Sourceforge 
+I found another Termianl Code [CLOC](http://cloc.sourceforge.net/) Count Lines of Code or download it directly @ Sourceforge 
 [sourceforge.net](http://sourceforge.net/projects/cloc/files/) 
 
 
