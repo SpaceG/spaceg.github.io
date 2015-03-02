@@ -35,9 +35,7 @@ I have discovered a good App to track the Work Time. Go See [harvestapp.com](htt
 </a>
 
 
-
-
-I have found a Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
+I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
 [Count Lines of Code in Mac OS X](http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html) 
 
 
@@ -56,7 +54,6 @@ It’s easy to install on OS X:
 
 
 <code>$ brew install cloc </code>
-
 
 And on Debian-based Linuxes:
 
@@ -88,6 +85,7 @@ Quick and easy way to show the current Git branch on your command prompt
 If you work with lots of branches in Git it is nice to be able to see at a glance which branch you are on instead of typing git branch each time. Here are 4 quick lines you can add to your bash prompt that will show the current branch. You will need to edit your user bash config which can be in different locations depending on your operating system.
 
 OS X: <code> ~/.profile </code>
+
 Linux General:  <code> ~/.bash_profile </code>
 
 ~ represents the path to your user home directory. For my  <code>user, spaceodyssey, </code> on OS X the path is <code> /Users/home/spaceodyssey. </code>

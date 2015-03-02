@@ -5,8 +5,8 @@
     <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Mar 2015 13:28:31 +0100</pubDate>
-    <lastBuildDate>Mon, 02 Mar 2015 13:28:31 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Mar 2015 13:30:39 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 13:30:39 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -131,7 +131,7 @@ And my Favorite Radio Chanel !
     &lt;img src=&quot;/img/wf1.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I have found a Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
+&lt;p&gt;I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
 &lt;a href=&quot;http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html&quot;&gt;Count Lines of Code in Mac OS X&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; find . -type f -name &#39;*.php&#39; -exec awk &#39;END {print NR}&#39; &#39;{}&#39; + 2&amp;gt;/dev/null | awk &#39;{ total+=$1 }END{print total}&#39; &lt;/code&gt;&lt;/p&gt;
@@ -168,8 +168,9 @@ And my Favorite Radio Chanel !
 
 &lt;p&gt;If you work with lots of branches in Git it is nice to be able to see at a glance which branch you are on instead of typing git branch each time. Here are 4 quick lines you can add to your bash prompt that will show the current branch. You will need to edit your user bash config which can be in different locations depending on your operating system.&lt;/p&gt;
 
-&lt;p&gt;OS X: &lt;code&gt; ~/.profile &lt;/code&gt;
-Linux General:  &lt;code&gt; ~/.bash_profile &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;OS X: &lt;code&gt; ~/.profile &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Linux General:  &lt;code&gt; ~/.bash_profile &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;~ represents the path to your user home directory. For my  &lt;code&gt;user, spaceodyssey, &lt;/code&gt; on OS X the path is &lt;code&gt; /Users/home/spaceodyssey. &lt;/code&gt;&lt;/p&gt;
 
