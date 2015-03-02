@@ -9,12 +9,12 @@ header-img: "img/22.jpg"
 <h2 class="section-heading">Work Static</h2>
 
 
-<p> Since exact from the 1. of January till now we have spend alot of Time in our Start Up. We have worked every day on our Start Up. Now we are in the middle of our Code. Glad to have the strong part behind us. I have done the most Front-End Work and Javascript details. I'm going to start with the Design, the Hardwork of the Design which takes a lot of time. I needed 10 hours for design and into the Layout, later I chose the main Colors, the Fonts which I have changed many Times. A good Layout and Design needs a lot of Time!</p>
+<p> Since exact from the 1. of January till now we have spend alot of Time in our Start Up. We have worked every Day on our Start Up. Now we are in the middle of our Code. Glad to have the strong Part behind us. I have done the most Front-End Work and Javascript details. I'm going to start with the Design, the Hardwork of the Design which takes a lot of Time. I needed 10 hours for Design and Layout, later I chose the main Colors, the Fonts which I have changed many Times. A good Layout and Design needs a lot of Times!</p>
 
 
 
 <p>
-My Days looks like at the moment., Wake Up in The Morning most Time (07:00), if I slept, because in the last Days, I work during the Day and at Night. My Sleeprhythm are exactly 6 - 8 hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. Then I speak a few details with Giancarlo. Then Write some New Code and do re-design of the current Layout.
+My Days looks like at the Moment, Wake Up in The Morning most Time (07:00), if I slept, because in the last Days, I work during the Day and at Night. My Sleeprhythm are exactly 6 - 8 hours per Day. Nothing more.. i can't even sleep more than 6 -8 Hours per Day. Then I speak a few details with Giancarlo. Then Write some New Code and do re-design of the current Layout.
 
 
 	</p>
