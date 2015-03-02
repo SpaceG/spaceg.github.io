@@ -20,7 +20,6 @@ We’ve created the fastest and most convenient cloud technology to help you eas
 
 We Started with $ 10 / mo - 1GBMemory - 1 CoreProcessor - 30GBSSD Disk - 2TBTransfer
 
-More to read soon. - ;)
 
 
 - Links 
