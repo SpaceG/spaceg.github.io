@@ -21,7 +21,7 @@ My Days looks like at the moment., Wake Up in The Morning most Time (07:00), if 
 
 <p> 
 Between Start Up and Study. 
-Some People ask me how do you do that? how do you can work so long..? My Answer is, I love what I do, this is the most secret. Find anything  what do you Love and make it big. starts small. everyone is beginning difficult. - this is definitely a good motivation necessary for the start. - sometimes I wish I could make other details! But everything has a Sense. Also to be alone all the Time? - I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, disciplined to be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
+Some People ask me how do you do that? how do you can work so long..? My Answer is, I love what I do, this is the most secret. Find anything  what do you Love and make it big. starts small. everyone is beginning difficult. - this is definitely a good motivation necessary for the start. - sometimes I wish I could make other details! But everything has a Sense. Also to be alone all the Time? - I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, discipline, well-disciplined, self-disciplined to do that and there are some Rules too. Be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
 
 
 
