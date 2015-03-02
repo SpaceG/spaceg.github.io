@@ -29,7 +29,6 @@ Some People ask me how do you do that? how do you can work so long..? My Answer 
 
 </p>
 
-My Radio Chanel [hbr1.com the best Psychedelic do you can get it. -](http://hbr1.com/) 
 
 <p>
 
