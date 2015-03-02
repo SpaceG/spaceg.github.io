@@ -46,7 +46,7 @@ I got this Script to Count Lines of Code of our Start Up. We write alot of Code 
 
 <br>
 
-I have found another Terminal Command [CLOC](http://cloc.sourceforge.net/) Count Lines of Code or download it directly @ Sourceforge 
+I have found another Terminal Command [CLOC](http://cloc.sourceforge.net/) Count Lines of Code! You can download it directly @ Sourceforge 
 [sourceforge.net](http://sourceforge.net/projects/cloc/files/) 
 
 
