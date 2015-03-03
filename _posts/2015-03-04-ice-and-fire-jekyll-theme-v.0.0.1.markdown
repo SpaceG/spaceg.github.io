@@ -8,9 +8,9 @@ header-img: "img/adam.jpg"
 ---
 <h2 class="section-heading">ICE & FIRE - Jekyll Theme</h2>
 
-I hear a lot of Music. Here is a Playlist from January - March. 
 
-Artist: 
+
+
 
 <strong>Ice&Fire</strong> - Jekyll Theme V.0.0.1
 
