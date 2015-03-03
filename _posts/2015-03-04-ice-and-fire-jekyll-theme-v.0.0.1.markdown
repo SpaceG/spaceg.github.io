@@ -12,7 +12,6 @@ header-img: "img/adam.jpg"
 
 
 
-<strong>Ice&Fire</strong> - Jekyll Theme V.0.0.1
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/jekyll_theme_iceandfire.png" alt="Post Sample Image" style="width:100%">
@@ -22,6 +21,9 @@ header-img: "img/adam.jpg"
 
 <br>
 
+
+
+<strong>Ice&Fire</strong> - Jekyll Theme V.0.0.1
 
 
 
