@@ -41,4 +41,6 @@ header-img: "img/adam.jpg"
 
 
 <blockquote>
+
+	Write a Code Feel like a God. - 
 </blockquote>
