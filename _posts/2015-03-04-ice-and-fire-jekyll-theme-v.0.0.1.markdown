@@ -6,26 +6,22 @@ date:       2015-03-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/adam.jpg"
 ---
-<h2 class="section-heading">My Playlist</h2>
+<h2 class="section-heading">ICE & FIRE - Jekyll Theme</h2>
 
 I hear a lot of Music. Here is a Playlist from January - March. 
 
 Artist: 
 
-<strong>Kryptic Minds</strong> - Can't Sleep
+<strong>Ice&Fire</strong> - Jekyll Theme V.0.0.1
 
-Tracks:
+<a href="#">
+    <img src="{{ site.baseurl }}/img/1001k.png" alt="Post Sample Image" style="width:100%">
+</a>
 
-[Kryptic Minds - Can't Sleep](https://www.youtube.com/watch?v=7Z_4w-34uA0) 
-
-[Kryptic Minds - Just After Sunset](https://www.youtube.com/watch?v=N_tI6sy860U) 
-
-[Kryptic Minds - Six Degrees](https://www.youtube.com/watch?v=3ENNbC_UmEM&list=RD3ENNbC_UmEM) 
 
 
 <br>
 
-Artist: 
 
 
 
