@@ -15,7 +15,7 @@ header-img: "img/adam.jpg"
 <strong>Ice&Fire</strong> - Jekyll Theme V.0.0.1
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/1001k.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/https://spaceg.github.io/img/jekyll_theme_iceandfire.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
