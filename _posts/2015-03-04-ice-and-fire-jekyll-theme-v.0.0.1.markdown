@@ -41,5 +41,4 @@ header-img: "img/adam.jpg"
 
 
 <blockquote>
-“Without Music, Life would be a Mistake.” 
-― Friedrich Nietzsche </blockquote>
+</blockquote>
