@@ -11,7 +11,7 @@ header-img: "img/Space-Engine-mountain-range.jpg"
 
 
 
-Get Read with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the NextDays or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - 
+Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - 
 
 <h2 class="section-heading">Sub Domains</h2>
 A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
