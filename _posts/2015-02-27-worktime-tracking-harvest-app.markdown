@@ -4,7 +4,7 @@ title:      "Worktime Tracking App from Havest App"
 subtitle:   "Track your Worktime"
 date:       2015-02-27 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/nordseestraende.jpg"
+header-img: "img/Meinung_Game-of-Thrones-Staffel-4-Folge-3_2.jpg"
 ---
 <h2 class="section-heading">Tracking your Worktime </h2>
 
