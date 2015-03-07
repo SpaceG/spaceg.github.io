@@ -36,11 +36,11 @@ Some People ask me how do you do that? how do you can work so long..? My Answer 
 
 <br><br>
 
-<h2 class="section-heading">9 Club Mate's</h2>
+<h2 class="section-heading">11 Club Mate's</h2>
 
 <h2 class="section-heading">192 Coffees</h2>
 
-<h2 class="section-heading">245 Hours</h2>
+<h2 class="section-heading">247 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
