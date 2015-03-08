@@ -32,5 +32,4 @@ Update Post soon! -
 
 
 <blockquote>
-Optimists are strange Creatures. If the Country is full of Thistles and Thorns, they still find somewhere a Flower.
-</blockquote>
+An optimist is the personification of spring.</blockquote>
