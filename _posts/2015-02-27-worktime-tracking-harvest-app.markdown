@@ -35,6 +35,21 @@ I have discovered a good App to track the Work Time. Go See [harvestapp.com](htt
 </a>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/week1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/wf1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/wf1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
+
 I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
 [Count Lines of Code in Mac OS X](http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html) 
 
