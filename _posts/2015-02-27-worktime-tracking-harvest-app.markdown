@@ -39,9 +39,11 @@ I have discovered a good App to track the Work Time. Go See [harvestapp.com](htt
     <img src="{{ site.baseurl }}/img/week1.png" alt="Post Sample Image" style="width:100%">
 </a>
 
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/week2.png" alt="Post Sample Image" style="width:100%">
 </a>
+
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/week3.png" alt="Post Sample Image" style="width:100%">
