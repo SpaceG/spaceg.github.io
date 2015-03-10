@@ -11,7 +11,8 @@ header-img: "img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Lou
 
 <h2 class="section-heading"><strong>Optimists Have Advantages</strong></h2>
 
-
+All psychological studies show: optimism
+have more Advantages than Disadvantages.
 
 <br>
 
