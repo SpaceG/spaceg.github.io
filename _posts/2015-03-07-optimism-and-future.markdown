@@ -46,7 +46,7 @@ The psychological Resilience of optimistic People is better than the pessimistic
 <h2 class="section-heading"><strong>Mental Abilities</strong></h2>
 
 The positive effect from the mood of optimists are that their sense organs function better.
-
+Thus, it has been found that positive-minded and balanced people have a better memory skills, creative and imaginative are better see and hear.
 
 
 <!--
