@@ -43,7 +43,7 @@ The psychological Resilience of optimistic People is better than the pessimistic
 
 
 
-<h2 class="section-heading"><strong>Geistige Fähigkeiten</strong></h2>
+<h2 class="section-heading"><strong>Mental Abilities</strong></h2>
 
 
 <!--
