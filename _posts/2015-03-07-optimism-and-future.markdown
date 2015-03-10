@@ -45,6 +45,9 @@ The psychological Resilience of optimistic People is better than the pessimistic
 
 <h2 class="section-heading"><strong>Mental Abilities</strong></h2>
 
+The positive effect from the mood of optimists are that their sense organs function better.
+
+
 
 <!--
 <div class="row">
