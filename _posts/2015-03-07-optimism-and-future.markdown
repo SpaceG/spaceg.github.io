@@ -15,6 +15,11 @@ All Psychological Studies show: Optimism have more Advantages than Disadvantages
 many areas of your life favorably: your life, your emotional well-being, mental abilities, your perception, your professional and
 financial success and your interpersonal Relationships.
 
+
+
+
+
+mental condition
 <br>
 
 
