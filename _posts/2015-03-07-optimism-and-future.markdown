@@ -53,7 +53,7 @@ Thus, it has been found that positive-minded and balanced people have a better m
 <h2 class="section-heading"><strong>Physical Health</strong></h2>
 
 
-
+Optimists are enjoying good physical health in general, because the mental and physical well-being are closely linked.
 
 <!--
 <div class="row">
