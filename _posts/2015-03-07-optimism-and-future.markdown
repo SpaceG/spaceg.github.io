@@ -20,6 +20,11 @@ financial success and your interpersonal Relationships.
 
 <h2 class="section-heading"><strong>Mental Condition</strong></h2>
 
+
+The Mental Condition of Optimistic People is mostly Good.
+
+
+
 <br>
 
 
