@@ -38,7 +38,7 @@ Optimists look defeats and failures as something Temporarily, as a short-term se
 
 
 <blockquote>
-An optimist is the personification of spring.</blockquote>
+Dresden Zwinger Mathematisch Physikalischer Salon (Louis de Silvestre) Personifikation der Fama.</blockquote>
 
 
 
