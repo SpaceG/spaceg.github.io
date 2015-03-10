@@ -22,7 +22,7 @@ financial success and your interpersonal Relationships.
 
 
 The Mental Condition of Optimistic People is mostly Good.
-
+Consciously or unconsciously, they know that they feel, how they think, and that they alone decide how they think.
 
 
 <br>
