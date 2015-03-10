@@ -42,6 +42,10 @@ Optimists are convinced that we can improve any situation, be able to limit dama
 The psychological Resilience of optimistic People is better than the pessimistic People.
 
 
+
+<h2 class="section-heading"><strong>Geistige Fähigkeiten</strong></h2>
+
+
 <!--
 <div class="row">
         <div class="col-md-4"></div>
