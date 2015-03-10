@@ -39,7 +39,7 @@ Optimists look defeats and failures as something Temporarily, as a short-term se
 Dresden Zwinger Mathematisch Physikalischer Salon (Louis de Silvestre) Personifikation der Fama.</blockquote>
 
 Optimists are convinced that we can improve any situation, be able to limit damage to find other, better solutions to building something lost or Destroyed again to start over. The Optimism prevents that they resign bury our heads in the sand and are depressed. The belief that everything will end well, optimists helps to better cope with crisis and problems.
-
+The psychological resilience (resilience) optimistic people is better than the pessimistic people.
 
 
 <!--
