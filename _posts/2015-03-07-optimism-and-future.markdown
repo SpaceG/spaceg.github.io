@@ -18,8 +18,7 @@ financial success and your interpersonal Relationships.
 
 
 
-<h2 class="section-heading"><strong>mental condition
-</strong></h2>
+<h2 class="section-heading"><strong>Mental Condition</strong></h2>
 
 <br>
 
