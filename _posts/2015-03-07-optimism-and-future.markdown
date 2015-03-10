@@ -29,8 +29,6 @@ long time. You are actively doing something about it that it them again soon bet
 
 Optimists look defeats and failures as something Temporarily, as a short-term setback. they are convinced that everything will end well.
 
-<br>
-
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Louis_de_Silvestre,_Personifikation_der_Fama,_Figur_1.png" alt="Post Sample Image" style="width:100%">
