@@ -9,7 +9,7 @@ header-img: "img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Lou
 <h2 class="section-heading">Optimism and the Future</h2>
 
 
-<strong>Optimists Have Advantages</strong>
+<strong><h2 class="section-heading">Optimists Have Advantages</h2></strong>
 
 
 
