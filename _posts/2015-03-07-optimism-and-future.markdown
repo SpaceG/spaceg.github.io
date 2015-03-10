@@ -23,6 +23,11 @@ financial success and your interpersonal Relationships.
 
 The Mental Condition of Optimistic People is mostly Good.
 Consciously or unconsciously, they know that they feel, how they think, and that they alone decide how they think.
+Optimists want to win much Good! they will come rarely in a position that their mood for a long time in the cellar.
+
+Certainly, they also sometimes feel uncomfortable, are depressed or depressed. But this discomfort does not last very
+long time. You are actively doing something about it that it them again soon better off.
+
 
 
 <br>
