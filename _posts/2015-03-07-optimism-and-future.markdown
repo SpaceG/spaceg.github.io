@@ -49,6 +49,12 @@ The positive effect from the mood of optimists are that their sense organs funct
 Thus, it has been found that positive-minded and balanced people have a better memory skills, creative and imaginative are better see and hear.
 
 
+
+<h2 class="section-heading"><strong>Physical Health</strong></h2>
+
+
+
+
 <!--
 <div class="row">
         <div class="col-md-4"></div>
