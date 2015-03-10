@@ -38,7 +38,7 @@ Optimists look defeats and failures as something Temporarily, as a short-term se
 <blockquote>
 Dresden Zwinger Mathematisch Physikalischer Salon (Louis de Silvestre) Personifikation der Fama.</blockquote>
 
-
+Optimists are convinced that we can improve any situation, be able to limit damage to find other, better solutions to building something lost or Destroyed again to start over.
 
 <!--
 <div class="row">
