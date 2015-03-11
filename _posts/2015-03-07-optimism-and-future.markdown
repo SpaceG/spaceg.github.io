@@ -53,7 +53,9 @@ Thus, it has been found that positive-minded and balanced people have a better m
 <h2 class="section-heading"><strong>Physical Health</strong></h2>
 
 
-Optimists are enjoying good physical health in general, because the mental and physical well-being are closely linked. A positive attitude towards life affects our internal organs such as the elixir of life. People with a very good rule optimist and confident outlook on life are less likely to die of cardiovascular disease than the average, have a higher life expectancy.  D.h. Optimism is an excellent protection against cardiovascular diseases. Optimistic-minded people cope better with stress and therefore have less stress hormones in their bodies. And the chances of recovery are better if people believe in their recovery and look to the future.
+Optimists are enjoying good physical health in general, because the mental and physical well-being are closely linked. A positive attitude towards life affects our internal organs such as the elixir of life. People with a very good rule optimist and confident outlook on life are less likely to die of cardiovascular disease than the average, have a higher life expectancy.  D.h. Optimism is an excellent protection against cardiovascular diseases. Optimistic-minded people cope better with stress and therefore have less stress hormones in their bodies. And the chances of recovery are better if people believe in their recovery and look to the future. Numerous studies prove that our defenses are strengthened by a hopeful and optimistic attitude. Glad natures have a much better immune response than Pessimists. If we are in spiritual harmony, then there is also our body in harmony, and that is a good protection against disease.
+
+
 
 <!--
 <div class="row">
