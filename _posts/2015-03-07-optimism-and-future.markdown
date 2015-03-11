@@ -66,6 +66,10 @@ People with an optimistic outlook on life are healthier than pessimistic minded 
 
 Professionally and financially optimists are usually more successful than pessimists. Where pessimists see problems namely, optimists see an opportunity.
 Due to their optimistic attitude also towards themselves and their abilities they dare much to believe in themselves and their success and can fully develop their skills.
+
+Optimists are not so easy of failures and failures affect. The Failures they consider to be learning experiences that bring them closer to their goal a piece.
+Through their conviction to always improve something, keep them longer by giving less quickly and are therefore more successful than pessimists.
+
 <!--
 <div class="row">
         <div class="col-md-4"></div>
