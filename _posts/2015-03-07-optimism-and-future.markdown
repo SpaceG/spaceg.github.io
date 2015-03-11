@@ -70,6 +70,12 @@ Due to their optimistic attitude also towards themselves and their abilities the
 Optimists are not so easy of failures and failures affect. The Failures they consider to be learning experiences that bring them closer to their goal a piece.
 Through their conviction to always improve something, keep them longer by giving less quickly and are therefore more successful than pessimists. Optimists rarely go on well-trodden paths, but are looking for new ways that no one is gone before them. Because they feel good mostly, they go even unpleasant tasks slight of hand. Professional athletes are capable of higher athletic performance when they are optimistic about their cutting. Although not always an optimist at all successful, he tackles, so has his optimistic attitude, everything will work out and be fine, but one great advantage: it tackles a lot and realized in this way much if not everything. Pessimists, however, little to pack and are also more confident and therefore fail to realize little.
 
+
+
+<h2 class="section-heading"><strong>Interpersonal Relations</strong></h2>
+
+Optimistic people do not consider their fellow human beings as enemies.
+
 <!--
 <div class="row">
         <div class="col-md-4"></div>
