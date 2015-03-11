@@ -68,7 +68,7 @@ Professionally and financially optimists are usually more successful than pessim
 Due to their optimistic attitude also towards themselves and their abilities they dare much to believe in themselves and their success and can fully develop their skills.
 
 Optimists are not so easy of failures and failures affect. The Failures they consider to be learning experiences that bring them closer to their goal a piece.
-Through their conviction to always improve something, keep them longer by giving less quickly and are therefore more successful than pessimists. Optimists rarely go on well-trodden paths, but are looking for new ways that no one is gone before them.
+Through their conviction to always improve something, keep them longer by giving less quickly and are therefore more successful than pessimists. Optimists rarely go on well-trodden paths, but are looking for new ways that no one is gone before them. Because they feel good mostly, they go even unpleasant tasks slight of hand. Professional athletes are capable of higher athletic performance when they are optimistic about their cutting.
 
 <!--
 <div class="row">
