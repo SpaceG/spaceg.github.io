@@ -58,6 +58,8 @@ Optimists are enjoying good physical health in general, because the mental and p
 
 <h2 class="section-heading"><strong>Optimism is healthy and optimism strengthens your health.</strong></h2>
 
+People with an optimistic outlook on life are healthier than pessimistic minded people.
+
 
 
 <!--
