@@ -74,7 +74,7 @@ Through their conviction to always improve something, keep them longer by giving
 
 <h2 class="section-heading"><strong>Interpersonal Relations</strong></h2>
 
-Optimistic people do not consider their fellow human beings as enemies.
+Optimistic people do not consider their fellow human beings as enemies. As long as they have not been disappointed by a human, impute it to him once that he is a lovely Human.
 
 <!--
 <div class="row">
