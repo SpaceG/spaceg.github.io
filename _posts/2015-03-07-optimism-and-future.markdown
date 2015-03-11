@@ -72,6 +72,20 @@ Through their conviction to always improve something, keep them longer by giving
 
 
 
+
+
+<h2 class="section-heading"><strong>Recording Brain activity of "Optimism" Regions.</strong></h2>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Louis_de_Silvestre,_Personifikation_der_Fama,_Figur_1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/ARCHIV_1409590708834648.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
 <h2 class="section-heading"><strong>Interpersonal Relations</strong></h2>
 
 Optimistic people do not consider their fellow human beings as enemies. As long as they have not been disappointed by a human, impute it to him once that he is a lovely Human.
