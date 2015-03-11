@@ -62,7 +62,7 @@ People with an optimistic outlook on life are healthier than pessimistic minded 
 
 
 
-<h2 class="section-heading"><strong>Berufliche und finanzielle Vorteile</strong></h2>
+<h2 class="section-heading"><strong>Professional and financial Benefits</strong></h2>
 
 
 <!--
