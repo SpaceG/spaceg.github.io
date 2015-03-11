@@ -44,7 +44,6 @@ Some People ask me how do you do that? how do you can work so long..? My Answer 
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
-
 <!--
 <div class="row">
         <div class="col-md-4"></div>
