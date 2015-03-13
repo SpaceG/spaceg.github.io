@@ -4,7 +4,7 @@ title:      "Club Mate"
 subtitle:   "Club Mate Analystic"
 date:       2015-03-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Louis_de_Silvestre,_Personifikation_der_Fama,_Figur_1.png"
+header-img: "img/Club-Mate_cartons.jpg"
 ---
 <h2 class="section-heading">Club Mate </h2>
 
