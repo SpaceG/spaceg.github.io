@@ -4,7 +4,7 @@ title:      "Club Mate"
 subtitle:   "Club Mate Analystic"
 date:       2015-03-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Club-Mate_cartons.jpg"
+header-img: "img/club_mate_by_zweiton-d4ngyw6.jpg"
 ---
 <h2 class="section-heading">Club Mate </h2>
 
