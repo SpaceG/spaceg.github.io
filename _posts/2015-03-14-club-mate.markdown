@@ -24,4 +24,4 @@ header-img: "img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Lou
 
 
 <blockquote>
-An optimist is the personification of spring.</blockquote>
+</blockquote>
