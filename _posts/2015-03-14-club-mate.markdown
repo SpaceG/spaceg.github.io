@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Club Mate"
-subtitle:   "Club Mate Analystic"
+subtitle:   "Club Mate, Start Up, Cable, Servers, Development"
 date:       2015-03-14 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/club_mate_by_zweiton-d4ngyw6.jpg"
