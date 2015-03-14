@@ -9,7 +9,6 @@ header-img: "img/Club-Mate_cartons.png"
 <h2 class="section-heading">Club Mate </h2>
 
 
-Update Post soon. 
 
 
 
