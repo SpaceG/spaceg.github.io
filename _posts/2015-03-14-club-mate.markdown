@@ -24,5 +24,16 @@ Update Post soon.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+
+
+<blockquote class="twitter-tweet tw-align-center" data-link-color="#666" lang="de"><p>One for Me, One for You! Get are Here :) Part II <a href="https://twitter.com/hashtag/clubmate?src=hash">#clubmate</a> <a href="https://twitter.com/hashtag/code?src=hash">#code</a> <a href="https://twitter.com/hashtag/startup?src=hash">#startup</a>&#10;<a href="https://twitter.com/GSoverini">@GSoverini</a> <a href="http://t.co/3ahn2JUlAv">pic.twitter.com/3ahn2JUlAv</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/570825319621525505">26. Februar 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+
+
 <blockquote>
 </blockquote>
