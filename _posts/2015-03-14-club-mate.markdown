@@ -19,7 +19,7 @@ This is my Club Mate Analystic. I drink a lot Club-Mate. Club-Mate is a caffeina
 
 <br>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Louis_de_Silvestre,_Personifikation_der_Fama,_Figur_1.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/club-mate-analystic-1.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
