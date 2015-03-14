@@ -21,6 +21,7 @@ This is my Club Mate Analystic. I drink a lot Club-Mate. Club-Mate is a caffeina
 <a href="#">
     <img src="{{ site.baseurl }}/img/club-mate-analystic-1.png" alt="Post Sample Image" style="width:100%">
 </a>
+First Tweet About Club Mate : link : [Tweet 4](https://twitter.com/LucasGatsas/status/573876509733228545/photo/1) 
 
 
 <br>
@@ -31,6 +32,7 @@ This is my Club Mate Analystic. I drink a lot Club-Mate. Club-Mate is a caffeina
 <a href="#">
     <img src="{{ site.baseurl }}/img/club-mate-analystic-2.png" alt="Post Sample Image" style="width:100%">
 </a>
+First Tweet About Club Mate : link : [Tweet 3](https://twitter.com/LucasGatsas/status/571715334627057664) 
 
 
 <br>
@@ -41,6 +43,7 @@ This is my Club Mate Analystic. I drink a lot Club-Mate. Club-Mate is a caffeina
 <a href="#">
     <img src="{{ site.baseurl }}/img/club-mate-analystic-3.png" alt="Post Sample Image" style="width:100%">
 </a>
+First Tweet About Club Mate : link : [Tweet 2](https://twitter.com/LucasGatsas/status/569574237884825600/photo/1) 
 
 
 <br>
@@ -51,6 +54,7 @@ This is my Club Mate Analystic. I drink a lot Club-Mate. Club-Mate is a caffeina
 <a href="#">
     <img src="{{ site.baseurl }}/img/club-mate-analystic-4.png" alt="Post Sample Image" style="width:100%">
 </a>
+First Tweet About Club Mate : link : [Tweet 1](https://twitter.com/LucasGatsas/status/569574237884825600/photo/1) 
 
 
 <blockquote>
