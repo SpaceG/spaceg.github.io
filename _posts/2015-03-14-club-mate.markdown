@@ -57,5 +57,15 @@ Second Tweet About Club Mate : link : [Tweet 2](https://twitter.com/LucasGatsas/
 First Tweet About Club Mate : link : [Tweet 1](https://twitter.com/LucasGatsas/status/569574237884825600/photo/1) 
 
 
+
+
+Impressionen Static Followers
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/followers.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
 <blockquote>
 </blockquote>
