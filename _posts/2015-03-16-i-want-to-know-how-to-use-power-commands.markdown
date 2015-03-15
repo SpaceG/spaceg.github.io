@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Club Mate"
+title:      "I Want To Know How To Use Power Commands"
 subtitle:   "Club Mate, Start Up, Cable, Servers, Development"
 date:       2015-03-16 14:00:44
 author:     "Lucas Gatsas"
