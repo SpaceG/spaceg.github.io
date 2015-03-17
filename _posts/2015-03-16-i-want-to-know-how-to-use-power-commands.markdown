@@ -10,6 +10,37 @@ header-img: "img/front-post-image-01-terminal.png"
 
 Update Post Soon. 
 
+
+
+<div class="container">
+      <h2>Table</h2>
+      <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+      <div class="table-responsive">          
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Firstname</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Anna</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Debbie</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>John</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
 <blockquote>
 	“sudo make me a sandwich :) ! ”
 </blockquote>

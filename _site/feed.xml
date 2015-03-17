@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Mar 2015 00:28:17 +0100</pubDate>
-    <lastBuildDate>Tue, 17 Mar 2015 00:28:17 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 00:58:51 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 00:58:51 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,6 +14,35 @@
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Real Men Don&#39;t Use Menus. I Want To Know How To Use Power Commands.&lt;/strong&gt; &lt;/h2&gt;
 
 &lt;p&gt;Update Post Soon. &lt;/p&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+      &lt;h2&gt;Table&lt;/h2&gt;
+      &lt;p&gt;The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:&lt;/p&gt;                                                                                      
+      &lt;div class=&quot;table-responsive&quot;&gt;          
+      &lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;#&lt;/th&gt;
+            &lt;th&gt;Firstname&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;Anna&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;Debbie&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;3&lt;/td&gt;
+            &lt;td&gt;John&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
 &lt;blockquote&gt;
 	“sudo make me a sandwich :) ! ”
