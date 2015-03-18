@@ -12,19 +12,15 @@ header-img: "img/front-post-image-01-terminal.png"
 
 
 <style>
-
 tbody tr:hover td {
 background: rgba(237,237,237,.25);
 }
 tr {
 border-bottom: .1em solid rgb(237,237,237);
 }
-
 td {
 border-left: 1px solid rgba(65, 65, 65, 0.09);
-
 border-right: 1px solid rgba(65, 65, 65, 0.09);
-
 padding-left: 5px;
 }
 </style>
