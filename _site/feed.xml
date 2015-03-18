@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:25:24 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:25:24 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:26:46 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:26:46 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -36,7 +36,7 @@ padding-left: 5px;
 &lt;figure class=&quot;table textLeft&quot;&gt;&lt;table class=&quot;fullTable&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Befehl&lt;/th&gt;&lt;th&gt;Funktion&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &amp;nbsp; 	&lt;tbody&gt;
 &amp;nbsp; 		&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;cd&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;change directory&lt;/em&gt; — Welchselt in ein angegebenenes Verzeichnis&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
 &amp;nbsp; 			&lt;td&gt;ls&lt;/td&gt;
