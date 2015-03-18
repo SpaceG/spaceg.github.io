@@ -89,7 +89,7 @@ padding-left: 5px;
 &nbsp; 			<td><code>screencapture</code></td>
 &nbsp; 			<td>Erstellt ein Bildschirmfoto</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>find</td>
+&nbsp; 			<td><code>find</code></td>
 &nbsp; 			<td>Suche nach Dateien</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>mdfind</td>
