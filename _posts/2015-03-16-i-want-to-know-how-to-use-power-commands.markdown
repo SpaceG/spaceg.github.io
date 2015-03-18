@@ -80,10 +80,10 @@ padding-left: 5px;
 &nbsp; 			<td><code>say</code></td>
 &nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>date</td>
+&nbsp; 			<td><code>date</td>
 &nbsp; 			<td>Zeigt das aktuelle Datum und Uhrzeit an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>nano</td>
+&nbsp; 			<td><code>nano</td>
 &nbsp; 			<td>Text-Editor nano</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>screencapture</td>
