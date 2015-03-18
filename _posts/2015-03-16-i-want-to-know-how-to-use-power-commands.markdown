@@ -125,7 +125,7 @@ Type the following command string:
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/club-mate-analystic-1.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
 </a>
 
 
