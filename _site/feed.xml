@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:36:28 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:36:28 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:37:09 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:37:09 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -105,19 +105,19 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;top&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Listet eine detaillierte Prozessliste auf&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;history&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;history&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Listet die zuletzt benutzten Befehle auf&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;clear&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;man&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;man&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;Man-Page&lt;/em&gt; — Ruft die Man-Seite zum angegebenen Befehl auf&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;which&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;which&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Welcher Befehl wird ausgeführt?&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;whatis&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;whatis&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Kurzinfo zum angegebenen Befehl&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;
 &amp;nbsp; 	&lt;/tbody&gt;
