@@ -124,7 +124,9 @@ Type the following command string:
 <code>xcode-select --install</code>
 
 
-
+<a href="#">
+    <img src="{{ site.baseurl }}/img/club-mate-analystic-1.png" alt="Post Sample Image" style="width:100%">
+</a>
 
 
 In The Next Days, i will go Upload some New Terminal 
