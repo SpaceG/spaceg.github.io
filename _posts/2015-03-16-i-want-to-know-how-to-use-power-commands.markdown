@@ -44,7 +44,7 @@ padding-left: 5px;
 &nbsp; 			<td><code>cp</code></td>
 &nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mv</td>
+&nbsp; 			<td><code>mv</code></td>
 &nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td><code>rm</td>
