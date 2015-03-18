@@ -16,7 +16,9 @@ header-img: "img/front-post-image-01-terminal.png"
 tbody tr:hover td {
 background: rgba(237,237,237,.25);
 }
-
+tr {
+border-bottom: .1em solid rgb(237,237,237);
+}
 </style>
 
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
