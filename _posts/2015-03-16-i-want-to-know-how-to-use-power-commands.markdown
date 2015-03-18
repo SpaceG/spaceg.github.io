@@ -115,7 +115,7 @@ padding-left: 5px;
 &nbsp; </table>
 </figure>
   
-In The Next Days, i will go Upload some New Terminal Command Skills. All for Mac Os X. 
+In The Next Days, i will go Upload some New Terminal CommandLine Skills. All for Mac Os X. 
 
 
 
