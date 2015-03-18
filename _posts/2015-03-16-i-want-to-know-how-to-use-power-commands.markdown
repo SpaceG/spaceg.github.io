@@ -71,13 +71,13 @@ padding-left: 5px;
 &nbsp; 			<td><code>sudo</code></td>
 &nbsp; 			<td><em>substitute user do</em> — Führt den Befehl als Superuser (root) aus</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>pbcopy</td>
+&nbsp; 			<td><code>pbcopy</code></td>
 &nbsp; 			<td><em>pasteboard copy</em> — Übergibt Inhalt an die Zwischenablage von OS X</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>pbpaste</td>
+&nbsp; 			<td><code>pbpaste</code></td>
 &nbsp; 			<td><em>pasteboard past</em> — Gibt Inhalt der OS X Zwischenablage aus</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>say</td>
+&nbsp; 			<td><code>say</code></td>
 &nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>date</td>
