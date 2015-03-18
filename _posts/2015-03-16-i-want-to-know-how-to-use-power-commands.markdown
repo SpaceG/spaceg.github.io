@@ -10,31 +10,7 @@ header-img: "img/front-post-image-01-terminal.png"
 
 
 
-                                                                                
-      <div class="table-responsive">          
-      <table class="table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Firstname</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Anna</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Debbie</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>John</td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
+
   
 
 <blockquote>
