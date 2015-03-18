@@ -8,13 +8,9 @@ header-img: "img/front-post-image-01-terminal.png"
 ---
 <h2 class="section-heading"><strong>Real Men Don't Use Menus. I Want To Know How To Use Power Commands.</strong> </h2>
 
-Update Post Soon. 
 
 
-
-<div class="container">
-      <h2>Table</h2>
-      <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+                                                                                
       <div class="table-responsive">          
       <table class="table">
         <thead>
@@ -39,7 +35,7 @@ Update Post Soon.
         </tbody>
       </table>
       </div>
-    </div>
+  
 
 <blockquote>
 	“sudo make me a sandwich :) ! ”
