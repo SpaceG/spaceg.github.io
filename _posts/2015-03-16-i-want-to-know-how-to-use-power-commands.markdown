@@ -38,10 +38,10 @@ padding-left: 5px;
 &nbsp; 			<td><code>ls</code></td>
 &nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pwd</td>
+&nbsp; 			<td><code>pwd</code></td>
 &nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>cp</td>
+&nbsp; 			<td><code>cp</code></td>
 &nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>mv</td>
