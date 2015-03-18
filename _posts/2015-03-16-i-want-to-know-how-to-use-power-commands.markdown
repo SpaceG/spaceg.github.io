@@ -116,7 +116,7 @@ padding-left: 5px;
 </figure>
   
 
-  
+
 
 Installing Command Line Tools in Mac OS X
 Launch the Terminal, found in <code>/Applications/Utilities/</code>
@@ -128,7 +128,7 @@ Type the following command string:
 
 
 In The Next Days, i will go Upload some New Terminal 
-[CommandLine](https://spaceg.github.io) Skills. All for Mac Os X. 
+[CommandLine Tools](https://developer.apple.com/xcode/) Skills. All for Mac Os X. 
 
 
 
