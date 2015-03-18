@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:28:04 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:28:04 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:28:30 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:28:30 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -39,9 +39,9 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;change directory&lt;/em&gt; — Welchselt in ein angegebenenes Verzeichnis&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;&lt;code&gt;ls
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;list&lt;/em&gt; — Listet den Inhalt eines Verzeichnisses auf&lt;/td&gt;
-&amp;nbsp; 		&lt;tr&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;pwd
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;print working directory&lt;/em&gt; — Zeigt das aktuelle Verzeichnis an&lt;/td&gt;
 &amp;nbsp; 		&lt;tr&gt;
@@ -128,7 +128,7 @@ padding-left: 5px;
 &lt;blockquote&gt;
 	“sudo make me a sandwich :) ! ”
 &lt;/blockquote&gt;
-&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 </description>
         <pubDate>Mon, 16 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/16/i-want-to-know-how-to-use-power-commands/</link>
