@@ -8,6 +8,8 @@ header-img: "img/front-post-image-01-terminal.png"
 ---
 <h2 class="section-heading"><strong>Real Men Don't Use Menus. I Want To Know How To Use Power Commands.</strong> </h2>
 
+<h2 class="section-heading">OS X Thema: Terminal/UNIX</h2>
+
 
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
 &nbsp; 	<tbody>
