@@ -115,6 +115,18 @@ padding-left: 5px;
 &nbsp; </table>
 </figure>
   
+
+  
+
+Installing Command Line Tools in Mac OS X
+Launch the Terminal, found in <code>/Applications/Utilities/</code>
+Type the following command string:
+<code>xcode-select --install</code>
+
+
+
+
+
 In The Next Days, i will go Upload some New Terminal 
 [CommandLine](https://spaceg.github.io) Skills. All for Mac Os X. 
 
