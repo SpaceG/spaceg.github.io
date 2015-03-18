@@ -10,7 +10,6 @@ header-img: "img/front-post-image-01-terminal.png"
 
 
 
-
   
 
 <blockquote>
