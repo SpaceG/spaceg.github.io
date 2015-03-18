@@ -11,6 +11,14 @@ header-img: "img/front-post-image-01-terminal.png"
 <h2 class="section-heading">OS X Thema: Terminal/UNIX</h2>
 
 
+<style>
+
+tbody tr:hover td {
+background: rgba(237,237,237,.25);
+}
+
+</style>
+
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
 &nbsp; 	<tbody>
 &nbsp; 		<tr>
