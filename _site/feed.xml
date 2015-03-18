@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:28:52 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:28:52 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:29:31 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:29:31 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -48,18 +48,18 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;cp&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;copy&lt;/em&gt; — Kopiert Dateien und Ordner&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;mv&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;mv
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;move&lt;/em&gt; — Verschiebt Dateien und Ordner&lt;/td&gt;
-&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;rm&lt;/td&gt;
+&amp;nbsp; 		&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;rm
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;remove&lt;/em&gt; — Löscht Dateien oder Ordner&lt;/td&gt;
-&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;mkdir&lt;/td&gt;
+&amp;nbsp; 		&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;mkdir
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;make directory&lt;/em&gt; — Erstellt einen neuen Ordner&lt;/td&gt;
-&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;rmdir&lt;/td&gt;
+&amp;nbsp; 		&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;rmdir
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;remove directory&lt;/em&gt; — Löscht einen (leeren) Ordner&lt;/td&gt;
-&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 		&lt;tr&gt;
 &amp;nbsp; 			&lt;td&gt;open&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Öffnet eine angegebene Datei oder Ordner&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
@@ -120,13 +120,15 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;whatis&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Kurzinfo zum angegebenen Befehl&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;
-&amp;nbsp; 	&lt;/tbody&gt;
-&amp;nbsp; &lt;/table&gt;
-&lt;/figure&gt;
+&amp;nbsp; 	
+&amp;nbsp; 
+
+  
 
 &lt;blockquote&gt;
 	“sudo make me a sandwich :) ! ”
 &lt;/blockquote&gt;
+&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 </description>
         <pubDate>Mon, 16 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/16/i-want-to-know-how-to-use-power-commands/</link>

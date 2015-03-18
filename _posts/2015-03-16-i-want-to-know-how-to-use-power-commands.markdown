@@ -44,16 +44,16 @@ padding-left: 5px;
 &nbsp; 			<td><code>cp</code></td>
 &nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>mv</td>
+&nbsp; 			<td><code>mv</td>
 &nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>rm</td>
+&nbsp; 			<td><code>rm</td>
 &nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>mkdir</td>
+&nbsp; 			<td><code>mkdir</td>
 &nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>rmdir</td>
+&nbsp; 			<td><code>rmdir</td>
 &nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>open</td>
