@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:34:12 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:34:12 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:34:32 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:34:32 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -84,18 +84,18 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;say&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Sprachausgabe eines angegebenen Textes&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;&lt;code&gt;date
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;date&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Zeigt das aktuelle Datum und Uhrzeit an&lt;/td&gt;
-&amp;nbsp; 		&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;&lt;code&gt;nano
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;nano&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Text-Editor nano&lt;/td&gt;
-&amp;nbsp; 		&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;screencapture&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;screencapture&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Erstellt ein Bildschirmfoto&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;find&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;find
 &amp;nbsp; 			&lt;td&gt;Suche nach Dateien&lt;/td&gt;
-&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 		&lt;tr&gt;
 &amp;nbsp; 			&lt;td&gt;mdfind&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Spotlight-Suche&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
@@ -128,7 +128,7 @@ padding-left: 5px;
 &lt;blockquote&gt;
 	“sudo make me a sandwich :) ! ”
 &lt;/blockquote&gt;
-&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 </description>
         <pubDate>Mon, 16 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/16/i-want-to-know-how-to-use-power-commands/</link>

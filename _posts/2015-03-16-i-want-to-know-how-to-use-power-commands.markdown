@@ -80,16 +80,16 @@ padding-left: 5px;
 &nbsp; 			<td><code>say</code></td>
 &nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>date</td>
+&nbsp; 			<td><code>date</code></td>
 &nbsp; 			<td>Zeigt das aktuelle Datum und Uhrzeit an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>nano</td>
+&nbsp; 			<td><code>nano</code></td>
 &nbsp; 			<td>Text-Editor nano</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>screencapture</td>
+&nbsp; 			<td><code>screencapture</code></td>
 &nbsp; 			<td>Erstellt ein Bildschirmfoto</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>find</td>
+&nbsp; 			<td><code>find</td>
 &nbsp; 			<td>Suche nach Dateien</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>mdfind</td>
