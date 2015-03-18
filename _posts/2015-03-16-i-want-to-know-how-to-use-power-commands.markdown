@@ -56,10 +56,10 @@ padding-left: 5px;
 &nbsp; 			<td><code>rmdir</code></td>
 &nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>open</td>
+&nbsp; 			<td><code>open</code></td>
 &nbsp; 			<td>Öffnet eine angegebene Datei oder Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>kill / killall</td>
+&nbsp; 			<td><code>kill / killall</code></td>
 &nbsp; 			<td>Beendet einen angegebenen Prozess</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>whoami</td>

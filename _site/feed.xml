@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:30:56 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:30:56 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:32:02 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:32:02 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -60,10 +60,10 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;rmdir&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;remove directory&lt;/em&gt; — Löscht einen (leeren) Ordner&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;open&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;open&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Öffnet eine angegebene Datei oder Ordner&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;kill / killall&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;kill / killall&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Beendet einen angegebenen Prozess&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
 &amp;nbsp; 			&lt;td&gt;whoami&lt;/td&gt;
