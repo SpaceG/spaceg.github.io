@@ -62,13 +62,13 @@ padding-left: 5px;
 &nbsp; 			<td><code>kill / killall</code></td>
 &nbsp; 			<td>Beendet einen angegebenen Prozess</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whoami</td>
+&nbsp; 			<td><code>whoami</code></td>
 &nbsp; 			<td>Zeigt den aktuellen Benutzer an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>su</td>
+&nbsp; 			<td><code>su</code></td>
 &nbsp; 			<td><em>switch user</em> — Wechselt zum angegebenen Benutzer</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>sudo</td>
+&nbsp; 			<td><code>sudo</code></td>
 &nbsp; 			<td><em>substitute user do</em> — Führt den Befehl als Superuser (root) aus</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>pbcopy</td>

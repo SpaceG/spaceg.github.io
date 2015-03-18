@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Mar 2015 01:32:02 +0100</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2015 01:32:02 +0100</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 01:32:45 +0100</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 01:32:45 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -66,13 +66,13 @@ padding-left: 5px;
 &amp;nbsp; 			&lt;td&gt;&lt;code&gt;kill / killall&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Beendet einen angegebenen Prozess&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;whoami&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;whoami&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;Zeigt den aktuellen Benutzer an&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;su&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;su&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;switch user&lt;/em&gt; — Wechselt zum angegebenen Benutzer&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
-&amp;nbsp; 			&lt;td&gt;sudo&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;sudo&lt;/code&gt;&lt;/td&gt;
 &amp;nbsp; 			&lt;td&gt;&lt;em&gt;substitute user do&lt;/em&gt; — Führt den Befehl als Superuser (root) aus&lt;/td&gt;
 &amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
 &amp;nbsp; 			&lt;td&gt;pbcopy&lt;/td&gt;
