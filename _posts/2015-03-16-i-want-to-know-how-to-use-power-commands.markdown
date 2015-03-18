@@ -47,13 +47,13 @@ padding-left: 5px;
 &nbsp; 			<td><code>mv</code></td>
 &nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rm</td>
+&nbsp; 			<td><code>rm</code></td>
 &nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mkdir</td>
+&nbsp; 			<td><code>mkdir</code></td>
 &nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rmdir</td>
+&nbsp; 			<td><code>rmdir</code></td>
 &nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>open</td>
