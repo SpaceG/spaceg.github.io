@@ -35,13 +35,13 @@ padding-left: 5px;
 &nbsp; 			<td><code>cd</code></td>
 &nbsp; 			<td><em>change directory</em> — Welchselt in ein angegebenenes Verzeichnis</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>ls</td>
+&nbsp; 			<td><code>ls</td>
 &nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>pwd</td>
+&nbsp; 			<td><code>pwd</td>
 &nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td>cp</td>
+&nbsp; 			<td><code>cp</td>
 &nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td>mv</td>
