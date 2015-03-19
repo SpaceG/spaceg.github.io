@@ -137,6 +137,20 @@ Installing Command Line Tools in Mac OS X
     <img src="{{ site.baseurl }}/img/downloading-command-line-tools-1.jpg" alt="Post Sample Image" style="width:100%">
 </a>
 <br><br>
+
+The installer goes away on its own when complete, and you can then confirm everything is working by trying to use one of the commands that were just installed, like gcc, git, svn, rebase, make, ld, otool, nm, whatever you want from the list below. Assuming the installation went uninterrupted, the command will execute as expected. This also means you can compile and install things from source code directly without having to use a package manager. Enjoy your new unix command line toolkit!
+
+
+
+<strong>What Installs with Command Line Tools and Where</strong>
+For those interested, the entire package command line toolkit package gets placed in the following directory:
+
+<code>/Library/Developer/CommandLineTools/</code>
+
+
+
+
+
 In The Next Days, i will go Upload some New Terminal 
 [CommandLine Tools](https://developer.apple.com/xcode/) Skills. All for Mac Os X. 
 
