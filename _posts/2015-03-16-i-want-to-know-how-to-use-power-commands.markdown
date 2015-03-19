@@ -118,6 +118,9 @@ padding-left: 5px;
 
 <strong>Installing Command Line Tools in Mac OS X</strong>
 
+1. Launch the Terminal, found in 
+
+<code>/Applications/Utilities/</code>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
@@ -125,19 +128,15 @@ padding-left: 5px;
 <br> <br>
 
 
-1. Launch the Terminal, found in 
-
-<code>/Applications/Utilities/</code>
-
 2. Type the following command string:
 
 <code>xcode-select --install</code>
 
 
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Post Sample Image" style="max-width:100%">
 </a>
+
 
 3. A popup window will show that asks. 
 
