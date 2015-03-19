@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Mar 2015 18:25:02 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 18:25:02 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 18:26:40 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 18:26:40 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -354,6 +354,97 @@ padding-left: 5px;
 &lt;p&gt;&lt;code&gt;xml2man&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;yacc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ar&lt;br /&gt;
+as&lt;br /&gt;
+asa&lt;br /&gt;
+bison&lt;br /&gt;
+BuildStrings&lt;br /&gt;
+c++&lt;br /&gt;
+c89&lt;br /&gt;
+c99&lt;br /&gt;
+cc&lt;br /&gt;
+clang&lt;br /&gt;
+clang++&lt;br /&gt;
+cmpdylib&lt;br /&gt;
+codesign_allocate&lt;br /&gt;
+CpMac&lt;br /&gt;
+cpp&lt;br /&gt;
+ctags&lt;br /&gt;
+ctf_insert&lt;br /&gt;
+DeRez&lt;br /&gt;
+dsymutil&lt;br /&gt;
+dwarfdump&lt;br /&gt;
+dyldinfo&lt;br /&gt;
+flex&lt;br /&gt;
+flex++&lt;br /&gt;
+g++&lt;br /&gt;
+gatherheaderdoc&lt;br /&gt;
+gcc&lt;br /&gt;
+gcov&lt;br /&gt;
+GetFileInfo&lt;br /&gt;
+git&lt;br /&gt;
+git-cvsserver&lt;br /&gt;
+git-receive-pack&lt;br /&gt;
+git-shell&lt;br /&gt;
+git-upload-archive&lt;br /&gt;
+git-upload-pack&lt;br /&gt;
+gm4&lt;br /&gt;
+gnumake&lt;br /&gt;
+gperf&lt;br /&gt;
+hdxml2manxml&lt;br /&gt;
+headerdoc2html&lt;br /&gt;
+indent&lt;br /&gt;
+install_name_tool&lt;br /&gt;
+ld&lt;br /&gt;
+lex&lt;br /&gt;
+libtool&lt;br /&gt;
+lipo&lt;br /&gt;
+lldb&lt;br /&gt;
+lorder&lt;br /&gt;
+m4&lt;br /&gt;
+make&lt;br /&gt;
+MergePef&lt;br /&gt;
+mig&lt;br /&gt;
+mkdep&lt;br /&gt;
+MvMac&lt;br /&gt;
+nasm&lt;br /&gt;
+ndisasm&lt;br /&gt;
+nm&lt;br /&gt;
+nmedit&lt;br /&gt;
+otool&lt;br /&gt;
+pagestuff&lt;br /&gt;
+projectInfo&lt;br /&gt;
+ranlib&lt;br /&gt;
+rebase&lt;br /&gt;
+redo_prebinding&lt;br /&gt;
+ResMerger&lt;br /&gt;
+resolveLinks&lt;br /&gt;
+Rez&lt;br /&gt;
+RezDet&lt;br /&gt;
+RezWack&lt;br /&gt;
+rpcgen&lt;br /&gt;
+segedit&lt;br /&gt;
+SetFile&lt;br /&gt;
+size&lt;br /&gt;
+SplitForks&lt;br /&gt;
+strings&lt;br /&gt;
+strip&lt;br /&gt;
+svn&lt;br /&gt;
+svnadmin&lt;br /&gt;
+svndumpfilter&lt;br /&gt;
+svnlook&lt;br /&gt;
+svnrdump&lt;br /&gt;
+svnserve&lt;br /&gt;
+svnsync&lt;br /&gt;
+svnversion&lt;br /&gt;
+unifdef&lt;br /&gt;
+unifdefall&lt;br /&gt;
+UnRezWack&lt;br /&gt;
+unwinddump&lt;br /&gt;
+what&lt;br /&gt;
+xml2man&lt;br /&gt;
+yacc&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;In The Next Days, i will go Upload some New Terminal 
 &lt;a href=&quot;https://developer.apple.com/xcode/&quot;&gt;CommandLine Tools&lt;/a&gt; Skills. All for Mac Os X. &lt;/p&gt;
