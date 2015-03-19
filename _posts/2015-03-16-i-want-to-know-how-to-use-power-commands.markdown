@@ -118,6 +118,13 @@ padding-left: 5px;
 
 
 
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
+</a>
+<br> <br>
+
 <strong>Installing Command Line Tools in Mac OS X</strong>
 
 1. Launch the Terminal, found in 
@@ -127,13 +134,6 @@ padding-left: 5px;
 2. Type the following command string:
 
 <code>xcode-select --install</code>
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
-</a>
-<br> <br>
-
 
 
 
