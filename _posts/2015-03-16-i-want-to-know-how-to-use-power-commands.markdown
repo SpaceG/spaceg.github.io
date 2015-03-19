@@ -157,7 +157,8 @@ The installer goes away on its own when complete, and you can then confirm every
 
 For those interested, the entire package command line toolkit package gets placed in the following directory:
 
-<strong>/Library/Developer/CommandLineTools/</strong>
+/Library/Developer/
+CommandLineTools/
 
 
 (note that is the root /Library, not user ~/Library)
@@ -165,7 +166,8 @@ For those interested, the entire package command line toolkit package gets place
 If you want to see the 61 new commands available to you, they’re all in 
 
 
-<strong>/Library/Developer/CommandLineTools/usr/bin/</strong>
+/Library/Developer/
+CommandLineTools/usr/bin/
 
 
 and we have listed them below for convenience:
