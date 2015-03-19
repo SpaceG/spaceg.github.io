@@ -174,13 +174,21 @@ and we have listed them below for convenience:
 
 
 <code>ar</code>
+
 <code>as</code>
+
 <code>asa</code>
+
 <code>bison</code>
+
 <code>BuildStrings</code>
+
 <code>c++</code>
+
 <code>c89</code>
+
 <code>c99</code>
+
 <code>cc</code>
 <code>clang</code>
 <code>clang++</code>
