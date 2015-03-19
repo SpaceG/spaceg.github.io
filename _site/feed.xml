@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Mar 2015 20:28:29 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 20:28:29 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 20:30:50 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 20:30:50 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -165,13 +165,15 @@ padding-left: 5px;
 
 &lt;p&gt;For those interested, the entire package command line toolkit package gets placed in the following directory:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;/Library/Developer/CommandLineTools/&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;/Library/Developer/
+CommandLineTools/&lt;/p&gt;
 
 &lt;p&gt;(note that is the root /Library, not user ~/Library)&lt;/p&gt;
 
 &lt;p&gt;If you want to see the 61 new commands available to you, they’re all in &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;/Library/Developer/CommandLineTools/usr/bin/&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;/Library/Developer/
+CommandLineTools/usr/bin/&lt;/p&gt;
 
 &lt;p&gt;and we have listed them below for convenience:&lt;/p&gt;
 
