@@ -122,11 +122,13 @@ Installing Command Line Tools in Mac OS X
 1. Launch the Terminal, found in <code>/Applications/Utilities/</code>
 2. Type the following command string:
 <code>xcode-select --install</code>
-
+3. A popup window will show that asks. <code> The xcode-select command requires the command line developer tools. Would you like to install the tools now?</code>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
 </a>
+<br> 
+
 
 
 In The Next Days, i will go Upload some New Terminal 
