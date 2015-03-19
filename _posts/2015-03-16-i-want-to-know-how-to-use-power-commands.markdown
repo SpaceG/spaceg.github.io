@@ -116,11 +116,8 @@ padding-left: 5px;
 </figure>
   
 
-
-
 <strong>Installing Command Line Tools in Mac OS X</strong>
 
-<br>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
