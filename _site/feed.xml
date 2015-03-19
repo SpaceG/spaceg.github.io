@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Mar 2015 17:56:51 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 17:56:51 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 17:59:13 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 17:59:13 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -123,11 +123,13 @@ padding-left: 5px;
 &lt;p&gt;Installing Command Line Tools in Mac OS X
 1. Launch the Terminal, found in &lt;code&gt;/Applications/Utilities/&lt;/code&gt;
 2. Type the following command string:
-&lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;xcode-select --install&lt;/code&gt;
+3. A popup window will show that asks. &lt;code&gt; The xcode-select command requires the command line developer tools. Would you like to install the tools now?&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/install-command-line-tools-os-x.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;
+&lt;br /&gt; &lt;/p&gt;
 
 &lt;p&gt;In The Next Days, i will go Upload some New Terminal 
 &lt;a href=&quot;https://developer.apple.com/xcode/&quot;&gt;CommandLine Tools&lt;/a&gt; Skills. All for Mac Os X. &lt;/p&gt;
