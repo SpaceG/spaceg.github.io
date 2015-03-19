@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Mar 2015 00:02:10 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 00:02:10 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 17:56:51 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 17:56:51 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -121,8 +121,8 @@ padding-left: 5px;
 &lt;/figure&gt;
 
 &lt;p&gt;Installing Command Line Tools in Mac OS X
-Launch the Terminal, found in &lt;code&gt;/Applications/Utilities/&lt;/code&gt;
-Type the following command string:
+1. Launch the Terminal, found in &lt;code&gt;/Applications/Utilities/&lt;/code&gt;
+2. Type the following command string:
 &lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
