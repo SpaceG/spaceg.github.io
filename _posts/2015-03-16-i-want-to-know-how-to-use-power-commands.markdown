@@ -154,6 +154,7 @@ The installer goes away on its own when complete, and you can then confirm every
 
 
 <strong>What Installs with Command Line Tools and Where</strong>
+
 For those interested, the entire package command line toolkit package gets placed in the following directory:
 
 <code>/Library/Developer/CommandLineTools/</code>
