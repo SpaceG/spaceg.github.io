@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Mar 2015 18:28:48 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 18:28:48 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 20:23:56 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 20:23:56 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -151,11 +151,11 @@ padding-left: 5px;
 &lt;/a&gt;
 &lt;br /&gt; &lt;br /&gt;
 &lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/confirm-install-command-line-tools-mac-os-x-1.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/confirm-install-command-line-tools-mac-os-x-1.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;max-width:100%&quot; /&gt;
 &lt;/a&gt;
 &lt;br /&gt;&lt;br /&gt;
 &lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/downloading-command-line-tools-1.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/downloading-command-line-tools-1.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;max-width:100%&quot; /&gt;
 &lt;/a&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
