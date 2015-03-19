@@ -132,7 +132,7 @@ Installing Command Line Tools in Mac OS X
 <a href="#">
     <img src="{{ site.baseurl }}/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Post Sample Image" style="width:100%">
 </a>
-
+<br><br>
 
 In The Next Days, i will go Upload some New Terminal 
 [CommandLine Tools](https://developer.apple.com/xcode/) Skills. All for Mac Os X. 
