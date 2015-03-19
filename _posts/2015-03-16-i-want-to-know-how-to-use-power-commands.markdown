@@ -128,7 +128,7 @@ Installing Command Line Tools in Mac OS X
 <a href="#">
     <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
 </a>
-<br> 
+<br> <br>
 <a href="#">
     <img src="{{ site.baseurl }}/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Post Sample Image" style="width:100%">
 </a>
