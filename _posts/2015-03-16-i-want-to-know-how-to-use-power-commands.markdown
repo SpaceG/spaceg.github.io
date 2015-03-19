@@ -160,7 +160,15 @@ For those interested, the entire package command line toolkit package gets place
 <code>/Library/Developer/CommandLineTools/</code>
 
 
+(note that is the root /Library, not user ~/Library)
 
+If you want to see the 61 new commands available to you, they’re all in 
+
+
+<code>/Library/Developer/CommandLineTools/usr/bin/</code>
+
+
+and we have listed them below for convenience:
 
 
 In The Next Days, i will go Upload some New Terminal 
