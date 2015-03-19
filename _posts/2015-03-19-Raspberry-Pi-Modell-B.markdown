@@ -12,5 +12,5 @@ header-img: "img/front-post-image-01-terminal.png"
 
 
 <blockquote>
-	“sudo make me a sandwich :) ! ”
+	
 </blockquote>
