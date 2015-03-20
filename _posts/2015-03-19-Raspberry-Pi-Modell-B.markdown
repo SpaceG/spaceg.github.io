@@ -10,7 +10,7 @@ header-img: "img/a_Raspberry_2crop.png"
 
 Update Post soon! 
 
-
+<!--
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/raspberry_pi_mechanicalspecB_.png" alt="Post Sample Image" style="width:100%">
@@ -27,7 +27,7 @@ Update Post soon!
 </a>
 
 
-
+-->
 
 
 
