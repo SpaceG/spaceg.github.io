@@ -9,6 +9,12 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>Git CommandLines</strong> </h2>
 
 
+Git is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.
+
+
+
+
+
 
 <!--
 
