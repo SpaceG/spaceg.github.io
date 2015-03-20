@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "RaspberryPI Modell B"
-subtitle:   "RaspberryPI - Linux"
+title:      "Git Introduction"
+subtitle:   "Download  - Git - Git CommandLines"
 date:       2015-03-19 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/a_Raspberry_2crop.png"
