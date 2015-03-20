@@ -8,7 +8,7 @@ header-img: "img/p0198vg4.jpg"
 ---
 <h2 class="section-heading"><strong>Git CommandLines</strong> </h2>
 
-Update Post soon! 
+
 
 <!--
 
