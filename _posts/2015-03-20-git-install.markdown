@@ -9,7 +9,12 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>Git CommandLines</strong> </h2>
 
 
-Git is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.
+[Git](http://git-scm.com/) is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.
+
+
+
+(1.) Go Download Git [Git](http://git-scm.com/download/mac) I'm also a Mac User. Do you can Download it directly from [sourceforge.net](http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect). 
+
 
 
 
