@@ -18,7 +18,7 @@ Update Post soon!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bbcm_27.jpg" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/raspberry_pi_mechanicalspecB_.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
