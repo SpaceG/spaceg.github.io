@@ -21,16 +21,16 @@ Update Post soon!
 
 
 
+-->
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bbcm_27.jpg" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/p0198vg4.jpg" alt="Post Sample Image" style="width:100%">
 </a>
 
 
--->
 
 
 
 <blockquote>
-	
+	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
 </blockquote>
