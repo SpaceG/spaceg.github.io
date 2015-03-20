@@ -16,6 +16,12 @@ Update Post soon!
 </a>
 
 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/bbcm_27.jpg" alt="Post Sample Image" style="width:100%">
+</a>
+
+
 <blockquote>
 	
 </blockquote>
