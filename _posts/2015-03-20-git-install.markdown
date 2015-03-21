@@ -80,7 +80,8 @@ Create a remote repo named origin pointing at your Github repo (after you’ve a
 <td>
 <code>
 git remote add 
-	origin git@github.com:username/
+	origin git@github.com:
+	username/
 	(repo_name).git
 </code>
 
