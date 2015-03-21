@@ -25,60 +25,32 @@ Open the pkg File with Doppleclick :
 
 <br> 
 
-
-
-Git Commands:
-
-
-<style>
-tbody tr:hover td {
-background: rgba(237,237,237,.25);
-}
-tr {
-border-bottom: .1em solid rgb(237,237,237);
-}
-td {
-border-left: 1px solid rgba(65, 65, 65, 0.09);
-border-right: 1px solid rgba(65, 65, 65, 0.09);
-padding-left: 5px;
-}
-</style>
-
-
-
-<h2 class="section-heading">Git Basics</h2>
-
-
-
-
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
 &nbsp; 	<tbody>
 &nbsp; 		<tr>
-&nbsp; 			<td><code>git init</code></td>
-&nbsp; 			<td><em> directory</em> — Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</td>
+&nbsp; 			<td><code>cd</code></td>
+&nbsp; 			<td><em>change directory</em> — Welchselt in ein angegebenenes Verzeichnis</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git clone</code></td>
-&nbsp; 			<td><em>repo</em> — Clone repo located at <repo> onto local machine. Original repo can be located on the local filesystem or on a remote machine via HTTP or SSH.</td>
+&nbsp; 			<td><code>ls</code></td>
+&nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git config
-user.name </code></td>
-&nbsp; 			<td><em>name</em> — Define author name to be used for all commits in current repo. Devs commonly use --global flag to set config options for current user.</td>
+&nbsp; 			<td><code>pwd</code></td>
+&nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git add</code></td>
-&nbsp; 			<td><em>directory</em> — Stage all changes in <code> <directory> </code> for the next commit. Replace <code> <directory> </code> with a <code> <file> </code> to change a specific file.</td>
+&nbsp; 			<td><code>cp</code></td>
+&nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git commit -m</code></td>
-&nbsp; 			<td><em>"<message>"</em> — Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.</td>
+&nbsp; 			<td><code>mv</code></td>
+&nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git status</code></td>
-&nbsp; 			<td><em>git status</em> — List which files are staged, unstaged, and untracked.</td>
+&nbsp; 			<td><code>rm</code></td>
+&nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git log</code></td>
-&nbsp; 			<td><em>git log</em> — Display the entire commit history using the default format. For customization see additional options.</td>
+&nbsp; 			<td><code>mkdir</code></td>
+&nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git diff</code></td>
-&nbsp; 			<td><em>git diff</em> — Show unstaged changes between your index and working
-directory</td>
+&nbsp; 			<td><code>rmdir</code></td>
+&nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td><code>open</code></td>
 &nbsp; 			<td>Öffnet eine angegebene Datei oder Ordner</td>
@@ -143,7 +115,6 @@ directory</td>
 &nbsp; 	</tbody>
 &nbsp; </table>
 </figure>
-
 
 
 
