@@ -319,7 +319,342 @@ Show who changed each line of a file and when
 </tbody>
 </table>
 
+<div class="alert alert-info">
+<strong>Commit ID:</strong> This can be that giant long SHA-1 hash. You can call it many different ways. I usually just use the <strong>first 4 characters</strong> of the hash.
+</div>
 
+<h2 class="section-heading">
+	<a href="#undoing-changes-reset/revert"><span class="heading-link ti-link"></span> Undoing Changes <small>reset/revert</small></a></h2>
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td>
+	<code>
+git reset –hard
+</code>
+</td>
+<td>
+Go back to the last commit (will not delete new unstaged files)
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+git revert HEAD
+</code>
+</td>
+<td>
+Undo/revert last commit AND create a new commit
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+git revert (commit_id)
+</code>
+</td>
+<td>
+Undo/revert a specific commit AND create a new commit
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2 class="section-heading"><a href="#staging-files-add/rm"><span class="heading-link ti-link"></span> Staging Files <small>add/rm</small></a></h2>
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git add -A
+</td>
+<td>
+Stage all files (new, modified, and deleted)
+</td>
+</tr>
+<tr>
+<td><code>
+git add .</code>
+</td>
+<td>
+Stage new and modified files (not deleted)
+</td>
+</tr>
+<tr>
+<td><code>
+git add -u</code>
+</td>
+<td>
+Stage modified and deleted files (not new)
+</td>
+</tr>
+<tr>
+<td><code>
+git rm (filename)</code>
+</td>
+<td>
+Remove a file and untrack it
+</td>
+</tr>
+<tr>
+<td><code>
+git rm (filename) –cached</code>
+</td>
+<td>
+Untrack a file only. It will still exist. Usually you will add this file to .gitignore after rm
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<div class="alert alert-info">
+<strong>Git Workflow Trees:</strong> How adding and committing moves files between the different git trees.<br>
+<table class="table table-responsive">
+<tbody>
+<tr>
+<td>
+Working Tree
+</td>
+<td>
+The “tree” that holds all our current files.
+</td>
+</tr>
+<tr>
+<td>
+Index (after adding/staging file)
+</td>
+<td>
+The “staging” area that holds files that need to be committed.
+</td>
+</tr>
+<tr>
+<td>
+HEAD
+</td>
+<td>
+Tree that represents the last commit.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+<h2 class="section-heading"><a href="#publishing-commit/stash/push"><span class="heading-link ti-link"></span> Publishing <small>commit/stash/push</small></a></h2>
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git commit -m “message”</code>
+</td>
+<td>
+Commit the local changes that were staged
+</td>
+</tr>
+<tr>
+<td><code>
+git commit -am “message”</code>
+</td>
+<td>
+Stage files (modified and deleted, not new) and commit
+</td>
+</tr>
+<tr>
+<td><code>
+git stash</code>
+</td>
+<td>
+Take the uncommitted work (modified tracked files and staged changes) and saves it
+</td>
+</tr>
+<tr>
+<td><code>
+git stash list</code>
+</td>
+<td>
+Show list of stashes
+</td>
+</tr>
+<tr>
+<td><code>
+git stash apply</code>
+</td>
+<td>
+Reapply the latest stashed contents
+</td>
+</tr>
+<tr>
+<td><code>
+git stash apply (stash_id)</code>
+</td>
+<td>
+Reapply a specific stash. (stash id = <strong>stash@{2})</strong>
+</td>
+</tr>
+<tr>
+<td><code>
+git stash drop (stash_id)</code>
+</td>
+<td>
+Drop a specific stash
+</td>
+</tr>
+<tr>
+<td><code>
+git push</code>
+</td>
+<td>
+Push your changes to the origin
+</td>
+</tr>
+<tr>
+<td><code>
+git push origin (local_branch_name)</code>
+</td>
+<td>
+Push a branch to the origin
+</td>
+</tr>
+<tr>
+<td><code>
+git tag (tag_name)</code>
+</td>
+<td>
+Tag a version (ie v1.0). Useful for Github releases.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+<h2 class="section-heading"><a href="#updating-and-getting-code-fetch/pull"><span class="heading-link ti-link"></span> Updating and Getting Code <small>fetch/pull</small></a></h2>
+
+
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git fetch</code>
+</td>
+<td>
+Get the latest changes from origin (don’t merge)
+</td>
+</tr>
+<tr>
+<td><code>
+git pull</code>
+</td>
+<td>
+Get the latest changes from origin AND merge
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout -b (new_branch_name) origin/(branch_name)</code>
+</td>
+<td>
+Get a remote branch from origin into a local branch (naming the branch and switching to it)
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2 class="section-heading"><a href="#branching-branch/checkout
+"><span class="heading-link ti-link"></span> 
+Branching <small>branch/checkout</small><br>
+</a></h2>
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git branch</code>
+</td>
+<td>
+Show all branches (local)
+</td>
+</tr>
+<tr>
+<td><code>
+git branch -a</code>
+</td>
+<td>
+Show all branches (local and remote)
+</td>
+</tr>
+<tr>
+<td><code>
+git branch (branch_name)</code>
+</td>
+<td>
+Create a branch from HEAD
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout -b (branch_name)</code>
+</td>
+<td>
+Create a new branch and switch to it
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout (branch_name)</code>
+</td>
+<td>
+Switch to an already created branch
+</td>
+</tr>
+<tr>
+<td><code>
+git push origin (branch_name)</code>
+</td>
+<td>
+Push a branch up to the origin (Github)
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout -b (new_branch_name) origin/(branch_name)</code></td>
+<td>
+Get a remote branch from origin into a local branch (naming the branch and switching to it)
+</td>
+</tr>
+<tr>
+<td><code>
+git push origin –delete (branch_name)</code>
+</td>
+<td>
+Delete a branch locally and remotely
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2 class="section-heading"><a href="#integrating-branches-merge/rebase
+"><span class="heading-link ti-link"></span> 
+Integrating Branches <small>merge/rebase</small><br>
+</a></h2>
 
 
 <a href="#">
