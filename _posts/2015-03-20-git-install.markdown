@@ -57,7 +57,8 @@ exmaple
 <code>user.email=[youruseremailwillshowuphere]</code>
 
 
-Have fun with Git! Write by Lucas Gatsas
+Have fun with Git! 
+Below do you will see some Git CommandLines 
 
 <br> 
 
