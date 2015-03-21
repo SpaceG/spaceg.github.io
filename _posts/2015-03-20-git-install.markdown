@@ -31,7 +31,11 @@ Open the pkg File with Doppleclick :
 <tbody>
 <tr>
 <td>
-git init
+
+	<code>
+	git init
+	</code>
+
 </td>
 <td>
 Create a repo from existing data
@@ -39,7 +43,11 @@ Create a repo from existing data
 </tr>
 <tr>
 <td>
+
+	<code>
 git clone (repo_url)
+</code>
+
 </td>
 <td>
 Clone a current repo (into a folder with same name as repo)
@@ -47,7 +55,11 @@ Clone a current repo (into a folder with same name as repo)
 </tr>
 <tr>
 <td>
+
+	<code>
 git clone (repo_url) (folder_name)
+</code>
+
 </td>
 <td>
 Clone a repo into a specific folder name
@@ -55,7 +67,11 @@ Clone a repo into a specific folder name
 </tr>
 <tr>
 <td>
+
+	<code>
 git clone (repo_url) .
+</code>
+
 </td>
 <td>
 
@@ -65,12 +81,14 @@ Clone a repo into current directory (should be an empty directory)
 </tr>
 <tr>
 <td>
+
 <code>
 git remote add origin 
 	https://github.com/
 	username/
 	(repo_name).git
 </code>
+
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
@@ -78,6 +96,7 @@ Create a remote repo named origin pointing at your Github repo (after you’ve a
 </tr>
 <tr>
 <td>
+	
 <code>
 git remote add 
 	origin git@github.com:
@@ -92,7 +111,11 @@ Create a remote repo named origin pointing at your Github repo (using SSH url in
 </tr>
 <tr>
 <td>
+
+	<code>
 git remote
+</code>
+
 </td>
 <td>
 Show the names of the remote repositories you’ve set up
@@ -100,7 +123,11 @@ Show the names of the remote repositories you’ve set up
 </tr>
 <tr>
 <td>
+	<code>
+
 git remote -v
+</code>
+
 </td>
 <td>
 Show the names and URLs of the remote repositories
@@ -108,8 +135,12 @@ Show the names and URLs of the remote repositories
 </tr>
 <tr>
 <td>
+	<code>
+
 git remote rm 
 	(remote_name)
+	</code>
+
 </td>
 <td>
 Remove a remote repository
@@ -118,8 +149,11 @@ Remove a remote repository
 <tr>
 <td>
 
+<code>
+
 git remote set-url 
 	origin (git_url)
+	</code>
 
 </td>
 <td>
@@ -128,7 +162,12 @@ Change the URL of the git repo
 </tr>
 <tr>
 <td>
+
+	<code>
+
 git push
+</code>
+
 </td>
 <td>
 Push your changes to the origin
