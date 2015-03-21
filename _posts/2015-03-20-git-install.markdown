@@ -64,7 +64,8 @@ Clone a repo into current directory (should be an empty directory)
 <tr>
 <td>
 git remote add origin 
-	https://github.com/username/(repo_name).git
+	https://github.com/
+	username/(repo_name).git
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
@@ -73,7 +74,8 @@ Create a remote repo named origin pointing at your Github repo (after you’ve a
 <tr>
 <td>
 git remote add 
-	origin git@github.com:username/(repo_name).git
+	origin git@github.com:username/
+	(repo_name).git
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (using SSH url instead of HTTP url)
