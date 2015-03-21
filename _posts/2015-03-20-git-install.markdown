@@ -25,24 +25,6 @@ padding-left: 5px;
 
 
 
-[Git](http://git-scm.com/) is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.
-
-
-
-(1.) Go Download Git [Git](http://git-scm.com/download/mac) I'm also a Mac User. Do you can Download it directly from [sourceforge.net](http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect). 
-
-(2.)
-Open the pkg File with Doppleclick : 
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/git-sourceforge.png" alt="Post Sample Image" style="width:100%">
-</a>
-
-<br> 
-
-
-
 Git Commands:
 
 <h2 class="section-heading">Git Basics</h2>
@@ -87,6 +69,32 @@ directory</td>
 
 
 <br>
+
+
+
+
+
+
+[Git](http://git-scm.com/) is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.
+
+
+
+(1.) Go Download Git [Git](http://git-scm.com/download/mac) I'm also a Mac User. Do you can Download it directly from [sourceforge.net](http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect). 
+
+(2.)
+Open the pkg File with Doppleclick : 
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/git-sourceforge.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+<br> 
+
+
+
+
+
 
 
 (4.) After you should give your Access! 
