@@ -415,7 +415,7 @@ Undo/revert a specific commit AND create a new commit
 <tbody>
 <tr>
 <td><code>
-git add -A
+git add -A</code>
 </td>
 <td>
 Stage all files (new, modified, and deleted)
