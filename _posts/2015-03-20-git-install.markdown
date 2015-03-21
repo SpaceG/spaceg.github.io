@@ -752,6 +752,13 @@ Merge just <strong>one specific commit</strong> from another branch to your curr
 
 
 
+<div class="alert alert-info">
+<strong>Merging:</strong> Merging will occur <strong>FROM</strong> the branch you name <strong>TO</strong> the branch you are <em>currently</em> in. <strong>Rebasing:</strong> Usually switch to a feature branch (<code>git checkout newFeature</code>). Then rebase (<code>git rebase master</code>). Then merge back so you have all the changes of master and the feature branch (<code>git checkout master</code>, and <code>git merge newFeature</code>).
+</div>
+
+<br>
+
+
 
 
 
