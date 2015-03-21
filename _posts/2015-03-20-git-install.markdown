@@ -32,32 +32,86 @@ Open the pkg File with Doppleclick :
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
 &nbsp; 	<tbody>
 &nbsp; 		<tr>
-&nbsp; 			<td><code>git init</code></td>
-&nbsp; 			<td><em> directory</em> — Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</td>
+&nbsp; 			<td><code>cd</code></td>
+&nbsp; 			<td><em>change directory</em> — Welchselt in ein angegebenenes Verzeichnis</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git clone</code></td>
-&nbsp; 			<td><em>repo</em> — Clone repo located at <repo> onto local machine. Original repo can be located on the local filesystem or on a remote machine via HTTP or SSH.</td>
+&nbsp; 			<td><code>ls</code></td>
+&nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git config
-user.name </code></td>
-&nbsp; 			<td><em>name</em> — Define author name to be used for all commits in current repo. Devs commonly use --global flag to set config options for current user.</td>
+&nbsp; 			<td><code>pwd</code></td>
+&nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git add</code></td>
-&nbsp; 			<td><em>directory</em> — Stage all changes in <code> <directory> </code> for the next commit. Replace <code> <directory> </code> with a <code> <file> </code> to change a specific file.</td>
+&nbsp; 			<td><code>cp</code></td>
+&nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git commit -m</code></td>
-&nbsp; 			<td><em>"<message>"</em> — Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.</td>
+&nbsp; 			<td><code>mv</code></td>
+&nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git status</code></td>
-&nbsp; 			<td><em>git status</em> — List which files are staged, unstaged, and untracked.</td>
+&nbsp; 			<td><code>rm</code></td>
+&nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git log</code></td>
-&nbsp; 			<td><em>git log</em> — Display the entire commit history using the default format. For customization see additional options.</td>
+&nbsp; 			<td><code>mkdir</code></td>
+&nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
 &nbsp; 		</tr><tr>
-&nbsp; 			<td><code>git diff</code></td>
-&nbsp; 			<td><em>git diff</em> — Show unstaged changes between your index and working
-directory</td>
-&nbsp; 	
+&nbsp; 			<td><code>rmdir</code></td>
+&nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>open</code></td>
+&nbsp; 			<td>Öffnet eine angegebene Datei oder Ordner</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>kill </code><code> killall</code></td>
+&nbsp; 			<td>Beendet einen angegebenen Prozess</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>whoami</code></td>
+&nbsp; 			<td>Zeigt den aktuellen Benutzer an</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>su</code></td>
+&nbsp; 			<td><em>switch user</em> — Wechselt zum angegebenen Benutzer</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>sudo</code></td>
+&nbsp; 			<td><em>substitute user do</em> — Führt den Befehl als Superuser (root) aus</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>pbcopy</code></td>
+&nbsp; 			<td><em>pasteboard copy</em> — Übergibt Inhalt an die Zwischenablage von OS X</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>pbpaste</code></td>
+&nbsp; 			<td><em>pasteboard past</em> — Gibt Inhalt der OS X Zwischenablage aus</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>say</code></td>
+&nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>date</code></td>
+&nbsp; 			<td>Zeigt das aktuelle Datum und Uhrzeit an</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>nano</code></td>
+&nbsp; 			<td>Text-Editor nano</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>screencapture</code></td>
+&nbsp; 			<td>Erstellt ein Bildschirmfoto</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>find</code></td>
+&nbsp; 			<td>Suche nach Dateien</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>mdfind</code></td>
+&nbsp; 			<td>Spotlight-Suche</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>ps</code></td>
+&nbsp; 			<td>Listet die aktuell aktiven Prozesse auf</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>top</code></td>
+&nbsp; 			<td>Listet eine detaillierte Prozessliste auf</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>history</code></td>
+&nbsp; 			<td>Listet die zuletzt benutzten Befehle auf</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>clear</code></td>
+&nbsp; 			<td>Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>man</code></td>
+&nbsp; 			<td><em>Man-Page</em> — Ruft die Man-Seite zum angegebenen Befehl auf</td>
+&nbsp; 		</tr><tr>
+&nbsp; 			<td><code>which</code></td>
+&nbsp; 			<td>Welcher Befehl wird ausgeführt?</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td><code>whatis</code></td>
 &nbsp; 			<td>Kurzinfo zum angegebenen Befehl</td>
@@ -65,7 +119,6 @@ directory</td>
 &nbsp; 	</tbody>
 &nbsp; </table>
 </figure>
-
 
 
 
