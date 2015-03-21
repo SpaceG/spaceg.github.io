@@ -592,6 +592,123 @@ Tag a version (ie v1.0). Useful for Github releases.
 </tbody>
 </table>
 
+<br>
+
+
+<h2 class="section-heading"><a href="#updating-and-getting-code-fetch/pull"><span class="heading-link ti-link"></span> Updating and Getting Code <small>fetch/pull</small></a></h2>
+
+
+<br>
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git fetch</code>
+</td>
+<td>
+Get the latest changes from origin (don’t merge)
+</td>
+</tr>
+<tr>
+<td><code>
+git pull</code>
+</td>
+<td>
+Get the latest changes from origin AND merge
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout -b (new_branch_name) origin/(branch_name)</code>
+</td>
+<td>
+Get a remote branch from origin into a local branch (naming the branch and switching to it)
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<h2 class="section-heading"><a href="#branching-branch/checkout"><span class="heading-link ti-link"></span> Branching <small>branch/checkout</small><br>
+</a></h2>
+
+<br>
+
+
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git branch</code>
+</td>
+<td>
+Show all branches (local)
+</td>
+</tr>
+<tr>
+<td><code>
+git branch -a</code>
+</td>
+<td>
+Show all branches (local and remote)
+</td>
+</tr>
+<tr>
+<td><code>
+git branch (branch_name)</code>
+</td>
+<td>
+Create a branch from HEAD
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout -b (branch_name)</code>
+</td>
+<td>
+Create a new branch and switch to it
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout (branch_name)</code>
+</td>
+<td>
+Switch to an already created branch
+</td>
+</tr>
+<tr>
+<td><code>
+git push origin (branch_name)</code>
+</td>
+<td>
+Push a branch up to the origin (Github)
+</td>
+</tr>
+<tr>
+<td><code>
+git checkout -b (new_branch_name) origin/(branch_name)</code></td>
+<td>
+Get a remote branch from origin into a local branch (naming the branch and switching to it)
+</td>
+</tr>
+<tr>
+<td><code>
+git push origin –delete (branch_name)</code>
+</td>
+<td>
+Delete a branch locally and remotely
+</td>
+</tr>
+</tbody>
+</table>
 
 
 
