@@ -9,6 +9,22 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>Git CommandLines</strong> </h2>
 
 
+<style>
+tbody tr:hover td {
+background: rgba(237,237,237,.25);
+}
+tr {
+border-bottom: .1em solid rgb(237,237,237);
+}
+td {
+border-left: 1px solid rgba(65, 65, 65, 0.09);
+border-right: 1px solid rgba(65, 65, 65, 0.09);
+padding-left: 5px;
+}
+</style>
+
+
+
 [Git](http://git-scm.com/) is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.
 
 
@@ -29,27 +45,7 @@ Open the pkg File with Doppleclick :
 
 Git Commands:
 
-
-<style>
-tbody tr:hover td {
-background: rgba(237,237,237,.25);
-}
-tr {
-border-bottom: .1em solid rgb(237,237,237);
-}
-td {
-border-left: 1px solid rgba(65, 65, 65, 0.09);
-border-right: 1px solid rgba(65, 65, 65, 0.09);
-padding-left: 5px;
-}
-</style>
-
-
-
 <h2 class="section-heading">Git Basics</h2>
-
-
-
 
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
 &nbsp; 	<tbody>
