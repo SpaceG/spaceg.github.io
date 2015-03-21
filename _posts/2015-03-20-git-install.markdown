@@ -91,15 +91,15 @@ directory</td>
 
 
 
-
-
-
-
-
+<br>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/p0198vg4.jpg" alt="Post Sample Image" style="width:100%">
 </a>
+
+
+
+
 
 
 
