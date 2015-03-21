@@ -359,7 +359,48 @@ Show who changed each line of a file and when
 
 
 
+<br>
 
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td>
+	<code>
+git reset –hard
+</code>
+</td>
+<td>
+Go back to the last commit (will not delete new unstaged files)
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+git revert HEAD
+</code>
+</td>
+<td>
+Undo/revert last commit AND create a new commit
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+git revert (commit_id)
+</code>
+</td>
+<td>
+Undo/revert a specific commit AND create a new commit
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+<br>
 
 
 
