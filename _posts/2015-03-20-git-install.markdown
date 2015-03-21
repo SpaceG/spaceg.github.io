@@ -31,7 +31,7 @@ Open the pkg File with Doppleclick :
 <tbody>
 <tr>
 <td>
-<span class="text-danger">git init</span>
+git init
 </td>
 <td>
 Create a repo from existing data
@@ -39,7 +39,7 @@ Create a repo from existing data
 </tr>
 <tr>
 <td>
-<span class="text-danger">git clone (repo_url)</span>
+git clone (repo_url)
 </td>
 <td>
 Clone a current repo (into a folder with same name as repo)
@@ -47,7 +47,7 @@ Clone a current repo (into a folder with same name as repo)
 </tr>
 <tr>
 <td>
-<span class="text-danger">git clone (repo_url) (folder_name)</span>
+git clone (repo_url) (folder_name)
 </td>
 <td>
 Clone a repo into a specific folder name
@@ -55,7 +55,7 @@ Clone a repo into a specific folder name
 </tr>
 <tr>
 <td>
-<span class="text-danger">git clone (repo_url) .</span>
+git clone (repo_url) .
 </td>
 <td>
 Clone a repo into current directory (should be an empty directory)
@@ -63,8 +63,8 @@ Clone a repo into current directory (should be an empty directory)
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote add origin 
-	https://github.com/username/(repo_name).git</span>
+git remote add origin 
+	https://github.com/username/(repo_name).git
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
@@ -72,8 +72,8 @@ Create a remote repo named origin pointing at your Github repo (after you’ve a
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote add 
-	origin git@github.com:username/(repo_name).git</span>
+git remote add 
+	origin git@github.com:username/(repo_name).git
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (using SSH url instead of HTTP url)
@@ -81,7 +81,7 @@ Create a remote repo named origin pointing at your Github repo (using SSH url in
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote</span>
+git remote
 </td>
 <td>
 Show the names of the remote repositories you’ve set up
@@ -89,7 +89,7 @@ Show the names of the remote repositories you’ve set up
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote -v</span>
+git remote -v
 </td>
 <td>
 Show the names and URLs of the remote repositories
@@ -97,8 +97,8 @@ Show the names and URLs of the remote repositories
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote rm 
-	(remote_name)</span>
+git remote rm 
+	(remote_name)
 </td>
 <td>
 Remove a remote repository
@@ -106,8 +106,8 @@ Remove a remote repository
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote set-url 
-	origin (git_url)</span>
+git remote set-url 
+	origin (git_url)
 </td>
 <td>
 Change the URL of the git repo
@@ -115,7 +115,7 @@ Change the URL of the git repo
 </tr>
 <tr>
 <td>
-<span class="text-danger">git push</span>
+git push
 </td>
 <td>
 Push your changes to the origin
