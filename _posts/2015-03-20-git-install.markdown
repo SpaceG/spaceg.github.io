@@ -55,7 +55,7 @@ padding-left: 5px;
 &nbsp; 	<tbody>
 &nbsp; 		<tr>
 &nbsp; 			<td><code>git init</code></td>
-&nbsp; 			<td><em> <code><directory> </code></em> — Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</td>
+&nbsp; 			<td><em> <directory> </em> — Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</td>
 &nbsp; 		</tr><tr>
 &nbsp; 			<td><code>ls</code></td>
 &nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
