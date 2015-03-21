@@ -355,6 +355,16 @@ Show who changed each line of a file and when
 
 
 
+<h2 class="section-heading">
+	<a href="#undoing-changes-reset/revert"><span class="heading-link ti-link"></span> Undoing Changes <small>reset/revert</small></a></h2>
+
+
+
+	<br>
+
+
+
+
 
 
 
