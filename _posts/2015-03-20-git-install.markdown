@@ -33,7 +33,7 @@ Open the pkg File with Doppleclick :
 Open Terminal : then type : which git 
 
 (4.)
-Type : git --version
+Type : git  --version
 
 (5.)
 Type: git config -l
