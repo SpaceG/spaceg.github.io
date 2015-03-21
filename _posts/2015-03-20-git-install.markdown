@@ -710,6 +710,48 @@ Delete a branch locally and remotely
 </tbody>
 </table>
 
+<br>
+
+
+<h2 class="section-heading"><a href="#integrating-branches-merge/rebase"><span class="heading-link ti-link"></span> Integrating Branches <small>merge/rebase</small><br>
+</a></h2>
+
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td>
+<code>git checkout master </code> <br> <code>git merge (branch_name)</code>
+</td>
+<td>
+Merge a specific branch into the master branch.
+</td>
+</tr>
+<tr>
+<td>
+<code>git rebase (branch_name)</code>
+</td>
+<td>
+Take all the changes in one branch and replay them on another. Usually used in a feature branch. Rebase the master to the feature branch so you are testing your feature on the latest main code base. Then merge to the master.
+</td>
+</tr>
+<tr>
+<td>
+<code>git cherry-pick (commit_id)</code>
+</td>
+<td>
+Merge just <strong>one specific commit</strong> from another branch to your current branch.
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+
+
 
 
 
