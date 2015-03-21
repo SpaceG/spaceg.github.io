@@ -341,6 +341,17 @@ Show who changed each line of a file and when
 </table>
 
 
+<br>
+
+
+
+<div class="alert alert-info">
+<strong>Commit ID:</strong> This can be that giant long SHA-1 hash. You can call it many different ways. I usually just use the <strong>first 4 characters</strong> of the hash.
+</div>
+
+
+<br>
+
 
 
 
