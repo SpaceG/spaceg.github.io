@@ -498,6 +498,99 @@ Tree that represents the last commit.
 
 
 
+<br>
+
+<h2 class="section-heading"><a href="#publishing-commit/stash/push"><span class="heading-link ti-link"></span> Publishing <small>commit/stash/push</small></a></h2>
+
+
+<br>
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git commit -m “message”</code>
+</td>
+<td>
+Commit the local changes that were staged
+</td>
+</tr>
+<tr>
+<td><code>
+git commit -am “message”</code>
+</td>
+<td>
+Stage files (modified and deleted, not new) and commit
+</td>
+</tr>
+<tr>
+<td><code>
+git stash</code>
+</td>
+<td>
+Take the uncommitted work (modified tracked files and staged changes) and saves it
+</td>
+</tr>
+<tr>
+<td><code>
+git stash list</code>
+</td>
+<td>
+Show list of stashes
+</td>
+</tr>
+<tr>
+<td><code>
+git stash apply</code>
+</td>
+<td>
+Reapply the latest stashed contents
+</td>
+</tr>
+<tr>
+<td><code>
+git stash apply (stash_id)</code>
+</td>
+<td>
+Reapply a specific stash. (stash id = <strong>stash@{2})</strong>
+</td>
+</tr>
+<tr>
+<td><code>
+git stash drop (stash_id)</code>
+</td>
+<td>
+Drop a specific stash
+</td>
+</tr>
+<tr>
+<td><code>
+git push</code>
+</td>
+<td>
+Push your changes to the origin
+</td>
+</tr>
+<tr>
+<td><code>
+git push origin (local_branch_name)</code>
+</td>
+<td>
+Push a branch to the origin
+</td>
+</tr>
+<tr>
+<td><code>
+git tag (tag_name)</code>
+</td>
+<td>
+Tag a version (ie v1.0). Useful for Github releases.
+</td>
+</tr>
+</tbody>
+</table>
 
 
 
