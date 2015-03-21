@@ -25,97 +25,100 @@ Open the pkg File with Doppleclick :
 
 <br> 
 
-<figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
-&nbsp; 	<tbody>
-&nbsp; 		<tr>
-&nbsp; 			<td><code>cd</code></td>
-&nbsp; 			<td><em>change directory</em> — Welchselt in ein angegebenenes Verzeichnis</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>ls</code></td>
-&nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pwd</code></td>
-&nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>cp</code></td>
-&nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mv</code></td>
-&nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rm</code></td>
-&nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mkdir</code></td>
-&nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rmdir</code></td>
-&nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>open</code></td>
-&nbsp; 			<td>Öffnet eine angegebene Datei oder Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>kill </code><code> killall</code></td>
-&nbsp; 			<td>Beendet einen angegebenen Prozess</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whoami</code></td>
-&nbsp; 			<td>Zeigt den aktuellen Benutzer an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>su</code></td>
-&nbsp; 			<td><em>switch user</em> — Wechselt zum angegebenen Benutzer</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>sudo</code></td>
-&nbsp; 			<td><em>substitute user do</em> — Führt den Befehl als Superuser (root) aus</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pbcopy</code></td>
-&nbsp; 			<td><em>pasteboard copy</em> — Übergibt Inhalt an die Zwischenablage von OS X</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pbpaste</code></td>
-&nbsp; 			<td><em>pasteboard past</em> — Gibt Inhalt der OS X Zwischenablage aus</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>say</code></td>
-&nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>date</code></td>
-&nbsp; 			<td>Zeigt das aktuelle Datum und Uhrzeit an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>nano</code></td>
-&nbsp; 			<td>Text-Editor nano</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>screencapture</code></td>
-&nbsp; 			<td>Erstellt ein Bildschirmfoto</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>find</code></td>
-&nbsp; 			<td>Suche nach Dateien</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mdfind</code></td>
-&nbsp; 			<td>Spotlight-Suche</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>ps</code></td>
-&nbsp; 			<td>Listet die aktuell aktiven Prozesse auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>top</code></td>
-&nbsp; 			<td>Listet eine detaillierte Prozessliste auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>history</code></td>
-&nbsp; 			<td>Listet die zuletzt benutzten Befehle auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>clear</code></td>
-&nbsp; 			<td>Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>man</code></td>
-&nbsp; 			<td><em>Man-Page</em> — Ruft die Man-Seite zum angegebenen Befehl auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>which</code></td>
-&nbsp; 			<td>Welcher Befehl wird ausgeführt?</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whatis</code></td>
-&nbsp; 			<td>Kurzinfo zum angegebenen Befehl</td>
-&nbsp; 		</tr>
-&nbsp; 	</tbody>
-&nbsp; </table>
-</figure>
 
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td>
+<span class="text-danger">git init</span>
+</td>
+<td>
+Create a repo from existing data
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git clone (repo_url)</span>
+</td>
+<td>
+Clone a current repo (into a folder with same name as repo)
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git clone (repo_url) (folder_name)</span>
+</td>
+<td>
+Clone a repo into a specific folder name
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git clone (repo_url) .</span>
+</td>
+<td>
+Clone a repo into current directory (should be an empty directory)
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git remote add origin https://github.com/username/(repo_name).git</span>
+</td>
+<td>
+Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git remote add origin git@github.com:username/(repo_name).git</span>
+</td>
+<td>
+Create a remote repo named origin pointing at your Github repo (using SSH url instead of HTTP url)
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git remote</span>
+</td>
+<td>
+Show the names of the remote repositories you’ve set up
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git remote -v</span>
+</td>
+<td>
+Show the names and URLs of the remote repositories
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git remote rm (remote_name)</span>
+</td>
+<td>
+Remove a remote repository
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git remote set-url origin (git_url)</span>
+</td>
+<td>
+Change the URL of the git repo
+</td>
+</tr>
+<tr>
+<td>
+<span class="text-danger">git push</span>
+</td>
+<td>
+Push your changes to the origin
+</td>
+</tr>
+</tbody>
+</table>
 
 
 
