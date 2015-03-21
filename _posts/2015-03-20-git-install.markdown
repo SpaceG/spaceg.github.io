@@ -255,6 +255,92 @@ Push your changes to the origin
 <h2 class="section-heading"><a href="#showing-changes-status/diff/log/blame"><span class="heading-link ti-link"></span> Showing Changes <small>status/diff/log/blame</small></a></h2>
 
 
+<br>
+
+
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td>
+	<code>
+git status
+</code>
+</td>
+
+
+<td>
+Show the files changed
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git diff
+</code>
+</td>
+
+
+
+<td>
+Show changes to files compared to last commit
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git diff (filename)
+</code>
+</td>
+
+
+<td>
+Show changes in single file compared to last commit
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git diff (commit_id)
+</code>
+</td>
+
+
+<td>
+Show changes between two different commits.
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+git log
+</code>
+</td>
+
+
+<td>
+Show history of changes
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+git blame (filename)
+</code>
+</td>
+<td>
+Show who changed each line of a file and when
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 
 
