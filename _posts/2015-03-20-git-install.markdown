@@ -248,6 +248,15 @@ Push your changes to the origin
 </table>
 
 
+<br>
+
+
+
+<h2 class="section-heading"><a href="#showing-changes-status/diff/log/blame"><span class="heading-link ti-link"></span> Showing Changes <small>status/diff/log/blame</small></a></h2>
+
+
+
+
 
 
 
