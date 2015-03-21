@@ -28,6 +28,37 @@ Open the pkg File with Doppleclick :
     <img src="{{ site.baseurl }}/img/git-sourceforge.png" alt="Post Sample Image" style="width:100%">
 </a>
 
+
+(3.)
+Open Terminal : then type : which git 
+
+(4.)
+Type : git --version
+
+(5.)
+Type: git config -l
+
+(6.)
+Type: git config --global user.name "[yourusername]"
+
+(7.)
+Type: git config --global user.email "[youruseremail@mail.io]"
+
+(8.)
+Type: git config -l 
+
+(9.)
+Then do you will see your user & email which one do you have set up right now!
+
+exmaple 
+
+<code> user.name=[yourusernamewillshowuphere]</code>
+
+<code>user.email=[youruseremailwillshowuphere]</code>
+
+
+Have fun with Git! Write by Lucas Gatsas
+
 <br> 
 
 
