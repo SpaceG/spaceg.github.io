@@ -92,7 +92,7 @@ Here’s a good <a href="http://stackoverflow.com/questions/7076164/terminology-
 
 
 
-<br>
+
 
 
 
@@ -255,7 +255,6 @@ Push your changes to the origin
 <h2 class="section-heading"><a href="#showing-changes-status/diff/log/blame"><span class="heading-link ti-link"></span> Showing Changes <small>status/diff/log/blame</small></a></h2>
 
 
-<br>
 
 
 
@@ -359,7 +358,6 @@ Show who changed each line of a file and when
 
 
 
-<br>
 
 
 <table class="table table-responsive table-hover">
@@ -408,7 +406,7 @@ Undo/revert a specific commit AND create a new commit
 
 
 
-<br>
+
 
 
 <table class="table table-responsive table-hover">
@@ -503,7 +501,6 @@ Tree that represents the last commit.
 <h2 class="section-heading"><a href="#publishing-commit/stash/push"><span class="heading-link ti-link"></span> Publishing <small>commit/stash/push</small></a></h2>
 
 
-<br>
 
 
 
@@ -598,7 +595,7 @@ Tag a version (ie v1.0). Useful for Github releases.
 <h2 class="section-heading"><a href="#updating-and-getting-code-fetch/pull"><span class="heading-link ti-link"></span> Updating and Getting Code <small>fetch/pull</small></a></h2>
 
 
-<br>
+
 
 
 
@@ -636,7 +633,7 @@ Get a remote branch from origin into a local branch (naming the branch and switc
 <h2 class="section-heading"><a href="#branching-branch/checkout"><span class="heading-link ti-link"></span> Branching <small>branch/checkout</small><br>
 </a></h2>
 
-<br>
+
 
 
 
