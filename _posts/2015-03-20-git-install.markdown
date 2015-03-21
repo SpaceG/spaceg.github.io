@@ -25,7 +25,7 @@ Open the pkg File with Doppleclick :
 
 <br> 
 
-
+<h2 class="section-heading"><a href="#starting-a-repo-init/clone/remote"><span class="heading-link ti-link"></span> Starting a Repo <small>init/clone/remote</small></a></h2>
 
 <table class="table table-responsive table-hover">
 <tbody>
