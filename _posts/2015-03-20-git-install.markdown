@@ -25,6 +25,61 @@ Open the pkg File with Doppleclick :
 
 <br> 
 
+
+
+<div class="alert alert-info">
+<strong>Git Terminology:</strong><br>
+<table class="table table-responsive">
+<tbody>
+<tr>
+<td>
+master
+</td>
+<td>
+default branch we develop in
+</td>
+</tr>
+<tr>
+<td>
+origin
+</td>
+<td>
+default upstream repo (Github)
+</td>
+</tr>
+<tr>
+<td>
+HEAD
+</td>
+<td>
+current branch
+</td>
+</tr>
+<tr>
+<td>
+remote
+</td>
+<td>
+repository stored on another computer
+</td>
+</tr>
+<tr>
+<td>
+staging (adding)
+</td>
+<td>
+adding changed files to index tree to be committed
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+Here’s a good <a href="http://stackoverflow.com/questions/7076164/terminology-used-by-git" target="_blank" class="alert-link">glossary</a> of definitions.
+</p>
+</div>
+
+
+
 <h2 class="section-heading"><a href="#starting-a-repo-init/clone/remote"><span class="heading-link ti-link"></span> Starting a Repo <small>init/clone/remote</small></a></h2>
 
 <table class="table table-responsive table-hover">
