@@ -90,6 +90,21 @@ directory</td>
 
 
 
+<br>
+
+
+(4.) After you should give your Access! 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/git-install3.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
+
+Then 
+
+
 
 <br>
 
