@@ -796,7 +796,7 @@ Merge just <strong>one specific commit</strong> from another branch to your curr
 </a>
 
 
-
+<small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small>
 
 
 <blockquote>

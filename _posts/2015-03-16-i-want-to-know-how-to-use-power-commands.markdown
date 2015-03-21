@@ -276,10 +276,8 @@ yacc</code>
 
 
 
-In The Next Days, i will go Upload some New Terminal 
-[CommandLine Tools](https://developer.apple.com/xcode/) Skills. All for Mac Os X. 
 
-
+<small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small>
 
 
 <blockquote>
