@@ -411,7 +411,53 @@ Undo/revert a specific commit AND create a new commit
 <br>
 
 
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td><code>
+git add -A
+</td>
+<td>
+Stage all files (new, modified, and deleted)
+</td>
+</tr>
+<tr>
+<td><code>
+git add .</code>
+</td>
+<td>
+Stage new and modified files (not deleted)
+</td>
+</tr>
+<tr>
+<td><code>
+git add -u</code>
+</td>
+<td>
+Stage modified and deleted files (not new)
+</td>
+</tr>
+<tr>
+<td><code>
+git rm (filename)</code>
+</td>
+<td>
+Remove a file and untrack it
+</td>
+</tr>
+<tr>
+<td><code>
+git rm (filename) –cached</code>
+</td>
+<td>
+Untrack a file only. It will still exist. Usually you will add this file to .gitignore after rm
+</td>
+</tr>
+</tbody>
+</table>
 
+
+<br>
 
 
 
