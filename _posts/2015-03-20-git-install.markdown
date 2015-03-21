@@ -467,6 +467,37 @@ Untrack a file only. It will still exist. Usually you will add this file to .git
 
 
 
+<table class="table table-responsive">
+<tbody>
+<tr>
+<td>
+Working Tree
+</td>
+<td>
+The “tree” that holds all our current files.
+</td>
+</tr>
+<tr>
+<td>
+Index (after adding/staging file)
+</td>
+<td>
+The “staging” area that holds files that need to be committed.
+</td>
+</tr>
+<tr>
+<td>
+HEAD
+</td>
+<td>
+Tree that represents the last commit.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 
 
 
