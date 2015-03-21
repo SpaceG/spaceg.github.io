@@ -63,7 +63,8 @@ Clone a repo into current directory (should be an empty directory)
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote add origin https://github.com/username/(repo_name).git</span>
+<span class="text-danger">git remote add origin 
+	https://github.com/username/(repo_name).git</span>
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
@@ -71,7 +72,8 @@ Create a remote repo named origin pointing at your Github repo (after you’ve a
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote add origin git@github.com:username/(repo_name).git</span>
+<span class="text-danger">git remote add 
+	origin git@github.com:username/(repo_name).git</span>
 </td>
 <td>
 Create a remote repo named origin pointing at your Github repo (using SSH url instead of HTTP url)
@@ -95,7 +97,8 @@ Show the names and URLs of the remote repositories
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote rm (remote_name)</span>
+<span class="text-danger">git remote rm 
+	(remote_name)</span>
 </td>
 <td>
 Remove a remote repository
@@ -103,7 +106,8 @@ Remove a remote repository
 </tr>
 <tr>
 <td>
-<span class="text-danger">git remote set-url origin (git_url)</span>
+<span class="text-danger">git remote set-url 
+	origin (git_url)</span>
 </td>
 <td>
 Change the URL of the git repo
