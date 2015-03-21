@@ -68,7 +68,8 @@ Clone a repo into current directory (should be an empty directory)
 <code>
 git remote add origin 
 	https://github.com/
-	username/(repo_name).git
+	username/
+	(repo_name).git
 </code>
 </td>
 <td>
