@@ -460,6 +460,10 @@ Untrack a file only. It will still exist. Usually you will add this file to .git
 <br>
 
 
+<div class="alert alert-info">
+<strong>Git Workflow Trees:</strong> How adding and committing moves files between the different git trees.
+</div>
+<br>
 
 
 
