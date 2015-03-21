@@ -92,6 +92,165 @@ Here’s a good <a href="http://stackoverflow.com/questions/7076164/terminology-
 
 
 
+<br>
+
+
+
+
+
+<table class="table table-responsive table-hover">
+<tbody>
+<tr>
+<td>
+
+	<code>
+	git init
+	</code>
+
+</td>
+<td>
+Create a repo from existing data
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git clone (repo_url)
+</code>
+
+</td>
+<td>
+Clone a current repo (into a folder with same name as repo)
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git clone (repo_url) (folder_name)
+</code>
+
+</td>
+<td>
+Clone a repo into a specific folder name
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git clone (repo_url) .
+</code>
+
+</td>
+<td>
+
+Clone a repo into current directory (should be an empty directory)
+
+</td>
+</tr>
+<tr>
+<td>
+
+<code>
+git remote add origin 
+	https://github.com/
+	username/
+	(repo_name).git
+</code>
+
+</td>
+<td>
+Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
+</td>
+</tr>
+<tr>
+<td>
+
+<code>
+git remote add 
+	origin git@github.com:
+	username/
+	(repo_name).git
+</code>
+
+</td>
+<td>
+Create a remote repo named origin pointing at your Github repo (using SSH url instead of HTTP url)
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+git remote
+</code>
+
+</td>
+<td>
+Show the names of the remote repositories you’ve set up
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+
+git remote -v
+</code>
+
+</td>
+<td>
+Show the names and URLs of the remote repositories
+</td>
+</tr>
+<tr>
+<td>
+	<code>
+
+git remote rm 
+	(remote_name)
+	</code>
+
+</td>
+<td>
+Remove a remote repository
+</td>
+</tr>
+<tr>
+<td>
+
+<code>
+
+git remote set-url 
+	origin (git_url)
+	</code>
+
+</td>
+<td>
+Change the URL of the git repo
+</td>
+</tr>
+<tr>
+<td>
+
+	<code>
+
+git push
+</code>
+
+</td>
+<td>
+Push your changes to the origin
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
 
 
 
