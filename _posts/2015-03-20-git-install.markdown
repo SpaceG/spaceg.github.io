@@ -13,7 +13,7 @@ header-img: "img/p0198vg4.jpg"
 
 
 
-(1.) Go Download Git [Git](http://git-scm.com/download/mac) I'm also a Mac User and Linux. But this install and Workflow is for Mac Os X. Do you can Download it directly from [sourceforge.net](http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect). 
+(1.) Go Download Git [Git](http://git-scm.com/download/mac) I'm also a Mac/Unix & Linux User. But this install and Workflow is for Mac Os X. Do you can Download it directly from [sourceforge.net](http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect). 
 
 (2.)
 Open the pkg File with Doppleclick : 
