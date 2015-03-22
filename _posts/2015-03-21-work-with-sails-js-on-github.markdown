@@ -26,11 +26,14 @@ the files from the staging area to the head of your local branch
 
 
 
-git checkout {Branch Name}
+<code>git checkout  {Branch Name} </code> 
+to check where you are -> 
 
-to check where you are -> git status
+<code> git status</code>
 
- if you want to push -> git push origin {Branch Name}
+ if you want to push ->
+
+<code> git push origin {Branch Name} </code>
 
 
 
