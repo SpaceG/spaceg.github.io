@@ -11,9 +11,9 @@ header-img: "img/p0198vg4.jpg"
 
 
 
-git pull origin master
+<code> git pull origin master </code>
 
-sudo npm update
+<code> sudo npm update </code>
 
 <code>sails lift</code>
 
