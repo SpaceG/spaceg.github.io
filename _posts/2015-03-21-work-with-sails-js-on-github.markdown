@@ -9,7 +9,9 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>Remote your Web App</strong> </h2>
 
 
-[sails.js](https://github.com/balderdashy/sails) 
+Get Sails.js 
+
+Download : [sails.js](https://github.com/balderdashy/sails) 
 
 
 
