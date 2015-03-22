@@ -13,7 +13,7 @@ Get Sails.js
 
 Download : [sails.js](https://github.com/balderdashy/sails) 
 
-Website :  [sails.js](http://sailsjs.org/#!/)
+Website :  [sails.js](http://sailsjs.org/#!/documentation/concepts/Assets)
 
 <br> 
 
