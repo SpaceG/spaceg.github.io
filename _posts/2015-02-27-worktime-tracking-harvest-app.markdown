@@ -131,11 +131,11 @@ And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](http
 
 <br><br>
 
-<h2 class="section-heading">13 Club Mate's</h2>
+<h2 class="section-heading">15 Club Mate's</h2>
 
 <h2 class="section-heading">196 Coffees</h2>
 
-<h2 class="section-heading">281 Hours</h2>
+<h2 class="section-heading">304 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
