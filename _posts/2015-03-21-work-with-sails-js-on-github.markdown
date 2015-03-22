@@ -13,7 +13,9 @@ Get Sails.js
 
 Download : [sails.js](https://github.com/balderdashy/sails) 
 
-Website : 
+Website :  [sails.js](http://sailsjs.org/#!/)
+
+<br> 
 
 
 <code> git pull origin master </code>
