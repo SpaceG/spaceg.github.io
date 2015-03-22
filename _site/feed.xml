@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Mar 2015 04:26:39 +0100</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2015 04:26:39 +0100</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2015 04:27:04 +0100</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2015 04:27:04 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,7 +28,9 @@
         <title>Sails.js - Remote Work</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Remote your Web App&lt;/strong&gt; &lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/balderdashy/sails&quot;&gt;sails.js&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Get Sails.js &lt;/p&gt;
+
+&lt;p&gt;Download : &lt;a href=&quot;https://github.com/balderdashy/sails&quot;&gt;sails.js&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; git pull origin master &lt;/code&gt;&lt;/p&gt;
 
