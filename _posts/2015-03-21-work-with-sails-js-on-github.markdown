@@ -28,13 +28,19 @@ Using [homebrew: ](https://nodejs.org/download/)
 Install Brew :  <code> brew install node </code>
 
 
+Using macPorts : [macports: ](https://nodejs.org/download/) 
+
+
+<code> port install nodejs   </code>
+
+
+
+
 
 
 <br> 
 
 <h2 class="section-heading"><strong>Sails.js with Git</strong> </h2>
-
-
 
 
 <code> git pull origin master </code>
