@@ -19,7 +19,7 @@ sudo npm update
 
 
 <code>git add -A </code>-> add all unstaged files to the stagin area
-git commit -m "Short description of your commit" -> Commit 
+<code>git commit -m </code> "Short description of your commit" -> <code> Commit </code>
 
 
 the files from the staging area to the head of your local branch
