@@ -8,8 +8,9 @@ header-img: "img/p0198vg4.jpg"
 ---
 <h2 class="section-heading"><strong>Remote your Web App</strong> </h2>
 
+<!--
+Get Sails.js and build awesome WebApps.  -->
 
-Get Sails.js and build awesome WebApps. 
 
 Download : [sails.js](https://github.com/balderdashy/sails) 
 
