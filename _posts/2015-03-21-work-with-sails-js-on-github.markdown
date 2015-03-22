@@ -15,7 +15,7 @@ git pull origin master
 
 sudo npm update
 
-sails lift
+<code>sails lift</code>
 
 
 git add -A -> add all unstaged files to the stagin area
