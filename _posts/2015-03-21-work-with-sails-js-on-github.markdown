@@ -16,8 +16,6 @@ Download : [sails.js](https://github.com/balderdashy/sails)
 
 Website :  [sails.js](http://sailsjs.org/#!/documentation/concepts/Assets)
 
-<br> 
-
 
 <h2 class="section-heading"><strong>Install on OSX</strong> </h2>
 
@@ -35,11 +33,6 @@ Using macPorts : [macports: ](https://www.macports.org/)
 <code> port install nodejs   </code>
 
 
-
-
-
-
-<br> 
 
 <h2 class="section-heading"><strong>Sails.js with Git</strong> </h2>
 
