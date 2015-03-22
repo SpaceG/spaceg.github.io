@@ -23,12 +23,12 @@ Website :  [sails.js](http://sailsjs.org/#!/documentation/concepts/Assets)
 
 Download & Using a [package:](https://nodejs.org/download/) 
 
-Using [homebrew: ](https://nodejs.org/download/) 
+Using [homebrew: ](https://github.com/Homebrew/homebrew) 
 
 Install Brew :  <code> brew install node </code>
 
 
-Using macPorts : [macports: ](https://nodejs.org/download/) 
+Using macPorts : [macports: ](https://www.macports.org/) 
 
 
 <code> port install nodejs   </code>
