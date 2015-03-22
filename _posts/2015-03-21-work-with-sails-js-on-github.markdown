@@ -18,7 +18,7 @@ sudo npm update
 <code>sails lift</code>
 
 
-git add -A -> add all unstaged files to the stagin area
+<code>git add -A </code>-> add all unstaged files to the stagin area
 git commit -m "Short description of your commit" -> Commit 
 
 
