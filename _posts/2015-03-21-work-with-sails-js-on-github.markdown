@@ -9,9 +9,9 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>Remote your Web App</strong> </h2>
 
 
-[Git](http://git-scm.com/) 
+[sails.js](https://github.com/balderdashy/sails) 
 
-https://github.com/balderdashy/sails
+
 
 
 <code> git pull origin master </code>
