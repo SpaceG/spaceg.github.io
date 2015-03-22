@@ -18,6 +18,25 @@ Website :  [sails.js](http://sailsjs.org/#!/documentation/concepts/Assets)
 <br> 
 
 
+<h2 class="section-heading"><strong>Install on OSX</strong> </h2>
+
+
+Download & Using a [package:](https://nodejs.org/download/) 
+
+Using [homebrew: ](https://nodejs.org/download/) 
+
+Install Brew :  <code> brew install node </code>
+
+
+
+
+<br> 
+
+<h2 class="section-heading"><strong>Sails.js with Git</strong> </h2>
+
+
+
+
 <code> git pull origin master </code>
 
 <code> sudo npm update </code>
