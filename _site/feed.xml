@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 08:51:39 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 08:51:39 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 08:51:57 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 08:51:57 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -32,7 +32,7 @@
 
 &lt;p&gt;(3.) After this step you are done already, MacPorts is now installed and your shell environment was set up automatically by the installer. To confirm the installation is working as expected, now try using the port command in a new terminal window.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.9-Mavericks.pkg&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
