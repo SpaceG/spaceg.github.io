@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 09:55:38 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 09:55:38 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 09:58:33 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 09:58:33 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -46,6 +46,12 @@
 &lt;p&gt;If you installed MacPorts using the package installer, skip this section. To install MacPorts from the source code, follow the steps below.&lt;/p&gt;
 
 &lt;p&gt;(1.) Download and extract the &lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&quot;&gt;MacPorts 2.3.1 tarball&lt;/a&gt;. Either do so using your browser and the Finder, or use the given commands in a terminal window.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ tar xf MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;(2.) Afterwards, perform the commands shown in the terminal window. If you wish to use a path other than &lt;code&gt;/opt/local&lt;/code&gt;, follow the instructions for installing multiple copies of MacPorts instead.&lt;/p&gt;
 
 &lt;p&gt;install macports &lt;/p&gt;
 
