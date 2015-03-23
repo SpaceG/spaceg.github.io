@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 08:57:09 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 08:57:09 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 09:08:19 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 09:08:19 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -36,6 +36,8 @@
 &lt;p&gt;&lt;code&gt;$ port version&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Version: 2.3.1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, “MacPorts and the Shell”. Otherwise, please skip the remainder of this chapter and continue with Chapter 3, Using MacPorts in this guide.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
 
