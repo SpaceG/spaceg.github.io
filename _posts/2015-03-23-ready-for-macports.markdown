@@ -18,7 +18,7 @@ The OS X package installer automatically installs MacPorts, [sets the shell envi
 
 
 
-(1.) Download the latest <strong>MacPorts-2.3.1-....pkg</strong> installer from the [MacPorts download directory](https://distfiles.macports.org/MacPorts/). Here are direct links for the latest versions of OS X:
+(1.) Download the latest <strong>MacPorts-2.3.1-....pkg</strong> installer from the <strong> [MacPorts download directory](https://distfiles.macports.org/MacPorts/) </strong> . Here are direct links for the latest versions of OS X:
 
 
 OS X 10.9 Mavericks:
