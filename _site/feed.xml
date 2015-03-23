@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 09:35:54 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 09:35:54 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 09:48:16 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 09:48:16 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -39,7 +39,15 @@
 
 &lt;p&gt;In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, &lt;a href=&quot;https://guide.macports.org/chunked/installing.shell.html&quot;&gt; “MacPorts and the Shell”&lt;/a&gt; . Otherwise, please skip the remainder of this chapter and continue with &lt;a href=&quot;https://guide.macports.org/chunked/using.html&quot;&gt;Chapter 3, Using MacPorts&lt;/a&gt; in this guide.&lt;/p&gt;
 
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;2.2.2. Source Install&lt;/strong&gt; &lt;/h2&gt;
+
 &lt;h2 class=&quot;section-heading&quot;&gt;Install Macports via Terminal&lt;/h2&gt;
+
+&lt;p&gt;If you installed MacPorts using the package installer, skip this section. To install MacPorts from the source code, follow the steps below.&lt;/p&gt;
+
+&lt;p&gt;(1.) Download and extract the MacPorts 2.3.1 tarball. Either do so using your browser and the Finder, or use the given commands in a terminal window.&lt;/p&gt;
+
+&lt;p&gt;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&lt;/p&gt;
 
 &lt;p&gt;install macports &lt;/p&gt;
 

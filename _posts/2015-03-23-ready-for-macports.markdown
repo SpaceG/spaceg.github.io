@@ -47,8 +47,19 @@ In case of problems such as “command not found”, make sure that you opened a
 
 
 
+<h2 class="section-heading"><strong>2.2.2. Source Install</strong> </h2>
+
+
 <h2 class="section-heading">Install Macports via Terminal</h2>
 
+If you installed MacPorts using the package installer, skip this section. To install MacPorts from the source code, follow the steps below.
+
+
+(1.) Download and extract the MacPorts 2.3.1 tarball. Either do so using your browser and the Finder, or use the given commands in a terminal window.
+
+
+
+https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2
 
 
 
