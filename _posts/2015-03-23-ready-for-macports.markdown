@@ -20,7 +20,7 @@ The OS X package installer automatically installs MacPorts, [sets the shell envi
 
 
 OS X 10.9 Mavericks:
-[Git](https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.9-Mavericks.pkg)
+[MacPorts-2.3.1-10.9-Mavericks.pkg](https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.9-Mavericks.pkg)
 
 
 
