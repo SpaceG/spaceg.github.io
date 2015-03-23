@@ -7,10 +7,10 @@ author:     "Lucas Gatsas"
 header-img: "img/p0198vg4.jpg"
 ---
 <h2 class="section-heading"><strong>MacPorts</strong> </h2>
-<h2 class="section-heading"><strong>MacPorts</strong> </h2>
+
+<h2 class="section-heading">2.2.1. OS X Package Install</h2>
 
 
-2.2.1. OS X Package Install
 
 
 
