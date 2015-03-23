@@ -5,9 +5,24 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 08:24:46 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 08:24:46 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 08:38:28 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 08:38:28 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Ready For MacPorts</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;emacs&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;blockquote&gt;
+	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/03/23/ready-for-macports/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/03/23/ready-for-macports/</guid>
+        
+        
+      </item>
     
       <item>
         <title>emacs</title>
@@ -1399,136 +1414,6 @@ And my Favorite Radio Chanel !
         <pubDate>Sun, 01 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/01/my-playlist-january-march/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/03/01/my-playlist-january-march/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Worktime Tracking App from Havest App</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Tracking your Worktime &lt;/h2&gt;
-
-&lt;p&gt;I have discovered a good App to track the Work Time. Go See &lt;a href=&quot;https://harvestapp.com/&quot;&gt;harvestapp.com&lt;/a&gt;. So far I have used a small Script. I need a clean Time Counter and Harvest App is perfect for. Now i decide to sign up to &lt;a href=&quot;https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime&quot;&gt;spaceggithubio.harvestapp.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Links 
-&lt;a href=&quot;https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime&quot;&gt;spaceggithubio.harvestapp.com&lt;/a&gt; &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Links 
-&lt;a href=&quot;https://harvestapp.com/&quot;&gt;harvestapp.com&lt;/a&gt; &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Tracking &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/wf1.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/week1.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/week3.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/week2.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
-&lt;a href=&quot;http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html&quot;&gt;Count Lines of Code in Mac OS X&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; find . -type f -name &#39;*.php&#39; -exec awk &#39;END {print NR}&#39; &#39;{}&#39; + 2&amp;gt;/dev/null | awk &#39;{ total+=$1 }END{print total}&#39; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have found another Terminal Command &lt;a href=&quot;http://cloc.sourceforge.net/&quot;&gt;CLOC&lt;/a&gt; Count Lines of Code! You can download it directly @ Sourceforge 
-&lt;a href=&quot;http://sourceforge.net/projects/cloc/files/&quot;&gt;sourceforge.net&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;It’s easy to install on OS X:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ brew install cloc &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;And on Debian-based Linuxes:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ aptitude install cloc &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To use it, simply cd into the root directory and run:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ cloc .&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/cloc-redacted.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can, of course, customize the poop out of it as well.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;cloc --help&lt;/code&gt; to nerd out.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Quick and easy way to show the current Git branch on your command prompt&lt;/p&gt;
-
-&lt;p&gt;If you work with lots of branches in Git it is nice to be able to see at a glance which branch you are on instead of typing git branch each time. Here are 4 quick lines you can add to your bash prompt that will show the current branch. You will need to edit your user bash config which can be in different locations depending on your operating system.&lt;/p&gt;
-
-&lt;p&gt;OS X: &lt;code&gt; ~/.profile &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Linux General:  &lt;code&gt; ~/.bash_profile &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;~ represents the path to your user home directory. For my  &lt;code&gt;user, spaceodyssey, &lt;/code&gt; on OS X the path is &lt;code&gt; /Users/home/spaceodyssey. &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Add in the file the following lines:
-&lt;code&gt;
-parse_git_branch() {
-       git branch 2&amp;gt; /dev/null | sed -e &#39;/^[^*]/d&#39; -e &#39;s/* \(.*\)/ (\1)/&#39;
-}
-export PS1=&quot;\u@\h \W\[\033[31m\]\$(parse_git_branch)\[\033[00m\] $ &quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;Restart your terminal and change directories to your repository and you should now see the branch in parenthesis at the end of your prompt.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;And Today i hit the 1000 K of contribrutions on Github! &lt;a href=&quot;https://github.com/spaceg&quot;&gt;github.com/spaceg&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/1001k.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;15 Club Mate&#39;s&lt;/h2&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;196 Coffees&lt;/h2&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;304 Hours&lt;/h2&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;7479 Lines of Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-“Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 27 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/27/worktime-tracking-harvest-app/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/27/worktime-tracking-harvest-app/</guid>
         
         
       </item>
