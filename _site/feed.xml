@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 08:44:01 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 08:44:01 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 08:44:17 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 08:44:17 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;The OS X package installer automatically installs MacPorts, &lt;a href=&quot;https://guide.macports.org/chunked/installing.shell.html&quot;&gt; sets the shell environment&lt;/a&gt;, and runs a selfupdate operation to update the ports tree and MacPorts base with the latest release.&lt;/p&gt;
 
-&lt;p&gt;(1.) Download the latest &lt;strong&gt;MacPorts-2.3.1-….pkg installer from the MacPorts download directory. Here are direct links for the latest versions of OS X:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;(1.) Download the latest &lt;strong&gt;MacPorts-2.3.1-….pkg&lt;/strong&gt; installer from the MacPorts download directory. Here are direct links for the latest versions of OS X:&lt;/p&gt;
 
 &lt;blockquote&gt;
 	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
