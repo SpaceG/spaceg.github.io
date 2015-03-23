@@ -47,6 +47,55 @@ In case of problems such as “command not found”, make sure that you opened a
 
 
 
+<h2 class="section-heading">Install Macports via Terminal</h2>
+
+
+
+
+install macports 
+
+
+
+
+port version 
+
+port list 
+
+port search git 
+
+
+port info git-core
+
+
+port installed
+
+
+sudo install git-core 
+
+
+git —version
+
+
+port installed
+
+
+port outdated
+
+sudo port upgrade
+
+sudo port upgrade git-core
+
+sudo port upgrade outdated
+
+sudo port selfupdate
+
+sudo port uninstall git-core
+
+sudo port install git-core
+
+
+
+
 [MacPorts Website](https://www.macports.org/install.php)
 
 
