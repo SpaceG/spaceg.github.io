@@ -13,6 +13,12 @@ header-img: "img/p0198vg4.jpg"
 
 
 
+The OS X package installer automatically installs MacPorts, [ sets the shell environment](https://guide.macports.org/chunked/installing.shell.html), and runs a selfupdate operation to update the ports tree and MacPorts base with the latest release.
+
+
+1.
+
+
 
 <blockquote>
 	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
