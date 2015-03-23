@@ -33,7 +33,7 @@ OS X 10.7 Lion:
 
 (2.) Double-click the downloaded package installer to perform the default “easy” install.
 
-
+(3.) After this step you are done already, MacPorts is now installed and your shell environment was set up automatically by the installer. To confirm the installation is working as expected, now try using the port command in a new terminal window.
 
 
 
