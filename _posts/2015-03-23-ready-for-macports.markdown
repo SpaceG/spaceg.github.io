@@ -74,6 +74,11 @@ If you installed MacPorts using the package installer, skip this section. To ins
 <code>$ sudo make install</code> 
 
 
+(3.) Please continue with  [Section 2.5, “MacPorts and the Shell”](https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple)  to set up your shell environment.
+
+
+
+
 install macports 
 
 

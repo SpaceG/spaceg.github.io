@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 09:59:20 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 09:59:20 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 10:01:03 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 10:01:03 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -57,6 +57,8 @@
 &lt;code&gt;$ ./configure&lt;/code&gt; 
 &lt;code&gt;$ make&lt;/code&gt; 
 &lt;code&gt;$ sudo make install&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;(3.) Please continue with  &lt;a href=&quot;https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple&quot;&gt;Section 2.5, “MacPorts and the Shell”&lt;/a&gt;  to set up your shell environment.&lt;/p&gt;
 
 &lt;p&gt;install macports &lt;/p&gt;
 
