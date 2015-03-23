@@ -24,11 +24,11 @@ OS X 10.9 Mavericks:
 
 
 OS X 10.8 Mountain Lion:
-MacPorts-2.3.1-10.8-MountainLion.pkg
+[MacPorts-2.3.1-10.8-MountainLion.pkg](https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.8-MountainLion.pkg)
 
 
 OS X 10.7 Lion:
-MacPorts-2.3.1-10.7-Lion.pkg
+[MacPorts-2.3.1-10.8-MountainLion.pkg](https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.8-MountainLion.pkg)
 
 
 <blockquote>
