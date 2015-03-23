@@ -4,7 +4,7 @@ title:      "Ready For MacPorts"
 subtitle:   "MacPorts to Run some Applications on your Machine"
 date:       2015-03-23 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/p0198vg4.jpg"
+header-img: "img/133972-050-9F4E1129-1.jpg"
 ---
 <h2 class="section-heading"><strong>MacPorts</strong> </h2>
 
