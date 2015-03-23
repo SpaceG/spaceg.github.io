@@ -40,7 +40,7 @@ Some People ask me how do you do that? how do you can work so long..? My Answer 
 
 <h2 class="section-heading">196 Coffees</h2>
 
-<h2 class="section-heading">304 Hours</h2>
+<h2 class="section-heading">307 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
