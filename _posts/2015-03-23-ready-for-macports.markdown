@@ -31,6 +31,8 @@ OS X 10.7 Lion:
 [MacPorts-2.3.1-10.7-Lion.pkg](https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.7-Lion.pkg)
 
 
+(2.) Double-click the downloaded package installer to perform the default “easy” install.
+
 
 
 
