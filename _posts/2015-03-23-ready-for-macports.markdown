@@ -42,10 +42,7 @@ OS X 10.7 Lion:
 
 <strong>Version: 2.3.1</strong>
 
-In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, [ “MacPorts and the Shell”](https://guide.macports.org/chunked/installing.shell.html) . Otherwise, please skip the remainder of this chapter and continue with Chapter 3, Using MacPorts in this guide.
-
-
-[Git](https://guide.macports.org/chunked/using.html) 
+In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, [ “MacPorts and the Shell”](https://guide.macports.org/chunked/installing.shell.html) . Otherwise, please skip the remainder of this chapter and continue with [Chapter 3, Using MacPorts](https://guide.macports.org/chunked/using.html) in this guide.
 
 
 
