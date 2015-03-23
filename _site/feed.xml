@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2015 09:50:58 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2015 09:50:58 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2015 09:55:38 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2015 09:55:38 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -49,35 +49,35 @@
 
 &lt;p&gt;install macports &lt;/p&gt;
 
-&lt;p&gt;port version &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port version&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;port list &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port list&lt;/code&gt;  &lt;/p&gt;
 
-&lt;p&gt;port search git &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port search git&lt;/code&gt;  &lt;/p&gt;
 
-&lt;p&gt;port info git-core&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port info git-core&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;port installed&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port installed&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo install git-core &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo install git-core&lt;/code&gt;  &lt;/p&gt;
 
-&lt;p&gt;git —version&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git —version&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;port installed&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port installed&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;port outdated&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;port outdated&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo port upgrade&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo port upgrade&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo port upgrade git-core&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo port upgrade git-core&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo port upgrade outdated&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo port upgrade outdated&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo port selfupdate&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo port selfupdate&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo port uninstall git-core&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo port uninstall git-core&lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;sudo port install git-core&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo port install git-core&lt;/code&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
 
