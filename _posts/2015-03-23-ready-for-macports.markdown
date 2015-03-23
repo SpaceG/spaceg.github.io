@@ -66,41 +66,35 @@ install macports
 
 
 
-port version 
+<code>port version</code> 
 
-port list 
+<code>port list</code>  
 
-port search git 
+<code>port search git</code>  
 
+<code>port info git-core</code> 
 
-port info git-core
+<code>port installed</code> 
 
+<code>sudo install git-core</code>  
 
-port installed
+<code>git —version</code> 
 
+<code>port installed</code> 
 
-sudo install git-core 
+<code>port outdated</code> 
 
+<code>sudo port upgrade</code> 
 
-git —version
+<code>sudo port upgrade git-core</code> 
 
+<code>sudo port upgrade outdated</code> 
 
-port installed
+<code>sudo port selfupdate</code> 
 
+<code>sudo port uninstall git-core</code> 
 
-port outdated
-
-sudo port upgrade
-
-sudo port upgrade git-core
-
-sudo port upgrade outdated
-
-sudo port selfupdate
-
-sudo port uninstall git-core
-
-sudo port install git-core
+<code>sudo port install git-core</code> 
 
 
 
