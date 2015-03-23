@@ -46,6 +46,11 @@ In case of problems such as “command not found”, make sure that you opened a
 
 
 
+[Git](https://guide.macports.org/chunked/installing.shell.html) 
+[Git](https://guide.macports.org/chunked/using.html) 
+
+
+
 
 [MacPorts Website](https://www.macports.org/install.php)
 
