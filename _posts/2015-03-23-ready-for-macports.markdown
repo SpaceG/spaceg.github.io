@@ -16,7 +16,9 @@ header-img: "img/p0198vg4.jpg"
 The OS X package installer automatically installs MacPorts, [ sets the shell environment](https://guide.macports.org/chunked/installing.shell.html), and runs a selfupdate operation to update the ports tree and MacPorts base with the latest release.
 
 
-1.
+(1.) Download the latest <strong>MacPorts-2.3.1-....pkg installer from the MacPorts download directory. Here are direct links for the latest versions of OS X:
+
+
 
 
 
