@@ -67,6 +67,13 @@ If you installed MacPorts using the package installer, skip this section. To ins
 (2.) Afterwards, perform the commands shown in the terminal window. If you wish to use a path other than <code>/opt/local</code>, follow the instructions for installing multiple copies of MacPorts instead.
 
 
+
+<code>$ cd MacPorts-2.3.1/</code> 
+<code>$ ./configure</code> 
+<code>$ make</code> 
+<code>$ sudo make install</code> 
+
+
 install macports 
 
 
