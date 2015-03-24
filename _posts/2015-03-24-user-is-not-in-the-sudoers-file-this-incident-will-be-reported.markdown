@@ -31,6 +31,7 @@ youradminusername ALL=(ALL) ALL
 </code>
 
 
+(4.)  Now press “ESC” (escape) key to stop editing the file
 
 
 
