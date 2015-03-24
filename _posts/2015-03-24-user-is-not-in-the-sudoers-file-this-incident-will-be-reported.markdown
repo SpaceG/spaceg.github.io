@@ -44,6 +44,7 @@ youradminusername ALL=(ALL) ALL
 
 
 
+
 Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
 
 (1.) Open it with right Mouse Click and << Open with other >> 
