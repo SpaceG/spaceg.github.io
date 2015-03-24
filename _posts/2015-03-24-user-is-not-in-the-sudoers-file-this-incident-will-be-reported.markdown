@@ -40,7 +40,7 @@ youradminusername ALL=(ALL) ALL
 
 (4.)  Now press “ESC” (escape) key to stop editing the file
 
-(5.) Enter the : key (colon) and then type <code>“wq” followed by the Return key to save changes and exit vi
+(5.) Enter the : key (colon) and then type <code>“wq”</code> followed by the Return key to save changes and exit vi
 
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
