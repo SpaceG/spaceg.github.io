@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "sudoers file"
+title:      "sudoers file - Add Premission to any User"
 subtitle:   "Add Premission to any User on your Machine"
 date:       2015-03-24 14:00:44
 author:     "Lucas Gatsas"
