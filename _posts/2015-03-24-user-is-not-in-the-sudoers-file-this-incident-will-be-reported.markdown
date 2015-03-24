@@ -24,11 +24,12 @@ root	ALL=(ALL) ALL
 </code>
 
 
-(3.) Add Below the User Privile specification
+(3.) Add Below the User Privile specification 
 
 <code>
-username ALL=(ALL) ALL
+youradminusername ALL=(ALL) ALL
 </code>
+
 
 
 
