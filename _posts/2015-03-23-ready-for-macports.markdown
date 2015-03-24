@@ -77,6 +77,10 @@ If you installed MacPorts using the package installer, skip this section. To ins
 <strong>[GO SEE MacPorts-2.3.3 INSTALL VIDEO](https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY)</strong> 
 
 
+
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/RBriCmHGrXk" frameborder="0" allowfullscreen></iframe>
+
+
 (3.) Please continue with  [Section 2.5, “MacPorts and the Shell”](https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple)  to set up your shell environment.
 
 
