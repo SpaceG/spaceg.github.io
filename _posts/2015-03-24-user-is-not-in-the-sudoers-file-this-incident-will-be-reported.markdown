@@ -10,12 +10,12 @@ header-img: "img/133972-050-9F4E1129-1.jpg"
 
 <h2 class="section-heading">Add a User to Sudoers in Mac OS X</h2>
 
-(1.) Launch Terminal : type : <code>sudo visudo</code>
+(1.) Launch Terminal : type : 
+
+<code>sudo visudo</code>
 
 
 (2.) Change your User Privilege specification
-
-
 
 <code>
 # User privilege specification
@@ -24,15 +24,14 @@ root	ALL=(ALL) ALL
 </code>
 
 
-
-
 (3.) Add Below the User Privile specification
 
 <code>
-
 username ALL=(ALL) ALL
-
 </code>
+
+
+
 
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
