@@ -43,7 +43,10 @@ youradminusername ALL=(ALL) ALL
 (5.) Enter the : key (colon) and then type <code>“wq”</code> followed by the Return key to save changes and <code> exit vi</code>
 
 
-or do you can find the file in the phat <code>etc/sudoers</code>
+
+Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
+
+(1.) Open it with right Mouse Click and << Open with other >> 
 
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
