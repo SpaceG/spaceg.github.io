@@ -28,6 +28,10 @@ root	ALL=(ALL) ALL
 
 (3.) Add Below the User Privile specification
 
+<code>
+
+
+
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
 </blockquote>
