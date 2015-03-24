@@ -16,13 +16,12 @@ header-img: "img/133972-050-9F4E1129-1.jpg"
 (2.) Change your User Privilege specification
 
 
+
 <code>
 # User privilege specification
 root	ALL=(ALL) ALL
 %admin	ALL=(ALL) ALL
 </code>
-
-
 
 
 
