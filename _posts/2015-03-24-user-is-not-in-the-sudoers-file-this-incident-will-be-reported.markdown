@@ -49,7 +49,7 @@ Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
 
 (1.) Open it with right Mouse Click and << Open with other >> 
 
-(2.) the the Finder Menu will Open 
+(2.) the Finder Menu will Open 
 
 (3.) Open with enable  << All Applications >> with your Text Editor
 
