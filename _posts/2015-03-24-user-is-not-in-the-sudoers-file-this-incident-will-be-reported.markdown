@@ -26,7 +26,7 @@ root	ALL=(ALL) ALL
 
 
 
-(3.) Change Below the User Privile specification
+(3.) Add Below the User Privile specification
 
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
