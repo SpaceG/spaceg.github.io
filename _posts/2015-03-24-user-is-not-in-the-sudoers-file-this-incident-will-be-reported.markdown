@@ -32,13 +32,11 @@ root	ALL=(ALL) ALL
 youradminusername ALL=(ALL) ALL
 </code>
 
-
+ See The Blue Marked Window in the Terminal : 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/sudoerspic.png" alt="Post Sample Image" style="width:100%">
 </a>
-
-
 
 
 (4.)  Now press “ESC” (escape) key to stop editing the file
