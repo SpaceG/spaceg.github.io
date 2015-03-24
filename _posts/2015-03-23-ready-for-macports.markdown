@@ -58,7 +58,8 @@ If you installed MacPorts using the package installer, skip this section. To ins
 (1.) Download and extract the [MacPorts 2.3.1 tarball](https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2). Either do so using your browser and the Finder, or use the given commands in a terminal window.
 
 
-<code>$ curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2</code> 
+<code>$ curl -O https://distfiles.macports.org/
+	MacPorts/MacPorts-2.3.1.tar.bz2</code> 
 
 <code>$ tar xf MacPorts-2.3.1.tar.bz2</code> 
 
