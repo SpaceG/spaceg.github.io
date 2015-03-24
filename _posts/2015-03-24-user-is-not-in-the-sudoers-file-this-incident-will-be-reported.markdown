@@ -33,6 +33,14 @@ youradminusername ALL=(ALL) ALL
 </code>
 
 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sudoerspic.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
+
 (4.)  Now press “ESC” (escape) key to stop editing the file
 
 
