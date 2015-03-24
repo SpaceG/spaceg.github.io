@@ -74,14 +74,7 @@ If you installed MacPorts using the package installer, skip this section. To ins
 <code>$ sudo make install</code> 
 
 
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
-<!-- Place this tag where you want the widget to render. -->
-<div class="g-post" data-href="https://plus.google.com/101826267816845608605/posts/Lit9AU1msaY"></div>
-
-
+<strong>[GO SEE MacPorts-2.3.3 INSTALL VIDEO](https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY)</strong> 
 
 
 (3.) Please continue with  [Section 2.5, “MacPorts and the Shell”](https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple)  to set up your shell environment.
