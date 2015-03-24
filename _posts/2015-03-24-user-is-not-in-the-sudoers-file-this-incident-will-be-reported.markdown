@@ -30,7 +30,9 @@ root	ALL=(ALL) ALL
 
 <code>
 
+username ALL=(ALL) ALL
 
+</code>
 
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
