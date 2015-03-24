@@ -78,7 +78,7 @@ If you installed MacPorts using the package installer, skip this section. To ins
 
 
 
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/RBriCmHGrXk" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/RBriCmHGrXk?autoplay=1" frameborder="0" allowfullscreen></iframe>
 
 
 (3.) Please continue with  [Section 2.5, “MacPorts and the Shell”](https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple)  to set up your shell environment.
