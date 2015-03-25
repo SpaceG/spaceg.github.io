@@ -82,11 +82,11 @@ $('.navbar-collapse ul li a').click(function() {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Hello, my Name is LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!">
     <link rel="shortcut icon" href="https://spaceg.github.io/img/favicon-7326478236.png" type="image/x-icon" />
-    <title>sudoers file - l.g</title>
+    <title>sudoers file - Add Premission to any User - l.g</title>
     <meta property="og:image" content="/img/fbmeta324123534t234qt.png"/>
     <meta property="og:title" content="Hello, my Name is LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"/>
     <meta property="og:site_name" content="Hello, my Name is LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"/>
-    <link rel="canonical" href="https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported/">
+    <link rel="canonical" href="https://spaceg.github.io/2015/03/26/xcode-without-appstore/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spacegstylesheets.css">
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -321,7 +321,7 @@ padding-right: 0px;
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>sudoers file</h1>
+                    <h1>sudoers file - Add Premission to any User</h1>
                     
                     <h2 class="subheading">Add Premission to any User on your Machine</h2>
                     
@@ -348,13 +348,11 @@ padding-right: 0px;
 
 <p>(2.) Change your User Privilege specification</p>
 
-<p><code>
-# User privilege specification</code></p>
+<p><code># User privilege specification </code></p>
 
-<p>root	ALL=(ALL) ALL</p>
+<p><code>root	ALL=(ALL) ALL</code></p>
 
-<p>%admin	ALL=(ALL) ALL
-&lt;/code&gt;</p>
+<p><code>%admin	ALL=(ALL) ALL</code></p>
 
 <p>(3.) Add Below the User Privile specification </p>
 
@@ -362,11 +360,25 @@ padding-right: 0px;
 youradminusername ALL=(ALL) ALL
 </code></p>
 
+<p>See The Blue Marked Window in the Terminal : </p>
+
 <p><a href="#">
     <img src="/img/sudoerspic.png" alt="Post Sample Image" style="width:100%" />
 </a></p>
 
 <p>(4.)  Now press “ESC” (escape) key to stop editing the file</p>
+
+<p>(5.) Enter the : key (colon) and then type <code>“wq”</code> followed by the Return key to save changes and <code> exit vi</code></p>
+
+<p>Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code></p>
+
+<p>(1.) Open it with right Mouse Click and « Open with other » </p>
+
+<p>(2.) the Finder Menu will Open </p>
+
+<p>(3.) Open with enable  « All Applications » with your Text Editor</p>
+
+<p>(4.) After changes Save the File. Enter ! :)</p>
 
 <blockquote>
 	"Open Terminal and learn to Fly with your Machine!"
@@ -378,7 +390,7 @@ youradminusername ALL=(ALL) ALL
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/03/23/ready-for-macports/" data-toggle="tooltip" data-placement="top" title="Ready For MacPorts">&larr; Previous Post</a>
+                        <a href="/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/" data-toggle="tooltip" data-placement="top" title="sudoers file - Add Premission to any User">&larr; Previous Post</a>
                     </li>
                     
                     

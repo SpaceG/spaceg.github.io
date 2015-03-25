@@ -5,12 +5,12 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Mar 2015 00:01:16 +0100</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2015 00:01:16 +0100</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2015 00:37:46 +0100</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2015 00:37:46 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>sudoers file</title>
+        <title>sudoers file - Add Premission to any User</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Sudoers&lt;/strong&gt; &lt;/h2&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Add a User to Sudoers in Mac OS X&lt;/h2&gt;
@@ -21,13 +21,11 @@
 
 &lt;p&gt;(2.) Change your User Privilege specification&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-# User privilege specification&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# User privilege specification &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;root	ALL=(ALL) ALL&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;root	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;%admin	ALL=(ALL) ALL
-&amp;lt;/code&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;%admin	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;(3.) Add Below the User Privile specification &lt;/p&gt;
 
@@ -35,19 +33,88 @@
 youradminusername ALL=(ALL) ALL
 &lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;See The Blue Marked Window in the Terminal : &lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/sudoerspic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;(4.)  Now press “ESC” (escape) key to stop editing the file&lt;/p&gt;
 
+&lt;p&gt;(5.) Enter the : key (colon) and then type &lt;code&gt;“wq”&lt;/code&gt; followed by the Return key to save changes and &lt;code&gt; exit vi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to the Finder:  Do you can find the file in the phat &lt;code&gt;etc/sudoers&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(1.) Open it with right Mouse Click and « Open with other » &lt;/p&gt;
+
+&lt;p&gt;(2.) the Finder Menu will Open &lt;/p&gt;
+
+&lt;p&gt;(3.) Open with enable  « All Applications » with your Text Editor&lt;/p&gt;
+
+&lt;p&gt;(4.) After changes Save the File. Enter ! :)&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&quot;Open Terminal and learn to Fly with your Machine!&quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/03/26/xcode-without-appstore/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/03/26/xcode-without-appstore/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>sudoers file - Add Premission to any User</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Sudoers&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Add a User to Sudoers in Mac OS X&lt;/h2&gt;
+
+&lt;p&gt;(1.) Launch Terminal : type : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo visudo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2.) Change your User Privilege specification&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;# User privilege specification &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;root	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;%admin	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3.) Add Below the User Privile specification &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+youradminusername ALL=(ALL) ALL
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;See The Blue Marked Window in the Terminal : &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/sudoerspic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(4.)  Now press “ESC” (escape) key to stop editing the file&lt;/p&gt;
+
+&lt;p&gt;(5.) Enter the : key (colon) and then type &lt;code&gt;“wq”&lt;/code&gt; followed by the Return key to save changes and &lt;code&gt; exit vi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to the Finder:  Do you can find the file in the phat &lt;code&gt;etc/sudoers&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(1.) Open it with right Mouse Click and « Open with other » &lt;/p&gt;
+
+&lt;p&gt;(2.) the Finder Menu will Open &lt;/p&gt;
+
+&lt;p&gt;(3.) Open with enable  « All Applications » with your Text Editor&lt;/p&gt;
+
+&lt;p&gt;(4.) After changes Save the File. Enter ! :)&lt;/p&gt;
+
 &lt;blockquote&gt;
 	&quot;Open Terminal and learn to Fly with your Machine!&quot;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 24 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported/</guid>
+        <link>https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/</guid>
         
         
       </item>
@@ -90,7 +157,8 @@ youradminusername ALL=(ALL) ALL
 
 &lt;p&gt;(1.) Download and extract the &lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&quot;&gt;MacPorts 2.3.1 tarball&lt;/a&gt;. Either do so using your browser and the Finder, or use the given commands in a terminal window.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;$ curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ curl -O https://distfiles.macports.org/
+	MacPorts/MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;$ tar xf MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
 
@@ -102,6 +170,8 @@ youradminusername ALL=(ALL) ALL
 &lt;code&gt;$ sudo make install&lt;/code&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY&quot;&gt;GO SEE MacPorts-2.3.3 INSTALL VIDEO&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;https://www.youtube.com/embed/RBriCmHGrXk?autoplay=1&amp;amp;loop=1&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;(3.) Please continue with  &lt;a href=&quot;https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple&quot;&gt;Section 2.5, “MacPorts and the Shell”&lt;/a&gt;  to set up your shell environment.&lt;/p&gt;
 
@@ -156,6 +226,10 @@ youradminusername ALL=(ALL) ALL
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/emacs1.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/emacs3.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Update Post soon!&lt;/p&gt;
@@ -1419,44 +1493,6 @@ An optimist is the personification of spring.&lt;/blockquote&gt;
         <pubDate>Sat, 07 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/07/optimism-and-future/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/03/07/optimism-and-future/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ice &amp; Fire - Jekyll Theme</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;ICE &amp;amp; FIRE - Jekyll Theme&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyll_theme_iceandfire.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ice&amp;amp;Fire&lt;/strong&gt; - Jekyll Theme V.0.0.1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io&quot;&gt;Demo&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/iceandfire&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
-
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;
-
-&lt;blockquote&gt;
-
-	Write a Code Feel like a God. - 
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 04 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/04/ice-and-fire-jekyll-theme-v.0.0.1%20Kopie/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/04/ice-and-fire-jekyll-theme-v.0.0.1%20Kopie/</guid>
         
         
       </item>
