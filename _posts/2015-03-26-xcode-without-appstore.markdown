@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "sudoers file - Add Premission to any User"
-subtitle:   "Add Premission to any User on your Machine"
+title:      "Get xCode without Appstore"
+subtitle:   "Trouble with Appstore or your Apple-iD"
 date:       2015-03-26 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/133972-050-9F4E1129-1.jpg"
