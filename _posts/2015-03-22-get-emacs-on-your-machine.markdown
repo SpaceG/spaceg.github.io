@@ -20,7 +20,7 @@ header-img: "img/p0198vg4.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/emacs1.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/emacs3.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
