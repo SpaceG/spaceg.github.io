@@ -8,15 +8,10 @@ header-img: "img/133972-050-9F4E1129-1.jpg"
 ---
 <h2 class="section-heading"><strong>Sudoers</strong> </h2>
 
-<h2 class="section-heading">Add a User to Sudoers in Mac OS X</h2>
-
-(1.) Launch Terminal : type : 
-
-<code>sudo visudo</code>
 
 
 
 
 <blockquote>
-	"Open Terminal and learn to Fly with your Machine!"
+	"We don't like the AppStore! We want the Old Software Update and Upgrade Back!"
 </blockquote>
