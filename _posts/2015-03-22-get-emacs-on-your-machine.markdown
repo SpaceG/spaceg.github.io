@@ -17,6 +17,13 @@ header-img: "img/p0198vg4.jpg"
 </a>
 
 
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/emacs1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
 Update Post soon!
 
 <blockquote>
