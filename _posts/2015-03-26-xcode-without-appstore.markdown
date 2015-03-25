@@ -15,45 +15,6 @@ header-img: "img/133972-050-9F4E1129-1.jpg"
 <code>sudo visudo</code>
 
 
-(2.) Change your User Privilege specification
-
-<code># User privilege specification </code>
-
-<code>root	ALL=(ALL) ALL</code>
-
-<code>%admin	ALL=(ALL) ALL</code>
-
-
-
-(3.) Add Below the User Privile specification 
-
-<code>
-youradminusername ALL=(ALL) ALL
-</code>
-
- See The Blue Marked Window in the Terminal : 
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/sudoerspic.png" alt="Post Sample Image" style="width:100%">
-</a>
-
-
-(4.)  Now press “ESC” (escape) key to stop editing the file
-
-(5.) Enter the : key (colon) and then type <code>“wq”</code> followed by the Return key to save changes and <code> exit vi</code>
-
-
-
-
-Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
-
-(1.) Open it with right Mouse Click and << Open with other >> 
-
-(2.) the Finder Menu will Open 
-
-(3.) Open with enable  << All Applications >> with your Text Editor
-
-(4.) After changes Save the File. Enter ! :)
 
 
 <blockquote>

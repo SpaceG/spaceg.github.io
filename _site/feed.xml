@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Mar 2015 00:39:53 +0100</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2015 00:39:53 +0100</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2015 00:40:29 +0100</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2015 00:40:29 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -18,40 +18,6 @@
 &lt;p&gt;(1.) Launch Terminal : type : &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;sudo visudo&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(2.) Change your User Privilege specification&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;# User privilege specification &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;root	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;%admin	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(3.) Add Below the User Privile specification &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-youradminusername ALL=(ALL) ALL
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;See The Blue Marked Window in the Terminal : &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/sudoerspic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(4.)  Now press “ESC” (escape) key to stop editing the file&lt;/p&gt;
-
-&lt;p&gt;(5.) Enter the : key (colon) and then type &lt;code&gt;“wq”&lt;/code&gt; followed by the Return key to save changes and &lt;code&gt; exit vi&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Go to the Finder:  Do you can find the file in the phat &lt;code&gt;etc/sudoers&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(1.) Open it with right Mouse Click and « Open with other » &lt;/p&gt;
-
-&lt;p&gt;(2.) the Finder Menu will Open &lt;/p&gt;
-
-&lt;p&gt;(3.) Open with enable  « All Applications » with your Text Editor&lt;/p&gt;
-
-&lt;p&gt;(4.) After changes Save the File. Enter ! :)&lt;/p&gt;
 
 &lt;blockquote&gt;
 	&quot;Open Terminal and learn to Fly with your Machine!&quot;
