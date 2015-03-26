@@ -13,7 +13,7 @@ I have an old email in appstore and i can't change it in the user Interface App 
 
 Download: Xcode - @ Apple Developer! 
 
-[Download Xcode ](https://developer.apple.com/downloads/index.action)  
+[Download Xcode 6.2 (6C131e)](https://developer.apple.com/downloads/index.action)  
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/xcode-kkk1.png" alt="Post Sample Image" style="width:100%">
