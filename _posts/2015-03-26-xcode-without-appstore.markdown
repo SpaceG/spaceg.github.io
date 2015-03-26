@@ -13,7 +13,9 @@ I have an old email in appstore and i can't change it in the user Interface App 
 
 
 
-
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sudoerspic.png" alt="Post Sample Image" style="width:100%">
+</a>
 
 
 <blockquote>
