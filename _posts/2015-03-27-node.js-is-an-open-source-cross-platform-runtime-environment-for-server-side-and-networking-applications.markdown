@@ -6,7 +6,7 @@ date:       2015-03-27 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/133972-050-9F4E1129-1.jpg"
 ---
-<h2 class="section-heading"><strong> The Strange Apple-iD for the Interface Appstore</strong> </h2>
+<h2 class="section-heading"><strong></strong> </h2>
 
 
 
