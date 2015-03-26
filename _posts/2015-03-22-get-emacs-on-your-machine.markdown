@@ -9,7 +9,8 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>emacs</strong> </h2>
 
 
-MacPorts[edit]
+MacPorts
+
 If you have MacPorts installed, you can just do:
 
 $ sudo port install emacs
