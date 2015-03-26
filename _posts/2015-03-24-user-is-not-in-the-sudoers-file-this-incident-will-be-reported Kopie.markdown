@@ -57,5 +57,5 @@ Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
 
 
 <blockquote>
-	"Open Terminal and learn to Fly with your Machine!"
+	"Open Terminal and do Funny Things! :) "
 </blockquote>
