@@ -26,6 +26,13 @@ to install Emacs 24. The MacPorts installer updates your PATH environment variab
 </a>
 
 
+My Screenshot
+<a href="#">
+    <img src="{{ site.baseurl }}/img/emacs1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
 
 
 <a href="#">
