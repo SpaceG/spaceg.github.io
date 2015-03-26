@@ -21,7 +21,7 @@ Download: Xcode - @ Apple Developer!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/xcode-kkk1.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/xcode-kkk5.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
