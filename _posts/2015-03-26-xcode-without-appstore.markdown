@@ -9,7 +9,7 @@ header-img: "img/133972-050-9F4E1129-1.jpg"
 <h2 class="section-heading"><strong> The Strange Apple-iD for the Interface Appstore</strong> </h2>
 
 I have an old email in appstore and i can't change it in the user Interface App from Apple the (AppStore). Because 
-I have resolved my Host last year in July 2014. - Now, i need some xCode Tools for dev my Web Application. I've been trying for hours to Hack my apple id. 
+I have resolved my Host last year in July 2014. - Now, i need some xCode Tools for dev my Web Application. I've been trying for hours to Hack my Apple ID. 
 
 
 
