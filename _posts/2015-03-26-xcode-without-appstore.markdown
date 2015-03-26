@@ -14,7 +14,7 @@ I have an old email in appstore and i can't change it in the user Interface App 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/xcode-kkk.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/xcode-kkk1.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
