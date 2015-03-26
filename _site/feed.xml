@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Mar 2015 02:40:08 +0100</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2015 02:40:08 +0100</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2015 02:40:37 +0100</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2015 02:40:37 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -208,7 +208,7 @@ youradminusername ALL=(ALL) ALL
 
 &lt;p&gt;If you have MacPorts installed, you can just do:&lt;/p&gt;
 
-&lt;p&gt;$ sudo port install emacs&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo port install emacs&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;to install Emacs 24. The MacPorts installer updates your PATH environment variable, so the MacPorts build of Emacs should be found by your shell before the (outdated) build that comes with Mac OS when you type &lt;strong&gt;‘emacs’&lt;/strong&gt;. If you prefer the Emacs.app build, that’s available by executing:&lt;/p&gt;
 
