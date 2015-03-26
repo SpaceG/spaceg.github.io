@@ -30,6 +30,12 @@ Then install it ! :)
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/xcode-kkk2.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
 <blockquote>
 	"We don't like the AppStore! We want the Old Software Update and Upgrade Back!"
 </blockquote>
