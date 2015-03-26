@@ -25,7 +25,7 @@ header-img: "img/133972-050-9F4E1129-1.jpg"
 
 
 
-(3.) Add Below the User Privile specification 
+(3.) Add Below the User Privilege specification 
 
 <code>
 youradminusername ALL=(ALL) ALL
