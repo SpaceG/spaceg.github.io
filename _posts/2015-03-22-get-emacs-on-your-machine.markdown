@@ -9,7 +9,16 @@ header-img: "img/p0198vg4.jpg"
 <h2 class="section-heading"><strong>emacs</strong> </h2>
 
 
+MacPorts[edit]
+If you have MacPorts installed, you can just do:
 
+$ sudo port install emacs
+
+
+
+to install Emacs 24. The MacPorts installer updates your PATH environment variable, so the MacPorts build of Emacs should be found by your shell before the (outdated) build that comes with Mac OS when you type 'emacs'. If you prefer the Emacs.app build, that's available by executing:
+
+<code>$ sudo port install emacs-app</code>
 
 
 <a href="#">
