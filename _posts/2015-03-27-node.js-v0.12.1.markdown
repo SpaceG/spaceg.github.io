@@ -15,7 +15,8 @@ header-img: "img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg"
 
 
 (2.) <strong> Homebrew </strong>. Homebrew is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing brew install node. You can learn more about <strong> [Homebrew](http://brew.sh/ )  </strong>
-at the Homebrew website. To install Homebrew just open Terminal and type <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </code>. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.
+at the Homebrew website. To install Homebrew just open Terminal and type <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
+Homebrew/install/master/install)" </code>. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.
 
 <h2 class="section-heading"><strong>Installation</strong> </h2>
 

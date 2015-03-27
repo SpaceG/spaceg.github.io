@@ -10,6 +10,7 @@ header-img: "img/Pi2ModB1GB_-comp.jpg"
 
 
 
+
 <blockquote>
 	"Learn how Machine Works!"
 </blockquote>
