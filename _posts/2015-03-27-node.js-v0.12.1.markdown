@@ -49,6 +49,7 @@ New versions of Node and NPM come out frequently. You can use Homebrew to update
 You can use Homebrew to uninstall packages that it installed: <code> brew uninstall node </code>
 
 
+<h2 class="section-heading"><strong>Clone it From GitHub</strong> </h2>
 
 
 
