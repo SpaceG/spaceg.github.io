@@ -10,7 +10,7 @@ header-img: "img/Stiftsbibliothek-StGallen.jpg"
 
 
 
-(1.) XCode. Apple’s XCode development software is used to build Mac and iOS apps, but it also includes the tools you need to compile software for use on your Mac. XCode is free and you can find it in the Apple App Store.
+(1.)<strong>XCode. Apple’s XCode development software is used to build Mac and iOS apps, but it also includes the tools you need to compile software for use on your Mac. XCode is free and you can find it in the Apple App Store.
 
 
 
