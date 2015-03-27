@@ -72,9 +72,12 @@ Run the following commands:
 
 <code>cd node</code>
 
+
 <code> ./configure </code>
 
+
 <code> make </code>
+
 
 <code> sudo make install </code>
 
