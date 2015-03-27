@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Get Xcode without Appstore"
-subtitle:   "Trouble with Appstore or your Apple-iD"
+title:      "Raspberry Pi 2 Model B - Quadcore, 1GB RAM"
+subtitle:   "Broadcom BCM2836 900 MHz ARM Cortex-A7 Quad-Core-Prozessor mit VideoCore IV Dual-Core-GPU"
 date:       2015-03-28 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/133972-050-9F4E1129-1.jpg"
