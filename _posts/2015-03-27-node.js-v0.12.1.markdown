@@ -74,9 +74,9 @@ Run the following commands:
 
 <code> ./configure </code>
 
-make
+<code> make </code>
 
-sudo make install
+<code> sudo make install </code>
 
 
 Download: node.js ! 
