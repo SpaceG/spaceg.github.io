@@ -11,7 +11,7 @@ header-img: "img/Stiftsbibliothek-StGallen.jpg"
 
 Download: node.js ! 
 
-[Download node.js](https://nodejs.org/)  
+[Download node.js](https://nodejs.org/download/)  
 
 
 
