@@ -6,7 +6,7 @@ date:       2015-03-27 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Stiftsbibliothek-StGallen.jpg"
 ---
-<h2 class="section-heading"><strong> Node.js - New Javascript</strong> </h2>
+<h2 class="section-heading"><strong> Node.js on OSX 10.9 Mavericks</strong> </h2>
 
 
 Download: node.js ! 
