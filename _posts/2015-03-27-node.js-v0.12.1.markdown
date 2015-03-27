@@ -65,7 +65,7 @@ Otherwise, follow the below steps:
 
 Run the following commands:
 
-git clone git://github.com/ry/node.git
+<code> git clone git://github.com/ry/node.git </code>
 cd node
 ./configure
 make
