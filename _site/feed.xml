@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 28 Mar 2015 00:25:48 +0100</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2015 00:25:48 +0100</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2015 00:26:11 +0100</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2015 00:26:11 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -74,7 +74,7 @@ To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. 
 
 &lt;p&gt;&lt;strong&gt; &lt;a href=&quot;https://github.com/joyent/node&quot;&gt;https://github.com/joyent/node&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;cd node&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd node&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;./configure&lt;/p&gt;
 
