@@ -43,6 +43,14 @@ New versions of Node and NPM come out frequently. You can use Homebrew to update
 
 (2.) Upgrade Node: <code> brew upgrade node </code>
 
+<h2 class="section-heading"><strong>How to Uninstall Node and NPM</strong> </h2>
+
+
+You can use Homebrew to uninstall packages that it installed: <code> brew uninstall node </code>
+
+
+
+
 
 Download: node.js ! 
 
