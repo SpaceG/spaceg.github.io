@@ -67,7 +67,7 @@ Run the following commands:
 
 <code> git clone git://github.com/ry/node.git </code>
 
-<strong>Github Repository : </strong> 
+
 
 [https://github.com/joyent/node](https://github.com/joyent/node)
 
