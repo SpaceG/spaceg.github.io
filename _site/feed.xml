@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 27 Mar 2015 04:05:33 +0100</pubDate>
-    <lastBuildDate>Fri, 27 Mar 2015 04:05:33 +0100</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2015 04:07:06 +0100</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2015 04:07:06 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -34,6 +34,12 @@
 at the Homebrew website. To install Homebrew just open Terminal and type &lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; &lt;/code&gt;. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Installation&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;p&gt;Sit back and wait. Homebrew downloads some files and installs them. And that’s it.&lt;/p&gt;
+
+&lt;p&gt;(1.)  Open the Terminal app and type &lt;code&gt; brew install node. &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2.)&lt;/p&gt;
 
 &lt;p&gt;Download: node.js ! &lt;/p&gt;
 

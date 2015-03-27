@@ -20,6 +20,13 @@ at the Homebrew website. To install Homebrew just open Terminal and type <code>r
 <h2 class="section-heading"><strong>Installation</strong> </h2>
 
 
+Sit back and wait. Homebrew downloads some files and installs them. And that’s it.
+
+(1.)  Open the Terminal app and type <code> brew install node. </code>
+
+
+(2.)
+
 
 Download: node.js ! 
 
