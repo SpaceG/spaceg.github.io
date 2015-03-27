@@ -4,7 +4,7 @@ title:      "Node.js - New Javascript"
 subtitle:   "Node.js is an open source, cross-platform runtime environment for server-side and networking applications."
 date:       2015-03-27 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Stiftsbibliothek-StGallen.jpg"
+header-img: "img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg"
 ---
 <h2 class="section-heading"><strong> Node.js on OSX 10.9 Mavericks</strong> </h2>
 
