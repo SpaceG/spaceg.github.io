@@ -35,6 +35,13 @@ To see if NPM is installed, type <code> npm -v </code> in Terminal. This should 
 
 <h2 class="section-heading"><strong>How to Update Node and NPM</strong> </h2>
 
+New versions of Node and NPM come out frequently. You can use Homebrew to update the software it installs.
+
+
+
+(1.) Make sure Homebrew has the latest version of the Node package. In Terminal type <code> brew update </code>
+
+(2.) Upgrade Node: <code> brew upgrade node </code>
 
 
 Download: node.js ! 
