@@ -60,7 +60,9 @@ If you're using the excellent homebrew package manager, you can install node wit
 Otherwise, follow the below steps:
 
 (1.) Install Xcode.
+
 (2.) Install git.
+
 Run the following commands:
 
 git clone git://github.com/ry/node.git
