@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 28 Mar 2015 00:18:47 +0100</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2015 00:18:47 +0100</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2015 00:19:24 +0100</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2015 00:19:24 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -58,13 +58,13 @@ To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. 
 
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Clone it From GitHub&lt;/strong&gt; &lt;/h2&gt;
 
-&lt;p&gt;Mac&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Mac &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’re using the excellent homebrew package manager, you can install node with one command: brew install node.&lt;/p&gt;
 
 &lt;p&gt;Otherwise, follow the below steps:&lt;/p&gt;
 
-&lt;p&gt;Install Xcode.
+&lt;p&gt;(1.) Install Xcode.
 Install git.
 Run the following commands:&lt;/p&gt;
 

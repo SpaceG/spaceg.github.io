@@ -53,13 +53,13 @@ You can use Homebrew to uninstall packages that it installed: <code> brew uninst
 
 
 
-Mac
+<strong> Mac </strong>
 
 If you're using the excellent homebrew package manager, you can install node with one command: brew install node.
 
 Otherwise, follow the below steps:
 
-Install Xcode.
+(1.) Install Xcode.
 Install git.
 Run the following commands:
 
