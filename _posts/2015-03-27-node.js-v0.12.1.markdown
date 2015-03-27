@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Node.js - New Javascript"
-subtitle:   "Trouble with Appstore or your Apple-iD"
+subtitle:   "Node.js is an open source, cross-platform runtime environment for server-side and networking applications."
 date:       2015-03-27 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Stiftsbibliothek-StGallen.jpg"
