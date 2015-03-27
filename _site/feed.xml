@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 27 Mar 2015 03:58:51 +0100</pubDate>
-    <lastBuildDate>Fri, 27 Mar 2015 03:58:51 +0100</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2015 04:01:20 +0100</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2015 04:01:20 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,6 +27,10 @@
       <item>
         <title>Node.js - New Javascript</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Node.js on OSX 10.9 Mavericks&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;p&gt;(1.) XCode. Apple’s XCode development software is used to build Mac and iOS apps, but it also includes the tools you need to compile software for use on your Mac. XCode is free and you can find it in the Apple App Store.&lt;/p&gt;
+
+&lt;p&gt;(2.) &lt;strong&gt; Homebrew &lt;/strong&gt;. Homebrew is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing brew install node. You can learn more about Homebrew at the Homebrew website. To install Homebrew just open Terminal and type ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.&lt;/p&gt;
 
 &lt;p&gt;Download: node.js ! &lt;/p&gt;
 
