@@ -67,7 +67,7 @@ Run the following commands:
 
 <code> git clone git://github.com/ry/node.git </code>
 
-Github Repository : 
+<strong>Github Repository : </strong>
 
 cd node
 ./configure
