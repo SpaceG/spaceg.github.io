@@ -6,17 +6,19 @@ date:       2015-03-27 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Stiftsbibliothek-StGallen.jpg"
 ---
-<h2 class="section-heading"><strong> The Strange Apple-iD for the Interface Appstore</strong> </h2>
+<h2 class="section-heading"><strong> Node.js - New Javascript</strong> </h2>
 
 
-Download: node.js - @ Apple Developer! 
+Download: node.js ! 
 
-[Download Xcode 6.2 (6C131e)](https://developer.apple.com/downloads/index.action)  
+[Download node.js](https://nodejs.org/)  
 
 
 
 
 
 <blockquote>
-	"We don't like the AppStore! We want the Old Software Update and Upgrade Back!"
+
+
+"Node.js is an open source, cross-platform runtime environment for server-side and networking applications."
 </blockquote>
