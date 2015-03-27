@@ -4,7 +4,7 @@ title:      "Node.js - New Javascript"
 subtitle:   "Trouble with Appstore or your Apple-iD"
 date:       2015-03-27 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/nodejs-forever.jpg"
+header-img: "img/Stiftsbibliothek-StGallen.jpg"
 ---
 <h2 class="section-heading"><strong> The Strange Apple-iD for the Interface Appstore</strong> </h2>
 
@@ -15,11 +15,6 @@ Download: node.js - @ Apple Developer!
 
 [Download Xcode 6.2 (6C131e)](https://developer.apple.com/downloads/index.action)  
 
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/xcode-kkk1.png" alt="Post Sample Image" style="width:100%">
-</a>
 
 
 
