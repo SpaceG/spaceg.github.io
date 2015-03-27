@@ -33,6 +33,10 @@ To see if NPM is installed, type <code> npm -v </code> in Terminal. This should 
 
 
 
+<h2 class="section-heading"><strong>How to Update Node and NPM</strong> </h2>
+
+
+
 Download: node.js ! 
 
 [Download node.js](https://nodejs.org/download/)  
