@@ -70,7 +70,7 @@ Run the following commands:
 <strong> [https://github.com/joyent/node](https://github.com/joyent/node) </strong>
 
 
-cd node
+<code>cd node</code>
 
 ./configure
 
