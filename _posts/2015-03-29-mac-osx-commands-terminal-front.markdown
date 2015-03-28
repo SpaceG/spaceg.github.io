@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Mac Os X - CommandLines"
-subtitle:   "Terminal CommandLines mac Os X System Control"
+subtitle:   "Terminal CommandLines Mac Os X System Control"
 date:       2015-03-29 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/yR1gv2aRQDHN36RE.jpeg"
@@ -27,16 +27,16 @@ header-img: "img/yR1gv2aRQDHN36RE.jpeg"
 um unter Mac OS Ping zu stoppen CTRL+C drücken</td>
           </tr>
           <tr>
-            <td>top</td>
+            <td><code>$ top</code></td>
             <td>Zeigt eine Liste von laufenden Prozessen an, ähnlich der Aktivitätsanzeige.</td>
           </tr>
           <tr>
-            <td>defaults write com.apple.
+            <td>$ defaults write com.apple.
             	Finder AppleShowAllFiles TRUE; killAll Finder</td>
             <td>Zeigt versteckte Dateien im Finder an.</td>
           </tr>
           <tr>
-            <td>defaults write com.apple.
+            <td>$ defaults write com.apple.
             	Finder AppleShowAllFiles TRUE; killAll Finder</td>
 <td>Zeigt <strong>versteckte Dateien</strong> im <a href="https://spaceg.github.io/" title="Mac Explorer - Finder">Finder</a> an. <span title="eingeführt in OS X Lion" class="label label-info">Mavericks</span></td>          </tr>
     	<tr>
@@ -44,21 +44,25 @@ um unter Mac OS Ping zu stoppen CTRL+C drücken</td>
             	ScreenCapture </code> type JPG; killAll SystemUIServer</td>
             <td>Stellt das Format für Screenshots auf JPG, weitere mögliche Formate sind: PNG, PDF, TIFF, JPEG, BMP, GIF, PSD.</td>
           </tr>
-           <td>defaults write com.apple.Screencapture location <code>/Users/benutzername; </code> killAll SystemUIServer
+           <td>$ defaults write com.apple.Screencapture location <code>/Users/benutzername; </code> killAll SystemUIServer
            </td>
             <td>Ändert den Speicherordner für Screenshots auf Euren Benutzerordner.</td>
           </tr>
            <tr>
-            <td>dscacheutil -flushcache</td>
+            <td>$ dscacheutil -flushcache</td>
             <td>Startet Quick Look neu & läd ggf. neue Plugins.</td>
           </tr>
                <tr>
-            <td>ipconfig getifaddr en0</td>
+            <td>$ ipconfig getifaddr en0</td>
             <td>Get Your Network IP Address</td>
           </tr>
-                <tr>
-            <td>curl ipecho.net/plain; echo</td>
+           <tr>
+            <td>$ curl ipecho.net/plain; echo</td>
             <td>Get Your External IP Address</td>
+          </tr>
+          <tr>
+            <td>$ ping -c 10 www.example-site.com</td>
+            <td>Test Network Connectivity</td>
           </tr>
         </tbody>
       </table>

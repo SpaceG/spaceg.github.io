@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 28 Mar 2015 01:53:49 +0100</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2015 01:53:49 +0100</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2015 02:00:52 +0100</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2015 02:00:52 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -31,16 +31,16 @@
 um unter Mac OS Ping zu stoppen CTRL+C drücken&lt;/td&gt;
           &lt;/tr&gt;
           &lt;tr&gt;
-            &lt;td&gt;top&lt;/td&gt;
+            &lt;td&gt;&lt;code&gt;$ top&lt;/code&gt;&lt;/td&gt;
             &lt;td&gt;Zeigt eine Liste von laufenden Prozessen an, ähnlich der Aktivitätsanzeige.&lt;/td&gt;
           &lt;/tr&gt;
           &lt;tr&gt;
-            &lt;td&gt;defaults write com.apple.
+            &lt;td&gt;$ defaults write com.apple.
             	Finder AppleShowAllFiles TRUE; killAll Finder&lt;/td&gt;
             &lt;td&gt;Zeigt versteckte Dateien im Finder an.&lt;/td&gt;
           &lt;/tr&gt;
           &lt;tr&gt;
-            &lt;td&gt;defaults write com.apple.
+            &lt;td&gt;$ defaults write com.apple.
             	Finder AppleShowAllFiles TRUE; killAll Finder&lt;/td&gt;
 &lt;td&gt;Zeigt &lt;strong&gt;versteckte Dateien&lt;/strong&gt; im &lt;a href=&quot;https://spaceg.github.io/&quot; title=&quot;Mac Explorer - Finder&quot;&gt;Finder&lt;/a&gt; an. &lt;span title=&quot;eingeführt in OS X Lion&quot; class=&quot;label label-info&quot;&gt;Mavericks&lt;/span&gt;&lt;/td&gt;          &lt;/tr&gt;
     	&lt;tr&gt;
@@ -48,21 +48,25 @@ um unter Mac OS Ping zu stoppen CTRL+C drücken&lt;/td&gt;
             	ScreenCapture &lt;/code&gt; type JPG; killAll SystemUIServer&lt;/td&gt;
             &lt;td&gt;Stellt das Format für Screenshots auf JPG, weitere mögliche Formate sind: PNG, PDF, TIFF, JPEG, BMP, GIF, PSD.&lt;/td&gt;
           &lt;/tr&gt;
-           &lt;td&gt;defaults write com.apple.Screencapture location &lt;code&gt;/Users/benutzername; &lt;/code&gt; killAll SystemUIServer
+           &lt;td&gt;$ defaults write com.apple.Screencapture location &lt;code&gt;/Users/benutzername; &lt;/code&gt; killAll SystemUIServer
            &lt;/td&gt;
             &lt;td&gt;Ändert den Speicherordner für Screenshots auf Euren Benutzerordner.&lt;/td&gt;
           
            &lt;tr&gt;
-            &lt;td&gt;dscacheutil -flushcache&lt;/td&gt;
+            &lt;td&gt;$ dscacheutil -flushcache&lt;/td&gt;
             &lt;td&gt;Startet Quick Look neu &amp;amp; läd ggf. neue Plugins.&lt;/td&gt;
           &lt;/tr&gt;
                &lt;tr&gt;
-            &lt;td&gt;ipconfig getifaddr en0&lt;/td&gt;
+            &lt;td&gt;$ ipconfig getifaddr en0&lt;/td&gt;
             &lt;td&gt;Get Your Network IP Address&lt;/td&gt;
           &lt;/tr&gt;
-                &lt;tr&gt;
-            &lt;td&gt;curl ipecho.net/plain; echo&lt;/td&gt;
+           &lt;tr&gt;
+            &lt;td&gt;$ curl ipecho.net/plain; echo&lt;/td&gt;
             &lt;td&gt;Get Your External IP Address&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;$ ping -c 10 www.example-site.com&lt;/td&gt;
+            &lt;td&gt;Test Network Connectivity&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
