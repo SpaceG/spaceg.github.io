@@ -100,7 +100,6 @@ To get a list of every running process on your computer, type this:</td>
         </tbody>
       </table>
 
-
 <blockquote>
 	"Learn how Machine Works!"
 </blockquote>
