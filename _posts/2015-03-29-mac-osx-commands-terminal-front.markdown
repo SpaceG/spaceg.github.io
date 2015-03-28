@@ -7,11 +7,8 @@ author:     "Lucas Gatsas"
 header-img: "img/yR1gv2aRQDHN36RE.jpeg"
 ---
 
-
-
 <h2 class="section-heading"><strong> Mac Os X - CommandLines</strong> </h2>
 
-      
 <table class="table">
         <thead>
           <tr>
