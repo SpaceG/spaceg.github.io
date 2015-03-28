@@ -97,5 +97,5 @@ To get a list of every running process on your computer, type this:</td>
       </table>
 
 <blockquote>
-	"Learn how Machine Works!"
+	"Learn & Understand how Machine Works!"
 </blockquote>
