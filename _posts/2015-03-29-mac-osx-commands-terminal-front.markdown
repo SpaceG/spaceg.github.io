@@ -32,7 +32,8 @@ um unter Mac OS Ping zu stoppen CTRL+C drücken</td>
           </tr>
           <tr>
             <td><code>$ defaults write com.apple.
-            	Finder AppleShowAllFiles TRUE; killAll Finder</code></td>
+            	Finder AppleShowAllFiles
+            	 TRUE; killAll Finder</code></td>
             <td>Zeigt versteckte Dateien im Finder an.</td>
           </tr>
           <tr>
