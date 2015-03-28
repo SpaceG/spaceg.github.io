@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 28 Mar 2015 02:22:32 +0100</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2015 02:22:32 +0100</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2015 20:56:30 +0100</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2015 20:56:30 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -79,6 +79,27 @@ um unter Mac OS Ping zu stoppen CTRL+C drücken&lt;/td&gt;
             &lt;td&gt;&lt;code&gt;$ ping -c 10 www.example-
             	site.com&lt;/code&gt;&lt;/td&gt;
             &lt;td id=&quot;fadeout-1&quot;&gt;Test Network Connectivity&lt;/td&gt;
+          &lt;/tr&gt;
+           &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$ system_profiler&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;A Closer Look at System Information&lt;/td&gt;
+          &lt;/tr&gt;
+            &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$ pwd&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;The current directory&lt;/td&gt;
+          &lt;/tr&gt;
+            &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$ pwd&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;The current directory&lt;/td&gt;
+          &lt;/tr&gt;
+              &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$  ps -ax&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;Job control While Activity Monitor is useful, it&#39;s not quite as useful as working with the shell.
+To get a list of every running process on your computer, type this:&lt;/td&gt;
+          &lt;/tr&gt;
+              &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$  hostname&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;To get your current location, use the &quot;hostname&quot; command.&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
