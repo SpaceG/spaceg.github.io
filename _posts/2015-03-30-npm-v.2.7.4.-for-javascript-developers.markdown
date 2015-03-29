@@ -35,8 +35,6 @@ header-img: "img/95799-050-3271E460.jpg"
             <td><code>$ [sudo] npm install npm -g</code></td>
             <td id="fadeout-1">To upgrade, run: [sudo] npm install npm -g</td>
           </tr>
-       
-       
         </tbody>
       </table>
 
