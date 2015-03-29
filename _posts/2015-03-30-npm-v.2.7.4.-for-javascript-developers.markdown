@@ -18,7 +18,7 @@ header-img: "img/yR1gv2aRQDHN36RE.jpeg"
         </thead>
         <tbody>
           <tr>
-            <td><code>$ chflags nohidden ~/Library</code></td>
+            <td> <strong> <a href="https://docs.npmjs.com/misc/developers"> npmjs.com</a> </strong></td>
             <td id="fadeout-1">Library-Ordner </td>
           </tr>
           <tr>
