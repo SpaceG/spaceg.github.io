@@ -5,8 +5,8 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Mar 2015 23:16:55 +0200</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2015 23:16:55 +0200</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2015 23:17:59 +0200</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 23:17:59 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -33,6 +33,11 @@
             &lt;td&gt; &lt;strong&gt; &lt;a href=&quot;https://docs.npmjs.com/misc/developers&quot;&gt; npmjs.com&lt;/a&gt; &lt;/strong&gt;&lt;/td&gt;
             &lt;td id=&quot;fadeout-1&quot;&gt;npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you&#39;re sharing.&lt;/td&gt;
           &lt;/tr&gt;
+              &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$ npm -v&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;Run Terminal and type npm -v&lt;/td&gt;
+          &lt;/tr&gt;
+       
           &lt;tr&gt;
             &lt;td&gt;&lt;code&gt;$ [sudo] npm install npm -g&lt;/code&gt;&lt;/td&gt;
             &lt;td id=&quot;fadeout-1&quot;&gt;To upgrade, run: [sudo] npm install npm -g&lt;/td&gt;
