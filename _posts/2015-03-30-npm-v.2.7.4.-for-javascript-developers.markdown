@@ -34,8 +34,8 @@ header-img: "img/yR1gv2aRQDHN36RE.jpeg"
             <td id="fadeout-1">npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing.</td>
           </tr>
           <tr>
-            <td><code>$ ping 127.0.0.1</code></td>
-            <td id="fadeout-1">pingt</td>
+            <td><code>$ [sudo] npm install npm -g</code></td>
+            <td id="fadeout-1">To upgrade, run: [sudo] npm install npm -g</td>
           </tr>
        
        
