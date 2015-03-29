@@ -13,7 +13,11 @@ header-img: "img/95799-050-3271E460.jpg"
 npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing. 
 
 <h2 class="section-heading">Installing Node.js</h2>
-(1.) First do you have to Installing Node.js. The best way to install Node.js is to use one of the installers from [node.js](nodejs.org/).
+(1.) First do you have to Installing Node.js. The best way to install Node.js is to use one of the installers from [node.js](nodejs.org/). If you're using Linux, you can use the installer, or you can check [ NodeSource's binary distributions](https://github.com/nodesource/distributions)
+
+Test: Run <code> node -v. </code> The version should be higher than <code> v0.10.32. </code>
+
+
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/npm1-2.png" alt="Post Sample Image" style="width:100%">
