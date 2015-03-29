@@ -16,3 +16,5 @@ paginate:
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 paginate: 5 #posts per page
+
+
