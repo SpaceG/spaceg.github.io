@@ -5,9 +5,45 @@
     <description>Hello, my Name is LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Mar 2015 00:53:36 +0100</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2015 00:53:36 +0100</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2015 23:04:03 +0200</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 23:04:03 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>npm V.2.7.4</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Download the npm Package Manager &lt;/strong&gt; &lt;/h2&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Download&lt;/th&gt;
+            &lt;th id=&quot;fadeout-1&quot;&gt;Source&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$ chflags nohidden ~/Library&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;Library-Ordner &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;$ ping 127.0.0.1&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;pingt&lt;/td&gt;
+          &lt;/tr&gt;
+       
+       
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+&lt;blockquote&gt;
+	&quot;Learn &amp;amp; Understand how Machine Works!&quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 30 Mar 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/03/30/npm-v.2.7.4.-for-javascript-developers/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/03/30/npm-v.2.7.4.-for-javascript-developers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mac Os X - CommandLines</title>
@@ -99,6 +135,7 @@ To get a list of every running process on your computer, type this:&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
+
 &lt;blockquote&gt;
 	&quot;Learn &amp;amp; Understand how Machine Works!&quot;
 &lt;/blockquote&gt;
@@ -1203,42 +1240,6 @@ Merge just &lt;strong&gt;one specific commit&lt;/strong&gt; from another branch 
         <pubDate>Fri, 20 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/20/git-install/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/03/20/git-install/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RaspberryPI Modell B</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Get Some Raspberrys! &lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;Update Post soon! &lt;/p&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/raspberry_pi_mechanicalspecB_.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
-
-&lt;br&gt; 
-
-
-
-
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/bbcm_27.jpg&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
-
-
---&gt;
-
-&lt;blockquote&gt;
-	
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 19 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/19/Raspberry-Pi-Modell-B/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/19/Raspberry-Pi-Modell-B/</guid>
         
         
       </item>

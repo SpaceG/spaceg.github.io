@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "npm V.2.7.4"
+subtitle:   "npm is the Package Manager"
+date:       2015-03-30 14:00:44
+author:     "Lucas Gatsas"
+header-img: "img/yR1gv2aRQDHN36RE.jpeg"
+---
+
+<h2 class="section-heading"><strong> Download the npm Package Manager </strong> </h2>
+
+<table class="table">
+        <thead>
+          <tr>
+            <th>Download</th>
+            <th id="fadeout-1">Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>$ chflags nohidden ~/Library</code></td>
+            <td id="fadeout-1">Library-Ordner </td>
+          </tr>
+          <tr>
+            <td><code>$ ping 127.0.0.1</code></td>
+            <td id="fadeout-1">pingt</td>
+          </tr>
+       
+       
+        </tbody>
+      </table>
+      
+<blockquote>
+	"Learn & Understand how Machine Works!"
+</blockquote>
