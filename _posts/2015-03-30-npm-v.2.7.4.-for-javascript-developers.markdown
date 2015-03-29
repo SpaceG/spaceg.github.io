@@ -21,6 +21,9 @@ Test: Run <code> node -v. </code> The version should be higher than <code> v0.10
 
 <code>sudo npm install npm -g.</code>
 
+
+Test: Run <code> npm -v. </code> The version should be higher than <code> 2.1.8. </code>
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/npm1-2.png" alt="Post Sample Image" style="width:100%">
 </a>
