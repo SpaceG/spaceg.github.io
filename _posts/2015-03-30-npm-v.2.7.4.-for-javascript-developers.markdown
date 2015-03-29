@@ -4,7 +4,7 @@ title:      "npm V.2.7.4"
 subtitle:   "npm is the Package Manager"
 date:       2015-03-30 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/yR1gv2aRQDHN36RE.jpeg"
+header-img: "img/95799-050-3271E460.jpg"
 ---
 
 <h2 class="section-heading"><strong> Download the npmjs Package Manager</strong> </h2>
@@ -19,8 +19,6 @@ header-img: "img/yR1gv2aRQDHN36RE.jpeg"
 <a href="#">
     <img src="{{ site.baseurl }}/img/npm2.png" alt="Post Sample Image" style="width:100%">
 </a>
-
-
 
 <table class="table">
         <thead>
