@@ -9,6 +9,7 @@ header-img: "img/yR1gv2aRQDHN36RE.jpeg"
 
 <h2 class="section-heading"><strong> Download the npmjs Package Manager</strong> </h2>
 
+<h2 class="section-heading">npm V.2.7.4</h2>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/npm1-2.png" alt="Post Sample Image" style="width:100%">
