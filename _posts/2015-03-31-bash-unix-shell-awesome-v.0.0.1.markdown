@@ -14,6 +14,12 @@ header-img: "img/images-cms-image-004442450.jpg"
 Update the Toolkit soon! Happy Coding
 <br>
 
+<a href="#">
+    <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
 <a class="btn btn-default btn-lg" href="https://github.com/bashawesome/bashunixshell-awesome/archive/master.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
             <i class="fa fa-download fa-lg"></i>&nbsp;&nbsp;
             Download V.0.0.1
@@ -22,10 +28,6 @@ Update the Toolkit soon! Happy Coding
 <br>
 
 
-
-<a href="#">
-    <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
-</a>
 
 Picture : Das Schwarze Quadrat - Kasimir Malewitsch. 
       
