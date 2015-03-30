@@ -11,6 +11,8 @@ header-img: "img/95799-050-3271E460.jpg"
 <h2 class="section-heading">Download the ToolKit. </h2>
 
 
+<!--
+
 <table class="table">
         <thead>
           <tr>
@@ -33,7 +35,8 @@ header-img: "img/95799-050-3271E460.jpg"
           </tr>
         </tbody>
       </table>
-
+ 
+ -->
 
 <a href="#">
     <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
