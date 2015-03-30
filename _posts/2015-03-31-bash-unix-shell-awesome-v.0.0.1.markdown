@@ -10,20 +10,6 @@ header-img: "img/95799-050-3271E460.jpg"
 <h2 class="section-heading"><strong> $bash Unix Shell Awesome v.0.0.1</strong> </h2>
 <h2 class="section-heading">Download the ToolKit. </h2>
 
-npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing. 
-
-<h2 class="section-heading">Installing Node.js</h2>
-(1.) First do you have to Installing Node.js. The best way to install Node.js is to use one of the installers from [node.js](nodejs.org/). If you're using Linux, you can use the installer, or you can check [ NodeSource's binary distributions](https://github.com/nodesource/distributions)
-
-Test: Run <code> node -v. </code> The version should be higher than <code> v0.10.32. </code>
-
-
-<h2 class="section-heading">Updating npm</h2>
-
-<code>sudo npm install npm -g.</code>
-
-Test: Run <code> npm -v. </code> The version should be higher than <code> 2.1.8. </code>
-
 
 
 <a href="#">
