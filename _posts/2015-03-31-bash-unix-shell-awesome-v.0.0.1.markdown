@@ -7,8 +7,8 @@ author:     "Lucas Gatsas"
 header-img: "img/95799-050-3271E460.jpg"
 ---
 
-<h2 class="section-heading"><strong> Download the npmjs Package Manager</strong> </h2>
-<h2 class="section-heading">npm V.2.7.4</h2>
+<h2 class="section-heading"><strong> $bash Unix Shell Awesome v.0.0.1</strong> </h2>
+<h2 class="section-heading">Download the </h2>
 
 npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing. 
 
