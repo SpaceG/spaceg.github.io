@@ -11,11 +11,6 @@ header-img: "img/95799-050-3271E460.jpg"
 <h2 class="section-heading">Download the ToolKit. </h2>
 
 
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/npm1-2.png" alt="Post Sample Image" style="width:100%">
-</a>
-
 <table class="table">
         <thead>
           <tr>
@@ -47,5 +42,5 @@ header-img: "img/95799-050-3271E460.jpg"
 
       
 <blockquote>
-	"Learn & Understand how Machine Works!"
+	"get $bash unix shell awesome"
 </blockquote>
