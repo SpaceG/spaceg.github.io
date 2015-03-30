@@ -11,6 +11,8 @@ header-img: "img/95799-050-3271E460.jpg"
 <h2 class="section-heading">Download the ToolKit. </h2>
 
 
+Update the Toolkit soon! Happy Coding!
+
 <!--
 
 <table class="table">
