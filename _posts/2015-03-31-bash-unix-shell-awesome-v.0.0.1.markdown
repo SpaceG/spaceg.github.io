@@ -39,8 +39,9 @@ header-img: "img/95799-050-3271E460.jpg"
         </tbody>
       </table>
 
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/npm2.png" alt="Post Sample Image" style="width:100%">
+    <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
