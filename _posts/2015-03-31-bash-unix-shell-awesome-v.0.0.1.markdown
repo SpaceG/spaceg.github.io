@@ -4,7 +4,7 @@ title:      "Get $bash Unix Shell Awesome v.0.0.1"
 subtitle:   "The Commandline and Git toolkit."
 date:       2015-03-31 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/95799-050-3271E460.jpg"
+header-img: "img/2012-05_Quadrat-Kubus-Betriebsausflug0004.jpg"
 ---
 
 <h2 class="section-heading"><strong> $bash Unix Shell Awesome v.0.0.1</strong> </h2>
