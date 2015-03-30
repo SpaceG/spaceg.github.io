@@ -11,8 +11,15 @@ header-img: "img/95799-050-3271E460.jpg"
 <h2 class="section-heading">Download the ToolKit. </h2>
 
 
-Update the Toolkit soon! Happy Coding!
+Update the Toolkit soon! Happy Coding
+<br>
 
+<a class="btn btn-default btn-lg" href="https://github.com/bashawesome/bashunixshell-awesome/archive/master.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+            <i class="fa fa-download fa-lg"></i>&nbsp;&nbsp;
+            Download V.0.0.1
+          </a> @github
+
+<br>
 <!--
 
 <table class="table">
