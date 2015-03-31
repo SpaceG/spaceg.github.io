@@ -48,6 +48,16 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 <br>
 
+Launch the Terminal, found in <br>
+<code> /Applications/Utilities/ </code>
+
+1. Open Terminal Clone Repository 
+
+<br><code>https:// clone URL</code> it to Desktop: <br><code> git clone https://github.com/bashawesome/bashunixshell-awesome.git </code>
+<br>  
+<code>SSH clone URL</code> it to Desktop: <br><code> git clone git@github.com:bashawesome/bashunixshell-awesome.git </code>
+ <br>  
+
 
 
 Picture : Das Schwarze Quadrat - Kasimir Malewitsch. 
