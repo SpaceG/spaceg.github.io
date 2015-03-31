@@ -32,10 +32,7 @@ Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://b
     <img src="{{ site.baseurl }}/img/bash3.png" alt="Post Sample Image" style="width:100%">
 </a>
 -->
-
-
-
-
+Run Awesome Commandlines! 
 
 <a href="#">
     <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
