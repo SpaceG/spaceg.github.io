@@ -52,9 +52,11 @@ Launch the Terminal, found in <br>
 
 1. Open Terminal Clone Repository 
 
-<br><code>https:// clone URL</code> it to Desktop: <br><code> git clone https://github.com/bashawesome/bashunixshell-awesome.git </code>
+<br><code>https:// clone URL</code> it to Desktop: <br><code> git clone https://github.com/bashawesome/
+bashunixshell-awesome.git </code>
 <br>  
-<code>SSH clone URL</code> it to Desktop: <br><code> git clone git@github.com:bashawesome/bashunixshell-awesome.git </code>
+<code>SSH clone URL</code> it to Desktop: <br><code> git clone git@github.com:bashawesome/
+bashunixshell-awesome.git </code>
  <br>  
 
 
