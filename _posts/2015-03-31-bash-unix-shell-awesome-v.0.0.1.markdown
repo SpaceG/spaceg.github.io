@@ -15,6 +15,26 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 <br>
 
+
+
+<a href="#">
+    <img src="https://bashawesome.github.io/assets/media/$bash1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+<a href="#">
+    <img src="https://bashawesome.github.io/assets/media/$bash2.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+<a href="#">
+    <img src="https://bashawesome.github.io/assets/media/$bash3.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
+
+
+
 <a href="#">
     <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
 </a>
