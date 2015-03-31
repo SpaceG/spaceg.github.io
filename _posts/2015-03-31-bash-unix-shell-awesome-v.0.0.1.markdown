@@ -18,16 +18,16 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 <a href="#">
-    <img src="assets/img/bash1.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash1.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
 <a href="#">
-    <img src="assets/img/bash2.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash2.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 <a href="#">
-    <img src="/assets/media/bash3.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash3.png" alt="Post Sample Image" style="width:100%">
 </a>
 
 
