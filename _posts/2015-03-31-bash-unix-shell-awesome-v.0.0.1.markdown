@@ -26,10 +26,11 @@ header-img: "img/images-cms-image-004442450.jpg"
     <img src="{{ site.baseurl }}/img/bash2.png" alt="Post Sample Image" style="width:100%">
 </a>
 
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/bash3.png" alt="Post Sample Image" style="width:100%">
 </a>
-
+-->
 
 
 
