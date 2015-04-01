@@ -14,7 +14,7 @@ header-img: "img/adam.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/jekyll_theme_iceandfire.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/jekyll_theme_iceandfire.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 

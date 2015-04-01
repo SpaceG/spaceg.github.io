@@ -83,7 +83,7 @@ To use it, simply cd into the root directory and run:
 
 The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
 <a href="#">
-    <img src="{{ site.baseurl }}/img/cloc-redacted.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/cloc-redacted.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 You can, of course, customize the poop out of it as well.
@@ -125,7 +125,7 @@ And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](http
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/1001k.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/1001k.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
