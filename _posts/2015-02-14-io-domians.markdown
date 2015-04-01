@@ -31,14 +31,14 @@ We have registered our Domian Names @ Namecheap.com [Namecheap.com](https://www.
 Get Amazing Fast Support and Like Namecheap really. - 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/startup_docu_4.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/startup_docu_4.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
