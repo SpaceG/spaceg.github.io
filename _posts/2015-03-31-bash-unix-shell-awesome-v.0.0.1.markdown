@@ -51,7 +51,7 @@ Visit The : [GitHub Repository](https://github.com/bashawesome)
 
 <br>
 
-
+<!--
 
 <iframe src="https://ghbtns.com/github-btn.html?user=bashawesome&repo=bashunixshell-awesome&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
 
@@ -61,7 +61,7 @@ Visit The : [GitHub Repository](https://github.com/bashawesome)
 <iframe src="https://ghbtns.com/github-btn.html?user=bashawesome&repo=bashunixshell-awesome&type=fork&count=true" frameborder="0" scrolling="0" width="130px" height="20px"></iframe>
 
 
-
+-->
 
 
 Launch the Terminal, found in <br>
