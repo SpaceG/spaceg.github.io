@@ -41,6 +41,16 @@ Run Awesome Commandlines!
 
 Visit The : [GitHub Repository](https://github.com/bashawesome)
 
+<iframe src="https://ghbtns.com/github-btn.html?user=bashawesome&repo=bashunixshell-awesome&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bashawesome.github.io" data-via="lucasgatsas" data-hashtags="bashunixshellawesome">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<iframe src="https://ghbtns.com/github-btn.html?user=bashawesome&repo=bashunixshell-awesome&type=fork&count=true" frameborder="0" scrolling="0" width="130px" height="20px"></iframe>
+<br><br>
+
+
+
 <a class="btn btn-default btn-lg" href="https://github.com/bashawesome/bashunixshell-awesome/archive/master.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
             <i class="fa fa-download fa-lg"></i>&nbsp;&nbsp;
             Download V.0.0.1
