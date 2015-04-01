@@ -38,7 +38,7 @@ We Started with $ 10 / mo - 1GBMemory - 1 CoreProcessor - 30GBSSD Disk - 2TBTran
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/digital_ocean.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/digital_ocean.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
