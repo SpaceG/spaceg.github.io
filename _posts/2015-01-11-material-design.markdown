@@ -14,34 +14,34 @@ header-img: "img/lucas-gatsas-04.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google_12113.png" alt="Post Sample Image"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/google_12113.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google1234.png" alt="Post Sample Image"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/google1234.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google3241.png" alt="Post Sample Image"  style="width:100%">
-</a>
-
-
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/google7.png" alt="Post Sample Image"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/google3241.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
 
 
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/google22.png" alt="Post Sample Image"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/google7.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/google22.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
