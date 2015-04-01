@@ -35,7 +35,7 @@ Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://b
 Run Awesome Commandlines! 
 
 <a href="#">
-    <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%">
+    <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
