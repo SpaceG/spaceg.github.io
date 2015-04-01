@@ -49,12 +49,17 @@ $('.navbar-collapse ul li a').click(function() {
     <meta name="description" content="{{ site.description }}">
     <link rel="shortcut icon" href="https://spaceg.github.io/img/favicon-7326478236.png" type="image/x-icon" />
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- Property Metas --> 
     <meta property="og:image" content="{{ site.baseurl }}/img/fbmeta324123534t234qt.png"/>
     <meta property="og:title" content="{{ site.description }}"/>
     <meta property="og:site_name" content="{{ site.description }}"/>
+    <!-- Canonical -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- StyleSheet -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/spacegstylesheets.css" | prepend: site.baseurl }}">
+    <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
