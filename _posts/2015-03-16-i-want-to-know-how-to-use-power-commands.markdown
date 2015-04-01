@@ -123,7 +123,7 @@ padding-left: 5px;
 <code>/Applications/Utilities/</code>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/install-command-line-tools-os-x.jpg" alt="Lucas Gatsas" style="width:100%">
 </a>
 <br> <br>
 
@@ -134,7 +134,7 @@ padding-left: 5px;
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Post Sample Image" style="max-width:100%">
+    <img src="{{ site.baseurl }}/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Lucas Gatsas" style="max-width:100%">
 </a>
 
 
@@ -147,7 +147,7 @@ choose to confirm this by clicking “Install”, then agree to the Terms of Ser
 
 <br><br>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/downloading-command-line-tools-1.jpg" alt="Post Sample Image" style="max-width:100%">
+    <img src="{{ site.baseurl }}/img/downloading-command-line-tools-1.jpg" alt="Lucas Gatsas" style="max-width:100%">
 </a>
 
 
