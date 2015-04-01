@@ -31,7 +31,7 @@ Optimists look defeats and failures as something Temporarily, as a short-term se
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Louis_de_Silvestre,_Personifikation_der_Fama,_Figur_1.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Louis_de_Silvestre,_Personifikation_der_Fama,_Figur_1.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
@@ -77,12 +77,12 @@ Through their conviction to always improve something, keep them longer by giving
 <h2 class="section-heading"><strong>Recording Brain activity of "Optimism" Regions.</strong></h2>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/rostalanteriorcingulatecortex.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/rostalanteriorcingulatecortex.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ARCHIV_1409590708834648.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/ARCHIV_1409590708834648.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
