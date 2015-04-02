@@ -25,6 +25,10 @@ Update Post soon!
 </a>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/raspberry_pi_mechanicalspecB_.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/lab1.jpg" style="width:100%" alt="Lucas Gatsas">
