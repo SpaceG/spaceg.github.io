@@ -25,13 +25,13 @@ Download: Xcode - @ Apple Developer!
 Then install it ! :) 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/xcode-kkk5.png" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/xcode-kkk5.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/xcode-kkk2.png" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/xcode-kkk2.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
