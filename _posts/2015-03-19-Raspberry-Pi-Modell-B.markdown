@@ -41,9 +41,10 @@ Update Post soon!
 </a>
 
 
+Shema Raspberry / Linux 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/lab3.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/bbcm_27.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
