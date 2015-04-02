@@ -18,13 +18,13 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bash1.png" alt="Lucas Gatsas" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/bash1.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://bashawesome.github.io/)
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bash2.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash2.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 <!--
@@ -35,7 +35,7 @@ Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://b
 Run Awesome Commandlines! 
 
 <a href="#">
-    <img src="https://bashawesome.github.io/assets/media/terminal.png" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+    <img src="https://bashawesome.github.io/assets/media/terminal.png"  style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
