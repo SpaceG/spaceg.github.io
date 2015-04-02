@@ -42,6 +42,12 @@ Update Post soon!
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lab3.jpg" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
 <blockquote>
 	
 </blockquote>
