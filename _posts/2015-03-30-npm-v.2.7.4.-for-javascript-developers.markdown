@@ -54,7 +54,7 @@ Test: Run <code> npm -v. </code> The version should be higher than <code> 2.1.8.
       </table>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/npm2.png" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/npm2.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
