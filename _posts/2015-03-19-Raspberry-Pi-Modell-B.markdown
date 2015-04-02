@@ -26,6 +26,20 @@ Update Post soon!
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lab1.jpg" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lab2.jpg" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lab3.jpg" alt="Post Sample Image" style="width:100%" alt="Lucas Gatsas">
+</a>
+
 
 
 <blockquote>
