@@ -46,6 +46,60 @@ header-img: "img/Quadrat-Kubus.png"
         </tbody>
       </table>
 
+<table class="table">
+        <thead>
+          <tr>
+            <th>Value</th>
+            <th id="fadeout-1">Mean</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <code> IE=5 </code></td>
+            <td id="fadeout-1">Der Code der Seite wird wie durch den Quirks-Modus von Internet Explorer 7 angezeigt </td>
+          </tr>
+          <tr>
+            <td><code>IE=7</code></td>
+            <td id="fadeout-1">Der Code der Seite wird wie durch den Standards-Modus von Internet Explorer 7 angezeigt, ohne Berücksichtigung der/einer DOCTYPE-Angabe</td>
+          </tr>
+          <tr>
+            <td><code>IE=EmulateIE7</code></td>
+            <td id="fadeout-1">Der Code der Seite wird wie von Internet Explorer 7 angezeigt, jedoch Berücksichtigung der/einer DOCTYPE-Angabe (der standardkonforme Modus wird wie vom IE7 angezeigt und der quirks-mode, wie vom IE 5)</td>
+          </tr>
+               <tr>
+            <td><code>IE=EmulateIE8</code></td>
+            <td id="fadeout-1">Enthält der Webseite eine standardkonforme DOCTYPE-Angabe, wird sie im „IE8“ Modus, anderseits im Quirks-Modus (IE5-Modus) dargestellt</td>
+          </tr>
+                        <tr>
+            <td><code>IE=8</code></td>
+            <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
+          </tr>
+                       <tr>
+            <td><code>IE=edge</code></td>
+            <td id="fadeout-1">Mit diesem Modus wird der Internet Explorer (8) angewiesen, den höchsten zur Verfügung stehenden Modus zu verwenden. Dieser Modus wird nur für Tests empfohlen.</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
+
+<code>
+
+<html>
+   <head>
+      <title>Website-Titel</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=8" />
+   </head>
+   <body>
+      <h1>Titel</h1>
+      <p>#seiteninhalt.</p>
+   </body>
+</html>
+
+</code>
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
