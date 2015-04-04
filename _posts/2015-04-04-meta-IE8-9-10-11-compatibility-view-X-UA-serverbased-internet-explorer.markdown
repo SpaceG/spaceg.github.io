@@ -86,15 +86,11 @@ header-img: "img/Quadrat-Kubus.png"
 
 For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+      
+
+      <code> < meta http-equiv="X-UA-Compatible" content="IE=8" /> </code>
 
 
-      <title>Website-Titel</title>
-      <meta http-equiv="X-UA-Compatible" content="IE=8" />
-
-
-</pre></pre></div>
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
