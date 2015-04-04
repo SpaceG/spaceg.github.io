@@ -42,7 +42,7 @@ The content attribute can be one or more of the following values:
           </tr>
           <tr>
             <td><code>IE=EmulateIE7</code></td>
-            <td id="fadeout-1">Der Code der Seite wird wie von Internet Explorer 7 angezeigt, jedoch Berücksichtigung der/einer DOCTYPE-Angabe (der standardkonforme Modus wird wie vom IE7 angezeigt und der quirks-mode, wie vom IE 5)</td>
+            <td id="fadeout-1">The code of the page is displayed as Internet Explorer 7, but considering the / a DOCTYPE statement (standards compliant mode as indicated by IE7 and quirks-mode, as the IE 5)</td>
           </tr>
                <tr>
             <td><code>IE=EmulateIE8</code></td>
