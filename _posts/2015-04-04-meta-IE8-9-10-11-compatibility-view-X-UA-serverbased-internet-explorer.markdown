@@ -37,7 +37,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 } else {
 
 
-</code>
+
 
 // Internet Explorer 5-7
 
@@ -55,6 +55,8 @@ IE = 5; //setzt sozusagen den Quirks-Modus
    }
 }
 
+
+</code>
 
 
 
