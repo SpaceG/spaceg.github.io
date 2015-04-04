@@ -23,6 +23,9 @@ header-img: "img/images-cms-image-004442450.jpg"
 <code>
 
 
+</code>
+
+
 <blockquote>
 	"get $bash unix shell awesome"
 </blockquote>
