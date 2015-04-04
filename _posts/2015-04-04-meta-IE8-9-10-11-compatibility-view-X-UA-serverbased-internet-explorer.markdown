@@ -23,16 +23,26 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 <code>
+
 var IE = null;
 if (window.navigator.appName == "Microsoft Internet Explorer") {
+
    if (document.documentMode) {  
+
       // Internet Exploter 8
+
       IE = document.documentMode; // documentMode = 8
+
    } else {
+
       // Internet Explorer 5-7
+
       IE = 5; //setzt sozusagen den Quirks-Modus
+
       if (document.compatMode) {
+
          if (document.compatMode == "CSS1Compat")
+         
             IE = 7; // IE7 Modus
          }
      }
