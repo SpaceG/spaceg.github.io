@@ -88,7 +88,7 @@ For individual websites a corresponding meta element can be recorded in the head
 
       
 
-      <code> meta http-equiv="X-UA-Compatible" content="IE=8" /> </code>
+      <code> meta http-equiv="X-UA-Compatible" content="IE=8" </code>
 
 
 
