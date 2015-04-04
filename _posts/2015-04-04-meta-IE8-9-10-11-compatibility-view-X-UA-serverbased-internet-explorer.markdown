@@ -11,7 +11,7 @@ header-img: "img/Quadrat-Kubus.png"
 <h2 class="section-heading">Add X-UA Compatibility Mode</h2>
 
 
-META tags for Document Compatibility
+<strong>META tags for Document Compatibility</strong>
 
 For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
 
@@ -96,7 +96,28 @@ The content attribute can be one or more of the following values:
 
 
 -->
+<strong>HTTP-Header</strong>
 
+With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
+For the Apache Web server, the custom header should look like this:
+
+<code>X-UA-Compatible: IE=EmulateIE7 </code>
+
+This header 8 would cause Internet Explorer to the website to make the way the Internet Explorer 7 it would be.
+For Apache 2.2, you can also use the headers_module. This one should make sure that the headers_module is loaded:
+
+<code>LoadModule headers_module modules/mod_headers.so</code>
+
+Then you can see the line:
+
+<code>Header set X-UA-Compatible "IE=EmulateIE7"</code>
+
+paste the <code>httpd.conf </code> file behind the LoadModule lines. This directive can be also in the various configuration sections
+
+<code> (< Location>, < Directory>,< Files> und < VirtualHost>) </code>
+
+
+Insert the server in order to more precisely control which pages should be displayed in the mode.
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
