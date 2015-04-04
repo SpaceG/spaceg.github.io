@@ -45,7 +45,7 @@ header-img: "img/Quadrat-Kubus.png"
           </tr>
         </tbody>
       </table>
-
+<!--
 <table class="table">
         <thead>
           <tr>
@@ -82,7 +82,7 @@ header-img: "img/Quadrat-Kubus.png"
       </table>
 
 
-
+-->
 
 For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
 
