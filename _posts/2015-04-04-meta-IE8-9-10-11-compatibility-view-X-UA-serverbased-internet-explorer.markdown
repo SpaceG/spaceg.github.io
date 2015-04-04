@@ -25,6 +25,7 @@ header-img: "img/images-cms-image-004442450.jpg"
 <code>
 
 var IE = null;
+
 if (window.navigator.appName == "Microsoft Internet Explorer") {
 
    if (document.documentMode) {  
@@ -42,7 +43,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
       if (document.compatMode) {
 
          if (document.compatMode == "CSS1Compat")
-         
+
             IE = 7; // IE7 Modus
          }
      }
