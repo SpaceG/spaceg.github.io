@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Get $bash Unix Shell Awesome v.0.0.1"
+title:      "Add X-UA Compatible"
 subtitle:   "The Commandline and Git toolkit."
 date:       2015-04-04 14:00:44
 author:     "Lucas Gatsas"
