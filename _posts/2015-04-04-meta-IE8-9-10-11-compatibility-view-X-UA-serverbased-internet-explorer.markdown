@@ -20,7 +20,7 @@ header-img: "img/images-cms-image-004442450.jpg"
         </thead>
         <tbody>
           <tr>
-            <td> <strong> <a href="https://docs.npmjs.com/misc/developers"> npmjs.com</a> </strong></td>
+            <td> <strong>  IE=5 </strong></td>
             <td id="fadeout-1">Download it @ npmjs.com </td>
           </tr>
           <tr>
