@@ -19,7 +19,7 @@ header-img: "img/images-cms-image-004442450.jpg"
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
 
 
-<code>documentMode</code>
+
 
 <br>
 <div style="overflow:auto; height=200; width=100%;">
