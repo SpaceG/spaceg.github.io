@@ -39,6 +39,10 @@ header-img: "img/images-cms-image-004442450.jpg"
             <td><code>IE=8</code></td>
             <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
           </tr>
+                       <tr>
+            <td><code>IE=8</code></td>
+            <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
+          </tr>
         </tbody>
       </table>
 
