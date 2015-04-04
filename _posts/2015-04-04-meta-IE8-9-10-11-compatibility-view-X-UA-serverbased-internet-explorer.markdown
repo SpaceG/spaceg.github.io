@@ -16,7 +16,7 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
-<h2 class="section-heading"></h2>
+<h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
 
 
 
