@@ -22,7 +22,7 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 
-
+<code>
 
 var IE = null;
 
@@ -36,6 +36,8 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 } else {
 
+
+</code>
 
 // Internet Explorer 5-7
 
