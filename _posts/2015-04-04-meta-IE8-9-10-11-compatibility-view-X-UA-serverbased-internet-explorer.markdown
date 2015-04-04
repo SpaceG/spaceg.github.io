@@ -34,7 +34,7 @@ The content attribute can be one or more of the following values:
         <tbody>
           <tr>
             <td> <code> IE=5 </code></td>
-            <td id="fadeout-1">Der Code der Seite wird wie durch den Quirks-Modus von Internet Explorer 7 angezeigt </td>
+            <td id="fadeout-1">The code of the page as indicated by the quirks mode in Internet Explorer 7 </td>
           </tr>
           <tr>
             <td><code>IE=7</code></td>
