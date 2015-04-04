@@ -14,8 +14,8 @@ header-img: "img/images-cms-image-004442450.jpg"
 <table class="table">
         <thead>
           <tr>
-            <th>value</th>
-            <th id="fadeout-1">Source</th>
+            <th>Value</th>
+            <th id="fadeout-1">Mean</th>
           </tr>
         </thead>
         <tbody>
