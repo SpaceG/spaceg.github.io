@@ -24,8 +24,8 @@ header-img: "img/images-cms-image-004442450.jpg"
             <td id="fadeout-1">Der Code der Seite wird wie durch den Quirks-Modus von Internet Explorer 7 angezeigt </td>
           </tr>
           <tr>
-            <td><code>$ npm -v</code></td>
-            <td id="fadeout-1">Run Terminal and type npm -v</td>
+            <td><code>IE=7</code></td>
+            <td id="fadeout-1">Der Code der Seite wird wie durch den Standards-Modus von Internet Explorer 7 angezeigt, ohne Berücksichtigung der/einer DOCTYPE-Angabe</td>
           </tr>
           <tr>
             <td><code>$ [sudo] npm install npm -g</code></td>
