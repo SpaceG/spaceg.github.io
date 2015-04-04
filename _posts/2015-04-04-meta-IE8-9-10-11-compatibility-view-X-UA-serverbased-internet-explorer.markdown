@@ -11,7 +11,28 @@ header-img: "img/images-cms-image-004442450.jpg"
 <h2 class="section-heading">Add X-UA Compatibility Mode</h2>
 
 
-This is very strange he! 
+<table class="table">
+        <thead>
+          <tr>
+            <th>Download</th>
+            <th id="fadeout-1">Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <strong> <a href="https://docs.npmjs.com/misc/developers"> npmjs.com</a> </strong></td>
+            <td id="fadeout-1">Download it @ npmjs.com </td>
+          </tr>
+          <tr>
+            <td><code>$ npm -v</code></td>
+            <td id="fadeout-1">Run Terminal and type npm -v</td>
+          </tr>
+          <tr>
+            <td><code>$ [sudo] npm install npm -g</code></td>
+            <td id="fadeout-1">To upgrade, run: [sudo] npm install npm -g</td>
+          </tr>
+        </tbody>
+      </table>
 
 
 
