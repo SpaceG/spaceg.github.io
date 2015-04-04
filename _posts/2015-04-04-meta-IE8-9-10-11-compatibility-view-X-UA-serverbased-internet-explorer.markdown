@@ -29,7 +29,7 @@ header-img: "img/images-cms-image-004442450.jpg"
           </tr>
           <tr>
             <td><code>IE=EmulateIE7</code></td>
-            <td id="fadeout-1">To upgrade, run: [sudo] npm install npm -g</td>
+            <td id="fadeout-1">Der Code der Seite wird wie von Internet Explorer 7 angezeigt, jedoch Berücksichtigung der/einer DOCTYPE-Angabe (der standardkonforme Modus wird wie vom IE7 angezeigt und der quirks-mode, wie vom IE 5)</td>
           </tr>
         </tbody>
       </table>
