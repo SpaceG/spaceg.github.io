@@ -11,7 +11,7 @@ header-img: "img/images-cms-image-004442450.jpg"
 <h2 class="section-heading">Add X-UA Compatibility Mode</h2>
 
 
-
+This is very strange he! 
 
 
 
