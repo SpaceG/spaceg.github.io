@@ -87,5 +87,5 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 </pre></pre></div>
 
 <blockquote>
-	"For every Developer is Internet Explorer the badest Explorer of all the Time.! - Word -"
+	"For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -"
 </blockquote>
