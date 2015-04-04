@@ -21,7 +21,7 @@ header-img: "img/images-cms-image-004442450.jpg"
         <tbody>
           <tr>
             <td> <strong>  IE=5 </strong></td>
-            <td id="fadeout-1">Download it @ npmjs.com </td>
+            <td id="fadeout-1">Der Code der Seite wird wie durch den Quirks-Modus von Internet Explorer 7 angezeigt </td>
           </tr>
           <tr>
             <td><code>$ npm -v</code></td>
