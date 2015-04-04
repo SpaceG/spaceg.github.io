@@ -18,45 +18,36 @@ header-img: "img/images-cms-image-004442450.jpg"
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
 
-
-
-
-
-<code>
-
 var IE = null;
 
 if (window.navigator.appName == "Microsoft Internet Explorer") {
-			
-			if (document.documentMode) {  
+	
+	if (document.documentMode) {
 
-	// Internet Exploter 8
+		// Internet Explorer 8
 
-     IE = document.documentMode; // documentMode = 8
+		IE = document.documentMode; // documentMode = 8
 
-} else {
-
-
+		} else {
 
 
-// Internet Explorer 5-7
+			// Internet Explorer 5-7
 
-IE = 5; //setzt sozusagen den Quirks-Modus
+				IE = 5; //setzt the Quirks-Modus
 
-      if (document.compatMode) {
+					if (document.compatMode) {
+	
+			if (document.compatMode == "CSS1Compat")
 
-         if (document.compatMode == "CSS1Compat")
 
-            IE = 7; // IE7 Modus
-        
-         }
-     }
+			IE = 7; IE7 Modus
 
-   }
+			}
+		}
+	}
 }
 
 
-</code>
 
 
 
