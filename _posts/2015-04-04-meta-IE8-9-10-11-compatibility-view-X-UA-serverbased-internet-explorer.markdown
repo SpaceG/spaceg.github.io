@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Add X-UA Compatible"
-subtitle:   "The Commandline and Git toolkit."
+subtitle:   "Compatibility View - Internet Explorer - Server Based"
 date:       2015-04-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/images-cms-image-004442450.jpg"
