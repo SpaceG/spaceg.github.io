@@ -41,7 +41,7 @@ header-img: "img/images-cms-image-004442450.jpg"
           </tr>
                        <tr>
             <td><code>IE=edge</code></td>
-            <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
+            <td id="fadeout-1">Mit diesem Modus wird der Internet Explorer (8) angewiesen, den höchsten zur Verfügung stehenden Modus zu verwenden. Dieser Modus wird nur für Tests empfohlen.</td>
           </tr>
         </tbody>
       </table>
