@@ -20,11 +20,6 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 
-
-
-<br>
-
-<br>
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
@@ -57,12 +52,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 	}
 }
 </pre></pre></div>
-
-
-
-
-document mode 
-
 
 <blockquote>
 	"get $bash unix shell awesome"
