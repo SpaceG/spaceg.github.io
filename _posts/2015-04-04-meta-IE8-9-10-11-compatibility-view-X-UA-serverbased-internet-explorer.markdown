@@ -50,9 +50,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 }
 
 
-
-
-
 <blockquote>
 	"get $bash unix shell awesome"
 </blockquote>
