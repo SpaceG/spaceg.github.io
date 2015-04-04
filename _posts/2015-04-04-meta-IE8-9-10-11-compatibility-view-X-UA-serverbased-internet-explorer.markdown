@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Add X-UA Compatible"
-subtitle:   "Compatibility View - Internet Explorer - Server Based"
+subtitle:   "Compatibility View - Internet Explorer - per Policy - Server Based"
 date:       2015-04-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/images-cms-image-004442450.jpg"
