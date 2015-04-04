@@ -89,16 +89,10 @@ For individual websites a corresponding meta element can be recorded in the head
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-<html>
-   <head>
+
       <title>Website-Titel</title>
       <meta http-equiv="X-UA-Compatible" content="IE=8" />
-   </head>
-   <body>
-      <h1>Titel</h1>
-      <p>#seiteninhalt.</p>
-   </body>
-</html>
+
 
 </pre></pre></div>
 
