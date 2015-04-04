@@ -31,6 +31,14 @@ header-img: "img/images-cms-image-004442450.jpg"
             <td><code>IE=EmulateIE7</code></td>
             <td id="fadeout-1">Der Code der Seite wird wie von Internet Explorer 7 angezeigt, jedoch Berücksichtigung der/einer DOCTYPE-Angabe (der standardkonforme Modus wird wie vom IE7 angezeigt und der quirks-mode, wie vom IE 5)</td>
           </tr>
+               <tr>
+            <td><code>IE=EmulateIE8</code></td>
+            <td id="fadeout-1">Enthält der Webseite eine standardkonforme DOCTYPE-Angabe, wird sie im „IE8“ Modus, anderseits im Quirks-Modus (IE5-Modus) dargestellt</td>
+          </tr>
+                        <tr>
+            <td><code>IE=8</code></td>
+            <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
+          </tr>
         </tbody>
       </table>
 
