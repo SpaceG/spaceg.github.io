@@ -36,7 +36,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
      }
    }
 }
-
 </code>
 
 
