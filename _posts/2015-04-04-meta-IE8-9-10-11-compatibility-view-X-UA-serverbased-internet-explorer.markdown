@@ -46,15 +46,15 @@ The content attribute can be one or more of the following values:
           </tr>
                <tr>
             <td><code>IE=EmulateIE8</code></td>
-            <td id="fadeout-1">Enthält der Webseite eine standardkonforme DOCTYPE-Angabe, wird sie im „IE8“ Modus, anderseits im Quirks-Modus (IE5-Modus) dargestellt</td>
+            <td id="fadeout-1">The website contains a standards-compliant DOCTYPE statement, it is in the "IE8" mode, on the other hand, in quirks mode (IE5 mode) shown</td>
           </tr>
                         <tr>
             <td><code>IE=8</code></td>
-            <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
+            <td id="fadeout-1">The IE8- or IE8 standards mode. Note: This is the default setting for Internet Explorer 8!</td>
           </tr>
                        <tr>
             <td><code>IE=edge</code></td>
-            <td id="fadeout-1">Mit diesem Modus wird der Internet Explorer (8) angewiesen, den höchsten zur Verfügung stehenden Modus zu verwenden. Dieser Modus wird nur für Tests empfohlen.</td>
+            <td id="fadeout-1">With this mode, the Internet Explorer (8) is instructed to use the maximum available mode. This mode is only recommended for testing.</td>
           </tr>
         </tbody>
       </table>
