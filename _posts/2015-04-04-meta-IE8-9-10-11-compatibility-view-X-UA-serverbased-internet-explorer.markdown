@@ -11,6 +11,19 @@ header-img: "img/Quadrat-Kubus.png"
 <h2 class="section-heading">Add X-UA Compatibility Mode</h2>
 
 
+
+
+For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
+
+      
+
+<code> < meta http-equiv="X-UA-Compatible" content="IE=8" /> </code>
+
+The Internet Explorer 8 accepts the special value for the http-equiv attribute: X-UA-Compatible (uppercase and lowercase does not matter).
+The content attribute can be one or more of the following values:
+
+
+
 <table class="table">
         <thead>
           <tr>
@@ -83,14 +96,6 @@ header-img: "img/Quadrat-Kubus.png"
 
 
 -->
-
-For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
-
-      
-
-    < meta http-equiv="X-UA-Compatible" content="IE=8" />
-
-
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
