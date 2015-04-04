@@ -158,6 +158,11 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 }
 </pre></pre></div>
 
+
+
+<strong>Warning:</strong> The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to vozubeugen problems later.
+
+
 <blockquote>
 	"For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -"
 </blockquote>
