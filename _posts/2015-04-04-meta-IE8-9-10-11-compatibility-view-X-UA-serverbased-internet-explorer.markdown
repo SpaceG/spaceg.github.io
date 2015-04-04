@@ -7,7 +7,15 @@ author:     "Lucas Gatsas"
 header-img: "img/images-cms-image-004442450.jpg"
 ---
 
-<h2 class="section-heading"><strong> Front End Development</strong> </h2>
+<h2 class="section-heading"><strong> Front-End Development</strong> </h2>
+<h2 class="section-heading">Add X-UA Compatible</h2>
+
+
+
+
+
+
+<h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading">Add X-UA Compatible</h2>
 
 
