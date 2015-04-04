@@ -87,5 +87,5 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 </pre></pre></div>
 
 <blockquote>
-	"get $bash unix shell awesome"
+	"For every Developer is Internet Explorer the badest Explorer of all the Time.! - Word -"
 </blockquote>
