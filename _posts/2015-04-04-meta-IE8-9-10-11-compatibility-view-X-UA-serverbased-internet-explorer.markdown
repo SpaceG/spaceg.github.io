@@ -58,44 +58,7 @@ The content attribute can be one or more of the following values:
           </tr>
         </tbody>
       </table>
-<!--
-<table class="table">
-        <thead>
-          <tr>
-            <th>Value</th>
-            <th id="fadeout-1">Mean</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td> <code> IE=5 </code></td>
-            <td id="fadeout-1">Der Code der Seite wird wie durch den Quirks-Modus von Internet Explorer 7 angezeigt </td>
-          </tr>
-          <tr>
-            <td><code>IE=7</code></td>
-            <td id="fadeout-1">Der Code der Seite wird wie durch den Standards-Modus von Internet Explorer 7 angezeigt, ohne Berücksichtigung der/einer DOCTYPE-Angabe</td>
-          </tr>
-          <tr>
-            <td><code>IE=EmulateIE7</code></td>
-            <td id="fadeout-1">Der Code der Seite wird wie von Internet Explorer 7 angezeigt, jedoch Berücksichtigung der/einer DOCTYPE-Angabe (der standardkonforme Modus wird wie vom IE7 angezeigt und der quirks-mode, wie vom IE 5)</td>
-          </tr>
-               <tr>
-            <td><code>IE=EmulateIE8</code></td>
-            <td id="fadeout-1">Enthält der Webseite eine standardkonforme DOCTYPE-Angabe, wird sie im „IE8“ Modus, anderseits im Quirks-Modus (IE5-Modus) dargestellt</td>
-          </tr>
-                        <tr>
-            <td><code>IE=8</code></td>
-            <td id="fadeout-1">Der IE8– oder IE8-Standards-Modus. Achtung:dies ist die Standardeinstellung für den Internet Explorer 8![1][2][3]</td>
-          </tr>
-                       <tr>
-            <td><code>IE=edge</code></td>
-            <td id="fadeout-1">Mit diesem Modus wird der Internet Explorer (8) angewiesen, den höchsten zur Verfügung stehenden Modus zu verwenden. Dieser Modus wird nur für Tests empfohlen.</td>
-          </tr>
-        </tbody>
-      </table>
 
-
--->
 <strong>HTTP-Header</strong>
 
 With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
