@@ -126,6 +126,11 @@ Quirks mode (otherwise)</td>
             <td id="fadeout-1">IE10 mode (if a valid <!DOCTYPE> declaration is present)
 Quirks mode (otherwise)</td>
           </tr>
+                                      <tr>
+            <td><code>IE=EmulateIE11</code></td>
+            <td id="fadeout-1">IE11 mode (if a valid <!DOCTYPE> declaration is present)
+Quirks mode (otherwise)</td>
+          </tr>
         </tbody>
       </table>
 
