@@ -68,6 +68,9 @@ Of course, it may also be necessary for programmers and application / server ope
 Here, too, there are two options (in order of priority):
 
 
+<strong> “Per Page” </strong>
+
+
 
 <strong>HTTP-Header</strong>
 
