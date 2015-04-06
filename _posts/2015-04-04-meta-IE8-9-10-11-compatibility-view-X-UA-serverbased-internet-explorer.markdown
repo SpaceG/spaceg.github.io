@@ -73,6 +73,8 @@ Here, too, there are two options (in order of priority):
 
 The "Per Page" setting has the highest priority. The meta tag entry must come first within the header tags.
 
+The following options are available:
+
 
 
 <strong>HTTP-Header</strong>
