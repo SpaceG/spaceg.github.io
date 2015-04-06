@@ -20,7 +20,6 @@
   top: 60%;
   margin-top: -305px;
 }
-
 @media (max-width: 768px) {
 .footer-block, .hero-block {
   height: 390px;
@@ -32,7 +31,6 @@
 }
 }
 @media (min-width: 768px) {
-
 img#small-img-nav {
 	display:none;
   margin-bottom: 40px;
