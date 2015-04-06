@@ -75,6 +75,8 @@ The "Per Page" setting has the highest priority. The meta tag entry must come fi
 
 The following options are available:
 
+1. <code> < meta http-equiv="X-UA-Compatible" content="IE=5"/> </code> 
+
 
 
 <strong>HTTP-Header</strong>
