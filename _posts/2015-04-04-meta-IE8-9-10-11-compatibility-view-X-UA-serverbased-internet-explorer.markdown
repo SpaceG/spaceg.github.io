@@ -23,7 +23,6 @@ The Internet Explorer 8 accepts the special value for the http-equiv attribute: 
 The content attribute can be one or more of the following values:
 
 
-
 <table class="table">
         <thead>
           <tr>
@@ -58,6 +57,10 @@ The content attribute can be one or more of the following values:
           </tr>
         </tbody>
       </table>
+
+
+
+<strong> Programmatic Configuration
 
 <strong>HTTP-Header</strong>
 
