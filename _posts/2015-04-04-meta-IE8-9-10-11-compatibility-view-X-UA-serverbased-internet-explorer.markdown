@@ -79,6 +79,8 @@ The following options are available:
 
 This is the only way to IE8 all pages in sog "Quirks Mode" to be represented. The information about the <meta ...> tag has the highest priority. Even if a !DOCTYPE is specified, it is ignored.
 
+2. <code> < meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>  </code>
+
 <strong>HTTP-Header</strong>
 
 With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
