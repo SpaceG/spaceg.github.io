@@ -63,7 +63,7 @@ The content attribute can be one or more of the following values:
 <strong> Programmatic Configuration </strong>
 
 
-
+Of course, it may also be necessary for programmers and application / server operators to specify these settings for their site / application.
 
 
 
