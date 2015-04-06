@@ -107,8 +107,9 @@ The content attribute can be one or more of the following values:
             <td id="fadeout-1">The highest supported document mode of the browser</td>
           </tr>
                                      <tr>
-            <td><code>IE=edge</code></td>
-            <td id="fadeout-1">The highest supported document mode of the browser</td>
+            <td><code>IE=EmulateIE7</code></td>
+            <td id="fadeout-1">IE7 mode (if a valid <!DOCTYPE> declaration is present)
+Quirks mode (otherwise)</td>
           </tr>
         </tbody>
       </table>
