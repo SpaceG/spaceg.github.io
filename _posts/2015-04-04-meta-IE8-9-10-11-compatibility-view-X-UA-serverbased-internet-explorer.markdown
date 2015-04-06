@@ -77,7 +77,7 @@ The following options are available:
 
 1. <code> < meta http-equiv="X-UA-Compatible" content="IE=5"/> </code> 
 
-
+This is the only way to IE8 all pages in sog "Quirks Mode" to be represented.
 
 <strong>HTTP-Header</strong>
 
