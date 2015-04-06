@@ -89,6 +89,10 @@ The page is always displayed in "IE7 Standards mode", even if no "DOCTYPE" is pr
 
 (4). <code> < meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/> </code>
 
+If a valid DOCTYPE exists. the page is in "IE8 standards mode" shown.
+
+(5). <code> < meta http-equiv="X-UA-Compatible" content="IE=8"/> </code>
+
 
 
 <strong>HTTP-Header</strong>
