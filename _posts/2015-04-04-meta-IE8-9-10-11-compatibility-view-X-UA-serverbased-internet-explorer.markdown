@@ -102,6 +102,14 @@ The content attribute can be one or more of the following values:
             <td><code>IE=11</code></td>
             <td id="fadeout-1">IE11 mode</td>
           </tr>
+                                 <tr>
+            <td><code>IE=edge</code></td>
+            <td id="fadeout-1">The highest supported document mode of the browser</td>
+          </tr>
+                                     <tr>
+            <td><code>IE=edge</code></td>
+            <td id="fadeout-1">The highest supported document mode of the browser</td>
+          </tr>
         </tbody>
       </table>
 
