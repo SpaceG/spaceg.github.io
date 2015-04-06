@@ -65,6 +65,8 @@ The content attribute can be one or more of the following values:
 
 Of course, it may also be necessary for programmers and application / server operators to specify these settings for their site / application.
 
+Here, too, there are two options (in order of priority):
+
 
 
 <strong>HTTP-Header</strong>
