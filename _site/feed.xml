@@ -5,8 +5,8 @@
     <description>Hello, my Name is Lucas Gatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Apr 2015 01:00:30 +0200</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2015 01:00:30 +0200</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2015 01:03:48 +0200</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2015 01:03:48 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -58,9 +58,50 @@ The content attribute can be one or more of the following values:&lt;/p&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/IC777593.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Value&lt;/th&gt;
+            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt; &lt;code&gt; X-UA-Compatible value &lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;Document modes &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;IE=5&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;Quirks mode&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;IE=7&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;IE7 mode&lt;/td&gt;
+          &lt;/tr&gt;
+               &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;IE=8&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;IE8 mode&lt;/td&gt;
+          &lt;/tr&gt;
+                        &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;IE=9&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;IE9 mode&lt;/td&gt;
+          &lt;/tr&gt;
+                       &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;IE=10&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;IE10 mode&lt;/td&gt;
+          &lt;/tr&gt;
+                                &lt;tr&gt;
+            &lt;td&gt;&lt;code&gt;IE=11&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;IE10 mode&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
 
 &lt;p&gt;&lt;strong&gt; Programmatic Configuration &lt;/strong&gt;&lt;/p&gt;
 

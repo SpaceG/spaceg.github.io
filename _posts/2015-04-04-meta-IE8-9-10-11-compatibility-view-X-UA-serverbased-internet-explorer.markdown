@@ -59,13 +59,51 @@ The content attribute can be one or more of the following values:
       </table>
 
 
-
+<br>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/IC777593.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
+<table class="table">
+        <thead>
+          <tr>
+            <th>Value</th>
+            <th id="fadeout-1">Mean</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <code> X-UA-Compatible value </code></td>
+            <td id="fadeout-1">Document modes </td>
+          </tr>
+          <tr>
+            <td><code>IE=5</code></td>
+            <td id="fadeout-1">Quirks mode</td>
+          </tr>
+          <tr>
+            <td><code>IE=7</code></td>
+            <td id="fadeout-1">IE7 mode</td>
+          </tr>
+               <tr>
+            <td><code>IE=8</code></td>
+            <td id="fadeout-1">IE8 mode</td>
+          </tr>
+                        <tr>
+            <td><code>IE=9</code></td>
+            <td id="fadeout-1">IE9 mode</td>
+          </tr>
+                       <tr>
+            <td><code>IE=10</code></td>
+            <td id="fadeout-1">IE10 mode</td>
+          </tr>
+                                <tr>
+            <td><code>IE=11</code></td>
+            <td id="fadeout-1">IE10 mode</td>
+          </tr>
+        </tbody>
+      </table>
 
 
 <strong> Programmatic Configuration </strong>
