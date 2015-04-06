@@ -61,6 +61,9 @@ The content attribute can be one or more of the following values:
 
 <br>
 
+<strong>The following diagram shows how Internet Explorer determines the appropriate document mode based on the meta element or HTTP header.</strong>
+ 
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/IC777593.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
