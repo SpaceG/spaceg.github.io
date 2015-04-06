@@ -105,6 +105,19 @@ The page is always displayed in "IE9 Standards mode", even if no "DOCTYPE" is pr
 
 (8). <code> < meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>  </code>
 
+If a valid DOCTYPE exists. the page is in "IE10 standards mode" shown.
+
+(9). <code> < meta http-equiv="X-UA-Compatible" content="IE=10"/> </code>
+
+ The page is always displayed in "IE10 Standards mode", even if no "DOCTYPE" is present
+
+(10). <code> < meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"/> </code>
+
+If a valid DOCTYPE exists. the page is in "IE11 standards mode" shown.
+
+(11). <code> < meta http-equiv="X-UA-Compatible" content="IE=11"/> </code>
+
+ The page is always displayed in "IE11 Standards mode", even if no "DOCTYPE" is present
 
 
 <strong>HTTP-Header</strong>
