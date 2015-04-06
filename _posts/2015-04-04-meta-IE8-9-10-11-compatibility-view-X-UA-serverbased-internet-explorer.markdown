@@ -119,6 +119,9 @@ If a valid DOCTYPE exists. the page is in "IE11 standards mode" shown.
 
  The page is always displayed in "IE11 Standards mode", even if no "DOCTYPE" is present
 
+(12). <code> < meta http-equiv="X-UA-Compatible" content="IE=edge"/> </code>
+
+With this setting, the latest version of the rendering engine is used. It is irrelevant whether a "DOCTYPE" was specified or not.
 
 <strong>HTTP-Header</strong>
 
