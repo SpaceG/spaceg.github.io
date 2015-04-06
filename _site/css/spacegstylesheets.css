@@ -31,6 +31,13 @@
   display:none;
 }
 }
+@media (min-width: 768px) {
+
+img#small-img-nav {
+	display:none;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}}
 .img-circle {
   border-radius: 50%;
 }
