@@ -101,6 +101,10 @@ If a valid DOCTYPE exists. the page is in "IE9 standards mode" shown.
 
 (7). <code> < meta http-equiv="X-UA-Compatible" content="IE=9"/>  </code>
 
+The page is always displayed in "IE9 Standards mode", even if no "DOCTYPE" is present
+
+(8). <code> < meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>  </code>
+
 
 
 <strong>HTTP-Header</strong>
