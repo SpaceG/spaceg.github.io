@@ -214,6 +214,10 @@ In principle, the Web server must also send a header "X-UA-Compatible".
 The value corresponds to the data as in "Per Page", also “5”,”EmulateIE7”,”7”,”EmulateIE8”,”8”, “EmulateIE9”, “9” , “EmulateIE10”, “10” , “EmulateIE11", “11” and “edge”. 
 
 
+If using IIS using web.config <a href="https://msdn.microsoft.com/en-us/library/cc817572.aspx">http://msdn.microsoft.com/en-us/library/cc817572.aspx </a>
+
+
+
 
 
 
