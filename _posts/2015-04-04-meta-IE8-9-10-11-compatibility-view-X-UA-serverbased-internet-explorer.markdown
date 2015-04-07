@@ -230,7 +230,7 @@ If using IIS using web.config <a href="https://msdn.microsoft.com/en-us/library/
 
 When using an Apache: <a href="https://msdn.microsoft.com/en-us/library/cc817573.aspx">https://msdn.microsoft.com/en-us/library/cc817573.aspx </a>
 
-
+VGL: <a href="http://msdn.microsoft.com/library/cc817574.aspx">http://msdn.microsoft.com/library/cc817574.aspx </a> 
 
 
 <strong>HTTP-Header</strong>
