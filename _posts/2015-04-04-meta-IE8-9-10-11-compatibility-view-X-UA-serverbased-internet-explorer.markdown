@@ -216,7 +216,7 @@ The value corresponds to the data as in "Per Page", also “5”,”EmulateIE7�
 
 If using IIS using web.config <a href="https://msdn.microsoft.com/en-us/library/cc817572.aspx">http://msdn.microsoft.com/en-us/library/cc817572.aspx </a>
 
-
+When using an Apache: <a href="https://msdn.microsoft.com/en-us/library/cc817573.aspx">https://msdn.microsoft.com/en-us/library/cc817573.aspx </a>
 
 
 
