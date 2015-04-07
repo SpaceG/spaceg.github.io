@@ -5,8 +5,8 @@
     <description>Hello, my Name is Lucas Gatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Apr 2015 01:21:23 +0200</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2015 01:21:23 +0200</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2015 04:04:18 +0200</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2015 04:04:18 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -731,10 +731,13 @@ youradminusername ALL=(ALL) ALL
 
 &lt;p&gt;(2.) Afterwards, perform the commands shown in the terminal window. If you wish to use a path other than &lt;code&gt;/opt/local&lt;/code&gt;, follow the instructions for installing multiple copies of MacPorts instead.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;$ cd MacPorts-2.3.1/&lt;/code&gt; 
-&lt;code&gt;$ ./configure&lt;/code&gt; 
-&lt;code&gt;$ make&lt;/code&gt; 
-&lt;code&gt;$ sudo make install&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ cd MacPorts-2.3.1/&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ ./configure&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ make&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ sudo make install&lt;/code&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY&quot;&gt;GO SEE MacPorts-2.3.3 INSTALL VIDEO&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
 
