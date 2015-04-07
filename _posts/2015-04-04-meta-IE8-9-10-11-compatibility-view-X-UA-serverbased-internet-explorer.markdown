@@ -206,6 +206,12 @@ With this setting, the latest version of the rendering engine is used. It is irr
 <strong> “Per Site”  </strong> 
 
 
+The "Per Site" setting has higher priority than a "DOCTYPE" indication.
+However, subject to the "Per Page" setting.
+
+
+
+
 
 
 
