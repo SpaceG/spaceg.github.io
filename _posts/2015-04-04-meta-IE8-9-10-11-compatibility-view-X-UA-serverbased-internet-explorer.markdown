@@ -210,7 +210,7 @@ The "Per Site" setting has higher priority than a "DOCTYPE" indication.
 However, subject to the "Per Page" setting.
 
 
-
+In principle, the Web server must also send a header "X-UA-Compatible".
 
 
 
