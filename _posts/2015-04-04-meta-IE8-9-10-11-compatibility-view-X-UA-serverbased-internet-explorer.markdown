@@ -211,6 +211,7 @@ However, subject to the "Per Page" setting.
 
 
 In principle, the Web server must also send a header "X-UA-Compatible".
+The value corresponds to the data as in "Per Page"
 
 
 
