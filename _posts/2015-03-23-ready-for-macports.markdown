@@ -70,8 +70,11 @@ If you installed MacPorts using the package installer, skip this section. To ins
 
 
 <code>$ cd MacPorts-2.3.1/</code> 
+
 <code>$ ./configure</code> 
+
 <code>$ make</code> 
+
 <code>$ sudo make install</code> 
 
 
