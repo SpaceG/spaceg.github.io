@@ -211,7 +211,7 @@ However, subject to the "Per Page" setting.
 
 
 In principle, the Web server must also send a header "X-UA-Compatible".
-The value corresponds to the data as in "Per Page"
+The value corresponds to the data as in "Per Page", also “5”,”EmulateIE7”,”7”,”EmulateIE8”,”8”, “EmulateIE9”, “9” , “EmulateIE10”, “10” , “EmulateIE11", “11” and “edge”. 
 
 
 
