@@ -4,7 +4,7 @@ title:      "Get Xcode without Appstore"
 subtitle:   "Trouble with Appstore or your Apple-iD"
 date:       2015-03-26 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/iphone-6-teardown-1024x768.jpg"
+header-img: "img/RGZaPEyWiMHqfPO4.jpg"
 ---
 <h2 class="section-heading"><strong> The Strange Apple-iD for the Interface Appstore</strong> </h2>
 
