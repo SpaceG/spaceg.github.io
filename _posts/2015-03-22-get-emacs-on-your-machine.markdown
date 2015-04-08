@@ -4,7 +4,7 @@ title:      "emacs"
 subtitle:   "get some food for your development"
 date:       2015-03-22 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/161719496-1.jpg"
+header-img: "img/Berndnaut-Smilde-Installation-View-Antipode-Ronchini-Gallery-11-April-–-14-June-20142-e1411477881645.jpg"
 ---
 <h2 class="section-heading"><strong>emacs</strong> </h2>
 
