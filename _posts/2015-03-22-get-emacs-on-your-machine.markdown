@@ -4,7 +4,7 @@ title:      "emacs"
 subtitle:   "get some food for your development"
 date:       2015-03-22 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/p0198vg4.jpg"
+header-img: "img/161719496-1.jpg"
 ---
 <h2 class="section-heading"><strong>emacs</strong> </h2>
 
