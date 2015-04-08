@@ -4,7 +4,7 @@ title:      "Git Introduction"
 subtitle:   "Download  - Git - Git CommandLines"
 date:       2015-03-20 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/161719496-1.jpg"
+header-img: "img/p0198vg4.jpg"
 ---
 <h2 class="section-heading"><strong>Git CommandLines</strong> </h2>
 
