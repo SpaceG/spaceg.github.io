@@ -1,5 +1,5 @@
 /*!
- Top Stylesheet for my Blog! 
+Top spaceg.stylesheets.css
  spaceg.github.io by Lucas Gatsas. 
 
 /// https://www.twitter.com/LucasGatsas //// 
@@ -10,9 +10,16 @@
 /* New Update Sa. 21. February. 2015 -02:58:16*/
 /* New Update Fr. 27. February. 2015 -21:53:19*/
 /* New Update Mo. 06. April. 2015 -09:16:07*/
+/* New Update Mo. 09. April. 2015 -14:31:47*/
 
 
 
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display:  inline-block;
+    max-width: 100%;
+    height: auto;
+}
 .footer-block, .hero-block {
   height: 390px;
   width: 97%;

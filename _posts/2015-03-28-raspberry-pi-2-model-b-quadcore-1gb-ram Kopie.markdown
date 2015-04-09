@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/Pi2ModB1GB_-comp.jpg"
 ---
 <h2 class="section-heading"><strong> Raspberry Pi 2 Model B</strong> </h2>
-
+Update Post Soon. 
 
 
 <blockquote>
