@@ -11,7 +11,11 @@
 /* New Update Fr. 27. February. 2015 -21:53:19*/
 /* New Update Mo. 06. April. 2015 -09:16:07*/
 
-
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: -moz-box;
+    max-width: 100%;
+    height: auto;
+}
 
 .footer-block, .hero-block {
   height: 390px;
