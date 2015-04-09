@@ -11,7 +11,7 @@ header-img: "img/Quadrat-Kubus.png"
 <h2 class="section-heading">Add X-UA Compatibility Modus - Browser Check IE Microsoft</h2>
 
 
-<strong>META tags for Document Compatibility</strong>
+<strong>Browser Check!</strong>
 
 For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
 
