@@ -24,7 +24,7 @@ header-img: "img/Quadrat-Kubus.png"
         </thead>
         <tbody>
           <tr>
-            <td> <code> IE=5 </code></td>
+            <td> <code> IE=11 </code></td>
             <td id="fadeout-1">The code of the page as indicated by the quirks mode in Internet Explorer 7 </td>
           </tr>
         </tbody>
