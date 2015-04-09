@@ -13,7 +13,7 @@
 /* New Update Mo. 09. April. 2015 -14:31:47*/
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display:  -webkit-inline-box;
+    display:  -moz-box;
     max-width: 100%;
     height: auto;
 }
