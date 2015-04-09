@@ -242,8 +242,8 @@ $('.navbar-collapse ul li a').click(function() {
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-04-04T16:00:44+02:00">
-							<a href="https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/">April 04, 2015</a>
+						<time datetime="2015-04-09T16:00:44+02:00">
+							<a href="https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/">April 09, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -255,8 +255,315 @@ $('.navbar-collapse ul li a').click(function() {
 				</div>
 		
 				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/" rel="bookmark" title="Add X-UA Compatible" itemprop="url">Add X-UA Compatible</a></h1>
-								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/" rel="bookmark" title="Add X-UA Compatible" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/" rel="bookmark" title="Add X-UA Compatible Part II" itemprop="url">Add X-UA Compatible Part II</a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/" rel="bookmark" title="Add X-UA Compatible Part II" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading"><strong> Front-End Development</strong> </h2>
+<h2 class="section-heading">Add X-UA Compatibility Mode</h2>
+
+<p><strong>META tags for Document Compatibility</strong></p>
+
+<p>For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements</p>
+
+<p><code> &lt; meta http-equiv="X-UA-Compatible" content="IE=8" /&gt; </code></p>
+
+<p>The Internet Explorer 8 accepts the special value for the http-equiv attribute: X-UA-Compatible (uppercase and lowercase does not matter).
+The content attribute can be one or more of the following values:</p>
+
+<table class="table">
+        <thead>
+          <tr>
+            <th>Value</th>
+            <th id="fadeout-1">Mean</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <code> IE=5 </code></td>
+            <td id="fadeout-1">The code of the page as indicated by the quirks mode in Internet Explorer 7 </td>
+          </tr>
+          <tr>
+            <td><code>IE=7</code></td>
+            <td id="fadeout-1">The code of the page as indicated by the standards mode in Internet Explorer 7, excluding the / a DOCTYPE statement</td>
+          </tr>
+          <tr>
+            <td><code>IE=EmulateIE7</code></td>
+            <td id="fadeout-1">The code of the page is displayed as Internet Explorer 7, but considering the / a DOCTYPE statement (standards compliant mode as indicated by IE7 and quirks-mode, as the IE 5)</td>
+          </tr>
+               <tr>
+            <td><code>IE=EmulateIE8</code></td>
+            <td id="fadeout-1">The website contains a standards-compliant DOCTYPE statement, it is in the "IE8" mode, on the other hand, in quirks mode (IE5 mode) shown</td>
+          </tr>
+                        <tr>
+            <td><code>IE=8</code></td>
+            <td id="fadeout-1">The IE8- or IE8 standards mode. Note: This is the default setting for Internet Explorer 8!</td>
+          </tr>
+                       <tr>
+            <td><code>IE=edge</code></td>
+            <td id="fadeout-1">With this mode, the Internet Explorer (8) is instructed to use the maximum available mode. This mode is only recommended for testing.</td>
+          </tr>
+        </tbody>
+      </table>
+
+<p><br /></p>
+
+<p><strong>The following diagram shows how Internet Explorer determines the appropriate document mode based on the meta element or HTTP header.</strong></p>
+
+<p><a href="#">
+    <img src="/img/IC777593.jpg" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<table class="table">
+        <thead>
+          <tr>
+            <th>Value</th>
+            <th id="fadeout-1">Mean</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <code> X-UA-Compatible value </code></td>
+            <td id="fadeout-1">Document modes </td>
+          </tr>
+          <tr>
+            <td><code>IE=5</code></td>
+            <td id="fadeout-1">Quirks mode</td>
+          </tr>
+          <tr>
+            <td><code>IE=7</code></td>
+            <td id="fadeout-1">IE7 mode</td>
+          </tr>
+               <tr>
+            <td><code>IE=8</code></td>
+            <td id="fadeout-1">IE8 mode</td>
+          </tr>
+                        <tr>
+            <td><code>IE=9</code></td>
+            <td id="fadeout-1">IE9 mode</td>
+          </tr>
+                       <tr>
+            <td><code>IE=10</code></td>
+            <td id="fadeout-1">IE10 mode</td>
+          </tr>
+                                <tr>
+            <td><code>IE=11</code></td>
+            <td id="fadeout-1">IE11 mode</td>
+          </tr>
+                                 <tr>
+            <td><code>IE=edge</code></td>
+            <td id="fadeout-1">The highest supported document mode of the browser</td>
+          </tr>
+                                     <tr>
+            <td><code>IE=EmulateIE7</code></td>
+            <td id="fadeout-1">IE7 mode (if a valid &lt;!DOCTYPE&gt; declaration is present)
+Quirks mode (otherwise)</td>
+          </tr>
+                                      <tr>
+            <td><code>IE=EmulateIE8</code></td>
+            <td id="fadeout-1">IE8 mode (if a valid &lt;!DOCTYPE&gt; declaration is present)
+Quirks mode (otherwise)</td>
+          </tr>
+                                    <tr>
+            <td><code>IE=EmulateIE9</code></td>
+            <td id="fadeout-1">IE9 mode (if a valid &lt;!DOCTYPE&gt; declaration is present)
+Quirks mode (otherwise)</td>
+          </tr>
+                                     <tr>
+            <td><code>IE=EmulateIE10</code></td>
+            <td id="fadeout-1">IE10 mode (if a valid &lt;!DOCTYPE&gt; declaration is present)
+Quirks mode (otherwise)</td>
+          </tr>
+                                      <tr>
+            <td><code>IE=EmulateIE11</code></td>
+            <td id="fadeout-1">IE11 mode (if a valid &lt;!DOCTYPE&gt; declaration is present)
+Quirks mode (otherwise)</td>
+          </tr>
+        </tbody>
+      </table>
+
+<p><strong> Programmatic Configuration </strong></p>
+
+<p>Of course, it may also be necessary for programmers and application / server operators to specify these settings for their site / application.</p>
+
+<p>Here, too, there are two options (in order of priority):</p>
+
+<p><strong> “Per Page” </strong></p>
+
+<p>The “Per Page” setting has the highest priority. The meta tag entry must come first within the header tags.</p>
+
+<p>The following options are available:</p>
+
+<p>(1). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=5"/&gt; </code> </p>
+
+<p>This is the only way to IE8 all pages in sog “Quirks Mode” to be represented. The information about the &lt;meta …&gt; tag has the highest priority. Even if a !DOCTYPE is specified, it is ignored.</p>
+
+<p>(2). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/&gt;  </code></p>
+
+<p>If a valid DOCTYPE exists. the page is in “IE7 standards mode” shown.</p>
+
+<p>(3). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=7"/&gt; </code></p>
+
+<p>The page is always displayed in “IE7 Standards mode”, even if no “DOCTYPE” is present</p>
+
+<p>(4). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/&gt; </code></p>
+
+<p>If a valid DOCTYPE exists. the page is in “IE8 standards mode” shown.</p>
+
+<p>(5). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=8"/&gt; </code></p>
+
+<p>The page is always displayed in “IE8 Standards mode”, even if no “DOCTYPE” is present</p>
+
+<p>(6). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/&gt;  </code></p>
+
+<p>If a valid DOCTYPE exists. the page is in “IE9 standards mode” shown.</p>
+
+<p>(7). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=9"/&gt;  </code></p>
+
+<p>The page is always displayed in “IE9 Standards mode”, even if no “DOCTYPE” is present</p>
+
+<p>(8). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/&gt;  </code></p>
+
+<p>If a valid DOCTYPE exists. the page is in “IE10 standards mode” shown.</p>
+
+<p>(9). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=10"/&gt; </code></p>
+
+<p>The page is always displayed in “IE10 Standards mode”, even if no “DOCTYPE” is present</p>
+
+<p>(10). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"/&gt; </code></p>
+
+<p>If a valid DOCTYPE exists. the page is in “IE11 standards mode” shown.</p>
+
+<p>(11). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=11"/&gt; </code></p>
+
+<p>The page is always displayed in “IE11 Standards mode”, even if no “DOCTYPE” is present</p>
+
+<p>(12). <code> &lt; meta http-equiv="X-UA-Compatible" content="IE=edge"/&gt; </code></p>
+
+<p>With this setting, the latest version of the rendering engine is used. It is irrelevant whether a “DOCTYPE” was specified or not. The operation can be compared to “IE = 7” and “IE = 8”. </p>
+
+<p><strong> “Per Site”  </strong> </p>
+
+<p>The “Per Site” setting has higher priority than a “DOCTYPE” indication.
+However, subject to the “Per Page” setting.</p>
+
+<p>In principle, the Web server must also send a header “X-UA-Compatible”.
+The value corresponds to the data as in “Per Page”, also “5”</p>
+
+<p>”EmulateIE7”,”7”,</p>
+
+<p>”EmulateIE8”,”8”, </p>
+
+<p>“EmulateIE9”, “9” , </p>
+
+<p>“EmulateIE10”, “10” , </p>
+
+<p>“EmulateIE11”, “11” </p>
+
+<p>and “edge”. </p>
+
+<p>If using IIS using web.config <a href="https://msdn.microsoft.com/en-us/library/cc817572.aspx">http://msdn.microsoft.com/en-us/library/cc817572.aspx </a></p>
+
+<p>When using an Apache: <a href="https://msdn.microsoft.com/en-us/library/cc817573.aspx">https://msdn.microsoft.com/en-us/library/cc817573.aspx </a></p>
+
+<p>VGL: <a href="http://msdn.microsoft.com/library/cc817574.aspx">http://msdn.microsoft.com/library/cc817574.aspx </a> </p>
+
+<p><strong>HTTP-Header</strong></p>
+
+<p>With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
+For the Apache Web server, the custom header should look like this:</p>
+
+<p><code>X-UA-Compatible: IE=EmulateIE7 </code></p>
+
+<p>This header 8 would cause Internet Explorer to the website to make the way the Internet Explorer 7 it would be.
+For Apache 2.2, you can also use the headers_module. This one should make sure that the headers_module is loaded:</p>
+
+<p><code>LoadModule headers_module modules/mod_headers.so</code></p>
+
+<p>Then you can see the line:</p>
+
+<p><code>Header set X-UA-Compatible "IE=EmulateIE7"</code></p>
+
+<p>paste the <code>httpd.conf </code> file behind the LoadModule lines. This directive can be also in the various configuration sections</p>
+
+<p><code> (&lt; Location&gt;, &lt; Directory&gt;,&lt; Files&gt; und &lt; VirtualHost&gt;) </code></p>
+
+<p>Insert the server in order to more precisely control which pages should be displayed in the mode.</p>
+
+<h2 class="section-heading"><strong> Javascript</strong> </h2>
+<h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
+
+<p>For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.</p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+var IE = null;
+
+if (window.navigator.appName == "Microsoft Internet Explorer") {
+	
+	if (document.documentMode) {
+
+		// Internet Explorer 8
+
+		IE = document.documentMode; // documentMode = 8
+
+		} else {
+
+
+			// Internet Explorer 5-7
+
+				IE = 5; //setzt the Quirks-Modus
+
+					if (document.compatMode) {
+	
+			if (document.compatMode == "CSS1Compat")
+
+
+			IE = 7; IE7 Modus
+
+			}
+		}
+	}
+}
+</pre></pre></div>
+
+<p><strong>Warning:</strong> The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.</p>
+
+<blockquote>
+	"For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -"
+</blockquote>
+
+		</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/Quadrat-Kubus.png')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-04-04T16:00:44+02:00">
+							<a href="https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/">April 04, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://spaceg.github.io/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/" rel="bookmark" title="Add X-UA Compatible" itemprop="url">Add X-UA Compatible</a></h1>
+								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/" rel="bookmark" title="Add X-UA Compatible" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -845,45 +1152,6 @@ To get a list of every running process on your computer, type this:</td>
 
 <blockquote>
 	"Learn &amp; Understand how Machine Works!"
-</blockquote>
-
-		</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/Pi2ModB1GB_-comp.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-03-28T15:00:44+01:00">
-							<a href="https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/">March 28, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://spaceg.github.io/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/" rel="bookmark" title="Raspberry Pi 2 Model B - Quadcore, 1GB RAM" itemprop="url">Raspberry Pi 2 Model B - Quadcore, 1GB RAM</a></h1>
-								<h1 class="post-title-readmore"><a href="https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/" rel="bookmark" title="Raspberry Pi 2 Model B - Quadcore, 1GB RAM" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading"><strong> Raspberry Pi 2 Model B</strong> </h2>
-<p>Update Post Soon. </p>
-
-<blockquote>
-	"Learn how Machine Works!"
 </blockquote>
 
 		</div>
