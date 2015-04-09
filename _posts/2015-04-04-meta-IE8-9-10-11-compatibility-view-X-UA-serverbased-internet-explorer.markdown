@@ -44,7 +44,7 @@ The content attribute can be one or more of the following values:
  
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/cross-browser-test-1" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/cross-browser-test-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
