@@ -5,93 +5,12 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Apr 2015 20:25:58 +0200</pubDate>
-    <lastBuildDate>Thu, 09 Apr 2015 20:25:58 +0200</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2015 20:28:02 +0200</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2015 20:28:02 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>X-UA Compatible Part II</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Front-End Development for our Start Up.&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;X-UA Compatibility Modus - Cross Browser Check IE Microsoft&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Browser Check!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-        &lt;thead&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Value&lt;/th&gt;
-            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
-          &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-          &lt;tr&gt;
-            &lt;td&gt; &lt;code&gt; IE=11 &lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;After Changes. I take the Current IE=7. for the Compatibility Modus for my Blog.&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/tbody&gt;
-      &lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/cross-browser-test-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt; This is just an Example from my Blog! &lt;/blockquote&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Javascript&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt; Internet Explorer 8 - Microsoft&lt;/h2&gt;
-
-&lt;p&gt;For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.&lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
-
-var IE = null;
-
-if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
-	
-	if (document.documentMode) {
-
-		// Internet Explorer 8
-
-		IE = document.documentMode; // documentMode = 8
-
-		} else {
-
-
-			// Internet Explorer 5-7
-
-				IE = 5; //setzt the Quirks-Modus
-
-					if (document.compatMode) {
-	
-			if (document.compatMode == &quot;CSS1Compat&quot;)
-
-
-			IE = 7; IE7 Modus
-
-			}
-		}
-	}
-}
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 09 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Add X-UA Compatible</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Front-End Development&lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Add X-UA Compatibility Mode&lt;/h2&gt;
 
@@ -334,38 +253,129 @@ For Apache 2.2, you can also use the headers_module. This one should make sure t
 var IE = null;
 
 if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
-	
-	if (document.documentMode) {
+  
+  if (document.documentMode) {
 
-		// Internet Explorer 8
+    // Internet Explorer 8
 
-		IE = document.documentMode; // documentMode = 8
+    IE = document.documentMode; // documentMode = 8
 
-		} else {
-
-
-			// Internet Explorer 5-7
-
-				IE = 5; //setzt the Quirks-Modus
-
-					if (document.compatMode) {
-	
-			if (document.compatMode == &quot;CSS1Compat&quot;)
+    } else {
 
 
-			IE = 7; IE7 Modus
+      // Internet Explorer 5-7
 
-			}
-		}
-	}
+        IE = 5; //setzt the Quirks-Modus
+
+          if (document.compatMode) {
+  
+      if (document.compatMode == &quot;CSS1Compat&quot;)
+
+
+      IE = 7; IE7 Modus
+
+      }
+    }
+  }
 }
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
 
 &lt;blockquote&gt;
-	&quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
+  &quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
 &lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 09 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Add X-UA Compatible</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;layout:     post
+title:      “X-UA Compatible Part II”
+subtitle:   “Cross Browser Check IE Microsoft”
+date:       2015-04-09 14:00:44
+author:     “Lucas Gatsas”
+header-img: “img/Quadrat-Kubus.png”
+—&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Front-End Development for our Start Up.&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;X-UA Compatibility Modus - Cross Browser Check IE Microsoft&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Browser Check!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Value&lt;/th&gt;
+            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt; &lt;code&gt; IE=11 &lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;After Changes. I take the Current IE=7. for the Compatibility Modus for my Blog.&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/cross-browser-test-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; This is just an Example from my Blog! &lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Javascript&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; Internet Explorer 8 - Microsoft&lt;/h2&gt;
+
+&lt;p&gt;For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+var IE = null;
+
+if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
+  
+  if (document.documentMode) {
+
+    // Internet Explorer 8
+
+    IE = document.documentMode; // documentMode = 8
+
+    } else {
+
+
+      // Internet Explorer 5-7
+
+        IE = 5; //setzt the Quirks-Modus
+
+          if (document.compatMode) {
+  
+      if (document.compatMode == &quot;CSS1Compat&quot;)
+
+
+      IE = 7; IE7 Modus
+
+      }
+    }
+  }
+}
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
+&lt;/blockquote&gt;
+
 </description>
         <pubDate>Sat, 04 Apr 2015 16:00:44 +0200</pubDate>
         <link>https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</link>
