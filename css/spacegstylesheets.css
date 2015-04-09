@@ -12,6 +12,9 @@
 /* New Update Mo. 06. April. 2015 -09:16:07*/
 /* New Update Mo. 09. April. 2015 -14:31:47*/
 
+
+
+
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display:  inline-block;
     max-width: 100%;
