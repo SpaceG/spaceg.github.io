@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Apr 2015 20:17:30 +0200</pubDate>
-    <lastBuildDate>Thu, 09 Apr 2015 20:17:30 +0200</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2015 20:20:35 +0200</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2015 20:20:35 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -43,86 +43,6 @@ The content attribute can be one or more of the following values:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/cross-browser-test-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Programmatic Configuration &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course, it may also be necessary for programmers and application / server operators to specify these settings for their site / application.&lt;/p&gt;
-
-&lt;p&gt;Here, too, there are two options (in order of priority):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; “Per Page” &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The “Per Page” setting has the highest priority. The meta tag entry must come first within the header tags.&lt;/p&gt;
-
-&lt;p&gt;The following options are available:&lt;/p&gt;
-
-&lt;p&gt;(1). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=5&quot;/&amp;gt; &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;This is the only way to IE8 all pages in sog “Quirks Mode” to be represented. The information about the &amp;lt;meta …&amp;gt; tag has the highest priority. Even if a !DOCTYPE is specified, it is ignored.&lt;/p&gt;
-
-&lt;p&gt;(2). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE7&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE7 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(3). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=7&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE7 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(4). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE8&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE8 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(5). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=8&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE8 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(6). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE9&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE9 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(7). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=9&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE9 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(8). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE10&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE10 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(9). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=10&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE10 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(10). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE11&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE11 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(11). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=11&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE11 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(12). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;With this setting, the latest version of the rendering engine is used. It is irrelevant whether a “DOCTYPE” was specified or not. The operation can be compared to “IE = 7” and “IE = 8”. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; “Per Site”  &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;The “Per Site” setting has higher priority than a “DOCTYPE” indication.
-However, subject to the “Per Page” setting.&lt;/p&gt;
-
-&lt;p&gt;In principle, the Web server must also send a header “X-UA-Compatible”.
-The value corresponds to the data as in “Per Page”, also “5”&lt;/p&gt;
-
-&lt;p&gt;”EmulateIE7”,”7”,&lt;/p&gt;
-
-&lt;p&gt;”EmulateIE8”,”8”, &lt;/p&gt;
-
-&lt;p&gt;“EmulateIE9”, “9” , &lt;/p&gt;
-
-&lt;p&gt;“EmulateIE10”, “10” , &lt;/p&gt;
-
-&lt;p&gt;“EmulateIE11”, “11” &lt;/p&gt;
-
-&lt;p&gt;and “edge”. &lt;/p&gt;
 
 &lt;p&gt;If using IIS using web.config &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/cc817572.aspx&quot;&gt;http://msdn.microsoft.com/en-us/library/cc817572.aspx &lt;/a&gt;&lt;/p&gt;
 
