@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/Quadrat-Kubus.png"
 ---
 
-<h2 class="section-heading"><strong> Front-End Development</strong> </h2>
+<h2 class="section-heading"><strong> Front-End Development for our Start Up.</strong> </h2>
 <h2 class="section-heading">X-UA Compatibility Modus - Cross Browser Check IE Microsoft</h2>
 
 
@@ -35,11 +35,12 @@ header-img: "img/Quadrat-Kubus.png"
 
  
 
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/cross-browser-test-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
-
+<blockquote> This is just an Example from my Blog! </blockquote>
 
 
 
