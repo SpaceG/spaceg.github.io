@@ -41,7 +41,7 @@ header-img: "img/Quadrat-Kubus.png"
     <img src="{{ site.baseurl }}/img/cross-browser-test-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
-<blockquote> This is just an Example from my Blog! </blockquote>
+<blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
 
 
