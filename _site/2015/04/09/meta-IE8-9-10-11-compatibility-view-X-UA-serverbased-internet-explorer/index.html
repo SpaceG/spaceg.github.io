@@ -229,13 +229,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 <p><strong>Browser Check!</strong></p>
 
-<p>For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements</p>
-
-<p><code> &lt; meta http-equiv="X-UA-Compatible" content="IE=8" /&gt; </code></p>
-
-<p>The Internet Explorer 8 accepts the special value for the http-equiv attribute: X-UA-Compatible (uppercase and lowercase does not matter).
-The content attribute can be one or more of the following values:</p>
-
 <table class="table">
         <thead>
           <tr>
@@ -256,34 +249,6 @@ The content attribute can be one or more of the following values:</p>
 <p><a href="#">
     <img src="/img/cross-browser-test-1.png" alt="Lucas Gatsas" style="width:100%" />
 </a></p>
-
-<p>If using IIS using web.config <a href="https://msdn.microsoft.com/en-us/library/cc817572.aspx">http://msdn.microsoft.com/en-us/library/cc817572.aspx </a></p>
-
-<p>When using an Apache: <a href="https://msdn.microsoft.com/en-us/library/cc817573.aspx">https://msdn.microsoft.com/en-us/library/cc817573.aspx </a></p>
-
-<p>VGL: <a href="http://msdn.microsoft.com/library/cc817574.aspx">http://msdn.microsoft.com/library/cc817574.aspx </a> </p>
-
-<p><strong>HTTP-Header</strong></p>
-
-<p>With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
-For the Apache Web server, the custom header should look like this:</p>
-
-<p><code>X-UA-Compatible: IE=EmulateIE7 </code></p>
-
-<p>This header 8 would cause Internet Explorer to the website to make the way the Internet Explorer 7 it would be.
-For Apache 2.2, you can also use the headers_module. This one should make sure that the headers_module is loaded:</p>
-
-<p><code>LoadModule headers_module modules/mod_headers.so</code></p>
-
-<p>Then you can see the line:</p>
-
-<p><code>Header set X-UA-Compatible "IE=EmulateIE7"</code></p>
-
-<p>paste the <code>httpd.conf </code> file behind the LoadModule lines. This directive can be also in the various configuration sections</p>
-
-<p><code> (&lt; Location&gt;, &lt; Directory&gt;,&lt; Files&gt; und &lt; VirtualHost&gt;) </code></p>
-
-<p>Insert the server in order to more precisely control which pages should be displayed in the mode.</p>
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>

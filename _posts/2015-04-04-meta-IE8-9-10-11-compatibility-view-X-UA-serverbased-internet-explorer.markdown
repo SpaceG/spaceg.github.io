@@ -13,14 +13,6 @@ header-img: "img/Quadrat-Kubus.png"
 
 <strong>Browser Check!</strong>
 
-For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements
-
-      
-
-<code> < meta http-equiv="X-UA-Compatible" content="IE=8" /> </code>
-
-The Internet Explorer 8 accepts the special value for the http-equiv attribute: X-UA-Compatible (uppercase and lowercase does not matter).
-The content attribute can be one or more of the following values:
 
 
 <table class="table">
@@ -52,35 +44,6 @@ The content attribute can be one or more of the following values:
 
 
 
-If using IIS using web.config <a href="https://msdn.microsoft.com/en-us/library/cc817572.aspx">http://msdn.microsoft.com/en-us/library/cc817572.aspx </a>
-
-When using an Apache: <a href="https://msdn.microsoft.com/en-us/library/cc817573.aspx">https://msdn.microsoft.com/en-us/library/cc817573.aspx </a>
-
-VGL: <a href="http://msdn.microsoft.com/library/cc817574.aspx">http://msdn.microsoft.com/library/cc817574.aspx </a> 
-
-
-<strong>HTTP-Header</strong>
-
-With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
-For the Apache Web server, the custom header should look like this:
-
-<code>X-UA-Compatible: IE=EmulateIE7 </code>
-
-This header 8 would cause Internet Explorer to the website to make the way the Internet Explorer 7 it would be.
-For Apache 2.2, you can also use the headers_module. This one should make sure that the headers_module is loaded:
-
-<code>LoadModule headers_module modules/mod_headers.so</code>
-
-Then you can see the line:
-
-<code>Header set X-UA-Compatible "IE=EmulateIE7"</code>
-
-paste the <code>httpd.conf </code> file behind the LoadModule lines. This directive can be also in the various configuration sections
-
-<code> (< Location>, < Directory>,< Files> und < VirtualHost>) </code>
-
-
-Insert the server in order to more precisely control which pages should be displayed in the mode.
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
