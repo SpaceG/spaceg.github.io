@@ -1,22 +1,12 @@
 ---
 layout:     post
-title:      "Add X-UA Compatible"
-subtitle:   "Compatibility View - Internet Explorer - per Policy - Server Based"
-date:       2015-04-04 14:00:44
-author:     "Lucas Gatsas"
-header-img: "img/Quadrat-Kubus.png"
----
-
-
-
----
-layout:     post
 title:      "X-UA Compatible Part II"
 subtitle:   "Cross Browser Check IE Microsoft"
 date:       2015-04-09 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Quadrat-Kubus.png"
 ---
+
 
 <h2 class="section-heading"><strong> Front-End Development for our Start Up.</strong> </h2>
 <h2 class="section-heading">X-UA Compatibility Modus - Cross Browser Check IE Microsoft</h2>

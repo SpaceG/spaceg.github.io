@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "X-UA Compatible Part II"
+title:      "Add X-UA Compatibility Mode"
 subtitle:   "Cross Browser Check IE Microsoft"
-date:       2015-04-09 14:00:44
+date:       2015-04-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Quadrat-Kubus.png"
 ---
