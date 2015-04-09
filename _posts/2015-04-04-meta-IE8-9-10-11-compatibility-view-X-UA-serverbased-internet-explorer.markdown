@@ -8,7 +8,7 @@ header-img: "img/Quadrat-Kubus.png"
 ---
 
 <h2 class="section-heading"><strong> Front-End Development</strong> </h2>
-<h2 class="section-heading">Add X-UA Compatibility Modus - Browser Check IE Microsoft</h2>
+<h2 class="section-heading">X-UA Compatibility Modus - Cross Browser Check IE Microsoft</h2>
 
 
 <strong>Browser Check!</strong>
@@ -45,7 +45,7 @@ The content attribute can be one or more of the following values:
  
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/IC777593.jpg" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/cross-browser-test-1" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
