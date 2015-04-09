@@ -41,81 +41,12 @@ The content attribute can be one or more of the following values:
 
 <br>
 
-<strong>The following diagram shows how Internet Explorer determines the appropriate document mode based on the meta element or HTTP header.</strong>
  
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/cross-browser-test-1" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
-
-<table class="table">
-        <thead>
-          <tr>
-            <th>Value</th>
-            <th id="fadeout-1">Mean</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td> <code> X-UA-Compatible value </code></td>
-            <td id="fadeout-1">Document modes </td>
-          </tr>
-          <tr>
-            <td><code>IE=5</code></td>
-            <td id="fadeout-1">Quirks mode</td>
-          </tr>
-          <tr>
-            <td><code>IE=7</code></td>
-            <td id="fadeout-1">IE7 mode</td>
-          </tr>
-               <tr>
-            <td><code>IE=8</code></td>
-            <td id="fadeout-1">IE8 mode</td>
-          </tr>
-                        <tr>
-            <td><code>IE=9</code></td>
-            <td id="fadeout-1">IE9 mode</td>
-          </tr>
-                       <tr>
-            <td><code>IE=10</code></td>
-            <td id="fadeout-1">IE10 mode</td>
-          </tr>
-                                <tr>
-            <td><code>IE=11</code></td>
-            <td id="fadeout-1">IE11 mode</td>
-          </tr>
-                                 <tr>
-            <td><code>IE=edge</code></td>
-            <td id="fadeout-1">The highest supported document mode of the browser</td>
-          </tr>
-                                     <tr>
-            <td><code>IE=EmulateIE7</code></td>
-            <td id="fadeout-1">IE7 mode (if a valid <!DOCTYPE> declaration is present)
-Quirks mode (otherwise)</td>
-          </tr>
-                                      <tr>
-            <td><code>IE=EmulateIE8</code></td>
-            <td id="fadeout-1">IE8 mode (if a valid <!DOCTYPE> declaration is present)
-Quirks mode (otherwise)</td>
-          </tr>
-                                    <tr>
-            <td><code>IE=EmulateIE9</code></td>
-            <td id="fadeout-1">IE9 mode (if a valid <!DOCTYPE> declaration is present)
-Quirks mode (otherwise)</td>
-          </tr>
-                                     <tr>
-            <td><code>IE=EmulateIE10</code></td>
-            <td id="fadeout-1">IE10 mode (if a valid <!DOCTYPE> declaration is present)
-Quirks mode (otherwise)</td>
-          </tr>
-                                      <tr>
-            <td><code>IE=EmulateIE11</code></td>
-            <td id="fadeout-1">IE11 mode (if a valid <!DOCTYPE> declaration is present)
-Quirks mode (otherwise)</td>
-          </tr>
-        </tbody>
-      </table>
 
 
 <strong> Programmatic Configuration </strong>
