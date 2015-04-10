@@ -44,19 +44,7 @@ header-img: "img/Quadrat-Kubus.png"
 <blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/microsoft.-ie33.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
 
-<blockquote> Before </blockquote>
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-<blockquote> After </blockquote>
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
@@ -101,6 +89,27 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 
 <strong>Warning:</strong> The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.
+
+
+
+
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/microsoft.-ie33.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+<blockquote> Before </blockquote>
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+<blockquote> After </blockquote>
+
 
 
 
