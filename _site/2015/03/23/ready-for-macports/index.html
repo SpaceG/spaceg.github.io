@@ -18,6 +18,39 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
 </script>
 
+
+<script type="text/javascript">
+
+var IE = null;
+
+if (window.navigator.appName == "Microsoft Internet Explorer") {
+  
+  if (document.documentMode) {
+
+    // Internet Explorer 8
+
+    IE = document.documentMode; // documentMode = 8
+
+    } else {
+
+    // Internet Explorer 5-11
+
+        IE = 5; //setzt the Quirks-Modus
+
+          if (document.compatMode) {
+  
+      if (document.compatMode == "CSS1Compat")
+
+      IE = 11; //IE11 Modus
+
+      }
+    }
+  }
+</script>
+
+
+
+
     <meta charset="utf-8">
     <!-- X-UA --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
