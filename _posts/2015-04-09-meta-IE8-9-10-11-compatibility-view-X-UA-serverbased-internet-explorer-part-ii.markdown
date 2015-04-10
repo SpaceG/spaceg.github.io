@@ -44,7 +44,7 @@ header-img: "img/Quadrat-Kubus.png"
 <blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
 See The Result here of my Blog, of course we are Testing Now our WebApp for IE Compatibility for IE Explorer
-
+<a href="http://msdn.microsoft.com/library/cc817574.aspx">http://msdn.microsoft.com/library/cc817574.aspx </a>
 
 
 
