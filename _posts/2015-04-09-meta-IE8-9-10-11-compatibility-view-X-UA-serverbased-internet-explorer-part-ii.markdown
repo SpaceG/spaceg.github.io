@@ -48,12 +48,16 @@ header-img: "img/Quadrat-Kubus.png"
     <img src="{{ site.baseurl }}/img/microsoft.-ie33.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
+<blockquote> Before </blockquote>
 
 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
+
+<blockquote> After </blockquote>
+
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
