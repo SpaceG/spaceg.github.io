@@ -25,13 +25,9 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
   if (document.documentMode) {
     // Internet Explorer 8
     IE = document.documentMode; // documentMode = 8 
-
     } else {
-
     // Internet Explorer 5-11
-
         IE = 5; //setzt the Quirks-Modus
-
           if (document.compatMode) {
   
       if (document.compatMode == "CSS1Compat")
