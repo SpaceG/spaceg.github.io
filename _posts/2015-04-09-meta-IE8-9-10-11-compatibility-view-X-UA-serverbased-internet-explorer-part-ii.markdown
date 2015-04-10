@@ -114,6 +114,17 @@ WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
 <a href="https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io">https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io</a>
 
 
+Top Browsers: 
+
+
+<a href="https://firefox.com/">www.firefox.com</a>
+
+<a href="https://www.opera.com/de">www.opera.com/de/</a>
+
+<a href="https://www.google.de/chrome/browser/desktop/">www.google.de/chrome/browser/desktop/</a>
+
+<a href="https://www.apple.com/chde/safari/">www.apple.com/chde/safari/</a>
+
 
 <blockquote>
   "For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -"
