@@ -112,7 +112,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 See the example result here of my Blog, of course we are Testing Now our 
 WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
 <a href="https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io">https://www.modern.ie/de-de/
-  screenshots#http%3A%2F%2F
+  screenshots#http/
   spaceg.github.io</a>
 
 
