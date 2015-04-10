@@ -123,7 +123,7 @@ Top Browsers:
 
 <a href="https://www.opera.com/de">www.opera.com/de/</a>
 
-<a href="https://www.google.de/chrome/browser/desktop/">www.google.de/chrome/browser/desktop/</a>
+<a href="https://www.google.de/chrome/browser/desktop/">www.google.de/chrome/</a>
 
 <a href="https://www.apple.com/chde/safari/">www.apple.com/chde/safari/</a>
 
