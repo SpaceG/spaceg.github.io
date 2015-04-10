@@ -121,7 +121,7 @@ Top Browsers:
 
 <a href="https://firefox.com/">www.firefox.com</a>
 
-<a href="https://www.opera.com/de">www.opera.com/de/</a>
+<a href="http://www.opera.com/de">www.opera.com/de/</a>
 
 <a href="https://www.google.de/chrome/browser/desktop/">www.google.de/chrome/</a>
 
