@@ -77,7 +77,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     } else {
 
 
-      // Internet Explorer 5-7
+      // Internet Explorer 5-11
 
         IE = 5; //setzt the Quirks-Modus
 
@@ -86,7 +86,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
       if (document.compatMode == "CSS1Compat")
 
 
-      IE = 7; IE7 Modus
+      IE = 11; IE11 Modus
 
       }
     }
