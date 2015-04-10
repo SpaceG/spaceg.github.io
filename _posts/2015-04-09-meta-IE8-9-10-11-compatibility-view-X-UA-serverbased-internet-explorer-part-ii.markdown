@@ -44,7 +44,9 @@ header-img: "img/Quadrat-Kubus.png"
 <blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
 
-
+<a href="#">
+    <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
+</a>
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
