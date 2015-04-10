@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Apr 2015 06:23:53 +0200</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 06:23:53 +0200</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2015 06:30:38 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 06:30:38 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -69,12 +69,12 @@ if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
       if (document.compatMode == &quot;CSS1Compat&quot;)
 
 
-      IE = 11; IE11 Modus
+      IE = 11; // IE11 Modus
 
       }
     }
   }
-}
+
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
@@ -371,7 +371,7 @@ if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
       }
     }
   }
-}
+
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;

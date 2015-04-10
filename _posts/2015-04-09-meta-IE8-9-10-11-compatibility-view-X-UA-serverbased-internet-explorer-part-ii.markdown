@@ -78,12 +78,12 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
       if (document.compatMode == "CSS1Compat")
 
 
-      IE = 11; IE11 Modus
+      IE = 11; // IE11 Modus
 
       }
     }
   }
-}
+
 </pre></pre></div>
 
 
