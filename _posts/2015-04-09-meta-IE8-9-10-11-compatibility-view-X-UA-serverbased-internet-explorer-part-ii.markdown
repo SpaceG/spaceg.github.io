@@ -43,9 +43,6 @@ header-img: "img/Quadrat-Kubus.png"
 
 <blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
-See The Result here of my Blog, of course we are Testing Now our WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
-<a href="https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io">https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io</a>
-
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
@@ -111,6 +108,9 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 <blockquote> After </blockquote>
 
+
+See The Result here of my Blog, of course we are Testing Now our WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
+<a href="https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io">https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io</a>
 
 
 
