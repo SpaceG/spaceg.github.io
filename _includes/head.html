@@ -15,16 +15,11 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 
 <script type="text/javascript">
-
 var IE = null;
-
 if (window.navigator.appName == "Microsoft Internet Explorer") {
-  
   if (document.documentMode) {
-
     // Internet Explorer 8
-
-    IE = document.documentMode; // documentMode = 8
+    IE = document.documentMode; // documentMode = 8 
 
     } else {
 
@@ -36,7 +31,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
   
       if (document.compatMode == "CSS1Compat")
 
-      IE = 11; //IE11 Modus
+      IE = 11; //IE11 Modus // CHange here the Current Version of the Browser
 
       }
     }
