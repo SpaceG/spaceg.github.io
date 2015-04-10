@@ -48,6 +48,9 @@ header-img: "img/Quadrat-Kubus.png"
     <img src="{{ site.baseurl }}/img/microsoft.-ie33.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
+
+
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
