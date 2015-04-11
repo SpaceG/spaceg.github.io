@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "UI/UX Testimg - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire"
+title:      "UI/UX Testing - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire"
 subtitle:   "Cross Browser Check IE Microsoft"
 date:       2015-04-11 14:00:44
 author:     "Lucas Gatsas"
