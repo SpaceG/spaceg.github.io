@@ -15,6 +15,21 @@ header-img: "img/Quadrat-Kubus.png"
 <strong>Start Up - Current Streak</strong>
 
 
+ 
+<h2 class="section-heading"><strong>Work Streak</strong></h2>
+
+<h2 class="section-heading">17 Club Mate's</h2>
+
+<h2 class="section-heading">201 Coffees</h2>
+
+<h2 class="section-heading">329 Hours</h2>
+
+<h2 class="section-heading">7479 Lines of Code</h2>
+
+
+
+
+
 New Toys for my Raspberry PI 
 
 <a href="#">
@@ -41,17 +56,6 @@ New Toys for my Raspberry PI
 Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Kabel-Adapter-Hubs
 ">conrad.ch</a>
 <br>
-
- 
-<h2 class="section-heading"><strong>Work Streak</strong></h2>
-
-<h2 class="section-heading">17 Club Mate's</h2>
-
-<h2 class="section-heading">201 Coffees</h2>
-
-<h2 class="section-heading">329 Hours</h2>
-
-<h2 class="section-heading">7479 Lines of Code</h2>
 
 
 
