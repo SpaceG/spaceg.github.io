@@ -76,14 +76,6 @@ For Internet Explorer 8 Microsoft has a new proprietary property of the document
 <blockquote> After </blockquote>
 -->
 
-See the example result here of my Blog, of course we are Testing Now our 
-WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
-<a href="https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io">https://www.modern.ie/de-de/
-  screenshots#http/
-  spaceg.github.io</a>
-
-
-Top Browsers: 
 
 
 <a href="https://firefox.com/">www.firefox.com</a>
