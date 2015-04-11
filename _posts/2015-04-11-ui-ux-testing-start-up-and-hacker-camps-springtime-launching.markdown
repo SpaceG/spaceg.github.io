@@ -38,7 +38,8 @@ New Toys for my Raspberry PI
         </tbody>
 </table>
 
-Thanks Conrad http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Kabel-Adapter-Hubs
+Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Kabel-Adapter-Hubs
+">www.firefox.com</a>
 <br>
 
  
