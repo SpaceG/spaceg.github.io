@@ -48,9 +48,6 @@ header-img: "img/Quadrat-Kubus.png"
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
 <h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
 
-For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.
-
-
 
 
 <strong>Warning:</strong>
