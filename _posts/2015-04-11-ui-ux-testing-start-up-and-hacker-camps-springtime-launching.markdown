@@ -51,39 +51,6 @@ header-img: "img/Quadrat-Kubus.png"
 For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-var IE = null;
-
-if (window.navigator.appName == "Microsoft Internet Explorer") {
-  
-  if (document.documentMode) {
-
-    // Internet Explorer 8
-
-    IE = document.documentMode; // documentMode = 8
-
-    } else {
-
-
-      // Internet Explorer 5-11
-
-        IE = 5; //setzt the Quirks-Modus
-
-          if (document.compatMode) {
-  
-      if (document.compatMode == "CSS1Compat")
-
-
-      IE = 11; // IE11 Modus
-
-      }
-    }
-  }
-
-</pre></pre></div>
-
 
 
 <strong>Warning:</strong> The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.
