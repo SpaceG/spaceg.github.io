@@ -15,8 +15,6 @@ header-img: "img/Quadrat-Kubus.png"
 <strong>Start Up - Current Streak</strong>
 
 
-
-
 New Toys for my Raspberry PI 
 
 <a href="#">
