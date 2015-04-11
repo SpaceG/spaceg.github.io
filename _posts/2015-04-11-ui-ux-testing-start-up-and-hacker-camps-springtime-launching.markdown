@@ -8,8 +8,8 @@ header-img: "img/Quadrat-Kubus.png"
 ---
 
 
-<h2 class="section-heading"><strong> Front-End Development for our Start Up.</strong> </h2>
-<h2 class="section-heading">X-UA Compatibility Modus - Cross Browser Check IE Microsoft</h2>
+<h2 class="section-heading"><strong>Springtime is Here!</strong> </h2>
+<h2 class="section-heading">And Here we Go. - In few Days!</h2>
 
 
 <strong>Start Up - Current Streak</strong>
