@@ -16,6 +16,14 @@ header-img: "img/Quadrat-Kubus.png"
 
 
 
+
+New Toys for my Raspberry PI 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas.JPG" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
 <table class="table">
         <thead>
           <tr>
@@ -37,10 +45,6 @@ header-img: "img/Quadrat-Kubus.png"
  
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas.JPG" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
 <blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
 
@@ -51,12 +55,6 @@ header-img: "img/Quadrat-Kubus.png"
 
 
 <strong>Warning:</strong>
-
-
-
-
-
-
 
 
 <a href="https://firefox.com/">www.firefox.com</a>
