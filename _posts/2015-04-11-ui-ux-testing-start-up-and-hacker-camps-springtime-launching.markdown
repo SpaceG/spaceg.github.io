@@ -40,8 +40,6 @@ header-img: "img/Quadrat-Kubus.png"
 <h2 class="section-heading">for my Raspberry PI</h2>
 
 
-
-
 New Toys for my Raspberry PI ["I'm Gonna Build A BotBase" :)!]
 
 <a href="#">
