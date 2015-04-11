@@ -44,7 +44,6 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 
  
 
-
 <blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
 
 
