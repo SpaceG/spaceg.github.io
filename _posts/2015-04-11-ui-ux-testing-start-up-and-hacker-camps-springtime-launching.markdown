@@ -30,6 +30,9 @@ header-img: "img/Quadrat-Kubus.png"
 
 
 
+<br>
+
+
 New Toys for my Raspberry PI ["I'm Gonna Build A BotBase" :)!]
 
 <a href="#">
