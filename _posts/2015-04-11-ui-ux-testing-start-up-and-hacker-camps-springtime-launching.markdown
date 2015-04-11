@@ -30,7 +30,7 @@ header-img: "img/Quadrat-Kubus.png"
 
 
 
-New Toys for my Raspberry PI 
+New Toys for my Raspberry PI ["I'm Gonna Build A BotBase" :)!]
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/lucas-gatsas.JPG" alt="Lucas Gatsas"  style="width:100%">
