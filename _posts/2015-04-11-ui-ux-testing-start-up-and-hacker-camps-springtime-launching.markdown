@@ -43,6 +43,8 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 <br>
 
  
+<h2 class="section-heading">Work Streak</h2>
+
 
 <br><br>
 
@@ -54,9 +56,6 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
-
-<h2 class="section-heading"><strong> Javascript</strong> </h2>
-<h2 class="section-heading"> Internet Explorer 8 - Microsoft</h2>
 
 
 
