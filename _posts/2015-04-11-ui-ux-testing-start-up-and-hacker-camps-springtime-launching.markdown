@@ -45,8 +45,6 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
  
 <h2 class="section-heading"><strong>Work Streak</strong></h2>
 
-<br>
-
 <h2 class="section-heading">17 Club Mate's</h2>
 
 <h2 class="section-heading">201 Coffees</h2>
