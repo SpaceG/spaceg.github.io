@@ -68,13 +68,13 @@ For Internet Explorer 8 Microsoft has a new proprietary property of the document
 <blockquote> Before </blockquote>
 -->
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 <blockquote> After </blockquote>
-
+-->
 
 See the example result here of my Blog, of course we are Testing Now our 
 WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
