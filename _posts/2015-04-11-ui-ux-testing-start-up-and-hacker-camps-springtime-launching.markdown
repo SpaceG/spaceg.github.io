@@ -43,7 +43,7 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 <br>
 
  
-<h2 class="section-heading">Work Streak</h2>
+<h2 class="section-heading"><strong>Work Streak</strong></h2>
 
 <br>
 
