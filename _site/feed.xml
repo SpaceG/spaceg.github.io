@@ -5,9 +5,60 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Apr 2015 07:36:48 +0200</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 07:36:48 +0200</lastBuildDate>
+    <pubDate>Sat, 11 Apr 2015 18:45:27 +0200</pubDate>
+    <lastBuildDate>Sat, 11 Apr 2015 18:45:27 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>UI/UX Testing - Start Up Current Streak</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;&quot;UI/UX Testing - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire&quot;&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;And Here we Go. - In few Days!&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Start Up - Current Streak&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;New Toys for my Raspberry PI &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas.JPG&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Value&lt;/th&gt;
+            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt; &lt;code&gt; IE=11 &lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;My Blog use the Current IE=11. for the Compatibility Modus!&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! &lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Javascript&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; Internet Explorer 8 - Microsoft&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://firefox.com/&quot;&gt;www.firefox.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 11 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</guid>
+        
+        
+      </item>
     
       <item>
         <title>X-UA Compatible Part II</title>
@@ -819,110 +870,6 @@ youradminusername ALL=(ALL) ALL
         <pubDate>Tue, 24 Mar 2015 15:00:44 +0100</pubDate>
         <link>https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ready For MacPorts</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;MacPorts&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;2.2.1. OS X Package Install&lt;/h2&gt;
-
-&lt;p&gt;The OS X package installer automatically installs MacPorts, &lt;a href=&quot;https://guide.macports.org/chunked/installing.shell.html&quot;&gt;sets the shell environment&lt;/a&gt;, and runs a
-&lt;a href=&quot;https://guide.macports.org/chunked/using.html#using.port.selfupdate&quot;&gt;selfupdate&lt;/a&gt;  operation to update the ports tree and MacPorts base with the latest release.&lt;/p&gt;
-
-&lt;p&gt;(1.) Download the latest &lt;strong&gt;MacPorts-2.3.1-….pkg&lt;/strong&gt; installer from the &lt;strong&gt; &lt;a href=&quot;https://distfiles.macports.org/MacPorts/&quot;&gt;MacPorts download directory&lt;/a&gt; &lt;/strong&gt; . Here are direct links for the latest versions of OS X:&lt;/p&gt;
-
-&lt;p&gt;OS X 10.9 Mavericks:
-&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.9-Mavericks.pkg&quot;&gt;MacPorts-2.3.1-10.9-Mavericks.pkg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;OS X 10.8 Mountain Lion:
-&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.8-MountainLion.pkg&quot;&gt;MacPorts-2.3.1-10.8-MountainLion.pkg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;OS X 10.7 Lion:
-&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.7-Lion.pkg&quot;&gt;MacPorts-2.3.1-10.7-Lion.pkg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(2.) Double-click the downloaded package installer to perform the default “easy” install.&lt;/p&gt;
-
-&lt;p&gt;(3.) After this step you are done already, MacPorts is now installed and your shell environment was set up automatically by the installer. To confirm the installation is working as expected, now try using the port command in a new terminal window.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ port version&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Version: 2.3.1&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, &lt;a href=&quot;https://guide.macports.org/chunked/installing.shell.html&quot;&gt; “MacPorts and the Shell”&lt;/a&gt; . Otherwise, please skip the remainder of this chapter and continue with &lt;a href=&quot;https://guide.macports.org/chunked/using.html&quot;&gt;Chapter 3, Using MacPorts&lt;/a&gt; in this guide.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;2.2.2. Source Install&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Install Macports via Terminal&lt;/h2&gt;
-
-&lt;p&gt;If you installed MacPorts using the package installer, skip this section. To install MacPorts from the source code, follow the steps below.&lt;/p&gt;
-
-&lt;p&gt;(1.) Download and extract the &lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&quot;&gt;MacPorts 2.3.1 tarball&lt;/a&gt;. Either do so using your browser and the Finder, or use the given commands in a terminal window.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ curl -O https://distfiles.macports.org/
-	MacPorts/MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ tar xf MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;(2.) Afterwards, perform the commands shown in the terminal window. If you wish to use a path other than &lt;code&gt;/opt/local&lt;/code&gt;, follow the instructions for installing multiple copies of MacPorts instead.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ cd MacPorts-2.3.1/&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ ./configure&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ make&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ sudo make install&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY&quot;&gt;GO SEE MacPorts-2.3.3 INSTALL VIDEO&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;https://www.youtube.com/embed/RBriCmHGrXk?autoplay=1&amp;amp;loop=1&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;(3.) Please continue with  &lt;a href=&quot;https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple&quot;&gt;Section 2.5, “MacPorts and the Shell”&lt;/a&gt;  to set up your shell environment.&lt;/p&gt;
-
-&lt;p&gt;install macports &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port version&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port list&lt;/code&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port search git&lt;/code&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port info git-core&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port installed&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo install git-core&lt;/code&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;git —version&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port installed&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;port outdated&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo port upgrade&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo port upgrade git-core&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo port upgrade outdated&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo port selfupdate&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo port uninstall git-core&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo port install git-core&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/23/ready-for-macports/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/23/ready-for-macports/</guid>
         
         
       </item>
