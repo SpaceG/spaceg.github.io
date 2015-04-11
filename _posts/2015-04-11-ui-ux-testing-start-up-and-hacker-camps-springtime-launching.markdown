@@ -71,6 +71,6 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 
 
 <blockquote>
-  "For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -"
+  "Lots of companies don’t succeed over time. What do they fundamentally do wrong? They usually miss the future.” - Larry Page, CEO of Google"
 </blockquote>
 
