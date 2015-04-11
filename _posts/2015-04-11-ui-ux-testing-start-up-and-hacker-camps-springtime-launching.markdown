@@ -80,11 +80,6 @@ For Internet Explorer 8 Microsoft has a new proprietary property of the document
 
 <a href="https://firefox.com/">www.firefox.com</a>
 
-<a href="http://www.opera.com/de">www.opera.com/de/</a>
-
-<a href="https://www.google.de/chrome/browser/desktop/">www.google.de/chrome/</a>
-
-<a href="https://www.apple.com/chde/safari/">www.apple.com/chde/safari/</a>
 
 
 <blockquote>
