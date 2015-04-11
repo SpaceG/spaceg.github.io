@@ -59,14 +59,14 @@ For Internet Explorer 8 Microsoft has a new proprietary property of the document
 
 
 
-
+<!--
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/microsoft.-ie33.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 <blockquote> Before </blockquote>
-
+-->
 
 
 <a href="#">
