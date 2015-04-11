@@ -44,8 +44,15 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 
  
 
-<blockquote> This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! </blockquote>
+<br><br>
 
+<h2 class="section-heading">17 Club Mate's</h2>
+
+<h2 class="section-heading">201 Coffees</h2>
+
+<h2 class="section-heading">326 Hours</h2>
+
+<h2 class="section-heading">7479 Lines of Code</h2>
 
 
 <h2 class="section-heading"><strong> Javascript</strong> </h2>
