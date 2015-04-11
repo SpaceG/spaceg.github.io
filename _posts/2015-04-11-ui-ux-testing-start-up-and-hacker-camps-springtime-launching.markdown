@@ -56,17 +56,6 @@ Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Ka
 
 
 
-
-
-
-
-<strong>Warning:</strong>
-
-
-<a href="https://firefox.com/">www.firefox.com</a>
-
-
-
 <blockquote>
   "For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -"
 </blockquote>
