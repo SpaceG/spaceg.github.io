@@ -14,7 +14,7 @@ header-img: "img/discovery_06pd0906.jpg"
 <strong>Start Up - Current Streak</strong> This week we start with the UI / UX Interface Testing. We look much on the design and user-friendliness. Of course also includes the browser testing. 
 
 
-<strong>CCC - Camp </strong>
+<strong>CCC - Camp </strong> I received an invitation from a friend for the CCC camp in Mildberg Germany.
 
 
  
