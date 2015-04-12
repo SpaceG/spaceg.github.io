@@ -4,7 +4,7 @@ title:      "UI/UX Testing - Start Up Current Streak"
 subtitle:   "Cross Browser Check IE Microsoft"
 date:       2015-04-11 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Quadrat-Kubus.png"
+header-img: "img/Discov2-796036.jpg"
 ---
 
 
