@@ -44,6 +44,8 @@ Hardware & Making,
 Security & Hacking,
 Science.
 
+
+The Genius would, of course, if we can organize in the Green (Switzerland), a hacker Camp. Of course, I would invite some people over the World to Switzerland.
 <br><br>
 
 
