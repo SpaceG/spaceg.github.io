@@ -24,7 +24,6 @@ header-img: "img/discovery_06pd0906.jpg"
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
-
 <br>
 <br>
 <br>
