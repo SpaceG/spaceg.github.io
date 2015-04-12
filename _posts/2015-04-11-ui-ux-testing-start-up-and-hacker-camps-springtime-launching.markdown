@@ -56,7 +56,6 @@ New Toys for my Raspberry PI ["I'm Gonna Build A BotBase" :)!]
 </a>
 
 
-
 <table class="table">
         <thead>
           <tr>
