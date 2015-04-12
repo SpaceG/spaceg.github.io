@@ -22,7 +22,7 @@ header-img: "img/Quadrat-Kubus.png"
 
 <h2 class="section-heading">201 Coffees</h2>
 
-<h2 class="section-heading">329 Hours</h2>
+<h2 class="section-heading">331 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
