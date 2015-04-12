@@ -14,7 +14,6 @@ header-img: "img/discovery_06pd0906.jpg"
 <strong>Start Up - Current Streak</strong> This week we start with the UI / UX Interface Testing. We look much on the design and user-friendliness. Of course also includes the browser testing. I will soon give out a Contact-Form where several Developers can contact US. We want do things that have never been done before.
 
 
- 
 <h2 class="section-heading"><strong>Work Streak</strong></h2>
 
 <h2 class="section-heading">21 Club Mate's</h2>
