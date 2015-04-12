@@ -15,7 +15,7 @@ header-img: "img/discovery_06pd0906.jpg"
 
 
 <strong>Call for Participation: Chaos Communication Camp 2015
- </strong> I received an invitation from a friend for the CCC camp in Mildberg Germany. Anyway, I'll probably go there.
+ </strong> I received an invitation from a friend for the  [CCC - Camp ](http://events.ccc.de/2015/04/09/call-for-participation-chaos-communication-camp-2015/)in Mildberg Germany. Anyway, I'll probably go there.
 especially I like the security area, because I'm starting a study soon.
 
 We’d love to see your submission for these tracks:
