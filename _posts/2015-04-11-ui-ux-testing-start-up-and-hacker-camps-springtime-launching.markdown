@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "UI/UX Testing - Start Up Current Streak"
-subtitle:   "Cross Browser Check IE Microsoft"
+subtitle:   "Start Up Testing"
 date:       2015-04-11 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/discovery_06pd0906.jpg"
