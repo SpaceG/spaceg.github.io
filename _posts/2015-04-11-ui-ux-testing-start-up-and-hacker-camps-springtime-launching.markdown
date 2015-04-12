@@ -11,7 +11,7 @@ header-img: "img/discovery_06pd0906.jpg"
 <h2 class="section-heading">And Here we Go. - In few Days!</h2>
 
 
-<strong>Start Up - Current Streak</strong> This week we start with the UI / UX Interface Testing. We look much on the design and user-friendliness.
+<strong>Start Up - Current Streak</strong> This week we start with the UI / UX Interface Testing. We look much on the design and user-friendliness. Of course also includes the browser testing.
 
 
  
