@@ -18,6 +18,16 @@ header-img: "img/discovery_06pd0906.jpg"
  </strong> I received an invitation from a friend for the CCC camp in Mildberg Germany.
 
 
+We’d love to see your submission for these tracks:
+
+Failosophy,
+Arts & Culture,
+Ethics, Society & Politics,
+Hardware & Making,
+Security & Hacking,
+Science.
+
+
  
 <h2 class="section-heading"><strong>Work Streak</strong></h2>
 
