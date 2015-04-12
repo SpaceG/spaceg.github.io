@@ -29,7 +29,6 @@ header-img: "img/discovery_06pd0906.jpg"
 <br>
 <br>
 
-
 <strong>Call for Participation: Chaos Communication Camp 2015
  </strong> I received an invitation from a friend for the  [CCC - Camp ](http://events.ccc.de/2015/04/09/call-for-participation-chaos-communication-camp-2015/)in Mildberg Germany. Anyway, I'll probably go there.
 especially I like the security area, because I'm starting a study soon.
@@ -47,10 +46,8 @@ Science.
 The Genius would, of course, if we can organize in the Green (Switzerland), a hacker Camp. Of course, I would invite some people over the World to Switzerland.
 <br><br>
 
-
 <h2 class="section-heading"><strong>"New Toys and Hardware"</strong> </h2>
 <h2 class="section-heading">for my Raspberry PI</h2>
-
 
 New Toys for my Raspberry PI ["I'm Gonna Build A BotBase" :)!]
 
