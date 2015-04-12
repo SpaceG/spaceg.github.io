@@ -18,7 +18,7 @@ header-img: "img/Quadrat-Kubus.png"
  
 <h2 class="section-heading"><strong>Work Streak</strong></h2>
 
-<h2 class="section-heading">17 Club Mate's</h2>
+<h2 class="section-heading">21 Club Mate's</h2>
 
 <h2 class="section-heading">201 Coffees</h2>
 
