@@ -26,14 +26,9 @@ header-img: "img/Discov2-796036.jpg"
 <h2 class="section-heading">7479 Lines of Code</h2>
 
 
-
-
-
 <br>
 <br>
 <br>
-
-
 
 <h2 class="section-heading"><strong>"New Toys and Hardware"</strong> </h2>
 <h2 class="section-heading">for my Raspberry PI</h2>
