@@ -66,7 +66,7 @@ Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
     <img src="{{ site.baseurl }}/img/done-ruby-.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
-
+<blockquote> :) >> Warning: fast-forwarding your working tree from </blockquote>
 
 
 Try this out: very simple: 
