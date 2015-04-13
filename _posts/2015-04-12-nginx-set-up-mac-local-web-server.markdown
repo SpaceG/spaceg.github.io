@@ -67,6 +67,8 @@ Or if you you go with sudo, then type :
 
 
 
+
+
 In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
 
 
