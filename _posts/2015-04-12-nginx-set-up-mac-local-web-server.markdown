@@ -21,7 +21,7 @@ Update Post Soon!
         <tbody>
           <tr>
             <td> <code> </code></td>
-            <td id="fadeout-1">Run Raspberry Pi over Mac Os X Hardware.</td>
+            <td id="fadeout-1"></td>
           </tr>
         </tbody>
 </table>
