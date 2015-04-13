@@ -13,7 +13,7 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 <strong> Install Brew</strong> : First you have also Install [brew.sh](http://git-scm.com/)  on your Machine! Go Install Brew and all Packages:
 
-<code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
+<code>ruby -e"$(curl -fsSL https://raw.githubusercontent.com/
 Homebrew/install/master/install)"</code> 
 
 More About: [ruby.org](https://www.ruby-lang.org/de/documentation/installation/#building-from-source) 
