@@ -87,7 +87,7 @@ In case you have changes in the directory (/usr/local/Library), the git pull wil
 </a>
 
 
-
+If you installed Homebrew as a non-root user, you'll need to cd to <code> /Users/yourusername/homebrew/Library</code> instead of <code>/usr/local/Library.</code>
 
 
 
