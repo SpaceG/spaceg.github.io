@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "nginx Set Up"
+title:      "Installing nginx on OS X Yosemite"
 subtitle:   "Use nginx for Bigger Websites and Start Ups."
 date:       2015-04-12 14:00:44
 author:     "Lucas Gatsas"
