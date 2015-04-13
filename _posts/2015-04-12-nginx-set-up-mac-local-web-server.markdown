@@ -29,11 +29,29 @@ To install nginx, simply open up the Terminal and enter the following command.
 
 <code> brew install nginx</code>
 
+That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.
+
+
+
+<strong>Notice: if you get an error : </strong>
 
 
 <code>Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
 /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
 /usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 </code>
+
+
+
+try this out: very simple: 
+
+Open Terminal and Type : 
+
+<code> cd /usr/local/Library </code>
+
+<code>git pull origin master  </code>
+
+
+
 
 
 
