@@ -108,6 +108,8 @@ If you installed Homebrew as a non-root user, you'll need to cd to <code> /Users
 
 
 
+<h2 class="section-heading"><strong>Changing nginx’ Default Port to 80</strong> </h2>
+<h2 class="section-heading">8080 - default port</h2>
 
 
 
