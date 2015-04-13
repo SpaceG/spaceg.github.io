@@ -65,7 +65,7 @@ Open Terminal and Type :
 
 <code>git pull origin master  </code>
 
-Or if you you go with sudo, then type :
+Or if you go with sudo, then type :
 
 <code> sudo git pull origin master </code> 
 
