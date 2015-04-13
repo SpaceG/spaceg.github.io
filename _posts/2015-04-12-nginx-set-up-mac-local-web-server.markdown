@@ -151,6 +151,9 @@ What you want to do is to simple change the number 8080 to 80 next to the listen
 
 To start up nginx, simply enter the following command in the Terminal.
 
+
+<code>sudo nginx</code>
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/concurrency.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
