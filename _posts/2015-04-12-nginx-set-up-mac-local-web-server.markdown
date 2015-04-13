@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "UI/UX Testing - Start Up Current Streak"
-subtitle:   "Start Up Testing"
-date:       2015-04-11 14:00:44
+title:      "nginx Set Up"
+subtitle:   "Use nginx for Bigger Websites"
+date:       2015-04-12 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/discovery_06pd0906.jpg"
 ---
