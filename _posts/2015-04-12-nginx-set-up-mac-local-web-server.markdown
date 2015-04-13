@@ -31,6 +31,10 @@ To install nginx, simply open up the Terminal and enter the following command.
 
 That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/install-nginx.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
 
 
 <strong>Notice: if you get an error : </strong>
