@@ -10,7 +10,10 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 <h2 class="section-heading"><strong>Installing nginx on OS X Yosemite</strong> </h2>
 <h2 class="section-heading">Localhost - Server </h2>
 
-Update Post Soon!
+
+<strong> Install Brew</strong> : First you have also Install Brew on your Machine!
+
+
 
 
 
