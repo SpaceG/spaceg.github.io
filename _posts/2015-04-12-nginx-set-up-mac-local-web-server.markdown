@@ -83,7 +83,7 @@ In case you have changes in the directory (/usr/local/Library), the git pull wil
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ruby-done.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/ruby-done-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
