@@ -115,6 +115,9 @@ If you installed Homebrew as a non-root user, you'll need to cd to <code> /Users
 By default, nginx listens to <code> port 8080 </code>, but let us change that to the default HTTP port, which is 80. To do that, we need to make a simple change to the configuration file <code>  /usr/local/etc/nginx/nginx.conf. </code>
 
 
+
+
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/concurrency.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
