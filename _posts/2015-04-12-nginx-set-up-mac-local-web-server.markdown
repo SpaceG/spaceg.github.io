@@ -45,10 +45,14 @@ Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
 </pre></pre></div>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/done-ruby-.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
 
 
 
-try this out: very simple: 
+
+Try this out: very simple: 
 
 Open Terminal and Type : 
 
@@ -56,8 +60,17 @@ Open Terminal and Type :
 
 <code>git pull origin master  </code>
 
+Or if you you go with sudo, then type :
+
+<code> sudo git pull origin master </code> 
+
+
+
 
 In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
+
+
+
 
 
 
