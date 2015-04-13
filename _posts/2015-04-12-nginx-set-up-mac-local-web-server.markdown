@@ -27,8 +27,6 @@ Update Post Soon!
 </table>
 
 
-
-
 <blockquote>
   "Lots of companies don’t succeed over time. What do they fundamentally do wrong? They usually miss the future.” - Larry Page, CEO of Google"
 </blockquote>
