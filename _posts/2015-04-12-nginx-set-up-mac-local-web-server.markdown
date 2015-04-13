@@ -38,6 +38,18 @@ That’s it! Assuming that no errors occurred, then nginx is ready to start. But
 
 
 
+Here we Run Nginx : 
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/nginx-install-4-700.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+
+
 <strong>Notice: if you get an error : </strong>
 
 <div style="overflow:auto; height=200; width=100%;">
@@ -97,10 +109,6 @@ If you installed Homebrew as a non-root user, you'll need to cd to <code> /Users
 
 
 
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/nginx-install-4-700.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
 
 
 
