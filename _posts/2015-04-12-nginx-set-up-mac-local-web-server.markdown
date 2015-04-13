@@ -73,6 +73,14 @@ In case you have changes in the directory (/usr/local/Library), the git pull wil
 
 
 
+<code> git fetch --all </code> 
+
+<code> git reset --hard origin/master </code> 
+
+
+
+  This will upgrade your homebrew and you can use brew again.
+
 
 
 
