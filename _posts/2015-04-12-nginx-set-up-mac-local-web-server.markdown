@@ -35,10 +35,16 @@ That’s it! Assuming that no errors occurred, then nginx is ready to start. But
 
 <strong>Notice: if you get an error : </strong>
 
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
 
-<code>Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
+Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
 /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
-/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 </code>
+/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 
+
+</pre></pre></div>
+
+
 
 
 
