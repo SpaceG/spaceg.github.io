@@ -13,7 +13,9 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 <strong> Install Brew</strong> : First you have also Install Brew on your Machine! Go Install Brew and all Packages:
 
-<code> </code> 
+<code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
+  Homebrew/install/master/install)"
+ </code> 
 
 
 
