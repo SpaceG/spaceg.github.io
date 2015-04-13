@@ -19,7 +19,8 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 After Install Brew: Follow these Steps : 
 
-
+<h2 class="section-heading">Installing nginx on OS X
+</h2>
 
 
 
