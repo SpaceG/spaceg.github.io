@@ -20,7 +20,7 @@ Update Post Soon!
         </thead>
         <tbody>
           <tr>
-            <td> <code> 4-Port Gigabit Metall-Switch Mini</code></td>
+            <td> <code> </code></td>
             <td id="fadeout-1">Run Raspberry Pi over Mac Os X Hardware.</td>
           </tr>
         </tbody>
