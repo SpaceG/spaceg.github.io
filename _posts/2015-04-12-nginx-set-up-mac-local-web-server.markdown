@@ -154,6 +154,8 @@ To start up nginx, simply enter the following command in the Terminal.
 
 <code>sudo nginx</code>
 
+nginx should now start up, and you can test that everything works by navigating to <code>http://localhost</code> in your browser.
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/concurrency.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
