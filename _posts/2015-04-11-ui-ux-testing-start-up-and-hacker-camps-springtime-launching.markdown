@@ -20,7 +20,7 @@ header-img: "img/discovery_06pd0906.jpg"
 
 <h2 class="section-heading">201 Coffees</h2>
 
-<h2 class="section-heading">338 Hours</h2>
+<h2 class="section-heading">346 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
