@@ -4,7 +4,7 @@ title:      "nginx Set Up"
 subtitle:   "Use nginx for Bigger Websites and Start Ups."
 date:       2015-04-12 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/hero-bg.jpg"
+header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 ---
 
 <h2 class="section-heading"><strong>nginx</strong> </h2>
