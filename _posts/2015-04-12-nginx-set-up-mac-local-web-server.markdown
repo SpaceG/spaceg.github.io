@@ -14,8 +14,8 @@ Update Post Soon!
 <table class="table">
         <thead>
           <tr>
-            <th>Hardware</th>
-            <th id="fadeout-1">Tools</th>
+            <th>Software</th>
+            <th id="fadeout-1">Description</th>
           </tr>
         </thead>
         <tbody>
