@@ -27,6 +27,8 @@ After Install Brew: Follow these Steps :
 
 To install nginx, simply open up the Terminal and enter the following command.
 
+<code> brew install nginx</code>
+
 
 
 <code>Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
