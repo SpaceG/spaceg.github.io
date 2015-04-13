@@ -51,7 +51,7 @@ Open Terminal and Type :
 <code>git pull origin master  </code>
 
 
-
+In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
 
 
 
