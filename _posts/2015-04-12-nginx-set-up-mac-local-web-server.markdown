@@ -34,11 +34,6 @@ header-img: "img/discovery_06pd0906.jpg"
         </tbody>
 </table>
 
-Thanks Conrad <a href="http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Kabel-Adapter-Hubs
-">conrad.ch</a>
-<br>
-Images by Nasa : Nasa Kennedy Space Center
-
 
 
 
