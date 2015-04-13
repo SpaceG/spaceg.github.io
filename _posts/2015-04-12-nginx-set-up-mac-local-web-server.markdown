@@ -166,6 +166,8 @@ Should you need to stop nginx, then you can do so with the below command.
 
 <code>sudo nginx -s stop</code>
 
+As you have seen, nginx is very simple to install and set up on OS X Yosemite!
+
 
 
 <blockquote>
