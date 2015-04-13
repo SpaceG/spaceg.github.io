@@ -19,6 +19,10 @@ Homebrew/install/master/install)"</code>
 More About: [ruby.org](https://www.ruby-lang.org/de/documentation/installation/#building-from-source) 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
 
 After Install Brew: Follow these Steps : 
 
