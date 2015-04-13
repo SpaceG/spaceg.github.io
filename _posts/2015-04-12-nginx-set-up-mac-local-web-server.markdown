@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 ---
 
-<h2 class="section-heading"><strong>nginx</strong> </h2>
+<h2 class="section-heading"><strong>Installing nginx on OS X Yosemite</strong> </h2>
 <h2 class="section-heading">Localhost - Server </h2>
 
 Update Post Soon!
