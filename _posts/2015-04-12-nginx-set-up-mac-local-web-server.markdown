@@ -42,7 +42,7 @@ That’s it! Assuming that no errors occurred, then nginx is ready to start. But
 
 
 
-Here we Run Nginx : 
+Bingo! :) Here we GO Run Nginx : 
 
 
 
