@@ -15,7 +15,7 @@ Update Post Soon!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas.JPG" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/nginx-install-4-700.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
