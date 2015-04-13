@@ -143,7 +143,7 @@ server {
 
 </pre></pre></div>
 
-
+What you want to do is to simple change the number 8080 to 80 next to the listen keyword.
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/concurrency.png" alt="Lucas Gatsas"  style="width:100%">
