@@ -17,6 +17,9 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
   Homebrew/install/master/install)"
  </code> 
 
+After Install Brew: Follow these Steps : 
+
+
 
 
 
