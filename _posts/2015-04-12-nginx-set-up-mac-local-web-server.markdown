@@ -169,8 +169,6 @@ Should you need to stop nginx, then you can do so with the below command.
 As you have seen, nginx is very simple to install and set up on OS X Yosemite!
 
 
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/realtime4.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
