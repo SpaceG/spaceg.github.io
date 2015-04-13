@@ -10,7 +10,7 @@ header-img: "img/discovery_06pd0906.jpg"
 <h2 class="section-heading"><strong>"UI/UX Testing - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire"</strong> </h2>
 <h2 class="section-heading">And Here we Go. - In few Days!</h2>
 
-
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/lucas-gatsas.JPG" alt="Lucas Gatsas"  style="width:100%">
 </a>
