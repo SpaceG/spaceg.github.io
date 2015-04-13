@@ -25,6 +25,14 @@ After Install Brew: Follow these Steps :
 </h2>
 
 
+To install nginx, simply open up the Terminal and enter the following command.
+
+
+
+<code>Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
+/usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 </code>
+
 
 
 
