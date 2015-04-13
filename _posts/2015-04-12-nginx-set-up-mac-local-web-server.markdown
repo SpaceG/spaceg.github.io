@@ -82,6 +82,13 @@ In case you have changes in the directory (/usr/local/Library), the git pull wil
   This will upgrade your homebrew and you can use brew again.
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/ruby-done.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+
 
 
 
