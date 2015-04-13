@@ -174,6 +174,6 @@ As you have seen, nginx is very simple to install and set up on OS X Yosemite!
 </a>
 
 <blockquote>
-
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
 
