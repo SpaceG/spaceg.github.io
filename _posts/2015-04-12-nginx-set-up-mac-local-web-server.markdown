@@ -118,6 +118,31 @@ By default, nginx listens to <code> port 8080 </code>, but let us change that to
 <code>sudo vi /usr/local/etc/nginx/nginx.conf</code>
 
 
+Scroll a bit down and you should see the following.
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+server {
+        listen       8080;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+        
+        ...       
+}
+
+</pre></pre></div>
+
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/concurrency.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
