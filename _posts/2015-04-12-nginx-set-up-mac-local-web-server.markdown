@@ -16,7 +16,7 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
   Homebrew/install/master/install)"</code> 
 
-
+More About: [ruby.org](https://www.ruby-lang.org/de/documentation/installation/#building-from-source) 
 
 
 After Install Brew: Follow these Steps : 
