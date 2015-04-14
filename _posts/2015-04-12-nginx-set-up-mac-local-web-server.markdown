@@ -53,7 +53,6 @@ Bingo! :) Here we GO Run Nginx :
 
 
 
-
 <strong>Notice: if you get an error : </strong>
 
 <div style="overflow:auto; height=200; width=100%;">
