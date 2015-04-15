@@ -13,7 +13,7 @@ header-img: "img/hacking-quotes-6.png"
 Can you still remember your first "Hello World" ? I was listing that Radio Stream [Essjay - Who YOu Are?](https://www.mixcloud.com/EssjayK/essjay-k-in-the-mix-x-who-you-are-0910-139bpm-123h-lenght-progressive/listeners/) . How Awesome was that.? And Now.? 
 I have learned so much! Thanks for the support and the digital friendship with many developers worldwide. My network could be even greater.
 
-In the Next Days, i will publish more security Details. ;) But I'm not gonna show you how Hack a Facebook Account. - 
+In the Next Days, i will publish more security Details. ;) But I'm not gonna show you how Hack a Facebook or other entries Account. - 
 I will only show you.. which Tools and Script do you need for.. 
 
 Training 
@@ -26,7 +26,7 @@ Training
 - THC HYDRA 
 - Mac Os X Backdoor
 
-
+I'm also want to say you a short Documentation (Video) will come out about our Start Up. Think do you will see me there Speaking ;)! 
 
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
