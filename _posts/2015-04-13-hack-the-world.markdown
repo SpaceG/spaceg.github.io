@@ -29,6 +29,7 @@ Training
 I'm also want to say you a short Documentation (Video) will come out about our Start Up. Think, do you will see me Speaking ;)! 
 
 <blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+Portrait einer gegen Kultur. Das Moorsche Gesetzt sagt aus, dass sich die Leistungsfähigkeit eines prozessors etwa alle zwei jahre verdoppelt. 
+Dieses "Naturgesetzt" gilt nicht für die menschlichen Fähigkeiten. 
 </blockquote>
 
