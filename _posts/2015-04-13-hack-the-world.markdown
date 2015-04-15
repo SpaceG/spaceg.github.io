@@ -26,7 +26,7 @@ Training
 - THC HYDRA 
 - Mac Os X Backdoor
 
-I'm also want to say you a short Documentation (Video) will come out about our Start Up. Think do you will see me there Speaking ;)! 
+I'm also want to say you a short Documentation (Video) will come out about our Start Up. Think, do you will see me Speaking ;)! 
 
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
