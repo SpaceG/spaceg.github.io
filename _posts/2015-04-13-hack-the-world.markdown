@@ -26,6 +26,7 @@ Training
 - THC HYDRA 
 - Mac Os X Backdoor
 - 2 Raspberry PI 2 
+- Hide my Ass 
 
 I'm also want to say you a short Documentation (Video) will come out about our Start Up. Think, do you will see me Speaking ;)! 
 
