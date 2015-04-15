@@ -10,7 +10,7 @@ header-img: "img/hacking-quotes-6.png"
 <h2 class="section-heading"><strong>Hello World.</strong> </h2>
 <h2 class="section-heading">My Name is .... </h2>
 
-Can you still remember your first "Hello World" ? I was listing that Radio Stream [Essjay - Who YOu Are?](https://www.mixcloud.com/EssjayK/essjay-k-in-the-mix-x-who-you-are-0910-139bpm-123h-lenght-progressive/listeners/) . How Awesome was that.? And Now.? 
+Can you still remember your first "Hello World" ? I was listing that Radio Stream [Essjay - Who You Are?](https://www.mixcloud.com/EssjayK/essjay-k-in-the-mix-x-who-you-are-0910-139bpm-123h-lenght-progressive/listeners/) . How Awesome was that.? And Now.? 
 I have learned so much! Thanks for the support and the digital friendship with many developers worldwide. My network could be even greater.
 
 In the Next Days, i will publish more security Details. ;) But I'm not gonna show you how Hack a Facebook or other entries Account. - 
