@@ -30,6 +30,6 @@ I'm also want to say you a short Documentation (Video) will come out about our S
 
 <blockquote>
 Portrait einer gegen Kultur. Das Moorsche Gesetzt sagt aus, dass sich die Leistungsfähigkeit eines prozessors etwa alle zwei jahre verdoppelt. 
-Dieses "Naturgesetzt" gilt nicht für die menschlichen Fähigkeiten. 
+Dieses "Naturgesetzt" gilt nicht für die menschlichen Fähigkeiten. Diese sind seit Jahrtausenden gleich geblieben!
 </blockquote>
 
