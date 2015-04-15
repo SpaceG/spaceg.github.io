@@ -16,7 +16,7 @@ I have learned so much! Thanks for the support and the digital friendship with m
 In the Next Days, i will publish more security Details. ;) But I'm not gonna show you how Hack a Facebook or other entries Account. - 
 I will only show you.. which Tools and Script do you need for.. 
 
-Training 
+Power Training:
 
 
 - Hydra on Mac 
