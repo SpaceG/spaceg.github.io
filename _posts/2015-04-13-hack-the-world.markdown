@@ -33,7 +33,7 @@ I'm also want to say you a short Documentation (Video) will come out about our S
 <blockquote>
 Portrait einer gegen Kultur. Das Moorsche Gesetzt sagt aus, dass sich die Leistungsfähigkeit eines prozessors etwa alle zwei jahre verdoppelt. 
 Dieses "Naturgesetzt" gilt nicht für die menschlichen Fähigkeiten. Diese sind seit Jahrtausenden gleich geblieben!
-
+<br>
 Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge and thrill, and now hacking is big business. - Kevin Mitnick
 </blockquote>
 
