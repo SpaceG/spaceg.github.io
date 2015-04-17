@@ -19,6 +19,10 @@ Update Full Post soon!
 
 -->
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/coplet.jpg" style="width:100%" alt="Lucas Gatsas">
+</a>
+
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/IMG_0926.JPG" style="width:100%" alt="Lucas Gatsas">
