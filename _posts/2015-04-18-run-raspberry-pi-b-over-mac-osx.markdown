@@ -15,37 +15,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-<strong>Notice: if you get an error : </strong>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
-/usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
-/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 
-
-</pre></pre></div>
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/done-ruby-.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-<blockquote> :) >> Warning: fast-forwarding your working tree from </blockquote>
-
-
-Try this out: very simple: 
-
-Open Terminal and Type : 
-
-<code> cd /usr/local/Library </code>
-
-<code>git pull origin master  </code>
-
-Or if you go with sudo, then type :
-
-<code> sudo git pull origin master </code> 
-
 
 
 
