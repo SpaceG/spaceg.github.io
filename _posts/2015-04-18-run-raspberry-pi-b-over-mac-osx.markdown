@@ -8,9 +8,7 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 ---
 
 <h2 class="section-heading"><strong>Installing Linux </strong> </h2>
-<h2 class="section-heading">Localhost - Server </h2>
-
-
+<h2 class="section-heading"> RaspberryPI Modell B </h2> 
 
 
 
