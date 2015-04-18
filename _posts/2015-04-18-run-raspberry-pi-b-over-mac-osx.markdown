@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Installing nginx on OS X Yosemite"
-subtitle:   "Use nginx for Bigger Websites and Start Ups."
+title:      "Run Raspberry PI over Mac Os X"
+subtitle:   "Work with Raspberry PI"
 date:       2015-04-18 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
