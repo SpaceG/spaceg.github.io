@@ -14,10 +14,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/realtime4.jpg" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
