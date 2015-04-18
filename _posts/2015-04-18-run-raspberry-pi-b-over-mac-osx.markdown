@@ -4,7 +4,7 @@ title:      "Run Raspberry PI over Mac Os X"
 subtitle:   "Work with Raspberry PI"
 date:       2015-04-18 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/a_Raspberry_2crop.png"
+header-img: "img/sgdhsafdc.jpg"
 ---
 
 <h2 class="section-heading"><strong>Installing Linux </strong> </h2>
