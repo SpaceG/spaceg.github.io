@@ -15,11 +15,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-To start up nginx, simply enter the following command in the Terminal.
-
-
-<code>sudo nginx</code>
-
 nginx should now start up, and you can test that everything works by navigating to <code>http://localhost</code> in your browser.
 
 <a href="#">
