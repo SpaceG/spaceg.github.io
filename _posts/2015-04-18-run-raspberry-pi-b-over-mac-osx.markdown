@@ -14,6 +14,11 @@ header-img: "img/a_Raspberry_2crop.png"
 
 
 
+
+
+
+
+
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
