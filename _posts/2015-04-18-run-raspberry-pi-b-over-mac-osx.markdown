@@ -17,44 +17,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-If you installed Homebrew as a non-root user, you'll need to cd to <code> /Users/yourusername/homebrew/Library</code> instead of <code>/usr/local/Library.</code>
-
-
-
-<h2 class="section-heading"><strong>Changing nginx’ Default Port to 80</strong> </h2>
-<h2 class="section-heading">8080 - default port</h2>
-
-
-By default, nginx listens to <code> port 8080 </code>, but let us change that to the default HTTP port, which is 80. To do that, we need to make a simple change to the configuration file <code>  /usr/local/etc/nginx/nginx.conf. </code> You can do this with any text editor such as <code>vi</code> or <code>nano</code>
-
-
-<code>sudo vi /usr/local/etc/nginx/nginx.conf</code>
-
-
-Scroll a bit down and you should see the following.
-
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-server {
-        listen       8080;
-        server_name  localhost;
-
-        #charset koi8-r;
-
-        #access_log  logs/host.access.log  main;
-
-        location / {
-            root   html;
-            index  index.html index.htm;
-        }
-        
-        ...       
-}
-
-</pre></pre></div>
-
 What you want to do is to simple change the number 8080 to 80 next to the listen keyword.
 
 
