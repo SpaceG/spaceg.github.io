@@ -14,17 +14,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-
-
-If you have problems starting up nginx, a common problem is that the port that nginx is configured to listen to is already in use. If you changed the port to <code>80</code>, then this could be an Apache web server or Skype, for instance.
-
-Should you need to stop nginx, then you can do so with the below command.
-
-<code>sudo nginx -s stop</code>
-
-As you have seen, nginx is very simple to install and set up on OS X Yosemite!
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/realtime4.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
