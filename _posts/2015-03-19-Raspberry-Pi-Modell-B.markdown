@@ -8,7 +8,7 @@ header-img: "img/a_Raspberry_2crop.png"
 ---
 <h2 class="section-heading"><strong>Get Some Raspberrys! </strong> </h2>
 
-Update Full Post soon! 
+First Previews - Install Guide Update soon! 
 
 <!--
 
