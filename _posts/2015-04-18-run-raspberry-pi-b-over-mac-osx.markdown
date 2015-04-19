@@ -14,6 +14,9 @@ header-img: "img/sgdhsafdc.jpg"
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/coplet.jpg" style="width:100%" alt="Lucas Gatsas">
+</a>
 
 
 
