@@ -21,10 +21,6 @@ header-img: "img/sgdhsafdc.jpg"
 
 
 
-
-
-
-
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
