@@ -12,6 +12,7 @@ header-img: "img/sgdhsafdc.jpg"
 
 
 Compled my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
+Waiting for my soldering iron! 
 
 
 <a href="#">
