@@ -11,7 +11,7 @@ header-img: "img/sgdhsafdc.jpg"
 <h2 class="section-heading"> RaspberryPI Modell B </h2> 
 
 
-Compled my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
+Complete my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
 Waiting for my soldering iron! 
 
 
@@ -34,7 +34,7 @@ Waiting for my soldering iron!
 <blockquote>USB Console Cable</blockquote>
 
 
-
+Update Complete Post soon. 
 
 
 <blockquote>
