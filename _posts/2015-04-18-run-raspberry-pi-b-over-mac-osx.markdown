@@ -21,8 +21,6 @@ I'm Update full Post tomorrow. :) !
 
 
 
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/ttl-cable.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
