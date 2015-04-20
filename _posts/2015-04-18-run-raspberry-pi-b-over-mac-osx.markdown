@@ -23,7 +23,7 @@ Waiting for my soldering iron!
 
 
 <h2 class="section-heading"><strong>Run with USB Console Cable </strong> </h2>
-<h2 class="section-heading"> RaspberryPI Modell B </h2> 
+<h2 class="section-heading"> with out Mouse and any Cable. </h2> 
 
 
 <a href="#">
