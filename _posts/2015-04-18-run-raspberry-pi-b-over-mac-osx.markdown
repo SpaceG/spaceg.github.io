@@ -23,8 +23,8 @@ Waiting for my soldering iron!
 
 
 
-<h2 class="section-heading"><strong>Run with USB Console Cable </strong> </h2>
-<h2 class="section-heading">Without Mouse and any Cable. </h2> 
+<h2 class="section-heading"><strong>Run it with USB Console Cable </strong> </h2>
+<h2 class="section-heading"></h2> 
 
 
 <a href="#">
