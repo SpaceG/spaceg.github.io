@@ -11,7 +11,7 @@ header-img: "img/sgdhsafdc.jpg"
 <h2 class="section-heading"> RaspberryPI Modell B </h2> 
 
 
-I'm Update full Post tomorrow. :) ! 
+Compled my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
 
 
 <a href="#">
