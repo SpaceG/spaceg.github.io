@@ -16,27 +16,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
-
-
-
-<code> git fetch --all </code> 
-
-<code> git reset --hard origin/master </code> 
-
-
-
-  This will upgrade your homebrew and you can use brew again.
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/ruby-done-1.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-
-If you installed Homebrew as a non-root user, you'll need to cd to <code> /Users/yourusername/homebrew/Library</code> instead of <code>/usr/local/Library.</code>
-
-
 
 <h2 class="section-heading"><strong>Changing nginx’ Default Port to 80</strong> </h2>
 <h2 class="section-heading">8080 - default port</h2>
