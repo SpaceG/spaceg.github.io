@@ -16,20 +16,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-<code>sudo vi /usr/local/etc/nginx/nginx.conf</code>
-
-
-Scroll a bit down and you should see the following.
-
-
-
-What you want to do is to simple change the number 8080 to 80 next to the listen keyword.
-
-
-
-<h2 class="section-heading">Testing</h2>
-
-
 To start up nginx, simply enter the following command in the Terminal.
 
 
