@@ -7,42 +7,12 @@ author:     "Lucas Gatsas"
 header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 ---
 
-<h2 class="section-heading"><strong>nginx on a Virtual Server</strong> </h2>
+<h2 class="section-heading"><strong>nginx on a Virtual server</strong> </h2>
 <h2 class="section-heading">Localhost - Server </h2>
 
 
 
 
-
-
-<strong> Install Brew</strong> : First you have also Install [brew.sh](http://git-scm.com/)  on your Machine! Go Install Brew and all Packages:
-
-<code>ruby -e"$(curl -fsSL https://raw.githubusercontent.com/
-Homebrew/install/master/install)"</code> 
-
-More About: [ruby.org](https://www.ruby-lang.org/de/documentation/installation/#building-from-source) 
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-
-After Install Brew: Follow these Steps : 
-
-<h2 class="section-heading">Installing nginx on OS X
-</h2>
-
-
-To install nginx, simply open up the Terminal and enter the following command.
-
-<code> brew install nginx</code>
-
-That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/install-nginx.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
 
 
 
