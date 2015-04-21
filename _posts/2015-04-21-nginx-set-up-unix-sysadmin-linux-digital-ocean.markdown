@@ -15,14 +15,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/nginx-install-4-700.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-
-
-
 <strong>Notice: if you get an error : </strong>
 
 <div style="overflow:auto; height=200; width=100%;">
