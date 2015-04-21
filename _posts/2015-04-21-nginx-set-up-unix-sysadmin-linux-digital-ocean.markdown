@@ -14,28 +14,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/done-ruby-.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-<blockquote> :) >> Warning: fast-forwarding your working tree from </blockquote>
-
-
-Try this out: very simple: 
-
-Open Terminal and Type : 
-
-<code> cd /usr/local/Library </code>
-
-<code>git pull origin master  </code>
-
-Or if you go with sudo, then type :
-
-<code> sudo git pull origin master </code> 
-
-
-
-
 
 
 In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you'll have to fetch the master branch and set it forcibly as master:
