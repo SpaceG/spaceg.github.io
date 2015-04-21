@@ -16,10 +16,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 
 
 
-Bingo! :) Here we GO Run Nginx : 
-
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/nginx-install-4-700.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
