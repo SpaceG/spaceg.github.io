@@ -11,7 +11,7 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 <h2 class="section-heading">VirtualServer - Sysadmin - Unix </h2>
 
 
-Now, I'm here and Studing some Steps how Set Up a nginx Server on Digital Ocean. Include Node.js. 
+Now, I'm here and Studing some Steps how Set Up a nginx Server on Digital Ocean. Include Node.js. Check out my Older Post [here](https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/) .
 
 
 
