@@ -22,26 +22,6 @@ header-img: "img/Alufolie-4955-Bearbeitet_1920.jpg"
 Scroll a bit down and you should see the following.
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-server {
-        listen       8080;
-        server_name  localhost;
-
-        #charset koi8-r;
-
-        #access_log  logs/host.access.log  main;
-
-        location / {
-            root   html;
-            index  index.html index.htm;
-        }
-        
-        ...       
-}
-
-</pre></pre></div>
 
 What you want to do is to simple change the number 8080 to 80 next to the listen keyword.
 
