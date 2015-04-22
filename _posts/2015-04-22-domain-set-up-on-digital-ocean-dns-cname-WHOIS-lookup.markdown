@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/161719496-1.jpg"
 ---
 
-<h2 class="section-heading"><strong>nginx on a Virtual server</strong> </h2>
+<h2 class="section-heading"><strong>Domain DNS - Cname - WHOIS - Lookup</strong> </h2>
 <h2 class="section-heading">VirtualServer - Sysadmin - Unix </h2>
 
 
