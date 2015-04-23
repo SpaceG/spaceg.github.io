@@ -14,7 +14,7 @@ header-img: "img/plants-bg.jpg"
 Here we go my first Question : 
 <a href="https://www.digitalocean.com/community/questions/setting-up-dns-domain-name-from-godaddy-or-namecheap"> Setting Up dns Domain Name - Namecheap</a>
 
-have a Introduction to the DNS <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts "> Dns-Terminology</a> then set Up a 
+have a Introduction to the DNS <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts "> DNS-Terminology</a> then set Up a 
 <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean"> Hostname on Digital Ocean </a>
 
 The Digital Ocean Servers are :
