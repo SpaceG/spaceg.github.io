@@ -33,7 +33,12 @@ The Digital Ocean Servers are :
 Update the Post right Now :-P
 
 
+<strong>Conclusion</strong>
 
+After Saving the changes to the Nameservers Listed with your Domain, you have to wait for a while (domain to propogate). Becuase it need times to Update it! This is when the domain registry communicates the nameserver changes with your Internet Service Provider, so that they can cache the new nameservers to ensure quick site connections. This process usually takes 30-45 minutes, but could take up to a few hours depending on your registry and ISP's communication methods.
+
+
+After the Domian has been pointed to Digital Ocean's nameservers. 
 
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
