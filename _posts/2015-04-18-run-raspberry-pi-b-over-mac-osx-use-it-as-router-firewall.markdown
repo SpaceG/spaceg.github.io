@@ -22,7 +22,7 @@ Waiting for my soldering iron!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/coplet.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
