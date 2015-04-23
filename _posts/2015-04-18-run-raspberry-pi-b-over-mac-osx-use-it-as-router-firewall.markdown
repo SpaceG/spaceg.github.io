@@ -21,6 +21,11 @@ Waiting for my soldering iron!
 
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/coplet.jpg" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
 
 
 <h2 class="section-heading"><strong>Run it with USB Console Cable </strong> </h2>
