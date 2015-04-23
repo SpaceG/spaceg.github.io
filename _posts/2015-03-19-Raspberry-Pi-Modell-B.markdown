@@ -41,14 +41,6 @@ header-img: "img/a_Raspberry_2crop.png"
 </a>
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/lab2.jpg" style="width:100%" alt="Lucas Gatsas">
-</a>
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/lab3.jpg" style="width:100%" alt="Lucas Gatsas">
-</a>
 
 
 Shema Raspberry / Linux 
