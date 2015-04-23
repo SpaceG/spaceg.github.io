@@ -15,9 +15,8 @@ Complete my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run 
 Waiting for my soldering iron! 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/coplet.jpg" style="width:100%" alt="Lucas Gatsas">
-</a>
+<blockquote class="twitter-tweet tw-align-center" lang="de"><p>Set Completed soon! Let&#39;s build that Thing! <a href="http://t.co/JGmtW7YSTe">pic.twitter.com/JGmtW7YSTe</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/587991897869783040">14. April 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
@@ -25,7 +24,7 @@ Waiting for my soldering iron!
     <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-<blockquote>Use Raspberry PI as Firewall :) </blockquote>
+<blockquote> Use Raspberry PI as Firewall and Block (WatchDOG) some IP's  which one try to entrie your System! Raspberry PI will send in Auto Modus a Trojanhorse. - My Mini Project for my Studing. </blockquote>
 
 
 <h2 class="section-heading"><strong>Run it with USB Console Cable </strong> </h2>
