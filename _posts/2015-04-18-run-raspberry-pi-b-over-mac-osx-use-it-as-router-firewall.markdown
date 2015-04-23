@@ -25,7 +25,7 @@ Waiting for my soldering iron!
     <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-<blockquote> Use Raspberry PI as Firewall :) </blockquote>
+<blockquote>Use Raspberry PI as Firewall :) </blockquote>
 
 
 <h2 class="section-heading"><strong>Run it with USB Console Cable </strong> </h2>
