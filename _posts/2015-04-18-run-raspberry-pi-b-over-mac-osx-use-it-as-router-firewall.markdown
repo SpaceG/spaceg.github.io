@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/sgdhsafdc.jpg"
 ---
 
-<h2 class="section-heading"><strong>Installing Linux </strong> </h2>
+<h2 class="section-heading"><strong>Set Up Your Router Firewall PI</strong> </h2>
 <h2 class="section-heading"> RaspberryPI Modell B </h2> 
 
 
