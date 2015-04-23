@@ -8,7 +8,6 @@ header-img: "img/a_Raspberry_2crop.png"
 ---
 <h2 class="section-heading"><strong>Get Some Raspberrys! </strong> </h2>
 
-First Previews - Install Guide Update soon! 
 
 <!--
 
@@ -60,6 +59,7 @@ Shema Raspberry / Linux
     <img src="{{ site.baseurl }}/img/IMG_0926.JPG" style="width:100%" alt="Lucas Gatsas">
 </a>
 
+First Previews - Install Guide Update soon! 
 
 <blockquote>
 	
