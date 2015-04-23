@@ -19,9 +19,9 @@ First Previews - Install Guide Update soon!
 
 -->
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/coplet.jpg" style="width:100%" alt="Lucas Gatsas">
-</a>
+<blockquote class="twitter-tweet tw-align-center" lang="de"><p>Set Completed soon! Let&#39;s build that Thing! <a href="http://t.co/JGmtW7YSTe">pic.twitter.com/JGmtW7YSTe</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/587991897869783040">14. April 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 <a href="#">
