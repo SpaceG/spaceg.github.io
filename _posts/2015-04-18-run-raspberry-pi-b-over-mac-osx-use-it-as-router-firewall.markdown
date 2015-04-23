@@ -25,7 +25,7 @@ Waiting for my soldering iron!
     <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-<blockquote> Use Raspberry as Firewall and Block some IP's  which one try to hack your System and your Raspberry will send in Auto Modus a Trojaner. </blockquote>
+<blockquote> Use Raspberry as Firewall and Block some IP's  which one try to hack your System and your Raspberry will send in Auto Modus a Trojaner. - My Mini Project for my Studing. </blockquote>
 
 
 <h2 class="section-heading"><strong>Run it with USB Console Cable </strong> </h2>
