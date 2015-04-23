@@ -5,16 +5,240 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Apr 2015 11:08:52 +0200</pubDate>
-    <lastBuildDate>Sun, 12 Apr 2015 11:08:52 +0200</lastBuildDate>
+    <pubDate>Thu, 23 Apr 2015 12:13:26 +0200</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2015 12:13:26 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Domain Set Up - DNS - Cname - WHOIS - Lookup</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Domain DNS - Cname - WHOIS - Lookup&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Nameserver Set Up.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Wed, 22 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing nginx on a Virtual Server</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;nginx on a Virtual server&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;VirtualServer - Sysadmin - Unix &lt;/h2&gt;
+
+&lt;p&gt;Now, I’m here and Studing some Steps how Set Up a nginx Server on &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt;. Include &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;. Check out my Older Post &lt;a href=&quot;https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/&quot;&gt;here&lt;/a&gt;. And Set Up The Domian with &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;My eyes! They burn! &lt;a href=&quot;http://t.co/Nbgavlphnn&quot;&gt;http://t.co/Nbgavlphnn&lt;/a&gt; &lt;a href=&quot;http://t.co/HfIH0RGdjx&quot;&gt;pic.twitter.com/HfIH0RGdjx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Etel Sverdlov (@etelsverdlov) &lt;a href=&quot;https://twitter.com/etelsverdlov/status/555172636817649664&quot;&gt;14. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote&gt; The Work from a Sysadmin! :)  &lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 21 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Run Raspberry PI over Mac Os X</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Installing Linux &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; RaspberryPI Modell B &lt;/h2&gt;
+
+&lt;p&gt;Complete my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
+Waiting for my soldering iron! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/coplet.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Run it with USB Console Cable &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ttl-cable.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;USB Console Cable&lt;/blockquote&gt;
+
+&lt;p&gt;Update Complete Post soon. &lt;/p&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 18 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing nginx on OS X Yosemite</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Installing nginx on OS X Yosemite&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Localhost - Server &lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; Install Brew&lt;/strong&gt; : First you have also Install &lt;a href=&quot;http://git-scm.com/&quot;&gt;brew.sh&lt;/a&gt;  on your Machine! Go Install Brew and all Packages:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -e&quot;$(curl -fsSL https://raw.githubusercontent.com/
+Homebrew/install/master/install)&quot;&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;More About: &lt;a href=&quot;https://www.ruby-lang.org/de/documentation/installation/#building-from-source&quot;&gt;ruby.org&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After Install Brew: Follow these Steps : &lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Installing nginx on OS X
+&lt;/h2&gt;
+
+&lt;p&gt;To install nginx, simply open up the Terminal and enter the following command.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; brew install nginx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/install-nginx.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bingo! :) Here we GO Run Nginx : &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/nginx-install-4-700.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notice: if you get an error : &lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
+/usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/done-ruby-.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; :) &amp;gt;&amp;gt; Warning: fast-forwarding your working tree from &lt;/blockquote&gt;
+
+&lt;p&gt;Try this out: very simple: &lt;/p&gt;
+
+&lt;p&gt;Open Terminal and Type : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; cd /usr/local/Library &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git pull origin master  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Or if you go with sudo, then type :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo git pull origin master &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you’ll have to fetch the master branch and set it forcibly as master:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; git fetch --all &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; git reset --hard origin/master &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;This will upgrade your homebrew and you can use brew again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ruby-done-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you installed Homebrew as a non-root user, you’ll need to cd to &lt;code&gt; /Users/yourusername/homebrew/Library&lt;/code&gt; instead of &lt;code&gt;/usr/local/Library.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Changing nginx’ Default Port to 80&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;8080 - default port&lt;/h2&gt;
+
+&lt;p&gt;By default, nginx listens to &lt;code&gt; port 8080 &lt;/code&gt;, but let us change that to the default HTTP port, which is 80. To do that, we need to make a simple change to the configuration file &lt;code&gt;  /usr/local/etc/nginx/nginx.conf. &lt;/code&gt; You can do this with any text editor such as &lt;code&gt;vi&lt;/code&gt; or &lt;code&gt;nano&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vi /usr/local/etc/nginx/nginx.conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Scroll a bit down and you should see the following.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+server {
+        listen       8080;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+        
+        ...       
+}
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What you want to do is to simple change the number 8080 to 80 next to the listen keyword.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Testing&lt;/h2&gt;
+
+&lt;p&gt;To start up nginx, simply enter the following command in the Terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nginx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;nginx should now start up, and you can test that everything works by navigating to &lt;code&gt;http://localhost&lt;/code&gt; in your browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concurrency.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have problems starting up nginx, a common problem is that the port that nginx is configured to listen to is already in use. If you changed the port to &lt;code&gt;80&lt;/code&gt;, then this could be an Apache web server or Skype, for instance.&lt;/p&gt;
+
+&lt;p&gt;Should you need to stop nginx, then you can do so with the below command.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nginx -s stop&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As you have seen, nginx is very simple to install and set up on OS X Yosemite!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/realtime4.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 12 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://spaceg.github.io/2015/04/12/nginx-set-up-mac-local-web-server/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/04/12/nginx-set-up-mac-local-web-server/</guid>
+        
+        
+      </item>
     
       <item>
         <title>UI/UX Testing - Start Up Current Streak</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;&quot;UI/UX Testing - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire&quot;&lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;And Here we Go. - In few Days!&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Start Up - Current Streak&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Start Up - Current Streak&lt;/strong&gt; This week we start with the UI / UX Interface Testing. We look much on the design and user-friendliness. Of course also includes the browser testing. I will soon give out a Contact-Form where several Developers can contact US. We want do things that have never been done before. Now, you can contact me &lt;a href=&quot;https://www.twitter.com/lucasgatsas&quot;&gt;@LucasGatsas&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Work Streak&lt;/strong&gt;&lt;/h2&gt;
 
@@ -22,13 +246,29 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;201 Coffees&lt;/h2&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;331 Hours&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;348 Hours&lt;/h2&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;7479 Lines of Code&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Call for Participation: Chaos Communication Camp 2015
+ &lt;/strong&gt; I received an invitation from a friend for the  &lt;a href=&quot;http://events.ccc.de/2015/04/09/call-for-participation-chaos-communication-camp-2015/&quot;&gt;CCC - Camp &lt;/a&gt;in Mildberg Germany. Anyway, I’ll probably go there.
+especially I like the security area, because I’m starting a study soon.&lt;/p&gt;
+
+&lt;p&gt;We’d love to see your submission for these tracks:&lt;/p&gt;
+
+&lt;p&gt;Failosophy,
+Arts &amp;amp; Culture,
+Ethics, Society &amp;amp; Politics,
+Hardware &amp;amp; Making,
+Security &amp;amp; Hacking,
+Science.&lt;/p&gt;
+
+&lt;p&gt;The Genius would, of course, if we can organize in the Green (Switzerland), a hacker Camp. Of course, I would invite some people over the World to Switzerland.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;&quot;New Toys and Hardware&quot;&lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;for my Raspberry PI&lt;/h2&gt;
@@ -698,188 +938,6 @@ To get a list of every running process on your computer, type this:&lt;/td&gt;
         <pubDate>Sun, 29 Mar 2015 16:00:44 +0200</pubDate>
         <link>https://spaceg.github.io/2015/03/29/mac-osx-commands-terminal-front/</link>
         <guid isPermaLink="true">https://spaceg.github.io/2015/03/29/mac-osx-commands-terminal-front/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Raspberry Pi 2 Model B - Quadcore, 1GB RAM</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Raspberry Pi 2 Model B&lt;/strong&gt; &lt;/h2&gt;
-&lt;p&gt;Update Post Soon. &lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;Learn how Machine Works!&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 28 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Node.js - New Javascript</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Node.js on OSX 10.9 Mavericks&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;(1.)&lt;strong&gt; Xcode.&lt;/strong&gt; Apple’s XCode development software is used to build Mac and iOS apps, but it also includes the tools you need to compile software for use on your Mac. XCode is free and you can find it in the Apple App Store.&lt;/p&gt;
-
-&lt;p&gt;(2.) &lt;strong&gt; Homebrew &lt;/strong&gt;. Homebrew is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing brew install node. You can learn more about &lt;strong&gt; &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;  &lt;/strong&gt;
-at the Homebrew website. To install Homebrew just open Terminal and type &lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/
-Homebrew/install/master/install)&quot; &lt;/code&gt;. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Installation&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;(1.)  &lt;strong&gt; Open the Terminal app &lt;/strong&gt; and type &lt;code&gt; brew install node. &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(2.) &lt;strong&gt; Sit back and wait. &lt;/strong&gt; Homebrew downloads some files and installs them. And that’s it.&lt;/p&gt;
-
-&lt;p&gt;To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed:&lt;/p&gt;
-
-&lt;p&gt;To see if Node is installed, type &lt;code&gt; node -v &lt;/code&gt; in Terminal. This should print the version number so you’ll see something like this &lt;code&gt; V0.12.1 &lt;/code&gt;
-To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. This should print the version number so you’ll see something like this &lt;code&gt;  V0.12.1 &lt;/code&gt; &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;How to Update Node and NPM&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;New versions of Node and NPM come out frequently. You can use Homebrew to update the software it installs.&lt;/p&gt;
-
-&lt;p&gt;(1.) Make sure Homebrew has the latest version of the Node package. In Terminal type &lt;code&gt; brew update &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(2.) Upgrade Node: &lt;code&gt; brew upgrade node &lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;How to Uninstall Node and NPM&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;You can use Homebrew to uninstall packages that it installed: &lt;code&gt; brew uninstall node &lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Clone it From GitHub&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt; Mac &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you’re using the excellent homebrew package manager, you can install node with one command: brew install node.&lt;/p&gt;
-
-&lt;p&gt;Otherwise, follow the below steps:&lt;/p&gt;
-
-&lt;p&gt;(1.) Install Xcode.&lt;/p&gt;
-
-&lt;p&gt;(2.) Install git.&lt;/p&gt;
-
-&lt;p&gt;Run the following commands:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; git clone git://github.com/joyent/node.git &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; &lt;a href=&quot;https://github.com/joyent/node&quot;&gt;https://github.com/joyent/node&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;cd node&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; ./configure &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; make &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; sudo make install &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Download: node.js ! &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/&quot;&gt;Download node.js&lt;/a&gt;  &lt;/p&gt;
-
-&lt;blockquote&gt;
-
-
-&quot;Node.js is an open source, cross-platform runtime environment for server-side and networking applications.&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 27 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/27/node.js-v0.12.1/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/27/node.js-v0.12.1/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Get Xcode without Appstore</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; The Strange Apple-iD for the Interface Appstore&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;I have an old email in appstore and i can’t change it in the user Interface App from Apple the (AppStore). Because i have resolved my Host last year in July 2014. - Now, i need some Xcode Tools for dev my Web Application. I’ve been trying for Hours to Hack my Apple ID. ;)&lt;/p&gt;
-
-&lt;p&gt;Download: Xcode - @ Apple Developer! &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/downloads/index.action&quot;&gt;Download Xcode 6.2 (6C131e)&lt;/a&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/xcode-kkk1.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Then install it ! :) &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/xcode-kkk5.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/xcode-kkk2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;We don&#39;t like the AppStore! We want the Old Software Update and Upgrade Back!&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 26 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/26/xcode-without-appstore/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/26/xcode-without-appstore/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>sudoers file - Add Premission to any User</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Sudoers&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Add a User to Sudoers in Mac OS X&lt;/h2&gt;
-
-&lt;p&gt;(1.) Launch Terminal : type : &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo visudo&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(2.) Change your User Privilege specification&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;# User privilege specification &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;root	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;%admin	ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(3.) Add Below the User Privilege specification &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-youradminusername ALL=(ALL) ALL
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;See The Blue Marked Window in the Terminal : &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/sudoerspic.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(4.)  Now press “ESC” (escape) key to stop editing the file&lt;/p&gt;
-
-&lt;p&gt;(5.) Enter the : key (colon) and then type &lt;code&gt;“wq”&lt;/code&gt; followed by the Return key to save changes and &lt;code&gt; exit vi&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Go to the Finder:  Do you can find the file in the phat &lt;code&gt;etc/sudoers&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(1.) Open it with right Mouse Click and « Open with other » &lt;/p&gt;
-
-&lt;p&gt;(2.) the Finder Menu will Open &lt;/p&gt;
-
-&lt;p&gt;(3.) Open with enable  « All Applications » with your Text Editor&lt;/p&gt;
-
-&lt;p&gt;(4.) After changes Save the File. Enter ! :)&lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;Open Terminal and do Funny Things! :) &quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 24 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/</guid>
         
         
       </item>
