@@ -29,6 +29,9 @@ The Digital Ocean Servers are :
 <strong>ns3.digitalocean.com</strong>
 
 
+<strong>ssh root@youripadress </strong>
+
+
 
 
 <blockquote>
