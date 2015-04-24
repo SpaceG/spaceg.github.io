@@ -29,12 +29,19 @@ The Digital Ocean Servers are :
 <strong>ns3.digitalocean.com</strong>
 
 
+
+
+Login In your Ubunutu Server ! 
+
+
 <code>ssh root@youripadress </code>
 
 
 you will get a fingerprint back 
 
 <code>Are you sure you want to continue connecting (yes/no)? </code>
+
+press <code> yes </code> 
 
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
