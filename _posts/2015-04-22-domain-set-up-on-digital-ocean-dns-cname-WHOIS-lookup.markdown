@@ -34,7 +34,7 @@ The Digital Ocean Servers are :
 
 you will get a fingerprint back 
 
-Are you sure you want to continue connecting (yes/no)?
+<code>Are you sure you want to continue connecting (yes/no)? </code>
 
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
