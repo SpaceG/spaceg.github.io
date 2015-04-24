@@ -43,6 +43,21 @@ you will get a fingerprint back
 
 press <code> yes </code> 
 
+
+maybe your Connection will closed again. then type again 
+<code>ssh root@youripadress </code>
+
+
+root@youripadress password: *******************
+
+after you will get this out : 
+
+You are required to change your password immediately (root enforced)
+
+
+Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)
+
+
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
