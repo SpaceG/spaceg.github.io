@@ -29,10 +29,12 @@ The Digital Ocean Servers are :
 <strong>ns3.digitalocean.com</strong>
 
 
-<strong>ssh root@youripadress </strong>
+<code>ssh root@youripadress </strong>
 
 
+you will get a fingerprint back 
 
+Are you sure you want to continue connecting (yes/no)?
 
 <blockquote>
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
