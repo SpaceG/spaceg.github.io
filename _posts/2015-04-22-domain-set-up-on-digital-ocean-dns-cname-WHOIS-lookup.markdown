@@ -29,7 +29,7 @@ The Digital Ocean Servers are :
 <strong>ns3.digitalocean.com</strong>
 
 
-<code>ssh root@youripadress </strong>
+<code>ssh root@youripadress </code>
 
 
 you will get a fingerprint back 
