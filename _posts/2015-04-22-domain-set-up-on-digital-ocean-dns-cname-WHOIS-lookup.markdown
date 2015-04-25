@@ -11,10 +11,10 @@ header-img: "img/plants-bg.jpg"
 <h2 class="section-heading">Nameserver Set Up.</h2>
 
 
-Here we go my first Question : 
+
 <a href="https://www.digitalocean.com/community/questions/setting-up-dns-domain-name-from-godaddy-or-namecheap"> Setting Up dns Domain Name - Namecheap</a>
 
-have a Introduction to the <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts "> DNS-Terminology</a> then set Up a 
+Have a Introduction to the <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts "> DNS-Terminology</a> then set Up a 
 <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean"> Hostname on Digital Ocean </a>
 
 The Digital Ocean Servers are :
@@ -56,6 +56,10 @@ You are required to change your password immediately (root enforced)
 
 
 Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)
+
+
+
+
 
 
 <blockquote>
