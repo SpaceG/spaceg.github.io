@@ -16,7 +16,7 @@ Top spaceg.stylesheets.css
 /* New Update Sa. 25. April. 2015 -16:47:32ƒ*/
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .navbar-default .navbar-collapse,.navbar-default .navbar-form {
  border-color: #e7e7e7;
  margin-bottom: 3px;
