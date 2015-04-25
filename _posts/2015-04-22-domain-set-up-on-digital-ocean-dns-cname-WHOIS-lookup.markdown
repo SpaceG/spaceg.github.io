@@ -11,8 +11,6 @@ header-img: "img/3.jpg"
 <h2 class="section-heading">Nameserver Set Up.</h2>
 
 
-
-
 <a href="https://www.digitalocean.com/community/questions/setting-up-dns-domain-name-from-godaddy-or-namecheap"> Setting Up dns Domain Name - Namecheap</a>
 
 Have a Introduction to the <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts "> DNS-Terminology</a> then set Up a 
