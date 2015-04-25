@@ -60,24 +60,6 @@ Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)
 
 
 
-<div class="clearfix">
-                                    <canvas class="loader"></canvas>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('.loader').ClassyLoader({
-                                                percentage: 100,
-                                                speed: 20,
-                                                fontSize: '50px',
-                                                diameter: 80,
-                                                lineColor: 'rgba(155,155,155,1)',
-                                                remainingLineColor: 'rgba(200,200,200,0.4)',
-                                                lineWidth: 10
-                                            });
-                                        });
-                                    </script>
-                                    <br />
-                                </div>
-
 
 
 <blockquote>
