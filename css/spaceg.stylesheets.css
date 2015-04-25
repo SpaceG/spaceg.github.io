@@ -14,6 +14,7 @@ Top spaceg.stylesheets.css
 /* New Update Mo. 06. April. 2015 -09:16:07*/
 /* New Update Mo. 09. April. 2015 -14:31:47*/
 /* New Update Sa. 25. April. 2015 -16:47:32ƒ*/
+/* New Update Sa. 26. April. 2015 -00:26:13ƒ*/
 
 
 @media (max-width: 768px) {
@@ -183,11 +184,11 @@ td#fadeout-1 {
 
 
 
-
+/* preloader Dimisons */
 
 .loader{
   margin: 50px auto 10px;
-  width: 300px;
+  width: 200px;
   height: 10px;
   border-radius: 14px;
   border-bottom: 1px solid #fff;
