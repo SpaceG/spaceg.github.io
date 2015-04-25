@@ -59,8 +59,12 @@ Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)
 
 
 
-
-<div class="clearfix">
+<div class="col-md-6">
+                            <div class="block">
+                                <div class="block-title">
+                                    <h2>Demo</h2>
+                                </div>
+                                <div class="clearfix">
                                     <canvas class="loader"></canvas>
                                     <script>
                                         $(document).ready(function() {
@@ -77,6 +81,9 @@ Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)
                                     </script>
                                     <br />
                                 </div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
