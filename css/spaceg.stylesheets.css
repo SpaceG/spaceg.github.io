@@ -183,6 +183,15 @@ td#fadeout-1 {
 /* End New Table Settings fade out at 533px hurra :) ! */
 
 
+.img-modal .img-comment-list li > div {
+  display: table-cell;
+}.img-modal .img-comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+
 
 /* preloader Dimisons */
 
