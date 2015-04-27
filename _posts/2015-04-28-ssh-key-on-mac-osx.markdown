@@ -21,8 +21,9 @@ Diagramm of a SSH Tunel!
 </a>
 
 
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/reverse_ssh_diagram.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/Lucas_Gatsas-Firewall_ssh.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
