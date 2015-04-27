@@ -4,7 +4,7 @@ title:      "SSH - Key on Mac Os X"
 subtitle:   "SSH"
 date:       2015-04-28 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Lucas_Gatsas_15.jpg"
+header-img: "img/2530-1920x1440.jpg"
 ---
 
 <h2 class="section-heading"><strong> Secure Shell - SSH - Key on Mac Os X </strong> </h2>
