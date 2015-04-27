@@ -13,20 +13,28 @@ header-img: "img/4106847286_e8c83f9b50_o.jpg"
 
 
 
-<strong> Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model </strong>
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/SSH_public_private_key.gif" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-
-
 
 Diagramm of a SSH Tunel! 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssh_tunnel.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/reverse_ssh_diagram.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+
+
+<strong> Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model </strong>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/SSH_public_private_key.gif" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
 
 
 
