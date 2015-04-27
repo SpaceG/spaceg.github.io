@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/10516837_316412275150808_3623689941493367315_n.png"
 ---
 
-<h2 class="section-heading"><strong>SSH - Key on Mac Os X </strong> </h2>
+<h2 class="section-heading"><strong> Secure Shell - SSH - Key on Mac Os X </strong> </h2>
 <h2 class="section-heading">The Key Set Up.</h2>
 
 
