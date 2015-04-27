@@ -17,9 +17,9 @@ header-img: "img/discovery_06pd0906.jpg"
 
 <h2 class="section-heading">21 Club Mate's</h2>
 
-<h2 class="section-heading">201 Coffees</h2>
+<h2 class="section-heading">247 Coffees</h2>
 
-<h2 class="section-heading">348 Hours</h2>
+<h2 class="section-heading">363 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
