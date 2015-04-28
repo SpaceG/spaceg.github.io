@@ -27,6 +27,8 @@ after enter your path again :
 
 <code>/Users/cyberspace/.ssh/id_rsa</code>
 
+Overwrite <code> (y/n)?  </code> press <code>yes</code>
+
 press Enter to get your Key - Gen ! 
 
 <br>
