@@ -47,6 +47,12 @@ Type <code> ssh-add </code> and press Enter!
 add <code> ssh-add -l </code> to see your <code> .ssh/id_rsa  </code>
 
 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/ssh-keygen-1.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
 <br>
 
 
