@@ -18,8 +18,18 @@ header-img: "img/4106847286_e8c83f9b50_o.jpg"
 </a>
 
 
+Enter Commandlines :
+
+
+<code>ssh-keygen -t rsa</code>
+
+after enter your path again :
+
+<code>/Users/cyberspace/.ssh/id_rsa</code>
 
 Diagramm of a SSH Tunel! 
+
+
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssh_tunnel.jpg" alt="Lucas Gatsas"  style="width:100%">
