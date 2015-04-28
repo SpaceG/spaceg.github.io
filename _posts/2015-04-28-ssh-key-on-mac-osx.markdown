@@ -69,7 +69,7 @@ This is The Private Key !
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh-keygen-2.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/ssh-keygen-3.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
