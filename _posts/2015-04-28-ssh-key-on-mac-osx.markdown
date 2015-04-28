@@ -53,10 +53,34 @@ add <code> ssh-add -l </code> to see your <code> .ssh/id_rsa  </code>
 </a>
 
 
+follow steps : 
+
+<code> ls </code> show list :
+
+enter your rsa id like here <code> cat id_rsa </code> 
+
+This is The Private Key !
+
+-----BEGIN RSA PRIVATE KEY-----
+
+
+
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/ssh-keygen-2.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+
+
+
 <br>
 
 
-
+	
 
 
 Diagramm of a SSH Tunel! 
