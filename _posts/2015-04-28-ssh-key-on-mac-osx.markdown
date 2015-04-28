@@ -27,7 +27,16 @@ after enter your path again :
 
 <code>/Users/cyberspace/.ssh/id_rsa</code>
 
+press Enter to get your Key - Gen ! 
+
+<br>
+
+
+
 Diagramm of a SSH Tunel! 
+
+
+
 
 
 
