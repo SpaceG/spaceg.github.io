@@ -74,6 +74,18 @@ This is The Private Key !
 
 
 
+Now : Check out the Public Key : 
+
+Type following Commandline : <code>cat id_rsa.pub </code>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/ssh-keygen-4.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+
 
 
 
