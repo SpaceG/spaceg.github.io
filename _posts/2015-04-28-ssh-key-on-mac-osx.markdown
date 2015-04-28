@@ -29,13 +29,13 @@ Diagramm of a SSH Tunel!
 
 
 
-
+<!--
 <strong> Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model </strong>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/SSH_public_private_key.gif" alt="Lucas Gatsas"  style="width:100%">
 </a>
-
+-->
 
 
 
