@@ -3,16 +3,161 @@
   <channel>
     <title>l.g</title>
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
-    <link>https://spaceg.github.io/</link>
-    <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 23 Apr 2015 12:43:11 +0200</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2015 12:43:11 +0200</lastBuildDate>
+    <link>https://lucasgatsas.ch/</link>
+    <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 29 Apr 2015 22:13:46 +0200</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 22:13:46 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>SSH - Key on Mac Os X</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Secure Shell - SSH - Key on Mac Os X &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;The Key Set Up.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssh-keygen.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter Commandlines :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssh-keygen -t rsa&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;after enter your path again :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/Users/cyberspace/.ssh/id_rsa&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Overwrite &lt;code&gt; (y/n)?  &lt;/code&gt; press &lt;code&gt;yes&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter: if you don’t want a passphrase&lt;/p&gt;
+
+&lt;p&gt;press Enter to get your Key - Gen ! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssh-keygen-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Type &lt;code&gt; ssh-add &lt;/code&gt; and press Enter!&lt;/p&gt;
+
+&lt;p&gt;add &lt;code&gt; ssh-add -l &lt;/code&gt; to see your &lt;code&gt; .ssh/id_rsa  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssh-keygen-2.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;follow steps : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ls &lt;/code&gt; show list :&lt;/p&gt;
+
+&lt;p&gt;enter your rsa id like here &lt;code&gt; cat id_rsa &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;This is The Private Key !&lt;/p&gt;
+
+&lt;p&gt;—–BEGIN RSA PRIVATE KEY—–&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssh-keygen-3.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now : Check out the Public Key : &lt;/p&gt;
+
+&lt;p&gt;Type following Commandline : &lt;code&gt;cat id_rsa.pub &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssh-keygen-4.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next Step ! Login In your Root Server!
+Update Post soon. ! &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Diagramm of a SSH Tunel! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssh_tunnel.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/Lucas_Gatsas-Firewall_ssh.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;strong&gt; Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model &lt;/strong&gt;
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/SSH_public_private_key.gif&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 28 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SSH</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;SSH -  Key &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Key - Set Up&lt;/h2&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 26 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/26/get-over-ssh-mac-terminal-learning-new-epic-stuff/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/26/get-over-ssh-mac-terminal-learning-new-epic-stuff/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Domain Set Up - DNS - Cname - WHOIS - Lookup</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Domain DNS - Cname - WHOIS - Lookup&lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Nameserver Set Up.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/questions/setting-up-dns-domain-name-from-godaddy-or-namecheap&quot;&gt; Setting Up dns Domain Name - Namecheap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have a Introduction to the &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts &quot;&gt; DNS-Terminology&lt;/a&gt; then set Up a 
+&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean&quot;&gt; Hostname on Digital Ocean &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Digital Ocean Servers are :&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; The DigitalOcean Domain Servers are&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ns1.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ns2.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ns3.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Login In your Ubunutu Server ! &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssh root@youripadress &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;you will get a fingerprint back &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Are you sure you want to continue connecting (yes/no)? &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;press &lt;code&gt; yes &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;maybe your Connection will closed again. then type again 
+&lt;code&gt;ssh root@youripadress &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;root@youripadress password: &lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;p&gt;after you will get this out : &lt;/p&gt;
+
+&lt;p&gt;You are required to change your password immediately (root enforced)&lt;/p&gt;
+
+&lt;p&gt;Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)&lt;/p&gt;
 
 &lt;blockquote&gt;
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
@@ -20,8 +165,8 @@
 
 </description>
         <pubDate>Wed, 22 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</guid>
+        <link>https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</guid>
         
         
       </item>
@@ -44,8 +189,48 @@
 
 </description>
         <pubDate>Tue, 21 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</guid>
+        <link>https://lucasgatsas.ch/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Run Raspberry PI over Mac Os X</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Set Up Your Router Firewall PI&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; RaspberryPI Modell B &lt;/h2&gt;
+
+&lt;p&gt;Complete my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
+Waiting for my soldering iron! &lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;Set Completed soon! Let&amp;#39;s build that Thing! &lt;a href=&quot;http://t.co/JGmtW7YSTe&quot;&gt;pic.twitter.com/JGmtW7YSTe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/587991897869783040&quot;&gt;14. April 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/IMG_1049.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; Use Raspberry PI as Firewall and Block (WatchDOG) some IP&#39;s  which one try to entrie your System! Raspberry PI will send in Auto Modus a Trojanhorse. - My Mini Project for my Studing. &lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Run it with USB Console Cable &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ttl-cable.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;USB Console Cable&lt;/blockquote&gt;
+
+&lt;p&gt;Update Complete Post soon. &lt;/p&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 18 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/</guid>
         
         
       </item>
@@ -192,8 +377,8 @@ server {
 
 </description>
         <pubDate>Sun, 12 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/12/nginx-set-up-mac-local-web-server/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/12/nginx-set-up-mac-local-web-server/</guid>
+        <link>https://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/</guid>
         
         
       </item>
@@ -209,9 +394,9 @@ server {
 
 &lt;h2 class=&quot;section-heading&quot;&gt;21 Club Mate&#39;s&lt;/h2&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;201 Coffees&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;247 Coffees&lt;/h2&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;348 Hours&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;363 Hours&lt;/h2&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;7479 Lines of Code&lt;/h2&gt;
 
@@ -269,8 +454,8 @@ Images by Nasa : Nasa Kennedy Space Center&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 11 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</guid>
+        <link>https://lucasgatsas.ch/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</guid>
         
         
       </item>
@@ -379,8 +564,8 @@ WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
 
 </description>
         <pubDate>Thu, 09 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</guid>
+        <link>https://lucasgatsas.ch/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</guid>
         
         
       </item>
@@ -663,8 +848,8 @@ if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 04 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</guid>
+        <link>https://lucasgatsas.ch/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</guid>
         
         
       </item>
@@ -739,186 +924,8 @@ bashunixshell-awesome.git &lt;/code&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 31 Mar 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/03/31/bash-unix-shell-awesome-v.0.0.1/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/31/bash-unix-shell-awesome-v.0.0.1/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>npm V.2.7.4</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Download the npmjs Package Manager&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;npm V.2.7.4&lt;/h2&gt;
-
-&lt;p&gt;npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you’re sharing. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Installing Node.js&lt;/h2&gt;
-&lt;p&gt;(1.) First do you have to Installing Node.js. The best way to install Node.js is to use one of the installers from &lt;a href=&quot;nodejs.org/&quot;&gt;node.js&lt;/a&gt;. If you’re using Linux, you can use the installer, or you can check &lt;a href=&quot;https://github.com/nodesource/distributions&quot;&gt; NodeSource’s binary distributions&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Test: Run &lt;code&gt; node -v. &lt;/code&gt; The version should be higher than &lt;code&gt; v0.10.32. &lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Updating npm&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;sudo npm install npm -g.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Test: Run &lt;code&gt; npm -v. &lt;/code&gt; The version should be higher than &lt;code&gt; 2.1.8. &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/npm1-2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-        &lt;thead&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Download&lt;/th&gt;
-            &lt;th id=&quot;fadeout-1&quot;&gt;Source&lt;/th&gt;
-          &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-          &lt;tr&gt;
-            &lt;td&gt; &lt;strong&gt; &lt;a href=&quot;https://docs.npmjs.com/misc/developers&quot;&gt; npmjs.com&lt;/a&gt; &lt;/strong&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Download it @ npmjs.com &lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ npm -v&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Run Terminal and type npm -v&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ [sudo] npm install npm -g&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;To upgrade, run: [sudo] npm install npm -g&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/tbody&gt;
-      &lt;/table&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/npm2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;Learn &amp;amp; Understand how Machine Works!&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 30 Mar 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/03/30/npm-v.2.7.4.-for-javascript-developers/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/30/npm-v.2.7.4.-for-javascript-developers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mac Os X - CommandLines</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Mac Os X - CommandLines&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-        &lt;thead&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Kommando#&lt;/th&gt;
-            &lt;th id=&quot;fadeout-1&quot;&gt;Aktion&lt;/th&gt;
-          &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ chflags nohidden ~/Library&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Library-Ordner unter Mac OS Lion anzeigen&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ ping 127.0.0.1&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;pingt ein Netzwerkgerät
-um unter Mac OS Ping zu stoppen CTRL+C drücken&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ top&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Zeigt eine Liste von laufenden Prozessen an, ähnlich der Aktivitätsanzeige.&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ defaults write com.apple.
-            	Finder AppleShowAllFiles
-
-            	 TRUE; 
-            	 killAll Finder&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Zeigt versteckte Dateien im Finder an.&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ defaults write com.apple.
-            	Finder AppleShowAllFiles 
-
-            	TRUE; 
-            	killAll Finder&lt;/code&gt;&lt;/td&gt;
-&lt;td id=&quot;fadeout-1&quot;&gt;Zeigt &lt;strong&gt;versteckte Dateien&lt;/strong&gt; im &lt;a href=&quot;https://spaceg.github.io/&quot; title=&quot;Mac Explorer - Finder&quot;&gt;Finder&lt;/a&gt; an. &lt;span title=&quot;eingeführt in OS X Lion&quot; class=&quot;label label-info&quot;&gt;Mavericks&lt;/span&gt;&lt;/td&gt;          &lt;/tr&gt;
-    	&lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ defaults write  com.apple.
-            	ScreenCapture type JPG; 
-            	killAll SystemUIServer&lt;/code&gt; &lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Stellt das Format für Screenshots auf JPG, weitere mögliche Formate sind: PNG, PDF, TIFF, JPEG, BMP, GIF, PSD.&lt;/td&gt;
-          &lt;/tr&gt;
-           &lt;td&gt;&lt;code&gt;$ defaults write 
-           	com.apple.Screencapture location 
-           	/Users/benutzername; 
-           	killAll SystemUIServer&lt;/code&gt;
-           &lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Ändert den Speicherordner für Screenshots auf Euren Benutzerordner.&lt;/td&gt;
-          
-           &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ dscacheutil -flushcache&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Startet Quick Look neu &amp;amp; läd ggf. neue Plugins.&lt;/td&gt;
-          &lt;/tr&gt;
-               &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ ipconfig getifaddr en0&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Get Your Network IP Address&lt;/td&gt;
-          &lt;/tr&gt;
-           &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ curl ipecho.net/plain;
-             echo&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Get Your External IP Address&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ ping -c 10 www.example-
-            	site.com&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Test Network Connectivity&lt;/td&gt;
-          &lt;/tr&gt;
-           &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ system_profiler&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;A Closer Look at System Information&lt;/td&gt;
-          &lt;/tr&gt;
-            &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$ pwd&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The current directory&lt;/td&gt;
-          &lt;/tr&gt;
-              &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$  ps -ax&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Job control While Activity Monitor is useful, it&#39;s not quite as useful as working with the shell.
-To get a list of every running process on your computer, type this:&lt;/td&gt;
-          &lt;/tr&gt;
-              &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;$  hostname&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;To get your current location, use the &quot;hostname&quot; command.&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/tbody&gt;
-      &lt;/table&gt;
-
-&lt;blockquote&gt;
-	&quot;Learn &amp;amp; Understand how Machine Works!&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 29 Mar 2015 16:00:44 +0200</pubDate>
-        <link>https://spaceg.github.io/2015/03/29/mac-osx-commands-terminal-front/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/29/mac-osx-commands-terminal-front/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Raspberry Pi 2 Model B - Quadcore, 1GB RAM</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Raspberry Pi 2 Model B&lt;/strong&gt; &lt;/h2&gt;
-&lt;p&gt;Update Post Soon. &lt;/p&gt;
-
-&lt;blockquote&gt;
-	&quot;Learn how Machine Works!&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 28 Mar 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/03/28/raspberry-pi-2-model-b-quadcore-1gb-ram%20Kopie/</guid>
+        <link>https://lucasgatsas.ch/2015/03/31/bash-unix-shell-awesome-v.0.0.1/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/03/31/bash-unix-shell-awesome-v.0.0.1/</guid>
         
         
       </item>
