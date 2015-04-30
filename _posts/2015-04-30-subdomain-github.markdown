@@ -129,8 +129,19 @@ First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </
 
 
 <a href="#">
+    <img src="{{ site.baseurl }}/img/dns-cloudflare-2.png
+" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
+Add the Nameserver to your Domainpoint! 
+
+
+<a href="#">
     <img src="{{ site.baseurl }}/img/namecheap-servers-to-cloudflare.png" style="width:100%" alt="Lucas Gatsas">
 </a>
+
 
 
 
