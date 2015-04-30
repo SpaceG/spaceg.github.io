@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/lg.jpg"
 ---
 <h2 class="section-heading">Setting up a custom domain with GitHub Pages</h2>
-
+<h2 class="section-heading">DNS for GitHub Pages</h2>
 
 
 
@@ -42,15 +42,10 @@ If you're using a [Custom Domain](https://help.github.com/articles/about-custom-
 
 ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn't use them for sensitive transactions, like sending passwords or credit card numbers. - 
 
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
--->
+
+
+
+
 
 
 
