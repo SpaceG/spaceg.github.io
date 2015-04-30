@@ -121,6 +121,17 @@ Document Complete,
 </a>
 
 
+<strong> Content breakdown by MIME type (First View)</strong>
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/content.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+Do you can see rest of the Web Page Test <a href="http://www.webpagetest.org/result/150430_1T_ER/">here</a> 
+
+
 
 Update to the CloudFlare. 
 
