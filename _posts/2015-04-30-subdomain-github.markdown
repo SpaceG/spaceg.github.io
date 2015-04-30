@@ -218,11 +218,6 @@ Click <code> "Add rule." </code>
     <img src="{{ site.baseurl }}/img/page-rules-01.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-After Saves! 
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/page-rules-11.png" style="width:100%" alt="Lucas Gatsas">
-</a>
 
 
 
