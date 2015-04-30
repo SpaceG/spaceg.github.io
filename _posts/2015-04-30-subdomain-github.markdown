@@ -154,6 +154,14 @@ Add the Nameserver to your Domainpoint!
 
 
 
+Open your Terminal : See your Changes : 
+
+
+Dig your domian : <code> $ dig yourdomian.com </code> 
+
+and <code> curl -I yourdomian.com </code> 
+
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/index.png" style="width:100%" alt="Lucas Gatsas">
 </a>
