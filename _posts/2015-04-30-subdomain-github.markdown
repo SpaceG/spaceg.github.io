@@ -163,6 +163,7 @@ Set Up your <code> https:// </code>
 
 
 Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+If you Stuck, contact they. Awesome Supporters Outhere! 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssl-cloudflare.png" style="width:100%" alt="Lucas Gatsas">
