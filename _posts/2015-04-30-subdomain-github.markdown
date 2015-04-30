@@ -86,6 +86,12 @@ Save a ll your Settings !
 </a>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/connenction-view.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
 
 
 <blockquote>
