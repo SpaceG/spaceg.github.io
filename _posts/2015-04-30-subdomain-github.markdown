@@ -56,8 +56,8 @@ Add New file save ass CNAME
 <code>yourdomain.com</code>
 
 
-add 
-
+Login in your NameCheap Account got to  All Host Records. Then set up the DNS  
+and configuring (IP/ Adress/URL to <code> 192.30.252.153 </code> and the Record Type to <code>A</code>)
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/lucasgatsas.ch-1.png" style="width:100%" alt="Lucas Gatsas">
