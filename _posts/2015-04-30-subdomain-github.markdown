@@ -154,6 +154,16 @@ Add the Nameserver to your Domainpoint!
 
 
 
+Set Up your <code> https:// </code>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/offline_over_https Kopie.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
+
 Open your Terminal : See your Changes : 
 
 
