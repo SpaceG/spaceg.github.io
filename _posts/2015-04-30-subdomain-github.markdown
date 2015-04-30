@@ -121,7 +121,6 @@ Document Complete,
 </a>
 
 
-<strong> Content breakdown by MIME type (First View)</strong>
 
 
 
