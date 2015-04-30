@@ -162,6 +162,13 @@ Set Up your <code> https:// </code>
 </a>
 
 
+Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/ssl-cloudflare.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
 
 
 Open your Terminal : See your Changes : 
