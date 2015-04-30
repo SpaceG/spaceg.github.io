@@ -52,6 +52,11 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 
 
 
+<h2 class="section-heading">Submit a CNAME file to your GitHub Repo</h2>
+<h2 class="section-heading">DNS for GitHub Pages</h2>
+
+
+
 
 <!--
 <a href="#">
