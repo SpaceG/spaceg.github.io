@@ -132,7 +132,7 @@ Do you can see rest of the Web Page Test <a href="https://www.webpagetest.org/re
 
 
 
-Update to the CloudFlare. 
+Update to the <a href="https://www.cloudflare.com">CloudFlare. </a> 
 
 
 First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </code> Record. 
