@@ -1,4 +1,4 @@
----
+w---
 layout:     post
 title:      "Archive - Page over Jekyll."
 subtitle:   "create a archive page with jekyll."
