@@ -46,7 +46,9 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 
 
 
-
+<a href="#">
+    <img src="{{ site.baseurl }}/img/bash1.png" style="width:100%" alt="Lucas Gatsas">
+</a>
 
 
 
