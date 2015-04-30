@@ -58,6 +58,8 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 
 Add New file save ass CNAME 
 
+<code>yourdomain.com</code>
+
 
 
 
