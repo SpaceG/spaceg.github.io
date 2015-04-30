@@ -199,6 +199,7 @@ After 24 Hours i checked out my Nameservers! Awesome to see the Changes!
 
 
 
+Status: 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssl-cludflare-best.png" style="width:100%" alt="Lucas Gatsas">
 </a>
