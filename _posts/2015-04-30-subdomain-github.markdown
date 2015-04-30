@@ -127,7 +127,7 @@ Update to the CloudFlare.
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/connenction-view.png" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/namecheap-servers-to-cloudflare.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
