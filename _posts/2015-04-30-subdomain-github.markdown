@@ -72,7 +72,7 @@ in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress 
 </a>
 
 
-
+Save a ll your Settings ! 
 
 <!--
 <a href="#">
