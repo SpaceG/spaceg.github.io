@@ -60,7 +60,7 @@ Login in your NameCheap Account got to  All Host Records. Then set up the DNS
 and configuring (IP/ Adress/URL to <code> 192.30.252.153 </code> and the Record Type to <code>A</code> and TTL 1800)
 
 
-set the Subdomain @  IP Adress/URL to username.github.io  and the Record Type to <code> CNAME (Alias) </code>
+set the Subdomain @  IP Adress/URL to <code> username.github.io  </code> and the Record Type to <code> CNAME (Alias) </code>
 
 
 
