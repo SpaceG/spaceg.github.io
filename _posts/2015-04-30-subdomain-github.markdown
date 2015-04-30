@@ -84,18 +84,18 @@ Save a ll your Settings !
 
 <strong> Waterfall View</strong>
 
-DNS Lookup
-Initial Connection
-SSL Negotiation
-Time to First Byte
-Content Download
- 3xx response 
- 4xx+ response 
-Start Render
-msFirstPaint
-DOM Content Loaded
-On Load
-Document Complete
+DNS Lookup,
+Initial Connection,
+SSL Negotiation,
+Time to First Byte,
+Content Download,
+ 3xx response,
+ 4xx+ response,
+Start Render,
+msFirstPaint,
+DOM Content Loaded,
+On Load,
+Document Complete,
 
 
 <a href="#">
@@ -107,13 +107,13 @@ Document Complete
 <strong> Connection View</strong>
 
 
-DNS Lookup
-Initial Connection
-SSL Negotiation
-Start Render
-DOM Content Loaded
-On Load
-Document Complete
+DNS Lookup,
+Initial Connection,
+SSL Negotiation,
+Start Render,
+DOM Content Loaded,
+On Load,
+Document Complete,
 
 
 <a href="#">
