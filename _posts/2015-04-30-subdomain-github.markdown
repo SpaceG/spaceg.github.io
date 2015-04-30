@@ -205,10 +205,17 @@ Status:
 </a>
 
 
+To automatically forward HTTP requests to <code>HTTPS </code>, you can create a Page Rule by:
 
-Status: 
+Open the Page Rules interface.
+Entering <code> http://*lucasgatsas.ch/* </code> as the URL pattern.
+
+Choose <code> "Always use https."</code>
+
+Click <code> "Add rule." </code>
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssl-cludflare-best.png" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/page-rules-01.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
