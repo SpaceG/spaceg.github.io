@@ -1,4 +1,4 @@
----
+w---
 layout:     post
 title:      "Raspberry Pi 2 Model B - Quadcore, 1GB RAM"
 subtitle:   "Broadcom BCM2836 900 MHz ARM Cortex-A7 Quad-Core-Prozessor mit VideoCore IV Dual-Core-GPU"
