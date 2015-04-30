@@ -125,10 +125,15 @@ Document Complete,
 Update to the CloudFlare. 
 
 
+First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </code> Record. 
+
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/namecheap-servers-to-cloudflare.png" style="width:100%" alt="Lucas Gatsas">
 </a>
+
+
+
 
 
 
