@@ -81,9 +81,39 @@ Save a ll your Settings !
 </a>
 -->
 
+
+<strong> Waterfall View</strong>
+
+DNS Lookup
+Initial Connection
+SSL Negotiation
+Time to First Byte
+Content Download
+ 3xx response 
+ 4xx+ response 
+Start Render
+msFirstPaint
+DOM Content Loaded
+On Load
+Document Complete
+
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/waterfall-view-001.png" style="width:100%" alt="Lucas Gatsas">
 </a>
+
+
+
+<strong> Connection View</strong>
+
+
+DNS Lookup
+Initial Connection
+SSL Negotiation
+Start Render
+DOM Content Loaded
+On Load
+Document Complete
 
 
 <a href="#">
