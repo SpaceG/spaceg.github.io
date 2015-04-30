@@ -46,11 +46,6 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/lucasgatsas.ch-1.png" style="width:100%" alt="Lucas Gatsas">
-</a>
-
-
 
 <h2 class="section-heading">Submit a CNAME file to your GitHub Repo</h2>
 <h2 class="section-heading">Set Up the DNS </h2>
@@ -59,6 +54,14 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 Add New file save ass CNAME 
 
 <code>yourdomain.com</code>
+
+
+add 
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/lucasgatsas.ch-1.png" style="width:100%" alt="Lucas Gatsas">
+</a>
 
 
 
