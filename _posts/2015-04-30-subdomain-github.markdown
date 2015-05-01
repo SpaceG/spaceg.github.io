@@ -227,11 +227,11 @@ Click <code> "Add rule." </code>
 
 
 
-Links: 
+Link: 
 <a href="https://namecheap.com/">namecheap.com</a> 
-
+Link: 
 <a href="https://cloudflare.com">cloudflare.com</a> 
-
+Link: 
 <a href="https://github.com">github.com</a> 
 
 
