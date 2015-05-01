@@ -263,7 +263,7 @@ Insert the server in order to more precisely control which pages should be displ
 For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.
 
 
-<div class="highlight" style="overflow:auto; height=200; width=100%;">
+<div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
 var IE = null;
