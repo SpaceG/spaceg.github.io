@@ -228,9 +228,10 @@ Click <code> "Add rule." </code>
 
 
 Links: 
-
 <a href="https://namecheap.com/">namecheap.com</a> 
+
 <a href="https://cloudflare.com">cloudflare.com</a> 
+
 <a href="https://github.com">github.com</a> 
 
 
