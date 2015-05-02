@@ -10,6 +10,11 @@ header-img: "img/mountains.jpg"
 <h2 class="section-heading">Nmap Security Scanner for Linux-MAC-UNIX </h2>
 
 
+<code> nmap hostname </code> 
+
+
+
+
 
 At last i have to lol. because i found this crazy thing here : 
 <a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a> 
