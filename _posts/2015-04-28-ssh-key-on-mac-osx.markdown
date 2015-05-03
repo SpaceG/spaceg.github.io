@@ -115,7 +115,7 @@ Diagramm of my SSH Sketches!
 </a>
 
 
-
+Sketches by Lucas Gatsas : Free to Use
 
 <!--
 <strong> Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model </strong>
