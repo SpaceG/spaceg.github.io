@@ -92,7 +92,7 @@ If you don’t know the range, you can also use wildcards:
 <code>nmap 192.168.0.*</code>
 
 
-
+<strong>Scan & Detect Operating System</strong>
 
 
 Exmaple Diagram: 
