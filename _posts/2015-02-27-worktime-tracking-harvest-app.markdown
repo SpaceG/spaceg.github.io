@@ -124,9 +124,6 @@ Restart your terminal and change directories to your repository and you should n
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/1001k.png" alt="Lucas Gatsas" style="width:100%">
-</a>
 
 
 <br><br>
