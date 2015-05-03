@@ -80,7 +80,7 @@ Type following Commandline : <code>cat id_rsa.pub </code>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/bash-ssh-5.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash-ssh5.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
