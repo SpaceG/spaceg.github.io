@@ -10,6 +10,29 @@ header-img: "img/mountains.jpg"
 <h2 class="section-heading">Nmap Security Scanner for Linux-MAC-UNIX </h2>
 
 
+
+<strong> Was ist Nmap ? </strong> 
+
+
+       Nmap ("Network Mapper") ist ein Open-Source-Werkzeug fA1/4r die
+       Netzwerkanalyse und SicherheitsA1/4berprA1/4fung. Es wurde entworfen, um
+       groAe Netzwerke schnell zu scannen, auch wenn es bei einzelnen Hosts auch
+       gut funktioniert. Nmap benutzt rohe IP-Pakete auf neuartige Weise, um
+       festzustellen, welche Hosts im Netzwerk verfA1/4gbar sind, welche Dienste
+       (Anwendungsname und -version) diese Hosts bieten, welche Betriebssysteme
+       (und Versionen davon) darauf laufen, welche Art von
+       Paketfiltern/-Firewalls benutzt werden sowie Dutzende anderer
+       Eigenschaften. Auch wenn Nmap A1/4blicherweise fA1/4r
+       SicherheitsA1/4berprA1/4fungen verwendet wird, wird es von vielen Systemen
+       und Netzwerkadministratoren fA1/4r Routineaufgaben benutzt, z.B.
+       Netzwerkinventarisierung, Verwaltung von AblaufplAxnen fA1/4r
+       Dienstaktualisierungen und die Aberwachung von Betriebszeiten von Hosts
+       oder Diensten.
+
+
+
+
+
 <code> nmap hostname </code> 
 
 
