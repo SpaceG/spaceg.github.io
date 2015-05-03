@@ -88,6 +88,11 @@ You will find some Information about other Machines on your Localhost Network. Y
 If you don’t know the range, you can also use wildcards:
 
 
+
+<code>nmap -sP 192.168.0.1-25</code>
+
+
+
 Exmaple Diagram: 
 
 
