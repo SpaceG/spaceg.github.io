@@ -31,6 +31,14 @@ header-img: "img/mountains.jpg"
 
 
 
+<strong> Install and Set Up </strong> 
+
+
+Download it here <a href="https://nmap.org/download.html#macosx">nmap-6.47.dmg</a> or Run it with Terminal: First installl <a href="http://www.bzip.org/">bzip.org</a>! Promt
+in your Temrinal follow the Commanlines: 
+
+
+
 
 
 <code> nmap hostname </code> 
@@ -80,10 +88,13 @@ At last i have to lol. because i found this crazy thing here :
 Link: 
 <a href="http://nmap.org/download.html#macosx">nmap.org</a> 
 
+
+
+
+
+
+
 <blockquote>
 This is a SwissWatch! :)
-
-	
-
 </blockquote>
 
