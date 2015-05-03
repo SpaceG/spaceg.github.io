@@ -4,7 +4,7 @@ title:      ".io - Domains"
 subtitle:   "Set Up Domains"
 date:       2015-02-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-18.jpg"
+header-img: "img/picjumbo.com_Milford-Sound-New-Zeland.jpg"
 ---
 <h2 class="section-heading">.io Domains @ Namecheap.com</h2>
 
