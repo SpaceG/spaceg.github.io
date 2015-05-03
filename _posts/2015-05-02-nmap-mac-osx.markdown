@@ -80,6 +80,9 @@ PORT STATE SERVICE
 <strong> Scan & List a Range of Local Network IP’s </strong> 
 
 
+<code>nmap -sP 192.168.0.1-25</code>
+
+
 Exmaple Diagram: 
 
 
