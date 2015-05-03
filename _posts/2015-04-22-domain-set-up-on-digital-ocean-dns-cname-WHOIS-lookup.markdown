@@ -4,7 +4,7 @@ title:      "Domain Set Up - DNS - Cname - WHOIS - Lookup"
 subtitle:   "Set Up on Digital Ocean + NameCheap"
 date:       2015-04-22 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/10516837_316412275150808_3623689941493367315_n.png"
+header-img: "img/nordseestraende.jpg"
 ---
 
 <h2 class="section-heading"><strong>Domain DNS - Cname - WHOIS - Lookup</strong> </h2>
