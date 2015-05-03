@@ -81,7 +81,7 @@ Save a ll your Settings !
 </a>
 -->
 
-
+<!--
 <strong> Waterfall View</strong>
 
 DNS Lookup,
@@ -128,7 +128,10 @@ Document Complete,
     <img src="{{ site.baseurl }}/img/content.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-Do you can see rest of the Web Page Test <a href="https://www.webpagetest.org/result/150430_1T_ER/">here</a> 
+
+-->
+
+Do you can see the Web Page Test <a href="https://www.webpagetest.org/result/150430_1T_ER/">here</a> 
 
 
 
