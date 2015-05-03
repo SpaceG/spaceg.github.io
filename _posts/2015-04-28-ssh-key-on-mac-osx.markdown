@@ -109,8 +109,9 @@ Diagramm of my SSH Sketches!
 
 
 
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/Lucas_Gatsas-Firewall_ssh.jpg" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/dia_01_ssh_tube_bylucas-gatsas.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
