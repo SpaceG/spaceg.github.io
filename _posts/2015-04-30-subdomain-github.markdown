@@ -190,17 +190,6 @@ and <code> curl -I yourdomian.com </code>
 
 After 24 Hours i checked out my Nameservers! Awesome to see the Changes! 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/cloudflare-terminal.png" style="width:100%" alt="Lucas Gatsas">
-</a>
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/dig-lucas-gatsas.png" style="width:100%" alt="Lucas Gatsas">
-</a>
-
-
 
 Status: 
 <a href="#">
