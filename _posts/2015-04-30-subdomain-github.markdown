@@ -197,7 +197,7 @@ After 24 Hours i checked out my Nameservers! Awesome to see the Changes!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/edewd.png" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/dig-lucas-gatsas.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
@@ -218,7 +218,7 @@ Choose <code> "Always use https."</code>
 Click <code> "Add rule." </code>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/dig-lucas-gatsas.png" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/page-rules-01.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
