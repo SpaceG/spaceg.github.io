@@ -4,7 +4,7 @@ title:      "Subdomain Name for Github"
 subtitle:   "Subdomains Set Up on Github"
 date:       2015-04-30 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lg.jpg"
+header-img: "img/nimbusLOT-72.jpg"
 ---
 <h2 class="section-heading">Setting up a custom domain with GitHub Pages</h2>
 <h2 class="section-heading">DNS for GitHub Pages</h2>
