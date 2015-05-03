@@ -77,6 +77,8 @@ PORT STATE SERVICE
 7.Find and remove computers which don't meet the organization's minimum level of security.
 
 
+<strong> Scan & List a Range of Local Network IP’s </strong> 
+
 
 Exmaple Diagram: 
 
