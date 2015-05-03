@@ -39,7 +39,7 @@ in your Temrinal follow the Commanlines:
 
 To install using <a href="https://www.macports.org/">MacPorts</a>, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.
 
-
+<strong> Example Ports Show Up after entrie NetWork Scanning! </strong>
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
