@@ -95,6 +95,12 @@ If you don’t know the range, you can also use wildcards:
 <strong>Scan & Detect Operating System</strong>
 
 
+<code>
+nmap -O 192.168.0.1-5</code>
+
+
+
+
 Exmaple Diagram: 
 
 
