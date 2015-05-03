@@ -35,10 +35,6 @@ My Screenshot
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/emacs3.png" style="width:100%" alt="Lucas Gatsas">
-</a>
-
 
 Update Post soon!
 
