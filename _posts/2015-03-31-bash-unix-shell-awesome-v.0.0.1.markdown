@@ -17,10 +17,6 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/bash1.png" style="width:100%" alt="Lucas Gatsas">
-</a>
-
 Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://bashawesome.github.io/)
 
 <a href="#">
