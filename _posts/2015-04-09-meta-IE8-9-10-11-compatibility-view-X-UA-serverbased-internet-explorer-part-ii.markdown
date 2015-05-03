@@ -90,18 +90,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 
 
-
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/microsoft.-ie33.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
-
-<blockquote> Before </blockquote>
-
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
