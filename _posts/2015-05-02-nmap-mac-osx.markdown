@@ -40,39 +40,23 @@ in your Temrinal follow the Commanlines:
 To install using <a href="https://www.macports.org/">MacPorts</a>, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.
 
 
-<!--
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-var IE = null;
+PORT STATE SERVICE
 
-if (window.navigator.appName == "Microsoft Internet Explorer") {
-  
-  if (document.documentMode) {
+22/tcp open ssh
 
-    // Internet Explorer 8
+80/tcp open http
 
-    IE = document.documentMode; // documentMode = 8
+445/tcp open microsoft-ds
 
-    } else {
+548/tcp open afp
 
+6817/tcp open unknown
 
-      // Internet Explorer 5-11
-
-        IE = 5; //setzt the Quirks-Modus
-
-          if (document.compatMode) {
-  
-      if (document.compatMode == "CSS1Compat")
-
-
-      IE = 11; // IE11 Modus
-
-      }
-    }
-  }
-
-</pre></pre></div> -->
+</pre></pre></div> 
 
 <code> nmap hostname </code> 
 
