@@ -14,7 +14,7 @@ header-img: "img/1280px-Dresden,_Zwinger,_Mathematisch-Physikalischer_Salon,_Lou
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh-keygen.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash-ssh-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
@@ -37,7 +37,7 @@ press Enter to get your Key - Gen !
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh-keygen-1.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash-ssh-2.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
@@ -49,7 +49,7 @@ add <code> ssh-add -l </code> to see your <code> .ssh/id_rsa  </code>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh-keygen-2.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash-ssh-3.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
@@ -69,7 +69,7 @@ This is The Private Key !
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh-keygen-3.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash-ssh-4.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
@@ -80,7 +80,7 @@ Type following Commandline : <code>cat id_rsa.pub </code>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh-keygen-4.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/bash-ssh-5.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
