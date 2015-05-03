@@ -96,7 +96,7 @@ Update Post soon. !
 	
 
 
-Diagramm of a SSH Tunel! 
+Diagramm of my SSH Sketches! 
 
 
 
