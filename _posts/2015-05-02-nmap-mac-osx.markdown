@@ -89,7 +89,9 @@ If you don’t know the range, you can also use wildcards:
 
 
 
-<code>nmap -sP 192.168.0.1-25</code>
+<code>nmap 192.168.0.*</code>
+
+
 
 
 
