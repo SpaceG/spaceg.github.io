@@ -79,9 +79,8 @@ PORT STATE SERVICE
 
 <strong> Scan & List a Range of Local Network IP’s </strong> 
 
-You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 
+You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 192.169.0.25 </code> change numbers as appropritae: 
 
-You can also find information about other machines on your local network. We’ll assume your LAN has an IP range of 192.168.0.1 to 192.168.0.25, change those numbers as appropriate:
 
 <code>nmap -sP 192.168.0.1-25</code>
 
