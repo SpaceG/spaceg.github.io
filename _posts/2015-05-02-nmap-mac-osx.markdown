@@ -39,6 +39,8 @@ in your Temrinal follow the Commanlines:
 
 To install using <a href="https://www.macports.org/">MacPorts</a>, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.
 
+
+<!--
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
@@ -70,7 +72,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     }
   }
 
-</pre></pre></div>
+</pre></pre></div> -->
 
 <code> nmap hostname </code> 
 
