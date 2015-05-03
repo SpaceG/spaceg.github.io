@@ -37,9 +37,40 @@ header-img: "img/mountains.jpg"
 Download it here <a href="https://nmap.org/download.html#macosx">nmap-6.47.dmg</a> or Run it with Terminal: First installl <a href="http://www.bzip.org/">bzip.org</a>! Promt
 in your Temrinal follow the Commanlines: 
 
+To install using MacPorts, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+var IE = null;
+
+if (window.navigator.appName == "Microsoft Internet Explorer") {
+  
+  if (document.documentMode) {
+
+    // Internet Explorer 8
+
+    IE = document.documentMode; // documentMode = 8
+
+    } else {
 
 
+      // Internet Explorer 5-11
 
+        IE = 5; //setzt the Quirks-Modus
+
+          if (document.compatMode) {
+  
+      if (document.compatMode == "CSS1Compat")
+
+
+      IE = 11; // IE11 Modus
+
+      }
+    }
+  }
+
+</pre></pre></div>
 
 <code> nmap hostname </code> 
 
