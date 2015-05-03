@@ -27,9 +27,6 @@ Test: Run <code> npm -v. </code> The version should be higher than <code> 2.1.8.
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/npm1-2.png" style="width:100%" alt="Lucas Gatsas">
-</a>
 
 <table class="table">
         <thead>
