@@ -14,6 +14,44 @@ header-img: "img/mountains.jpg"
 
 
 
+1.What computers did you find running on the local network?
+
+2.What IP addresses did you find running on the local network?
+
+3.What is the operating system of your target machine?
+
+4.Find out what ports are open on the machine that you just scanned?
+
+5.Find out if the system is infected with malware or virus.
+
+6.Search for unauthorized servers or network service on your network.
+
+7.Find and remove computers which don't meet the organization's minimum level of security.
+
+
+
+Exmaple Diagram: 
+
+
+
+                              +---------+
+        +---------+           | Network |         +--------+
+        | server1 |-----------+ swtich  +---------|server2 |
+        +---------+           | (sw0)   |         +--------+
+                              +----+----+
+                                   |
+                                   |
+                         +---------+----------+
+                         | wks01 Linux/OSX    |
+                         +--------------------+
+
+
+<blockquote id="strict-alert-red">
+Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only your Network and Computers, Websites etc.  as follows:
+
+    
+
+</blockquote>
 
 
 At last i have to lol. because i found this crazy thing here : 
