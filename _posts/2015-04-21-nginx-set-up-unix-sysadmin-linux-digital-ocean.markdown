@@ -4,7 +4,7 @@ title:      "Installing nginx on a Virtual Server"
 subtitle:   "Set Up it to Digital Ocean"
 date:       2015-04-21 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucasgatsas-19.jpg"
+header-img: "img/nimbusLOT-72.jpg"
 ---
 
 <h2 class="section-heading"><strong>nginx on a Virtual server</strong> </h2>
