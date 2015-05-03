@@ -50,10 +50,12 @@ The Genius would, of course, if we can organize in the Green (Switzerland), a ha
 
 New Toys for my Raspberry PI ["I'm Gonna Build A BotBase" :)!]
 
+
+<!--
 <a href="#">
     <img src="{{ site.baseurl }}/img/lucas-gatsas.JPG" alt="Lucas Gatsas"  style="width:100%">
 </a>
-
+-->
 
 <table class="table">
         <thead>
