@@ -791,11 +791,6 @@ Merge just <strong>one specific commit</strong> from another branch to your curr
 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/p0198vg4.jpg" alt="Lucas Gatsas" style="width:100%">
-</a>
-
-
 <small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small>
 
 
