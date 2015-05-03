@@ -104,7 +104,7 @@ Diagramm of a SSH Tunel!
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ssh_tunnel.jpg" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/lucasgatsas_grafic.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
 
