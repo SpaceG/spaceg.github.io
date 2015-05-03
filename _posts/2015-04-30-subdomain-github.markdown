@@ -222,13 +222,13 @@ Click <code> "Add rule." </code>
 </a>
 
 
-
+<!--
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssl-cludflare.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-
+-->
 
 Link: 
 <a href="https://namecheap.com/">namecheap.com</a> 
