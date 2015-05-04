@@ -18,27 +18,6 @@ header-img: "img/mountains.jpg"
 
 
 
-<code>
-nmap --osscan-guess 192.168.0.2 </code>
-
-
-Exmaple Diagram: 
-
-
-
-                              +---------+
-        +---------+           | Network |         +--------+
-        | server1 |-----------+ swtich  +---------|server2 |
-        +---------+           | (sw0)   |         +--------+
-                              +----+----+
-                                   |
-                                   |
-                         +---------+----------+
-                         | wks01 Linux/OSX    |
-                         +--------------------+
-
-
-
 <blockquote id="strict-alert-red">
 Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only <strong>your Network </strong> and <strong> Computers, Websites </strong> etc.  as follows:
 </blockquote>
