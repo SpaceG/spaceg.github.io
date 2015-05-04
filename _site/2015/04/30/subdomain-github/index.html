@@ -1,3 +1,10 @@
+<!-- 
+---
+layout: compress
+---
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,42 +16,18 @@
       welcome to my website! 
       follow me at my twitter  
       https://www.twitter.com/LucasGatsas
+      www.lucasgatsas.ch - switzerland. 
 
                                                     --> 
 
 
 
-<!--
 
-               MMM.           .MMM
-               MMMMMMMMMMMMMMMMMMM
-               MMMMMMMMMMMMMMMMMMM      ____________________________
-              MMMMMMMMMMMMMMMMMMMMM    |                            |
-             MMMMMMMMMMMMMMMMMMMMMMM   | Hello World, Welcome:)     |
-            MMMMMMMMMMMMMMMMMMMMMMMM   |_   ________________________|
-            MMMM::- -:::::::- -::MMMM    |/
-             MM~:~   ~:::::~   ~:~MM
-        .. MMMMM::. .:::+:::. .::MMMMM ..
-              .MM::::: ._. :::::MM.
-                 MMMM;:::::;MMMM
-          -MM        MMMMMMM
-          ^  M+     MMMMMMMMM
-              MMMMMMM MM MM MM
-                   MM MM MM MM
-                   MM MM MM MM
-                .~~MM~MM~MM~MM~~.
-             ~~~~MM:~MM~~~MM~:MM~~~~
-            ~~~~~~==~==~~~==~==~~~~~~
-             ~~~~~~==~==~==~==~~~~~~
-                 :~==~==~==~==~~
-
-
-                -->
-
+<!-- this fucking ssl drives me fucking mad --> 
 
 
 <script type="text/javascript">
-var host = "";
+var host = "https://lucasgatsas.ch/";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
 </script>
@@ -64,14 +47,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 var IE = null;
 if (window.navigator.appName == "Microsoft Internet Explorer") {
   if (document.documentMode) {
-    // Internet Explorer 8
-    IE = document.documentMode; // documentMode = 8 
+  
+    IE = document.documentMode; 
     } else {
-    // Internet Explorer 5-11
-        IE = 5; //setzt the Quirks-Modus
+   
+        IE = 5; 
           if (document.compatMode) {
       if (document.compatMode == "CSS1Compat")
-      IE = 11; //IE11 Modus // Change here the Current Version of the Browser
+      IE = 11; 
       }
     }
   }
@@ -86,14 +69,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <!-- Site Desciption --> 
     <meta name="keywords" content="Lucas Gatsas, Gatsas, Web Developer, Front End Engineer">
     <!-- Favicon --> 
-    <link rel="shortcut icon" href="https://spaceg.github.io/img/favicon-7326478236.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://lucasgatsas.ch/img/favicon-7326478236.png" type="image/x-icon" />
     <!-- Blog Title -->
     <title>Lucas Gatsas - Web Developer & Front-End Engineer from Switzerland. </title>
 
     <!--     <title>Subdomain Name for Github - l.g</title>
 --> 
     <!-- Property Metas --> 
-    <meta property="og:image" content="/img/93TyTG3x.png"/>
+    <meta property="og:image" content="https://lucasgatsas.ch/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"/>
     <!-- Canonical -->
@@ -188,14 +171,12 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 <body>
+
+	
 <div id="preloader">
-    <div id="status">
+    <div id="status"></div>
 
-
-
-    </div>
-
-</div>
+</div>  
 
     
 <!-- Navigation -->
@@ -255,7 +236,7 @@ $('.navbar-collapse ul li a').click(function() {
                         <div class="modal-body">
                             <h1 class="font-style-inline-small-h1">Lucas Gatsas</h1>
                             <hr class="star-primary">
-                            <img src="/img/93TyTG3x.png" class="img-responsive img-centered" alt="Lucas Gatsas">
+                            <img src="https://lucasgatsas.ch/img/93TyTG3x.png" class="img-responsive img-centered" alt="Lucas Gatsas">
                             <p class="font-style-inline-small">
                                 Hello, my name is Lucas Gatsas, I'm a Front End Engineer <br>
                                 and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon!  <br>
@@ -308,7 +289,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/lg.jpg')" alt="Lucas Gatsas">
+<header class="intro-header" style="background-image: url('/img/nimbusLOT-72.jpg')" alt="Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -383,9 +364,10 @@ and configuring (IP/ Adress/URL to <code> 192.30.252.153 </code> and the Record 
 </a>
 -->
 
-<p><strong> Waterfall View</strong></p>
+<!--
+<strong> Waterfall View</strong>
 
-<p>DNS Lookup,
+DNS Lookup,
 Initial Connection,
 SSL Negotiation,
 Time to First Byte,
@@ -396,33 +378,45 @@ Start Render,
 msFirstPaint,
 DOM Content Loaded,
 On Load,
-Document Complete,</p>
+Document Complete,
 
-<p><a href="#">
-    <img src="/img/waterfall-view-001.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
 
-<p><strong> Connection View</strong></p>
+<a href="#">
+    <img src="/img/waterfall-view-001.png" style="width:100%" alt="Lucas Gatsas">
+</a>
 
-<p>DNS Lookup,
+
+
+<strong> Connection View</strong>
+
+
+DNS Lookup,
 Initial Connection,
 SSL Negotiation,
 Start Render,
 DOM Content Loaded,
 On Load,
-Document Complete,</p>
+Document Complete,
 
-<p><a href="#">
-    <img src="/img/connenction-view.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
 
-<p><a href="#">
-    <img src="/img/content.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
+<a href="#">
+    <img src="/img/connenction-view.png" style="width:100%" alt="Lucas Gatsas">
+</a>
 
-<p>Do you can see rest of the Web Page Test <a href="http://www.webpagetest.org/result/150430_1T_ER/">here</a> </p>
 
-<p>Update to the CloudFlare. </p>
+
+
+
+<a href="#">
+    <img src="/img/content.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+-->
+
+<p>Do you can see the Web Page Test <a href="https://www.webpagetest.org/result/150430_1T_ER/">here</a> </p>
+
+<p>Update to the <a href="https://www.cloudflare.com">CloudFlare. </a> </p>
 
 <p>First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </code> Record. </p>
 
@@ -436,18 +430,66 @@ Document Complete,</p>
     <img src="/img/namecheap-servers-to-cloudflare.png" style="width:100%" alt="Lucas Gatsas" />
 </a></p>
 
+<p>Set Up your <code> https:// </code></p>
+
+<p><a href="#">
+    <img src="/img/offline_over_https Kopie.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+If you Stuck, contact they. Awesome Supporters Outhere! </p>
+
+<p><a href="#">
+    <img src="/img/ssl-cloudflare.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
 <p>Open your Terminal : See your Changes : </p>
 
 <p>Dig your domian : <code> $ dig yourdomian.com </code> </p>
 
 <p>and <code> curl -I yourdomian.com </code> </p>
 
+<p>After 24 Hours i checked out my Nameservers! Awesome to see the Changes! </p>
+
 <p><a href="#">
-    <img src="/img/index.png" style="width:100%" alt="Lucas Gatsas" />
+    <img src="/img/dig-lucas-gatsas.png" style="width:100%" alt="Lucas Gatsas" />
 </a></p>
 
+<p>Status: 
+<a href="#">
+    <img src="/img/ssl-cludflare-best.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>To automatically forward HTTP requests to <code>HTTPS </code>, you can create a Page Rule by:</p>
+
+<p>Open the Page Rules interface.
+Entering <code> http://*lucasgatsas.ch/* </code> as the URL pattern.</p>
+
+<p>Choose <code> "Always use https."</code></p>
+
+<p>Click <code> "Add rule." </code></p>
+
+<p><a href="#">
+    <img src="/img/page-rules-01.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<!--
+
+<a href="#">
+    <img src="/img/ssl-cludflare.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+-->
+
+<p>Link: 
+<a href="https://namecheap.com/">namecheap.com</a> 
+Link: 
+<a href="https://cloudflare.com">cloudflare.com</a> 
+Link: 
+<a href="https://github.com">github.com</a> </p>
+
 <blockquote>
-Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge and thrill, and now hacking is big business. - Kevin Mitnick 
+This is a SwissWatch! :)
 
 	
 
@@ -462,6 +504,10 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
                         <a href="/2015/04/28/ssh-key-on-mac-osx/" data-toggle="tooltip" data-placement="top" title="SSH - Key on Mac Os X">&larr; Previous Post</a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/2015/05/02/nmap-mac-osx/" data-toggle="tooltip" data-placement="top" title="Nmap Security Scanner for Linux-MAC-UNIX">Next Post &rarr;</a>
+                    </li>
                     
                 </ul>
 
@@ -518,7 +564,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
                     </li>
                     
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; l.g 2015 - 2016. <br> 2013, 2014, 2015 <br> 
+                <p class="copyright text-muted">Copyright &copy; l.g 2015 - 2016. <br> 2014, 2015 <br> 
                 </p>
 <div class="col-md-12">
      <p class="copyright text-muted"> Running with
@@ -539,15 +585,18 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
 <script src="/js/bootstrap.min.js "></script>
 
 
+
 <script type="text/javascript">
-  //<![CDATA[
-    $(window).load(function() { // makes sure the whole site is loaded
-      $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(100).fadeOut('fast'); // will fade out the white DIV that covers the website.
+ 
+    $(window).load(function() { 
+      $('#status').fadeOut(); 
+      $('#preloader').delay(100).fadeOut('fast'); 
       $('body').delay(50).css({'overflow':'visible'});
     })
-  //]]>
-</script> 
+
+</script>  
+
+
 <script>
   !function ($) {
     $(function(){
@@ -555,6 +604,8 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
     })
   }(window.jQuery)
 </script>
+ 
+<!--
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -564,7 +615,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
   ga('create', 'UA-53988504-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script> --> 
 
 
 

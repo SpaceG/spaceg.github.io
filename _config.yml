@@ -1,3 +1,6 @@
+
+
+
 # Site settings Update for my Blog : spaceg.github.io Do.9.April 15.49:24 2015 
 title: l.g
 email: lucasgatsas@gmail.com
@@ -8,6 +11,7 @@ twitter_username: LucasGatsas
 github_username:  spaceg
 google_username:  https://plus.google.com/101826267816845608605/posts
 
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
@@ -16,5 +20,15 @@ paginate:
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 paginate: 5 #posts per page
+
+
+
+compress_html:
+  clippings: [div, p, ul, td, h1, h2]
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+
 
 

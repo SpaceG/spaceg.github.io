@@ -5,9 +5,128 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://lucasgatsas.ch/</link>
     <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Apr 2015 05:25:40 +0200</pubDate>
-    <lastBuildDate>Thu, 30 Apr 2015 05:25:40 +0200</lastBuildDate>
+    <pubDate>Mon, 04 May 2015 03:05:12 +0200</pubDate>
+    <lastBuildDate>Mon, 04 May 2015 03:05:12 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Nmap Security Scanner for Linux-MAC-UNIX</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nmap for Mac Os X - Linux&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Nmap Security Scanner for Linux-MAC-UNIX &lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; Was ist Nmap ? &lt;/strong&gt; &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   Nmap (&quot;Network Mapper&quot;) ist ein Open-Source-Werkzeug fA1/4r die
+   Netzwerkanalyse und SicherheitsA1/4berprA1/4fung. Es wurde entworfen, um
+   groAe Netzwerke schnell zu scannen, auch wenn es bei einzelnen Hosts auch
+   gut funktioniert. Nmap benutzt rohe IP-Pakete auf neuartige Weise, um
+   festzustellen, welche Hosts im Netzwerk verfA1/4gbar sind, welche Dienste
+   (Anwendungsname und -version) diese Hosts bieten, welche Betriebssysteme
+   (und Versionen davon) darauf laufen, welche Art von
+   Paketfiltern/-Firewalls benutzt werden sowie Dutzende anderer
+   Eigenschaften. Auch wenn Nmap A1/4blicherweise fA1/4r
+   SicherheitsA1/4berprA1/4fungen verwendet wird, wird es von vielen Systemen
+   und Netzwerkadministratoren fA1/4r Routineaufgaben benutzt, z.B.
+   Netzwerkinventarisierung, Verwaltung von AblaufplAxnen fA1/4r
+   Dienstaktualisierungen und die Aberwachung von Betriebszeiten von Hosts
+   oder Diensten.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt; Install and Set Up &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Download it here &lt;a href=&quot;https://nmap.org/download.html#macosx&quot;&gt;nmap-6.47.dmg&lt;/a&gt; or Run it with Terminal: First installl &lt;a href=&quot;http://www.bzip.org/&quot;&gt;bzip.org&lt;/a&gt;! Promt
+in your Temrinal follow the Commanlines: &lt;/p&gt;
+
+&lt;p&gt;To install using &lt;a href=&quot;https://www.macports.org/&quot;&gt;MacPorts&lt;/a&gt;, run &lt;code&gt; sudo port install nmap &lt;/code&gt;. Nmap will be installed as &lt;code&gt; /opt/local/bin/nmap &lt;/code&gt;. To uninstall, run sudo port uninstall nmap.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Example Ports Show Up after entire NetWork Scanning! &lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+PORT STATE SERVICE
+
+22/tcp open ssh
+
+80/tcp open http
+
+445/tcp open microsoft-ds
+
+548/tcp open afp
+
+6817/tcp open unknown
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt; nmap hostname &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;1.What computers did you find running on the local network?&lt;/p&gt;
+
+&lt;p&gt;2.What IP addresses did you find running on the local network?&lt;/p&gt;
+
+&lt;p&gt;3.What is the operating system of your target machine?&lt;/p&gt;
+
+&lt;p&gt;4.Find out what ports are open on the machine that you just scanned?&lt;/p&gt;
+
+&lt;p&gt;5.Find out if the system is infected with malware or virus.&lt;/p&gt;
+
+&lt;p&gt;6.Search for unauthorized servers or network service on your network.&lt;/p&gt;
+
+&lt;p&gt;7.Find and remove computers which don’t meet the organization’s minimum level of security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Scan &amp;amp; List a Range of Local Network IP’s &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  &lt;code&gt; 192.169.0.1&lt;/code&gt; to &lt;code&gt; 192.169.0.25 &lt;/code&gt; change numbers as appropritae: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap -sP 192.168.0.1-25&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don’t know the range, you can also use wildcards:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap 192.168.0.*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scan &amp;amp; Detect Operating System&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+nmap -O 192.168.0.1-5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+nmap --osscan-guess 192.168.0.2 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Exmaple Diagram: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                          +---------+
+    +---------+           | Network |         +--------+
+    | server1 |-----------+ swtich  +---------|server2 |
+    +---------+           | (sw0)   |         +--------+
+                          +----+----+
+                               |
+                               |
+                     +---------+----------+
+                     | wks01 Linux/OSX    |
+                     +--------------------+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote id=&quot;strict-alert-red&quot;&gt;
+Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only &lt;strong&gt;your Network &lt;/strong&gt; and &lt;strong&gt; Computers, Websites &lt;/strong&gt; etc.  as follows:
+&lt;/blockquote&gt;
+
+&lt;p&gt;At last i have to lol. because i found this crazy thing here : 
+&lt;a href=&quot;http://nmap.org/movies/#elysium&quot;&gt;Nmap in Movies!&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Link: 
+&lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+This is a SwissWatch! :)
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 02 May 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/05/02/nmap-mac-osx/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/05/02/nmap-mac-osx/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Subdomain Name for Github</title>
@@ -64,9 +183,10 @@ and configuring (IP/ Adress/URL to &lt;code&gt; 192.30.252.153 &lt;/code&gt; and
 &lt;/a&gt;
 --&gt;
 
-&lt;p&gt;&lt;strong&gt; Waterfall View&lt;/strong&gt;&lt;/p&gt;
+&lt;!--
+&lt;strong&gt; Waterfall View&lt;/strong&gt;
 
-&lt;p&gt;DNS Lookup,
+DNS Lookup,
 Initial Connection,
 SSL Negotiation,
 Time to First Byte,
@@ -77,33 +197,45 @@ Start Render,
 msFirstPaint,
 DOM Content Loaded,
 On Load,
-Document Complete,&lt;/p&gt;
+Document Complete,
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/waterfall-view-001.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Connection View&lt;/strong&gt;&lt;/p&gt;
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/waterfall-view-001.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
 
-&lt;p&gt;DNS Lookup,
+
+
+&lt;strong&gt; Connection View&lt;/strong&gt;
+
+
+DNS Lookup,
 Initial Connection,
 SSL Negotiation,
 Start Render,
 DOM Content Loaded,
 On Load,
-Document Complete,&lt;/p&gt;
+Document Complete,
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/connenction-view.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/content.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/connenction-view.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
 
-&lt;p&gt;Do you can see rest of the Web Page Test &lt;a href=&quot;http://www.webpagetest.org/result/150430_1T_ER/&quot;&gt;here&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;Update to the CloudFlare. &lt;/p&gt;
+
+
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/content.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
+
+
+--&gt;
+
+&lt;p&gt;Do you can see the Web Page Test &lt;a href=&quot;https://www.webpagetest.org/result/150430_1T_ER/&quot;&gt;here&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Update to the &lt;a href=&quot;https://www.cloudflare.com&quot;&gt;CloudFlare. &lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;First Sigin in your CLoudFlare Setting up the &lt;code&gt;CNAME&lt;/code&gt; and &lt;code&gt; A &lt;/code&gt; Record. &lt;/p&gt;
 
@@ -117,18 +249,66 @@ Document Complete,&lt;/p&gt;
     &lt;img src=&quot;/img/namecheap-servers-to-cloudflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;Set Up your &lt;code&gt; https:// &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/offline_over_https Kopie.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+If you Stuck, contact they. Awesome Supporters Outhere! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssl-cloudflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Open your Terminal : See your Changes : &lt;/p&gt;
 
 &lt;p&gt;Dig your domian : &lt;code&gt; $ dig yourdomian.com &lt;/code&gt; &lt;/p&gt;
 
 &lt;p&gt;and &lt;code&gt; curl -I yourdomian.com &lt;/code&gt; &lt;/p&gt;
 
+&lt;p&gt;After 24 Hours i checked out my Nameservers! Awesome to see the Changes! &lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/index.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+    &lt;img src=&quot;/img/dig-lucas-gatsas.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;Status: 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssl-cludflare-best.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To automatically forward HTTP requests to &lt;code&gt;HTTPS &lt;/code&gt;, you can create a Page Rule by:&lt;/p&gt;
+
+&lt;p&gt;Open the Page Rules interface.
+Entering &lt;code&gt; http://*lucasgatsas.ch/* &lt;/code&gt; as the URL pattern.&lt;/p&gt;
+
+&lt;p&gt;Choose &lt;code&gt; &quot;Always use https.&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;code&gt; &quot;Add rule.&quot; &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/page-rules-01.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssl-cludflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;p&gt;Link: 
+&lt;a href=&quot;https://namecheap.com/&quot;&gt;namecheap.com&lt;/a&gt; 
+Link: 
+&lt;a href=&quot;https://cloudflare.com&quot;&gt;cloudflare.com&lt;/a&gt; 
+Link: 
+&lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt; &lt;/p&gt;
+
 &lt;blockquote&gt;
-Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge and thrill, and now hacking is big business. - Kevin Mitnick 
+This is a SwissWatch! :)
 
 	
 
@@ -148,7 +328,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
 &lt;h2 class=&quot;section-heading&quot;&gt;The Key Set Up.&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/ssh-keygen.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/bash-ssh-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Enter Commandlines :&lt;/p&gt;
@@ -166,7 +346,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
 &lt;p&gt;press Enter to get your Key - Gen ! &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/ssh-keygen-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/bash-ssh-2.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Type &lt;code&gt; ssh-add &lt;/code&gt; and press Enter!&lt;/p&gt;
@@ -174,7 +354,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
 &lt;p&gt;add &lt;code&gt; ssh-add -l &lt;/code&gt; to see your &lt;code&gt; .ssh/id_rsa  &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/ssh-keygen-2.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/bash-ssh-3.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;follow steps : &lt;/p&gt;
@@ -188,7 +368,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
 &lt;p&gt;—–BEGIN RSA PRIVATE KEY—–&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/ssh-keygen-3.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/bash-ssh-4.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now : Check out the Public Key : &lt;/p&gt;
@@ -196,7 +376,7 @@ Hackers are breaking the systems for profit. Before, it was about intellectual c
 &lt;p&gt;Type following Commandline : &lt;code&gt;cat id_rsa.pub &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/ssh-keygen-4.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/bash-ssh5.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Next Step ! Login In your Root Server!
@@ -204,15 +384,17 @@ Update Post soon. ! &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Diagramm of a SSH Tunel! &lt;/p&gt;
+&lt;p&gt;Diagramm of my SSH Sketches! &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/ssh_tunnel.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/lucasgatsas_grafic.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/Lucas_Gatsas-Firewall_ssh.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/dia_01_ssh_tube_bylucas-gatsas.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketches by Lucas Gatsas : Free to Use&lt;/p&gt;
 
 &lt;!--
 &lt;strong&gt; Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model &lt;/strong&gt;
@@ -488,10 +670,6 @@ server {
 
 &lt;p&gt;nginx should now start up, and you can test that everything works by navigating to &lt;code&gt;http://localhost&lt;/code&gt; in your browser.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/concurrency.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;If you have problems starting up nginx, a common problem is that the port that nginx is configured to listen to is already in use. If you changed the port to &lt;code&gt;80&lt;/code&gt;, then this could be an Apache web server or Skype, for instance.&lt;/p&gt;
 
 &lt;p&gt;Should you need to stop nginx, then you can do so with the below command.&lt;/p&gt;
@@ -499,10 +677,6 @@ server {
 &lt;p&gt;&lt;code&gt;sudo nginx -s stop&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;As you have seen, nginx is very simple to install and set up on OS X Yosemite!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/realtime4.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 “Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
@@ -558,9 +732,11 @@ Science.&lt;/p&gt;
 
 &lt;p&gt;New Toys for my Raspberry PI [“I’m Gonna Build A BotBase” :)!]&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/lucas-gatsas.JPG&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas.JPG&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
 
 &lt;table class=&quot;table&quot;&gt;
         &lt;thead&gt;
@@ -664,12 +840,6 @@ if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
 &lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/microsoft.-ie33.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt; Before &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/microsoft.-ie-1.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -699,290 +869,6 @@ WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
         <pubDate>Thu, 09 Apr 2015 16:00:44 +0200</pubDate>
         <link>https://lucasgatsas.ch/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</link>
         <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Add X-UA Compatibility Mode</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Front-End Development&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Add X-UA Compatibility Mode&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;META tags for Document Compatibility&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;For individual websites a corresponding meta element can be recorded in the head section of the page. Note: this element must be in the header above all other elements. The only exception is the title element and other meta-elements&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=8&quot; /&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The Internet Explorer 8 accepts the special value for the http-equiv attribute: X-UA-Compatible (uppercase and lowercase does not matter).
-The content attribute can be one or more of the following values:&lt;/p&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-        &lt;thead&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Value&lt;/th&gt;
-            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
-          &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-          &lt;tr&gt;
-            &lt;td&gt; &lt;code&gt; IE=5 &lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The code of the page as indicated by the quirks mode in Internet Explorer 7 &lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=7&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The code of the page as indicated by the standards mode in Internet Explorer 7, excluding the / a DOCTYPE statement&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE7&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The code of the page is displayed as Internet Explorer 7, but considering the / a DOCTYPE statement (standards compliant mode as indicated by IE7 and quirks-mode, as the IE 5)&lt;/td&gt;
-          &lt;/tr&gt;
-               &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE8&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The website contains a standards-compliant DOCTYPE statement, it is in the &quot;IE8&quot; mode, on the other hand, in quirks mode (IE5 mode) shown&lt;/td&gt;
-          &lt;/tr&gt;
-                        &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=8&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The IE8- or IE8 standards mode. Note: This is the default setting for Internet Explorer 8!&lt;/td&gt;
-          &lt;/tr&gt;
-                       &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=edge&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;With this mode, the Internet Explorer (8) is instructed to use the maximum available mode. This mode is only recommended for testing.&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/tbody&gt;
-      &lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The following diagram shows how Internet Explorer determines the appropriate document mode based on the meta element or HTTP header.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/IC777593.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-        &lt;thead&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Value&lt;/th&gt;
-            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
-          &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-          &lt;tr&gt;
-            &lt;td&gt; &lt;code&gt; X-UA-Compatible value &lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Document modes &lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=5&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Quirks mode&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=7&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE7 mode&lt;/td&gt;
-          &lt;/tr&gt;
-               &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=8&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE8 mode&lt;/td&gt;
-          &lt;/tr&gt;
-                        &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=9&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE9 mode&lt;/td&gt;
-          &lt;/tr&gt;
-                       &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=10&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE10 mode&lt;/td&gt;
-          &lt;/tr&gt;
-                                &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=11&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE11 mode&lt;/td&gt;
-          &lt;/tr&gt;
-                                 &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=edge&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;The highest supported document mode of the browser&lt;/td&gt;
-          &lt;/tr&gt;
-                                     &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE7&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE7 mode (if a valid &amp;lt;!DOCTYPE&amp;gt; declaration is present)
-Quirks mode (otherwise)&lt;/td&gt;
-          &lt;/tr&gt;
-                                      &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE8&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE8 mode (if a valid &amp;lt;!DOCTYPE&amp;gt; declaration is present)
-Quirks mode (otherwise)&lt;/td&gt;
-          &lt;/tr&gt;
-                                    &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE9&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE9 mode (if a valid &amp;lt;!DOCTYPE&amp;gt; declaration is present)
-Quirks mode (otherwise)&lt;/td&gt;
-          &lt;/tr&gt;
-                                     &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE10&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE10 mode (if a valid &amp;lt;!DOCTYPE&amp;gt; declaration is present)
-Quirks mode (otherwise)&lt;/td&gt;
-          &lt;/tr&gt;
-                                      &lt;tr&gt;
-            &lt;td&gt;&lt;code&gt;IE=EmulateIE11&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;IE11 mode (if a valid &amp;lt;!DOCTYPE&amp;gt; declaration is present)
-Quirks mode (otherwise)&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/tbody&gt;
-      &lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt; Programmatic Configuration &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course, it may also be necessary for programmers and application / server operators to specify these settings for their site / application.&lt;/p&gt;
-
-&lt;p&gt;Here, too, there are two options (in order of priority):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; “Per Page” &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The “Per Page” setting has the highest priority. The meta tag entry must come first within the header tags.&lt;/p&gt;
-
-&lt;p&gt;The following options are available:&lt;/p&gt;
-
-&lt;p&gt;(1). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=5&quot;/&amp;gt; &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;This is the only way to IE8 all pages in sog “Quirks Mode” to be represented. The information about the &amp;lt;meta …&amp;gt; tag has the highest priority. Even if a !DOCTYPE is specified, it is ignored.&lt;/p&gt;
-
-&lt;p&gt;(2). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE7&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE7 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(3). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=7&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE7 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(4). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE8&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE8 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(5). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=8&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE8 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(6). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE9&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE9 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(7). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=9&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE9 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(8). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE10&quot;/&amp;gt;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE10 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(9). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=10&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE10 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(10). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE11&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If a valid DOCTYPE exists. the page is in “IE11 standards mode” shown.&lt;/p&gt;
-
-&lt;p&gt;(11). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=11&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The page is always displayed in “IE11 Standards mode”, even if no “DOCTYPE” is present&lt;/p&gt;
-
-&lt;p&gt;(12). &lt;code&gt; &amp;lt; meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;/&amp;gt; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;With this setting, the latest version of the rendering engine is used. It is irrelevant whether a “DOCTYPE” was specified or not. The operation can be compared to “IE = 7” and “IE = 8”. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; “Per Site”  &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;The “Per Site” setting has higher priority than a “DOCTYPE” indication.
-However, subject to the “Per Page” setting.&lt;/p&gt;
-
-&lt;p&gt;In principle, the Web server must also send a header “X-UA-Compatible”.
-The value corresponds to the data as in “Per Page”, also “5”&lt;/p&gt;
-
-&lt;p&gt;”EmulateIE7”,”7”,&lt;/p&gt;
-
-&lt;p&gt;”EmulateIE8”,”8”, &lt;/p&gt;
-
-&lt;p&gt;“EmulateIE9”, “9” , &lt;/p&gt;
-
-&lt;p&gt;“EmulateIE10”, “10” , &lt;/p&gt;
-
-&lt;p&gt;“EmulateIE11”, “11” &lt;/p&gt;
-
-&lt;p&gt;and “edge”. &lt;/p&gt;
-
-&lt;p&gt;If using IIS using web.config &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/cc817572.aspx&quot;&gt;http://msdn.microsoft.com/ &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;When using an Apache: &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/cc817573.aspx&quot;&gt;https://msdn.microsoft.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;VGL: &lt;a href=&quot;http://msdn.microsoft.com/library/cc817574.aspx&quot;&gt;http://msdn.microsoft.com/&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HTTP-Header&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;With the help of an HTTP header you can specify the document compatibility mode for Internet Explorer 8 for the entire site.
-For the Apache Web server, the custom header should look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;X-UA-Compatible: IE=EmulateIE7 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This header 8 would cause Internet Explorer to the website to make the way the Internet Explorer 7 it would be.
-For Apache 2.2, you can also use the headers_module. This one should make sure that the headers_module is loaded:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;LoadModule headers_module modules/mod_headers.so&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Then you can see the line:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Header set X-UA-Compatible &quot;IE=EmulateIE7&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;paste the &lt;code&gt;httpd.conf &lt;/code&gt; file behind the LoadModule lines. This directive can be also in the various configuration sections&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; (&amp;lt; Location&amp;gt;, &amp;lt; Directory&amp;gt;,&amp;lt; Files&amp;gt; und &amp;lt; VirtualHost&amp;gt;) &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Insert the server in order to more precisely control which pages should be displayed in the mode.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Javascript&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt; Internet Explorer 8 - Microsoft&lt;/h2&gt;
-
-&lt;p&gt;For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.&lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
-
-var IE = null;
-
-if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
-  
-  if (document.documentMode) {
-
-    // Internet Explorer 8
-
-    IE = document.documentMode; // documentMode = 8
-
-    } else {
-
-
-      // Internet Explorer 5-11
-
-        IE = 5; //setzt the Quirks-Modus
-
-          if (document.compatMode) {
-  
-      if (document.compatMode == &quot;CSS1Compat&quot;)
-
-
-      IE = 11; // IE11 Modus
-
-      }
-    }
-  }
-
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 04 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://lucasgatsas.ch/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</link>
-        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/</guid>
         
         
       </item>

@@ -10,34 +10,6 @@
 
 
 
-<!--
-
-               MMM.           .MMM
-               MMMMMMMMMMMMMMMMMMM
-               MMMMMMMMMMMMMMMMMMM      ____________________________
-              MMMMMMMMMMMMMMMMMMMMM    |                            |
-             MMMMMMMMMMMMMMMMMMMMMMM   | Hello World, Welcome:)     |
-            MMMMMMMMMMMMMMMMMMMMMMMM   |_   ________________________|
-            MMMM::- -:::::::- -::MMMM    |/
-             MM~:~   ~:::::~   ~:~MM
-        .. MMMMM::. .:::+:::. .::MMMMM ..
-              .MM::::: ._. :::::MM.
-                 MMMM;:::::;MMMM
-          -MM        MMMMMMM
-          ^  M+     MMMMMMMMM
-              MMMMMMM MM MM MM
-                   MM MM MM MM
-                   MM MM MM MM
-                .~~MM~MM~MM~MM~~.
-             ~~~~MM:~MM~~~MM~:MM~~~~
-            ~~~~~~==~==~~~==~==~~~~~~
-             ~~~~~~==~==~==~==~~~~~~
-                 :~==~==~==~==~~
-
-
-                -->
-
-
 
 <!-- this fucking ssl drives me fucking mad --> 
 
@@ -63,14 +35,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 var IE = null;
 if (window.navigator.appName == "Microsoft Internet Explorer") {
   if (document.documentMode) {
-    // Internet Explorer 8
-    IE = document.documentMode; // documentMode = 8 
+  
+    IE = document.documentMode; 
     } else {
-    // Internet Explorer 5-11
-        IE = 5; //setzt the Quirks-Modus
+   
+        IE = 5; 
           if (document.compatMode) {
       if (document.compatMode == "CSS1Compat")
-      IE = 11; //IE11 Modus // Change here the Current Version of the Browser
+      IE = 11; 
       }
     }
   }
