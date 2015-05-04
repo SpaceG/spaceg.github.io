@@ -14,14 +14,10 @@ Change Logs :)
 
 if you want download the theme, do you can download it. here 
 
-[CleanMagic Theme by LucasGatsas](https://github.com/SpaceG/CleanMagic) 
 
 
 
-New Link to my New Theme Coming soon! 
-
-
-
+[CleanMagic Theme by LucasGatsas](https://github.com/SpaceG/iceandfire) 
 
 
 
