@@ -12,13 +12,6 @@ header-img: "img/mountains.jpg"
 
 
 
-![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
-
-
-
-
-
-
 
 
 
