@@ -6,9 +6,8 @@ date:       2015-05-02 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/mountains.jpg"
 ---
-<h2 class="section-heading">Nmap for Mac Os X - Linux</h2>
-<h2 class="section-heading">Nmap Security Scanner for Linux-MAC-UNIX </h2>
-
+<h2 class="section-heading"> Clean Magic Medium </h2>
+<h2 class="section-heading">Jekyll Theme V.0.0.2 </h2>
 
 
 
