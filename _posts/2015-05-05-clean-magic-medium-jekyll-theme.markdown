@@ -11,7 +11,7 @@ header-img: "img/mountains.jpg"
 
 
 
-<strong> Clean Magic Medium Jekyll Theme V.0.0.2 </strong> 
+
 
 ![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
 
