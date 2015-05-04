@@ -13,7 +13,7 @@ Cheers with Club Mate!
 
 
 Twitter
-[@LucasGatsas](https://github.com/SpaceG/iceandfire) 
+[@LucasGatsas](https://twitter.com/LucasGatsas) 
 
 
 Download: 
