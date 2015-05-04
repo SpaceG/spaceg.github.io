@@ -18,17 +18,6 @@ header-img: "img/mountains.jpg"
 
 
 
-<code>nmap 192.168.0.*</code>
-
-
-<strong>Scan & Detect Operating System</strong>
-
-
-<code>
-nmap -O 192.168.0.1-5</code>
-
-
-
 <code>
 nmap --osscan-guess 192.168.0.2 </code>
 
