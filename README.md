@@ -6,6 +6,7 @@ Write in Jekyll  [Jekyll Release for the Holidays! v2.5.3 Out ](https://github.c
 
 
 Ice & Fire Theme 
+Download it <code> git clone https://github.com/SpaceG/spaceg.github.io.git</code>
 
 Download it, open it with Terminal and run <code> jekyll serve </code> 
 Have Fun! Please Star it and Fork it! 
