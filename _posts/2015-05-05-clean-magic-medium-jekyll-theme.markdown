@@ -18,10 +18,11 @@ header-img: "img/mountains.jpg"
 Fork it, Star it, And Download it!
 CleanMagicMedium V.0.0.2 - A Jekyll Theme. 
 
-[Demo](https://lucasgatsas.ch) 
 
-[Download](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
 
+<a href="https://lucasgatsas.ch">Demo</a> 
+
+<a href="https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0">Download</a> 
 
 
 Download it <code> git clone https://github.com/SpaceG/CleanMagicMedium-Jekyll.git</code>
