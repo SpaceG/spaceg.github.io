@@ -18,10 +18,6 @@ header-img: "img/mountains.jpg"
 
 
 
-<blockquote id="strict-alert-red">
-Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only <strong>your Network </strong> and <strong> Computers, Websites </strong> etc.  as follows:
-</blockquote>
-
 
 
 
