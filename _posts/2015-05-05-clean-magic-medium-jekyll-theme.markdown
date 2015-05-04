@@ -23,10 +23,10 @@ Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Sc
 </blockquote>
 
 
-At last i have to lol. because i found this crazy thing here : 
-<a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a> 
 
-Link: 
+
+
+
 <a href="http://nmap.org/download.html#macosx">nmap.org</a> 
 
 
@@ -36,6 +36,9 @@ Link:
 
 
 <blockquote>
-This is a SwissWatch! :)
+
+
+
+
 </blockquote>
 
