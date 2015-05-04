@@ -1,7 +1,7 @@
 #My Jekyll Theme for GitHub Pages. 
 
 
-Write in Jekyll 
+Write in Jekyll  [Jekyll Release for the Holidays! v2.5.3 Out ](https://github.com/jekyll/jekyll) 
 
 
 Ice & Fire Theme 
