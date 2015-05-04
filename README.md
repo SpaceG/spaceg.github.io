@@ -5,8 +5,8 @@ Write in Jekyll  [Jekyll Release for the Holidays! v2.5.3 Out ](https://github.c
 
 
 
-Ice & Fire Theme 
-Download it <code> git clone https://github.com/SpaceG/spaceg.github.io.git</code>
+CleanMagicMedium V.0.0.2
+Download it <code> git clone https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0.git</code>
 
 Download it, open it with Terminal and run <code> jekyll serve </code> 
 Have Fun! Please Star it and Fork it! 
@@ -18,7 +18,7 @@ Twitter
 
 
 Download: 
-[ICE & FIRE Theme by LucasGatsas](https://github.com/SpaceG/iceandfire) 
+[CleanMagicMedium V.0.0.2](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
 
 
 
