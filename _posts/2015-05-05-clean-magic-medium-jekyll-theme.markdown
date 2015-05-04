@@ -36,9 +36,6 @@ Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Sc
 
 
 <blockquote>
-
-
-
-
+“The client may be king but he’s not the art director.” - Von R. Glitschka, designer
 </blockquote>
 
