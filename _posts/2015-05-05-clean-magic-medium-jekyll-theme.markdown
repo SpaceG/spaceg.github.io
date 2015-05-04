@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Nmap Security Scanner for Linux-MAC-UNIX"
-subtitle:   "Install Nmap for Mac Os X - For Sys/Network Admins"
+title:      "Clean Magic Medium Jekyll Theme V.0.0.2"
+subtitle:   "Update V.0.0.2"
 date:       2015-05-02 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/mountains.jpg"
