@@ -15,9 +15,6 @@ header-img: "img/mountains.jpg"
 ![alt tag](https://lucasgatsas.ch/img/intro-theme-1.png)
 
 
-Fork it, Star it, And Download it!
-CleanMagicMedium V.0.0.2 - A Jekyll Theme. 
-
 
 
 <a href="https://lucasgatsas.ch">Demo</a> 
@@ -25,7 +22,13 @@ CleanMagicMedium V.0.0.2 - A Jekyll Theme.
 <a href="https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0">Download</a> 
 
 
-Download it <code> git clone https://github.com/SpaceG/CleanMagicMedium-Jekyll.git</code>
+Fork it, Star it, And Download it!
+CleanMagicMedium V.0.0.2 - A Jekyll Theme. 
+
+
+
+Download it <code> git clone https://github.com/
+SpaceG/CleanMagicMedium-Jekyll.git</code>
 
 Download it, open it with Terminal and run <code> jekyll serve </code> 
 Have Fun! Please Star it and Fork it! 
