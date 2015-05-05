@@ -14,7 +14,7 @@ RubyGems is the official packaging system for <a href="https://www.ruby-lang.org
 
 Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:
 
-<strong> Use </code>
+<strong> Use </strong>
 
 	RubyGems be accessed via the command line acc.
 
