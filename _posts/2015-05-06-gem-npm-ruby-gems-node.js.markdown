@@ -22,7 +22,7 @@ Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to 
 <pre style="color:black;background:white;"><pre>
 
 require 'json'        # aktuelle Version
-gem 'rake', '= 0.8.1' # mit Versionsangabe
+gem 'rake', '= 10.1.0' # mit Versionsangabe
 
 
 </pre></pre></div> 
