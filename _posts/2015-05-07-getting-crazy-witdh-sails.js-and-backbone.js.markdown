@@ -10,6 +10,8 @@ header-img: "img/waves.JPG"
 <h2 class="section-heading">Amazing Workflow on Github - Remote Work</h2>
 
 
+Sails.js is very Awesome! I'm now fit in the Workflow of sails.js! After some Horrible learning Sessions! I Love all these Modern javascript Frameworks outhere! We are currently working on Remote and Testing everyday our Start! - 
+
 
 
 

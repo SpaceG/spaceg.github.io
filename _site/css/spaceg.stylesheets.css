@@ -2,20 +2,20 @@
 Top spaceg.stylesheets.css
  spaceg.github.io by Lucas Gatsas. 
 
- ///lucasgatsas.io///
+ ///lucasgatsas.ch///
 
 /// https://www.twitter.com/LucasGatsas //// 
 
  */
  /* New Update Mo. 2 Feb. 2015 -02:33:45*/
-/* New Update Fr. 6 Feb. 2015 -01:57:13 */
+/* New Update Fr. 06 Feb. 2015 -01:57:13 */
 /* New Update Sa. 21. February. 2015 -02:58:16*/
 /* New Update Fr. 27. February. 2015 -21:53:19*/
 /* New Update Mo. 06. April. 2015 -09:16:07*/
 /* New Update Mo. 09. April. 2015 -14:31:47*/
 /* New Update Sa. 25. April. 2015 -16:47:32ƒ*/
 /* New Update Sa. 26. April. 2015 -00:26:13ƒ*/
-
+/* New Update Di. 05. May. 2015 -22:26:13ƒ*/
 
 	.pagination{
 		display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}.pagination.jscroll-next-parent{display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}#pagination{display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}#pagination.jscroll-next-parent{display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px}
@@ -213,4 +213,6 @@ font-size: 20px;
 }
  
 
-
+img.img-circle.portfolio-link.img-responsive {
+  cursor: pointer;
+}
