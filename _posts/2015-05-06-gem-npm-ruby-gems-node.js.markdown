@@ -4,7 +4,7 @@ title:      "Ruby Gems"
 subtitle:   "Get Started with Gem Files and Npm Install Packages"
 date:       2015-05-06 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/mountains.jpg"
+header-img: "img/diamond_age.jpg"
 ---
 <h2 class="section-heading"> Ruby Gems</h2>
 <h2 class="section-heading">Make your Own Gem</h2>
