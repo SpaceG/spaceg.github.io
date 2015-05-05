@@ -21,14 +21,3 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 paginate: 5 #posts per page
 
-
-
-compress_html:
-  clippings: [div, p, ul, td, h1, h2]
-  comments: []
-  endings: []
-  ignore:
-    envs: []
-
-
-
