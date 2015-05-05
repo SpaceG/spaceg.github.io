@@ -14,6 +14,10 @@ RubyGems is the official packaging system for <a href="https://www.ruby-lang.org
 
 Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:
 
+<strong> Use </code>
+
+	RubyGems be accessed via the command line acc.
+
 
 
 <stromg> Example :</strong> 
@@ -26,6 +30,12 @@ gem 'rake', '= 10.1.0' # mit Versionsangabe
 
 
 </pre></pre></div> 
+
+<strong>Gem Installation : Rake  </strong>
+
+Download and install rake with the following.
+<code> gem install rake </code> 
+
 
 
 Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
