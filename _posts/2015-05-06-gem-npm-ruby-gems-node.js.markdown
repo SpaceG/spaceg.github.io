@@ -12,7 +12,7 @@ header-img: "img/diamond_new_age_ruby.png"
 
 
 
-<a href="https://lucasgatsas.ch">Demo</a> 
+<a href="https://rubygems.org/">rubygems.org</a> 
 
 
 
@@ -20,6 +20,6 @@ header-img: "img/diamond_new_age_ruby.png"
 
 
 <blockquote>
-“The client may be king but he’s not the art director.” - Von R. Glitschka, designer
+“Grind and Polish your Gems!” 
 </blockquote>
 
