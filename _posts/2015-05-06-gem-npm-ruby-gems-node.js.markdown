@@ -15,7 +15,6 @@ RubyGems is the official packaging system for <a href="https://www.ruby-lang.org
 Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:
 
 
-Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
 
 <stromg> Example :</strong> 
 
@@ -29,7 +28,7 @@ gem 'rake', '= 0.8.1' # mit Versionsangabe
 </pre></pre></div> 
 
 
-
+Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
 
 <blockquote>
 “Grind and Polish your Gems!” 
