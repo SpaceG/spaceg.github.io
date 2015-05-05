@@ -1,10 +1,3 @@
-<!-- 
----
-layout: compress
----
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,16 +14,14 @@ layout: compress
                                                     --> 
 
 
-
-
-<!-- this fucking ssl drives me fucking mad --> 
-
-
 <script type="text/javascript">
 var host = "https://lucasgatsas.ch/";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
 </script>
+
+
+
 
 
 
@@ -42,23 +33,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 
 
-<!-- Microsoft Internet Explorer documentMode compatMode setting IE Modus --> 
-<script type="text/javascript">
-var IE = null;
-if (window.navigator.appName == "Microsoft Internet Explorer") {
-  if (document.documentMode) {
-  
-    IE = document.documentMode; 
-    } else {
-   
-        IE = 5; 
-          if (document.compatMode) {
-      if (document.compatMode == "CSS1Compat")
-      IE = 11; 
-      }
-    }
-  }
-</script>
+
 
     <!-- Viewport --> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -135,35 +110,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     </style>
     <!-- end Loading front stylesheet here --> 
 
-<!--
-    <script type="text/javascript">
-// jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-});
-
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-</script>
-
--->
 
 
 </head>
@@ -174,7 +120,9 @@ $('.navbar-collapse ul li a').click(function() {
 
 	
 <div id="preloader">
-    <div id="status"></div>
+    <div id="status">
+
+    </div>
 
 </div>  
 
@@ -323,6 +271,272 @@ $('.navbar-collapse ul li a').click(function() {
 	<div class="row">
 		<div class="posts">
 			<div class="content">
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/yR1gv2aRQDHN36RE.jpeg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-03-29T16:00:44+02:00">
+							<a href="https://lucasgatsas.ch/2015/03/29/mac-osx-commands-terminal-front/">March 29, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://lucasgatsas.ch/2015/03/29/mac-osx-commands-terminal-front/" rel="bookmark" title="Mac Os X - CommandLines" itemprop="url">Mac Os X - CommandLines</a></h1>
+								<h1 class="post-title-readmore"><a href="https://lucasgatsas.ch/2015/03/29/mac-osx-commands-terminal-front/" rel="bookmark" title="Mac Os X - CommandLines" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading"><strong> Mac Os X - CommandLines</strong> </h2>
+
+<table class="table">
+        <thead>
+          <tr>
+            <th>Kommando#</th>
+            <th id="fadeout-1">Aktion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>$ chflags nohidden ~/Library</code></td>
+            <td id="fadeout-1">Library-Ordner unter Mac OS Lion anzeigen</td>
+          </tr>
+          <tr>
+            <td><code>$ ping 127.0.0.1</code></td>
+            <td id="fadeout-1">pingt ein Netzwerkgerät
+um unter Mac OS Ping zu stoppen CTRL+C drücken</td>
+          </tr>
+          <tr>
+            <td><code>$ top</code></td>
+            <td id="fadeout-1">Zeigt eine Liste von laufenden Prozessen an, ähnlich der Aktivitätsanzeige.</td>
+          </tr>
+          <tr>
+            <td><code>$ defaults write com.apple.
+            	Finder AppleShowAllFiles
+
+            	 TRUE; 
+            	 killAll Finder</code></td>
+            <td id="fadeout-1">Zeigt versteckte Dateien im Finder an.</td>
+          </tr>
+          <tr>
+            <td><code>$ defaults write com.apple.
+            	Finder AppleShowAllFiles 
+
+            	TRUE; 
+            	killAll Finder</code></td>
+<td id="fadeout-1">Zeigt <strong>versteckte Dateien</strong> im <a href="https://spaceg.github.io/" title="Mac Explorer - Finder">Finder</a> an. <span title="eingeführt in OS X Lion" class="label label-info">Mavericks</span></td>          </tr>
+    	<tr>
+            <td><code>$ defaults write  com.apple.
+            	ScreenCapture type JPG; 
+            	killAll SystemUIServer</code> </td>
+            <td id="fadeout-1">Stellt das Format für Screenshots auf JPG, weitere mögliche Formate sind: PNG, PDF, TIFF, JPEG, BMP, GIF, PSD.</td>
+          </tr>
+           <td><code>$ defaults write 
+           	com.apple.Screencapture location 
+           	/Users/benutzername; 
+           	killAll SystemUIServer</code>
+           </td>
+            <td id="fadeout-1">Ändert den Speicherordner für Screenshots auf Euren Benutzerordner.</td>
+          
+           <tr>
+            <td><code>$ dscacheutil -flushcache</code></td>
+            <td id="fadeout-1">Startet Quick Look neu &amp; läd ggf. neue Plugins.</td>
+          </tr>
+               <tr>
+            <td><code>$ ipconfig getifaddr en0</code></td>
+            <td id="fadeout-1">Get Your Network IP Address</td>
+          </tr>
+           <tr>
+            <td><code>$ curl ipecho.net/plain;
+             echo</code></td>
+            <td id="fadeout-1">Get Your External IP Address</td>
+          </tr>
+          <tr>
+            <td><code>$ ping -c 10 www.example-
+            	site.com</code></td>
+            <td id="fadeout-1">Test Network Connectivity</td>
+          </tr>
+           <tr>
+            <td><code>$ system_profiler</code></td>
+            <td id="fadeout-1">A Closer Look at System Information</td>
+          </tr>
+            <tr>
+            <td><code>$ pwd</code></td>
+            <td id="fadeout-1">The current directory</td>
+          </tr>
+              <tr>
+            <td><code>$  ps -ax</code></td>
+            <td id="fadeout-1">Job control While Activity Monitor is useful, it's not quite as useful as working with the shell.
+To get a list of every running process on your computer, type this:</td>
+          </tr>
+              <tr>
+            <td><code>$  hostname</code></td>
+            <td id="fadeout-1">To get your current location, use the "hostname" command.</td>
+          </tr>
+        </tbody>
+      </table>
+
+<blockquote>
+	"Learn &amp; Understand how Machine Works!"
+</blockquote>
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="https://lucasgatsas.ch/img/93TyTG3x.png" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-03-27T15:00:44+01:00">
+							<a href="https://lucasgatsas.ch/2015/03/27/node.js-v0.12.1/">March 27, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="https://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="https://lucasgatsas.ch/2015/03/27/node.js-v0.12.1/" rel="bookmark" title="Node.js - New Javascript" itemprop="url">Node.js - New Javascript</a></h1>
+								<h1 class="post-title-readmore"><a href="https://lucasgatsas.ch/2015/03/27/node.js-v0.12.1/" rel="bookmark" title="Node.js - New Javascript" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading"><strong> Node.js on OSX 10.9 Mavericks</strong> </h2>
+
+<p>(1.)<strong> Xcode.</strong> Apple’s XCode development software is used to build Mac and iOS apps, but it also includes the tools you need to compile software for use on your Mac. XCode is free and you can find it in the Apple App Store.</p>
+
+<p>(2.) <strong> Homebrew </strong>. Homebrew is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing brew install node. You can learn more about <strong> <a href="http://brew.sh/">Homebrew</a>  </strong>
+at the Homebrew website. To install Homebrew just open Terminal and type <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
+Homebrew/install/master/install)" </code>. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.</p>
+
+<h2 class="section-heading"><strong>Installation</strong> </h2>
+
+<p>(1.)  <strong> Open the Terminal app </strong> and type <code> brew install node. </code></p>
+
+<p>(2.) <strong> Sit back and wait. </strong> Homebrew downloads some files and installs them. And that’s it.</p>
+
+<p>To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed:</p>
+
+<p>To see if Node is installed, type <code> node -v </code> in Terminal. This should print the version number so you’ll see something like this <code> V0.12.1 </code>
+To see if NPM is installed, type <code> npm -v </code> in Terminal. This should print the version number so you’ll see something like this <code>  V0.12.1 </code> </p>
+
+<h2 class="section-heading"><strong>How to Update Node and NPM</strong> </h2>
+
+<p>New versions of Node and NPM come out frequently. You can use Homebrew to update the software it installs.</p>
+
+<p>(1.) Make sure Homebrew has the latest version of the Node package. In Terminal type <code> brew update </code></p>
+
+<p>(2.) Upgrade Node: <code> brew upgrade node </code></p>
+
+<h2 class="section-heading"><strong>How to Uninstall Node and NPM</strong> </h2>
+
+<p>You can use Homebrew to uninstall packages that it installed: <code> brew uninstall node </code></p>
+
+<h2 class="section-heading"><strong>Clone it From GitHub</strong> </h2>
+
+<p><strong> Mac </strong></p>
+
+<p>If you’re using the excellent homebrew package manager, you can install node with one command: brew install node.</p>
+
+<p>Otherwise, follow the below steps:</p>
+
+<p>(1.) Install Xcode.</p>
+
+<p>(2.) Install git.</p>
+
+<p>Run the following commands:</p>
+
+<p><code> git clone git://github.com/joyent/node.git </code></p>
+
+<p><strong> <a href="https://github.com/joyent/node">https://github.com/joyent/node</a> </strong></p>
+
+<p><code>cd node</code></p>
+
+<p><code> ./configure </code></p>
+
+<p><code> make </code></p>
+
+<p><code> sudo make install </code></p>
+
+<p>Download: node.js ! </p>
+
+<p><a href="https://nodejs.org/download/">Download node.js</a>  </p>
+
+<blockquote>
+
+
+"Node.js is an open source, cross-platform runtime environment for server-side and networking applications."
+</blockquote>
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="https://lucasgatsas.ch/img/93TyTG3x.png" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
   
     <article>
 			<header class="intro-header" style="background-image: url('/img/RGZaPEyWiMHqfPO4.jpg')" style="margin-bottom:-40px;">  
@@ -650,187 +864,6 @@ border: 1px solid rgba(0, 0, 0, 0.09);
 	</article>
 
   
-    <article>
-			<header class="intro-header" style="background-image: url('/img/Berndnaut-Smilde-Installation-View-Antipode-Ronchini-Gallery-11-April-–-14-June-20142-e1411477881645.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-03-22T15:00:44+01:00">
-							<a href="https://lucasgatsas.ch/2015/03/22/get-emacs-on-your-machine/">March 22, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://lucasgatsas.ch/2015/03/22/get-emacs-on-your-machine/" rel="bookmark" title="emacs" itemprop="url">emacs</a></h1>
-								<h1 class="post-title-readmore"><a href="https://lucasgatsas.ch/2015/03/22/get-emacs-on-your-machine/" rel="bookmark" title="emacs" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading"><strong>emacs</strong> </h2>
-
-<p>MacPorts</p>
-
-<p>If you have MacPorts installed, you can just do:</p>
-
-<p><code>$ sudo port install emacs</code></p>
-
-<p>to install Emacs 24. The MacPorts installer updates your PATH environment variable, so the MacPorts build of Emacs should be found by your shell before the (outdated) build that comes with Mac OS when you type <strong>‘emacs’</strong>. If you prefer the Emacs.app build, that’s available by executing:</p>
-
-<p><code>$ sudo port install emacs-app</code></p>
-
-<p><a href="#">
-    <img src="/img/emacs1.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
-
-<p>My Screenshot</p>
-
-<p><a href="#">
-    <img src="/img/emacs-screeshot.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
-
-<p>Update Post soon!</p>
-
-<blockquote>
-	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
-</blockquote>
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="https://lucasgatsas.ch/img/93TyTG3x.png" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/perrywinkle.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-03-21T15:00:44+01:00">
-							<a href="https://lucasgatsas.ch/2015/03/21/work-with-sails-js-on-github/">March 21, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="https://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="https://lucasgatsas.ch/2015/03/21/work-with-sails-js-on-github/" rel="bookmark" title="Sails.js - Remote Work" itemprop="url">Sails.js - Remote Work</a></h1>
-								<h1 class="post-title-readmore"><a href="https://lucasgatsas.ch/2015/03/21/work-with-sails-js-on-github/" rel="bookmark" title="Sails.js - Remote Work" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading"><strong>Remote your Web App</strong> </h2>
-
-<p>Get Sails.js and build awesome WebApps. This is my Introduction for work Remote on GitHub or Servers!
-More to read soon!  </p>
-
-<p>Download : <a href="https://github.com/balderdashy/sails">sails.js</a> </p>
-
-<p>Website :  <a href="http://sailsjs.org/#!/documentation/concepts/Assets">sails.js</a></p>
-
-<h2 class="section-heading"><strong>Install on OSX</strong> </h2>
-
-<p>Download &amp; Using a <a href="https://nodejs.org/download/">package:</a> </p>
-
-<p>Using <a href="https://github.com/Homebrew/homebrew">homebrew: </a> </p>
-
-<p>Install Brew :  <code> brew install node </code></p>
-
-<p>Using macPorts : <a href="https://www.macports.org/">macports: </a> </p>
-
-<p><code> port install nodejs   </code></p>
-
-<h2 class="section-heading"><strong>Sails.js with Git</strong> </h2>
-
-<p><code> git pull origin master </code></p>
-
-<p><code> sudo npm update </code></p>
-
-<p><code>sails lift</code></p>
-
-<p><code>git add -A </code>-&gt; add all unstaged files to the stagin area
-<code>git commit -m </code> “Short description of your commit” -&gt; <code> Commit </code></p>
-
-<p>the files from the staging area to the head of your local branch</p>
-
-<p><code>git checkout  {Branch Name} </code> 
-to check where you are -&gt; </p>
-
-<p><code> git status</code></p>
-
-<p>if you want to push -&gt;</p>
-
-<p><code> git push origin {Branch Name} </code></p>
-
-<blockquote>
-	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
-</blockquote>
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="https://lucasgatsas.ch/img/93TyTG3x.png" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
 
 
   
@@ -847,8 +880,6 @@ border: 1px solid rgba(0, 0, 0, 0.09);
   </div>
   
 </div>
-
-
 
 
 <script src="/js/jquery-1.11.1.js"></script>
@@ -947,15 +978,14 @@ $('.content').jscroll({
 
 
 <script type="text/javascript">
- 
-    $(window).load(function() { 
-      $('#status').fadeOut(); 
-      $('#preloader').delay(100).fadeOut('fast'); 
+  //<![CDATA[
+    $(window).load(function() { // makes sure the whole site is loaded
+      $('#status').fadeOut(); // will first fade out the loading animation
+      $('#preloader').delay(100).fadeOut('fast'); // will fade out the white DIV that covers the website.
       $('body').delay(50).css({'overflow':'visible'});
     })
-
-</script>  
-
+  //]]>
+</script> 
 
 <script>
   !function ($) {
@@ -965,7 +995,7 @@ $('.content').jscroll({
   }(window.jQuery)
 </script>
  
-<!--
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -975,7 +1005,7 @@ $('.content').jscroll({
   ga('create', 'UA-53988504-1', 'auto');
   ga('send', 'pageview');
 
-</script> --> 
+</script> 
 
 
 

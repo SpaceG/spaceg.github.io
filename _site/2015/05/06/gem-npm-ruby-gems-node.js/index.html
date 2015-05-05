@@ -48,14 +48,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <!-- Blog Title -->
     <title>Lucas Gatsas - Web Developer & Front-End Engineer from Switzerland. </title>
 
-    <!--     <title>Get Xcode without Appstore - l.g</title>
+    <!--     <title>Ruby Gems - l.g</title>
 --> 
     <!-- Property Metas --> 
     <meta property="og:image" content="https://lucasgatsas.ch/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"/>
     <!-- Canonical -->
-    <link rel="canonical" href="https://lucasgatsas.ch/2015/03/26/xcode-without-appstore/">
+    <link rel="canonical" href="https://lucasgatsas.ch/2015/05/06/gem-npm-ruby-gems-node.js/">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
@@ -237,14 +237,14 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/RGZaPEyWiMHqfPO4.jpg')" alt="Lucas Gatsas">
+<header class="intro-header" style="background-image: url('/img/diamond_new_age_ruby.png')" alt="Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Get Xcode without Appstore</h1>
+                    <h1>Ruby Gems</h1>
                     
-                    <h2 class="subheading">Trouble with Appstore or your Apple-iD</h2>
+                    <h2 class="subheading">Get Started with Gem Files and Npm Install Packages</h2>
                     
                     <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
@@ -259,44 +259,92 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading"><strong> The Strange Apple-iD for the Interface Appstore</strong> </h2>
+				<h2 class="section-heading"> RubyGems</h2>
+<h2 class="section-heading">Make your Own Gem</h2>
 
-<p>I have an old email in appstore and i can’t change it in the user Interface App from Apple the (AppStore). Because i have resolved my Host last year in July 2014. - Now, i need some Xcode Tools for dev my Web Application. I’ve been trying for Hours to Hack my Apple ID. ;)</p>
+<p><strong> What is Gem? </strong> 
+RubyGems is the official packaging system for <a href="https://www.ruby-lang.org/de/">ruby-lang.org</a>  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution. </p>
 
-<p>Download: Xcode - @ Apple Developer! </p>
+<p>Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:</p>
 
-<p><a href="https://developer.apple.com/downloads/index.action">Download Xcode 6.2 (6C131e)</a>  </p>
+<p><strong> Use </strong></p>
 
-<p><a href="#">
-    <img src="/img/xcode-kkk1.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
+<pre><code>RubyGems be accessed via the command line acc.
+</code></pre>
 
-<p>Then install it ! :) </p>
+<stromg> Example : 
 
-<p><a href="#">
-    <img src="/img/xcode-kkk5.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
 
-<p><a href="#">
-    <img src="/img/xcode-kkk2.png" style="width:100%" alt="Lucas Gatsas" />
-</a></p>
+require 'json'        # aktuelle Version
+gem 'rake', '= 10.1.0' # mit Versionsangabe
+
+
+</pre></pre></div> 
+
+<strong>Gem Installation : Rake  </strong>
+
+Download and install rake with the following.
+<code> gem install rake </code> 
+
+
+
+<strong> Example : </strong> 
+
+First, you must write a “Rakefile” file which contains the build rules. Here's a simple example:
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+task default: %w[test]
+
+task :test do
+  ruby "test/unittest.rb"
+end
+
+</pre></pre></div> 
+
+This Rakefile has two tasks:
+
+A task named “test”, which – upon invocation – will run a unit test file in Ruby.
+
+A task named “default”. This task does nothing by itself, but it has exactly one dependency, namely the “test” task. Invoking the “default” task will cause Rake to invoke the “test” task as well.
+
+Running the “rake” command without any options will cause it to run the “default” task in the Rakefile:
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+% ls
+Rakefile     test/
+% rake
+(in /home/some_user/Projects/rake)
+ruby test/unittest.rb
+....unit test output here...
+
+</pre></pre></div> 
+
+
+Type “rake –help” for all available options.
+<br /><br />
+
+Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
 
 <blockquote>
-	"We don't like the AppStore! We want the Old Software Update and Upgrade Back!"
+“Grind and Polish your Gems!” 
 </blockquote>
+
+</stromg>
 
 
                 <hr>
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/" data-toggle="tooltip" data-placement="top" title="sudoers file - Add Premission to any User">&larr; Previous Post</a>
+                        <a href="/2015/05/02/nmap-mac-osx/" data-toggle="tooltip" data-placement="top" title="Nmap Security Scanner for Linux-MAC-UNIX">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2015/03/27/node.js-v0.12.1/" data-toggle="tooltip" data-placement="top" title="Node.js - New Javascript">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
