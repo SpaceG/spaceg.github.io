@@ -36,6 +36,8 @@ gem 'rake', '= 10.1.0' # mit Versionsangabe
 Download and install rake with the following.
 <code> gem install rake </code> 
 
+
+
 <strong> Example : </strong> 
 
 First, you must write a “Rakefile” file which contains the build rules. Here's a simple example:
@@ -73,7 +75,7 @@ ruby test/unittest.rb
 
 
 Type “rake –help” for all available options.
-<br>
+<br><br>
 
 Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
 
