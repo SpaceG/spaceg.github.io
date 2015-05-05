@@ -36,6 +36,43 @@ gem 'rake', '= 10.1.0' # mit Versionsangabe
 Download and install rake with the following.
 <code> gem install rake </code> 
 
+<strong> Example : </strong> 
+
+First, you must write a “Rakefile” file which contains the build rules. Here's a simple example:
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+task default: %w[test]
+
+task :test do
+  ruby "test/unittest.rb"
+end
+
+</pre></pre></div> 
+
+This Rakefile has two tasks:
+
+A task named “test”, which – upon invocation – will run a unit test file in Ruby.
+
+A task named “default”. This task does nothing by itself, but it has exactly one dependency, namely the “test” task. Invoking the “default” task will cause Rake to invoke the “test” task as well.
+
+Running the “rake” command without any options will cause it to run the “default” task in the Rakefile:
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+% ls
+Rakefile     test/
+% rake
+(in /home/some_user/Projects/rake)
+ruby test/unittest.rb
+....unit test output here...
+
+</pre></pre></div> 
+
+
+Type “rake –help” for all available options.
 
 
 Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
