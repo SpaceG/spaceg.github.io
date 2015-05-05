@@ -10,7 +10,7 @@ header-img: "img/diamond_new_age_ruby.png"
 <h2 class="section-heading">Make your Own Gem</h2>
 
 <strong> What is Gem? </strong> 
-RubyGems is the official packaging system for <a href="https://www.ruby-lang.org/de/">ruby-lang.org</a>  programming language.
+RubyGems is the official packaging system for <a href="https://www.ruby-lang.org/de/">ruby-lang.org</a>  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution. 
 
 
 <a href="https://rubygems.org/">rubygems.org</a> 
