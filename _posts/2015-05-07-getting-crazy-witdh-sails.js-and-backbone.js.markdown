@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/diamond_new_age_ruby.png"
 ---
 <h2 class="section-heading"> Sails.js and Backbone.js</h2>
-<h2 class="section-heading">Amazing Workflow</h2>
+<h2 class="section-heading">Amazing Workflow on Github - Remote Work</h2>
 
 <strong> What is Gem? </strong> 
 RubyGems is the official packaging system for <a href="https://www.ruby-lang.org/de/">ruby-lang.org</a>  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution. 
