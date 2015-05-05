@@ -213,4 +213,6 @@ font-size: 20px;
 }
  
 
-
+img.img-circle.portfolio-link.img-responsive {
+  cursor: pointer;
+}
