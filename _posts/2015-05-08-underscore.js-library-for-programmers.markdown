@@ -10,7 +10,7 @@ header-img: "img/FFXI_Kristall.jpg"
 <h2 class="section-heading">Include underscore.js in your Application</h2>
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/update_testing.png">
     <img src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
