@@ -60,15 +60,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
 
-
-<a href="http://nmap.org/download.html#macosx">nmap.org</a> 
-
-
-
-
-
-
-
 <blockquote>
 “The client may be king but he’s not the art director.” - Von R. Glitschka, designer
 </blockquote>
