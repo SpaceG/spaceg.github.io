@@ -2,7 +2,7 @@
 layout:     post
 title:      "underscore.js "
 subtitle:   "Javascript Library for Programmers"
-date:       2015-05-07 14:00:44
+date:       2015-05-08 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/waves.JPG"
 ---
