@@ -21,7 +21,7 @@ Waiting for my soldering iron!
 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/IMG_1049.jpg">
     <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
@@ -32,7 +32,7 @@ Waiting for my soldering iron!
 <h2 class="section-heading"></h2> 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/ttl-cable.jpg">
     <img src="{{ site.baseurl }}/img/ttl-cable.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 

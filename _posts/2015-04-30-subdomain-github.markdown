@@ -68,7 +68,7 @@ in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress 
 
 <code> 192.30.252.154 </code> and type Record Type A (Adress) and TTL 1800
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/lucasgatsas.ch-1.png">
     <img src="{{ site.baseurl }}/img/lucasgatsas.ch-1.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 

@@ -23,7 +23,7 @@ Homebrew/install/master/install)"</code>
 More About: [ruby.org](https://www.ruby-lang.org/de/documentation/installation/#building-from-source) 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg">
     <img src="{{ site.baseurl }}/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
@@ -40,7 +40,7 @@ To install nginx, simply open up the Terminal and enter the following command.
 
 That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/install-nginx.png">
     <img src="{{ site.baseurl }}/img/install-nginx.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
@@ -50,7 +50,7 @@ Bingo! :) Here we GO Run Nginx :
 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/nginx-install-4-700.png">
     <img src="{{ site.baseurl }}/img/nginx-install-4-700.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
@@ -69,7 +69,7 @@ Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
 </pre></pre></div>
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/done-ruby-.png">
     <img src="{{ site.baseurl }}/img/done-ruby-.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
