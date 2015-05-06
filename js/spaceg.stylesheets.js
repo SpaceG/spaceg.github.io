@@ -1,13 +1,14 @@
 /*!
  Top Stylesheet for my Blog! 
- spaceg.github.io by Lucas Gatsas. 
+ spaceg.github.ch by Lucas Gatsas. 
  */
  /* New Update Mo. 2 Feb. 2015 -02:33:45*/
 /* New Update Fr. 6 Feb. 2015 -01:57:13 */
 /* New Update Sa. 21. February. 2015 -02:58:16*/
 /* New Update Fr. 27. February. 2015 -21:53:19*/
+/* New Update Mo. 04. Mai. 2015 -21:53:19*/ 
 
-
+/* Smoke Weed and Stay High */ 
 
 
  /*!
