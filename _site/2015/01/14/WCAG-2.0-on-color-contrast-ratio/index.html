@@ -14,6 +14,9 @@
                                                     --> 
 
 
+
+<!--
+
 <script type="text/javascript">
 var host = "https://lucasgatsas.ch/";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -21,9 +24,27 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 </script>
 
 
+ -->
 
 
-
+ 
+<!-- Microsoft Internet Explorer documentMode compatMode setting IE Modus --> 
+<script type="text/javascript">
+var IE = null;
+if (window.navigator.appName == "Microsoft Internet Explorer") {
+  if (document.documentMode) {
+  
+    IE = document.documentMode; 
+    } else {
+   
+        IE = 5; 
+          if (document.compatMode) {
+      if (document.compatMode == "CSS1Compat")
+      IE = 11; 
+      }
+    }
+  }
+</script>
 
 
     <meta charset="utf-8">
@@ -79,29 +100,12 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <link href="https://gist-assets.github.com/assets/embed-b67021dc07195830cc157f7720b938fb.css" rel="stylesheet" type="text/css">
     <!-- Loading front stylesheet here --> 
     <style>
-    ul, ol 
-    {margin-top: 0;margin-bottom: 10px;list-style: none;}
-        .navbar-inverse 
-                {background-color: #FFF;border-color: #FFFFFF;}
-            header.intro-header 
-                    {background: #6f5499;background: no-repeat top center;background-attachment: scroll;
-                -webkit-background-size: 
-                cover;-moz-background-size: 
-                cover;background-size: 
-                cover;-o-background-size: 
-                cover;
-                }
-            /* Preloader */
-            #preloader 
-                {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; 
-            /* change if the mask should have another color then white */z-index:99; 
-            /* makes sure it stays on top */}
-            #status 
-                {width:200px;height:200px;position:absolute;left:50%; 
-            /* centers the loading animation horizontally one the screen */top:50%; 
-            /* centers the loading animation vertically one the screen */ /*background-image:url(https://spaceg.github.io/img/hex-loader2.gif); */
-            /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; 
-            /* is width and height divided by two */} 
+
+#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url(); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style><!-- <link rel="stylesheet" href="/css/prettify.css">--> <style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {
+list-style: none;
+
+
+}
             li 
             {list-style: none;}
             body.modal-open 
@@ -390,8 +394,8 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(100).fadeOut('fast'); // will fade out the white DIV that covers the website.
-      $('body').delay(50).css({'overflow':'visible'});
+      $('#preloader').delay(200).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(150).css({'overflow':'visible'});
     })
   //]]>
 </script> 
