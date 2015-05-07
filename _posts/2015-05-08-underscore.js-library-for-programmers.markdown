@@ -4,7 +4,7 @@ title:      "underscore.js "
 subtitle:   "Javascript Library for Programmers"
 date:       2015-05-08 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/7512337836_9f39f0be8e_o.jpg"
+header-img: "img/10247407_663672370371749_997067517769850993_n.jpg"
 ---
 <h2 class="section-heading"> underscore.js</h2>
 <h2 class="section-heading">Include underscore.js in your Application</h2>
