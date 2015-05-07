@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://lucasgatsas.ch/</link>
     <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 May 2015 01:23:49 +0200</pubDate>
-    <lastBuildDate>Thu, 07 May 2015 01:23:49 +0200</lastBuildDate>
+    <pubDate>Fri, 08 May 2015 00:14:59 +0200</pubDate>
+    <lastBuildDate>Fri, 08 May 2015 00:14:59 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; underscore.js&lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Include underscore.js in your Application&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/update_testing.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/update_testing.png&quot;&gt;
+    &lt;img src=&quot;/img/update_testing.png&quot; alt=&quot;Lucas Gatsas&quot; class=&quot;fresco&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;http://underscorejs.org/&quot;&gt;underscorejs.org&lt;/a&gt;  Link:  &lt;a href=&quot;http://backbonejs.org/&quot;&gt;backbonejs.org&lt;/a&gt;&lt;/p&gt;
@@ -302,7 +302,7 @@ and configuring (IP/ Adress/URL to &lt;code&gt; 192.30.252.153 &lt;/code&gt; and
 
 &lt;p&gt;&lt;code&gt; 192.30.252.154 &lt;/code&gt; and type Record Type A (Adress) and TTL 1800&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/lucasgatsas.ch-1.png&quot;&gt;
     &lt;img src=&quot;/img/lucasgatsas.ch-1.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -458,7 +458,7 @@ This is a SwissWatch! :)
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Secure Shell - SSH - Key on Mac Os X &lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;The Key Set Up.&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/bash-ssh-1.png&quot;&gt;
     &lt;img src=&quot;/img/bash-ssh-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -476,7 +476,7 @@ This is a SwissWatch! :)
 
 &lt;p&gt;press Enter to get your Key - Gen ! &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/bash-ssh-2.png&quot;&gt;
     &lt;img src=&quot;/img/bash-ssh-2.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -484,7 +484,7 @@ This is a SwissWatch! :)
 
 &lt;p&gt;add &lt;code&gt; ssh-add -l &lt;/code&gt; to see your &lt;code&gt; .ssh/id_rsa  &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/bash-ssh-3.png&quot;&gt;
     &lt;img src=&quot;/img/bash-ssh-3.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -498,7 +498,7 @@ This is a SwissWatch! :)
 
 &lt;p&gt;—–BEGIN RSA PRIVATE KEY—–&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/bash-ssh-4.png&quot;&gt;
     &lt;img src=&quot;/img/bash-ssh-4.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -506,7 +506,7 @@ This is a SwissWatch! :)
 
 &lt;p&gt;Type following Commandline : &lt;code&gt;cat id_rsa.pub &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/bash-ssh5.png&quot;&gt;
     &lt;img src=&quot;/img/bash-ssh5.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -517,11 +517,11 @@ Update Post soon. ! &lt;/p&gt;
 
 &lt;p&gt;Diagramm of my SSH Sketches! &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/lucasgatsas_grafic.png&quot;&gt;
     &lt;img src=&quot;/img/lucasgatsas_grafic.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/dia_01_ssh_tube_bylucas-gatsas.png&quot;&gt;
     &lt;img src=&quot;/img/dia_01_ssh_tube_bylucas-gatsas.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -652,7 +652,7 @@ Waiting for my soldering iron! &lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;Set Completed soon! Let&amp;#39;s build that Thing! &lt;a href=&quot;http://t.co/JGmtW7YSTe&quot;&gt;pic.twitter.com/JGmtW7YSTe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/587991897869783040&quot;&gt;14. April 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/IMG_1049.jpg&quot;&gt;
     &lt;img src=&quot;/img/IMG_1049.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -661,7 +661,7 @@ Waiting for my soldering iron! &lt;/p&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Run it with USB Console Cable &lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;/img/ttl-cable.jpg&quot;&gt;
     &lt;img src=&quot;/img/ttl-cable.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
