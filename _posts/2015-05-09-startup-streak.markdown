@@ -4,7 +4,7 @@ title:      "Start Up - Streak"
 subtitle:   "Javascript Library for Programmers"
 date:       2015-05-09 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/picjumbo.com_IMG_0611.jpg"
+header-img: "img/1557493_663672417038411_6720990459034320832_n.jpg"
 ---
 <h2 class="section-heading"> Update on Remote Work</h2>
 <h2 class="section-heading">Current Streak!</h2>
