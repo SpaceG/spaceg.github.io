@@ -33,7 +33,7 @@ youradminusername ALL=(ALL) ALL
 
  See The Blue Marked Window in the Terminal : 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/sudoerspic.png">
     <img src="{{ site.baseurl }}/img/sudoerspic.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
