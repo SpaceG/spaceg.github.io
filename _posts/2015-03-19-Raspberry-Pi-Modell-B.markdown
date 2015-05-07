@@ -24,7 +24,7 @@ header-img: "img/a_Raspberry_2crop.png"
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/raspberry_pi_mechanicalspecB_.png">
     <img src="{{ site.baseurl }}/img/raspberry_pi_mechanicalspecB_.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
@@ -36,7 +36,7 @@ header-img: "img/a_Raspberry_2crop.png"
 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/lab1.jpg">
     <img src="{{ site.baseurl }}/img/lab1.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
@@ -45,11 +45,11 @@ header-img: "img/a_Raspberry_2crop.png"
 
 Shema Raspberry / Linux 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/bbcm_27.jpg">
     <img src="{{ site.baseurl }}/img/bbcm_27.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/IMG_0926.JPG">
     <img src="{{ site.baseurl }}/img/IMG_0926.JPG" style="width:100%" alt="Lucas Gatsas">
 </a>
 

@@ -24,7 +24,7 @@ header-img: "img/p0198vg4.jpg"
 Open the pkg File with Doppleclick : 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/git-sourceforge.png">
     <img src="{{ site.baseurl }}/img/git-sourceforge.png" alt="Post Sample Image" style="width:100%">
 </a>
 
