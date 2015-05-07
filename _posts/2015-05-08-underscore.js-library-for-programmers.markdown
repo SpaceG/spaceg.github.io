@@ -15,6 +15,12 @@ header-img: "img/FFXI_Kristall.jpg"
 </a>
 
 
+
+<a class="example-image-link" href="{{ site.baseurl }}/img/update_testing.png" data-lightbox="example-1"><img class="example-image" src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas" /></a>
+
+
+
+
 Link: <a href="http://underscorejs.org/">underscorejs.org</a>  Link:  <a href="http://backbonejs.org/">backbonejs.org</a>
 
 
