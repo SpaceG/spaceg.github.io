@@ -106,7 +106,7 @@ In case you have changes in the directory (/usr/local/Library), the git pull wil
   This will upgrade your homebrew and you can use brew again.
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/ruby-done-1.png">
     <img src="{{ site.baseurl }}/img/ruby-done-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 

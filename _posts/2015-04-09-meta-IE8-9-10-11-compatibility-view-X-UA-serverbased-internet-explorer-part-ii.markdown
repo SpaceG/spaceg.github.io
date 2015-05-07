@@ -37,7 +37,7 @@ header-img: "img/Quadrat-Kubus.png"
  
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/cross-browser-test-1.png">
     <img src="{{ site.baseurl }}/img/cross-browser-test-1.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
@@ -90,7 +90,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/microsoft.-ie-1.jpg">
     <img src="{{ site.baseurl }}/img/microsoft.-ie-1.jpg" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
