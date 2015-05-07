@@ -19,7 +19,7 @@ header-img: "img/images-cms-image-004442450.jpg"
 
 Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://bashawesome.github.io/)
 
-<a href="#">
+<a href="{{ site.baseurl }}/img/bash2.png">
     <img src="{{ site.baseurl }}/img/bash2.png" alt="Lucas Gatsas"  style="width:100%">
 </a>
 
@@ -30,7 +30,7 @@ Visit the Webspace and get all CommandLines! : [bashawesome.github.io](https://b
 -->
 Run Awesome Commandlines! 
 
-<a href="#">
+<a href="https://bashawesome.github.io/assets/media/terminal.png">
     <img src="https://bashawesome.github.io/assets/media/terminal.png"  style="width:100%" alt="Lucas Gatsas">
 </a>
 
