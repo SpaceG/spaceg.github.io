@@ -11,13 +11,8 @@ header-img: "img/FFXI_Kristall.jpg"
 
 
 <a href="{{ site.baseurl }}/img/update_testing.png">
-    <img src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
 </a>
-
-
-
-<a class="example-image-link" href="{{ site.baseurl }}/img/update_testing.png" data-lightbox="example-1"><img class="example-image" src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas" /></a>
-
 
 
 
