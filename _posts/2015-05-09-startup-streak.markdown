@@ -2,21 +2,13 @@
 layout:     post
 title:      "Start Up - Streak"
 subtitle:   "Javascript Library for Programmers"
-date:       2015-05-08 14:00:44
+date:       2015-05-09 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/FFXI_Kristall.jpg"
 ---
-<h2 class="section-heading"> underscore.js</h2>
-<h2 class="section-heading">Include underscore.js in your Application</h2>
+<h2 class="section-heading"> Update on Remote Work</h2>
+<h2 class="section-heading">Current Streak!</h2>
 
-
-<a href="{{ site.baseurl }}/img/update_testing.png">
-    <img src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
-</a>
-
-
-
-Link: <a href="http://underscorejs.org/">underscorejs.org</a>  Link:  <a href="http://backbonejs.org/">backbonejs.org</a>
 
 
 
