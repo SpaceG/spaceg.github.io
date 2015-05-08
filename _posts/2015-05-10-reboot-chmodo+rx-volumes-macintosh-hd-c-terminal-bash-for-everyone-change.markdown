@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/1557493_663672417038411_6720990459034320832_n.jpg"
 ---
 <h2 class="section-heading"> Hacking Macintosh HD </h2>
-<h2 class="section-heading">Entrie Your Data wit the Terminal COmmandline Chmod o+rx</h2>
+<h2 class="section-heading">Entry Your Data wit the Terminal COmmandline Chmod o+rx</h2>
 
 
 The Title say it: This morning i got a {....} Shok. You know, i gotta crazy with my Terminal and Try and Hackming everything. 
