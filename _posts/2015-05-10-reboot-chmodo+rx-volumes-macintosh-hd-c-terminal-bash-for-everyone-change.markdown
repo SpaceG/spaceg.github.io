@@ -58,7 +58,7 @@ Press <code> cmd + V<code> to boot into verbose mode, You See Your Desktop in a 
 
 
 
-
+<a href="https://lucasgatsas.ch/chmod/"> SEE HERE THE IMAGES! </a> 
 
 
 
