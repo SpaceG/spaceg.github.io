@@ -34,6 +34,11 @@ There do you can entry your Commandlines ! you boot directly to a root shell. ge
 
 Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type <code>reboot</code> 
 
+First i have typed : <code> mout -uw/ </code>
+Then After Prompt : <code> chmod 755/System</code>
+And Now Type : <code> chmod 1773/Shared </code>
+At Last prompt: <code> chmod 1777/Users/Shared</code>
+Then <code>reboot</code> your Machine! ;) 
 
 
 
