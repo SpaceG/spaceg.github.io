@@ -18,7 +18,7 @@ So my History now.. i try hack some ones HD! After a Error, i put the rights to 
 Spoken Words: Fuck! - I don't had rights anymore everywhere! After a New Start my Machine! The same thing again. I goota Crazy after 3 Times to reboot my Machine!
 
 i Try out to reboot the Machine on "C" ! Nothing works too.. After i Rebooted in to the Cmd + R! I booted the Mac over Recovery Mode and Chose in the Menu The Terminal! And Open it and Typed on -bash 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it over <code> sudo shutdown -r now </code> ! New Started and Waited for a while 
-and BANG unbeliveful The Whole Machine is back with all my Users! :) ! What a Thing! Thanks to Me :) ! I^m really proud of it. Hacking Your Machine and learn to Rule! ;)
+and BANG unbelievable The Whole Machine is back with all my Users! :) ! What a Thing! Thanks to Me :) ! I^m really proud of it. Hacking Your Machine and learn to Rule! ;)
 
 
 First Reboot your machine from <code> cmd + r  <code> and then wait!
