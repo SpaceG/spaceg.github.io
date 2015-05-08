@@ -24,7 +24,7 @@ and BANG unbelievable! The whole Machine is back now with all my Users! :) ! Wha
 
 First Reboot your Machine from <code> cmd + r  <code> and then wait!
 Open the Terminal and Type follow CommandLine <code>chmod o+rx "/Volumes/YOURHD"
-
+And New Start your Mac!
 
 <br>
 <strong> Off course there are alot Ways to Boot and Reboot your Machine </strong>
