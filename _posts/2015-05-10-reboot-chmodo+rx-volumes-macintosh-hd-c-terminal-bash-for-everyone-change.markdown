@@ -13,7 +13,7 @@ header-img: "img/1557493_663672417038411_6720990459034320832_n.jpg"
 <strong> Recovery Mode </strong> 
 
 This Morning i got a {....} Shok. You know, i gotta crazy with my Terminal and Try and Hacking everything. 
-So my History now.. i try hack someones HD! After a Error, i put the rights to the (:denied).
+So my History now.. i try hack my HD! After a Error, i put the rights to the (:denied).
 
 Spoken Words: Fuck! - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!
 
