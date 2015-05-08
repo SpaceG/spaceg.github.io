@@ -52,7 +52,7 @@ Then <code>reboot</code> your Machine! ;)
 <br>
 <strong> Verbose Mode </strong> 
 
-Press cmd ± V to boot into verbose mode, You See YOur Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
+Press cmd + V to boot into verbose mode, You See YOur Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
 
 
 
