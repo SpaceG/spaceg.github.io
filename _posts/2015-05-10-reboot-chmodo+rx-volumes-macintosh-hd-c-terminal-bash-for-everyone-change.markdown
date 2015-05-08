@@ -7,19 +7,19 @@ author:     "Lucas Gatsas"
 header-img: "img/1557493_663672417038411_6720990459034320832_n.jpg"
 ---
 <h2 class="section-heading"> Hacking Macintosh HD </h2>
-<h2 class="section-heading">Entry Your Data wit the Terminal Commandline Chmod o+rx</h2>
+<h2 class="section-heading">Entry Your Data with the Terminal Commandline Chmod o+rx</h2>
 
 
 <strong> Recovery Mode </strong> 
 
 This Morning i got a {....} Shok. You know, i gotta crazy with my Terminal and Try and Hacking everything. 
-So my History now.. i try hack my HD! After a Error, i put the rights to the (:denied).
+So my History now.. i try hack my HD! After a Error, i put the rights to the <code>(:denied)</code>.
 
 Spoken Words: Fuck! - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!
 
-i Try out to reboot the Machine on "C" ! Nothing Works! After rebooted in to the C
+i Try out to reboot the Machine on <code> "C" </code>! Nothing Works! After rebooted in to the <code>C</code>
 <code>cmd + r </code>! Booted the Mac over Recovery Mode and choose in the Menu the Terminal and Typed on -bash:~ 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it over <code> sudo shutdown -r now </code> ! New Started and waited for a while 
-and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I^m really proud of it. Hacking your Machine and learn to Rule! ;)
+and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I'm really proud of it. Hacking your Machine and learn to Rule! ;)
 
 
 First Reboot your Machine from <code> cmd + r  <code> and then wait!
@@ -36,7 +36,7 @@ Open the Terminal and Type follow CommandLine <code>chmod o+rx "/Volumes/YOURHD"
 <strong> Single-User Mode </strong> 
 
 
-Newstart your Machine and Press cmd + s ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
+Newstart your Machine and Press <code>cmd + s</code> ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
 There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!
 
 Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type <code>reboot</code> 
@@ -53,7 +53,7 @@ Then <code>reboot</code> your Machine! ;)
 <br>
 <strong> Verbose Mode </strong> 
 
-Press cmd + V to boot into verbose mode, You See YOur Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
+Press <code> cmd + V<code> to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
 
 
 
