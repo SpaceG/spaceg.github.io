@@ -21,9 +21,15 @@ i Try out to reboot the Machine on "C" ! Nothing works too.. After i Rebooted in
 and BANG unbeliveful The Whole Machine is back with all my Users! :) ! What a Thing! Thanks to Me :) ! I^m really proud of it. Hacking Your Machine and learn to Rule! ;)
 
 
+First Reboot your machine from <code> cmd + r  <code> and then wait!
+Open the Terminal and Type follow CommandLine <code>chmod o+rx "/Volumes/YOURHD"
 
 
+<br>
 <strong> Off course there are alot Ways to Boot and Reboot your Machine </strong>
+
+<br>
+
 
 
 <strong> Single-User Mode </strong> 
@@ -39,6 +45,20 @@ Then After Prompt : <code> chmod 755/System</code>
 And Now Type : <code> chmod 1773/Shared </code>
 At Last prompt: <code> chmod 1777/Users/Shared</code>
 Then <code>reboot</code> your Machine! ;) 
+
+
+
+
+<br>
+<strong> Verbose Mode </strong> 
+
+Press cmd ± V to boot into verbose mode, You See YOur Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
+
+
+
+
+
+
 
 
 
