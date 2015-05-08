@@ -18,7 +18,7 @@ So my History now.. i tried hack my HD! After a Error, i put the rights to the <
 Spoken Words: Fuck! - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!
 
 i Tried out to reboot the Machine on <code> "C" </code>! Nothing Works! After booted in to the <code>C</code>
-<code>cmd + r </code>! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it over <code> sudo shutdown -r now </code> ! New Started and waited for a while 
+<code>cmd + r </code>! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it. <code> sudo shutdown -r now </code> ! New Started and waited for a while 
 and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I'm really proud of it. Hacking your Machine and learn to Rule! ;)
 
 
