@@ -12,12 +12,12 @@ header-img: "img/1557493_663672417038411_6720990459034320832_n.jpg"
 
 <strong> Recovery Mode </strong> 
 
-This Morning i got a {....} Shok. You know, i gotta crazy with my Terminal and Try and Hacking everything. 
-So my History now.. i try hack my HD! After a Error, i put the rights to the <code>(:denied)</code>.
+This Morning i got a {....} Shok. You know, i do crazy things my Terminal and Try and Hacking everything. 
+So my History now.. i tried hack my HD! After a Error, i put the rights to the <code>(:denied)</code>.
 
 Spoken Words: Fuck! - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!
 
-i Try out to reboot the Machine on <code> "C" </code>! Nothing Works! After rebooted in to the <code>C</code>
+i Tried out to reboot the Machine on <code> "C" </code>! Nothing Works! After rebooted in to the <code>C</code>
 <code>cmd + r </code>! Booted the Mac over Recovery Mode and choose in the Menu the Terminal and Typed on -bash:~ 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it over <code> sudo shutdown -r now </code> ! New Started and waited for a while 
 and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I'm really proud of it. Hacking your Machine and learn to Rule! ;)
 
