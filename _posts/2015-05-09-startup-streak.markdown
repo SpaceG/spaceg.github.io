@@ -26,6 +26,11 @@ GitHub Network!
 </a>
 
 
+<a href="{{ site.baseurl }}/img/streakgithub1.png">
+    <img src="{{ site.baseurl }}/img/streakgithub1.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
+</a>
+
+
 
 
 <blockquote>
