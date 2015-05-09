@@ -9,10 +9,12 @@ header-img: "img/lucasgatsas-12.jpg"
 <h2 class="section-heading"> Update on Remote Work</h2>
 <h2 class="section-heading">Current Streak!</h2>
 
-Now we go Back and Work on Remote! :) ! 
-Here are some GitHub Static!
+Now we go Back and Work on Remote on our StartUp Project. Here are some GitHub Static! 
 
 If you are in Intress to work with us. please, contact us. ! 
+
+
+
 
 
 
