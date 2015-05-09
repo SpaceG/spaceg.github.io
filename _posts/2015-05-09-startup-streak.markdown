@@ -10,6 +10,7 @@ header-img: "img/Wide_Ocean_Wallpaper_by_alby13.jpg"
 <h2 class="section-heading">Current Streak!</h2>
 
 Now we go Back and Work on Remote! :) ! 
+Here are some GitHub Static!
 
 If you are in Intress to work with us. please, contact us. ! 
 
