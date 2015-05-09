@@ -33,8 +33,8 @@ Our App based on Sails.js, Backbone.js, Bootstrap Framework, and our Development
 The App is mostly built in javascript <code> 66.4% </code> and in css/less <code>33.1%</code> ! 
 
 
-<a href="{{ site.baseurl }}/img/javascript-css.png">
-    <img src="{{ site.baseurl }}/img/javascript-css.png" alt="Lucas Gatsas" style="width:100%">
+<a href="{{ site.baseurl }}/img/js.png">
+    <img src="{{ site.baseurl }}/img/js.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 
