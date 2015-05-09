@@ -10,8 +10,7 @@ header-img: "img/lucasgatsas-12.jpg"
 <h2 class="section-heading">Current Streak!</h2>
 
 Now we go Back and Work on Remote on our StartUp Project. Here are some GitHub Static! 
-
-If you are in Intress to work with us. please, contact us. ! 
+If you are in Intress to work with us. please, Contact  Me! We also looking for a fit Unix/Linux Ubunutu Sysadmin! Who do the Server Parts! 
 
 
 
