@@ -22,8 +22,8 @@ i Tried out to reboot the Machine on <code> "C" </code>! Nothing Works! After bo
 and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I'm really proud of it. Hacking your Machine and learn to Rule! ;)
 
 
-First Reboot your Machine from <code> cmd + r  <code> and then wait!
-Open the Terminal and Type follow CommandLine <code>chmod o+rx "/Volumes/YOURHD"
+First Reboot your Machine from <code> cmd + r  </code> and then wait!
+Open the Terminal and Type follow CommandLine <code>chmod o+rx "/Volumes/YOURHD"</code>
 And New Start your Mac!
 
 <br>
@@ -39,7 +39,8 @@ And New Start your Mac!
 Newstart your Machine and Press <code>cmd + s</code> ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
 There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!
 
-Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type <code>reboot</code> 
+Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type 
+<code>reboot</code> 
 
 First i have typed : <code> mount -uw/ </code>
 Then After Prompt : <code> chmod 755/System</code>
@@ -53,7 +54,7 @@ Then <code>reboot</code> your Machine! ;)
 <br>
 <strong> Verbose Mode </strong> 
 
-Press <code> cmd + V<code> to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
+Press <code> cmd + V</code> to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!
 
 
 

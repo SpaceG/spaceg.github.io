@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://lucasgatsas.ch/</link>
     <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 May 2015 03:56:12 +0200</pubDate>
-    <lastBuildDate>Sat, 09 May 2015 03:56:12 +0200</lastBuildDate>
+    <pubDate>Sat, 09 May 2015 03:57:36 +0200</pubDate>
+    <lastBuildDate>Sat, 09 May 2015 03:57:36 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -25,9 +25,9 @@ So my History now.. i tried hack my HD! After a Error, i put the rights to the &
 &lt;code&gt;cmd + r &lt;/code&gt;! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# &lt;code&gt; chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt; and prompt (Enter) it. &lt;code&gt; sudo shutdown -r now &lt;/code&gt; ! New Started and waited for a while 
 and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I’m really proud of it. Hacking your Machine and learn to Rule! ;)&lt;/p&gt;
 
-&lt;p&gt;First Reboot your Machine from &lt;code&gt; cmd + r  &lt;code&gt; and then wait!
-Open the Terminal and Type follow CommandLine &lt;code&gt;chmod o+rx &quot;/Volumes/YOURHD&quot;
-And New Start your Mac!&lt;/code&gt;&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;First Reboot your Machine from &lt;code&gt; cmd + r  &lt;/code&gt; and then wait!
+Open the Terminal and Type follow CommandLine &lt;code&gt;chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt;
+And New Start your Mac!&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt; Off course there are alot Ways to Boot and Reboot your Machine &lt;/strong&gt;&lt;/p&gt;
@@ -39,7 +39,8 @@ And New Start your Mac!&lt;/code&gt;&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Newstart your Machine and Press &lt;code&gt;cmd + s&lt;/code&gt; ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
 There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!&lt;/p&gt;
 
-&lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type &lt;code&gt;reboot&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type 
+&lt;code&gt;reboot&lt;/code&gt; &lt;/p&gt;
 
 &lt;p&gt;First i have typed : &lt;code&gt; mount -uw/ &lt;/code&gt;
 Then After Prompt : &lt;code&gt; chmod 755/System&lt;/code&gt;
@@ -50,7 +51,7 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;) &lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt; Verbose Mode &lt;/strong&gt; &lt;/p&gt;
 
-&lt;p&gt;Press &lt;code&gt; cmd + V&lt;code&gt; to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;code&gt; cmd + V&lt;/code&gt; to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lucasgatsas.ch/chmod/&quot;&gt; SEE HERE THE IMAGES! &lt;/a&gt; &lt;/p&gt;
 
