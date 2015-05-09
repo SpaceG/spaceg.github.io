@@ -23,10 +23,18 @@ GitHub Network!
 <a href="{{ site.baseurl }}/img/streakgithub.png">
     <img src="{{ site.baseurl }}/img/streakgithub.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
 </a>
-
+<br>
 
 <a href="{{ site.baseurl }}/img/streakgithub1.png">
     <img src="{{ site.baseurl }}/img/streakgithub1.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
+</a>
+
+Our App based on Sails.js, Backbone.js, Bootstrap Framework, and our Development Skills!
+The App is mostly built in javascript <code> 66.4% </code> and in css/less <code>33.1%</code> ! 
+
+
+<a href="{{ site.baseurl }}/img/javascript-css.png">
+    <img src="{{ site.baseurl }}/img/javascript-css.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
 </a>
 
 
