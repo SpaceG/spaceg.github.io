@@ -9,7 +9,9 @@ header-img: "img/streakgithub3.png"
 <h2 class="section-heading"> Update on Remote Work</h2>
 <h2 class="section-heading">Current Streak!</h2>
 
+Now we go Back and Work on Remote! :) ! 
 
+If you are in Intress to work with us. please, contact us. ! 
 
 
 
