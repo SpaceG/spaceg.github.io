@@ -5,14 +5,77 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://lucasgatsas.ch/</link>
     <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2015 02:51:50 +0200</pubDate>
-    <lastBuildDate>Fri, 08 May 2015 02:51:50 +0200</lastBuildDate>
+    <pubDate>Sat, 09 May 2015 03:28:50 +0200</pubDate>
+    <lastBuildDate>Sat, 09 May 2015 03:28:50 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>reboot your Mac  - chmod o+rx</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Hacking Macintosh HD &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Entry Your Data with the Terminal Commandline Chmod o+rx&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; Recovery Mode &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;This Morning i got a {….} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything. 
+So my History now.. i tried hack my HD! After a Error, i put the rights to the &lt;code&gt;(:denied)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Spoken Words: Fuck! - I don’t had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!&lt;/p&gt;
+
+&lt;p&gt;i Tried out to reboot the Machine on &lt;code&gt; &quot;C&quot; &lt;/code&gt;! Nothing Works! After booted in to the &lt;code&gt;C&lt;/code&gt;
+&lt;code&gt;cmd + r &lt;/code&gt;! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# &lt;code&gt; chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt; and prompt (Enter) it. &lt;code&gt; sudo shutdown -r now &lt;/code&gt; ! New Started and waited for a while 
+and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I’m really proud of it. Hacking your Machine and learn to Rule! ;)&lt;/p&gt;
+
+&lt;p&gt;First Reboot your Machine from &lt;code&gt; cmd + r  &lt;code&gt; and then wait!
+Open the Terminal and Type follow CommandLine &lt;code&gt;chmod o+rx &quot;/Volumes/YOURHD&quot;
+And New Start your Mac!&lt;/code&gt;&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt; Off course there are alot Ways to Boot and Reboot your Machine &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Single-User Mode &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Newstart your Machine and Press &lt;code&gt;cmd + s&lt;/code&gt; ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
+There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!&lt;/p&gt;
+
+&lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type &lt;code&gt;reboot&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;First i have typed : &lt;code&gt; mount -uw/ &lt;/code&gt;
+Then After Prompt : &lt;code&gt; chmod 755/System&lt;/code&gt;
+And Now Type : &lt;code&gt; chmod 1773/Shared &lt;/code&gt;
+At Last prompt: &lt;code&gt; chmod 1777/Users/Shared&lt;/code&gt;
+Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;) &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt; Verbose Mode &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Press &lt;code&gt; cmd + V&lt;code&gt; to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lucasgatsas.ch/chmod/&quot;&gt; SEE HERE THE IMAGES! &lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;I don’t need anymore a Apple Supporter! :D &lt;/p&gt;
+
+&lt;blockquote&gt;
+“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 10 May 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Start Up - Streak</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; Update on Remote Work&lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Current Streak!&lt;/h2&gt;
+
+&lt;p&gt;Now we go Back and Work on Remote! :) ! &lt;/p&gt;
+
+&lt;p&gt;If you are in Intress to work with us. please, contact us. ! &lt;/p&gt;
 
 &lt;blockquote&gt;
 “Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
@@ -630,30 +693,6 @@ Update Post soon. ! &lt;/p&gt;
         <pubDate>Wed, 22 Apr 2015 16:00:44 +0200</pubDate>
         <link>https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</link>
         <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Installing nginx on a Virtual Server</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;nginx on a Virtual server&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;VirtualServer - Sysadmin - Unix &lt;/h2&gt;
-
-&lt;p&gt;Now, I’m here and Studing some Steps how Set Up a nginx Server on &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt;. Include &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;. Check out my Older Post &lt;a href=&quot;https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/&quot;&gt;here&lt;/a&gt;. And Set Up The Domian with &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;My eyes! They burn! &lt;a href=&quot;http://t.co/Nbgavlphnn&quot;&gt;http://t.co/Nbgavlphnn&lt;/a&gt; &lt;a href=&quot;http://t.co/HfIH0RGdjx&quot;&gt;pic.twitter.com/HfIH0RGdjx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Etel Sverdlov (@etelsverdlov) &lt;a href=&quot;https://twitter.com/etelsverdlov/status/555172636817649664&quot;&gt;14. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote&gt; The Work from a Sysadmin! :)  &lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 21 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://lucasgatsas.ch/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</link>
-        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</guid>
         
         
       </item>
