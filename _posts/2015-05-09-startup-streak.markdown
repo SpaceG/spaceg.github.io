@@ -38,6 +38,8 @@ The App is mostly built in javascript <code> 66.4% </code> and in css/less <code
 </a>
 
 
+More Infos Comming soon! 
+
 
 
 <blockquote>
