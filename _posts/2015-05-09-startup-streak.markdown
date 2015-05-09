@@ -17,6 +17,14 @@ If you are in Intress to work with us. please, contact us. !
 
 
 
+GitHub Network! 
+
+<a href="{{ site.baseurl }}/img/streakgithub.png">
+    <img src="{{ site.baseurl }}/img/streakgithub.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
+</a>
+
+
+
 
 <blockquote>
 “Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
