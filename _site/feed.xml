@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>https://lucasgatsas.ch/</link>
     <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 May 2015 03:57:36 +0200</pubDate>
-    <lastBuildDate>Sat, 09 May 2015 03:57:36 +0200</lastBuildDate>
+    <pubDate>Sun, 10 May 2015 04:25:01 +0200</pubDate>
+    <lastBuildDate>Sun, 10 May 2015 04:25:01 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -65,6 +65,47 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;) &lt;/p&gt;
         <pubDate>Sun, 10 May 2015 16:00:44 +0200</pubDate>
         <link>https://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</link>
         <guid isPermaLink="true">https://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Start Up - Streak</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Update on Remote Work&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Current Streak!&lt;/h2&gt;
+
+&lt;p&gt;Now we go Back and Work on Remote on our StartUp Project. Here are some GitHub Static! 
+If you are in Intress to work with us. please, Contact  Me! We also looking for a fit Unix/Linux Ubunutu Sysadmin! Who do the Server Parts! 
+Do you will find my e-mail in the Source-Code or text!&lt;/p&gt;
+
+&lt;p&gt;GitHub Network! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/streakgithub.png&quot;&gt;
+    &lt;img src=&quot;/img/streakgithub.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/streakgithub1.png&quot;&gt;
+    &lt;img src=&quot;/img/streakgithub1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our App based on Sails.js, Backbone.js, Bootstrap Framework, and our Development Skills!
+The App is mostly built in javascript &lt;code&gt; 66.4% &lt;/code&gt; and in css/less &lt;code&gt;33.1%&lt;/code&gt; ! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/js.png&quot;&gt;
+    &lt;img src=&quot;/img/js.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More Infos Comming soon! &lt;/p&gt;
+
+&lt;blockquote&gt;
+“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 09 May 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/05/09/update-start-up/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/05/09/update-start-up/</guid>
         
         
       </item>
@@ -661,59 +702,6 @@ Update Post soon. ! &lt;/p&gt;
         <pubDate>Sun, 26 Apr 2015 16:00:44 +0200</pubDate>
         <link>https://lucasgatsas.ch/2015/04/26/get-over-ssh-mac-terminal-learning-new-epic-stuff/</link>
         <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/26/get-over-ssh-mac-terminal-learning-new-epic-stuff/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Domain Set Up - DNS - Cname - WHOIS - Lookup</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Domain DNS - Cname - WHOIS - Lookup&lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Nameserver Set Up.&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/questions/setting-up-dns-domain-name-from-godaddy-or-namecheap&quot;&gt; Setting Up dns Domain Name - Namecheap&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Have a Introduction to the &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts &quot;&gt; DNS-Terminology&lt;/a&gt; then set Up a 
-&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean&quot;&gt; Hostname on Digital Ocean &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Digital Ocean Servers are :&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; The DigitalOcean Domain Servers are&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ns1.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ns2.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ns3.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Login In your Ubunutu Server ! &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ssh root@youripadress &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;you will get a fingerprint back &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Are you sure you want to continue connecting (yes/no)? &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;press &lt;code&gt; yes &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;maybe your Connection will closed again. then type again 
-&lt;code&gt;ssh root@youripadress &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;root@youripadress password: &lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;p&gt;after you will get this out : &lt;/p&gt;
-
-&lt;p&gt;You are required to change your password immediately (root enforced)&lt;/p&gt;
-
-&lt;p&gt;Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)&lt;/p&gt;
-
-&lt;blockquote&gt;
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Wed, 22 Apr 2015 16:00:44 +0200</pubDate>
-        <link>https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</link>
-        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</guid>
         
         
       </item>
