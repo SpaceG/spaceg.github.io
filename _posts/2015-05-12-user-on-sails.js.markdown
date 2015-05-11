@@ -4,13 +4,10 @@ title:      "User on sails.js "
 subtitle:   "Working with CRUD"
 date:       2015-05-12 14:00:44
 author:     "Lucas Gatsas"
-header-img: "1765533.jpg"
+header-img: "img/1765533.jpg"
 ---
 <h2 class="section-heading">User </h2>
-<h2 class="section-heading">CRUD MethodsSails.js</h2>
-
-
-Update Post soon! 
+<h2 class="section-heading">CRUD Methods Sails.js</h2>
 
 
 
