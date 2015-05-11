@@ -10,12 +10,15 @@ header-img: "img/1557493_663672417038411_6720990459034320832_n.jpg"
 <h2 class="section-heading">Entry Your Data with the Terminal Commandline Chmod o+rx</h2>
 
 
+
+
+
 <strong> Recovery Mode </strong> 
 
 This Morning i got a {....} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything. 
 So my History now.. i tried hack my HD! After a Error, i put the rights to the <code>(:denied)</code>.
 
-Spoken Words: Fuck! - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!
+Spoken Words: - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!
 
 i Tried out to reboot the Machine on <code> "C" </code>! Nothing Works! After booted in to the <code>C</code>
 <code>cmd + r </code>! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it. <code> sudo shutdown -r now </code> ! New Started and waited for a while 
