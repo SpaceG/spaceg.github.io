@@ -12,17 +12,10 @@ header-img: "img/1765533.jpg"
 
 
 
-4. Run gulp:
-
-<code>$ gulp</code>
-
-
-
-
 
 
 
 <blockquote>
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
+“ ” 
 </blockquote>
 
