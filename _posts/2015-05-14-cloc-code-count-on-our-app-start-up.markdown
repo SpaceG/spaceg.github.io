@@ -10,9 +10,7 @@ header-img: "img/1765533.jpg"
 <h2 class="section-heading">Count Lines of Code in our Master Branch</h2>
 
 
-Get Started with <code>Gulp</code> 
 
-1. Install gulp globally:
 
 <code>$ npm install --global gulp</code>
 
