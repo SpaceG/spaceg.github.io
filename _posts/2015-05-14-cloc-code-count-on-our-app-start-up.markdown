@@ -12,12 +12,6 @@ header-img: "img/1765533.jpg"
 
 
 
-<code>$ npm install --global gulp</code>
-
-
-2. Install gulp in your project devDependencies:
-
-<code>$ npm install --save-dev gulp</code>
 
 
 3. Create a gulpfile.js at the root of your project:
