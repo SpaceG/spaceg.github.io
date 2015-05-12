@@ -12,22 +12,6 @@ header-img: "img/1765533.jpg"
 
 
 
-
-
-3. Create a gulpfile.js at the root of your project:
-
-
-<code>
-var gulp = require('gulp'); </code>
-<code>
-gulp.task('default', function() {
-  // place code for your default task here
-}); </code>
-
-
-
-
-
 4. Run gulp:
 
 <code>$ gulp</code>
