@@ -29,7 +29,8 @@ header-img: "img/1765533.jpg"
 
 
 
-This is my Cloc <code> $ cloc . </code> 
+This is my Cloc <code> $ cloc . </code> Do you can see the most of our App is writen in Javascript. 
+<code>524'128</code> Code! The Full App have <code>21419.9</code> Lines of Code! 
 
 <a href="{{ site.baseurl }}/img/gli.png">
     <img src="{{ site.baseurl }}/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
