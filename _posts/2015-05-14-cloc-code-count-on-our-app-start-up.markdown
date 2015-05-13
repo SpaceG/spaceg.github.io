@@ -40,9 +40,6 @@ This is my Cloc <code> $ cloc . </code> Do you can see the most of our App is wr
 <br>
 
 <blockquote>
-“Zeit für etwas zu haben
-ist das Talent
-Dinge nach ihrer Wichtigkeit 
-ordnen zu können ” 
+“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
 </blockquote>
 
