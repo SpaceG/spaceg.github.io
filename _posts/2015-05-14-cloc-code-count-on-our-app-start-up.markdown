@@ -16,6 +16,9 @@ header-img: "img/1765533.jpg"
 
 
 <blockquote>
-“ ” 
+“Zeit für etwas zu haben
+ist das Talent
+Dinge nach ihrer Wichtigkeit 
+ordnen zu können ” 
 </blockquote>
 
