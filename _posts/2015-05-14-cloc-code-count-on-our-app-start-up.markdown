@@ -28,6 +28,16 @@ header-img: "img/1765533.jpg"
 <br><br>
 
 
+
+This is my Cloc <code> $ cloc . </code> 
+
+<a href="{{ site.baseurl }}/img/gli.png">
+    <img src="{{ site.baseurl }}/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
+</a>
+
+
+<br>
+
 <blockquote>
 “Zeit für etwas zu haben
 ist das Talent
