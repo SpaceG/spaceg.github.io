@@ -22,7 +22,7 @@ header-img: "img/1765533.jpg"
 
 <h2 class="section-heading">10070 Lines of Code</h2>
 
-
+<br><br>
 
 
 <blockquote>
