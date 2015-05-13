@@ -23,7 +23,7 @@ header-img: "img/1765533.jpg"
 
 <h2 class="section-heading">408 Hours</h2>
 
-<h2 class="section-heading"> 21419 Lines of Code</h2>
+<h2 class="section-heading"> 21419.9 Lines of Code</h2>
 
 <br><br>
 
