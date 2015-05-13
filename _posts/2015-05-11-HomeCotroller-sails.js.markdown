@@ -13,7 +13,10 @@ header-img: "img/tumblr_static_2014-07-30_09.18.41_1.jpg"
 Update Post soon!
 
 
+
+
+
 <blockquote>
-“sails.js -  Realtime MVC Framework for Node.js” 
+“sails.js -  Realtime MVC Framework for Node.jss” 
 </blockquote>
 
