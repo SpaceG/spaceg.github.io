@@ -13,7 +13,7 @@ header-img: "img/1765533.jpg"
 
 
 
-<br><br>
+<br><br> 
 
 <h2 class="section-heading"><strong>Work Streak</strong></h2>
 
@@ -27,7 +27,7 @@ header-img: "img/1765533.jpg"
 
 <br><br>
 
-
+From 1. Januar till 13. of May 2015! <br>
 
 This is my Cloc <code> $ cloc . </code> Do you can see the most of our App is writen in Javascript. 
 <code>524'128</code> Code! The Full App have <code>21419.9</code> Lines of Code! 
