@@ -44,7 +44,7 @@ This is my Cloc <code> $ cloc . </code> Do you can see the most of our App is wr
 
 <blockquote class="twitter-tweet" lang="de"><p lang="en" dir="ltr">Yes, We&#39;re Alive!:) 21419.9 Lines of Code! 524&#39;128 Lines in JS! <a href="https://t.co/HNbz14NaHM">https://t.co/HNbz14NaHM</a> <a href="https://twitter.com/hashtag/startup?src=hash">#startup</a> <a href="https://twitter.com/hashtag/cloc?src=hash">#cloc</a> <a href="https://twitter.com/hashtag/javascript?src=hash">#javascript</a> <a href="http://t.co/vsSNrEhpBL">pic.twitter.com/vsSNrEhpBL</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/598794832467927040">14. Mai 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<br>
 <blockquote>
 “Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
 </blockquote>
