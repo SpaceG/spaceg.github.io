@@ -31,10 +31,10 @@ From 1. Januar till 13. of May 2015! <br>
 
 This is my Cloc <code> $ cloc . </code> Do you can see the most of our App is writen in Javascript. 
 <code>524'128</code> Code! The Full App have <code>21419.9</code> Lines of Code! 
-
+<!--
 <a href="{{ site.baseurl }}/img/gli.png">
     <img src="{{ site.baseurl }}/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
-</a>
+</a> -->
 
 
 <br>
