@@ -13,13 +13,14 @@ header-img: "img/1765533.jpg"
 
 
 
+
 <br><br> 
 
 <h2 class="section-heading"><strong>Work Streak</strong></h2>
 
 <h2 class="section-heading">21 Club Mate's</h2>
 
-<h2 class="section-heading">247 Coffees</h2>
+<h2 class="section-heading">251 Coffees</h2>
 
 <h2 class="section-heading">421 Hours</h2>
 
