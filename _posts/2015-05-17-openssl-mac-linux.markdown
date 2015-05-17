@@ -13,11 +13,16 @@ header-img: "img/ocean-waves-crashing-i5.png"
 
 
 <code>  wget http://www.openssl.org/source/openssl-1.0.1g.tar.gz </code>
-  tar -xvzf openssl-1.0.1g.tar.gz
-  cd openssl-1.0.1g
-  ./config --prefix=/usr/
-  make
-  sudo make install 
+
+<code> tar -xvzf openssl-1.0.1g.tar.gz </code>
+
+<code>  cd openssl-1.0.1g </code>
+
+<code>  ./config --prefix=/usr/ </code>
+
+<code> make </code>
+
+<code>  sudo make install  </code>
 
 
 <!--
