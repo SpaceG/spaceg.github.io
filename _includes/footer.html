@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -14,7 +14,7 @@
                     </li>
                     {% if site.twitter_username %}
                     <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <a href="https://twitter.com/{{ site.twitter_username }}" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -24,7 +24,7 @@
                     {% endif %}
                     {% if site.google_username %}
                     <li>
-                        <a href="https://plus.google.com/101826267816845608605/posts{{ site.facebook_username }}">
+                        <a href="https://plus.google.com/101826267816845608605/posts{{ site.facebook_username }}" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -52,6 +52,9 @@
       <!-- ICE AND FIRE THEME https://github.com/SpaceG/iceandfire -->
     <a href="https://github.com/SpaceG/iceandfire">ICE & FIRE Theme by Lucas Gatsas.</a> Hosted on <a href="https://pages.github.com/"> Github</a></p>
     </div>
+
+    <a href="http://lucasgatsas.ch" class="ajax-call">Test</a>
+<div id="loadingbar-frame"></div>
             </div>
         </div>
     </div>
