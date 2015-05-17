@@ -20,9 +20,9 @@ header-img: "img/1765533.jpg"
 
 <h2 class="section-heading">21 Club Mate's</h2>
 
-<h2 class="section-heading">251 Coffees</h2>
+<h2 class="section-heading">247 Coffees</h2>
 
-<h2 class="section-heading">421 Hours</h2>
+<h2 class="section-heading">426 Hours</h2>
 
 <h2 class="section-heading"> 21419.9 Lines of Code</h2>
 
