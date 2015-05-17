@@ -93,7 +93,21 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 <script src="{{ "/js/jquery.loadingbar.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   
-
+    <script>
+      $(document).ready(function(){
+      $("#clickme").loadingbar({
+        done: function(data) {
+          $.each( data.shots, function( i, item ) {
+            $( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
+            if ( i === 11 ) {
+              return false;
+            }
+          });
+        }
+      });
+        });
+        
+    </script>
     <link rel="stylesheet" href="{{ "/css/loadingbar.css" | prepend: site.baseurl }}">
 
     <link href="https://gist-assets.github.com/assets/embed-b67021dc07195830cc157f7720b938fb.css" rel="stylesheet" type="text/css">
