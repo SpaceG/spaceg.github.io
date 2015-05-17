@@ -9,7 +9,7 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <h2 class="section-heading">OpenSSL</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-
+Update Post soon! 
 
 <!--
 <strong>Steps ( For Linux ) </strong>
