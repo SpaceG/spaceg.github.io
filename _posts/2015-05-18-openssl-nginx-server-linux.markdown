@@ -1,14 +1,17 @@
 ---
 layout:     post
-title:      "OpenSSL - Os X - Linux"
+title:      "OpenSSL - Os X - Linux on nginx Server Linux"
 subtitle:   "Run it over https"
-date:       2015-05-17 14:00:44
+date:       2015-05-18 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/ocean-waves-crashing-i5.png"
 ---
 <h2 class="section-heading">OpenSSL</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
+
+
+<!--
 <strong>Steps ( For Linux ) </strong>
 
 
@@ -24,7 +27,7 @@ header-img: "img/ocean-waves-crashing-i5.png"
 
 <code>  sudo make install  </code>
 
-
+-->
 <!--
 <a href="{{ site.baseurl }}/img/gli.png">
     <img src="{{ site.baseurl }}/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
@@ -33,6 +36,8 @@ header-img: "img/ocean-waves-crashing-i5.png"
 
 <br>
 <br>
+
+<!--
 
 <strong>Steps ( For Mac Os X ) </strong>
 
@@ -56,6 +61,8 @@ Verify that you have successfully installed OpenSSL.
 
 
 <code>openssl version -a</code>
+
+-->
 
 <br>
 <blockquote>

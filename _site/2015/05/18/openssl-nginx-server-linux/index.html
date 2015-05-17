@@ -69,14 +69,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Blog Title -->
     <title>Lucas Gatsas - Web Developer & Front-End Engineer from Switzerland. </title>
 
-    <!--     <title>OpenSSL - Os X - Linux - l.g</title>
+    <!--     <title>OpenSSL - Os X - Linux on nginx Server Linux - l.g</title>
 --> 
     <!-- Property Metas --> 
     <meta property="og:image" content="https://lucasgatsas.ch/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"/>
     <!-- Canonical -->
-    <link rel="canonical" href="https://lucasgatsas.ch/2015/05/17/openssl-mac-linux/">
+    <link rel="canonical" href="https://lucasgatsas.ch/2015/05/18/openssl-nginx-server-linux/">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
@@ -244,7 +244,7 @@ list-style: none;
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>OpenSSL - Os X - Linux</h1>
+                    <h1>OpenSSL - Os X - Linux on nginx Server Linux</h1>
                     
                     <h2 class="subheading">Run it over https</h2>
                     
@@ -264,20 +264,23 @@ list-style: none;
 				<h2 class="section-heading">OpenSSL</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-<p><strong>Steps ( For Linux ) </strong></p>
+<!--
+<strong>Steps ( For Linux ) </strong>
 
-<p><code>  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code></p>
 
-<p><code> tar -xvzf openssl-1.0.2a.tar.gz  </code></p>
+<code>  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
 
-<p><code>  cd openssl-1.0.2a </code></p>
+<code> tar -xvzf openssl-1.0.2a.tar.gz  </code>
 
-<p><code>  ./config --prefix=/usr/ </code></p>
+<code>  cd openssl-1.0.2a </code>
 
-<p><code> make </code></p>
+<code>  ./config --prefix=/usr/ </code>
 
-<p><code>  sudo make install  </code></p>
+<code> make </code>
 
+<code>  sudo make install  </code>
+
+-->
 <!--
 <a href="/img/gli.png">
     <img src="/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
@@ -286,25 +289,32 @@ list-style: none;
 <p><br />
 <br /></p>
 
-<p><strong>Steps ( For Mac Os X ) </strong></p>
+<!--
 
-<p><code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code></p>
+<strong>Steps ( For Mac Os X ) </strong>
 
-<p><code> tar -xvzf openssl-1.0.2a.tar.gz</code></p>
 
-<p><code> cd openssl-1.0.2a</code></p>
+<code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
 
-<p><code> ./Configure darwin64-x86_64-cc --prefix=/usr</code></p>
+<code> tar -xvzf openssl-1.0.2a.tar.gz</code>
 
-<p><code> make</code></p>
+<code> cd openssl-1.0.2a</code>
 
-<p><code> sudo make install </code></p>
+<code> ./Configure darwin64-x86_64-cc --prefix=/usr</code>
 
-<p><strong>Verify the Installation</strong></p>
+<code> make</code>
 
-<p>Verify that you have successfully installed OpenSSL.</p>
+<code> sudo make install </code>
 
-<p><code>openssl version -a</code></p>
+
+<strong>Verify the Installation</strong>
+
+Verify that you have successfully installed OpenSSL.
+
+
+<code>openssl version -a</code>
+
+-->
 
 <p><br /></p>
 <blockquote>
@@ -317,13 +327,9 @@ list-style: none;
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/05/14/cloc-code-count-on-our-app-start-up/" data-toggle="tooltip" data-placement="top" title="Count Lines of Code">&larr; Previous Post</a>
+                        <a href="/2015/05/17/openssl-mac-linux/" data-toggle="tooltip" data-placement="top" title="OpenSSL - Os X - Linux">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2015/05/18/openssl-nginx-server-linux/" data-toggle="tooltip" data-placement="top" title="OpenSSL - Os X - Linux on nginx Server Linux">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
