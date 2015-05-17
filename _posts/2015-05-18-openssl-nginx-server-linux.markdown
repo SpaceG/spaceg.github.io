@@ -34,35 +34,6 @@ header-img: "img/ocean-waves-crashing-i5.png"
 </a> -->
 
 
-<br>
-<br>
-
-<!--
-
-<strong>Steps ( For Mac Os X ) </strong>
-
-
-<code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
-
-<code> tar -xvzf openssl-1.0.2a.tar.gz</code>
-
-<code> cd openssl-1.0.2a</code>
-
-<code> ./Configure darwin64-x86_64-cc --prefix=/usr</code>
-
-<code> make</code>
-
-<code> sudo make install </code>
-
-
-<strong>Verify the Installation</strong>
-
-Verify that you have successfully installed OpenSSL.
-
-
-<code>openssl version -a</code>
-
--->
 
 <br>
 <blockquote>
