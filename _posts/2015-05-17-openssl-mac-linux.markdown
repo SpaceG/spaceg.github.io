@@ -24,6 +24,7 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <br>
 
 
+<strong>Steps ( For Mac Os X ) </strong>
 
 
 
