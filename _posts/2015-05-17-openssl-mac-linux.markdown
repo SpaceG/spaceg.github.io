@@ -39,7 +39,7 @@ header-img: "img/ocean-waves-crashing-i5.png"
 
 <code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
 
-<code> tar -xvzf openssl-1.0.1g.tar.gz</code>
+<code> tar -xvzf openssl-1.0.2a.tar.gz</code>
 
 <code> cd openssl-1.0.1g</code>
 
