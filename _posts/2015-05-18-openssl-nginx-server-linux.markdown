@@ -4,7 +4,7 @@ title:      "OpenSSL - Os X - Linux on nginx Server Linux"
 subtitle:   "Run it over https"
 date:       2015-05-18 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-13.jpg"
+header-img: "img/mirror.jpg"
 ---
 <h2 class="section-heading">OpenSSL</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
