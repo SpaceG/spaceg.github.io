@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/1765533.jpg"
 ---
 <h2 class="section-heading">OpenSSL</h2>
-<h2 class="section-heading">Count Lines of Code in our Master Branch</h2>
+<h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
 
 
