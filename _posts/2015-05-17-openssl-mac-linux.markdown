@@ -41,7 +41,7 @@ header-img: "img/ocean-waves-crashing-i5.png"
 
 <code> tar -xvzf openssl-1.0.2a.tar.gz</code>
 
-<code> cd openssl-1.0.1g</code>
+<code> cd openssl-1.0.2a</code>
 
 <code> ./Configure darwin64-x86_64-cc --prefix=/usr</code>
 
