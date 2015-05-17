@@ -20,6 +20,10 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <br>
 
 
+
+
+
+
 <br>
 <blockquote>
 “Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
