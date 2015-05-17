@@ -50,6 +50,10 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <code> sudo make install </code>
 
 
+<strong>Verify the Installation</strong>
+
+Verify that you have successfully installed OpenSSL.
+
 
 <br>
 <blockquote>
