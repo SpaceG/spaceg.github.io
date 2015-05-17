@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Count Lines of Code"
-subtitle:   "Start Up - Streak"
+title:      "OpenSSL - Os X - Linux"
+subtitle:   "Run it over https"
 date:       2015-05-17 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/1765533.jpg"
