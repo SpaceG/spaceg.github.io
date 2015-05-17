@@ -12,11 +12,11 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <strong>Steps ( For Linux ) </strong>
 
 
-<code>  wget http://www.openssl.org/source/openssl-1.0.1g.tar.gz </code>
+<code>  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
 
-<code> tar -xvzf openssl-1.0.1g.tar.gz </code>
+<code> tar -xvzf openssl-1.0.2a.tar.gz  </code>
 
-<code>  cd openssl-1.0.1g </code>
+<code>  cd openssl-1.0.2a </code>
 
 <code>  ./config --prefix=/usr/ </code>
 
@@ -37,7 +37,7 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <strong>Steps ( For Mac Os X ) </strong>
 
 
-<code> wget http://www.openssl.org/source/openssl-1.0.1g.tar.gz </code>
+<code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
 
 <code> tar -xvzf openssl-1.0.1g.tar.gz</code>
 
