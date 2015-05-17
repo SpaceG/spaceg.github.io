@@ -55,6 +55,8 @@ header-img: "img/ocean-waves-crashing-i5.png"
 Verify that you have successfully installed OpenSSL.
 
 
+<code>openssl version -a</code>
+
 <br>
 <blockquote>
 “Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
