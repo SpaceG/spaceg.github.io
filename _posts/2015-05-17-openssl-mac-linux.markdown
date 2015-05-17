@@ -37,12 +37,17 @@ header-img: "img/ocean-waves-crashing-i5.png"
 <strong>Steps ( For Mac Os X ) </strong>
 
 
-  <code> wget http://www.openssl.org/source/openssl-1.0.1g.tar.gz </code>
-  <code> tar -xvzf openssl-1.0.1g.tar.gz</code>
-  <code> cd openssl-1.0.1g</code>
-  <code> ./Configure darwin64-x86_64-cc --prefix=/usr</code>
-  <code> make</code>
-  <code> sudo make install </code>
+<code> wget http://www.openssl.org/source/openssl-1.0.1g.tar.gz </code>
+
+<code> tar -xvzf openssl-1.0.1g.tar.gz</code>
+
+<code> cd openssl-1.0.1g</code>
+
+<code> ./Configure darwin64-x86_64-cc --prefix=/usr</code>
+
+<code> make</code>
+
+<code> sudo make install </code>
 
 
 
