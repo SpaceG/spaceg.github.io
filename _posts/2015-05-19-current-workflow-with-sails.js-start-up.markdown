@@ -4,7 +4,7 @@ title:      "Workflow with Sails.js"
 subtitle:   "Current Streak - Start Up"
 date:       2015-05-18 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/mirror.jpg"
+header-img: "img/lucas-gatsas-01.png"
 ---
 <h2 class="section-heading">Workflow</h2>
 <h2 class="section-heading">Current Streak - Start Up</h2>
