@@ -13,7 +13,9 @@ header-img: "img/lucas-gatsas-01.png"
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/f4E_9_FVd7s" frameborder="0" allowfullscreen></iframe>
 <br><br>
 
-<blockquote> Current Web App</blockquote>
+
+
+<blockquote> Current Web App Workflow with - Sails.js - Backbone.js -</blockquote>
 
 
 
