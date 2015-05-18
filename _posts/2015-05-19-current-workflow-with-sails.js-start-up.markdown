@@ -2,7 +2,7 @@
 layout:     post
 title:      "Workflow with Sails.js"
 subtitle:   "Current Streak - Start Up"
-date:       2015-05-18 14:00:44
+date:       2015-05-19 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-01.png"
 ---
