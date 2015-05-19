@@ -18,10 +18,6 @@ header-img: "img/lucas-gatsas-01.png"
 <blockquote> Current Web App Workflow with - Sails.js - Backbone.js -</blockquote>
 
 
-
-Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
-
-
 <br>
 <blockquote>
 “Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
