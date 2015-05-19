@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Grunt.js - Javascript Task Runner"
-subtitle:   "Current Streak - Start Up"
+subtitle:   "Introduction to the grunt.js"
 date:       2015-05-20 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/tumblr_n5e4viuHai1r4v7ypo1_1280-1.jpg"
