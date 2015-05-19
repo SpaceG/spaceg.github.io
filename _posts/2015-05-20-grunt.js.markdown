@@ -11,7 +11,7 @@ header-img: "img/tumblr_n5e4viuHai1r4v7ypo1_1280-1.jpg"
 
 
 
-
+<code>$ npm install -g grunt-cli</code>
 
 
 
