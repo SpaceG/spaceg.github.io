@@ -10,6 +10,14 @@ header-img: "img/onepost_dark.png"
 <h2 class="section-heading"></h2>
 
 
+
+
+<a href="{{ site.baseurl }}/img/onepost.png">
+    <img src="{{ site.baseurl }}/img/onepost.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
 <br>
 <blockquote>
 “Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
