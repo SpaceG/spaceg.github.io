@@ -17,6 +17,7 @@ header-img: "img/onepost_dark.png"
 </a>
 
 <small> I realize that i have wunderfull nice Blog Followers </small> 
+
 Page Views per 19.04.2015 - 19.05.2015 
 
 <strong> 7.975 </strong> 
