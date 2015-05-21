@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Analystic"
-subtitle:   "Analystic this Blog"
+subtitle:   "My Blog Views"
 date:       2015-05-21 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/onepost_dark.png"
