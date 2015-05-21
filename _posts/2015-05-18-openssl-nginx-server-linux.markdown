@@ -6,11 +6,10 @@ date:       2015-05-18 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/mirror.jpg"
 ---
-<h2 class="section-heading">OpenSSL</h2>
+<h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-Update Post soon! 
-
+<strong> Set Up </strong> 
 
 
 
