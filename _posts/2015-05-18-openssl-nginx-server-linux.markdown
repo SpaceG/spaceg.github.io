@@ -76,6 +76,13 @@ Email Address []:lucasgatsas@example.com
 	-signkey server.key -out server.crt </code>
 
 
+
+
+<strong> Step Five—Set Up the Certificate </strong> 
+
+
+
+
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
 
 
