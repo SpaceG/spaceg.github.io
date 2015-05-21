@@ -130,6 +130,9 @@ The last step is to activate the host by creating a symbolic link between the si
 	/etc/nginx/sites-enabled/example </code>
 
 
+Then restart nginx:
+
+
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
 
