@@ -120,6 +120,16 @@ server {
 # server_name localhost;
 
 
+<strong> Step Six—Activate the Virtual Host </strong> 
+
+
+The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.
+
+
+<code>  sudo ln -s /etc/nginx/sites-available/example 
+	/etc/nginx/sites-enabled/example </code>
+
+
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
 
