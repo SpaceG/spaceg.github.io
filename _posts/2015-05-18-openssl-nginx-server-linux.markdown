@@ -94,7 +94,31 @@ Then go ahead and open up that new file:
 	sites-available/example </code>
 
 
-	
+
+Scroll down to the bottom of the file and find the section that begins with this:
+
+
+# HTTPS server
+
+server {
+        listen 443;
+        server_name example.com;
+
+        root /usr/share/nginx/www;
+        index index.html index.htm;
+
+        ssl on;
+        ssl_certificate /etc/nginx/ssl/server.crt;
+        ssl_certificate_key /etc/nginx/ssl/server.key; 
+}
+
+
+
+
+
+# Make site accessible from http://localhost/
+# server_name localhost;
+
 
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
