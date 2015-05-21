@@ -90,7 +90,11 @@ Then go ahead and open up that new file:
 
 
 
+<code> sudo nano /etc/nginx/
+	sites-available/example </code>
 
+
+	
 
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
