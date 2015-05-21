@@ -15,6 +15,11 @@ header-img: "img/mirror.jpg"
 <code> $ sudo apt-get install nginx </code>
 
 
+<strong> Step One—Create a Directory for the Certificate </strong> 
+
+ sudo mkdir /etc/nginx/ssl
+
+
 
 
 
