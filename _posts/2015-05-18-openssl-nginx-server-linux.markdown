@@ -81,6 +81,10 @@ Email Address []:lucasgatsas@example.com
 <strong> Step Five—Set Up the Certificate </strong> 
 
 
+<code>sudo cp /etc/nginx/sites-available/default
+ /etc/nginx/sites-available/example</code>
+
+
 
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
