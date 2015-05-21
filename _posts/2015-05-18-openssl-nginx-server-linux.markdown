@@ -24,6 +24,8 @@ header-img: "img/mirror.jpg"
 We will perform the next few steps within the directory:
 
 
+<code>  cd /etc/nginx/ssl </code> 
+
 
 
 
