@@ -4,7 +4,7 @@ title:      "OpenSSL - Os X - Linux on nginx Server Linux"
 subtitle:   "Run it over https"
 date:       2015-05-18 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/mirror.jpg"
+header-img: "img/tumblr_static_2014-07-30_09.18.41_1.jpg"
 ---
 <h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
