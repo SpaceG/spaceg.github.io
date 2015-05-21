@@ -27,6 +27,7 @@ We will perform the next few steps within the directory:
 <code>  cd /etc/nginx/ssl </code> 
 
 
+<strong>Step Two—Create the Server Key and Certificate Signing Request</strong> 
 
 
 
