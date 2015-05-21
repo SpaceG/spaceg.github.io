@@ -72,6 +72,9 @@ Follow up by creating a certificate signing request:
 <code> sudo openssl rsa -in server.key.org -out server.key </code> 
 
 
+<strong> Step Four— Sign your SSL Certificate </strong> 
+
+
 
 
 
