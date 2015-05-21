@@ -98,26 +98,26 @@ Then go ahead and open up that new file:
 Scroll down to the bottom of the file and find the section that begins with this:
 
 
-# HTTPS server
+	# HTTPS server
 
-server {
-        listen 443;
-        server_name example.com;
+	server {
+	        listen 443;
+	        server_name example.com;
 
-        root /usr/share/nginx/www;
-        index index.html index.htm;
+	        root /usr/share/nginx/www;
+	        index index.html index.htm;
 
-        ssl on;
-        ssl_certificate /etc/nginx/ssl/server.crt;
-        ssl_certificate_key /etc/nginx/ssl/server.key; 
-}
-
-
+	        ssl on;
+	        ssl_certificate /etc/nginx/ssl/server.crt;
+	        ssl_certificate_key /etc/nginx/ssl/server.key; 
+	}
 
 
 
-# Make site accessible from http://localhost/
-# server_name localhost;
+
+
+	# Make site accessible from http://localhost/
+	# server_name localhost;
 
 
 <strong> Step Six—Activate the Virtual Host </strong> 
