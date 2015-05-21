@@ -30,6 +30,9 @@ We will perform the next few steps within the directory:
 <strong>Step Two—Create the Server Key and Certificate Signing Request</strong> 
 
 
+<code> sudo openssl genrsa -des3 -out server.key 2048 </code>
+
+
 
 
 
