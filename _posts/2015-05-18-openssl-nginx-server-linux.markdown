@@ -69,13 +69,15 @@ Follow up by creating a certificate signing request:
 
 
 <code> sudo cp server.key server.key.org </code> 
-<code> sudo openssl rsa -in server.key.org -out server.key </code> 
+<code> sudo openssl rsa -in server.key.org 
+	-out server.key </code> 
 
 
 <strong> Step Four— Sign your SSL Certificate </strong> 
 
 
-
+<code>  sudo openssl x509 -req -days 365 -in server.csr 
+	-signkey server.key -out server.crt </code>
 
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
