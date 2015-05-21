@@ -21,6 +21,8 @@ header-img: "img/mirror.jpg"
 <code>sudo mkdir /etc/nginx/ssl</code>
 
 
+We will perform the next few steps within the directory:
+
 
 
 
