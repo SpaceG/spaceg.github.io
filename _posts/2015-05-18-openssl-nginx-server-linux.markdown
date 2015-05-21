@@ -36,6 +36,8 @@ We will perform the next few steps within the directory:
 Follow up by creating a certificate signing request:
 
 
+<code>sudo openssl req -new -key server.key -out server.csr</code>
+
 
 
 
