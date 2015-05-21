@@ -68,6 +68,13 @@ Follow up by creating a certificate signing request:
 <strong> Step Three—Remove the Passphrase </strong> 
 
 
+<code> sudo cp server.key server.key.org </code> 
+<code> sudo openssl rsa -in server.key.org -out server.key </code> 
+
+
+
+
+
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
 
 
