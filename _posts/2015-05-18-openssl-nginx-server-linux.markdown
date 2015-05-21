@@ -33,6 +33,9 @@ We will perform the next few steps within the directory:
 <code> sudo openssl genrsa -des3 -out server.key 2048 </code>
 
 
+Follow up by creating a certificate signing request:
+
+
 
 
 
