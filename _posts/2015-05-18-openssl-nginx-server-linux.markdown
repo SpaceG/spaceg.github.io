@@ -133,6 +133,16 @@ The last step is to activate the host by creating a symbolic link between the si
 Then restart nginx:
 
 
+<code>  sudo service nginx restart </code>
+
+
+Visit https://youraddress
+
+
+
+Cheers! 
+
+
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
 
