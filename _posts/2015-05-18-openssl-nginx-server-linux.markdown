@@ -17,7 +17,11 @@ header-img: "img/mirror.jpg"
 
 <strong> Step One—Create a Directory for the Certificate </strong> 
 
- sudo mkdir /etc/nginx/ssl
+
+<code>sudo mkdir /etc/nginx/ssl</code>
+
+
+
 
 
 
