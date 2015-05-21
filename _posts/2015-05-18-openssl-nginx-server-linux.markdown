@@ -12,6 +12,11 @@ header-img: "img/mirror.jpg"
 <strong> Set Up </strong> 
 
 
+<code> $ sudo apt-get install nginx </code>
+
+
+
+
 
 
 Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a>
