@@ -53,12 +53,11 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta charset="utf-8">
     <!-- X-UA --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
+    <link rel="author" href="https://plus.google.com/101826267816845608605/posts"/>
 
-
-
-
+    <meta name="google-site-verification" content="F5lkHug5Hdw4XRPcwJuQsK01auhET-yWy1o5SrCM-Sw" />
+    <meta name="google" content="notranslate" />
     <!-- Viewport --> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- index ROBOTS follow --> 
@@ -95,8 +94,25 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
+<script src="/js/jquery.loadingbar.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+    <script>
+      $(document).ready(function(){
+      $("#clickme").loadingbar({
+        done: function(data) {
+          $.each( data.shots, function( i, item ) {
+            $( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
+            if ( i === 11 ) {
+              return false;
+            }
+          });
+        }
+      });
+        });
+        
+    </script>
+    <link rel="stylesheet" href="/css/loadingbar.css">
 
     <link href="https://gist-assets.github.com/assets/embed-b67021dc07195830cc157f7720b938fb.css" rel="stylesheet" type="text/css">
     <!-- Loading front stylesheet here --> 
@@ -242,7 +258,7 @@ list-style: none;
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/ocean-waves-crashing-i5.png')" alt="Lucas Gatsas">
+<header class="intro-header" style="background-image: url('/img/tumblr_static_2014-07-30_09.18.41_1.jpg')" alt="Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -264,47 +280,139 @@ list-style: none;
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">OpenSSL</h2>
+				<h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-<p>Update Post soon! </p>
+<p><strong> Set Up </strong> </p>
 
-<!--
-<strong>Steps ( For Linux ) </strong>
+<p><code> $ sudo apt-get install nginx </code></p>
+
+<p><strong> Step One—Create a Directory for the Certificate </strong> </p>
+
+<p><code>sudo mkdir /etc/nginx/ssl</code></p>
+
+<p>We will perform the next few steps within the directory:</p>
+
+<p><code>  cd /etc/nginx/ssl </code> </p>
+
+<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong> </p>
+
+<p><code> sudo openssl genrsa -des3 -out server.key 2048 </code></p>
+
+<p>Follow up by creating a certificate signing request:</p>
+
+<p><code>sudo openssl req -new -key server.key -out server.csr</code></p>
+
+<p>You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter ‘.’, the field will be left blank.—–
+Country Name (2 letter code) [AU]:CH
+State or Province Name (full name) [Some-State]:St. Gallen
+Locality Name (eg, city) []:Saint City
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:lucasgatsas.ch 
+Organizational Unit Name (eg, section) []:Dept of Engineering - IT NERDS
+Common Name (e.g. server FQDN or YOUR name) []:lucasgatsas@gmail.com                <br />
+Email Address []:lucasgatsas@example.com</p>
+
+<p><strong> Step Three—Remove the Passphrase </strong> </p>
+
+<p><code> sudo cp server.key server.key.org </code> 
+<code> sudo openssl rsa -in server.key.org 
+	-out server.key </code> </p>
+
+<p><strong> Step Four— Sign your SSL Certificate </strong> </p>
+
+<p><code>  sudo openssl x509 -req -days 365 -in server.csr 
+	-signkey server.key -out server.crt </code></p>
+
+<p><strong> Step Five—Set Up the Certificate </strong> </p>
+
+<p><code>sudo cp /etc/nginx/sites-available/default
+ /etc/nginx/sites-available/example</code></p>
+
+<p>Then go ahead and open up that new file:</p>
+
+<p><code> sudo nano /etc/nginx/
+	sites-available/example </code></p>
+
+<p>Scroll down to the bottom of the file and find the section that begins with this:</p>
+
+<pre><code># HTTPS server
+
+server {
+        listen 443;
+        server_name example.com;
+
+        root /usr/share/nginx/www;
+        index index.html index.htm;
+
+        ssl on;
+        ssl_certificate /etc/nginx/ssl/server.crt;
+        ssl_certificate_key /etc/nginx/ssl/server.key; 
+}
 
 
-<code>  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
 
-<code> tar -xvzf openssl-1.0.2a.tar.gz  </code>
 
-<code>  cd openssl-1.0.2a </code>
 
-<code>  ./config --prefix=/usr/ </code>
+# Make site accessible from http://localhost/
+# server_name localhost;
+</code></pre>
 
-<code> make </code>
+<p><strong> Step Six—Activate the Virtual Host </strong> </p>
 
-<code>  sudo make install  </code>
+<p>The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.</p>
 
--->
-<!--
-<a href="/img/gli.png">
-    <img src="/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
-</a> -->
+<p><code>  sudo ln -s /etc/nginx/sites-available/example 
+	/etc/nginx/sites-enabled/example </code></p>
+
+<p>Then restart nginx:</p>
+
+<p><code>  sudo service nginx restart </code></p>
+
+<p>Visit https://youraddress</p>
+
+<p>Cheers! </p>
+
+<p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
 
 <p><br /></p>
 <blockquote>
-“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+“Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.” 
 </blockquote>
 
 
 
                 <hr>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'lucasgatsas2015';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                
                 <ul class="pager">
                     
                     <li class="previous">
                         <a href="/2015/05/17/openssl-mac-linux/" data-toggle="tooltip" data-placement="top" title="OpenSSL - Os X - Linux">&larr; Previous Post</a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/2015/05/19/current-workflow-with-sails.js-start-up/" data-toggle="tooltip" data-placement="top" title="Workflow with Sails.js">Next Post &rarr;</a>
+                    </li>
                     
                 </ul>
 
@@ -321,7 +429,7 @@ list-style: none;
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="/feed.xml">
+                        <a href="/feed.xml" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -330,7 +438,7 @@ list-style: none;
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/LucasGatsas">
+                        <a href="https://twitter.com/LucasGatsas" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -340,7 +448,7 @@ list-style: none;
                     
                     
                     <li>
-                        <a href="https://plus.google.com/101826267816845608605/posts">
+                        <a href="https://plus.google.com/101826267816845608605/posts" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -368,6 +476,9 @@ list-style: none;
       <!-- ICE AND FIRE THEME https://github.com/SpaceG/iceandfire -->
     <a href="https://github.com/SpaceG/iceandfire">ICE & FIRE Theme by Lucas Gatsas.</a> Hosted on <a href="https://pages.github.com/"> Github</a></p>
     </div>
+
+
+    
             </div>
         </div>
     </div>
@@ -412,8 +523,20 @@ list-style: none;
   ga('send', 'pageview');
 
 </script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63212709-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
+
+    
 
 </body>
 

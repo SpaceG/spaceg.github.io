@@ -149,6 +149,6 @@ Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="ht
 
 <br>
 <blockquote>
-“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+“Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.” 
 </blockquote>
 

@@ -53,12 +53,11 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta charset="utf-8">
     <!-- X-UA --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
+    <link rel="author" href="https://plus.google.com/101826267816845608605/posts"/>
 
-
-
-
+    <meta name="google-site-verification" content="F5lkHug5Hdw4XRPcwJuQsK01auhET-yWy1o5SrCM-Sw" />
+    <meta name="google" content="notranslate" />
     <!-- Viewport --> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- index ROBOTS follow --> 
@@ -95,8 +94,25 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
+<script src="/js/jquery.loadingbar.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+    <script>
+      $(document).ready(function(){
+      $("#clickme").loadingbar({
+        done: function(data) {
+          $.each( data.shots, function( i, item ) {
+            $( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
+            if ( i === 11 ) {
+              return false;
+            }
+          });
+        }
+      });
+        });
+        
+    </script>
+    <link rel="stylesheet" href="/css/loadingbar.css">
 
     <link href="https://gist-assets.github.com/assets/embed-b67021dc07195830cc157f7720b938fb.css" rel="stylesheet" type="text/css">
     <!-- Loading front stylesheet here --> 
@@ -276,6 +292,335 @@ list-style: none;
 	<div class="row">
 		<div class="posts">
 			<div class="content">
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-doberman-white.png')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-03-23T15:00:44+01:00">
+							<a href="http://lucasgatsas.ch/2015/03/23/ready-for-macports/">March 23, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/03/23/ready-for-macports/" id="post-title-h1" rel="bookmark" title="Ready For MacPorts" itemprop="url">Ready For MacPorts</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/03/23/ready-for-macports/" rel="bookmark" title="Ready For MacPorts" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading"><strong>MacPorts</strong> </h2>
+
+<h2 class="section-heading">2.2.1. OS X Package Install</h2>
+
+<p>The OS X package installer automatically installs MacPorts, <a href="https://guide.macports.org/chunked/installing.shell.html">sets the shell environment</a>, and runs a
+<a href="https://guide.macports.org/chunked/using.html#using.port.selfupdate">selfupdate</a>  operation to update the ports tree and MacPorts base with the latest release.</p>
+
+<p>(1.) Download the latest <strong>MacPorts-2.3.1-….pkg</strong> installer from the <strong> <a href="https://distfiles.macports.org/MacPorts/">MacPorts download directory</a> </strong> . Here are direct links for the latest versions of OS X:</p>
+
+<p>OS X 10.9 Mavericks:
+<a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.9-Mavericks.pkg">MacPorts-2.3.1-10.9-Mavericks.pkg</a></p>
+
+<p>OS X 10.8 Mountain Lion:
+<a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.8-MountainLion.pkg">MacPorts-2.3.1-10.8-MountainLion.pkg</a></p>
+
+<p>OS X 10.7 Lion:
+<a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.7-Lion.pkg">MacPorts-2.3.1-10.7-Lion.pkg</a></p>
+
+<p>(2.) Double-click the downloaded package installer to perform the default “easy” install.</p>
+
+<p>(3.) After this step you are done already, MacPorts is now installed and your shell environment was set up automatically by the installer. To confirm the installation is working as expected, now try using the port command in a new terminal window.</p>
+
+<p><code>$ port version</code></p>
+
+<p><strong>Version: 2.3.1</strong></p>
+
+<p>In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, <a href="https://guide.macports.org/chunked/installing.shell.html"> “MacPorts and the Shell”</a> . Otherwise, please skip the remainder of this chapter and continue with <a href="https://guide.macports.org/chunked/using.html">Chapter 3, Using MacPorts</a> in this guide.</p>
+
+<h2 class="section-heading"><strong>2.2.2. Source Install</strong> </h2>
+
+<h2 class="section-heading">Install Macports via Terminal</h2>
+
+<p>If you installed MacPorts using the package installer, skip this section. To install MacPorts from the source code, follow the steps below.</p>
+
+<p>(1.) Download and extract the <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2">MacPorts 2.3.1 tarball</a>. Either do so using your browser and the Finder, or use the given commands in a terminal window.</p>
+
+<p><code>$ curl -O https://distfiles.macports.org/
+	MacPorts/MacPorts-2.3.1.tar.bz2</code> </p>
+
+<p><code>$ tar xf MacPorts-2.3.1.tar.bz2</code> </p>
+
+<p>(2.) Afterwards, perform the commands shown in the terminal window. If you wish to use a path other than <code>/opt/local</code>, follow the instructions for installing multiple copies of MacPorts instead.</p>
+
+<p><code>$ cd MacPorts-2.3.1/</code> </p>
+
+<p><code>$ ./configure</code> </p>
+
+<p><code>$ make</code> </p>
+
+<p><code>$ sudo make install</code> </p>
+
+<p><strong><a href="https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY">GO SEE MacPorts-2.3.3 INSTALL VIDEO</a></strong> </p>
+
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/RBriCmHGrXk?autoplay=1&amp;loop=1" frameborder="0" allowfullscreen=""></iframe>
+
+<p>(3.) Please continue with  <a href="https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple">Section 2.5, “MacPorts and the Shell”</a>  to set up your shell environment.</p>
+
+<p>install macports </p>
+
+<p><code>port version</code> </p>
+
+<p><code>port list</code>  </p>
+
+<p><code>port search git</code>  </p>
+
+<p><code>port info git-core</code> </p>
+
+<p><code>port installed</code> </p>
+
+<p><code>sudo install git-core</code>  </p>
+
+<p><code>git —version</code> </p>
+
+<p><code>port installed</code> </p>
+
+<p><code>port outdated</code> </p>
+
+<p><code>sudo port upgrade</code> </p>
+
+<p><code>sudo port upgrade git-core</code> </p>
+
+<p><code>sudo port upgrade outdated</code> </p>
+
+<p><code>sudo port selfupdate</code> </p>
+
+<p><code>sudo port uninstall git-core</code> </p>
+
+<p><code>sudo port install git-core</code> </p>
+
+<p><a href="https://www.macports.org/install.php">MacPorts Website</a></p>
+
+<blockquote>
+	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+</blockquote>
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/Berndnaut-Smilde-Installation-View-Antipode-Ronchini-Gallery-11-April-–-14-June-20142-e1411477881645.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-03-22T15:00:44+01:00">
+							<a href="http://lucasgatsas.ch/2015/03/22/get-emacs-on-your-machine/">March 22, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/03/22/get-emacs-on-your-machine/" id="post-title-h1" rel="bookmark" title="emacs" itemprop="url">emacs</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/03/22/get-emacs-on-your-machine/" rel="bookmark" title="emacs" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading"><strong>emacs</strong> </h2>
+
+<p>MacPorts</p>
+
+<p>If you have MacPorts installed, you can just do:</p>
+
+<p><code>$ sudo port install emacs</code></p>
+
+<p>to install Emacs 24. The MacPorts installer updates your PATH environment variable, so the MacPorts build of Emacs should be found by your shell before the (outdated) build that comes with Mac OS when you type <strong>‘emacs’</strong>. If you prefer the Emacs.app build, that’s available by executing:</p>
+
+<p><code>$ sudo port install emacs-app</code></p>
+
+<p><a href="/img/emacs1.png">
+    <img src="/img/emacs1.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>My Screenshot</p>
+
+<p><a href="/img/emacs-screeshot.png">
+    <img src="/img/emacs-screeshot.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Update Post soon!</p>
+
+<blockquote>
+	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+</blockquote>
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/perrywinkle.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-03-21T15:00:44+01:00">
+							<a href="http://lucasgatsas.ch/2015/03/21/work-with-sails-js-on-github/">March 21, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/03/21/work-with-sails-js-on-github/" id="post-title-h1" rel="bookmark" title="Sails.js - Remote Work" itemprop="url">Sails.js - Remote Work</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/03/21/work-with-sails-js-on-github/" rel="bookmark" title="Sails.js - Remote Work" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading"><strong>Remote your Web App</strong> </h2>
+
+<p>Get Sails.js and build awesome WebApps. This is my Introduction for work Remote on GitHub or Servers!
+More to read soon!  </p>
+
+<p>Download : <a href="https://github.com/balderdashy/sails">sails.js</a> </p>
+
+<p>Website :  <a href="http://sailsjs.org/#!/documentation/concepts/Assets">sails.js</a></p>
+
+<h2 class="section-heading"><strong>Install on OSX</strong> </h2>
+
+<p>Download &amp; Using a <a href="https://nodejs.org/download/">package:</a> </p>
+
+<p>Using <a href="https://github.com/Homebrew/homebrew">homebrew: </a> </p>
+
+<p>Install Brew :  <code> brew install node </code></p>
+
+<p>Using macPorts : <a href="https://www.macports.org/">macports: </a> </p>
+
+<p><code> port install nodejs   </code></p>
+
+<h2 class="section-heading"><strong>Sails.js with Git</strong> </h2>
+
+<p><code> git pull origin master </code></p>
+
+<p><code> sudo npm update </code></p>
+
+<p><code>sails lift</code></p>
+
+<p><code>git add -A </code>-&gt; add all unstaged files to the stagin area
+<code>git commit -m </code> “Short description of your commit” -&gt; <code> Commit </code></p>
+
+<p>the files from the staging area to the head of your local branch</p>
+
+<p><code>git checkout  {Branch Name} </code> 
+to check where you are -&gt; </p>
+
+<p><code> git status</code></p>
+
+<p>if you want to push -&gt;</p>
+
+<p><code> git push origin {Branch Name} </code></p>
+
+<blockquote>
+	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+</blockquote>
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
   
     <article>
 			<header class="intro-header" style="background-image: url('/img/p0198vg4.jpg')" style="margin-bottom:-40px;">  
@@ -1131,630 +1476,6 @@ border: 1px solid rgba(0, 0, 0, 0.09);
 	</article>
 
   
-    <article>
-			<header class="intro-header" style="background-image: url('/img/front-post-image-01-terminal.png')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-03-16T15:00:44+01:00">
-							<a href="http://lucasgatsas.ch/2015/03/16/i-want-to-know-how-to-use-power-commands/">March 16, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/03/16/i-want-to-know-how-to-use-power-commands/" id="post-title-h1" rel="bookmark" title="I Want To Know How To Use Power Commands" itemprop="url">I Want To Know How To Use Power Commands</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/03/16/i-want-to-know-how-to-use-power-commands/" rel="bookmark" title="I Want To Know How To Use Power Commands" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading"><strong>Real Men Don't Use Menus. I Want To Know How To Use Power Commands.</strong> </h2>
-
-<h2 class="section-heading">OS X Thema: Terminal/UNIX</h2>
-
-<style>
-tbody tr:hover td {
-background: rgba(237,237,237,.25);
-}
-tr {
-border-bottom: .1em solid rgb(237,237,237);
-}
-td {
-border-left: 1px solid rgba(65, 65, 65, 0.09);
-border-right: 1px solid rgba(65, 65, 65, 0.09);
-padding-left: 5px;
-}
-</style>
-
-<figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
-&nbsp; 	<tbody>
-&nbsp; 		<tr>
-&nbsp; 			<td><code>cd</code></td>
-&nbsp; 			<td><em>change directory</em> — Welchselt in ein angegebenenes Verzeichnis</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>ls</code></td>
-&nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pwd</code></td>
-&nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>cp</code></td>
-&nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mv</code></td>
-&nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rm</code></td>
-&nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mkdir</code></td>
-&nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rmdir</code></td>
-&nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>open</code></td>
-&nbsp; 			<td>Öffnet eine angegebene Datei oder Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>kill </code><code> killall</code></td>
-&nbsp; 			<td>Beendet einen angegebenen Prozess</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whoami</code></td>
-&nbsp; 			<td>Zeigt den aktuellen Benutzer an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>su</code></td>
-&nbsp; 			<td><em>switch user</em> — Wechselt zum angegebenen Benutzer</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>sudo</code></td>
-&nbsp; 			<td><em>substitute user do</em> — Führt den Befehl als Superuser (root) aus</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pbcopy</code></td>
-&nbsp; 			<td><em>pasteboard copy</em> — Übergibt Inhalt an die Zwischenablage von OS X</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pbpaste</code></td>
-&nbsp; 			<td><em>pasteboard past</em> — Gibt Inhalt der OS X Zwischenablage aus</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>say</code></td>
-&nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>date</code></td>
-&nbsp; 			<td>Zeigt das aktuelle Datum und Uhrzeit an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>nano</code></td>
-&nbsp; 			<td>Text-Editor nano</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>screencapture</code></td>
-&nbsp; 			<td>Erstellt ein Bildschirmfoto</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>find</code></td>
-&nbsp; 			<td>Suche nach Dateien</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mdfind</code></td>
-&nbsp; 			<td>Spotlight-Suche</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>ps</code></td>
-&nbsp; 			<td>Listet die aktuell aktiven Prozesse auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>top</code></td>
-&nbsp; 			<td>Listet eine detaillierte Prozessliste auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>history</code></td>
-&nbsp; 			<td>Listet die zuletzt benutzten Befehle auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>clear</code></td>
-&nbsp; 			<td>Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>man</code></td>
-&nbsp; 			<td><em>Man-Page</em> — Ruft die Man-Seite zum angegebenen Befehl auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>which</code></td>
-&nbsp; 			<td>Welcher Befehl wird ausgeführt?</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whatis</code></td>
-&nbsp; 			<td>Kurzinfo zum angegebenen Befehl</td>
-&nbsp; 		</tr>
-&nbsp; 	</tbody>
-&nbsp; </table>
-</figure>
-
-<p><strong>Installing Command Line Tools in Mac OS X</strong></p>
-
-<ol>
-  <li>Launch the Terminal, found in </li>
-</ol>
-
-<p><code>/Applications/Utilities/</code></p>
-
-<p><a href="/img/install-command-line-tools-os-x.jpg">
-    <img src="/img/install-command-line-tools-os-x.jpg" alt="Lucas Gatsas" style="width:100%" />
-</a>
-<br /> <br /></p>
-
-<ol>
-  <li>Type the following command string:</li>
-</ol>
-
-<p><code>xcode-select --install</code></p>
-
-<p><a href="/img/confirm-install-command-line-tools-mac-os-x-1.jpg">
-    <img src="/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Lucas Gatsas" style="max-width:100%" />
-</a></p>
-
-<ol>
-  <li>A popup window will show that asks. </li>
-</ol>
-
-<p><code> The xcode-select command requires the command line developer tools. Would you like to install the tools now?</code>  </p>
-
-<p>choose to confirm this by clicking “Install”, then agree to the Terms of Service when requested (feel free to read them thoroughly, we’ll be here)</p>
-
-<p><br /><br />
-<a href="/img/downloading-command-line-tools-1.jpg">
-    <img src="/img/downloading-command-line-tools-1.jpg" alt="Lucas Gatsas" style="max-width:100%" />
-</a></p>
-
-<ol>
-  <li>Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed. </li>
-</ol>
-
-<p><br /><br /></p>
-
-<p>The installer goes away on its own when complete, and you can then confirm everything is working by trying to use one of the commands that were just installed, like gcc, git, svn, rebase, make, ld, otool, nm, whatever you want from the list below. Assuming the installation went uninterrupted, the command will execute as expected. This also means you can compile and install things from source code directly without having to use a package manager. Enjoy your new unix command line toolkit!</p>
-
-<p><strong>What Installs with Command Line Tools and Where</strong></p>
-
-<p>For those interested, the entire package command line toolkit package gets placed in the following directory:</p>
-
-<p>/Library/Developer/
-CommandLineTools/</p>
-
-<p>(note that is the root /Library, not user ~/Library)</p>
-
-<p>If you want to see the 61 new commands available to you, they’re all in </p>
-
-<p>/Library/Developer/
-CommandLineTools/usr/bin/</p>
-
-<p>and we have listed them below for convenience:</p>
-
-<p><code>ar<br />
-as<br />
-asa<br />
-bison<br />
-BuildStrings<br />
-c++<br />
-c89<br />
-c99<br />
-cc<br />
-clang<br />
-clang++<br />
-cmpdylib<br />
-codesign_allocate<br />
-CpMac<br />
-cpp<br />
-ctags<br />
-ctf_insert<br />
-DeRez<br />
-dsymutil<br />
-dwarfdump<br />
-dyldinfo<br />
-flex<br />
-flex++<br />
-g++<br />
-gatherheaderdoc<br />
-gcc<br />
-gcov<br />
-GetFileInfo<br />
-git<br />
-git-cvsserver<br />
-git-receive-pack<br />
-git-shell<br />
-git-upload-archive<br />
-git-upload-pack<br />
-gm4<br />
-gnumake<br />
-gperf<br />
-hdxml2manxml<br />
-headerdoc2html<br />
-indent<br />
-install_name_tool<br />
-ld<br />
-lex<br />
-libtool<br />
-lipo<br />
-lldb<br />
-lorder<br />
-m4<br />
-make<br />
-MergePef<br />
-mig<br />
-mkdep<br />
-MvMac<br />
-nasm<br />
-ndisasm<br />
-nm<br />
-nmedit<br />
-otool<br />
-pagestuff<br />
-projectInfo<br />
-ranlib<br />
-rebase<br />
-redo_prebinding<br />
-ResMerger<br />
-resolveLinks<br />
-Rez<br />
-RezDet<br />
-RezWack<br />
-rpcgen<br />
-segedit<br />
-SetFile<br />
-size<br />
-SplitForks<br />
-strings<br />
-strip<br />
-svn<br />
-svnadmin<br />
-svndumpfilter<br />
-svnlook<br />
-svnrdump<br />
-svnserve<br />
-svnsync<br />
-svnversion<br />
-unifdef<br />
-unifdefall<br />
-UnRezWack<br />
-unwinddump<br />
-what<br />
-xml2man<br />
-yacc</code></p>
-
-<p><small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small></p>
-
-<blockquote>
-	“sudo make me a sandwich :) ! ”
-</blockquote>
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/lucasgatsas-18.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-03-01T15:00:44+01:00">
-							<a href="http://lucasgatsas.ch/2015/03/01/my-playlist-january-march/">March 01, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/03/01/my-playlist-january-march/" id="post-title-h1" rel="bookmark" title="My Playlist" itemprop="url">My Playlist</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/03/01/my-playlist-january-march/" rel="bookmark" title="My Playlist" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">My Playlist</h2>
-
-<p>I hear a lot of Music. Here is a Playlist from January - March. </p>
-
-<p>Artist: </p>
-
-<p><strong>Kryptic Minds</strong> - Can’t Sleep</p>
-
-<p>Tracks:</p>
-
-<p><a href="https://www.youtube.com/watch?v=7Z_4w-34uA0">Kryptic Minds - Can’t Sleep</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=N_tI6sy860U">Kryptic Minds - Just After Sunset</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=3ENNbC_UmEM&amp;list=RD3ENNbC_UmEM">Kryptic Minds - Six Degrees</a> </p>
-
-<p><br /></p>
-
-<p>Artist: </p>
-
-<p><strong>Burial</strong>  &amp; Kode9 </p>
-
-<p>Tracks:</p>
-
-<p><a href="https://www.youtube.com/watch?v=FLD3yGEZDDk">Burial - Loner</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=xXEPPpLMONk">Burial - Fostercare</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=_MigURCQQA0">Burial - Ghost Hardware</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=hBlKpshuIA8">Burial - Distant Lights</a> </p>
-
-<p><br /></p>
-
-<p>Artist: </p>
-
-<p><strong>Solar Fields</strong> - The Sight is White</p>
-
-<p>Tracks:</p>
-
-<p><a href="https://www.youtube.com/watch?v=K77vHPno2pU">Solar Fields - The Sight is White</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=OXzeOLGXJeo">Solar Fields - Discovering</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=2OLGyHRJMlw">Solar Fields - Magic Eye</a> </p>
-
-<p><br /></p>
-
-<p>Artist: </p>
-
-<p><strong>H.U.V.A Network</strong> - Tokio</p>
-
-<p>Tracks:</p>
-
-<p><a href="https://www.youtube.com/watch?v=JNUHSchOszs">H.U.V.A. Network - Dissolving Time</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=JezJJbz0LXg">H.U.V.A. Network - Indigo Room</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=--DhQ-cfls4">H.U.V.A. Network - Overload</a> </p>
-
-<p><a href="https://www.youtube.com/watch?v=U97mOXEppqI">H.U.V.A Network live at Les Dominicains 2/6-07</a> </p>
-
-<p><br />
-And my Favorite Radio Chanel !
-<a href="http://hbr1.com/">hbr1.com the best Psychedelic do you can get it. -</a> </p>
-
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
--->
-
-<blockquote>
-“Without Music, Life would be a Mistake.” 
-― Friedrich Nietzsche </blockquote>
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/game_of_thrones_daenerys_targaryen-1548001.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-02-27T15:00:44+01:00">
-							<a href="http://lucasgatsas.ch/2015/02/27/worktime-tracking-harvest-app/">February 27, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/02/27/worktime-tracking-harvest-app/" id="post-title-h1" rel="bookmark" title="Worktime Tracking App from Havest App" itemprop="url">Worktime Tracking App from Havest App</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/02/27/worktime-tracking-harvest-app/" rel="bookmark" title="Worktime Tracking App from Havest App" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Tracking your Worktime </h2>
-
-<p>I have discovered a good App to track the Work Time. Go See <a href="https://harvestapp.com/">harvestapp.com</a>. So far I have used a small Script. I need a clean Time Counter and Harvest App is perfect for. Now i decide to sign up to <a href="https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime">spaceggithubio.harvestapp.com</a>.</p>
-
-<!--
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
--->
-
-<ul>
-  <li>
-    <p>Links 
-<a href="https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime">spaceggithubio.harvestapp.com</a> </p>
-  </li>
-  <li>
-    <p>Links 
-<a href="https://harvestapp.com/">harvestapp.com</a> </p>
-  </li>
-</ul>
-
-<h2 class="section-heading">Tracking </h2>
-
-<p><a href="#">
-    <img src="/img/wf1.png" alt="Post Sample Image" style="width:100%" />
-</a></p>
-
-<p><a href="#">
-    <img src="/img/week1.png" alt="Post Sample Image" style="width:100%" />
-</a></p>
-
-<p><a href="#">
-    <img src="/img/week3.png" alt="Post Sample Image" style="width:100%" />
-</a></p>
-
-<p><a href="#">
-    <img src="/img/week2.png" alt="Post Sample Image" style="width:100%" />
-</a></p>
-
-<p>I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
-<a href="http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html">Count Lines of Code in Mac OS X</a> </p>
-
-<p><code> find . -type f -name '*.php' -exec awk 'END {print NR}' '{}' + 2&gt;/dev/null | awk '{ total+=$1 }END{print total}' </code></p>
-
-<p><br /></p>
-
-<p>I have found another Terminal Command <a href="http://cloc.sourceforge.net/">CLOC</a> Count Lines of Code! You can download it directly @ Sourceforge 
-<a href="http://sourceforge.net/projects/cloc/files/">sourceforge.net</a> </p>
-
-<p>It’s easy to install on OS X:</p>
-
-<p><code>$ brew install cloc </code></p>
-
-<p>And on Debian-based Linuxes:</p>
-
-<p><code>$ aptitude install cloc </code></p>
-
-<p>To use it, simply cd into the root directory and run:</p>
-
-<p><code>$ cloc .</code></p>
-
-<p>The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
-<a href="#">
-    <img src="/img/cloc-redacted.png" alt="Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>You can, of course, customize the poop out of it as well.</p>
-
-<p><code>cloc --help</code> to nerd out.</p>
-
-<p><br /></p>
-
-<p>Quick and easy way to show the current Git branch on your command prompt</p>
-
-<p>If you work with lots of branches in Git it is nice to be able to see at a glance which branch you are on instead of typing git branch each time. Here are 4 quick lines you can add to your bash prompt that will show the current branch. You will need to edit your user bash config which can be in different locations depending on your operating system.</p>
-
-<p>OS X: <code> ~/.profile </code></p>
-
-<p>Linux General:  <code> ~/.bash_profile </code></p>
-
-<p>~ represents the path to your user home directory. For my  <code>user, spaceodyssey, </code> on OS X the path is <code> /Users/home/spaceodyssey. </code></p>
-
-<p>Add in the file the following lines:
-<code>
-parse_git_branch() {
-       git branch 2&gt; /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
-export PS1="\u@\h \W\[\033[31m\]\$(parse_git_branch)\[\033[00m\] $ "</code></p>
-
-<p>&lt;/code&gt;</p>
-
-<p>Restart your terminal and change directories to your repository and you should now see the branch in parenthesis at the end of your prompt.</p>
-
-<p><br /></p>
-
-<p>And Today i hit the 1000 K of contribrutions on Github! <a href="https://github.com/spaceg">github.com/spaceg</a> </p>
-
-<p><br /><br /></p>
-
-<h2 class="section-heading"><strong>Work Streak</strong></h2>
-
-<h2 class="section-heading">21 Club Mate's</h2>
-
-<h2 class="section-heading">247 Coffees</h2>
-
-<h2 class="section-heading">363 Hours</h2>
-
-<h2 class="section-heading">7479 Lines of Code</h2>
-
-<p><br /><br /></p>
-
-<blockquote>
-“Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder
-</blockquote>
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
 
 
   
@@ -1806,7 +1527,7 @@ $('.content').jscroll({
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="/feed.xml">
+                        <a href="/feed.xml" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -1815,7 +1536,7 @@ $('.content').jscroll({
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/LucasGatsas">
+                        <a href="https://twitter.com/LucasGatsas" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -1825,7 +1546,7 @@ $('.content').jscroll({
                     
                     
                     <li>
-                        <a href="https://plus.google.com/101826267816845608605/posts">
+                        <a href="https://plus.google.com/101826267816845608605/posts" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -1853,6 +1574,9 @@ $('.content').jscroll({
       <!-- ICE AND FIRE THEME https://github.com/SpaceG/iceandfire -->
     <a href="https://github.com/SpaceG/iceandfire">ICE & FIRE Theme by Lucas Gatsas.</a> Hosted on <a href="https://pages.github.com/"> Github</a></p>
     </div>
+
+
+    
             </div>
         </div>
     </div>
@@ -1897,8 +1621,20 @@ $('.content').jscroll({
   ga('send', 'pageview');
 
 </script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63212709-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
+
+    
 
 </body>
 

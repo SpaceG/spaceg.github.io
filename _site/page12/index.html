@@ -53,12 +53,11 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta charset="utf-8">
     <!-- X-UA --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
+    <link rel="author" href="https://plus.google.com/101826267816845608605/posts"/>
 
-
-
-
+    <meta name="google-site-verification" content="F5lkHug5Hdw4XRPcwJuQsK01auhET-yWy1o5SrCM-Sw" />
+    <meta name="google" content="notranslate" />
     <!-- Viewport --> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- index ROBOTS follow --> 
@@ -95,8 +94,25 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
+<script src="/js/jquery.loadingbar.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+    <script>
+      $(document).ready(function(){
+      $("#clickme").loadingbar({
+        done: function(data) {
+          $.each( data.shots, function( i, item ) {
+            $( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
+            if ( i === 11 ) {
+              return false;
+            }
+          });
+        }
+      });
+        });
+        
+    </script>
+    <link rel="stylesheet" href="/css/loadingbar.css">
 
     <link href="https://gist-assets.github.com/assets/embed-b67021dc07195830cc157f7720b938fb.css" rel="stylesheet" type="text/css">
     <!-- Loading front stylesheet here --> 
@@ -276,6 +292,355 @@ list-style: none;
 	<div class="row">
 		<div class="posts">
 			<div class="content">
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-10.png')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-13T15:00:44+01:00">
+							<a href="http://lucasgatsas.ch/2015/01/13/an-introduction-to-object-oriented-css-oocss/">January 13, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/01/13/an-introduction-to-object-oriented-css-oocss/" id="post-title-h1" rel="bookmark" title="An Introduction To Object Oriented CSS (OOCSS)" itemprop="url">An Introduction To Object Oriented CSS (OOCSS)</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/01/13/an-introduction-to-object-oriented-css-oocss/" rel="bookmark" title="An Introduction To Object Oriented CSS (OOCSS)" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Introduction to OOCSS</h2>
+
+<p>Go See: 
+<a href="https://github.com/stubbornella/oocss/wiki/">OOCss on GitHub</a></p>
+
+<p>Go See: 
+<a href="http://oocss.org/grids_docs.html">OOCss Docs</a></p>
+
+<p>Go See: 
+<a href="http://www.stubbornella.org/content/2014/05/09/sexist-by-design/">SEXIST BY DESIGN?</a></p>
+
+<!--
+
+<a href="#">
+    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
+</a>
+-->
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">OOCSS </h2>
+
+<p>Have you ever heard the phrase “Content is King”? Being a Web developer, and therefore having a job that’s often linked to content creation, it’s likely you have. It’s a fairly overused but true statement about what draws visitors to a site.</p>
+
+<p>The Other Question is how do you can Go 
+<a href="http://www.stevesouders.com/blog/">speed is king</a>
+ up your site during less code in your app. Best Practices for Speeding Up Your Web Site by Yahoo : 
+<a href="https://developer.yahoo.com/performance/rules.html">speed up</a></p>
+
+<p>Go See: 
+<a href="http://www.stevesouders.com/blog/2009/10/06/business-impact-of-high-performance/">speed is king</a></p>
+
+<h2 class="section-heading">The Media Object</h2>
+
+<p>One of the pioneers of the OOCSS movement is<a href="http://www.stubbornella.org/content/2014/05/09/sexist-by-design/">Nicole Sullivan</a>. She’s created a reusable module called the <a href="https://github.com/stubbornella/oocss/wiki/Content">media object</a>  which, as she explains, can <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">save hundreds of lines of code.</a> </p>
+
+<h2 class="section-heading">Example of a OOcss </h2>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre>.header-inside {
+	width: <span style="color:#9D9D9D; ">980</span>px;
+	height: <span style="color:#9D9D9D; ">260</span>px;
+	padding: <span style="color:#9D9D9D; ">20</span>px;
+	margin: <span style="color:#9D9D9D; ">0</span> auto;
+	position: relative;
+	overflow: hidden;
+}
+</pre></pre></div>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre>.globalwidth {
+	width: <span style="color:#9D9D9D; ">980</span>px;
+	margin: <span style="color:#9D9D9D;  ">0</span> auto;
+	position: relative;
+	padding-left: <span style="color:#9D9D9D;  ">20</span>px;
+	padding-right: <span style="color:#9D9D9D;  ">20</span>px;
+	overflow: hidden;
+}
+
+.header-inside {
+	padding-top: <span style="color:#9D9D9D;  ">20</span>px;
+	padding-bottom: <span style="color:#9D9D9D;  ">20</span>px;
+	height: <span style="color:#9D9D9D;  ">260</span>px;
+}
+</pre></pre></div>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:#000000;background:#ffffff;"><pre><span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"header-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">header</span><span style="color:#BABABA; ">&gt;</span>
+
+<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"main globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+
+<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; ">footer</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; "> </span><span style="color:#BABABA; ">class</span><span style="color:#BABABA; ">=</span><span style="color:#BABABA; ">"footer-inside globalwidth"</span><span style="color:#BABABA; ">&gt;</span>
+	<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; font-weight:bold; ">div</span><span style="color:#BABABA; ">&gt;</span>
+<span style="color:#BABABA; ">&lt;/</span><span style="color:#BABABA; ">footer</span><span style="color:#BABABA; ">&gt;</span>
+</pre></pre></div>
+
+<blockquote> "Find a Job you Love and you'll never work a day in your life". - 
+
+</blockquote>
+
+<p><a href="#">
+    <img src="/img/the-cascade-grids-headings-and-selectors-from-an-oocss-perspective-ajax-experience-2009-1-728.jpg" alt="Post Sample Image" style="width:100%" />
+</a> </p>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-11.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-12T14:00:44+01:00">
+							<a href="http://lucasgatsas.ch/2015/01/12/work-online/">January 12, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/01/12/work-online/" id="post-title-h1" rel="bookmark" title="Work Online" itemprop="url">Work Online</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/01/12/work-online/" rel="bookmark" title="Work Online" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Online Work - Networking </h2>
+
+<p>I will begin this Post with a Quote "Find a Job you Love and you'll never work a day in your Life." This is my Insperation and Motivation to Work everyday on my Start Up Project. " Life is too short to work for a boring company or at a boring Job. Keep up the good work and never give up." </p>
+
+<p>And one of my most Secret to Work Online in my Network which one i have build during the last two years are: "Successful People build each other up. They motivate, inspire, and push each other. Unsuccessful People just hate, blame, and complain everything." In the last two years i have met some Developers, but most them were very crazy demotivate to work on a Project. </p>
+
+<h2 class="section-heading">Networking </h2>
+
+<blockquote>Don't be afraid to let the World see what you're good at! - unknown
+
+</blockquote>
+
+<p><a href="#">
+    <img src="/img/brain-startup.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+<blockquote>“if you have a brain you are a Start Up.” and below on the Wall :) "Wir sind am Start und Die Welt ist Gross!" in Germany. 
+</blockquote>
+
+<p><a href="#">
+    <img src="/img/coders.jpg" alt="Lucas Gatsas" style="width:100%" />
+</a> </p>
+
+<blockquote>“Coders of the world, unite!”
+</blockquote>
+
+<p><a href="#">
+    <img src="/img/startup.jpg" alt="Post Sample Image" style="width:100%" />
+</a> </p>
+
+<blockquote>“If you are a brain, you are a startup”
+</blockquote>
+
+<p>Pictures: 
+<a href="https://creativecommons.org/licenses/by-nc/3.0/de/">Lizenz der Bilder: Creative Commons Namensnennung-Nicht-kommerziell 3.0 Deutschland (CC BY-NC 3.0 Germany</a></p>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-05.jpg')" style="margin-bottom:-40px;">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-01-10T14:00:40+01:00">
+							<a href="http://lucasgatsas.ch/2015/01/10/bootstrap-front-end-framework.v.3/">January 10, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/01/10/bootstrap-front-end-framework.v.3/" id="post-title-h1" rel="bookmark" title="Bootstrap Currently v3.3.1 - Front-End Framework" itemprop="url">Bootstrap Currently v3.3.1 - Front-End Framework</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/01/10/bootstrap-front-end-framework.v.3/" rel="bookmark" title="Bootstrap Currently v3.3.1 - Front-End Framework" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</h2>
+
+<p>Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes. </p>
+
+<p>What is Bootstrap? Bootsrap is a Fast Farmaework for Front-End Developers. To build fast, sleek, clean Front-End Design. Watch the Opensource base <a href="http://getbootstrap.com/getting-started/">Bootstrap Currently v3.3.1</a> for Sass or dist files check out here <a href="http://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz/">Sass Bootstrap Currently v3.3.1</a> . For Introduction and how to work with Bootstrap. See the Docs. <a href="http://getbootstrap.com/getting-started/#whats-included">Docs Bootstrap v3.3.1</a> . Get Started with Bootstarp. See the Basic Set Up <a href="http://getbootstrap.com/getting-started/#template">Template Bootstrap v3.3.1</a>. Compiling CSS and JavaScript with 
+<a href="http://gruntjs.com/Grunt/">Grunt</a> 
+let’s see the Available Grunt commands for Bootstrap. <a href="http://getbootstrap.com/getting-started/#grunt">Commands on Bootsrap</a>.</p>
+
+<p>Then, from the command line:
+Install <code>grunt-cli</code> globally with <code>npm install -g grunt-cli.</code>
+Navigate to the root <code> /bootstrap/ </code> directory, then run <code> npm install </code>. npm will look at the <code> package.json </code> file and automatically install the necessary local dependencies listed there.   </p>
+
+<p>Download
+<a href="http://getbootstrap.com/">Bootstrap Currently v3.3.1</a></p>
+
+<!--
+<a href="#">
+    <img src="/img/bootstrap-wordpress-themes.jpg" alt="Post Sample Image" style="width:100%">
+</a>
+
+-->
+
+<!--
+<a href="#">
+    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">Javascript Library</h2>
+
+<p>
+Varying modal content based on trigger button
+Have a bunch of buttons that all trigger the same modal, just with slightly different contents? Use event.relatedTarget and HTML data-* attributes (possibly via jQuery) to vary the contents of the modal depending on which button was clicked. See the Modal Events docs for details on relatedTarget, </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</pre></pre></div>
+
+<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+
+- Steve Jobs
+
+</blockquote>
+
+<!-- 
+<a href="#">
+    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
+	</article>
+
   
     <article>
 			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-08.jpg')" style="margin-bottom:-40px;">  
@@ -503,494 +868,6 @@ border: 1px solid rgba(0, 0, 0, 0.09);
 	</article>
 
   
-    <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-06.png')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-01-06T14:00:02+01:00">
-							<a href="http://lucasgatsas.ch/2015/01/06/get-introduction-get-started/">January 06, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/01/06/get-introduction-get-started/" id="post-title-h1" rel="bookmark" title="Get Introduction - Get Started" itemprop="url">Get Introduction - Get Started</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/01/06/get-introduction-get-started/" rel="bookmark" title="Get Introduction - Get Started" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">App Tree. </h2>
-
-<p>I created our App Tree Today, a Mind Map for our Web App. I have created it with MindMeister.</p>
-
-<p>Mindmeister:
-###<a href="http://www.mindmeister.com/">Mindmeister</a></p>
-
-<p><a href="#">
-    <img src="/img/gitlist.io.png" alt="Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>I had searched for a Mind Map and found MindMeister. A company from Germany. Really nice and fast WebApp to sketch out some Applications or Sketches.</p>
-
-<blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
-
-</blockquote>
-
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
-
-
-
- -->
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/beach-beautiful-fashion-girl-Favim.com-2404649.jpg')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-01-05T14:00:02+01:00">
-							<a href="http://lucasgatsas.ch/2015/01/05/install-laravel-on-xampp-mamp/">January 05, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/01/05/install-laravel-on-xampp-mamp/" id="post-title-h1" rel="bookmark" title="How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp" itemprop="url">How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/01/05/install-laravel-on-xampp-mamp/" rel="bookmark" title="How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Laravel Install - The Popular PHP Framework to Code Web Applications. </h2>
-
-<p>Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server. </p>
-
-<p>Get Composer :
-###<a href="https://getcomposer.org/">View Application →</a></p>
-
-<!--
-<a href="#">
-    <img src="/img/logo-composer-transparent.png" alt="Post Sample Image" style="height: 500px;">
-</a>
--->
-
-<p>Laravel is a very Fast Popular PHP Framework for develop Web Applications.</p>
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/uWuIqaFzPzY" frameborder="0" allowfullscreen=""></iframe>
-
-<!--
-<a href="#">
-    <img src="/img/laravel_logo1.png" alt="Post Sample Image" style="height: 500px;">
-</a>
--->
-<blockquote>Laravel over Xampp.</blockquote>
-
-<h3 id="download-xampp-for-mac-os-x-rarrhttpswwwapachefriendsorgdedownloadhtml"><a href="https://www.apachefriends.org/de/download.html"> Download Xampp for Mac Os X. →</a></h3>
-
-<h3 id="download-laravel-rarrhttplaravelcom"><a href="http://laravel.com/"> Download Laravel. →</a></h3>
-
-<p>/Applications/XAMPP/
-htdocs/L33 </p>
-
-<p><code>ls</code></p>
-
-<p><code> which php</code></p>
-
-<p>/Applications/XAMPP/</p>
-
-<p>xamppfiles/bin/php </p>
-
-<p>sudo vi ~/.bash_profile </p>
-
-<p>password: </p>
-
-<p><code>*************</code></p>
-
-<p><code>:wq</code></p>
-
-<p><code>cd</code></p>
-
-<p>then back to bash type</p>
-
-<p>which php</p>
-
-<p>/Applications/XAMPP/</p>
-
-<p>xamppfiles/bin/php</p>
-
-<p><code>composer install </code></p>
-
-<p>wait, it need a bit time. </p>
-
-<p><code>find app/storage -type d -exec chmod 777 {} \; </code>
-<code>find app/storage -type f -exec chmod 777 {} \;</code></p>
-
-<p>Install Composer</p>
-
-<p>Let’s you download and install Composer before
-You need to install composer software on you OS , you can get from getcomposer.org and follow instruction on website  i won’t teah you to install composer , Let’s you do it yourself.</p>
-
-<p>https://getcomposer.org/</p>
-
-<p>Get Laravel</p>
-
-<p>Then download Laravel from github here  and place your folder in XAMPP/htdoc</p>
-
-<p>/Applications/XAMPP/htdoc/{you folder} </p>
-
-<p>before you install it , you have to check php path that point to </p>
-
-<p>/Applications/XAMPP/</p>
-
-<p>xamppfiles/bin/php </p>
-
-<p>Terminal Bash :
-<code>cd /Applications/XAMPP/htdocs/L4</code></p>
-
-<p>Terminal Command Line :</p>
-
-<p><code>sudo vi ~/.bash_profile</code></p>
-
-<p>export  Path :</p>
-
-<p>“PATH=/Applications/</p>
-
-<p>XAMPP/xamppfiles/bin:$PATH”</p>
-
-<p>If finish use ESC to exit</p>
-
-<p>Type composer install after you have finish installation go to browser and enter to </p>
-
-<p><code>localhost/{your laraval}</code></p>
-
-<p>Last problem and solve
-Boooom!!! you will get a error on your screen , Go to terminal again user both command</p>
-
-<p><code>find app/storage -type d -exec chmod 777 {} \;</code>
-<code>find app/storage -type f -exec chmod 777 {} \;</code>
-then refresh browser you will get complete to install Laravel , Hope to enjoy it!</p>
-
-<p>Update</p>
-
-<p><em>**</em>Don’t forget restart apache service after set path in<code> ~/.bash_profile</code></p>
-
-<!--
-
-
-<a href="#">
-    <img src="/img/folder-mamp.png" alt="Post Sample Image" style="height: 500px;">
-</a>
-
- -->
-
-<blockquote>Laravel over Mamp</blockquote>
-
-<h3 id="download-mamp-for-mac-os-x-rarrhttpwwwmampinfode"><a href="http://www.mamp.info/de/"> Download Mamp for Mac Os X. →</a></h3>
-
-<h3 id="download-laravel-rarrhttplaravelcom-1"><a href="http://laravel.com/"> Download Laravel. →</a></h3>
-
-<p>Install Laravel on MAMP !</p>
-
-<p>install and run Terminal .bash</p>
-
-<p>type :</p>
-
-<p><code>curl -sS https://getcomposer.org/installer | php </code></p>
-
-<p>type: </p>
-
-<p><code>php composer.phar</code> </p>
-
-<p>type:</p>
-
-<p><code>composer</code></p>
-
-<p>to exit : type</p>
-
-<p><code>clear</code></p>
-
-<p><code>exit</code></p>
-
-<p>Open a New Terminal Bash</p>
-
-<p>type: </p>
-
-<p><code>sudo mv composer.phar /usr/local/bin/composer</code></p>
-
-<p>type: </p>
-
-<p><code>composer</code></p>
-
-<p>type to exit : </p>
-
-<p><code>clear</code></p>
-
-<p>go back to localhost of the index </p>
-
-<p>localhost/</p>
-
-<p>localhost:8888/</p>
-
-<p>Open New Terminal :</p>
-
-<p>type: </p>
-
-<p><code>cd /Applications/MAMP/htdocs/</code></p>
-
-<p><code>ls</code></p>
-
-<p>composer create-project laravel/laravel spaceg –prefer-dist</p>
-
-<p><code>ls</code> </p>
-
-<p><code>rm -R ./*</code></p>
-
-<p><code>ls</code> </p>
-
-<p><code>cd ~ </code></p>
-
-<p><code>ls - l</code></p>
-
-<p><code>ls -ls</code></p>
-
-<p><code>nano .bash_profile</code></p>
-
-<p>export </p>
-
-<p>PATH=/Applications/MAMP/</p>
-
-<p>bin/php/PHP_VERSION/bin/:$PATH</p>
-
-<p><code>enter the php version</code> </p>
-
-<p>export </p>
-
-<p>PATH=/Applications/MAMP/</p>
-
-<p>bin/php/php5.6.2/bin/:$PATH</p>
-
-<p><code>php5.6.2</code></p>
-
-<p><code>ctrl o</code></p>
-
-<p><code>ctrl x</code></p>
-
-<p>Open a New Terminal again:=)</p>
-
-<p><code>cd /Applications/MAMP/htdocs/</code></p>
-
-<p><code>ls</code> </p>
-
-<p><code>composer create-project laravel/laravel/ yourprojectname</code></p>
-
-<p>Preload your Localhost and BOOOOMM!
-The index of your Laravel PHP Framework to build APPS!</p>
-
-<p>Globally#</p>
-
-<p>You can place this file anywhere you wish. If you put it in your PATH, you can access it globally. On unixy systems you can even make it executable and invoke it without php.</p>
-
-<p>You can run these commands to easily access composer from anywhere on your system:</p>
-
-<p>curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-Note: If the above fails due to permissions, run the mv line again with sudo.</p>
-
-<p>export </p>
-
-<p>PATH=/Applications/MAMP/</p>
-
-<p>bin/php/PHP_VERSION/bin/:$PATH</p>
-
-<p><code></code></p>
-
-<pre><code>&lt;VirtualHost *:80&gt;
-DocumentRoot "/Path/To/New/Document/Root"
-ServerName spaceg.github.io
-&lt;Directory "/Path/To/New/Document/Root"&gt;
-	Options All
-	AllowOverride All
-	Order, allow,deny
-	Allow from all
-&lt;/Directory&gt; &lt;/ VirtualHost &gt;
-</code></pre>
-
-<p>&lt;/code&gt;</p>
-
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
-
-
-
- -->
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/odeyssey_1.png')" style="margin-bottom:-40px;">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-01-04T13:00:00+01:00">
-							<a href="http://lucasgatsas.ch/2015/01/04/science-medium-jekyll-theme/">January 04, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/01/04/science-medium-jekyll-theme/" id="post-title-h1" rel="bookmark" title="Science Medium Jekyll Theme V.0.2.0" itemprop="url">Science Medium Jekyll Theme V.0.2.0</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/01/04/science-medium-jekyll-theme/" rel="bookmark" title="Science Medium Jekyll Theme V.0.2.0" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Science Medium Jekyll Theme</h2>
-<p>Download my New Jekyll Theme - Science Medium Theme V.0.2.0</p>
-
-<blockquote>Theme Preview</blockquote>
-
-<p><a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Lucas Gatsas" style="width:100%" />
-</a> </p>
-
-<p><a href="https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0">Download</a> Raw Code</p>
-
-<p>The official Jekyll version of the Clean Blog theme by </p>
-
-<h3 id="view-live-demo-rarrhttpsspaceggithubio"><a href="https://spaceg.github.io/">View Live Demo →</a></h3>
-
-<h2 id="before-you-begin">Before You Begin</h2>
-
-<p>In the _config.yml file, the base URL is set to ###<a href="https://github.com/SpaceG/CleanMagicMedium-Jekyll-Theme/blob/master/_config.yml/"> _config.yml →</a> which is this themes gh-pages preview. It’s recommended that you remove the base URL before working with this theme locally!</p>
-
-<p>It should look like this:
-<code>baseurl: ""</code></p>
-
-<h2 id="whats-included">What’s Included</h2>
-
-<p>A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run <code>jekyll serve</code> in your command line and preview the build in your browser. You can use <code>jekyll serve --watch</code> to watch for changes in the source files as well.</p>
-
-<p>A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering <code>grunt</code> into your command line which will build the files. You can use <code>grunt watch</code> if you are working on the JavaScript or the LESS.</p>
-
-<p>You can run <code>jekyll serve --watch</code> and <code>grunt watch</code> at the same time to watch for changes and then build them all at once.</p>
-
-<p>Download Jekyll 
-###<a href="https://github.com/jekyll/jekyll">Download Jekyll  →</a></p>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
-	</td>
-</div>
-
-	</article>
-
-  
 
 
   
@@ -1042,7 +919,7 @@ $('.content').jscroll({
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="/feed.xml">
+                        <a href="/feed.xml" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -1051,7 +928,7 @@ $('.content').jscroll({
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/LucasGatsas">
+                        <a href="https://twitter.com/LucasGatsas" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -1061,7 +938,7 @@ $('.content').jscroll({
                     
                     
                     <li>
-                        <a href="https://plus.google.com/101826267816845608605/posts">
+                        <a href="https://plus.google.com/101826267816845608605/posts" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -1089,6 +966,9 @@ $('.content').jscroll({
       <!-- ICE AND FIRE THEME https://github.com/SpaceG/iceandfire -->
     <a href="https://github.com/SpaceG/iceandfire">ICE & FIRE Theme by Lucas Gatsas.</a> Hosted on <a href="https://pages.github.com/"> Github</a></p>
     </div>
+
+
+    
             </div>
         </div>
     </div>
@@ -1133,8 +1013,20 @@ $('.content').jscroll({
   ga('send', 'pageview');
 
 </script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63212709-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
+
+    
 
 </body>
 

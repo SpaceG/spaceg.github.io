@@ -21,6 +21,6 @@ Page Views per 19.04.2015 - 19.05.2015 <strong> 7.975 </strong>
 
 <br>
 <blockquote>
-“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+“Es fällt immer auf, wenn jemand über Dinge redet, die er versteht.” 
 </blockquote>
 

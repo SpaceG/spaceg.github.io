@@ -5,42 +5,223 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 17 May 2015 11:43:17 +0200</pubDate>
-    <lastBuildDate>Sun, 17 May 2015 11:43:17 +0200</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 22:33:35 +0200</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 22:33:35 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>OpenSSL - Os X - Linux on nginx Server Linux</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;OpenSSL&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Install Transport Layer Security - Secure Sockets Layer (SSL)&lt;/h2&gt;
+        <title>New Contributor on Board.</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Open The Doors for Sebastian Senf aka. Mustardamus - Full Stack Developer&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;New Contributor on Board.&lt;/h2&gt;
 
-&lt;p&gt;Update Post soon! &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;!--
-&lt;strong&gt;Steps ( For Linux ) &lt;/strong&gt;
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/uccnFS0T-1.jpg&quot; alt=&quot;Lucas Gatsas - Sebastian Senf&quot; /&gt;  &lt;h3&gt;Sebastian Senf aka. Mustardamus&lt;br /&gt;
+                    &lt;small&gt; Full Stack Web Developer @ Akrasia - Germany&lt;/small&gt;&lt;br /&gt;
+                    &lt;small&gt;&lt;a href=&quot;http://akrasia.me/#/about&quot; class=&quot;text-center&quot;&gt;www.akrasia.me&lt;/a&gt;&lt;/small&gt;
 
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
 
-&lt;code&gt;  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  &lt;/code&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+“Intelligenz, behaupten die Intelligenten, ist die Fähigkeit, sich der Situation anzupassen. Wenn du ein Buch verkehrt in die Hand genommen hast, lerne, es verkehrt zu lesen.” 
+&lt;/blockquote&gt;
 
-&lt;code&gt; tar -xvzf openssl-1.0.2a.tar.gz  &lt;/code&gt;
+</description>
+        <pubDate>Fri, 22 May 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/05/22/new-contributors-sebastian-senf-on-the-board-at-our-start-up-open-source/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/22/new-contributors-sebastian-senf-on-the-board-at-our-start-up-open-source/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Analystic</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Archive&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;/h2&gt;
 
-&lt;code&gt;  cd openssl-1.0.2a &lt;/code&gt;
+&lt;p&gt;&lt;a href=&quot;/img/onepost.png&quot;&gt;
+    &lt;img src=&quot;/img/onepost.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;code&gt;  ./config --prefix=/usr/ &lt;/code&gt;
+&lt;p&gt;&lt;small&gt; I realize that i have wunderfull nice Blog Followers &lt;/small&gt; 
+Page Views per 19.04.2015 - 19.05.2015 &lt;strong&gt; 7.975 &lt;/strong&gt; &lt;/p&gt;
 
-&lt;code&gt; make &lt;/code&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+“Es fällt immer auf, wenn jemand über Dinge redet, die er versteht.” 
+&lt;/blockquote&gt;
 
-&lt;code&gt;  sudo make install  &lt;/code&gt;
+</description>
+        <pubDate>Thu, 21 May 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/05/21/analystic-from-the-blog/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/21/analystic-from-the-blog/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Grunt.js - Javascript Task Runner</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Grunt.js - Workflow&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;/h2&gt;
 
---&gt;
-&lt;!--
-&lt;a href=&quot;/img/gli.png&quot;&gt;
-    &lt;img src=&quot;/img/gli.png&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
-&lt;/a&gt; --&gt;
+&lt;p&gt;First and Checkout that you have Installed &lt;code&gt;npm&lt;/code&gt; Packages. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ npm update -g npm&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After Install &lt;code&gt;grunt&lt;/code&gt; on your Machine!&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ npm install -g grunt-cli&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 “Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Wed, 20 May 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/05/20/grunt.js/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/20/grunt.js/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Workflow with Sails.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Workflow&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Current Streak - Start Up&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/f4E_9_FVd7s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Here is a small preview of our Current Web App. The Workflow. We use The Realtime MVC Framework from &lt;a href=&quot;http://sailsjs.org/#!/documentation/concepts&quot;&gt;sails.js&lt;/a&gt; based on &lt;a href=&quot;https://nodejs.org/&quot;&gt;node.js&lt;/a&gt; for easily building fast, scalable network applications and the &lt;a href=&quot;http://backbonejs.org/&quot;&gt;backbone.js&lt;/a&gt; for the Front End. For Back-End we use &lt;a href=&quot;http://www.linux.com/directory/Distributions/popular-distributions/ubuntu&quot;&gt;Linux (Ubuntu)&lt;/a&gt; Servers with &lt;a href=&quot;http://nginx.org/&quot;&gt;Nginx.&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;First Previews Upload soon!&lt;/p&gt;
+
+&lt;blockquote&gt; Current Web App Workflow with - Sails.js - Backbone.js -&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 19 May 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/05/19/current-workflow-with-sails.js-start-up/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/19/current-workflow-with-sails.js-start-up/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>OpenSSL - Os X - Linux on nginx Server Linux</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;How To Create a SSL Certificate on nginx for Ubuntu 12.04&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Install Transport Layer Security - Secure Sockets Layer (SSL)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; Set Up &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ sudo apt-get install nginx &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Step One—Create a Directory for the Certificate &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mkdir /etc/nginx/ssl&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We will perform the next few steps within the directory:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  cd /etc/nginx/ssl &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step Two—Create the Server Key and Certificate Signing Request&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo openssl genrsa -des3 -out server.key 2048 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow up by creating a certificate signing request:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo openssl req -new -key server.key -out server.csr&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter ‘.’, the field will be left blank.—–
+Country Name (2 letter code) [AU]:CH
+State or Province Name (full name) [Some-State]:St. Gallen
+Locality Name (eg, city) []:Saint City
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:lucasgatsas.ch 
+Organizational Unit Name (eg, section) []:Dept of Engineering - IT NERDS
+Common Name (e.g. server FQDN or YOUR name) []:lucasgatsas@gmail.com                &lt;br /&gt;
+Email Address []:lucasgatsas@example.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Step Three—Remove the Passphrase &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo cp server.key server.key.org &lt;/code&gt; 
+&lt;code&gt; sudo openssl rsa -in server.key.org 
+	-out server.key &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Step Four— Sign your SSL Certificate &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  sudo openssl x509 -req -days 365 -in server.csr 
+	-signkey server.key -out server.crt &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Step Five—Set Up the Certificate &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo cp /etc/nginx/sites-available/default
+ /etc/nginx/sites-available/example&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then go ahead and open up that new file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo nano /etc/nginx/
+	sites-available/example &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Scroll down to the bottom of the file and find the section that begins with this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# HTTPS server
+
+server {
+        listen 443;
+        server_name example.com;
+
+        root /usr/share/nginx/www;
+        index index.html index.htm;
+
+        ssl on;
+        ssl_certificate /etc/nginx/ssl/server.crt;
+        ssl_certificate_key /etc/nginx/ssl/server.key; 
+}
+
+
+
+
+
+# Make site accessible from http://localhost/
+# server_name localhost;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt; Step Six—Activate the Virtual Host &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  sudo ln -s /etc/nginx/sites-available/example 
+	/etc/nginx/sites-enabled/example &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then restart nginx:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  sudo service nginx restart &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Visit https://youraddress&lt;/p&gt;
+
+&lt;p&gt;Cheers! &lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://github.com/openssl/openssl&quot;&gt;OpenSSL&lt;/a&gt; Link: &lt;a href=&quot;http://www.openssl.org/source/&quot;&gt;OpenSSL Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+“Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.” 
 &lt;/blockquote&gt;
 
 </description>
@@ -97,6 +278,8 @@
 &lt;p&gt;Verify that you have successfully installed OpenSSL.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;openssl version -a&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://github.com/openssl/openssl&quot;&gt;OpenSSL&lt;/a&gt; Link: &lt;a href=&quot;http://www.openssl.org/source/&quot;&gt;OpenSSL Website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -239,194 +422,6 @@ gulp.task(&#39;default&#39;, function() {
         <pubDate>Mon, 11 May 2015 16:00:44 +0200</pubDate>
         <link>http://lucasgatsas.ch/2015/05/11/HomeCotroller-sails.js/</link>
         <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/11/HomeCotroller-sails.js/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>reboot your Mac  - chmod o+rx</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Hacking Macintosh HD &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Entry Your Data with the Terminal Commandline Chmod o+rx&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt; Recovery Mode &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;This Morning i got a {….} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything. 
-So my History now.. i tried hack my HD! After a Error, i put the rights to the &lt;code&gt;(:denied)&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Spoken Words: - I don’t had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!&lt;/p&gt;
-
-&lt;p&gt;i Tried out to reboot the Machine on &lt;code&gt; &quot;C&quot; &lt;/code&gt;! Nothing Works! After booted in to the &lt;code&gt;C&lt;/code&gt;
-&lt;code&gt;cmd + r &lt;/code&gt;! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# &lt;code&gt; chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt; and prompt (Enter) it. &lt;code&gt; sudo shutdown -r now &lt;/code&gt; ! New Started and waited for a while 
-and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I’m really proud of it. Hacking your Machine and learn to Rule! ;)&lt;/p&gt;
-
-&lt;p&gt;First Reboot your Machine from &lt;code&gt; cmd + r  &lt;/code&gt; and then wait!
-Open the Terminal and Type follow CommandLine &lt;code&gt;chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt;
-And New Start your Mac!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt; Off course there are alot Ways to Boot and Reboot your Machine &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Single-User Mode &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;Newstart your Machine and Press &lt;code&gt;cmd + s&lt;/code&gt; ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
-There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!&lt;/p&gt;
-
-&lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type 
-&lt;code&gt;reboot&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;First i have typed : &lt;code&gt; mount -uw/ &lt;/code&gt;
-Then After Prompt : &lt;code&gt; chmod 755/System&lt;/code&gt;
-And Now Type : &lt;code&gt; chmod 1773/Shared &lt;/code&gt;
-At Last prompt: &lt;code&gt; chmod 1777/Users/Shared&lt;/code&gt;
-Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;) &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt; Verbose Mode &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;Press &lt;code&gt; cmd + V&lt;/code&gt; to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/chmod/&quot;&gt; SEE HERE THE IMAGES! &lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;I don’t need anymore a Apple Supporter! :D &lt;/p&gt;
-
-&lt;blockquote&gt;
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Sun, 10 May 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Start Up - Streak</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Update on Remote Work&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Current Streak!&lt;/h2&gt;
-
-&lt;p&gt;Now we go Back and Work on Remote on our StartUp Project. Here are some GitHub Static! 
-If you are in Intress to work with us. please, Contact  Me! We also looking for a fit Unix/Linux Ubunutu Sysadmin! Who do the Server Parts! 
-Do you will find my e-mail in the Source-Code or text!&lt;/p&gt;
-
-&lt;p&gt;GitHub Network! &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/streakgithub.png&quot;&gt;
-    &lt;img src=&quot;/img/streakgithub.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/streakgithub1.png&quot;&gt;
-    &lt;img src=&quot;/img/streakgithub1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our App based on Sails.js, Backbone.js, Bootstrap Framework, and our Development Skills!
-The App is mostly built in javascript &lt;code&gt; 66.4% &lt;/code&gt; and in css/less &lt;code&gt;33.1%&lt;/code&gt; ! &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/js.png&quot;&gt;
-    &lt;img src=&quot;/img/js.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;More Infos Comming soon! &lt;/p&gt;
-
-&lt;blockquote&gt;
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Sat, 09 May 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/05/09/startup-streak/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/09/startup-streak/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>underscore.js </title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; underscore.js&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Include underscore.js in your Application&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/update_testing.png&quot;&gt;
-    &lt;img src=&quot;/img/update_testing.png&quot; alt=&quot;Lucas Gatsas&quot; class=&quot;fresco&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Link: &lt;a href=&quot;http://underscorejs.org/&quot;&gt;underscorejs.org&lt;/a&gt;  Link:  &lt;a href=&quot;http://backbonejs.org/&quot;&gt;backbonejs.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Fri, 08 May 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/05/08/underscore.js-library-for-programmers/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/08/underscore.js-library-for-programmers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sails.js</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Sails.js and Backbone.js&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Amazing Workflow on Github - Remote Work&lt;/h2&gt;
-
-&lt;p&gt;Sails.js is very Awesome! I’m now fit in the Workflow of sails.js! After some Horrible learning Sessions! I Love all these Modern Javascript Frameworks outhere! These are the Future! I Love the Workflow on sails.js! Where nice and I’m can work very fast on the Framework Remote! We are currently working on Remote and Testing everyday our Start Up! - &lt;/p&gt;
-
-&lt;p&gt;sails.js with GIT&lt;/p&gt;
-
-&lt;p&gt;Check Out your Branch :
-&lt;code&gt; git checkout (yourname) &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; git status &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; git add -A  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; git commit -m &quot;Your Changes&quot;  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; git push  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; Username for &#39;https://github.com&#39;: your@email.com&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; Password for &#39;https://your@email.com@github.com&#39;: &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; git status &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; sails lift &lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;for-a-fresh-installation&quot;&gt;For a fresh installation&lt;/h1&gt;
-
-&lt;p&gt;1 - Clone the repo wherever you want&lt;/p&gt;
-
-&lt;p&gt;2 - Go to the project folder and type “git checkout &lt;em&gt;your first name&lt;/em&gt;”&lt;/p&gt;
-
-&lt;p&gt;3 - Go to the project folder and type “npm install” or “sudo npm install” if you are a linux user&lt;/p&gt;
-
-&lt;p&gt;4 - If you haven’t sails installed globally on your machine, type “[sudo] npm -g install sails”&lt;/p&gt;
-
-&lt;p&gt;5 - Now you are able to lift the sails app, by typing “sails lift”&lt;/p&gt;
-
-&lt;p&gt;6 - Whenever you want to push your commits, type “git push origin &lt;em&gt;your first name&lt;/em&gt;”&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;update-your-project-n&quot;&gt;Update your Project :n&lt;/h1&gt;
-
-&lt;p&gt;&lt;code&gt; sudo npm update &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; sails lift &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Link: &lt;a href=&quot;http://sailsjs.org/#!/&quot;&gt;sailsjs.org&lt;/a&gt;  Link:  &lt;a href=&quot;http://backbonejs.org/&quot;&gt;backbonejs.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-“Git ” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Thu, 07 May 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/05/07/getting-crazy-witdh-sails.js-and-backbone.js/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/05/07/getting-crazy-witdh-sails.js-and-backbone.js/</guid>
         
         
       </item>
