@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: http://www.lucasgatsas.ch/sitemap.xml
+Sitemap: http://www.lucasgatsas.ch/image-sitemap.xml
