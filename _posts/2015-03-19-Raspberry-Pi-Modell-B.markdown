@@ -37,7 +37,7 @@ header-img: "img/a_Raspberry_2crop.png"
 
 
 <a href="{{ site.baseurl }}/img/lab1.jpg">
-    <img src="{{ site.baseurl }}/img/lab1.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/lab1.jpg" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 
@@ -46,11 +46,11 @@ header-img: "img/a_Raspberry_2crop.png"
 Shema Raspberry / Linux 
 
 <a href="{{ site.baseurl }}/img/bbcm_27.jpg">
-    <img src="{{ site.baseurl }}/img/bbcm_27.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/bbcm_27.jpg" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 <a href="{{ site.baseurl }}/img/IMG_0926.JPG">
-    <img src="{{ site.baseurl }}/img/IMG_0926.JPG" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/IMG_0926.JPG" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 First Previews - Install Guide Update soon! 

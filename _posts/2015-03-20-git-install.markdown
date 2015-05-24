@@ -25,7 +25,7 @@ Open the pkg File with Doppleclick :
 
 
 <a href="{{ site.baseurl }}/img/git-sourceforge.png">
-    <img src="{{ site.baseurl }}/img/git-sourceforge.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/git-sourceforge.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 
