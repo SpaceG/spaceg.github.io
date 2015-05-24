@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://lucasgatsas.ch/sitemap.xml
-Sitemap: http://lucasgatsas.ch/image-sitemap.xml
+sitemap: http://lucasgatsas.ch/sitemap.xml
+sitemap: http://lucasgatsas.ch/image-sitemap.xml
