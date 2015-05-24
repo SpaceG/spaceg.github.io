@@ -36,9 +36,7 @@ So. 23. May. 2015 15:33:42
 
 
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/Gi9tJ8QoBus" frameborder="0" allowfullscreen></iframe>
 
-<blockquote><strong>LOST YEARS - Black Waves</strong></blockquote>
 
 <br><br>
 
