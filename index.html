@@ -9,10 +9,10 @@ header-img:
 <div class="content">
   {% for post in paginator.posts %}
     <article>
-			<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				{% if post.image.header-img %}
 				<div class="intro-header">
-					<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }}"></a>
+					<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }} Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"></a>
 				</div>
 				{% endif %}
 				<div class="post-meta">
@@ -48,9 +48,6 @@ header-img:
 	<article class="container hentry">
 		<div class="entry-content">
 			{{ post.content }}
-
-
-
 		</div>
 
 
