@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Optimismus - Part II"
-subtitle:   "Er Protz"
+subtitle:   "Er Protzt"
 date:       2015-05-23 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/fractals06BP.jpg"
