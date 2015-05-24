@@ -21,12 +21,12 @@ Do you will find my e-mail in the Source-Code or text!
 GitHub Network! 
 
 <a href="{{ site.baseurl }}/img/streakgithub.png">
-    <img src="{{ site.baseurl }}/img/streakgithub.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/streakgithub.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 </a>
 <br>
 
 <a href="{{ site.baseurl }}/img/streakgithub1.png">
-    <img src="{{ site.baseurl }}/img/streakgithub1.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/streakgithub1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 </a>
 
 Our App based on Sails.js, Backbone.js, Bootstrap Framework, and our Development Skills!
@@ -36,7 +36,7 @@ The App is mostly built in javascript <code> 66.4% </code> and in css/less <code
 
 
 <a href="{{ site.baseurl }}/img/js.png">
-    <img src="{{ site.baseurl }}/img/js.png" alt="Lucas Gatsas"  style="width:100%">
+    <img src="{{ site.baseurl }}/img/js.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 </a>
 
 

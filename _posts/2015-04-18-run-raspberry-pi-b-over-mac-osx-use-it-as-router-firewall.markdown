@@ -22,7 +22,7 @@ Waiting for my soldering iron!
 
 
 <a href="{{ site.baseurl }}/img/IMG_1049.jpg">
-    <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 <blockquote> Use Raspberry PI as Firewall and Block (WatchDOG) some IP's  which one try to entrie your System! Raspberry PI will send in Auto Modus a Trojanhorse. - My Mini Project for my Studing. </blockquote>
@@ -33,7 +33,7 @@ Waiting for my soldering iron!
 
 
 <a href="{{ site.baseurl }}/img/ttl-cable.jpg">
-    <img src="{{ site.baseurl }}/img/ttl-cable.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/ttl-cable.jpg" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 <blockquote>USB Console Cable</blockquote>

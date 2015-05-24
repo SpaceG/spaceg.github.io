@@ -13,7 +13,7 @@ header-img: "img/onepost_dark.png"
 
 
 <a href="{{ site.baseurl }}/img/onepost.png">
-    <img src="{{ site.baseurl }}/img/onepost.png" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/onepost.png" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 <small> I realize that i have wunderfull nice Blog Followers </small> 

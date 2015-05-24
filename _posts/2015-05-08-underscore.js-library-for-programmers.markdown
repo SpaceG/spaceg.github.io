@@ -11,7 +11,7 @@ header-img: "img/10247407_663672370371749_997067517769850993_n.jpg"
 
 
 <a href="{{ site.baseurl }}/img/update_testing.png">
-    <img src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas" class="fresco" style="width:100%">
+    <img src="{{ site.baseurl }}/img/update_testing.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" class="fresco" style="width:100%">
 </a>
 
 
