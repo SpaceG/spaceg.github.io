@@ -38,7 +38,7 @@ Get Amazing Fast Support and Like Namecheap really. -
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"style="width:100%">
+    <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 
