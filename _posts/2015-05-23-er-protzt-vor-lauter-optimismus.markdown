@@ -32,6 +32,7 @@ Du kannst etwas ändern, du kannst aufstehen du kannst den Anfang machen du kann
 Und wen man eine eigenständige Persönlickeit ist die immer nach neuem Strebt, die immer wieder das eigne Potenzial stetig verbessern will und immer wieder nach neuen Gipfel schreitet und natürlich auch Verantwortung für sich und für seine Umgebung trägt für seine Community für seine Freunde und immer wieder für diese und deren Problem auch eingesteht, du bist ein richtiger Mensch, ein Mensch der diese Menschheit noch richtig verändern bereichern wird. Sei einfach eine Bereicherung für andere und für dich. 
 
 
+
 Posted by Lucas Gatsas on So. 23. May. 2015 15:33:42
 
 
