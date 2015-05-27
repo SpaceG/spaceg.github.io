@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "DNS & Nameserver - local ISPs"
-subtitle:   "Er Protzt"
+subtitle:   "Set Up Name Server on cPanel "
 date:       2015-05-28 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/fractals06BP.jpg"
