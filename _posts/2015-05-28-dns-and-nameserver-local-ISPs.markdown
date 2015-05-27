@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Optimismus - Part II"
+title:      "DNS & Nameserver - local ISPs"
 subtitle:   "Er Protzt"
 date:       2015-05-28 14:00:44
 author:     "Lucas Gatsas"
@@ -8,9 +8,6 @@ header-img: "img/fractals06BP.jpg"
 ---
 <h2 class="section-heading">Sätze die ein Intelligenter Mensch niemals sagt!</h2>
 <h2 class="section-heading">"Ich kann das nicht?!"</h2>
-
-Heute schreibe ich über Sachen die man auf keinen Fall sagen sollte. Ich beobachte immer wieder bei gewissen Menschen, dass sie immer wieder sagen "Ich kann das nicht!" Auch beim Programmieren und in der Next Gen Welt. Lerne ich immer wieder Leute und Entwickler kennen, die sagen: "Ich kann das nicht". Immer wieder höre ich "Ich kann das nicht!". Egal ob man oder Frau. Es gibt einfach Dinge die ein aufgeklärter intelligenter Mensch niemals sagen sollte! "Ja weisst du: Du hast ja recht etc. aber ich kann das nicht!" Dann brechen sie sich wieder in sich hinein, dann muss ich sie wieder aufmuntern! 
-
 
 
 
