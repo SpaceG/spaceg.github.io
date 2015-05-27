@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/fractals06BP.jpg"
 ---
 <h2 class="section-heading">DNS Nameserver</h2>
-<h2 class="section-heading">"Ich kann das nicht?!"</h2>
+<h2 class="section-heading">"Set Up Name Server on cPanel "</h2>
 
 
 
