@@ -20,6 +20,7 @@ Man muss daran glauben, "ich schaffe das nie" so ein Satz der ist natürlich pr�
 Das ist wieder so einen Satz! "Man muss sich Zeit nehmen, dass ist die Kunst", dann muss man halt die Zeit anderst einteilen. Das ist einfach nur eine faule Ausrede. "Ja, ich würde das gerne tun, aber ich habe einfach keine Zeit"! Jeder hat die Zeit, die Frage ist einfach nur: "Wo setzt du deine Prioritäten was für dich wirklich wichtig ist"! Und ein richtiger Mensch sagt, wenn er wirklich keine Zeit hat, dann sagt er: ich habe darauf keinen Bock"! Anstatt immer zusagen, ich würde ja gerne etc. aber ich habe keine Zeit. Warum sich selber belügen, warum andere belügen? Ich habe das selber vor zwei Monaten noch gemacht, als ich kurz darauf wieder anfangen Sport zumachen" Das mit der "Ich habe keine Zeit ist einfach nur eine Lüge"! 
 
 
+
 Man hat die Zeit, man muss einfach nur die Zeit nehmen und die Prioritäten richtig setzten! Ja doch, halt ein bischen weniger von dem was du jetzt alles machst, halt die gewonnene Zeit wieder richtig einsetzten. Macht etwas was dein Leben nicht nur immer verkürzt und verschwendet. Dann macht mal etwas anderes. Man geht ja nicht arbeiten um noch mehr arbeiten, man geht ja arbeiten um noch weniger arbeiten zu müssen. Mach einfach die richtigen Sachen zur richtigen Zeit und sag einfach nicht immer wieder "Ich habe keine Zeit!" - 
 
 
