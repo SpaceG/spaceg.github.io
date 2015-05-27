@@ -21,10 +21,6 @@ Das ist wieder so einen Satz! "Man muss sich Zeit nehmen, dass ist die Kunst", d
 
 
 
-Man hat die Zeit, man muss einfach nur die Zeit nehmen und die Prioritäten richtig setzten! Ja doch, halt ein bischen weniger von dem was du jetzt alles machst, halt die gewonnene Zeit wieder richtig einsetzten. Macht etwas was dein Leben nicht nur immer verkürzt und verschwendet. Dann macht mal etwas anderes. Man geht ja nicht arbeiten um noch mehr arbeiten, man geht ja arbeiten um noch weniger arbeiten zu müssen. Mach einfach die richtigen Sachen zur richtigen Zeit und sag einfach nicht immer wieder "Ich habe keine Zeit!" - 
-
-
-Die momentane Situation ist auch sehr durchschaubar..ja, das mit den ganzen Kriegen in der Welt ist wirklich traurig, dass was so in der Politik abgeht! Für das habe ich echt kein Verständnis mehr. Aber dafür kann man ja sowieso nix machen... ich meine, ich kann ja sowieso nix ändern.. "diese beide Sätze" sind sowas von verantwortungslos, ein richtiger Mann, eine richtige Frau, ein richtiger Mensch eine gestandene Persönlichkeit trägt obwohl die eine Mitverantwortung für sich selber und natürlich auch für die restliche Welt und wenn diese nicht immer von sich schieben und sagen.. "Ich würde ja gerne etwas ändern, aber...ich bin viel zu faul denn das ist genau das was diese Sätze ausdrücken"! 
 
 
 Du kannst etwas ändern, du kannst aufstehen du kannst den Anfang machen du kannst andere Leute dazu animieren mit dir aufzustehn etwas zu ändern! Du bist eine selbständige Persönlichkeit und trägst die Verantwortung für dich selbst und für dein Leben und für all das was dein Leben beeinflusst und das ist nunmal auch die Politik, dass ist die Welt und alles was sich hier abspielt. Nach dem Gesetzt ist jeder Gleich! 
