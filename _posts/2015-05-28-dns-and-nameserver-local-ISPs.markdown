@@ -6,7 +6,7 @@ date:       2015-05-28 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/fractals06BP.jpg"
 ---
-<h2 class="section-heading">Sätze die ein Intelligenter Mensch niemals sagt!</h2>
+<h2 class="section-heading">DNS Nameserver</h2>
 <h2 class="section-heading">"Ich kann das nicht?!"</h2>
 
 
