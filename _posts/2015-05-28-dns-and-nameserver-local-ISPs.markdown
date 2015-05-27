@@ -13,12 +13,6 @@ header-img: "img/fractals06BP.jpg"
 
 
 
-Posted by Lucas Gatsas on So. 23. May. 2015 15:33:42
-
-
-
-
-
 <br><br>
 
 <!--
