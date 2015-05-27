@@ -4,7 +4,7 @@ title:      "DNS, Domain & Nameserver - local ISPs"
 subtitle:   "Set Up Name Server on cPanel "
 date:       2015-05-28 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/fractals06BP.jpg"
+header-img: "img/Trippy Beach-1.jpg"
 ---
 <h2 class="section-heading">DNS Nameserver</h2>
 <h2 class="section-heading">"Set Up Name Server on cPanel "</h2>
