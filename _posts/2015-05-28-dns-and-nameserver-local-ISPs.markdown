@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "DNS & Nameserver - local ISPs"
+title:      "DNS, Domain & Nameserver - local ISPs"
 subtitle:   "Set Up Name Server on cPanel "
 date:       2015-05-28 14:00:44
 author:     "Lucas Gatsas"
