@@ -4,7 +4,7 @@ title:      "UI/UX Testing - Start Up Current Streak"
 subtitle:   "Start Up Testing"
 date:       2015-04-11 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Discov2-796036.jpg"
+header-img: "img/Lucas_Gatsas_lucas_gatsas_0257.jpg"
 ---
 
 <h2 class="section-heading"><strong>"UI/UX Testing - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire"</strong> </h2>
