@@ -11,7 +11,7 @@ header-img: "img/Trippy Beach-1.jpg"
 
 Update Post!
 
-<a href0"http://server8.kproxy.com/invalid.jsp">server8.kproxy.com</a>
+<a href="http://server8.kproxy.com/invalid.jsp">server8.kproxy.com</a>
 
 <br><br>
 
