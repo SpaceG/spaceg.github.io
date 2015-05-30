@@ -15,7 +15,7 @@ header-img: "img/marketing-porta.jpg"
 
 <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/uccnFS0T-1.jpg" alt="Lucas Gatsas - Sebastian Senf">  <h3>Sebastian Senf aka. Mustardamus<br>
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="https://pbs.twimg.com/profile_images/507845964984360960/uccnFS0T.jpeg" alt="Lucas Gatsas - Sebastian Senf">  <h3>Sebastian Senf aka. Mustardamus<br>
                     <small> Full Stack Web Developer @ Akrasia - Germany</small><br>
                     <small><a href="http://akrasia.me/#/about" class="text-center">www.akrasia.me</a></small>
 
