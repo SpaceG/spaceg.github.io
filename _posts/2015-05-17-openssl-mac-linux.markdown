@@ -4,7 +4,7 @@ title:      "OpenSSL - Os X - Linux"
 subtitle:   "Run it over https"
 date:       2015-05-17 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/ocean-waves-crashing-i5.png"
+header-img: "img/Lucas_Gatsas_lucas_gatsas_0272.jpg"
 ---
 <h2 class="section-heading">OpenSSL</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
