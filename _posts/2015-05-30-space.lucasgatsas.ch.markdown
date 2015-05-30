@@ -9,7 +9,9 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0266.jpeg"
 <h2 class="section-heading">Hello World</h2>
 <h2 class="section-heading">" "</h2>
 
-Update Post!
+Update my Main WebSpace on <a href="http://space.lucasgatsas.ch">space.lucasgatsas.ch</a> have a take a look! 
+Best View in Google Chrome, Safari and Opera! In Firefox is the default Theme of space.lucasgatsas.ch ! 
+<br> 
 
 <a href="http://space.lucasgatsas.ch">space.lucasgatsas.ch</a>
 
