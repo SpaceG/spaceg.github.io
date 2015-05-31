@@ -9,7 +9,7 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0266.jpeg"
 <h2 class="section-heading">Modify .htaccess</h2>
 <h2 class="section-heading">"Separat Things on cPanel"</h2>
 
-<code></code>
+<code> ErrorDocument 404 /404.html</code>
 
 <a href="http://space.lucasgatsas.ch">space.lucasgatsas.ch</a>
 
