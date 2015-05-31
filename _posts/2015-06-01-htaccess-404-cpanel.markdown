@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "100 Days Online - Non Stop"
+title:      "Modify .htaccess"
 subtitle:   "www.space.lucasgatsas.ch "
 date:       2015-06-01 14:00:44
 author:     "Lucas Gatsas"
