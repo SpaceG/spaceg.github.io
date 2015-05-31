@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Modify .htaccess"
-subtitle:   "www.space.lucasgatsas.ch "
+subtitle:   "Separat Things on cPanel"
 date:       2015-06-01 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0264.jpg"
