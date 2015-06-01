@@ -2,7 +2,7 @@
 layout:     post
 title:      "DNS, Domain & Nameserver - local ISPs"
 subtitle:   "Set Up Name Server on cPanel "
-date:       2015-05-28 14:00:44
+date:       2015-05-29 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
 ---
