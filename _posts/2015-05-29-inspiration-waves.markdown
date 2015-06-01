@@ -1,15 +1,18 @@
 ---
 layout:     post
-title:      "DNS, Domain & Nameserver - local ISPs"
-subtitle:   "Set Up Name Server on cPanel "
+title:      "Inspiration"
+subtitle:   "Images and Pictures"
 date:       2015-05-29 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
 ---
-<h2 class="section-heading">Images Inspiration</h2>
+<h2 class="section-heading"> Inspiration</h2>
 <h2 class="section-heading">"Set Up Name Server on cPanel "</h2>
 
 
+<a href="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0257.jpg">
+    <img src="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0257.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+</a>
 
 
 <a href="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0268.jpg">
