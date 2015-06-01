@@ -16,8 +16,8 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
     <img src="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0268.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 </a>
 
-<a href="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0268.jpg">
-    <img src="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0268.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+<a href="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0254.jpg">
+    <img src="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0254.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 </a>
 
 
