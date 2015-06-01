@@ -9,9 +9,16 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
 <h2 class="section-heading">Images Inspiration</h2>
 <h2 class="section-heading">"Set Up Name Server on cPanel "</h2>
 
-Update Post!
 
-<a href="http://server8.kproxy.com/invalid.jsp">server8.kproxy.com</a>
+
+
+<a href="{{ site.baseurl }}/img/streakgithub.png">
+    <img src="{{ site.baseurl }}/img/streakgithub.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+</a>
+
+
+
+<a href="http://space.lucasgatsas.ch/waves/">space.lucasgatsas.ch</a>
 
 <br><br>
 
