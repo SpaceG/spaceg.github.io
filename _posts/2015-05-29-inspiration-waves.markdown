@@ -6,7 +6,7 @@ date:       2015-05-29 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
 ---
-<h2 class="section-heading">DNS Nameserver</h2>
+<h2 class="section-heading">Images Inspiration</h2>
 <h2 class="section-heading">"Set Up Name Server on cPanel "</h2>
 
 Update Post!
