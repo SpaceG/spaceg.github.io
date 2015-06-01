@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
 ---
 <h2 class="section-heading"> Inspiration</h2>
-<h2 class="section-heading">"Set Up Name Server on cPanel "</h2>
+<h2 class="section-heading">"Waves and Beaches"</h2>
 
 
 <a href="{{ site.baseurl }}/img/Lucas_Gatsas_lucas_gatsas_0257.jpg">
