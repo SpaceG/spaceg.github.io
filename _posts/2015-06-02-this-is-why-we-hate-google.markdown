@@ -10,7 +10,7 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
 <h2 class="section-heading">"Shutdown Things in the Internet"</h2>
 
 I'm ready to Shut Down some Services soon from the whole WWW. If you have Interess please feel free to Contact me to be Bigger!
-
+Reason: To forget the Past! You Know. <code>91%</code> of the Internet is Bullshit. So many silly services etc. and alot of Bullshit in the Internet!
 
 <a href="http://space.lucasgatsas.ch/64376473647637467364634376437647364736473647356736537657365763576375673657365763756376">space.lucasgatsas.ch</a>
 
