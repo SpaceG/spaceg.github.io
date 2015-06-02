@@ -23,6 +23,6 @@ All these bunch of ... heades should be banned from the WWW. Specialy services l
 
 <br>
 <blockquote>
-“Intelligenz, behaupten die Intelligenten, ist die Fähigkeit, sich der Situation anzupassen. Wenn du ein Buch verkehrt in die Hand genommen hast, lerne, es verkehrt zu lesen.” 
+“Gewinnes halber dient auch, wer zum Sklaven nicht geboren ist.” 
 </blockquote>
 
