@@ -52,6 +52,6 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
 
 <br>
 <blockquote>
-“Intelligenz, behaupten die Intelligenten, ist die Fähigkeit, sich der Situation anzupassen. Wenn du ein Buch verkehrt in die Hand genommen hast, lerne, es verkehrt zu lesen.” 
+“Es ist ein altes, gutes Sprichwort – ich fürchte leider, ein französisches –: "Um geistreich zu sein, braucht man nur vor nichts mehr Respekt zu haben.” 
 </blockquote>
 
