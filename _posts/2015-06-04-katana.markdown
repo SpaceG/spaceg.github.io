@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Everyday Shutdown"
-subtitle:   "I'm already counting the days down to the Start "
+title:      "Katana"
+subtitle:   "Ready for the Next Level"
 date:       2015-06-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
