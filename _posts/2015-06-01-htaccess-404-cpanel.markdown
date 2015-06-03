@@ -19,6 +19,7 @@ To Run a .htaccess File on your cPanel Server. <code> ErrorDocument 404 /404.htm
 
 <br>
 <blockquote>
-“Intelligenz, behaupten die Intelligenten, ist die Fähigkeit, sich der Situation anzupassen. Wenn du ein Buch verkehrt in die Hand genommen hast, lerne, es verkehrt zu lesen.” 
+“Um sich in der heutigen Welt zurechtzufinden,
+ist es besser, intelligent als gebildet zu sein.” 
 </blockquote>
 
