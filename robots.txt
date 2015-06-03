@@ -1,11 +1,5 @@
 User-agent: *
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /img
+Disallow:
 
 
 sitemap: http://lucasgatsas.ch/sitemap.xml
