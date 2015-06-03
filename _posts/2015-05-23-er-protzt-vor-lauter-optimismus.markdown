@@ -58,6 +58,6 @@ Posted by Lucas Gatsas on So. 23. May. 2015 15:33:42
 
 <br>
 <blockquote>
-“Intelligenz, behaupten die Intelligenten, ist die Fähigkeit, sich der Situation anzupassen. Wenn du ein Buch verkehrt in die Hand genommen hast, lerne, es verkehrt zu lesen.” 
+“Die geistigen Menschen, vorausgesetzt, daß sie die mutigsten sind, erleben auch bei weitem die schmerzhaftesten Tragödien.” 
 </blockquote>
 
