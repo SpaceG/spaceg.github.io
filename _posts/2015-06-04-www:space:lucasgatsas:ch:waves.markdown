@@ -10,6 +10,10 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0257.jpg"
 <h2 class="section-heading">"This will be my Inspiration Site"</h2>
 
 
+Need a few days break. I need the beautiful places to be able to pull me Back. Here is my New Page! 
+<a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a> 
+
+
 <br>
 
 
