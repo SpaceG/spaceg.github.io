@@ -4,7 +4,7 @@ title:      "Waves"
 subtitle:   "I'm already counting the days down to the Start "
 date:       2015-06-04 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
+header-img: "img/Lucas_Gatsas_lucas_gatsas_0254.jpg"
 ---
 <h2 class="section-heading">I'm already counting the days down to the Start</h2>
 <h2 class="section-heading">"Shutdown Things in the Internet"</h2>
