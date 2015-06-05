@@ -15,7 +15,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
 <div class="row">
             <div class="col-lg-12">
               <h1 class="page-header">Bei Nacht im Freien unterwegs zu sein, unter dem schweigenden Himmel, an einem still strömenden Gewässer, das ist stets geheimnisvoll und regt die Gründe der Seele auf.
-             <small>Secondary Text</small>
+             <small>SpaceTravels</small>
           </h1>
      </div>
 </div>
