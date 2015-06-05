@@ -91,6 +91,6 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
 
 <br>
 <blockquote>
-“Pausen sind das Ass im Spiel des Lebens.” 
+“Ich breche die Brücken hinter mir ab. Man verliert dann keine Zeit mit Rückblicken, wo es schon genug Mühe macht, die Augen nach vorn zu richten. Es gibt also keine andere Wahl, als vorwärts zu gehen.” 
 </blockquote>
 
