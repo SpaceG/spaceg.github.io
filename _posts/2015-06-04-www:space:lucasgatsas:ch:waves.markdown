@@ -22,7 +22,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
 <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="img/lucas-gatsas-0001.jpg" alt="lucas gatsas">
+                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0001.jpg" alt="lucas gatsas">
                 </a>
                 <h3>
                     <a href="#">Space [01]</a>
@@ -31,7 +31,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="img/lucas-gatsas-0002.jpg" alt="lucas gatsas">
+                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0002.jpg" alt="lucas gatsas">
                 </a>
                 <h3>
                     <a href="#">Space [02]</a>
@@ -42,7 +42,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
 <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="img/lucas-gatsas-0003.jpg" alt="lucas gatsas">
+                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0003.jpg" alt="lucas gatsas">
                 </a>
                 <h3>
                     <a href="#">Space [03]</a>
@@ -51,7 +51,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="img/lucas-gatsas-0004.jpg" alt="lucas gatsas">
+                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0004.jpg" alt="lucas gatsas">
                 </a>
                 <h3>
                     <a href="#">Space [04]</a>
@@ -62,7 +62,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
 <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="img/lucas-gatsas-00010.jpg" alt="lucas gatsas">
+                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0005.jpg" alt="lucas gatsas">
                 </a>
                 <h3>
                     <a href="#">Space [05]</a>
@@ -71,7 +71,7 @@ Need a few days break. I need the beautiful places to be able to pull me Back. H
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="img/lucas-gatsas-00011.jpg" alt="lucas gatsas">
+                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0006.jpg" alt="lucas gatsas">
                 </a>
                 <h3>
                     <a href="#">Space [06]</a>
