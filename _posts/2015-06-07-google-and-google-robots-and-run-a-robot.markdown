@@ -6,8 +6,8 @@ date:       2015-06-07 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0257.jpg"
 ---
-<h2 class="section-heading">WAVES</h2>
-<h2 class="section-heading">"This will be my Inspiration Site"</h2>
+<h2 class="section-heading">Robots</h2>
+<h2 class="section-heading">"Remove and Delete things from the Internet with Robots"</h2>
 
 
 
