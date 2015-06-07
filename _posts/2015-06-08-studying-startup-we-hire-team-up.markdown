@@ -17,7 +17,7 @@ What we Need:
 
 -A good freakish (Men/Women, Old or Young) | SysAdmin (Root/ Linux Ubuntu Servers - Digital Ocean)
 
--A good freakish (Men/Women, Old or Young) | Back-End Developer (sails.js - node.js Back-End Developer)
+-A good freakish (Men/Women, Old or Young) | Back-End Developer (sails.js - backbone.js - node.js Back-End Developer)
 
 
 
