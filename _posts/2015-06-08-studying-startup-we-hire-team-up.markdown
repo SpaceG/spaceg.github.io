@@ -7,10 +7,10 @@ author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0255.jpg"
 ---
 <h2 class="section-heading">Team Up</h2>
-<h2 class="section-heading">"We Hire some Freash Developers for our Start Up"</h2>
+<h2 class="section-heading">"We Hire some Fresh Developers for our Start Up"</h2>
 
 
-We Hire and Search some Freash Developers for our Start Up to be Bigger and Faster. If you in Intress to get a Team Up with us. Contact Us/Me
+We Hire and Search some Fresh Developers for our Start Up to be Bigger and Faster. If you in Intress to get a Team Up with us. Contact Us/Me
 <a href="mailto:lucasgatsas@gmail.com">here</a> More Infos you will get in our Introduction Mail. 
 
 What we Need:
