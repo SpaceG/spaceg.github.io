@@ -32,7 +32,7 @@ This was make me very confussed. After some Bomb Mails, some of these Webmaster 
 [7.] And another Way you can remove it.. is.... :) ! But these Ways are with some obstacles! The Life is in your Hand. 
 
 
-In the first Moment I'm was a bit frustrated and angry about these Things! After some shaking the head  and bored about Ideas how remove it.
+At the first Moment I'm was a bit frustrated and angry about these Things! After some shaking the head  and bored about Ideas how remove it.
 I wrote a robot. With the <a href="https://accounts.google.com/ServiceLogin?service=sitemaps&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fwebmasters%2Ftools%2Fhome%3Fhl%3Den&followup=https%3A%2F%2Fwww.google.com%2Fwebmasters%2Ftools%2Fhome%3Fhl%3Den&hl=en">Google Webmaster Tools </a>
 Then write a <code>robots.txt</code> File <a href="https://support.google.com/webmasters/answer/6078399?hl=de&ref_topic=6061961">Test your Crawling</a>
 
