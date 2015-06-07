@@ -15,9 +15,10 @@ We Hire and Search some Fresh Developers for our Start Up to be Bigger and Faste
 
 What we Need:
 
--A good freakish (Men/Women, Old or Young) | SysAdmin (Root/ Linux Ubuntu Servers - Digital Ocean)
+<strong>-A good freakish (Men/Women, Old or Young) SysAdmin (Root/ Linux Ubuntu Servers - Digital Ocean)</strong>
 
--A good freakish (Men/Women, Old or Young) | Back-End Developer (sails.js - backbone.js - node.js Back-End Developer)
+
+<strong>-A good freakish (Men/Women, Old or Young) Back-End Developer (sails.js - backbone.js - node.js Back-End Developer)</strong>
 
 
 
