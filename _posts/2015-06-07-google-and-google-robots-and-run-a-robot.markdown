@@ -18,11 +18,11 @@ This was make me very confussed. After some Bomb Mails soem of these Webmaster h
 
 [1.] Write to the Webmaster
 
-[2.] Write to the Host and their Provider to find out who is behind, (if you get a answer) if not, find out self with soem Tools :) !Whois LookUp, with your (Netzwerkdienstprogramm)
+[2.] Write to the Host and their Provider to find out who is behind, (if you get a answer) if not, find out self with some Tools :) !Whois LookUp, with your (Netzwerkdienstprogramm)
 
 [3.] Find a Lawyer in your Country and City
 
-[4.] Write to Google (if the can remove the content from their Index.)
+[4.] Write to Google (if they can remove the content from their Index.)
 
 [5.] Go to their Office. 
 
