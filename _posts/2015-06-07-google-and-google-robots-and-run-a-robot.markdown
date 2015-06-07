@@ -12,7 +12,7 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0255.jpg"
 
 Last two Weeks, I am concerned with removing things from the Internet. First Part a Part of my Past Work and soem Details. 
 Now after some trouble to remove things from the Internet. I tried to reach the Webmaster from some Website etc. but, these don't answered my Questions etc.
-This was make me very confussed. After some Bomb Mails soem of these Webmaster have sended me a e-mail and some Webmaster have removed the Content. 
+This was make me very confussed. After some Bomb Mails, some of these Webmaster have sended and answered me a e-mail and some Webmaster have removed the Content. 
 
 
 
@@ -28,6 +28,8 @@ This was make me very confussed. After some Bomb Mails soem of these Webmaster h
 
 [6.] Write a Article about it. 
 
+
+[7.] And another Way you can remove it.. is.... :) ! But these Ways are with some obstacles! The Life is in your Hand. 
 
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
 
