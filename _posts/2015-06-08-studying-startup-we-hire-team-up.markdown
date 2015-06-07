@@ -13,6 +13,15 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0255.jpg"
 We Hire and Search some Freash Developers for our Start Up to be Bigger and Faster. If you in Intress to get a Team Up with us. Contact Us/Me
 <a href="mailto:lucasgatsas@gmail.com">here</a> More Infos you will get in our Introduction Mail. 
 
+What we Need:
+
+-A good freakish (Men/Women, Old or Young) | SysAdmin (Root/ Linux Ubuntu Servers - Digital Ocean)
+
+-A good freakish (Men/Women, Old or Young) | Back-End Developer (sails.js - node.js Back-End Developer)
+
+
+
+
 New Post Up!
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
 
