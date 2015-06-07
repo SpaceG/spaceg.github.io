@@ -26,7 +26,7 @@ What we Need:
 
 
 
-New Post Up!
+Waves!
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
 
 <br><br>
