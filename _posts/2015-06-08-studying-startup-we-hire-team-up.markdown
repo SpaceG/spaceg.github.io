@@ -15,11 +15,11 @@ We Hire and Search some Fresh Developers for our Start Up to be Bigger and Faste
 
 What we Need:
 
-<strong>-A good freakish (Men/Women, Old or Young) <br>
+<strong>-A good <a href="http://de.wikipedia.org/wiki/Computerfreak">freakish</a> (Men/Women, Old or Young) <br>
 	SysAdmin (Root/ Linux Ubuntu Servers - Digital Ocean)</strong>
 
 
-<strong>-A good freakish (Men/Women, Old or Young) <br>
+<strong>-A good <a href="http://de.wikipedia.org/wiki/Computerfreak">freakish</a> (Men/Women, Old or Young) <br>
 	Back-End Developer (sails.js - backbone.js - node.js Back-End Developer)</strong>
 
 
