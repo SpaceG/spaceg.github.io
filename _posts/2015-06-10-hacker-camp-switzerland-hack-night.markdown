@@ -4,7 +4,7 @@ title:      "Team Up"
 subtitle:   "Studying,Start Up and We Hire"
 date:       2015-06-10 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Lucas_Gatsas_lucas_gatsas_0259.jpg"
+header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 ---
 <h2 class="section-heading">Team Up</h2>
 <h2 class="section-heading">"We Hire some Fresh Developers for our Start Up"</h2>
