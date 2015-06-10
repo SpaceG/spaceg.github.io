@@ -36,7 +36,7 @@ Waves!
 
 
 
-Links: <a href="http://www.ccc.de/">CCC - Club</a>
+Links: <a href="http://www.ccc.de/de/hackerethics">CCC - Club</a>
 
 
 <br>
