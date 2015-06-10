@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Team Up"
+title:      "Hacker Camp"
 subtitle:   "Studying,Start Up and We Hire"
 date:       2015-06-10 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 ---
-<h2 class="section-heading">Team Up</h2>
-<h2 class="section-heading">"We Hire some Fresh Developers for our Start Up"</h2>
+<h2 class="section-heading">Hacker Camp</h2>
+<h2 class="section-heading">"Hack Night in Switzerland - 2016 "</h2>
 
 
 
