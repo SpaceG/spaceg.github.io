@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Hacker Camps in Switzerland 2016"
+title:      "Hacker Camps - Start Up Camps in Switzerland 2016"
 subtitle:   "Organize & Planning First Biggest Hacker Camp in Switzerland"
 date:       2015-06-10 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 ---
-<h2 class="section-heading">Hacker Camp</h2>
+<h2 class="section-heading">Hacker Camps - Start Up Camps</h2>
 <h2 class="section-heading">"Hack Night in Switzerland - 2016 "</h2>
 
 New Post Up!
