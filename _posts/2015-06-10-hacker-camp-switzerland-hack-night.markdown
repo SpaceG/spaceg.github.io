@@ -14,6 +14,22 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 Would like to Shar this Post with you, becuase I'm current have some New Ideas and Start Up's Projects and these would be great to realize it. 
 A Outdoor or Indoor Camp with lot of good Developers.
 
+ Front-End Engineering / Developers
+ Back-End Engineering / Developers
+ UI/UX - Interface - Interactive / Developers / Designer - 
+ Web - Design
+
+
+ Themes: 
+
+ New Front -End Engineering 
+ New Back -End Engineering
+ New UI/UX Designs 
+ 
+
+Themes: 
+
+ Security - White, Grey, Black Hats
 
 
 <a href="{{ site.baseurl }}/img/lucas-gatsas-0111.jpg">
