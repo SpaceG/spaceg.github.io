@@ -10,15 +10,6 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 <h2 class="section-heading">"We Hire some Fresh Developers for our Start Up"</h2>
 
 
-We Hire and Search some Fresh Developers for our Start Up to be Bigger and Faster. If you in Intress to get a Team Up with us. Contact Us/Me
-<a href="mailto:lucasgatsas@gmail.com">here</a> More Infos you will get in our Introduction Mail. 
-
-What we Need:
-
-
-
-
-
 
 Waves!
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
