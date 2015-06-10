@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Hacker Camps in Switzerland 2016"
-subtitle:   "Studying,Start Up and We Hire"
+subtitle:   "Organize & Planning First Biggest Hacker Camp in Switzerland"
 date:       2015-06-10 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
@@ -24,7 +24,7 @@ New Post Up!
 <a href="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
-<blockquote>The <a href="http://www.ccc.de/">CCC</a> - Hacker Camp in Germany</blockquote>
+<blockquote>The <strong><a href="http://www.ccc.de/">CCC</a></strong> - Hacker Camp in Germany</blockquote>
 
 
 
