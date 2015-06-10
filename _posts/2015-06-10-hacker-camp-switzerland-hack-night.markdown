@@ -9,7 +9,7 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 <h2 class="section-heading">Hacker Camps - Start Up Camps</h2>
 <h2 class="section-heading">"Hack Night in Switzerland - 2016 "</h2>
 
-New Post Up!
+
 
 
 
@@ -19,7 +19,7 @@ New Post Up!
     <img src="{{ site.baseurl }}/img/lucas-gatsas-0111.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
-
+I have a lot of projects that I still want to organize next Year 2016. One of my favorite projekt is a new Hacker Camp and Start Up Camp for a Week.
 
 <a href="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
