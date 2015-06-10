@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Hacker Camp"
+title:      "Hacker Camps in Switzerland 2016"
 subtitle:   "Studying,Start Up and We Hire"
 date:       2015-06-10 14:00:44
 author:     "Lucas Gatsas"
