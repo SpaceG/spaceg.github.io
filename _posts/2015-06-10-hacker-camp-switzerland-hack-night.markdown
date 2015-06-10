@@ -11,7 +11,8 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 
 
 
-
+Would like to Shar this Post with you, becuase I'm current have some New Ideas and Start Up's Projects and these would be great to realize it. 
+A Outdoor or Indoor Camp with lot of good Developers.
 
 
 
