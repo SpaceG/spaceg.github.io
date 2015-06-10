@@ -11,6 +11,15 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 
 New Post Up!
 
+
+
+
+
+<a href="{{ site.baseurl }}/img/lucas-gatsas-0111.jpg">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-0111.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+
 Waves!
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
 
