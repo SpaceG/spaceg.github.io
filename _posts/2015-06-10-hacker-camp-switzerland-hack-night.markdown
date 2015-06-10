@@ -20,10 +20,23 @@ New Post Up!
 </a>
 
 
+
+<a href="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+<blockquote>The <a href="http://www.ccc.de/">CCC</a> - Hacker Camp in Germany</blockquote>
+
+
+
+
 Waves!
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
 
 <br><br>
+
+
+
+Links: <a href="http://www.ccc.de/">CCC - Club</a>
 
 
 <br>
