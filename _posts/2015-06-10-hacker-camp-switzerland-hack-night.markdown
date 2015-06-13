@@ -11,7 +11,7 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 
 
 
-Would like to Shar this Post with you, becuase I'm current have some New Ideas and Start Up's Projects and these would be great to realize it. 
+Would like to Share this Post with you, becuase I'm current have some New Ideas and Start Up's Projects and these would be great to realize it. 
 A Outdoor or Indoor Camp with lot of good Developers.
 
  Front-End Engineering / Developers
@@ -37,7 +37,7 @@ Themes:
 </a>
 
 
-I have a lot of projects that I still want to organize Next Year 2016. One of my favorite projekt is a New Hacker Camp and Start Up Camp for a Week.
+I have a lot of projects that I still want to organize Next Year 2016. One of my favorite projekt is a New Hacker Camp and Start Up Camp for a Week here in Switzerland.
 But it should more a Camp to attract new Start Ups. But so far we are still working on our current Start Up.
 
 
