@@ -14,13 +14,6 @@ header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 
 
 
-<a href="{{ site.baseurl }}/img/lucas-gatsas-0111.jpg">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-0111.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-
-
-I have a lot of projects that I still want to organize Next Year 2016. One of my favorite projekt is a New Hacker Camp and Start Up Camp for a Week here in Switzerland.
-But it should more a Camp to attract new Start Ups. But so far we are still working on our current Start Up.
 
 
 <a href="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg">
