@@ -21,6 +21,7 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
     <img src="{{ site.baseurl }}/img/lucas-gatsas-01234.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
+<blockquote>Variant of the UI/UX Interface Part I</blockquote>
 
 
 <br>
