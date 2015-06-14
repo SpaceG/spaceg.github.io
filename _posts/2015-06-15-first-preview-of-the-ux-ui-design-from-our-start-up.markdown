@@ -9,12 +9,23 @@ header-img: "img/lucas-gatsas-0112.jpg"
 <h2 class="section-heading">Multiple Layouts and UI/UX Design</h2>
 <h2 class="section-heading">"Hardwork on User Interface Design"</h2>
 
+<br>
+
+This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understanding every good developer, how strong and epic Work Front-End Engineering is. This is Design. 10 Hours on the same Work. 
 
 
 
+<br>
 
 <a href="{{ site.baseurl }}/img/lucas-gatsas-01234.png">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-01234.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+
+<br>
+
+<a href="{{ site.baseurl }}/img/lucas-gatsas-123456.png">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-123456.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 
