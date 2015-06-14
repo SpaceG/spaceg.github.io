@@ -13,13 +13,10 @@ header-img: "img/lucas-gatsas-0112.jpg"
 
 
 
-
-
-<!--
-<a href="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-switzerland-ccc1.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+<a href="{{ site.baseurl }}/img/lucas-gatsas-01234.png">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-01234.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
--->
+
 
 
 
