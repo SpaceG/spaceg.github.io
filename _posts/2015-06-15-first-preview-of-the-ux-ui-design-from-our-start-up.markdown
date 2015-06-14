@@ -39,6 +39,7 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
 
 
 Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
+Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
 
 
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
