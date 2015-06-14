@@ -11,7 +11,7 @@ header-img: "img/lucas-gatsas-0112.jpg"
 
 <br>
 
-This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understanding every good developer, how strong and epic Work Front-End Engineering is. This is Design. 10 Hours on the same Work. 
+This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understanding every good developer, how strong and epic Work Front-End Engineering is. This is Design. Coding 10 Hours on the same Work (Details). 
 
 
 
