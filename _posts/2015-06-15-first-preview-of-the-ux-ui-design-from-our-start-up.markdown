@@ -31,6 +31,11 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
 
 
 
+<a href="{{ site.baseurl }}/img/lucas-gatsas-1234567.png">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-1234567.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+
 
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
 
