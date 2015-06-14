@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Hacker Camps - Start Up Camps in Switzerland 2016"
-subtitle:   "Organize & Planning First Biggest Hacker Camp in Switzerland"
+title:      "First Preview of the UI/UX Design"
+subtitle:   "from our Start Up"
 date:       2015-06-15 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
 ---
-<h2 class="section-heading">Hacker Camps - Start Up Camps</h2>
-<h2 class="section-heading">"Hack Night in Switzerland - 2016 "</h2>
+<h2 class="section-heading">Multiple Layouts and UI/UX Design</h2>
+<h2 class="section-heading">"Hardwork on UI/UX"</h2>
 
 
 
