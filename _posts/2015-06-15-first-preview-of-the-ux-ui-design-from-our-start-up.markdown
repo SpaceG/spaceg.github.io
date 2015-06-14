@@ -4,7 +4,7 @@ title:      "First Preview of the UI/UX Design"
 subtitle:   "from our Start Up"
 date:       2015-06-15 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-dreamhack-night-shot.jpg"
+header-img: "img/lucas-gatsas-0112.jpg"
 ---
 <h2 class="section-heading">Multiple Layouts and UI/UX Design</h2>
 <h2 class="section-heading">"Hardwork on UI/UX"</h2>
