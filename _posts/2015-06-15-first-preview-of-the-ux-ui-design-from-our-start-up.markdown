@@ -49,10 +49,9 @@ This is my Sketch from our App Tree. Sketching your App is always a good idea. B
 <blockquote>Variant of the UI/UX Interface Part II</blockquote>
 
 <a href="{{ site.baseurl }}/img/password.png">
-    <img src="{{ site.baseurl }}/img/password.png
-" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+    <img src="{{ site.baseurl }}/img/password.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
-<blockquote>Variant of the UI/UX Interface Part II</blockquote>
+<blockquote>Variant of the UI/UX Interface Part III from the Password Settings! </blockquote>
 
 
 
@@ -70,6 +69,6 @@ Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
 
 <br>
 <blockquote>
-“Ich breche die Brücken hinter mir ab. Man verliert dann keine Zeit mit Rückblicken, wo es schon genug Mühe macht, die Augen nach vorn zu richten. Es gibt also keine andere Wahl, als vorwärts zu gehen.” 
+“Common, Common, Common.... !!!” 
 </blockquote>
 
