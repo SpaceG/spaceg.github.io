@@ -20,7 +20,6 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
 <a href="{{ site.baseurl }}/img/lucas-gatsas-01234.png">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-01234.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
-
 <blockquote>@Work UI/UX Design for our Start Up.</blockquote>
 
 
@@ -29,7 +28,6 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
 <a href="{{ site.baseurl }}/img/lucas-gatsas-123456.png">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-123456.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
-
 <blockquote>Variant of the UI/UX Interface Part I</blockquote>
 
 
