@@ -25,6 +25,18 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
 
 <br>
 
+
+
+
+This is my Sketch from our App Tree. Sketching your App is always a good idea. But, sometimes, i don't need Sketches, everything is inside the Head and Brain. :) 
+
+<a href="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png">
+    <img src="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+
+<br> 
+
 <a href="{{ site.baseurl }}/img/lucas-gatsas-123456.png">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-123456.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
@@ -35,14 +47,6 @@ This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understand
     <img src="{{ site.baseurl }}/img/lucas-gatsas-1234567.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 <blockquote>Variant of the UI/UX Interface Part II</blockquote>
-
-
-This is my Sketch from our App Tree. Sketching your App is always a good idea. But, sometimes, i don't need Sketches, everything is inside the Head and Brain. :) 
-
-<a href="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png">
-    <img src="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-
 
 
 Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
