@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-0112.jpg"
 ---
 <h2 class="section-heading">Multiple Layouts and UI/UX Design</h2>
-<h2 class="section-heading">"Hardwork on User Interface Design"</h2>
+<h2 class="section-heading">"Hardwork on User Interface & User Experience Design"</h2>
 
 <br>
 
