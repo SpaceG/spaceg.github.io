@@ -55,7 +55,8 @@ This is my Sketch from our App Tree. Sketching your App is always a good idea. B
 <blockquote>Variant of the UI/UX Interface Part III from the Password Settings! </blockquote>
 
 
-
+There are now two New Contributors on our Branch. Our Team is now rising Up! If you have intress to work with Us on our Start Up and Open Source Project.
+Contact me! 
 
 
 Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
