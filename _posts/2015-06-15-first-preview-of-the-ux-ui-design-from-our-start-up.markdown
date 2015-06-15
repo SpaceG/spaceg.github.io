@@ -56,7 +56,7 @@ This is my Sketch from our App Tree. Sketching your App is always a good idea. B
 
 
 There are now two New Contributors on our Branch. Our Team is now rising Up! If you have intress to work with Us on our Start Up and Open Source Project.
-Contact me! 
+Contact me! If you are a good in SysAdmin on Root/ Linux Ubnutu Servers running with node.js - backbone.js and of course the Awesome sails.js. 
 
 
 Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
