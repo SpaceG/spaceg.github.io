@@ -25,9 +25,6 @@ header-img: "img/St.Gallen-Winter-Stadt.jpg"
 
 
 
-
-
-
 <a href="#">
     <img src="{{ site.baseurl }}/img/project_01.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a> 
