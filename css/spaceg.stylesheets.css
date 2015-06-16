@@ -133,6 +133,9 @@ https://www.twitter.com/LucasGatsas
   color: rgba(15, 14, 14, 0.95);
 
 		}
+
+
+    
 i.fa.fa-rss.fa-stack-1x.fa-inverse {
 background: white;
 color: gray;
@@ -177,6 +180,9 @@ i.fa.fa-instagram.fa-stack-1x.fa-inverse:hover {
   background: white;
   color: gray;
 }
+
+
+
 /* Modal Css for Social Buttons */
 
 i#spaceg-social-modal {
