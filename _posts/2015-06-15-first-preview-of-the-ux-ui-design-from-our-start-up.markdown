@@ -28,7 +28,6 @@ Love my Work! Now I'm going still back to Work. -
 
 
 
-
 This is my Sketch from our App Tree. Sketching your App is always a good idea. But, sometimes, i don't need Sketches, everything is inside the Head and Brain. :) 
 
 <a href="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png">
