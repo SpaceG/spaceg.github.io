@@ -154,6 +154,9 @@ i.fa.fa-instagram.fa-stack-1x.fa-inverse {
   color: gray;
 }
 
+/* The Hovers for the Social Icons */ 
+
+
 i.fa.fa-rss.fa-stack-1x.fa-inverse:hover {
 background: white;
 color: rgb(194, 194, 194);
