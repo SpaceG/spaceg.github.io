@@ -173,7 +173,10 @@ i.fa.fa-github.fa-stack-1x.fa-inverse:hover {
 background: white;
 color: rgb(194, 194, 194);
 }
-
+i.fa.fa-instagram.fa-stack-1x.fa-inverse:hover {
+  background: white;
+  color: gray;
+}
 /* Modal Css for Social Buttons */
 
 i#spaceg-social-modal {
