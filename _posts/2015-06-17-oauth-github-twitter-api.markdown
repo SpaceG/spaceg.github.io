@@ -11,9 +11,6 @@ header-img: "img/lucas-gatsas-0112.jpg"
 
 <br>
 
-This is Our First Preview on our Settings Pages (UI/UX-Design). I Can understanding every good developer, how strong and epic Work Front-End Engineering is. This is Design. Coding 10 Hours on the same Work (Details). At the Moment I'm working really hard on the main Core of our Web App. This is why i don't write alot on my Blog. And now is always Mo. 15. of Juni 01:58:29 Programming is like do you write a Book in 10 Hours. Really Epic, but i really Love it. 
-Love my Work! Now I'm going still back to Work. - 
-
 
 
 <br>
