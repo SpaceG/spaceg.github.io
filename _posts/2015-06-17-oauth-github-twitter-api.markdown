@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "oAuth - Github - Twitter Api"
-subtitle:   "from our Start Up"
+subtitle:   "Sign Up and Sign In with oAuth"
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-0112.jpg"
