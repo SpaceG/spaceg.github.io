@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "oAuth"
+title:      "oAuth - Github - Twitter Api"
 subtitle:   "from our Start Up"
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
