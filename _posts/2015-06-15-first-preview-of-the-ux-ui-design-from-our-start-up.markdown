@@ -70,6 +70,6 @@ Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
 
 <br>
 <blockquote>
-“Common, Common, Common.... !!!” 
+“” 
 </blockquote>
 
