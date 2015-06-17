@@ -6,8 +6,8 @@ date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-1234567890.jpg"
 ---
-<h2 class="section-heading">Multiple Layouts and UI/UX Design</h2>
-<h2 class="section-heading">"Hardwork on User Interface & User Experience Design"</h2>
+<h2 class="section-heading">oAuth - Github - Twitter Api</h2>
+<h2 class="section-heading">"SignIn and SignUp"</h2>
 
 <br>
 
