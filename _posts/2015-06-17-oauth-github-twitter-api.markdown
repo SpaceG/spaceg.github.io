@@ -12,18 +12,6 @@ header-img: "img/lucas-gatsas-0112.jpg"
 <br>
 
 
-
-
-
-This is my Sketch from our App Tree. Sketching your App is always a good idea. But, sometimes, i don't need Sketches, everything is inside the Head and Brain. :) 
-
-<a href="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png">
-    <img src="{{ site.baseurl }}/img/app-tree-lucas-gatsas-12345.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-
-
-<br> 
-
 <a href="{{ site.baseurl }}/img/lucas-gatsas-123456.png">
     <img src="{{ site.baseurl }}/img/lucas-gatsas-123456.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
