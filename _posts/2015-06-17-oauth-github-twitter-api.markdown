@@ -13,16 +13,6 @@ header-img: "img/lucas-gatsas-0112.jpg"
 
 
 
-<br>
-
-<a href="{{ site.baseurl }}/img/lucas-gatsas-01234.png">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-01234.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-<blockquote>@Work UI/UX Design for our Start Up.</blockquote>
-
-
-<br>
-
 
 
 This is my Sketch from our App Tree. Sketching your App is always a good idea. But, sometimes, i don't need Sketches, everything is inside the Head and Brain. :) 
