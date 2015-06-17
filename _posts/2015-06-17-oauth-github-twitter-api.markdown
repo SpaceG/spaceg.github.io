@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "First Preview of the UI/UX Design"
+title:      "oAuth"
 subtitle:   "from our Start Up"
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
