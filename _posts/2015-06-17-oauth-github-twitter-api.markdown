@@ -12,26 +12,6 @@ header-img: "img/lucas-gatsas-0112.jpg"
 <br>
 
 
-<a href="{{ site.baseurl }}/img/lucas-gatsas-123456.png">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-123456.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-<blockquote>Variant of the UI/UX Interface Part I</blockquote>
-
-
-<a href="{{ site.baseurl }}/img/lucas-gatsas-1234567.png">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-1234567.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-<blockquote>Variant of the UI/UX Interface Part II</blockquote>
-
-<a href="{{ site.baseurl }}/img/password.png">
-    <img src="{{ site.baseurl }}/img/password.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-<blockquote>Variant of the UI/UX Interface Part III from the Password Settings! </blockquote>
-
-
-There are now two New Contributors on our Branch. Our Team is now rising Up! If you have intress to work with Us on our Start Up and Open Source Project.
-Contact me! If you are a good in SysAdmin on Root/ Linux Ubnutu Servers running with <a href="http://blog.nodejs.org/"> node.js </a> - <a href="https://github.com/jashkenas/backbone">backbone.js</a> and of course the Awesome <a href="https://github.com/balderdashy/sails">sails.js.</a> 
-
 
 Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
 Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
