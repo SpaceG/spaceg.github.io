@@ -38,15 +38,15 @@ passport.use(new GitHubStrategy({
 
 
 
-Links: <a href="http://passportjs.org/">Passport.js</a>
-Links: <a href="https://developer.github.com/v3/oauth/">v3 oauth - API
+Links: <a href="http://passportjs.org/" target="_blank">Passport.js</a>
+Links: <a href="https://developer.github.com/v3/oauth/" target="_blank">v3 oauth - API
  - OAuth - Web Application Flow</a>
-Links: <a href="https://dev.twitter.com/oauth">OAuth
+Links: <a href="https://dev.twitter.com/oauth" target="_blank">OAuth
 Send secure authorized requests to the Twitter API</a>
 
 
 
-<a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
+<a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
 
 <br><br>
 
