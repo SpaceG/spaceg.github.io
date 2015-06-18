@@ -13,7 +13,8 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
 
 
 
-
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
 
 
 passport.use(new TwitterStrategy({
@@ -33,7 +34,7 @@ passport.use(new GitHubStrategy({
 ));
 
 
-
+</pre></pre></div>
 
 
 
