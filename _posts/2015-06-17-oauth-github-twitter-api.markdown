@@ -41,6 +41,8 @@ passport.use(new GitHubStrategy({
 Links: <a href="http://passportjs.org/">Passport.js</a>
 Links: <a href="https://developer.github.com/v3/oauth/">v3 oauth - API
  - OAuth - Web Application Flow</a>
+Links: <a href="https://dev.twitter.com/oauth">OAuth
+Send secure authorized requests to the Twitter API</a>
 
 
 
