@@ -60,6 +60,6 @@ Links: <a href="http://sailsjs.org/#!/" target="_blank">sails.js</a>
 
 <br>
 <blockquote>
-“” 
+“Die Wahrheit ist, es hat niemals auf der Welt viele bemerkenswerte Leute gegeben. Die meisten stützen sich ständig auf den Typ gerade neben ihnen - und fragen, was sie tun sollen.” 
 </blockquote>
 
