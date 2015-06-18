@@ -11,7 +11,31 @@ header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
 
 <br>
 
-Update Post Today!
+
+
+
+
+
+passport.use(new TwitterStrategy({
+    consumerKey: 'zhtzjtzjtrzjrzbv437bfgfg',
+    consumerSecret: '0FsA6435634765wgzfcegcfzgeuwr37ezrrt77bhrtg',
+    callbackURL: "http://localhost:1337/auth/twitter/callback"
+  },
+  oAuthCallback
+));
+
+passport.use(new GitHubStrategy({
+    clientID: '654457zsthdfghsh4545654z645z6',
+    clientSecret: 'dgedshernwrtz7564546dfvbfv34t4tertertretgreter',
+    callbackURL: "http://localhost:1337/auth/github/callback"
+  },
+  oAuthCallback
+));
+
+
+
+
+
 
 Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
 Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
