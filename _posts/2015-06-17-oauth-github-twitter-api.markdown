@@ -38,8 +38,10 @@ passport.use(new GitHubStrategy({
 
 
 
-Links: <a href="http://de.wikipedia.org/wiki/User_Experience">User Experience</a>
-Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
+Links: <a href="http://passportjs.org/">Passport.js</a>
+Links: <a href="https://developer.github.com/v3/oauth/">v3 oauth - API
+ - OAuth - Web Application Flow</a>
+
 
 
 <a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
