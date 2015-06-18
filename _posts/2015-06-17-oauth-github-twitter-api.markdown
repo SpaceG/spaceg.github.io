@@ -43,6 +43,9 @@ Links: <a href="https://developer.github.com/v3/oauth/" target="_blank">v3 oauth
  - OAuth - Web Application Flow</a>
 Links: <a href="https://dev.twitter.com/oauth" target="_blank">OAuth
 Send secure authorized requests to the Twitter API</a>
+Links: <a href="https://github.com/balderdashy/waterline" target="_blank">Waterline.js</a>
+
+
 
 
 
