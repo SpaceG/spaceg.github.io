@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
 ---
 <h2 class="section-heading">oAuth - Github - Twitter Api</h2>
-<h2 class="section-heading">"SignIn and SignUp"</h2>
+<h2 class="section-heading">"SignIn and SignUp - Callback"</h2>
 
 <br>
 
