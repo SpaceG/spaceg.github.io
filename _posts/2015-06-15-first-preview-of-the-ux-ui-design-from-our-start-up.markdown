@@ -70,6 +70,6 @@ Links: <a href="http://de.wikipedia.org/wiki/Interfacedesign">User Interface</a>
 
 <br>
 <blockquote>
-“” 
+“ Auch Schulbildung war nur eine Falle. Das bißchen Bildung, das zu mir durchgedrungen war, hatte mich nur noch misstrauischer gemacht. Was waren denn Ärzte, Anwälte, Wissenschaftler? Doch auch nur Menschen, die sich die Freiheit nehmen ließen, selbständig zu denken und zu handeln.” 
 </blockquote>
 
