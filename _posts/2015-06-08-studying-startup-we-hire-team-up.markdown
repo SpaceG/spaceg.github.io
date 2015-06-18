@@ -35,6 +35,6 @@ Waves!
 
 <br>
 <blockquote>
-“Ich breche die Brücken hinter mir ab. Man verliert dann keine Zeit mit Rückblicken, wo es schon genug Mühe macht, die Augen nach vorn zu richten. Es gibt also keine andere Wahl, als vorwärts zu gehen.” 
+“Die meisten Menschen sind wie ein fallendes Blatt, das weht und dreht sich durch die Luft, und schwankt, und taumelt zu Boden. Andre aber, wenige, sind wie Sterne, die gehen eine feste Bahn, kein Wind erreicht sie, in sich selber haben sie ihr Gesetz und ihre Bahn.” 
 </blockquote>
 
