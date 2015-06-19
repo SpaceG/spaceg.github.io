@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Inspiration"
-subtitle:   "Waves and Beaches"
+subtitle:   "Waves and Beaches II"
 date:       2015-05-27 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/Lucas_Gatsas_lucas_gatsas_0269.jpg"
