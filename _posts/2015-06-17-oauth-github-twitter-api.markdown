@@ -45,7 +45,7 @@ Links: <a href="https://dev.twitter.com/oauth" target="_blank">OAuth
 Send secure authorized requests to the Twitter API</a>
 Links: <a href="https://github.com/balderdashy/waterline" target="_blank">Waterline.js</a>
 Links: <a href="http://sailsjs.org/#!/" target="_blank">sails.js</a>
-
+Links: <a href="https://github.com/settings/developers">Github Developers</a>
 
 
 
