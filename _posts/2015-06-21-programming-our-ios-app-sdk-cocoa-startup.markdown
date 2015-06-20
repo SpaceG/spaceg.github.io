@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Beginning programming a<br> Prototype with the iOs SDK for our Start Up - App"
+title:      "Beginning Programming a<br> Prototype with the iOs SDK for our Start Up - App"
 subtitle:   "Sign Up and Sign In with oAuth"
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
