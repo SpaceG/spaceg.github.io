@@ -1,12 +1,12 @@
 ---
 layout:     post
 title:      "Beginning Programming a<br> Prototype with the iOs SDK for our Start Up - App"
-subtitle:   "Object-C - SDK "
+subtitle:   "Objective-C - SDK "
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 ---
-<h2 class="section-heading">iOs - SDK - Object - C</h2>
+<h2 class="section-heading">iOs - SDK - Objective-C</h2>
 <h2 class="section-heading">"SignIn and SignUp - Callback"</h2>
 
 <br>
