@@ -6,7 +6,7 @@ date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 ---
-<h2 class="section-heading">oAuth - Github - Twitter Api</h2>
+<h2 class="section-heading">iOs - SDK - Object - C</h2>
 <h2 class="section-heading">"SignIn and SignUp - Callback"</h2>
 
 <br>
