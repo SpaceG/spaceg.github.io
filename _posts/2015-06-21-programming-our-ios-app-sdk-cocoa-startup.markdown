@@ -11,8 +11,6 @@ header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 
 <br>
 
-Now do some Back End and Front End for oAuth Sign Up and Sign In with Twitter and Github. We Use the <a href="http://lucasgatsas.ch/2015/01/17/sails.js/" target="_blank">Implement Passport.js authentication with Sails.js ~0.10</a> Register your Application <a href="https://github.com/settings/developers">Register</a> Bellow is a Part Preview of our Code. 
-
 
 
 
