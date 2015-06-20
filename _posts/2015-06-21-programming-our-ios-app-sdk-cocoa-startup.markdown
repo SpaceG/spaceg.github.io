@@ -4,7 +4,7 @@ title:      "Beginning programming a Prototype with the iOs SDK for our Start Up
 subtitle:   "Sign Up and Sign In with oAuth"
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Lucas_Gatsas_lucas_gatsas_0260.jpg"
+header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 ---
 <h2 class="section-heading">oAuth - Github - Twitter Api</h2>
 <h2 class="section-heading">"SignIn and SignUp - Callback"</h2>
