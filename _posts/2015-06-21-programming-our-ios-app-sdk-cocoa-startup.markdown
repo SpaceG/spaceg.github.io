@@ -17,21 +17,6 @@ Now do some Back End and Front End for oAuth Sign Up and Sign In with Twitter an
 <pre style="color:black;background:white;"><pre>
 
 
-passport.use(new TwitterStrategy({
-    consumerKey: 'zhtzjtzjtrzjrzbv437bfgfg',
-    consumerSecret: '0FsA6435634765wgzfcegcfzgeuwr37ezrrt77bhrtg',
-    callbackURL: "http://localhost:1337/auth/twitter/callback"
-  },
-  oAuthCallback
-));
-
-passport.use(new GitHubStrategy({
-    clientID: '654457zsthdfghsh4545654z645z6',
-    clientSecret: 'dgedshernwrtz7564546dfvbfv34t4tertertretgreter',
-    callbackURL: "http://localhost:1337/auth/github/callback"
-  },
-  oAuthCallback
-));
 
 
 </pre></pre></div>
