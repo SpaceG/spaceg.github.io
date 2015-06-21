@@ -303,6 +303,9 @@ img.img-circle.portfolio-link.img-responsive {
 }
 
 
-
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: rgba(231, 231, 231, 0);
+}
 
 
