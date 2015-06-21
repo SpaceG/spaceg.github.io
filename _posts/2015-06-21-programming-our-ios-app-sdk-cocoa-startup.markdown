@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 ---
 <h2 class="section-heading">iOs - SDK - Objective-C</h2>
-<h2 class="section-heading">"Create Our first Prototype of our iOs<br> Mobile App"</h2>
+<h2 class="section-heading">"Create a Prototype of our iOs<br> Mobile App"</h2>
 
 <br>
 
