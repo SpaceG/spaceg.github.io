@@ -18,7 +18,7 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 4. View Engines
 
 
-Links: <a href="https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fmembercenter%2Findex.action" target="_blank">Apple Developers</a>
+Links: <a href="" target="_blank">Apple Developers</a>
 Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK" target="_blank">iOs_SDK</a>
 Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sails.js</a>
 
