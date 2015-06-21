@@ -12,13 +12,20 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 
 
 
-<code> <%- partial ('foo.ejs') %> 
+<code>                <%- partial ('../partials/section_footer.ejs') %>  
+
 </code> 
 
 
 <br>
 
 <code>/views/foo.ejs</code>
+
+
+
+      <div class="inner-startup-partials-01">
+               <%- partial ('../partials/section_footer.ejs') %>  
+            </div>
 
 <br>
 
