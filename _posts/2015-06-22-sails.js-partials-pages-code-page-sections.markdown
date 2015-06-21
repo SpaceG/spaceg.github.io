@@ -15,6 +15,11 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 <code> <%- partial ('foo.ejs') %> 
 </code> 
 
+
+<br>
+
+/views/foo.ejs
+
 <br>
 
 1. Layouts
