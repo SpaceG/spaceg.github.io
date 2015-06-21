@@ -11,6 +11,7 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 
 
 Render a partial view with sails.js in Our Web App. First you should have a Partials Folder and add your <code>.ejs</code>
+File. like <code> 
 
 
 <code><%- partial ('../partials/section_footer.ejs') %></code> 
