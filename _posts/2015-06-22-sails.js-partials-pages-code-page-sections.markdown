@@ -19,15 +19,13 @@ File like <code> section_footer.ejs  </code>  and add in your Main Files like in
 Include your framework (HTML) in the  <code> section_footer.ejs  </code> and code your Layout in the Framework.
 
 
+
+
 <code>/partials/section_footer.ejs</code> 
-
-
-<br> 
 
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
-
 
 <code>
 
