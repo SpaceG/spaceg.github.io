@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Beginning Programming a<br> Prototype for our Native Mobile App"
+title:      "Beginning Programming a Prototype for our Native Mobile App"
 subtitle:   "Objective-C - SDK "
 date:       2015-06-17 14:00:44
 author:     "Lucas Gatsas"
