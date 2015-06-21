@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Sails.js - Partials - Page - Settings - Sections"
-subtitle:   "Objective-C - SDK "
+subtitle:   "Views"
 date:       2015-06-22 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-213515241234.jpg"
