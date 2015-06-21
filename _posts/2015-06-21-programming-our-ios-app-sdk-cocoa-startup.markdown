@@ -23,7 +23,7 @@ Links: <a href="https://github.com/settings/developers">Github Developers</a>
 
 
 
-<a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
+Links: <a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
 
 <br><br>
 
