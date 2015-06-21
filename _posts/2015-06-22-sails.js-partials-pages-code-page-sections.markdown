@@ -25,12 +25,15 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 <pre style="color:black;background:white;"><pre>
 
 
+<code>
+
 < div class="inner-startup-partials-01">
 
       <%- partial ('../partials/section_footer.ejs') %>  
 
   < /div>
 
+</code>
 
 </pre></pre></div>
 
