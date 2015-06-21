@@ -40,9 +40,6 @@ Include your framework (HTML) in the  <code> section_footer.ejs  </code> and cod
 </pre></pre></div>
 
 
-
-<br>
-
 1. Layouts
 2. Locals
 3. Partials
