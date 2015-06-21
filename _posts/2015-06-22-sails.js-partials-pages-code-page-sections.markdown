@@ -4,7 +4,7 @@ title:      "Sails.js - Partials - Page - Settings - Sections"
 subtitle:   "Objective-C - SDK "
 date:       2015-06-22 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
+header-img: "img/lucas-gatsas-213515241234.jpg"
 ---
 <h2 class="section-heading">iOs - SDK - Objective-C</h2>
 <h2 class="section-heading">"Beginning to develop a Prototype of our iOs<br> Mobile App"</h2>
