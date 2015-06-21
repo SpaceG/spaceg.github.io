@@ -46,8 +46,6 @@ Include your framework (HTML) in the  <code> section_footer.ejs  </code> and cod
 4. View Engines
 
 
-Links: <a href="" target="_blank">Apple Developers</a>
-Links: <a href="" target="_blank">iOs_SDK</a>
 Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sails.js</a>
 
 
