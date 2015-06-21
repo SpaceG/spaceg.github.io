@@ -52,6 +52,6 @@ Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sa
 
 <br>
 <blockquote>
-“” 
+“One thing to note: partials are rendered synchronously, so they will block Sails from serving more requests until they're done loading. It's something to keep in mind while developing your app, especially if you anticipate a large number of connections.” 
 </blockquote>
 
