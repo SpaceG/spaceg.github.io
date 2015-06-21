@@ -51,7 +51,7 @@ Include your framework (HTML) in the  <code> section_footer.ejs  </code> and cod
 
 
 1. Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sails.js</a>
-2. Links <a href="http://sailsjs.org/#!/documentation/concepts/Views/Partials.html">Partials </a> 
+2. Links <a href="http://sailsjs.org/#!/documentation/concepts/Views/Partials.html" target="_blank">Partials </a> 
 
 <blockquote>
 “<strong>One thing to note:</strong> partials are rendered synchronously, so they will block Sails from serving more requests until they're done loading. It's something to keep in mind while developing your app, especially if you anticipate a large number of connections.” 
