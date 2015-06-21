@@ -29,12 +29,6 @@ Links: <a href="https://de.wikipedia.org/wiki/Mac_OS" target="_blank">Mac Os</a>
 Links: <a href="https://de.wikipedia.org/wiki/Interface_Builder" target="_blank">Interface Builder</a>
 Links: <a href="https://de.wikipedia.org/wiki/Xcode" target="_blank">Xcode</a>
 
-<br><br>
-
-
-
-
-
 
 <br>
 <blockquote>
