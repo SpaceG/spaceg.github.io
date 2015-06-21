@@ -16,7 +16,7 @@ File like <code> section_footer.ejs  </code>  and add in your Main Files like in
 
 <code><%- partial ('../partials/section_footer.ejs') %></code> 
 
-
+Include your framework (HTML) in the  
 <code>/partials/section_footer.ejs</code>
 
 
