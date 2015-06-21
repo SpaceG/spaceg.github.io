@@ -29,7 +29,9 @@ Links: <a href="https://en.wikipedia.org/wiki/Objective-C">Objective-C</a>
 
 Links: <a href="https://en.wikipedia.org/wiki/Cocoa_(API)">Cocoa API</a>
 
-Links: <a href="https://developer.apple.com/ios/">iOs for Developers</a>
+Links: <a href="https://developer.apple.com/ios/">iOS 8 SDK and Xcode 6 for Developers</a>
+
+Links: 
 
 <br><br>
 
