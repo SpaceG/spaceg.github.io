@@ -52,6 +52,6 @@ Include your framework (HTML) in the  <code> section_footer.ejs  </code> and cod
 
 <br>
 <blockquote>
-“One thing to note: partials are rendered synchronously, so they will block Sails from serving more requests until they're done loading. It's something to keep in mind while developing your app, especially if you anticipate a large number of connections.” 
+“<strong>One thing to note:</strong> partials are rendered synchronously, so they will block Sails from serving more requests until they're done loading. It's something to keep in mind while developing your app, especially if you anticipate a large number of connections.” 
 </blockquote>
 
