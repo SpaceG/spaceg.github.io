@@ -21,8 +21,6 @@ Links: <a href="https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a77
 
 Links: <a href="https://github.com/settings/developers">Github Developers</a>
 
-
-
 Links: <a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
 
 <br><br>
