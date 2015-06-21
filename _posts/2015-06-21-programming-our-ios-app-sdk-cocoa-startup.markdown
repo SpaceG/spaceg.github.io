@@ -23,6 +23,8 @@ Links: <a href="https://github.com/settings/developers">Github Developers</a>
 
 Links: <a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
 
+Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK">iOs_SDK</a>
+
 <br><br>
 
 
