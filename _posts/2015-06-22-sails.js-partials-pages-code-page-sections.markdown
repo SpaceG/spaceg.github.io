@@ -17,13 +17,25 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 
 <code>/partials/section_footer.ejs</code>
 
+
+<br> 
+
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
-  <div class="inner-startup-partials-01">
+
+
+< div class="inner-startup-partials-01">
+
       <%- partial ('../partials/section_footer.ejs') %>  
-  </div>
+
+  < /div>
+
 
 </pre></pre></div>
+
+
+
 <br>
 
 1. Layouts
