@@ -46,8 +46,8 @@ Include your framework (HTML) in the  <code> section_footer.ejs  </code> and cod
 4. View Engines
 
 
-Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sails.js</a>
-
+1. Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sails.js</a>
+2. Links <a href="http://sailsjs.org/#!/documentation/concepts/Views/Partials.html">Partials </a> 
 
 
 <br>
