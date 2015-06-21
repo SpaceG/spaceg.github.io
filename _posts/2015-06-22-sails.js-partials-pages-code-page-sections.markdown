@@ -1,13 +1,13 @@
 ---
 layout:     post
 title:      "Sails.js - Partials - Page - Settings - Sections"
-subtitle:   "Views"
+subtitle:   "Render a partial view with sailsjs"
 date:       2015-06-22 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-213515241234.jpg"
 ---
 <h2 class="section-heading">Sails.js - Partials - Page - Settings - Sections</h2>
-<h2 class="section-heading">"Settings Partials Pages"</h2>
+<h2 class="section-heading">"Render a partial view with sails.js"</h2>
 
 
 <br>
