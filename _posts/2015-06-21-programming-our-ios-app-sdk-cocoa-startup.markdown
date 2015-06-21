@@ -19,8 +19,6 @@ header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 
 Links: <a href="https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fmembercenter%2Findex.action" target="_blank">Apple Developers</a>
 
-Links: <a href="https://github.com/settings/developers" target="_blank">Github Developers</a>
-
 Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK" target="_blank">iOs_SDK</a>
 
 Links: <a href="https://en.wikipedia.org/wiki/Objective-C" target="_blank">Objective-C</a>
