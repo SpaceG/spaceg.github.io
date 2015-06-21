@@ -21,7 +21,7 @@ Links: <a href="https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a77
 
 Links: <a href="https://github.com/settings/developers">Github Developers</a>
 
-Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK">iOs_SDK</a>
+Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK"target="_blank">iOs_SDK</a>
 
 Links: <a href="https://en.wikipedia.org/wiki/Objective-C" target="_blank">Objective-C</a>
 
