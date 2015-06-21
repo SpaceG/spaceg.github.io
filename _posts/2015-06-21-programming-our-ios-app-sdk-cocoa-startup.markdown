@@ -1,13 +1,14 @@
 ---
 layout:     post
-title:      "Beginning Programming a Prototype for our Native Mobile App"
+title:      "Programming a Prototype for our Native Mobile App"
 subtitle:   "Objective-C - SDK "
 date:       2015-06-21 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 ---
 <h2 class="section-heading">iOs - SDK - Objective-C</h2>
-<h2 class="section-heading">"Create a Prototype of our iOs<br> Mobile App"</h2>
+<h2 class="section-heading">"Beginning to develop a Prototype of our iOs<br> Mobile App"</h2>
+
 
 <br>
 
