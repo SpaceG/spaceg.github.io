@@ -19,7 +19,7 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 
 
 Links: <a href="" target="_blank">Apple Developers</a>
-Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK" target="_blank">iOs_SDK</a>
+Links: <a href="" target="_blank">iOs_SDK</a>
 Links: <a href="http://sailsjs.org/#!/documentation/concepts" target="_blank">sails.js</a>
 
 
