@@ -12,9 +12,7 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 
 
 
-<code>                <%- partial ('../partials/section_footer.ejs') %>  
-
-</code> 
+<code><%- partial ('../partials/section_footer.ejs') %></code> 
 
 
 <br>
