@@ -12,7 +12,7 @@ header-img: "img/lucas-gatsas-ui-ux-12345.jpg"
 <br>
 
 I have started today to develop our Start Up Native Mobile App for iOs/ Mac Os, writing in Objective-C.
-Native mobile apps provide fast performance and a high degree of reliability. Of course our <a href="">Web App</a> is writen in Media Querris and is Pure Responsive. 
+Native mobile apps provide fast performance and a high degree of reliability. Of course our <a href="http://lucasgatsas.ch/2015/05/09/startup-streak/">Web App</a> is writen in Media Querris and is Pure Responsive. 
 
 
 
