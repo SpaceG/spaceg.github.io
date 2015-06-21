@@ -12,7 +12,7 @@ header-img: "img/lucas-gatsas-213515241234.jpg"
 
 
 
-<code> 
+<code> <%- partial ('foo.ejs') %> 
 </code> 
 
 <br>
