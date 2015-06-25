@@ -6,7 +6,7 @@ date:       2015-06-26 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-21351524.jpg"
 ---
-<h2 class="section-heading">Setting Partials in Sails.js -</h2>
+<h2 class="section-heading">My Profile @ Angelist</h2>
 <h2 class="section-heading">"Render a Partial View <br> with sails.js"</h2>
 
 
