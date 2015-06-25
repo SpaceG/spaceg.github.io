@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-21351524.jpg"
 ---
 <h2 class="section-heading">My Profile @ Angelist</h2>
-<h2 class="section-heading">"Render a Partial View <br> with sails.js"</h2>
+<h2 class="section-heading">"Raise Money with Syndicates"</h2>
 
 
 I'm now at <a href="https://angel.co/lucas-gatsas" target="_blank">Angelist</a> and Set Up my Full Profile Next Week. We also rising Up and would be great to find some Invest. So far everything was Homemade. Of course it would be good. But I think it goes without investiment.
