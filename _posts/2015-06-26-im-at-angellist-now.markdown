@@ -4,13 +4,14 @@ title:      "Angelist"
 subtitle:   "Render a partial view with sailsjs"
 date:       2015-06-26 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-213515241234.jpg"
+header-img: "img/lucas-gatsas-21351524.jpg"
 ---
 <h2 class="section-heading">Setting Partials in Sails.js -</h2>
 <h2 class="section-heading">"Render a Partial View <br> with sails.js"</h2>
 
 
 I'm now at <a href="https://angel.co/lucas-gatsas">Angelist</a> and Set Up my Full Profile Next Week. We also, rising Up and would be great to find some Invest.
+
 
 
 
