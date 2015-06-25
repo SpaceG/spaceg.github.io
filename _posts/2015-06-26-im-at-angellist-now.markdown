@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Angelist"
-subtitle:   "Render a partial view with sailsjs"
+subtitle:   "Raise Money with Syndicates"
 date:       2015-06-26 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-21351524.jpg"
