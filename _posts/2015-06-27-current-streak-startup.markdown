@@ -9,7 +9,8 @@ header-img: "img/lucas-gatsas-21351524.jpg"
 <h2 class="section-heading">I'm counting the Days.</h2>
 <h2 class="section-heading">"Countdown and Launch"</h2>
 
-The current Streak and Only the Remote Work! 
+The current Streak and Only the Remote Work! Now I'm studing every Detail last two Days. There are alot of Points to Check Out. 
+
 
 
 
@@ -27,6 +28,7 @@ The current Streak and Only the Remote Work!
 
 
 <blockquote>
-“” 
+“A​rticles you need to read before launching a startup. 
+Written by​ ​founders, designers, investors and thought leaders.” 
 </blockquote>
 
