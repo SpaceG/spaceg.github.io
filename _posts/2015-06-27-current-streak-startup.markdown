@@ -28,7 +28,7 @@ The current Streak and Only the Remote Work! Now I'm studing every Detail last t
 
 
 <blockquote>
-“A​rticles <a href=""></a> you need to read before launching a startup. 
+“A​rticles <a href="http://startuplaunchlist.com/"></a> you need to read before launching a startup. 
 Written by​ ​founders, designers, investors and thought leaders.” 
 </blockquote>
 
