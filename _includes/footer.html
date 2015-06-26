@@ -56,6 +56,19 @@
                         </a>
                     </li>
                   {% endif %}
+                        {% if site.angelList_username %}
+                    <li>
+                        <a href="https://angel.co/{{ site.angelList_username }}" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                              <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                  {% endif %}
+
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} - 2016. <br> 2014, 2015 <br> 
                 </p>

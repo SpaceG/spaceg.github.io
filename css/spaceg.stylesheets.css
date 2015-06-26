@@ -158,7 +158,10 @@ i.fa.fa-instagram.fa-stack-1x.fa-inverse {
   background: white;
   color: gray;
 }
-
+i.fa.fa-angellist.fa-stack-1x.fa-inverse {
+  background: white;
+  color: gray;
+}
 /* The Hovers for the Social Icons */ 
 
 
@@ -183,7 +186,10 @@ i.fa.fa-instagram.fa-stack-1x.fa-inverse:hover {
   color: gray;
 }
 
-
+i.fa.fa-angellist.fa-stack-1x.fa-inverse:hover {
+  background: white;
+  color: gray;
+}
 
 /* Modal Css for Social Buttons */
 
