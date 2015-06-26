@@ -12,8 +12,8 @@ header-img: "img/lucas-gatsas-21351524.jpg"
 The current Streak and Only the Remote Work! 
 
 
-<a href="{{ site.baseurl }}/img/onepost.png">
-    <img src="{{ site.baseurl }}/img/onepost.png" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+<a href="{{ site.baseurl }}/img/currentstreack_001.png">
+    <img src="{{ site.baseurl }}/img/currentstreack_001.png" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
 </a>
 
 
