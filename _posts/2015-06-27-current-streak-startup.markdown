@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "AngelList"
-subtitle:   "Raise Money with Syndicates"
+title:      "Current Streak"
+subtitle:   "As soon as we finished we will let you know"
 date:       2015-06-27 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-21351524.jpg"
 ---
-<h2 class="section-heading">My Profile @ AngelList</h2>
-<h2 class="section-heading">"Raise Money with Syndicates"</h2>
+<h2 class="section-heading">I'm counting the Days.</h2>
+<h2 class="section-heading">"Countdown and Launch"</h2>
 
 
 I'm now at <a href="https://angel.co/lucas-gatsas" target="_blank">AngelList</a> and Set Up my Full Profile Next Week. We also rising Up and would be great to find some Invest. So far everything was Selfmade. Of course it would be good. But I think it goes without investiment.
