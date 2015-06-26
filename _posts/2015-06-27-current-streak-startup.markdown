@@ -9,7 +9,7 @@ header-img: "img/lucas-gatsas-21351524.jpg"
 <h2 class="section-heading">I'm counting the Days.</h2>
 <h2 class="section-heading">"Countdown and Launch"</h2>
 
-The current Streak and Only the Remote Work! Now I'm studing every Detail last two Days.  
+The current Streak and Only the Remote Work! Now I'm studing every Detail last two Days. And writing a big Briefing and such as the description of the project (Start Up), its made for my co-founders, Investors, Designer, Developer and for Programmers as well as informations!  
 
 
 
