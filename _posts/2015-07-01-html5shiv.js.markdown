@@ -10,7 +10,8 @@ header-img: "img/lucas-gatsas-21351524.jpg"
 <h2 class="section-heading">"html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements"</h2>
 
 HTML5Shiv is a JavaScript library that allows the new HTML5 elements in Internet Explorer to use (all versions) and to format with style information.
-
+HTML5Shiv generates the HTML5 elements and newly occupied them according to style information.
+Thus, it is at last no longer necessary tons of <div> elements installed, but we can rely on Standardized elements like <code> <header> </code>, <article> or <nav>.
 
 
 <blockquote>
