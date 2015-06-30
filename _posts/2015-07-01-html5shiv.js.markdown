@@ -20,11 +20,9 @@ example :
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-<code>
+<code><!-- [if lt IE 9]>
 
-/*<!-- [if lt IE 9]>
-
-< script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+< script src=" //cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js "> </ script>
 
 <![endif] -->*/
 
