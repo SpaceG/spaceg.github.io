@@ -33,9 +33,9 @@ Javascript Example :
 
 /*
 
- <!--[if lt IE 9]>
- <script type="text/javascript">
-jQuery.ajaxSetup({
+ <!-- [if lt IE 9]>
+ < script type="text/javascript">
+  jQuery.ajaxSetup({
     dataFilter: function(data, dataType) {
         if (typeof innerShiv === 'function' && dataType === 'html') {
             return innerShiv(data);
@@ -47,7 +47,7 @@ jQuery.ajaxSetup({
   }); 
 
   < /script>
-    <![endif]-->
+    <![endif] -->
 
 
 */
