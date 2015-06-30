@@ -16,11 +16,16 @@ Thus, it is at last no longer necessary tons of <code> <div> </code> elements in
 
 
 example : 
+
+
 <code>
   <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
   <![endif]-->
 </code>
+
+
+
 <blockquote>
 “Prior to version 9 of Internet Explorer there was little to no support for HTML5 elements and other HTML5 features.[1]
 
