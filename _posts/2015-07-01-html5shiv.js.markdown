@@ -17,8 +17,7 @@ Thus, it is at last no longer necessary tons of <code> <div> </code> elements in
 
 example : 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+
 
 <code><!-- [if lt IE 9]>
 
@@ -28,7 +27,7 @@ example :
 
 </code>
 
-</pre></pre></div>
+
 
 
 <blockquote>
