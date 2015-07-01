@@ -4,7 +4,7 @@ title:      "html5shiv.js"
 subtitle:   "html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements"
 date:       2015-07-01 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-21351524.jpg"
+header-img: "img/lucas-gatsas-16237163152.jpg"
 ---
 <h2 class="section-heading">html5shiv.js</h2>
 <h2 class="section-heading">"html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements"</h2>
