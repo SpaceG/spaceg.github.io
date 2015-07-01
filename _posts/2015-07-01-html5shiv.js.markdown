@@ -14,7 +14,6 @@ HTML5Shiv generates the HTML5 elements and newly occupied them according to styl
 Thus, it is at last no longer necessary tons of <code> <div> </code> elements installed, but we can rely on Standardized elements like <code> <header> </code>,  <code>  <article> </code> or <code> <nav> </code>.
 
 
-
 Example : 
 
 
