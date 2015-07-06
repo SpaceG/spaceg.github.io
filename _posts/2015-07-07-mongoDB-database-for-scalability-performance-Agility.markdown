@@ -94,10 +94,13 @@ Copy the extracted folder to the location from which MongoDB will run.
 4.<strong>Ensure the location of the binaries is in the PATH variable.</strong>
 The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.
 
-For example, you can add the following line to your shell’s rc file (e.g. ~/.bashrc):
+For example, you can add the following line to your shell’s rc file <code>(e.g. ~/.bashrc):</code> 
 
 export PATH=<mongodb-install-directory>/bin:$PATH
 Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.
+
+
+
 
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
