@@ -60,6 +60,9 @@ Only install MongoDB using this procedure if you cannot use homebrew.
 
 
 
+<strong> curl -O https://fastdl.mongodb.org/
+  osx/mongodb-osx-x86_64-3.0.4.tgz</strong> 
+
 
 
 
