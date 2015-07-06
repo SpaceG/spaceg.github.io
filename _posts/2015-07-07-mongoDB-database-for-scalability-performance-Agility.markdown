@@ -25,6 +25,10 @@ Link: <a href="https://www.mongodb.org">Mongo DB</a>
 Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
 
 Flexible Data Model
-MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.” 
+MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
+
+
+Fastest-Growing Community
+Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
 </blockquote>
 
