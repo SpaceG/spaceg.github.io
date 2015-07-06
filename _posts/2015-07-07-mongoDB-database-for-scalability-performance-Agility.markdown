@@ -36,6 +36,8 @@ To install the MongoDB binaries, issue the following command in a system shell:
 <code>brew install mongodb</code>
 
 
+<code>brew install mongodb --with-openssl</code> 
+
 
 <strong> Build MongoDB from Source with TLS/SSL Support<strong> 
 To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:
