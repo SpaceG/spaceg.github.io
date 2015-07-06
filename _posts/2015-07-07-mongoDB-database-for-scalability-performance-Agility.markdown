@@ -30,6 +30,15 @@ In a system shell, issue the following command:
 2.<strong>Install MongoDB.</strong> 
 You can install MongoDB via brew with several different options. Use one of the following operations:
 
+<strong>Install the MongoDB Binaries</strong> 
+To install the MongoDB binaries, issue the following command in a system shell:
+
+brew install mongodb
+
+
+
+
+
 
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
