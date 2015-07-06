@@ -63,7 +63,7 @@ Only install MongoDB using this procedure if you cannot use homebrew.
 
 
   
-<strong> Download the binary files for the desired release of MongoDB.</strong> 
+1.<strong> Download the binary files for the desired release of MongoDB.</strong> 
 Download the binaries from <code> https://www.mongodb.org/
 downloads. </code> 
 
@@ -75,7 +75,10 @@ For example, to download the latest release through the shell, issue the followi
   osx/mongodb-osx-x86_64-3.0.4.tgz</strong> 
 
 
+Extract the files from the downloaded archive.
+For example, from a system shell, you can extract through the tar command:
 
+<code>tar -zxvf mongodb-osx-x86_64-3.0.4.tgz</code>
 
 
 
