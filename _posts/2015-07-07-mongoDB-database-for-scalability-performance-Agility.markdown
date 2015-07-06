@@ -16,7 +16,9 @@ PLATFORM SUPPORT
 Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.<strong>
 
 
+<strong>Install MongoDB</strong>
 
+You can install MongoDB with <strong>Homebrew</strong> or manually. This section describes both.
 
 
 
