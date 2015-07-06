@@ -19,8 +19,6 @@ Link: <a href="http://cdnjs.com/libraries/html5shiv">cdnjs.com</a> Link: <a href
 
 
 <blockquote>
-“Prior to version 9 of Internet Explorer there was little to no support for HTML5 elements and other HTML5 features.[1]
-
-Internet Explorer commands a large percentage of the usage share of web browsers. Within the Internet Explorer percentage, most of its current usage as of February 2013 comes from version 9, with version 8 holding the second-highest and version 7 the third-highest value.[2] With its high usage percentage, it is important to ensure that web pages function correctly in Internet Explorer. HTML5Shiv allows versions of Internet Explorer prior to version 9 to recognize the HTML5 tags and allows them to be styled using CSS.” 
+“” 
 </blockquote>
 
