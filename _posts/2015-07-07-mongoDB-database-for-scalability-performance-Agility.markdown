@@ -54,6 +54,10 @@ To install the latest development release for use in testing and development, is
 <code> brew install mongodb --devel</code> 
 
 
+<strong> Install MongoDB Manually </strong> 
+Only install MongoDB using this procedure if you cannot use homebrew.
+
+
 
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
