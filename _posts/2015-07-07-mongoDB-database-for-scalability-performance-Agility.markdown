@@ -96,7 +96,7 @@ The MongoDB binaries are in the bin/ directory of the archive. To ensure that th
 
 For example, you can add the following line to your shell’s rc file <code>(e.g. ~/.bashrc):</code> 
 
-export PATH=<mongodb-install-directory>/bin:$PATH
+export PATH=<mongodb-install-directory> <code>/bin:$PATH</code>
 Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.
 
 
