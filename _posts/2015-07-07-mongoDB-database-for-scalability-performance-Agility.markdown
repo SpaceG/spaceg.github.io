@@ -21,7 +21,7 @@ Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Inte
 You can install MongoDB with <strong>Homebrew</strong> or manually. This section describes both.
 
 
-1. Update Homebrew’s package database.
+1.<strong> Update Homebrew’s package database.</strong> 
 In a system shell, issue the following command: 
 
 <code>brew update </code>
