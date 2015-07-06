@@ -24,7 +24,7 @@ Link: <a href="https://www.mongodb.org">Mongo DB</a>
 “Built by developers like you at MongoDB. <strong>Highly Scalable</strong>
 Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
 
-Flexible Data Model
+ <strong>Flexible Data Model </strong>
 MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
 
 
