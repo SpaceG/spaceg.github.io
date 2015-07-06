@@ -59,6 +59,22 @@ Only install MongoDB using this procedure if you cannot use homebrew.
 
 
 
+
+
+
+
+  
+<strong> Download the binary files for the desired release of MongoDB.</strong> 
+Download the binaries from https://www.mongodb.org/downloads.
+
+For example, to download the latest release through the shell, issue the following:
+
+
+
+
+
+
+
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
 
