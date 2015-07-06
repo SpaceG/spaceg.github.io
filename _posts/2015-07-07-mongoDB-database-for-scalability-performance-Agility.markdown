@@ -9,10 +9,6 @@ header-img: "img/lucas-gatsas-16237163152.jpg"
 <h2 class="section-heading">Mongo DB</h2>
 <h2 class="section-heading">"Agility, Scalability, Performance Database"</h2>
 
-HTML5Shiv is a JavaScript library that allows the new HTML5 elements in Internet Explorer to use (all versions) and to format with style information.
-HTML5Shiv generates the HTML5 elements and newly occupied them according to style information.
-Thus, it is at last no longer necessary tons of <code> <div> </code> elements installed, but we can rely on Standardized elements like <code> <header> </code>,  <code>  <article> </code> or <code> <nav> </code>.
-
 
 
 Example : 
