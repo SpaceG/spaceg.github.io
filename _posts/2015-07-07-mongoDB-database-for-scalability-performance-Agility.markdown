@@ -22,7 +22,9 @@ You can install MongoDB with <strong>Homebrew</strong> or manually. This section
 
 
 1. Update Homebrew’s package database.
-In a system shell, issue the following command:
+In a system shell, issue the following command: 
+
+<code>brew update </code>
 
 
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
