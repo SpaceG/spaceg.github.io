@@ -60,18 +60,19 @@ Only install MongoDB using this procedure if you cannot use homebrew.
 
 
 
-<strong> curl -O https://fastdl.mongodb.org/
-  osx/mongodb-osx-x86_64-3.0.4.tgz</strong> 
-
-
 
 
   
 <strong> Download the binary files for the desired release of MongoDB.</strong> 
-Download the binaries from https://www.mongodb.org/downloads.
+Download the binaries from <code> https://www.mongodb.org/
+downloads. </code> 
 
 For example, to download the latest release through the shell, issue the following:
 
+
+
+<strong> curl -O https://fastdl.mongodb.org/
+  osx/mongodb-osx-x86_64-3.0.4.tgz</strong> 
 
 
 
