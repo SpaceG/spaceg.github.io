@@ -75,10 +75,12 @@ For example, to download the latest release through the shell, issue the followi
   osx/mongodb-osx-x86_64-3.0.4.tgz</strong> 
 
 
-Extract the files from the downloaded archive.
+2.<strong>Extract the files from the downloaded archive.</strong> 
 For example, from a system shell, you can extract through the tar command:
 
 <code>tar -zxvf mongodb-osx-x86_64-3.0.4.tgz</code>
+
+
 
 
 
