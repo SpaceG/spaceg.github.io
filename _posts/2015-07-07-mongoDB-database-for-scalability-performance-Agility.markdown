@@ -84,8 +84,9 @@ For example, from a system shell, you can extract through the tar command:
 3.<strong>Copy the extracted archive to the target directory.</strong>
 Copy the extracted folder to the location from which MongoDB will run.
 
-mkdir -p mongodb
-cp -R -n mongodb-osx-x86_64-3.0.4/ mongodb
+<code>mkdir -p mongodb</code>
+<code>cp -R -n mongodb-osx-x86_
+  64-3.0.4/ mongodb</code>
 
 
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
