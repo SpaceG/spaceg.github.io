@@ -51,7 +51,7 @@ To install the latest development release for use in testing and development, is
 
 
 
-
+<code> brew install mongodb --devel</code> 
 
 
 
