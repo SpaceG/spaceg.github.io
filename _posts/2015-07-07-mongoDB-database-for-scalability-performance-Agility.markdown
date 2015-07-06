@@ -11,44 +11,6 @@ header-img: "img/lucas-gatsas-16237163152.jpg"
 
 
 
-Example : 
-
-
-/*
-
- <!-- [if lt IE 9]>
-
-< script src=" //cdnjs.cloudflare.com/ajax/libs/
-html5shiv/r29/html5.min.js "> </ script>
-
- <![endif] -->
-
-*/
-
-
-Javascript Example : 
-
-/*
-
- <!-- [if lt IE 9]>
- < script type="text/javascript">
-  jQuery.ajaxSetup({
-    dataFilter: function(data, dataType) {
-        if (typeof innerShiv === 'function' && dataType === 'html') {
-            return innerShiv(data);
-        }
-        else {
-            return data;
-        }
-    }
-  }); 
-
-  < /script>
-    <![endif] -->
-
-
-*/
-
 
 
 Link: <a href="http://cdnjs.com/libraries/html5shiv">cdnjs.com</a> Link: <a href="https://en.wikipedia.org/wiki/HTML5_Shiv">html5shiv</a> 
