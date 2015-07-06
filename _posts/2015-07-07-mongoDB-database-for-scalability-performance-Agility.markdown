@@ -27,6 +27,10 @@ In a system shell, issue the following command:
 <code>brew update </code>
 
 
+2.<strong>Install MongoDB.</strong> 
+You can install MongoDB via brew with several different options. Use one of the following operations:
+
+
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
 
