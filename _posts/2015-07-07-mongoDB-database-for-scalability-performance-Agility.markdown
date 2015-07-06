@@ -81,7 +81,11 @@ For example, from a system shell, you can extract through the tar command:
 <code>tar -zxvf mongodb-osx-x86_64-3.0.4.tgz</code>
 
 
+3.<strong>Copy the extracted archive to the target directory.</strong>
+Copy the extracted folder to the location from which MongoDB will run.
 
+mkdir -p mongodb
+cp -R -n mongodb-osx-x86_64-3.0.4/ mongodb
 
 
 Link: <a href="https://www.mongodb.org">Mongo DB</a>
