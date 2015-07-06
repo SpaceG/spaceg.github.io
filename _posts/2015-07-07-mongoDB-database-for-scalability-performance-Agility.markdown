@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Mongo DB"
-subtitle:   "html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements"
+subtitle:   "Agility, Scalability, Performance Database"
 date:       2015-07-07 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-16237163152.jpg"
