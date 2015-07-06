@@ -21,6 +21,6 @@ Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
 
 <blockquote>
-“” 
+“Built by developers like you at MongoDB.” 
 </blockquote>
 
