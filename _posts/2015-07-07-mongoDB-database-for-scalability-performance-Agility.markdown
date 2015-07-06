@@ -6,7 +6,7 @@ date:       2015-07-07 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-16237163152.jpg"
 ---
-<h2 class="section-heading">html5shiv.js</h2>
+<h2 class="section-heading">Mongo DB</h2>
 <h2 class="section-heading">"html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements"</h2>
 
 HTML5Shiv is a JavaScript library that allows the new HTML5 elements in Internet Explorer to use (all versions) and to format with style information.
