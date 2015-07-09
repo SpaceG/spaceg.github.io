@@ -10,7 +10,6 @@ header-img: "img/lucas-gatsas-01256437283514.jpg"
 <h2 class="section-heading">"Agility, Scalability, Performance Database"</h2>
 
 
-
 <strong>
 PLATFORM SUPPORT
 Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.<strong>
