@@ -26,36 +26,6 @@ In a system shell, issue the following command:
 <code>brew update </code>
 
 
-2.<strong>Install MongoDB.</strong> 
-You can install MongoDB via brew with several different options. Use one of the following operations:
-
-<strong>Install the MongoDB Binaries</strong> 
-To install the MongoDB binaries, issue the following command in a system shell:
-
-<code>brew install mongodb</code>
-
-
-<code>brew install mongodb --with-openssl</code> 
-
-
-
-<strong> Build MongoDB from Source with TLS/SSL Support<strong> 
-To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:
-
-
-
-
-<strong> Install the Latest Development Release of MongoDB</strong> 
-To install the latest development release for use in testing and development, issue the following command in a system shell:
-
-
-
-<code> brew install mongodb --devel</code> 
-
-
-<strong> Install MongoDB Manually </strong> 
-Only install MongoDB using this procedure if you cannot use homebrew.
-
 
 
 
