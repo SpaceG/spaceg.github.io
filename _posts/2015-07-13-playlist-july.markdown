@@ -8,7 +8,7 @@ header-img: "img/lucas-gatsas-01256437283514.jpg"
 ---
 <h2 class="section-heading">My Playlist</h2>
 
-I hear a lot of Music. Here is a Playlist from January - March. 
+This is my current Playlist, Music i listening Last few Weeks ago.. 
 
 Artist & Tracks:
 
