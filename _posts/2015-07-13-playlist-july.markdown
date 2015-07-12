@@ -16,11 +16,8 @@ Artist:
 
 Tracks:
 
-[Kryptic Minds - Can't Sleep](https://www.youtube.com/watch?v=7Z_4w-34uA0) 
+[Arch Enemy - We will Rise - Live in Japan](https://www.youtube.com/watch?v=QRof6njCZWU) 
 
-[Kryptic Minds - Just After Sunset](https://www.youtube.com/watch?v=N_tI6sy860U) 
-
-[Kryptic Minds - Six Degrees](https://www.youtube.com/watch?v=3ENNbC_UmEM&list=RD3ENNbC_UmEM) 
 
 
 <br>
