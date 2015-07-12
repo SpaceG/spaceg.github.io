@@ -8,7 +8,7 @@ header-img: "img/lucas-gatsas-632459.jpg"
 ---
 <h2 class="section-heading">My Playlist</h2>
 
-This is my current Playlist, Music i listening Last few Weeks ago.. 
+This is my current Playlist, Music i listening Last few Weeks ago.. because, i gorw up with Metal. This kind of Music make me streeless. And i Love Metal Peoples. They are very friendly. 
 
 Artist & Tracks:
 
