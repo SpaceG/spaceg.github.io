@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Mongo DB"
-subtitle:   "Agility, Scalability, Performance Database"
+title:      "My Playlist"
+subtitle:   "Playlist July"
 date:       2015-07-07 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/lucas-gatsas-01256437283514.jpg"
@@ -23,13 +23,6 @@ Artist & Tracks:
 
 
 
-
-
-
-
-
-
-Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
 
 
