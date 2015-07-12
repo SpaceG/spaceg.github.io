@@ -10,13 +10,11 @@ header-img: "img/lucas-gatsas-01256437283514.jpg"
 
 I hear a lot of Music. Here is a Playlist from January - March. 
 
-Artist: 
-
-<strong>Kryptic Minds</strong> - Can't Sleep
-
-Tracks:
+Artist & Tracks:
 
 [Arch Enemy - We will Rise - Live in Japan](https://www.youtube.com/watch?v=QRof6njCZWU) 
+
+[InFlames - Colony](https://www.youtube.com/watch?v=kR-UCNF9BeU) 
 
 [Guns 'n' Roses](https://www.youtube.com/watch?v=VC9L-BZ1PI0) 
 
