@@ -42,6 +42,6 @@ Link: <a href="https://www.mongodb.org">Mongo DB</a>
 
 
 <blockquote>
-“” 
+“be patient, be patient... every good ang big Start Up Need Times. We are launching soon.” 
 </blockquote>
 
