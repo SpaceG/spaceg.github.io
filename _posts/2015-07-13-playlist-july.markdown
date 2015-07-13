@@ -57,7 +57,38 @@ Set list : Arch Enemy - We will Rise
 
 20. Fields Of Desolation (Outro)
 
+<br>
+
 [InFlames - Colony](https://www.youtube.com/watch?v=kR-UCNF9BeU) 
+
+
+Tracklist: InFlames - Colony
+
+1. Embody The Invisible (0 - 03:36)
+
+2. Ordinary Story(03:37 - 07:49)
+
+3. Scorn(07:50 - 11:24)
+
+4. Colony(11:25 - 16:00)
+
+5. Zombie Inc(16:01 - 21:02)
+
+6. Pallar Anders Visa(21:03 - 22:40)
+
+7. Coerced Coexistence(22:41 - 26:50)
+
+8. Resin(26:51 - 30:10)
+
+9. Behind Space '99(30:11 - 34:04)
+
+10. Insipid 2000(34:05 - 37:46)
+
+11. The New Word(37:47 - 41:03)
+
+12. Clad In Shadows '99(41:04 - 43:23)
+
+13. Man Made God(43:24 - 47:36)
 
 
 [Guns 'n' Roses](https://www.youtube.com/watch?v=VC9L-BZ1PI0) 
