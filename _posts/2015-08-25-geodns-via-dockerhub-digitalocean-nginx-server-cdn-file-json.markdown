@@ -74,7 +74,7 @@ We used the smallest instance.  We setup DNS for this example using them:
     <img src="{{ site.baseurl }}/img/1789766_orig1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
-
+<br> 
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
