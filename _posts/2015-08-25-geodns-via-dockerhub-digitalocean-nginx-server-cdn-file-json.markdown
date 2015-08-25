@@ -38,6 +38,10 @@ We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).
 <br> 
 
 
+<code>ns1.deploy.io    192.241.224.116 </code>
+<code>ns2.deploy.io    192.241.224.116 </code>
+
+
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
