@@ -88,7 +88,9 @@ Zone file is <code> json </code> formatted, file name looks like "deployiotest.c
 
 
 
-
+<a href="{{ site.baseurl }}/img/dns-geo-cdn.png">
+    <img src="{{ site.baseurl }}/img/dns-geo-cdn.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
 
 
 
