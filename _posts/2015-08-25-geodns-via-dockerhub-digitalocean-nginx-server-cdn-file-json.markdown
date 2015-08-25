@@ -49,6 +49,13 @@ We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).
 See https://index.docker.io/u/coocood/geodns for detail.
 
 
+
+<br>
+
+
+
+<strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> 
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
