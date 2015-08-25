@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Create a GeoDNS"
-subtitle:   "Agility, Scalability, Performance Database"
+subtitle:   "Scalability CDN SERVERS, Performance via GeoDNS"
 date:       2015-08-25 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/deskto-1.jpg"
