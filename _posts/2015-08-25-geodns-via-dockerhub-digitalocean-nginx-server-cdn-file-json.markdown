@@ -20,8 +20,12 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 Put zone files in /dns.
 
-Zone file is <code> json </code>formatted, file name looks like "deployiotest.com.json", it's content looks like:
+Zone file is <code> json </code> formatted, file name looks like "deployiotest.com.json", it's content looks like:
 
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
 
 
 {
@@ -68,7 +72,7 @@ Zone file is <code> json </code>formatted, file name looks like "deployiotest.co
   }
 }
 
-
+</pre></pre></div>
 
 
 
