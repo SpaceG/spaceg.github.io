@@ -98,6 +98,9 @@ Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS
 
 
 
+see <a href="https://github.com/abh/geodns" target="_blank">Geo DNS - CDN Servers</a> for more detail
+
+
 <blockquote>
 "HUB DOCKER coocood/geodns - Build, Ship, and Run
 Any App, Anywhere"
