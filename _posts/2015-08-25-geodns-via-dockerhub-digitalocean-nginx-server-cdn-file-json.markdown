@@ -80,6 +80,17 @@ Zone file is <code> json </code> formatted, file name looks like "deployiotest.c
 
 
 
+<strong>SEE THE CDN GEO DNS WORKING</strong> 
+
+<a href="{{ site.baseurl }}/img/dns-geo.png">
+    <img src="{{ site.baseurl }}/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+
+
+
+
+
 
 Link: <a href="https://hub.docker.com/r/coocood/geodns/">Geo DNS - CDN Servers</a>
 
