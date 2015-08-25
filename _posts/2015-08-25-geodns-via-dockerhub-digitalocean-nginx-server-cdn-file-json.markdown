@@ -11,14 +11,16 @@ header-img: "img/deskto-1.jpg"
 
 
 
-First create a folder mkdir /dns
+First create a folder <code>mkdir /dns</code>
 
 Then run:
-docker run -d -p 53:53 -p 53:53/udp -v /dns:/opt/geodns/dns coocood/geodns /opt/geodns/geodns.
+docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
+<code>/dns:/opt/geodns/dns 
+	coocood/geodns /opt/geodns/geodns.</code>
 
 Put zone files in /dns.
 
-Zone file is json formatted, file name looks like "deployiotest.com.json", it's content looks like:
+Zone file is <code> json </code>formatted, file name looks like "deployiotest.com.json", it's content looks like:
 
 
 
