@@ -7,12 +7,20 @@ author:     "Lucas Gatsas"
 header-img: "img/deskto-1.jpg"
 ---
 <h2 class="section-heading">Mongo DB</h2>
-<h2 class="section-heading">"Agility, Scalability, Performance Database"</h2>
+<h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
 
 
-<strong>
-PLATFORM SUPPORT
-Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.<strong>
+
+First create a folder mkdir /dns
+
+Then run:
+docker run -d -p 53:53 -p 53:53/udp -v /dns:/opt/geodns/dns coocood/geodns /opt/geodns/geodns.
+
+Put zone files in /dns.
+
+Zone file is json formatted, file name looks like "deployiotest.com.json", it's content looks like:
+
+
 
 
 <strong>Install MongoDB</strong>
