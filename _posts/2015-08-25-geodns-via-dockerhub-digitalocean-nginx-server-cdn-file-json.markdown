@@ -175,7 +175,10 @@ Set the name servers to point to:
 
 Just test it on <code> www.just-ping.com. </code>
 
-Todo
+<code> Todo </code> 
+
+
+
 
 
 <br> 
