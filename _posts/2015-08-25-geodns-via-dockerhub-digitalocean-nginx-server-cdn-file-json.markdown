@@ -28,6 +28,17 @@ Zone file is <code> json </code> formatted, file name looks like "deployiotest.c
 
 
 
+
+<strong>Step 1: Order a DNS instance from DigitalOcean.</strong> 
+
+We chose SFO and the 2nd smallest instance.
+
+We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.
+
+<br> 
+
+
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
