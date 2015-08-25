@@ -23,29 +23,11 @@ Zone file is json formatted, file name looks like "deployiotest.com.json", it's 
 
 
 
-<strong>Install MongoDB</strong>
-
-You can install MongoDB with <strong>Homebrew</strong> or manually. This section describes both.
 
 
 
 
-
-<code> brew install mongodb --devel</code> 
-
-
-<strong> Install MongoDB Manually </strong> 
-Only install MongoDB using this procedure if you cannot use homebrew.
-
-
-
-
-
-
-
-
-
-Link: <a href="https://www.mongodb.org">Mongo DB</a>
+Link: <a href="https://hub.docker.com/r/coocood/geodns/">Geo DNS - CDN Servers</a>
 
 
 
