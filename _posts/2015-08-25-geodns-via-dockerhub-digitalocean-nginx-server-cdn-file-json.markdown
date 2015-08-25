@@ -6,7 +6,7 @@ date:       2015-08-25 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/deskto-1.jpg"
 ---
-<h2 class="section-heading">Mongo DB</h2>
+<h2 class="section-heading">Geo DNS - CDN Servers</h2>
 <h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
 
 
