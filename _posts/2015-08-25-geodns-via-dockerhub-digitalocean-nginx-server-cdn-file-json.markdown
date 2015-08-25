@@ -41,6 +41,12 @@ We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).
 <code>ns1.deploy.io    192.241.224.116 </code>
 <code>ns2.deploy.io    192.241.224.116 </code>
 
+<br>
+
+
+<strong> Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance</strong>
+
+See https://index.docker.io/u/coocood/geodns for detail.
 
 
 <div style="overflow:auto; height=200; width=100%;">
