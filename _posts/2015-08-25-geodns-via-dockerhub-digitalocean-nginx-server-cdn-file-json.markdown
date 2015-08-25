@@ -56,6 +56,23 @@ See https://index.docker.io/u/coocood/geodns for detail.
 
 <strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> 
 
+
+
+We used the smallest instance.  We setup DNS for this example using them:
+
+
+<br>
+<code>test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo </code>
+<code>test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo </code>
+<code>test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo </code>
+<code>test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo </code>
+
+
+<br>
+
+
+
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
