@@ -86,6 +86,9 @@ Here’s what DigitalOcean’s web interface looks like with all the machines sp
 
 
 
+<strong> Setup 4: Setup a test domain for the CDN:</strong> 
+
+
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
