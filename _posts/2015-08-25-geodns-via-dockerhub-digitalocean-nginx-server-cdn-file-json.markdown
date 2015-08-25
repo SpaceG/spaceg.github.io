@@ -90,6 +90,17 @@ Here’s what DigitalOcean’s web interface looks like with all the machines sp
 
 
 
+If you lookup deployiotest.com the 4 web servers are chosen randomly
+
+If you look up www.deployiotest.com, it will go to the closest geo server.
+
+Set the name servers to point to:
+
+<br> 
+
+<code> ns1.deploy.io 192.241.224.116 </code>
+<code> ns2.deploy.io 192.241.224.116 </code>
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
