@@ -185,6 +185,24 @@ Note: a comment from akerl_ on HN pointed out “the article doesn’t point out
 
 <br> 
 
+Add a way to take servers in and out of rotation using a little daemon on the geodns server
+
+
+<br> 
+
+
+Tune the Geo map for places outside of the US/Europe and Asia.
+
+<br>
+
+Add more virtual servers from other providers
+
+<br>
+
+Add a way to spin up servers using lib-cloud
+
+<br> 
+
 
 
 
