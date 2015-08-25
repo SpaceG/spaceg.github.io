@@ -70,6 +70,9 @@ We used the smallest instance.  We setup DNS for this example using them:
 
 <br>
 
+<a href="{{ site.baseurl }}/img/1789766_orig1.png">
+    <img src="{{ site.baseurl }}/img/1789766_orig1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
 
 
 
