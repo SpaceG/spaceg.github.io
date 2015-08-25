@@ -166,6 +166,8 @@ Set the name servers to point to:
 </pre></pre></div>
 
 
+<br> 
+
 <strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code> 
 
 
@@ -174,6 +176,18 @@ Set the name servers to point to:
 Just test it on <code> www.just-ping.com. </code>
 
 Todo
+
+
+<br> 
+
+Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example
+
+
+<br> 
+
+
+
+
 
 
 <a href="{{ site.baseurl }}/img/dns-geo-cdn.png">
