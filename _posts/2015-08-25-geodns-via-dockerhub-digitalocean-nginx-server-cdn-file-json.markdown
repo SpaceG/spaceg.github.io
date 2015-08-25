@@ -101,6 +101,13 @@ Set the name servers to point to:
 <code> ns1.deploy.io 192.241.224.116 </code>
 <code> ns2.deploy.io 192.241.224.116 </code>
 
+
+<br>   
+
+
+
+
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
