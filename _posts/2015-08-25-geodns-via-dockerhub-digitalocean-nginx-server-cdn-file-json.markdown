@@ -106,6 +106,13 @@ Set the name servers to point to:
 
 
 
+<strong>SEE THE CDN GEO DNS WORKING</strong> 
+
+<a href="{{ site.baseurl }}/img/dns-geo.png">
+    <img src="{{ site.baseurl }}/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+<br> 
 
 
 <div style="overflow:auto; height=200; width=100%;">
@@ -164,12 +171,9 @@ Set the name servers to point to:
 
 
 
-<strong>SEE THE CDN GEO DNS WORKING</strong> 
+Just test it on <code> www.just-ping.com. </code>
 
-<a href="{{ site.baseurl }}/img/dns-geo.png">
-    <img src="{{ site.baseurl }}/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-
+Todo
 
 
 <a href="{{ site.baseurl }}/img/dns-geo-cdn.png">
