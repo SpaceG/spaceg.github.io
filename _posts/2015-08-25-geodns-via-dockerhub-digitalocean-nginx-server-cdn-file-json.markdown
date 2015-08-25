@@ -98,7 +98,10 @@ Zone file is <code> json </code> formatted, file name looks like "deployiotest.c
 
 
 
-Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS - CDN Servers</a> Link: <a href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a>
+Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS - CDN Servers</a> Link: <a href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> Link: <a href="http://nginx.org/" target="_blank"> Nginx </a>
+
+
+
 
 
 
