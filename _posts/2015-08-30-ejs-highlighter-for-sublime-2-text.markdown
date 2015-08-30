@@ -33,13 +33,15 @@ git clone https://github.com/LearnBoost/stylus.git Stylus
 
 
 For EJS:
-git clone git://github.com/gregory-m/ejs-tmbundle.git EJS
+<code> git clone git://github.com/
+	gregory-m/ejs-tmbundle.git EJS</code> 
 
 
 
 For LESS:
 
-git clone https://github.com/danro/LESS-sublime.git LESS
+<code> git clone https://github.com/danro/
+LESS-sublime.git LESS</code> 
 
 
 
