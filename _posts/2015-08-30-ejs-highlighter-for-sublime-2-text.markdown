@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Create a GeoDNS"
+title:      "Ejs - Highlighter for Sublime Text 2"
 subtitle:   "Scalability CDN SERVERS, Performance via GeoDNS"
 date:       2015-08-30 14:00:44
 author:     "Lucas Gatsas"
@@ -9,69 +9,6 @@ header-img: "img/https://packagecontrol.io/readmes/img/b6da1854601a9ad66077bf935
 <h2 class="section-heading">Geo DNS - CDN Servers</h2>
 <h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
 
-
-
-
-Rolling Your Own <code>CDN </code> – Build A 3 Continent CDN For $25 In 1 Hour
-
-
-First create a folder <code>mkdir /dns</code>
-
-Then run:
-docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
-<code>/dns:/opt/geodns/dns 
-	coocood/geodns /opt/geodns/geodns.</code>
-
-Put zone files in /dns.
-
-Zone file is <code> json </code> formatted, file name looks like "deployiotest.com.json", it's content looks like:
-
-
-
-
-<strong>Step 1: Order a DNS instance from DigitalOcean.</strong> 
-
-We chose SFO and the 2nd smallest instance.
-
-We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.
-
-<br> 
-
-
-<code>ns1.deploy.io    192.241.224.116 </code>
-<code>ns2.deploy.io    192.241.224.116 </code>
-
-<br>
-
-
-<strong> Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance</strong>
-
-See https://index.docker.io/u/coocood/geodns for detail.
-
-
-
-<br>
-
-
-
-<strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> 
-
-
-
-We used the smallest instance.  We setup DNS for this example using them:
-
-
-<br>
-<code>test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo </code>
-<code>test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo </code>
-<code>test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo </code>
-<code>test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo </code>
-
-
-<br>
-
-
-Here’s what DigitalOcean’s web interface looks like with all the machines spun up:
 
 
 <br> 
