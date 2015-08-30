@@ -1,13 +1,17 @@
 ---
 layout:     post
 title:      "Ejs - Highlighter for Sublime Text 2"
-subtitle:   "Scalability CDN SERVERS, Performance via GeoDNS"
+subtitle:   "SublimeText Highlight Syntax"
 date:       2015-08-30 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
 <h2 class="section-heading">Ejs - Highlighter for Sublime Text 2</h2>
 <h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
+
+Step 1: Clone the bundles into your Sublime Text packages directory
+
+List : 
 
 
 
@@ -17,49 +21,10 @@ header-img: "img/scanda.jpg"
 <pre style="color:black;background:white;"><pre>
 
 
-	{
-	"serial":1394372421,
-	"ttl":    390,
-	"targeting": "country continent @ regiongroup region asn",
-	"data":{
-	    "":{
-	        "ns": [ "ns1.deploy.io", "ns2.deploy.io" ],
-	        "a":[
-	            [
-	               "107.170.45.174",
-	               "1000"
-	            ],
-	            [
-	               "128.199.216.96",
-	               "1000"
-	            ],
-	            [
-	               "107.170.251.75",
-	               "1000"
-	            ],
-	            [
-	               "188.226.185.173",
-	               "1000"
-	            ]
-	        ]
-	    },
-	    "www":{
-	        "alias": ""    
-	    },
-	    "www.us-west":{
-	        "cname": "test-sfo-do.deploy.io."    
-	    },
-	    "www.europe":{
-	        "cname": "test-ams-do.deploy.io."    
-	    },
-	    "www.asia":{
-	        "cname": "test-sin-do.deploy.io."    
-	    },
-	    "www.us-east":{
-	        "cname": "test-jfk-do.deploy.io."    
-	    }
-	  }
-	}
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript
+git clone https://github.com/miksago/jade-tmbundle.git Jade
+git clone https://github.com/LearnBoost/stylus.git Stylus
 
 </pre></pre></div>
 
