@@ -7,7 +7,6 @@ author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
 <h2 class="section-heading">Ejs - Highlighter for Sublime Text 2</h2>
-<h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
 
 Step 1: Clone the bundles into your Sublime Text packages directory
 
