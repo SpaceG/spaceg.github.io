@@ -11,19 +11,6 @@ header-img: "img/https://packagecontrol.io/readmes/img/b6da1854601a9ad66077bf935
 
 
 
-
-
-
-
-<strong>SEE THE CDN GEO DNS WORKING</strong> 
-
-<a href="{{ site.baseurl }}/img/dns-geo.png">
-    <img src="{{ site.baseurl }}/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
-
-<br> 
-
-
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
