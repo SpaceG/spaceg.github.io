@@ -14,11 +14,7 @@ Step 1: Clone the bundles into your Sublime Text packages directory
 Preferecnes > Browse Packages gets you to the right directory in windows.  <code> [AppData]\Roaming\
 Sublime Text 2\Packages </code> 
 
-List : 
-
-
-
-
+Packages:
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
@@ -45,7 +41,7 @@ LESS-sublime.git LESS</code>
 
 
 
-Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">SublimeText Highlight Syntax</a> 
+Link: <a href="https://gist.github.com/liamdon/2467603" target="_blank">SublimeText Highlight Syntax</a> 
 
 
 
