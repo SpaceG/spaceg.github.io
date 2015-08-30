@@ -29,7 +29,8 @@ git clone https://github.com/LearnBoost/stylus.git Stylus
 </pre></pre></div>
 
 
-
+For EJS:
+git clone git://github.com/gregory-m/ejs-tmbundle.git EJS
 
 
 <a href="{{ site.baseurl }}/img/dns-geo-cdn.png">
