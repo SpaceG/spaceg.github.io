@@ -46,7 +46,7 @@ Link: <a href="https://gist.github.com/liamdon/2467603" target="_blank">SublimeT
 
 
 <blockquote>
-"HUB DOCKER coocood/geodns - Build, Ship, and Run
-Any App, Anywhere"
+"CoffeeScript, Jade and Stylus syntax highlighting in Sublime Text 2
+Raw"
 </blockquote>
 
