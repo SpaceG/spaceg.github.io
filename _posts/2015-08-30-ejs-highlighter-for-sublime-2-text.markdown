@@ -4,7 +4,7 @@ title:      "Ejs - Highlighter for Sublime Text 2"
 subtitle:   "Scalability CDN SERVERS, Performance via GeoDNS"
 date:       2015-08-30 14:00:44
 author:     "Lucas Gatsas"
-header-img: "https://packagecontrol.io/readmes/img/b6da1854601a9ad66077bf93565562719ee30ce9.gif"
+header-img: "scandinavian-style-workspace-mockup_m-o-1.jpg"
 ---
 <h2 class="section-heading">Ejs - Highlighter for Sublime Text 2</h2>
 <h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
