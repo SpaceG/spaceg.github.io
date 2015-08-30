@@ -37,9 +37,11 @@ For EJS:
 git clone git://github.com/gregory-m/ejs-tmbundle.git EJS
 
 
-<a href="{{ site.baseurl }}/img/dns-geo-cdn.png">
-    <img src="{{ site.baseurl }}/img/dns-geo-cdn.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
-</a>
+
+For LESS:
+
+git clone https://github.com/danro/LESS-sublime.git LESS
+
 
 
 
