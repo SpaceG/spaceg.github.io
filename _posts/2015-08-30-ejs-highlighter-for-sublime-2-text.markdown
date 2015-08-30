@@ -39,7 +39,6 @@ For EJS:
 
 
 For LESS:
-
 <code> git clone https://github.com/danro/
 LESS-sublime.git LESS</code> 
 
