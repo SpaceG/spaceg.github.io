@@ -44,14 +44,8 @@ git clone https://github.com/danro/LESS-sublime.git LESS
 
 
 
-Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS - CDN Servers</a> Link: <a href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> Link: <a href="http://nginx.org/" target="_blank"> Nginx </a>
+Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">SublimeText Highlight Syntax</a> 
 
-
-
-
-
-
-see <a href="https://github.com/abh/geodns" target="_blank">Geo DNS - CDN Servers</a> for more detail
 
 
 <blockquote>
