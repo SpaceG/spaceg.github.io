@@ -11,6 +11,10 @@ header-img: "img/scanda.jpg"
 
 Step 1: Clone the bundles into your Sublime Text packages directory
 
+
+Preferecnes > Browse Packages gets you to the right directory in windows.  <code> [AppData]\Roaming\
+Sublime Text 2\Packages </code> 
+
 List : 
 
 
