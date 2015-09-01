@@ -2,7 +2,7 @@
 layout:     post
 title:      "Ejs - Highlighter for Sublime Text 2"
 subtitle:   "SublimeText Highlight Syntax"
-date:       2015-08-30 14:00:44
+date:       2015-09-02 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
