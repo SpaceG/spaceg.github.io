@@ -166,6 +166,7 @@ Set the name servers to point to:
 </pre></pre></div>
 
 
+
 <br> 
 
 <strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code> 
