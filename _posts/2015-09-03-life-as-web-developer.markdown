@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "How To Create an SSL Certificate on Nginx for Ubuntu 14.04"
-subtitle:   "SSL on your Machine"
+title:      "Life as A Web Developer"
+subtitle:   "Changes"
 date:       2015-09-02 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
