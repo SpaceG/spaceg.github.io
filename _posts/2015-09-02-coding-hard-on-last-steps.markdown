@@ -6,7 +6,7 @@ date:       2015-09-02 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
-<h2 class="section-heading">Ejs - Highlighter for Sublime Text 2</h2>
+<h2 class="section-heading">How To Create an SSL Certificate on Nginx for Ubuntu 14.04</h2>
 
 Step 1: Clone the bundles into your Sublime Text packages directory
 
