@@ -6,7 +6,7 @@ date:       2015-09-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
-<h2 class="section-heading">How To Create an SSL Certificate on Nginx for Ubuntu 14.04</h2>
+<h2 class="section-heading"> bcrypt Issue on your Local Machine - node.bcrypt.js</h2>
 
 
 
