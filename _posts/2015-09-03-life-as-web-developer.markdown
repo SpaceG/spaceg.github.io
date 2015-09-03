@@ -6,7 +6,7 @@ date:       2015-09-03 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
-<h2 class="section-heading">How To Create an SSL Certificate on Nginx for Ubuntu 14.04</h2>
+<h2 class="section-heading">Life as A Web Developer</h2>
 
 
 
