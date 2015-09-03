@@ -25,7 +25,6 @@ Introduction Update Post soon! Stay Updated!
 
 
 <blockquote>
-"CoffeeScript, Jade and Stylus syntax highlighting in Sublime Text 2
-Raw"
+"bcrypt issue password"
 </blockquote>
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Life as A Web Developer"
 subtitle:   "Changes"
-date:       2015-09-02 14:00:44
+date:       2015-09-03 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/scanda.jpg"
 ---
