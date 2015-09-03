@@ -48,8 +48,8 @@ I was Stuck at this Point. My machine has a Total Crash with the Modules and bcr
 After 4 Hours i have sloved the Bug. ! Thanks this commandline <code> $ npm install bcrypt </code> 
 
 
-See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a>
-
+See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a> 
+Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> 
 
 <blockquote>
 "bcrypt Packages "
