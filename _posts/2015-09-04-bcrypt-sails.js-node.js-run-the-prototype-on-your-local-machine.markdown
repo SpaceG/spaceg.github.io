@@ -4,7 +4,7 @@ title:      "bcrypt Issue on your Local Machine"
 subtitle:   "Changes"
 date:       2015-09-04 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/scanda.jpg"
+header-img: "img/living-room-inspiration-5.jpg"
 ---
 <h2 class="section-heading"> bcrypt Issue on your Local Machine - node.bcrypt.js</h2>
 
