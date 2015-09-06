@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Javascript"
-subtitle:   "Learning Javascript"
+title:      "Javascript Introduction"
+subtitle:   "Get Started with Javascript"
 date:       2013-04-01 12:00:00
 author:     "Lucas Gatsas"
 header-img: "img/post-bg-01.jpg"
