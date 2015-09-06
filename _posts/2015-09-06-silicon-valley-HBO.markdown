@@ -6,10 +6,8 @@ date:       2015-09-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/living-room-inspiration-5.jpg"
 ---
-<h2 class="section-heading"> bcrypt Issue on your Local Machine - node.bcrypt.js</h2>
+<h2 class="section-heading"> Silicon Valley - HBO</h2>
 
-
-To Fix Bug Issue can be very hard, even do you have Time for it. It's like to Waste Time. get my App back to machine thanks with a Commandline. 
 
 
 
