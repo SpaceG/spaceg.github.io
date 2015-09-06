@@ -29,6 +29,6 @@ Teaser Trailer : Silicon Valley| A Name Defines a Company
 
 
 <blockquote>
-"The New Serie from Silicon Valley HBO"
+"The New Serie from Silicon Valley - HBO (TV series)"
 </blockquote>
 
