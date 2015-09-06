@@ -4,7 +4,7 @@ title:      "Silicon Valley - HBO"
 subtitle:   "The New TV - Serie and Sitcom"
 date:       2015-09-04 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/Siliconvalley-skyatlantic.jpg"
+header-img: "img/Screenshot16.png"
 ---
 <h2 class="section-heading"> Silicon Valley - HBO</h2>
 
