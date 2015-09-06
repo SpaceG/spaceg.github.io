@@ -24,8 +24,6 @@ Teaser Trailer : Silicon Valley| A Name Defines a Company
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-
-
 </pre></pre></div>
 
 
