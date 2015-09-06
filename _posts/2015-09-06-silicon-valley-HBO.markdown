@@ -9,9 +9,6 @@ header-img: "img/silicon-valley.jpg"
 <h2 class="section-heading"> Silicon Valley - HBO</h2>
 
 
-
-
-
 Teaser Trailer: 
 
 <iframe width="100%" height="515" src="https://www.youtube.com/embed/69V__a49xtw" frameborder="0" allowfullscreen></iframe>
