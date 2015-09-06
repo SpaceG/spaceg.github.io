@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Silicon Valley - HBO"
-subtitle:   "Changes"
+subtitle:   "The New TV - Serie and Sitcom"
 date:       2015-09-04 14:00:44
 author:     "Lucas Gatsas"
 header-img: "img/living-room-inspiration-5.jpg"
