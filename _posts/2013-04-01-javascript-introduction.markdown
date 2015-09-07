@@ -13,6 +13,10 @@ header-img: "img/post-bg-01.jpg"
 Update Post!
 
 
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
 <h1>What Can JavaScript Do?</h1>
 
 <p id="demo">JavaScript can change HTML content.</p>
@@ -20,6 +24,11 @@ Update Post!
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
 Click Me!</button>
+
+
+</pre></pre></div>
+
+
 
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
