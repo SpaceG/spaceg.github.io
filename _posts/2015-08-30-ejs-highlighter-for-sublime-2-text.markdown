@@ -4,7 +4,7 @@ title:      "Ejs - Highlighter for Sublime Text 2"
 subtitle:   "SublimeText Highlight Syntax"
 date:       2015-08-30 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/scanda.jpg"
+header-img: "img/Lucas_Gatsas_lucas_gatsas_0254.jpg"
 ---
 <h2 class="section-heading">Ejs - Highlighter for Sublime Text 2</h2>
 
