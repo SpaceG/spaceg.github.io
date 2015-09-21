@@ -1,10 +1,10 @@
 /*!
 Top spaceg.stylesheets.css
  spaceg.github.io by Lucas Gatsas. 
+ www.lucasgatsas.ch 
 
- ///lucasgatsas.ch///
-
-/// https://www.twitter.com/LucasGatsas //// 
+http://lucasgatsas.ch
+https://www.twitter.com/LucasGatsas
 
  */
  /* New Update Mo. 2 Feb. 2015 -02:33:45*/
@@ -16,6 +16,8 @@ Top spaceg.stylesheets.css
 /* New Update Sa. 25. April. 2015 -16:47:32ƒ*/
 /* New Update Sa. 26. April. 2015 -00:26:13ƒ*/
 /* New Update Di. 05. May. 2015 -22:26:13ƒ*/
+/* New Update Fr. 12. May. 2015 -00:20:24ƒ*/
+/* New Update Mi. 17. Juni. 2015 - 01:13:24*/
 
 	.pagination{
 		display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}
@@ -43,12 +45,12 @@ Top spaceg.stylesheets.css
   color: rgba(6,6,6,0.83);
   font-size: 16px;
   line-height: 28px;}p{margin:30px 0}
-		h1,h2,h3,h4,h5,h6{font-family:'Georgia',serif;font-weight:600}a{color:#A8A8A8}
+		h1,h2,h3,h4,h5,h6{font-family:'Open Sans',serif;font-weight:600}a{color:#A8A8A8}
     a:hover,a:focus{color:#B6B6B6}blockquote{color:#B6B6B6;font-style:italic}
     hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#fff}
     .navbar-custom{background:#fff;position:fixed;top:0;left:0;width:100%;z-index:2;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}
     .navbar-custom .navbar-brand{font-weight:800}
-    .navbar-custom .nav li a{text-transform:uppercase;font-size:12px;font-weight:400;letter-spacing:1px}@media only screen and (min-width: 768px){.navbar-custom{background:rgba(255,255,255,0.05);border-bottom:1px solid transparent}
+    .navbar-custom .nav li a{font-family:'Open Sans';text-transform:uppercase;font-size:12px;font-weight:400;letter-spacing:1px}@media only screen and (min-width: 768px){.navbar-custom{background:rgba(255,255,255,0.05);border-bottom:1px solid transparent}
     .navbar-custom .navbar-brand{color:rgba(255,255,255,0.9);padding:20px}
     .navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:rgba(255,255,255,0.8)}
     .navbar-custom .nav li a{padding:20px}.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:rgba(0,0,0,0.59)}}@media only screen and (min-width: 1170px){.navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
@@ -70,7 +72,7 @@ Top spaceg.stylesheets.css
     .site-heading .subheading,.intro-header .page-heading .subheading{
 	font-size: 18px;
   line-height: 1.1,display: block;
-  font-family: 'Georgia' Times,serif;
+  font-family: 'Open Sans' Times,serif;
   margin: 10px 0 0;
   color: rgba(11, 11, 11, 0.57);
   font-weight: 100;
@@ -82,7 +84,7 @@ Top spaceg.stylesheets.css
 		.intro-header .post-heading h1{font-size:35px;color:white;}
     .intro-header .post-heading .subheading,.intro-header .post-heading .meta{line-height:1.1;display:block}
     .intro-header .post-heading .subheading{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:24px;margin:10px 0 30px;font-weight:400;color:white;}
-		.intro-header .post-heading .meta{font-family:'Playfair Display', Times, serif;font-style:italic;font-weight:300;font-size:20px;color:white;}
+		.intro-header .post-heading .meta{font-family:'Open Sans', Times, serif;font-style:italic;font-weight:300;font-size:20px;color:white;}
 		.intro-header .post-heading .meta a{color:#fff}@media only screen and (min-width: 768px){.intro-header .post-heading h1{font-size:55px}
 		.intro-header .post-heading .subheading{font-size:30px;color:white;}}
 		.post-preview > a{color:#404040}.post-preview > a:hover,.post-preview > a:focus{text-decoration:none;color:#BBB}
@@ -91,7 +93,7 @@ Top spaceg.stylesheets.css
 		.post-preview > .post-meta{color:gray;font-size:16px;margin-top:0}
 		.post-preview > .post-meta > a{text-decoration:none;color:#404040}
 		.post-preview > .post-meta > a:hover,.post-preview > .post-meta > a:focus{color:#BBB;text-decoration:underline}@media only screen and (min-width: 768px){.post-preview > a > .post-title{font-size:36px}}
-		.section-heading{font-size:36px;/*margin-top:60px;*/font-weight:500;color:rgba(0,0,0,0.83);text-align:center}
+		.section-heading{font-size:36px;/*margin-top:60px;*/font-weight:100;color:rgba(0,0,0,0.83);text-align:center}
     .caption{text-align:center;font-size:14px;padding:10px;font-style:italic;margin:0;display:block;border-bottom-right-radius:5px;border-bottom-left-radius:5px}footer{padding:50px 0 65px}footer 
     .list-inline{margin:0;padding:0}footer .copyright{font-size:14px;text-align:center;margin-bottom:0}
     .floating-label-form-group{font-size:14px;position:relative;margin-bottom:0;padding-bottom:.5em;border-bottom:1px solid #eee}
@@ -132,6 +134,10 @@ Top spaceg.stylesheets.css
   color: rgba(15, 14, 14, 0.95);
 
 		}
+
+/* The Colors  for the Social Icons */ 
+
+
 i.fa.fa-rss.fa-stack-1x.fa-inverse {
 background: white;
 color: gray;
@@ -148,6 +154,16 @@ i.fa.fa-github.fa-stack-1x.fa-inverse {
 background: white;
 color: gray;
 }
+i.fa.fa-instagram.fa-stack-1x.fa-inverse {
+  background: white;
+  color: gray;
+}
+i.fa.fa-angellist.fa-stack-1x.fa-inverse {
+  background: white;
+  color: gray;
+}
+/* The Hovers for the Social Icons */ 
+
 
 i.fa.fa-rss.fa-stack-1x.fa-inverse:hover {
 background: white;
@@ -165,17 +181,26 @@ i.fa.fa-github.fa-stack-1x.fa-inverse:hover {
 background: white;
 color: rgb(194, 194, 194);
 }
+i.fa.fa-instagram.fa-stack-1x.fa-inverse:hover {
+  background: white;
+  color: gray;
+}
+
+i.fa.fa-angellist.fa-stack-1x.fa-inverse:hover {
+  background: white;
+  color: gray;
+}
 
 /* Modal Css for Social Buttons */
 
 i#spaceg-social-modal {
-font-size: 30px;
+font-size: 19px;
 padding-top: 30px;
 color: rgb(197, 197, 197);
 }
 
 i#spaceg-social-modal:hover {
-font-size: 30px;
+font-size: 19px;
 padding-top: 30px;
 color: rgb(174, 174, 174);
 }
@@ -275,15 +300,23 @@ a#readmore-link {
 color: white;
 }
 i#icon-top {
-font-size: 20px;
+font-size: 13px;
 }
  
 
 img.img-circle.portfolio-link.img-responsive {
   cursor: pointer;
+  border: 3px solid #fff;
+  z-index: 0;
+  /* position: relative; */
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
 
 
-
+.navbar-default {
+  background-color: #fff;
+  border-color: rgba(231, 231, 231, 0);
+}
 
 
