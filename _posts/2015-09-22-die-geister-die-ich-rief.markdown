@@ -4,7 +4,7 @@ title:      "Die Geister die ich rief"
 subtitle:   "Changes"
 date:       2015-09-22 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/living-room-inspiration-5.jpg"
+header-img: "img/w964.jpg"
 ---
 <h2 class="section-heading"> ..Die Geister die ich rief..</h2>
 
@@ -51,7 +51,7 @@ Die Geister, die ich rief, lassen mich nicht mehr los.
 
 
 See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a> 
-Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> 
+
 
 <blockquote>
 "bcrypt Packages "
