@@ -8,8 +8,8 @@ header-img: "img/w964.jpg"
 ---
 <h2 class="section-heading"> ..Die Geister die ich rief..</h2>
 
-Mein Schicksal war ein leeres Blatt,
-Papier kann so geduldig sein.
+Mein Schicksal war ein leeres Bourne Shell Fenster,
+Commandline kann so geduldig sein.
 Ich hatte dieses Warten satt,
 seit Wochen fiel mir nichts mehr ein.
 Ich starte in das Dunkel meines Raums,
