@@ -12,10 +12,18 @@ I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it h
 I have done this Documentation after someone asked me about it on Instagram. 
 
 
+
+First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.
+
+Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don't woory, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. 
+
+
+
+
 Step by Step. 
 
 All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
-DMG Universal 5.2.3 </strong> 
+DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). 
 
 
 
@@ -27,6 +35,9 @@ First Open your Terminal in Mac Osx. Then Type
 After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
 
 2. <code> ssh pi@raspberrypi.local </code> 
+
+
+Now do you will get to the ssh RSA Key, if you have one 
 
 
 <!--
