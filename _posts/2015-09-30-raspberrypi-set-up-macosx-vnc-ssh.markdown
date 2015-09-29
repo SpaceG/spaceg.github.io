@@ -62,10 +62,6 @@ Space-Odysseys-Mac-Pro:www cyberspace$
 
 </pre></pre></div> --> 
 
-I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install <code>$ npm -v </code> !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline <code> $ npm install bcrypt </code> 
-
-<br>
 
 
 
