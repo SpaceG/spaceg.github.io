@@ -33,46 +33,60 @@ First Open your Terminal in Mac Osx. Then Type
 
 1. <code> ping raspberrypi.local </code> 
 
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+
+</pre></pre></div> 
+
+
 After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
 
 2. <code> ssh pi@raspberrypi.local </code> 
 
 
-Now do you will get to the ssh RSA Key, if you have one 
+Now do you will get to the ssh RSA Key, if you have one.  
 
 
-<!--
+
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-Space-Odysseys-Mac-Pro:www cyberspace$ sails lift
+Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
+The authenticity of host 'raspberrypi.local (10.0.0.3)' can't be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)?
 
-info: Starting app...
-
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:83
-throw e
-^
-Error: dlopen(/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node, 1): no suitable image found. Did find:
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node: unknown file type, first eight bytes: 0x7F 0x45 0x4C 0x46 0x02 0x01 0x01 0x03
-at Error (native)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at bindings (/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:76:44)
-at Object. (/Users/cyberspace/Desktop/www/node_modules/bcrypt/bcrypt.js:3:35)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at Object. (/Users/cyberspace/Desktop/www/config/passport.js:5:10)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-Space-Odysseys-Mac-Pro:www cyberspace$
-
-</pre></pre></div> --> 
+</pre></pre></div> 
 
 
 
