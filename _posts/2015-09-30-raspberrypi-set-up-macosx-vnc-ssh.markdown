@@ -12,6 +12,20 @@ I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it h
 I have done this Documentation after someone asked me about it on Instagram. 
 
 
+Step by Step. 
+
+
+
+First Open your Terminal in Mac Osx. Then Type 
+
+
+1. <code> ping raspberrypi.local </code> 
+
+After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
+
+2. <code> ssh pi@raspberrypi.local </code> 
+
+
 <!--
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
