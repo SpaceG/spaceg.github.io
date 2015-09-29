@@ -88,8 +88,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 </pre></pre></div> 
 
-
-
+Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time.
 
 
 
