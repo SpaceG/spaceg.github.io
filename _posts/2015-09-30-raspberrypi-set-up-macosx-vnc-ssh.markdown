@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall"
+title:      "Run Raspberry Pi over Mac Os X"
 subtitle:   "Set Up"
 date:       2015-09-30 14:00:44
 author:     "Lucas Gatsas"
