@@ -8,6 +8,7 @@ header-img: "img/lab1.jpg"
 ---
 <h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
 
+I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
 
 
 <!--
