@@ -4,7 +4,7 @@ title:      "Run Raspberry Pi over Mac Os X"
 subtitle:   "Set Up"
 date:       2015-09-30 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lab1.jpg"
+header-img: "img/Pi2ModB1GB_-comp-1.jpeg"
 ---
 <h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
 
