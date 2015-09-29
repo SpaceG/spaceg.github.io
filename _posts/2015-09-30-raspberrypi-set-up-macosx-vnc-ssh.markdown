@@ -14,6 +14,9 @@ I have done this Documentation after someone asked me about it on Instagram.
 
 Step by Step. 
 
+All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
+DMG Universal 5.2.3 </strong> 
+
 
 
 First Open your Terminal in Mac Osx. Then Type 
