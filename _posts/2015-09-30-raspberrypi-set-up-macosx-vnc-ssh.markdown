@@ -20,7 +20,7 @@ Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and K
 
 
 
-Step by Step. 
+<strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> 
 
 All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
 DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). 
