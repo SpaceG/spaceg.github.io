@@ -156,7 +156,7 @@ Cheers!
 
 
 
-ps: Install Video will come up soon. Stay
+ps: Install Video will come up soon. Stay Tuned!
 
 
 
