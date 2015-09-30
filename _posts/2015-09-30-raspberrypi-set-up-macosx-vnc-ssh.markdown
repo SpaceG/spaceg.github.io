@@ -113,12 +113,12 @@ pi@raspberrypi ~ $
 Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
 Right After you entry your RaspberryPi via Termina, you have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.
 
-<code>sudo apt-get install tightvncserver </code> 
+(3.) <code>sudo apt-get install tightvncserver </code> 
 
 Don't be worry this need a while, after that process type Commandline 
 
 
-<code> tightvncserver </code> 
+(4.) <code> tightvncserver </code> 
 
 you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer. 
 
