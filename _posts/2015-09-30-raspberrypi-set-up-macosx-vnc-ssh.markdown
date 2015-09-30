@@ -88,8 +88,29 @@ Are you sure you want to continue connecting (yes/no)?
 
 </pre></pre></div> 
 
-Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time.
+Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. 
 
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ 
+
+
+</pre></pre></div> 
+
+
+Now, you entery and connect your Raspberry PI via Terminal on your Machine. 
 
 
 See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a> 
