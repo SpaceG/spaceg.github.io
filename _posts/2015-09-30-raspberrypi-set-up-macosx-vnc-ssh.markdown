@@ -148,9 +148,15 @@ Log file is /home/pi/.vnc/raspberrypi:1.log
 At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
 In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> 
 
-Type in that Window The Number <strong> 10.0.0.3:1 </strong> 
+Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. 
 
 
+Cheers!
+
+
+
+
+ps: Install Video will come up soon. Stay
 
 
 
