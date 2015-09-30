@@ -111,7 +111,19 @@ pi@raspberrypi ~ $
 
 
 Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Right After you entry your RaspberryPi via Terminal. You have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.
 
+<code>sudo apt-get install tightvncserver </code> 
+
+Don't be worry this need a while, after that process type Commandline 
+
+
+<code> tightvncserver </code> 
+
+
+At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> 
+We have also set up the
 
 
 
