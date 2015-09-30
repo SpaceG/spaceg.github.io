@@ -147,7 +147,7 @@ Log file is /home/pi/.vnc/raspberrypi:1.log
 
 At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
 In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> 
-We have also set up the
+
 
 
 
