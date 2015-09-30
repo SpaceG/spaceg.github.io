@@ -164,6 +164,6 @@ See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bc
 Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> 
 
 <blockquote>
-"bcrypt Packages "
+"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
 </blockquote>
 
