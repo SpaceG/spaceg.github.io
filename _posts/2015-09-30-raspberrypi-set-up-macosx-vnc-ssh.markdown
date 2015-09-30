@@ -158,6 +158,17 @@ Cheers!
 
 ps: Install Video will come up soon. Stay Tuned!
 
+
+<a href="{{ site.baseurl }}/img/p-4.png">
+    <img src="{{ site.baseurl }}/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+</a>
+
+
+<a href="{{ site.baseurl }}/img/pi-3.png">
+    <img src="{{ site.baseurl }}/img/pi-3.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+</a>
+
+
 <a href="{{ site.baseurl }}/img/pi1.png">
     <img src="{{ site.baseurl }}/img/pi1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 </a>
