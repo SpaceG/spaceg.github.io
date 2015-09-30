@@ -31,7 +31,7 @@ DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os).
 First Open your Terminal in Mac Osx. Then Type 
 
 
-1. <code> ping raspberrypi.local </code> 
+(1.) <code> ping raspberrypi.local </code> 
 
 
 
@@ -71,7 +71,7 @@ round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
 
 After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
 
-2. <code> ssh pi@raspberrypi.local </code> 
+(2.) <code> ssh pi@raspberrypi.local </code> 
 
 
 Now do you will get to the ssh RSA Key, if you have one.  
@@ -110,7 +110,10 @@ pi@raspberrypi ~ $
 </pre></pre></div> 
 
 
-Now, you entery and connect your Raspberry PI via Terminal on your Machine. 
+Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+
+
+
 
 
 See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a> 
