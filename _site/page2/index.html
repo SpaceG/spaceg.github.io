@@ -248,6 +248,371 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 			<div class="content">
   
     <article>
+			<header class="intro-header" style="background-image: url('/img/deskto-1.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-08-25T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/">August 25, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" id="post-title-h1" rel="bookmark" title="Create a GeoDNS" itemprop="url">Create a GeoDNS</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" rel="bookmark" title="Create a GeoDNS" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Geo DNS - CDN Servers</h2>
+<h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
+
+<p>Rolling Your Own <code>CDN </code> – Build A 3 Continent CDN For $25 In 1 Hour</p>
+
+<p>First create a folder <code>mkdir /dns</code></p>
+
+<p>Then run:
+docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
+<code>/dns:/opt/geodns/dns 
+	coocood/geodns /opt/geodns/geodns.</code></p>
+
+<p>Put zone files in /dns.</p>
+
+<p>Zone file is <code> json </code> formatted, file name looks like “deployiotest.com.json”, it’s content looks like:</p>
+
+<p><strong>Step 1: Order a DNS instance from DigitalOcean.</strong> </p>
+
+<p>We chose SFO and the 2nd smallest instance.</p>
+
+<p>We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.</p>
+
+<p><br /> </p>
+
+<p><code>ns1.deploy.io    192.241.224.116 </code>
+<code>ns2.deploy.io    192.241.224.116 </code></p>
+
+<p><br /></p>
+
+<p><strong> Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance</strong></p>
+
+<p>See https://index.docker.io/u/coocood/geodns for detail.</p>
+
+<p><br /></p>
+
+<p><strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> </p>
+
+<p>We used the smallest instance.  We setup DNS for this example using them:</p>
+
+<p><br />
+<code>test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo </code>
+<code>test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo </code>
+<code>test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo </code>
+<code>test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo </code></p>
+
+<p><br /></p>
+
+<p>Here’s what DigitalOcean’s web interface looks like with all the machines spun up:</p>
+
+<p><br /> </p>
+
+<p><a href="/img/1789766_orig1.png">
+    <img src="/img/1789766_orig1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><br /> </p>
+
+<p><strong> Setup 4: Setup a test domain for the CDN:</strong> </p>
+
+<p>If you lookup deployiotest.com the 4 web servers are chosen randomly</p>
+
+<p>If you look up www.deployiotest.com, it will go to the closest geo server.</p>
+
+<p>Set the name servers to point to:</p>
+
+<p><br /> </p>
+
+<p><code> ns1.deploy.io 192.241.224.116 </code>
+<code> ns2.deploy.io 192.241.224.116 </code></p>
+
+<p><br />   </p>
+
+<p><strong>SEE THE CDN GEO DNS WORKING</strong> </p>
+
+<p><a href="/img/dns-geo.png">
+    <img src="/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><br /> </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+
+	{
+	"serial":1394372421,
+	"ttl":    390,
+	"targeting": "country continent @ regiongroup region asn",
+	"data":{
+	    "":{
+	        "ns": [ "ns1.deploy.io", "ns2.deploy.io" ],
+	        "a":[
+	            [
+	               "107.170.45.174",
+	               "1000"
+	            ],
+	            [
+	               "128.199.216.96",
+	               "1000"
+	            ],
+	            [
+	               "107.170.251.75",
+	               "1000"
+	            ],
+	            [
+	               "188.226.185.173",
+	               "1000"
+	            ]
+	        ]
+	    },
+	    "www":{
+	        "alias": ""    
+	    },
+	    "www.us-west":{
+	        "cname": "test-sfo-do.deploy.io."    
+	    },
+	    "www.europe":{
+	        "cname": "test-ams-do.deploy.io."    
+	    },
+	    "www.asia":{
+	        "cname": "test-sin-do.deploy.io."    
+	    },
+	    "www.us-east":{
+	        "cname": "test-jfk-do.deploy.io."    
+	    }
+	  }
+	}
+
+</pre></pre></div>
+
+<p><br /> </p>
+
+<p><strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code> </strong></strong></p>
+
+<p>Just test it on <code> www.just-ping.com. </code></p>
+
+<p><code> Todo </code> </p>
+
+<p><br /> </p>
+
+<p>Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example</p>
+
+<p><br /> </p>
+
+<p>Add a way to take servers in and out of rotation using a little daemon on the geodns server</p>
+
+<p><br /> </p>
+
+<p>Tune the Geo map for places outside of the US/Europe and Asia.</p>
+
+<p><br /></p>
+
+<p>Add more virtual servers from other providers</p>
+
+<p><br /></p>
+
+<p>Add a way to spin up servers using lib-cloud</p>
+
+<p><br /> </p>
+
+<p><a href="/img/dns-geo-cdn.png">
+    <img src="/img/dns-geo-cdn.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS - CDN Servers</a> Link: <a href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> Link: <a href="http://nginx.org/" target="_blank"> Nginx </a></p>
+
+<p>see <a href="https://github.com/abh/geodns" target="_blank">Geo DNS - CDN Servers</a> for more detail</p>
+
+<blockquote>
+"HUB DOCKER coocood/geodns - Build, Ship, and Run
+Any App, Anywhere"
+</blockquote>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
+
+	</td>
+</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-01256437283514.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-07-07T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/">July 07, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/" id="post-title-h1" rel="bookmark" title="Mongo DB" itemprop="url">Mongo DB</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/" rel="bookmark" title="Mongo DB" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Mongo DB</h2>
+<h2 class="section-heading">"Agility, Scalability, Performance Database"</h2>
+
+<p><strong>
+PLATFORM SUPPORT
+Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.<strong></strong></strong></p>
+
+<p><strong>Install MongoDB</strong></p>
+
+<p>You can install MongoDB with <strong>Homebrew</strong> or manually. This section describes both.</p>
+
+<p>1.<strong> Update Homebrew’s package database.</strong> 
+In a system shell, issue the following command: </p>
+
+<p><code>brew update </code></p>
+
+<p>2.<strong>Install MongoDB.</strong> 
+You can install MongoDB via brew with several different options. Use one of the following operations:</p>
+
+<p><strong>Install the MongoDB Binaries</strong> 
+To install the MongoDB binaries, issue the following command in a system shell:</p>
+
+<p><code>brew install mongodb</code></p>
+
+<p><code>brew install mongodb --with-openssl</code> </p>
+
+<p><strong> Build MongoDB from Source with TLS/SSL Support<strong> 
+To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:</strong></strong></p>
+
+<p><strong> Install the Latest Development Release of MongoDB</strong> 
+To install the latest development release for use in testing and development, issue the following command in a system shell:</p>
+
+<p><code> brew install mongodb --devel</code> </p>
+
+<p><strong> Install MongoDB Manually </strong> 
+Only install MongoDB using this procedure if you cannot use homebrew.</p>
+
+<p>1.<strong> Download the binary files for the desired release of MongoDB.</strong> 
+Download the binaries from <code> https://www.mongodb.org/
+downloads. </code> </p>
+
+<p>For example, to download the latest release through the shell, issue the following:</p>
+
+<p><strong> curl -O https://fastdl.mongodb.org/
+  osx/mongodb-osx-x86_64-3.0.4.tgz</strong> </p>
+
+<p>2.<strong>Extract the files from the downloaded archive.</strong> 
+For example, from a system shell, you can extract through the tar command:</p>
+
+<p><code>tar -zxvf mongodb-osx-x86_64-3.0.4.tgz</code></p>
+
+<p>3.<strong>Copy the extracted archive to the target directory.</strong>
+Copy the extracted folder to the location from which MongoDB will run.</p>
+
+<p><code>mkdir -p mongodb</code>
+<code>cp -R -n mongodb-osx-x86_
+  64-3.0.4/ mongodb</code></p>
+
+<p>4.<strong>Ensure the location of the binaries is in the PATH variable.</strong>
+The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.</p>
+
+<p>For example, you can add the following line to your shell’s rc file <code>(e.g. ~/.bashrc):</code> </p>
+
+<p>export PATH=<mongodb-install-directory> <code>/bin:$PATH</code>
+Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.</mongodb-install-directory></mongodb-install-directory></p>
+
+<p>Link: <a href="https://www.mongodb.org">Mongo DB</a></p>
+
+<blockquote>
+“Built by developers like you at MongoDB. <strong>Highly Scalable</strong>
+Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
+
+ <strong>Flexible Data Model </strong>
+MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
+
+
+ <strong>Fastest-Growing Community </strong>
+Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
+</blockquote>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
+
+	</td>
+</div>
+	</article>
+
+  
+    <article>
 			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-21351524.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
@@ -453,190 +818,6 @@ border: 1px solid rgba(0, 0, 0, 0.09);
 
 <blockquote>
 “<strong>One thing to note:</strong> partials are rendered synchronously, so they will block Sails from serving more requests until they're done loading. It's something to keep in mind while developing your app, especially if you anticipate a large number of connections.” 
-</blockquote>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-ui-ux-12345.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-06-21T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/">June 21, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/" id="post-title-h1" rel="bookmark" title="Programming a Prototype for our Native Mobile App" itemprop="url">Programming a Prototype for our Native Mobile App</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/" rel="bookmark" title="Programming a Prototype for our Native Mobile App" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">iOs - SDK - Objective-C</h2>
-<h2 class="section-heading">"Beginning to develop a Prototype of our iOs<br /> Mobile App"</h2>
-
-<p><br /></p>
-
-<p>I have started today to develop our Start Up Native Mobile App for iOs/ Mac Os, writing in Objective-C.
-Native mobile apps provide fast performance and a high degree of reliability. Of course our <a href="http://lucasgatsas.ch/2015/05/09/startup-streak/">Web App</a> is writen in Media Querris and is Pure Responsive. </p>
-
-<p>Links: <a href="https://idmsa.apple.com/IDMSWebAuth/login?&amp;appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&amp;path=%2F%2Fmembercenter%2Findex.action" target="_blank">Apple Developers</a>
-Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK" target="_blank">iOs_SDK</a>
-Links: <a href="https://en.wikipedia.org/wiki/Objective-C" target="_blank">Objective-C</a>
-Links: <a href="https://en.wikipedia.org/wiki/Cocoa_(API)" target="_blank">Cocoa API</a>
-Links: <a href="https://developer.apple.com/ios/" target="_blank">iOS 8 SDK and Xcode 6 for Developers</a>
-Links: <a href="https://de.wikipedia.org/wiki/AppleScript" target="_blank">Apple Script</a> 
-Links: <a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
-Links: <a href="https://de.wikipedia.org/wiki/Mac_OS" target="_blank">Mac Os</a>
-Links: <a href="https://de.wikipedia.org/wiki/Interface_Builder" target="_blank">Interface Builder</a>
-Links: <a href="https://de.wikipedia.org/wiki/Xcode" target="_blank">Xcode</a></p>
-
-<p><br /></p>
-<blockquote>
-“The SDK itself is a free download, but beta SDKs require a paid developer account. In order to release software, one must enroll in the iPhone Developer Program—a step requiring payment and Apple's approval. As of February 2015, cost of enrollment in the iPhone Developer Program is US$99 per year (the cost varies from country to country) for the standard program. Signed keys are provided to upload the application to Apple's App Store. Applications can be distributed in three ways: through the App Store, through enterprise deployment to a company's employees only, and on an "Ad-hoc" basis to up to 100 iPhones. Once distributed through the App Store, a developer can request up to 50 promotional codes that can be used to freely distribute a commercial application he or she has developed. The SDK can only be installed in OS X, and the latest SDK (iOS SDK 8.0 with Xcode 6.0.1, as of September 2014) requires OS X 10.9.4 "Mavericks" or later.” 
-</blockquote>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/Lucas_Gatsas_lucas_gatsas_0260.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-06-17T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/06/17/oauth-github-twitter-api/">June 17, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/06/17/oauth-github-twitter-api/" id="post-title-h1" rel="bookmark" title="oAuth - Github - Twitter Api" itemprop="url">oAuth - Github - Twitter Api</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/06/17/oauth-github-twitter-api/" rel="bookmark" title="oAuth - Github - Twitter Api" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">oAuth - Github - Twitter Api</h2>
-<h2 class="section-heading">"SignIn and SignUp - Callback"</h2>
-
-<p><br /></p>
-
-<p>Now do some Back End and Front End for oAuth Sign Up and Sign In with Twitter and Github. We Use the <a href="http://lucasgatsas.ch/2015/01/17/sails.js/" target="_blank">Implement Passport.js authentication with Sails.js ~0.10</a> Register your Application <a href="https://github.com/settings/developers">Register</a> Bellow is a Part Preview of our Code. </p>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-
-passport.use(new TwitterStrategy({
-    consumerKey: 'zhtzjtzjtrzjrzbv437bfgfg',
-    consumerSecret: '0FsA6435634765wgzfcegcfzgeuwr37ezrrt77bhrtg',
-    callbackURL: "http://localhost:1337/auth/twitter/callback"
-  },
-  oAuthCallback
-));
-
-passport.use(new GitHubStrategy({
-    clientID: '654457zsthdfghsh4545654z645z6',
-    clientSecret: 'dgedshernwrtz7564546dfvbfv34t4tertertretgreter',
-    callbackURL: "http://localhost:1337/auth/github/callback"
-  },
-  oAuthCallback
-));
-
-
-</pre></pre></div>
-
-<p>Links: <a href="http://passportjs.org/" target="_blank">Passport.js</a>
-Links: <a href="https://developer.github.com/v3/oauth/" target="_blank">v3 oauth - API
- - OAuth - Web Application Flow</a>
-Links: <a href="https://dev.twitter.com/oauth" target="_blank">OAuth
-Send secure authorized requests to the Twitter API</a>
-Links: <a href="https://github.com/balderdashy/waterline" target="_blank">Waterline.js</a>
-Links: <a href="http://sailsjs.org/#!/" target="_blank">sails.js</a>
-Links: <a href="https://github.com/settings/developers">Github Developers</a></p>
-
-<p><a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a></p>
-
-<p><br /><br /></p>
-
-<p><br /></p>
-<blockquote>
-“Die Wahrheit ist, es hat niemals auf der Welt viele bemerkenswerte Leute gegeben. Die meisten stützen sich ständig auf den Typ gerade neben ihnen - und fragen, was sie tun sollen.” 
 </blockquote>
 
 

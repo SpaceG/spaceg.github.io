@@ -248,6 +248,274 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 			<div class="content">
   
     <article>
+			<header class="intro-header" style="background-image: url('/img/tumblr_static_2014-07-30_09.18.41_1.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-05-18T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/05/18/openssl-nginx-server-linux/">May 18, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/05/18/openssl-nginx-server-linux/" id="post-title-h1" rel="bookmark" title="OpenSSL - Os X - Linux on nginx Server Linux" itemprop="url">OpenSSL - Os X - Linux on nginx Server Linux</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/05/18/openssl-nginx-server-linux/" rel="bookmark" title="OpenSSL - Os X - Linux on nginx Server Linux" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
+<h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
+
+<p><strong> Set Up </strong> </p>
+
+<p><code> $ sudo apt-get install nginx </code></p>
+
+<p><strong> Step One—Create a Directory for the Certificate </strong> </p>
+
+<p><code>sudo mkdir /etc/nginx/ssl</code></p>
+
+<p>We will perform the next few steps within the directory:</p>
+
+<p><code>  cd /etc/nginx/ssl </code> </p>
+
+<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong> </p>
+
+<p><code> sudo openssl genrsa -des3 -out server.key 2048 </code></p>
+
+<p>Follow up by creating a certificate signing request:</p>
+
+<p><code>sudo openssl req -new -key server.key -out server.csr</code></p>
+
+<p>You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter ‘.’, the field will be left blank.—–
+Country Name (2 letter code) [AU]:CH
+State or Province Name (full name) [Some-State]:St. Gallen
+Locality Name (eg, city) []:Saint City
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:lucasgatsas.ch 
+Organizational Unit Name (eg, section) []:Dept of Engineering - IT NERDS
+Common Name (e.g. server FQDN or YOUR name) []:lucasgatsas@gmail.com                <br />
+Email Address []:lucasgatsas@example.com</p>
+
+<p><strong> Step Three—Remove the Passphrase </strong> </p>
+
+<p><code> sudo cp server.key server.key.org </code> 
+<code> sudo openssl rsa -in server.key.org 
+	-out server.key </code> </p>
+
+<p><strong> Step Four— Sign your SSL Certificate </strong> </p>
+
+<p><code>  sudo openssl x509 -req -days 365 -in server.csr 
+	-signkey server.key -out server.crt </code></p>
+
+<p><strong> Step Five—Set Up the Certificate </strong> </p>
+
+<p><code>sudo cp /etc/nginx/sites-available/default
+ /etc/nginx/sites-available/example</code></p>
+
+<p>Then go ahead and open up that new file:</p>
+
+<p><code> sudo nano /etc/nginx/
+	sites-available/example </code></p>
+
+<p>Scroll down to the bottom of the file and find the section that begins with this:</p>
+
+<pre><code># HTTPS server
+
+server {
+        listen 443;
+        server_name example.com;
+
+        root /usr/share/nginx/www;
+        index index.html index.htm;
+
+        ssl on;
+        ssl_certificate /etc/nginx/ssl/server.crt;
+        ssl_certificate_key /etc/nginx/ssl/server.key; 
+}
+
+
+
+
+
+# Make site accessible from http://localhost/
+# server_name localhost;
+</code></pre>
+
+<p><strong> Step Six—Activate the Virtual Host </strong> </p>
+
+<p>The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.</p>
+
+<p><code>  sudo ln -s /etc/nginx/sites-available/example 
+	/etc/nginx/sites-enabled/example </code></p>
+
+<p>Then restart nginx:</p>
+
+<p><code>  sudo service nginx restart </code></p>
+
+<p>Visit https://youraddress</p>
+
+<p>Cheers! </p>
+
+<p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
+
+<p><br /></p>
+<blockquote>
+“Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.” 
+</blockquote>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
+
+	</td>
+</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/Lucas_Gatsas_lucas_gatsas_0272.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-05-17T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/05/17/openssl-mac-linux/">May 17, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/05/17/openssl-mac-linux/" id="post-title-h1" rel="bookmark" title="OpenSSL - Os X - Linux" itemprop="url">OpenSSL - Os X - Linux</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/05/17/openssl-mac-linux/" rel="bookmark" title="OpenSSL - Os X - Linux" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">OpenSSL</h2>
+<h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
+
+<p><strong>Steps ( For Linux ) </strong></p>
+
+<p><code>  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code></p>
+
+<p><code> tar -xvzf openssl-1.0.2a.tar.gz  </code></p>
+
+<p><code>  cd openssl-1.0.2a </code></p>
+
+<p><code>  ./config --prefix=/usr/ </code></p>
+
+<p><code> make </code></p>
+
+<p><code>  sudo make install  </code></p>
+
+<!--
+<a href="/img/gli.png">
+    <img src="/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
+</a> -->
+
+<p><br />
+<br /></p>
+
+<p><strong>Steps ( For Mac Os X ) </strong></p>
+
+<p><code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code></p>
+
+<p><code> tar -xvzf openssl-1.0.2a.tar.gz</code></p>
+
+<p><code> cd openssl-1.0.2a</code></p>
+
+<p><code> ./Configure darwin64-x86_64-cc --prefix=/usr</code></p>
+
+<p><code> make</code></p>
+
+<p><code> sudo make install </code></p>
+
+<p><strong>Verify the Installation</strong></p>
+
+<p>Verify that you have successfully installed OpenSSL.</p>
+
+<p><code>openssl version -a</code></p>
+
+<p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
+
+<p><br /></p>
+<blockquote>
+“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+</blockquote>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
+
+	</td>
+</div>
+	</article>
+
+  
+    <article>
 			<header class="intro-header" style="background-image: url('/img/1765533.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
@@ -467,199 +735,6 @@ border: 1px solid rgba(0, 0, 0, 0.09);
 
 <blockquote>
 “sails.js -  Realtime MVC Framework for Node.js” 
-</blockquote>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/1557493_663672417038411_6720990459034320832_n.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-05-10T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/">May 10, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/" id="post-title-h1" rel="bookmark" title="reboot your Mac  - chmod o+rx" itemprop="url">reboot your Mac  - chmod o+rx</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/" rel="bookmark" title="reboot your Mac  - chmod o+rx" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading"> Hacking Macintosh HD </h2>
-<h2 class="section-heading">Entry Your Data with the Terminal Commandline Chmod o+rx</h2>
-
-<p><strong> Recovery Mode </strong> </p>
-
-<p>This Morning i got a {….} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything. 
-So my History now.. i tried hack my HD! After a Error, i put the rights to the <code>(:denied)</code>.</p>
-
-<p>Spoken Words: - I don’t had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!</p>
-
-<p>i Tried out to reboot the Machine on <code> "C" </code>! Nothing Works! After booted in to the <code>C</code>
-<code>cmd + r </code>! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# <code> chmod o+rx "/Volumes/YOURHD"</code> and prompt (Enter) it. <code> sudo shutdown -r now </code> ! New Started and waited for a while 
-and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I’m really proud of it. Hacking your Machine and learn to Rule! ;)</p>
-
-<p>First Reboot your Machine from <code> cmd + r  </code> and then wait!
-Open the Terminal and Type follow CommandLine <code>chmod o+rx "/Volumes/YOURHD"</code>
-And New Start your Mac!</p>
-
-<p><br />
-<strong> Off course there are alot Ways to Boot and Reboot your Machine </strong></p>
-
-<p><br /></p>
-
-<p><strong> Single-User Mode </strong> </p>
-
-<p>Newstart your Machine and Press <code>cmd + s</code> ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
-There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!</p>
-
-<p>Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type 
-<code>reboot</code> </p>
-
-<p>First i have typed : <code> mount -uw/ </code>
-Then After Prompt : <code> chmod 755/System</code>
-And Now Type : <code> chmod 1773/Shared </code>
-At Last prompt: <code> chmod 1777/Users/Shared</code>
-Then <code>reboot</code> your Machine! ;) </p>
-
-<p><br />
-<strong> Verbose Mode </strong> </p>
-
-<p>Press <code> cmd + V</code> to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!</p>
-
-<p><a href="/chmod/"> SEE HERE THE IMAGES! </a> </p>
-
-<p>I don’t need anymore a Apple Supporter! :D </p>
-
-<blockquote>
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
-</blockquote>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/lucasgatsas-12.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-05-09T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/05/09/startup-streak/">May 09, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/05/09/startup-streak/" id="post-title-h1" rel="bookmark" title="Start Up - Streak" itemprop="url">Start Up - Streak</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/05/09/startup-streak/" rel="bookmark" title="Start Up - Streak" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading"> Update on Remote Work</h2>
-<h2 class="section-heading">Current Streak!</h2>
-
-<p>Now we go Back and Work on Remote on our StartUp Project. Here are some GitHub Static! 
-If you are in Intress to work with us. please, Contact  Me! We also looking for a fit Unix/Linux Ubunutu Sysadmin! Who do the Server Parts! 
-Do you will find my e-mail in the Source-Code or text!</p>
-
-<p>GitHub Network! </p>
-
-<p><a href="/img/streakgithub.png">
-    <img src="/img/streakgithub.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a>
-<br /></p>
-
-<p><a href="/img/streakgithub1.png">
-    <img src="/img/streakgithub1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>Our App based on Sails.js, Backbone.js, Bootstrap Framework, and our Development Skills!
-The App is mostly built in javascript <code> 66.4% </code> and in css/less <code>33.1%</code> ! </p>
-
-<p><a href="/img/js.png">
-    <img src="/img/js.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>More Infos Comming soon! </p>
-
-<blockquote>
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
 </blockquote>
 
 

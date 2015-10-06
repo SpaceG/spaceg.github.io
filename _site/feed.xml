@@ -5,9 +5,525 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2015 21:26:51 +0200</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2015 21:26:51 +0200</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2015 23:13:21 +0200</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2015 23:13:21 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Run Your Web App via port 80 - Sails.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&lt;/h2&gt;
+
+&lt;p&gt;I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
+I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram. &lt;/p&gt;
+
+&lt;p&gt;First of all, do you need a &lt;a href=&quot;https://www.raspberrypi.org/ &quot; target=&quot;_blank&quot;&gt;Raspberry Pi&lt;/a&gt;  Pi to get this Tutorial and set up your &lt;strong&gt; Raspberry PI &lt;/strong&gt; to your Mac.&lt;/p&gt;
+
+&lt;p&gt;Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Now we go Connect the Raspberry Pi to your Mac Os &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;All of first do you have to Download the VNC Viewer &lt;a href=&quot;https://www.realvnc.com/download/viewer/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; Download the newest Version of &lt;strong&gt; VNC Viewer for Mac OS X
+DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt;/p&gt;
+
+&lt;p&gt;First Open your Terminal in Mac Osx. Then Type &lt;/p&gt;
+
+&lt;p&gt;(1.) &lt;code&gt; ping raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After Ping your Network, do you will get your current &lt;strong&gt; IP &lt;/strong&gt; from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your &lt;strong&gt; ssh pi@raspberrypi.local &lt;/strong&gt; the Promp with your Enter Taste. &lt;/p&gt;
+
+&lt;p&gt;(2.) &lt;code&gt; ssh pi@raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.  &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
+The authenticity of host &#39;raspberrypi.local (10.0.0.3)&#39; can&#39;t be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)?
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then Say &lt;code&gt;Yes/No &lt;/code&gt; i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ 
+
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Right After you entry your RaspberryPi via Termina, you have now to type the Commanline &lt;code&gt; ls &lt;/code&gt; to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.&lt;/p&gt;
+
+&lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;Don’t be worry this need a while, after that process type Commandline &lt;/p&gt;
+
+&lt;p&gt;(4.) &lt;code&gt; tightvncserver &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  &lt;code&gt; No &lt;/code&gt; you will get forward to the desktop of your RaspberryPi. This Number after &lt;code&gt; pi:1 &lt;/code&gt; is very important for our Viewer &lt;code&gt; :1 &lt;/code&gt; This we need it for our VNC Viewer. &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New &#39;X&#39; desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. &lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+&lt;p&gt;ps: Install Video will come up soon. Stay Tuned!&lt;/p&gt;
+
+&lt;center&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;5&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/8PHK_lTgjl/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-30T01:21:57+00:00&quot;&gt;29. Sep 2015 um 18:21 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/p-4.png&quot;&gt;
+    &lt;img src=&quot;/img/p-4.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/pi-3.png&quot;&gt;
+    &lt;img src=&quot;/img/pi-3.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/pi1.png&quot;&gt;
+    &lt;img src=&quot;/img/pi1.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My Full Terminal Work: &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Last login: Mon Sep 28 03:04:26 on ttys000
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+Space-O-Mac-Pro:~ cyberspace$ ssh pi@raspberrypi.local
+The authenticity of host &#39;raspberrypi.local (10.0.0.4)&#39; can&#39;t be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added &#39;raspberrypi.local,10.0.0.4&#39; (RSA) to the list of known hosts.
+pi@raspberrypi.local&#39;s password: 
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ ls
+Desktop  python_games
+pi@raspberrypi ~ $ sudo apt-get install tightvncserver
+Paketlisten werden gelesen... Fertig
+Abhängigkeitsbaum wird aufgebaut.       
+Statusinformationen werden eingelesen.... Fertig
+Die folgenden zusätzlichen Pakete werden installiert:
+  xfonts-base
+Vorgeschlagene Pakete:
+  tightvnc-java
+Die folgenden NEUEN Pakete werden installiert:
+  tightvncserver xfonts-base
+0 aktualisiert, 2 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
+Es müssen 6.967 kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 9.988 kB Plattenplatz zusätzlich benutzt.
+Möchten Sie fortfahren [J/n]? ja
+Holen: 1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main tightvncserver armhf 1.3.9-6.4 [786 kB]
+Holen: 2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main xfonts-base all 1:1.0.3 [6.181 kB]
+Es wurden 6.967 kB in 4 s geholt (1.570 kB/s).
+Vormals nicht ausgewähltes Paket tightvncserver wird gewählt.
+(Lese Datenbank ... 77851 Dateien und Verzeichnisse sind derzeit installiert.)
+Entpacken von tightvncserver (aus .../tightvncserver_1.3.9-6.4_armhf.deb) ...
+Vormals nicht ausgewähltes Paket xfonts-base wird gewählt.
+Entpacken von xfonts-base (aus .../xfonts-base_1%3a1.0.3_all.deb) ...
+Trigger für man-db werden verarbeitet ...
+Trigger für fontconfig werden verarbeitet ...
+tightvncserver (1.3.9-6.4) wird eingerichtet ...
+update-alternatives: /usr/bin/tightvncserver wird verwendet, um /usr/bin/vncserver (vncserver) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/Xtightvnc wird verwendet, um /usr/bin/Xvnc (Xvnc) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/tightvncpasswd wird verwendet, um /usr/bin/vncpasswd (vncpasswd) im Auto-Modus bereitzustellen
+xfonts-base (1:1.0.3) wird eingerichtet ...
+pi@raspberrypi ~ $ tightvncserver
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New &#39;X&#39; desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+pi@raspberrypi ~ $ 
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 06 Oct 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Run Raspberry Pi over Mac Os X</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&lt;/h2&gt;
+
+&lt;p&gt;I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
+I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram. &lt;/p&gt;
+
+&lt;p&gt;First of all, do you need a &lt;a href=&quot;https://www.raspberrypi.org/ &quot; target=&quot;_blank&quot;&gt;Raspberry Pi&lt;/a&gt;  Pi to get this Tutorial and set up your &lt;strong&gt; Raspberry PI &lt;/strong&gt; to your Mac.&lt;/p&gt;
+
+&lt;p&gt;Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Now we go Connect the Raspberry Pi to your Mac Os &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;All of first do you have to Download the VNC Viewer &lt;a href=&quot;https://www.realvnc.com/download/viewer/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; Download the newest Version of &lt;strong&gt; VNC Viewer for Mac OS X
+DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt;/p&gt;
+
+&lt;p&gt;First Open your Terminal in Mac Osx. Then Type &lt;/p&gt;
+
+&lt;p&gt;(1.) &lt;code&gt; ping raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After Ping your Network, do you will get your current &lt;strong&gt; IP &lt;/strong&gt; from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your &lt;strong&gt; ssh pi@raspberrypi.local &lt;/strong&gt; the Promp with your Enter Taste. &lt;/p&gt;
+
+&lt;p&gt;(2.) &lt;code&gt; ssh pi@raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.  &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
+The authenticity of host &#39;raspberrypi.local (10.0.0.3)&#39; can&#39;t be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)?
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then Say &lt;code&gt;Yes/No &lt;/code&gt; i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ 
+
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Right After you entry your RaspberryPi via Termina, you have now to type the Commanline &lt;code&gt; ls &lt;/code&gt; to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.&lt;/p&gt;
+
+&lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;Don’t be worry this need a while, after that process type Commandline &lt;/p&gt;
+
+&lt;p&gt;(4.) &lt;code&gt; tightvncserver &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  &lt;code&gt; No &lt;/code&gt; you will get forward to the desktop of your RaspberryPi. This Number after &lt;code&gt; pi:1 &lt;/code&gt; is very important for our Viewer &lt;code&gt; :1 &lt;/code&gt; This we need it for our VNC Viewer. &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New &#39;X&#39; desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. &lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+&lt;p&gt;ps: Install Video will come up soon. Stay Tuned!&lt;/p&gt;
+
+&lt;center&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;5&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/8PHK_lTgjl/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-30T01:21:57+00:00&quot;&gt;29. Sep 2015 um 18:21 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/p-4.png&quot;&gt;
+    &lt;img src=&quot;/img/p-4.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/pi-3.png&quot;&gt;
+    &lt;img src=&quot;/img/pi-3.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/pi1.png&quot;&gt;
+    &lt;img src=&quot;/img/pi1.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My Full Terminal Work: &lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Last login: Mon Sep 28 03:04:26 on ttys000
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+Space-O-Mac-Pro:~ cyberspace$ ssh pi@raspberrypi.local
+The authenticity of host &#39;raspberrypi.local (10.0.0.4)&#39; can&#39;t be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added &#39;raspberrypi.local,10.0.0.4&#39; (RSA) to the list of known hosts.
+pi@raspberrypi.local&#39;s password: 
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ ls
+Desktop  python_games
+pi@raspberrypi ~ $ sudo apt-get install tightvncserver
+Paketlisten werden gelesen... Fertig
+Abhängigkeitsbaum wird aufgebaut.       
+Statusinformationen werden eingelesen.... Fertig
+Die folgenden zusätzlichen Pakete werden installiert:
+  xfonts-base
+Vorgeschlagene Pakete:
+  tightvnc-java
+Die folgenden NEUEN Pakete werden installiert:
+  tightvncserver xfonts-base
+0 aktualisiert, 2 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
+Es müssen 6.967 kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 9.988 kB Plattenplatz zusätzlich benutzt.
+Möchten Sie fortfahren [J/n]? ja
+Holen: 1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main tightvncserver armhf 1.3.9-6.4 [786 kB]
+Holen: 2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main xfonts-base all 1:1.0.3 [6.181 kB]
+Es wurden 6.967 kB in 4 s geholt (1.570 kB/s).
+Vormals nicht ausgewähltes Paket tightvncserver wird gewählt.
+(Lese Datenbank ... 77851 Dateien und Verzeichnisse sind derzeit installiert.)
+Entpacken von tightvncserver (aus .../tightvncserver_1.3.9-6.4_armhf.deb) ...
+Vormals nicht ausgewähltes Paket xfonts-base wird gewählt.
+Entpacken von xfonts-base (aus .../xfonts-base_1%3a1.0.3_all.deb) ...
+Trigger für man-db werden verarbeitet ...
+Trigger für fontconfig werden verarbeitet ...
+tightvncserver (1.3.9-6.4) wird eingerichtet ...
+update-alternatives: /usr/bin/tightvncserver wird verwendet, um /usr/bin/vncserver (vncserver) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/Xtightvnc wird verwendet, um /usr/bin/Xvnc (Xvnc) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/tightvncpasswd wird verwendet, um /usr/bin/vncpasswd (vncpasswd) im Auto-Modus bereitzustellen
+xfonts-base (1:1.0.3) wird eingerichtet ...
+pi@raspberrypi ~ $ tightvncserver
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New &#39;X&#39; desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+pi@raspberrypi ~ $ 
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Wed, 30 Sep 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/</guid>
+        
+        
+      </item>
     
       <item>
         <title>bcrypt Issue on your Local Machine</title>
@@ -532,98 +1048,6 @@ As of 2014, AngelList syndicates invested over &lt;strong&gt;$100M&lt;/strong&gt
         <pubDate>Mon, 22 Jun 2015 16:00:44 +0200</pubDate>
         <link>http://lucasgatsas.ch/2015/06/22/sails.js-partials-pages-code-page-sections/</link>
         <guid isPermaLink="true">http://lucasgatsas.ch/2015/06/22/sails.js-partials-pages-code-page-sections/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Programming a Prototype for our Native Mobile App</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;iOs - SDK - Objective-C&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;&quot;Beginning to develop a Prototype of our iOs&lt;br /&gt; Mobile App&quot;&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have started today to develop our Start Up Native Mobile App for iOs/ Mac Os, writing in Objective-C.
-Native mobile apps provide fast performance and a high degree of reliability. Of course our &lt;a href=&quot;http://lucasgatsas.ch/2015/05/09/startup-streak/&quot;&gt;Web App&lt;/a&gt; is writen in Media Querris and is Pure Responsive. &lt;/p&gt;
-
-&lt;p&gt;Links: &lt;a href=&quot;https://idmsa.apple.com/IDMSWebAuth/login?&amp;amp;appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&amp;amp;path=%2F%2Fmembercenter%2Findex.action&quot; target=&quot;_blank&quot;&gt;Apple Developers&lt;/a&gt;
-Links: &lt;a href=&quot;https://en.wikipedia.org/wiki/IOS_SDK&quot; target=&quot;_blank&quot;&gt;iOs_SDK&lt;/a&gt;
-Links: &lt;a href=&quot;https://en.wikipedia.org/wiki/Objective-C&quot; target=&quot;_blank&quot;&gt;Objective-C&lt;/a&gt;
-Links: &lt;a href=&quot;https://en.wikipedia.org/wiki/Cocoa_(API)&quot; target=&quot;_blank&quot;&gt;Cocoa API&lt;/a&gt;
-Links: &lt;a href=&quot;https://developer.apple.com/ios/&quot; target=&quot;_blank&quot;&gt;iOS 8 SDK and Xcode 6 for Developers&lt;/a&gt;
-Links: &lt;a href=&quot;https://de.wikipedia.org/wiki/AppleScript&quot; target=&quot;_blank&quot;&gt;Apple Script&lt;/a&gt; 
-Links: &lt;a href=&quot;http://space.lucasgatsas.ch/waves&quot; target=&quot;_blank&quot;&gt;space.lucasgatsas.ch/waves&lt;/a&gt;
-Links: &lt;a href=&quot;https://de.wikipedia.org/wiki/Mac_OS&quot; target=&quot;_blank&quot;&gt;Mac Os&lt;/a&gt;
-Links: &lt;a href=&quot;https://de.wikipedia.org/wiki/Interface_Builder&quot; target=&quot;_blank&quot;&gt;Interface Builder&lt;/a&gt;
-Links: &lt;a href=&quot;https://de.wikipedia.org/wiki/Xcode&quot; target=&quot;_blank&quot;&gt;Xcode&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-“The SDK itself is a free download, but beta SDKs require a paid developer account. In order to release software, one must enroll in the iPhone Developer Program—a step requiring payment and Apple&#39;s approval. As of February 2015, cost of enrollment in the iPhone Developer Program is US$99 per year (the cost varies from country to country) for the standard program. Signed keys are provided to upload the application to Apple&#39;s App Store. Applications can be distributed in three ways: through the App Store, through enterprise deployment to a company&#39;s employees only, and on an &quot;Ad-hoc&quot; basis to up to 100 iPhones. Once distributed through the App Store, a developer can request up to 50 promotional codes that can be used to freely distribute a commercial application he or she has developed. The SDK can only be installed in OS X, and the latest SDK (iOS SDK 8.0 with Xcode 6.0.1, as of September 2014) requires OS X 10.9.4 &quot;Mavericks&quot; or later.” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Sun, 21 Jun 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>oAuth - Github - Twitter Api</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;oAuth - Github - Twitter Api&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;&quot;SignIn and SignUp - Callback&quot;&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now do some Back End and Front End for oAuth Sign Up and Sign In with Twitter and Github. We Use the &lt;a href=&quot;http://lucasgatsas.ch/2015/01/17/sails.js/&quot; target=&quot;_blank&quot;&gt;Implement Passport.js authentication with Sails.js ~0.10&lt;/a&gt; Register your Application &lt;a href=&quot;https://github.com/settings/developers&quot;&gt;Register&lt;/a&gt; Bellow is a Part Preview of our Code. &lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
-
-
-passport.use(new TwitterStrategy({
-    consumerKey: &#39;zhtzjtzjtrzjrzbv437bfgfg&#39;,
-    consumerSecret: &#39;0FsA6435634765wgzfcegcfzgeuwr37ezrrt77bhrtg&#39;,
-    callbackURL: &quot;http://localhost:1337/auth/twitter/callback&quot;
-  },
-  oAuthCallback
-));
-
-passport.use(new GitHubStrategy({
-    clientID: &#39;654457zsthdfghsh4545654z645z6&#39;,
-    clientSecret: &#39;dgedshernwrtz7564546dfvbfv34t4tertertretgreter&#39;,
-    callbackURL: &quot;http://localhost:1337/auth/github/callback&quot;
-  },
-  oAuthCallback
-));
-
-
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Links: &lt;a href=&quot;http://passportjs.org/&quot; target=&quot;_blank&quot;&gt;Passport.js&lt;/a&gt;
-Links: &lt;a href=&quot;https://developer.github.com/v3/oauth/&quot; target=&quot;_blank&quot;&gt;v3 oauth - API
- - OAuth - Web Application Flow&lt;/a&gt;
-Links: &lt;a href=&quot;https://dev.twitter.com/oauth&quot; target=&quot;_blank&quot;&gt;OAuth
-Send secure authorized requests to the Twitter API&lt;/a&gt;
-Links: &lt;a href=&quot;https://github.com/balderdashy/waterline&quot; target=&quot;_blank&quot;&gt;Waterline.js&lt;/a&gt;
-Links: &lt;a href=&quot;http://sailsjs.org/#!/&quot; target=&quot;_blank&quot;&gt;sails.js&lt;/a&gt;
-Links: &lt;a href=&quot;https://github.com/settings/developers&quot;&gt;Github Developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://space.lucasgatsas.ch/waves&quot; target=&quot;_blank&quot;&gt;space.lucasgatsas.ch/waves&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-“Die Wahrheit ist, es hat niemals auf der Welt viele bemerkenswerte Leute gegeben. Die meisten stützen sich ständig auf den Typ gerade neben ihnen - und fragen, was sie tun sollen.” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Wed, 17 Jun 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/06/17/oauth-github-twitter-api/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/06/17/oauth-github-twitter-api/</guid>
         
         
       </item>

@@ -248,6 +248,614 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 			<div class="content">
   
     <article>
+			<header class="intro-header" style="background-image: url('/img/Pi2ModB1GB_-comp-1.jpeg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-10-06T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/">October 06, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/" id="post-title-h1" rel="bookmark" title="Run Your Web App via port 80 - Sails.js" itemprop="url">Run Your Web App via port 80 - Sails.js</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/" rel="bookmark" title="Run Your Web App via port 80 - Sails.js" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
+
+<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
+
+<p>I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
+I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram. </p>
+
+<p>First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.</p>
+
+<p>Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. </p>
+
+<p><strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> </p>
+
+<p>All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
+DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). </p>
+
+<p>First Open your Terminal in Mac Osx. Then Type </p>
+
+<p>(1.) <code> ping raspberrypi.local </code> </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+
+</pre></pre></div>
+
+<p>After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. </p>
+
+<p>(2.) <code> ssh pi@raspberrypi.local </code> </p>
+
+<p>Now do you will get to the ssh RSA Key, if you have one.  </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
+The authenticity of host 'raspberrypi.local (10.0.0.3)' can't be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)?
+
+</pre></pre></div>
+
+<p>Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ 
+
+
+</pre></pre></div>
+
+<p>Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Right After you entry your RaspberryPi via Termina, you have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.</p>
+
+<p>(3.) <code>sudo apt-get install tightvncserver </code> </p>
+
+<p>Don’t be worry this need a while, after that process type Commandline </p>
+
+<p>(4.) <code> tightvncserver </code> </p>
+
+<p>you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer. </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New 'X' desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+
+
+</pre></pre></div>
+
+<p>At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> </p>
+
+<p>Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. </p>
+
+<p>Cheers!</p>
+
+<p>ps: Install Video will come up soon. Stay Tuned!</p>
+
+<center>
+
+<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/8PHK_lTgjl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-30T01:21:57+00:00">29. Sep 2015 um 18:21 Uhr</time></p></div></blockquote>
+<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
+
+</center>
+
+<p><a href="/img/p-4.png">
+    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><a href="/img/pi-3.png">
+    <img src="/img/pi-3.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><a href="/img/pi1.png">
+    <img src="/img/pi1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>My Full Terminal Work: </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Last login: Mon Sep 28 03:04:26 on ttys000
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+Space-O-Mac-Pro:~ cyberspace$ ssh pi@raspberrypi.local
+The authenticity of host 'raspberrypi.local (10.0.0.4)' can't be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'raspberrypi.local,10.0.0.4' (RSA) to the list of known hosts.
+pi@raspberrypi.local's password: 
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ ls
+Desktop  python_games
+pi@raspberrypi ~ $ sudo apt-get install tightvncserver
+Paketlisten werden gelesen... Fertig
+Abhängigkeitsbaum wird aufgebaut.       
+Statusinformationen werden eingelesen.... Fertig
+Die folgenden zusätzlichen Pakete werden installiert:
+  xfonts-base
+Vorgeschlagene Pakete:
+  tightvnc-java
+Die folgenden NEUEN Pakete werden installiert:
+  tightvncserver xfonts-base
+0 aktualisiert, 2 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
+Es müssen 6.967 kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 9.988 kB Plattenplatz zusätzlich benutzt.
+Möchten Sie fortfahren [J/n]? ja
+Holen: 1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main tightvncserver armhf 1.3.9-6.4 [786 kB]
+Holen: 2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main xfonts-base all 1:1.0.3 [6.181 kB]
+Es wurden 6.967 kB in 4 s geholt (1.570 kB/s).
+Vormals nicht ausgewähltes Paket tightvncserver wird gewählt.
+(Lese Datenbank ... 77851 Dateien und Verzeichnisse sind derzeit installiert.)
+Entpacken von tightvncserver (aus .../tightvncserver_1.3.9-6.4_armhf.deb) ...
+Vormals nicht ausgewähltes Paket xfonts-base wird gewählt.
+Entpacken von xfonts-base (aus .../xfonts-base_1%3a1.0.3_all.deb) ...
+Trigger für man-db werden verarbeitet ...
+Trigger für fontconfig werden verarbeitet ...
+tightvncserver (1.3.9-6.4) wird eingerichtet ...
+update-alternatives: /usr/bin/tightvncserver wird verwendet, um /usr/bin/vncserver (vncserver) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/Xtightvnc wird verwendet, um /usr/bin/Xvnc (Xvnc) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/tightvncpasswd wird verwendet, um /usr/bin/vncpasswd (vncpasswd) im Auto-Modus bereitzustellen
+xfonts-base (1:1.0.3) wird eingerichtet ...
+pi@raspberrypi ~ $ tightvncserver
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New 'X' desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+pi@raspberrypi ~ $ 
+
+</pre></pre></div>
+
+<p>Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a> </p>
+
+<blockquote>
+"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
+</blockquote>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
+
+	</td>
+</div>
+	</article>
+
+  
+    <article>
+			<header class="intro-header" style="background-image: url('/img/Pi2ModB1GB_-comp-1.jpeg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+				
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="2015-09-30T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/">September 30, 2015</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="http://lucasgatsas.ch/about/" title="About "></a>
+						</span>
+					</span>
+						
+				</div>
+		
+				
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/" id="post-title-h1" rel="bookmark" title="Run Raspberry Pi over Mac Os X" itemprop="url">Run Raspberry Pi over Mac Os X</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/" rel="bookmark" title="Run Raspberry Pi over Mac Os X" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				
+			</header>
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
+
+<p>I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
+I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram. </p>
+
+<p>First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.</p>
+
+<p>Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. </p>
+
+<p><strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> </p>
+
+<p>All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
+DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). </p>
+
+<p>First Open your Terminal in Mac Osx. Then Type </p>
+
+<p>(1.) <code> ping raspberrypi.local </code> </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+
+</pre></pre></div>
+
+<p>After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. </p>
+
+<p>(2.) <code> ssh pi@raspberrypi.local </code> </p>
+
+<p>Now do you will get to the ssh RSA Key, if you have one.  </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
+The authenticity of host 'raspberrypi.local (10.0.0.3)' can't be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)?
+
+</pre></pre></div>
+
+<p>Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ 
+
+
+</pre></pre></div>
+
+<p>Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Right After you entry your RaspberryPi via Termina, you have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.</p>
+
+<p>(3.) <code>sudo apt-get install tightvncserver </code> </p>
+
+<p>Don’t be worry this need a while, after that process type Commandline </p>
+
+<p>(4.) <code> tightvncserver </code> </p>
+
+<p>you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer. </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New 'X' desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+
+
+</pre></pre></div>
+
+<p>At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> </p>
+
+<p>Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. </p>
+
+<p>Cheers!</p>
+
+<p>ps: Install Video will come up soon. Stay Tuned!</p>
+
+<center>
+
+<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/8PHK_lTgjl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-30T01:21:57+00:00">29. Sep 2015 um 18:21 Uhr</time></p></div></blockquote>
+<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
+
+</center>
+
+<p><a href="/img/p-4.png">
+    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><a href="/img/pi-3.png">
+    <img src="/img/pi-3.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><a href="/img/pi1.png">
+    <img src="/img/pi1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>My Full Terminal Work: </p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Last login: Mon Sep 28 03:04:26 on ttys000
+Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
+PING raspberrypi.local (10.0.0.3): 56 data bytes
+64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
+^C
+--- raspberrypi.local ping statistics ---
+21 packets transmitted, 21 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+Space-O-Mac-Pro:~ cyberspace$ ssh pi@raspberrypi.local
+The authenticity of host 'raspberrypi.local (10.0.0.4)' can't be established.
+RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'raspberrypi.local,10.0.0.4' (RSA) to the list of known hosts.
+pi@raspberrypi.local's password: 
+Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 28 00:04:24 2015
+pi@raspberrypi ~ $ ls
+Desktop  python_games
+pi@raspberrypi ~ $ sudo apt-get install tightvncserver
+Paketlisten werden gelesen... Fertig
+Abhängigkeitsbaum wird aufgebaut.       
+Statusinformationen werden eingelesen.... Fertig
+Die folgenden zusätzlichen Pakete werden installiert:
+  xfonts-base
+Vorgeschlagene Pakete:
+  tightvnc-java
+Die folgenden NEUEN Pakete werden installiert:
+  tightvncserver xfonts-base
+0 aktualisiert, 2 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
+Es müssen 6.967 kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 9.988 kB Plattenplatz zusätzlich benutzt.
+Möchten Sie fortfahren [J/n]? ja
+Holen: 1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main tightvncserver armhf 1.3.9-6.4 [786 kB]
+Holen: 2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main xfonts-base all 1:1.0.3 [6.181 kB]
+Es wurden 6.967 kB in 4 s geholt (1.570 kB/s).
+Vormals nicht ausgewähltes Paket tightvncserver wird gewählt.
+(Lese Datenbank ... 77851 Dateien und Verzeichnisse sind derzeit installiert.)
+Entpacken von tightvncserver (aus .../tightvncserver_1.3.9-6.4_armhf.deb) ...
+Vormals nicht ausgewähltes Paket xfonts-base wird gewählt.
+Entpacken von xfonts-base (aus .../xfonts-base_1%3a1.0.3_all.deb) ...
+Trigger für man-db werden verarbeitet ...
+Trigger für fontconfig werden verarbeitet ...
+tightvncserver (1.3.9-6.4) wird eingerichtet ...
+update-alternatives: /usr/bin/tightvncserver wird verwendet, um /usr/bin/vncserver (vncserver) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/Xtightvnc wird verwendet, um /usr/bin/Xvnc (Xvnc) im Auto-Modus bereitzustellen
+update-alternatives: /usr/bin/tightvncpasswd wird verwendet, um /usr/bin/vncpasswd (vncpasswd) im Auto-Modus bereitzustellen
+xfonts-base (1:1.0.3) wird eingerichtet ...
+pi@raspberrypi ~ $ tightvncserver
+
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? no
+
+New 'X' desktop is raspberrypi:1
+
+Creating default startup script /home/pi/.vnc/xstartup
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:1.log
+
+pi@raspberrypi ~ $ 
+
+</pre></pre></div>
+
+<p>Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a> </p>
+
+<blockquote>
+"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
+</blockquote>
+
+
+		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
+
+	</td>
+</div>
+	</article>
+
+  
+    <article>
 			<header class="intro-header" style="background-image: url('/img/living-room-inspiration-5.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
@@ -509,371 +1117,6 @@ LESS-sublime.git LESS</code> </p>
 <blockquote>
 "CoffeeScript, Jade and Stylus syntax highlighting in Sublime Text 2
 Raw"
-</blockquote>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/deskto-1.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-08-25T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/">August 25, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" id="post-title-h1" rel="bookmark" title="Create a GeoDNS" itemprop="url">Create a GeoDNS</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" rel="bookmark" title="Create a GeoDNS" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Geo DNS - CDN Servers</h2>
-<h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
-
-<p>Rolling Your Own <code>CDN </code> – Build A 3 Continent CDN For $25 In 1 Hour</p>
-
-<p>First create a folder <code>mkdir /dns</code></p>
-
-<p>Then run:
-docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
-<code>/dns:/opt/geodns/dns 
-	coocood/geodns /opt/geodns/geodns.</code></p>
-
-<p>Put zone files in /dns.</p>
-
-<p>Zone file is <code> json </code> formatted, file name looks like “deployiotest.com.json”, it’s content looks like:</p>
-
-<p><strong>Step 1: Order a DNS instance from DigitalOcean.</strong> </p>
-
-<p>We chose SFO and the 2nd smallest instance.</p>
-
-<p>We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.</p>
-
-<p><br /> </p>
-
-<p><code>ns1.deploy.io    192.241.224.116 </code>
-<code>ns2.deploy.io    192.241.224.116 </code></p>
-
-<p><br /></p>
-
-<p><strong> Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance</strong></p>
-
-<p>See https://index.docker.io/u/coocood/geodns for detail.</p>
-
-<p><br /></p>
-
-<p><strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> </p>
-
-<p>We used the smallest instance.  We setup DNS for this example using them:</p>
-
-<p><br />
-<code>test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo </code>
-<code>test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo </code>
-<code>test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo </code>
-<code>test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo </code></p>
-
-<p><br /></p>
-
-<p>Here’s what DigitalOcean’s web interface looks like with all the machines spun up:</p>
-
-<p><br /> </p>
-
-<p><a href="/img/1789766_orig1.png">
-    <img src="/img/1789766_orig1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p><br /> </p>
-
-<p><strong> Setup 4: Setup a test domain for the CDN:</strong> </p>
-
-<p>If you lookup deployiotest.com the 4 web servers are chosen randomly</p>
-
-<p>If you look up www.deployiotest.com, it will go to the closest geo server.</p>
-
-<p>Set the name servers to point to:</p>
-
-<p><br /> </p>
-
-<p><code> ns1.deploy.io 192.241.224.116 </code>
-<code> ns2.deploy.io 192.241.224.116 </code></p>
-
-<p><br />   </p>
-
-<p><strong>SEE THE CDN GEO DNS WORKING</strong> </p>
-
-<p><a href="/img/dns-geo.png">
-    <img src="/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p><br /> </p>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-
-	{
-	"serial":1394372421,
-	"ttl":    390,
-	"targeting": "country continent @ regiongroup region asn",
-	"data":{
-	    "":{
-	        "ns": [ "ns1.deploy.io", "ns2.deploy.io" ],
-	        "a":[
-	            [
-	               "107.170.45.174",
-	               "1000"
-	            ],
-	            [
-	               "128.199.216.96",
-	               "1000"
-	            ],
-	            [
-	               "107.170.251.75",
-	               "1000"
-	            ],
-	            [
-	               "188.226.185.173",
-	               "1000"
-	            ]
-	        ]
-	    },
-	    "www":{
-	        "alias": ""    
-	    },
-	    "www.us-west":{
-	        "cname": "test-sfo-do.deploy.io."    
-	    },
-	    "www.europe":{
-	        "cname": "test-ams-do.deploy.io."    
-	    },
-	    "www.asia":{
-	        "cname": "test-sin-do.deploy.io."    
-	    },
-	    "www.us-east":{
-	        "cname": "test-jfk-do.deploy.io."    
-	    }
-	  }
-	}
-
-</pre></pre></div>
-
-<p><br /> </p>
-
-<p><strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code> </strong></strong></p>
-
-<p>Just test it on <code> www.just-ping.com. </code></p>
-
-<p><code> Todo </code> </p>
-
-<p><br /> </p>
-
-<p>Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example</p>
-
-<p><br /> </p>
-
-<p>Add a way to take servers in and out of rotation using a little daemon on the geodns server</p>
-
-<p><br /> </p>
-
-<p>Tune the Geo map for places outside of the US/Europe and Asia.</p>
-
-<p><br /></p>
-
-<p>Add more virtual servers from other providers</p>
-
-<p><br /></p>
-
-<p>Add a way to spin up servers using lib-cloud</p>
-
-<p><br /> </p>
-
-<p><a href="/img/dns-geo-cdn.png">
-    <img src="/img/dns-geo-cdn.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS - CDN Servers</a> Link: <a href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> Link: <a href="http://nginx.org/" target="_blank"> Nginx </a></p>
-
-<p>see <a href="https://github.com/abh/geodns" target="_blank">Geo DNS - CDN Servers</a> for more detail</p>
-
-<blockquote>
-"HUB DOCKER coocood/geodns - Build, Ship, and Run
-Any App, Anywhere"
-</blockquote>
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-01256437283514.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2015-07-07T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/">July 07, 2015</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/" id="post-title-h1" rel="bookmark" title="Mongo DB" itemprop="url">Mongo DB</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/" rel="bookmark" title="Mongo DB" itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-    </article>
-	<article class="container hentry">
-		<div class="entry-content">
-			<h2 class="section-heading">Mongo DB</h2>
-<h2 class="section-heading">"Agility, Scalability, Performance Database"</h2>
-
-<p><strong>
-PLATFORM SUPPORT
-Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.<strong></strong></strong></p>
-
-<p><strong>Install MongoDB</strong></p>
-
-<p>You can install MongoDB with <strong>Homebrew</strong> or manually. This section describes both.</p>
-
-<p>1.<strong> Update Homebrew’s package database.</strong> 
-In a system shell, issue the following command: </p>
-
-<p><code>brew update </code></p>
-
-<p>2.<strong>Install MongoDB.</strong> 
-You can install MongoDB via brew with several different options. Use one of the following operations:</p>
-
-<p><strong>Install the MongoDB Binaries</strong> 
-To install the MongoDB binaries, issue the following command in a system shell:</p>
-
-<p><code>brew install mongodb</code></p>
-
-<p><code>brew install mongodb --with-openssl</code> </p>
-
-<p><strong> Build MongoDB from Source with TLS/SSL Support<strong> 
-To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:</strong></strong></p>
-
-<p><strong> Install the Latest Development Release of MongoDB</strong> 
-To install the latest development release for use in testing and development, issue the following command in a system shell:</p>
-
-<p><code> brew install mongodb --devel</code> </p>
-
-<p><strong> Install MongoDB Manually </strong> 
-Only install MongoDB using this procedure if you cannot use homebrew.</p>
-
-<p>1.<strong> Download the binary files for the desired release of MongoDB.</strong> 
-Download the binaries from <code> https://www.mongodb.org/
-downloads. </code> </p>
-
-<p>For example, to download the latest release through the shell, issue the following:</p>
-
-<p><strong> curl -O https://fastdl.mongodb.org/
-  osx/mongodb-osx-x86_64-3.0.4.tgz</strong> </p>
-
-<p>2.<strong>Extract the files from the downloaded archive.</strong> 
-For example, from a system shell, you can extract through the tar command:</p>
-
-<p><code>tar -zxvf mongodb-osx-x86_64-3.0.4.tgz</code></p>
-
-<p>3.<strong>Copy the extracted archive to the target directory.</strong>
-Copy the extracted folder to the location from which MongoDB will run.</p>
-
-<p><code>mkdir -p mongodb</code>
-<code>cp -R -n mongodb-osx-x86_
-  64-3.0.4/ mongodb</code></p>
-
-<p>4.<strong>Ensure the location of the binaries is in the PATH variable.</strong>
-The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.</p>
-
-<p>For example, you can add the following line to your shell’s rc file <code>(e.g. ~/.bashrc):</code> </p>
-
-<p>export PATH=<mongodb-install-directory> <code>/bin:$PATH</code>
-Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.</mongodb-install-directory></mongodb-install-directory></p>
-
-<p>Link: <a href="https://www.mongodb.org">Mongo DB</a></p>
-
-<blockquote>
-“Built by developers like you at MongoDB. <strong>Highly Scalable</strong>
-Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
-
- <strong>Flexible Data Model </strong>
-MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
-
-
- <strong>Fastest-Growing Community </strong>
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
 </blockquote>
 
 
