@@ -11,13 +11,28 @@ header-img: "img/sep.jpg"
 <h2 class="section-heading">Run Your Web App via port 80 - Sails.js</h2>
 
 
-
-
-
 The Error was to sails lift the App via only <code> sails lift </code>  
 Get many Times this error back, tried everything to lift the Web App. but Error. 
 To fix this Issue, do you can change some files inside your App. After Run your 
 App with <code> $ sudo sails lift </code>. 
+
+
+
+<br>
+
+I have included a <code> local.js </code> file to the App. 
+Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 1337 </code>.
+The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
+
+
+<br>
+
+Now a was go ahead with the local.js like in the description in the sails.js document! 
+first i have inculded this in the development.js file. and saved this. 
+
+
+
+
 
 
 <div style="overflow:auto; height=200; width=100%;">
@@ -42,15 +57,6 @@ Error: listen EACCES
 
 
 </pre></pre></div> 
-
-
-<br> 
-
-
-
-Now a was go ahead with the local.js like in the description in the sails.js document! 
-first i have inculded this in the development.js file. and saved this. 
-
 
 
 
@@ -141,9 +147,7 @@ module.exports = {
 </pre></pre></div> 
 
 
-I have included a <code> local.js </code> file to the App. 
-Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 1337 </code>.
-The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
+
 
 
 
