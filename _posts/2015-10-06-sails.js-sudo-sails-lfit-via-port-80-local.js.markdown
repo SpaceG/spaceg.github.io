@@ -8,7 +8,7 @@ header-img: "img/sep.jpg"
 ---
 <h2 class="section-heading">奋力拼搏</h2>
 
-<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
+<h2 class="section-heading">Run Your Web App via port 80 - Sails.js</h2>
 
 
 
@@ -50,7 +50,7 @@ first i have inculded this in the development.js file. and saved this.
 
 
 
-The <code> development.js </code>  File!
+<strong>  The <code> development.js </code>  File! </strong> 
 
 
 
@@ -94,7 +94,7 @@ module.exports = {
 <br> 
 
 
-The <code> development.js.bak </code>  File!
+<strong>  The <code> development.js.bak </code>  File! </strong> 
 
 
 <div style="overflow:auto; height=200; width=100%;">
@@ -145,6 +145,7 @@ module.exports = {
 
 
 
+<strong> The <code> local.js </code>  File! </strong> 
 
 
 
