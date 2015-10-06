@@ -22,8 +22,8 @@ Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 133
 The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
 <br>
 
-Now a was go ahead with the local.js like in the description in the sails.js document! 
-first i have inculded this in the development.js file. and saved this. 
+Now a was go ahead with the <code> local.js </code> like in the description in the sails.js document! 
+first i have inculded this in the <code> development.js </code> file. and saved this. 
 
 
 
