@@ -97,37 +97,54 @@ module.exports = {
 
 
 
-
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
-The authenticity of host 'raspberrypi.local (10.0.0.3)' can't be established.
-RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
-Are you sure you want to continue connecting (yes/no)?
+
+
+/**
+ * Development environment settings
+ *
+ * This file can include shared settings for a development team,
+ * such as API keys or remote database passwords.  If you're using
+ * a version control solution for your Sails app, this file will
+ * be committed to your repository unless you add it to your .gitignore
+ * file.  If your repository will be publicly viewable, don't add
+ * any private information to this file!
+ *
+ */
+
+module.exports = {
+
+  /***************************************************************************
+   * Set the default database connection for models in the development       *
+   * environment (see config/connections.js and config/models.js )           *
+   ***************************************************************************/
+
+  // models: {
+  //   connection: 'someMongodbServer'
+  // },
+  
+  /***************************************************************************
+   * Set the port in the development environment to 80                        *
+   ***************************************************************************/
+
+   port: 80,
+};
+
+
+
+
 
 </pre></pre></div> 
 
-Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. 
 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Mon Sep 28 00:04:24 2015
-pi@raspberrypi ~ $ 
+<br> <br> 
 
 
-</pre></pre></div> 
+
 
 
 Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
@@ -307,6 +324,6 @@ pi@raspberrypi ~ $
 Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a> 
 
 <blockquote>
-"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
+"i want, i want, i want , i want !!!!"
 </blockquote>
 
