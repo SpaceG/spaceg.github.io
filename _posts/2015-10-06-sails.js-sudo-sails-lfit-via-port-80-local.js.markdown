@@ -10,27 +10,43 @@ header-img: "img/sep.jpg"
 
 <h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
 
-I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
-I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram. 
 
 
 
 
-First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.
-
-Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don't worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. 
-
+The Error was to sails lift the App via only <code> sails lift </code>  
+Get many Times this error back, tried everything to lift the Web App. but Error. 
 
 
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
 
-<strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> 
+info: To see your app, visit http://localhost
+info: To shut down Sails, press <CTRL> + C at any time.
 
-All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
-DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). 
+debug: --------------------------------------------------------
+debug: :: Tue Oct 06 2015 22:18:40 GMT+0200 (CEST)
+
+debug: Environment : development
+debug: Port        : 80
+debug: --------------------------------------------------------
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EACCES
+    at exports._errnoException (util.js:746:11)
+    at Server._listen2 (net.js:1139:19)
+    at listen (net.js:1182:10)
+
+
+</pre></pre></div> 
 
 
 
-First Open your Terminal in Mac Osx. Then Type 
+Now a was go ahead with the local.js like in the description in the sails.js document! 
+
+
+
 
 
 The <code> development.js </code>  File!
