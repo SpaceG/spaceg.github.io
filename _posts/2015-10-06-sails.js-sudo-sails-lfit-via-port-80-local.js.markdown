@@ -44,6 +44,7 @@ Error: listen EACCES
 
 
 Now a was go ahead with the local.js like in the description in the sails.js document! 
+first i have inculded this in the development.js file. and saved this. 
 
 
 
@@ -89,12 +90,11 @@ module.exports = {
 </pre></pre></div> 
 
 
-After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
 
-(2.) <code> ssh pi@raspberrypi.local </code> 
+<br> 
 
 
-Now do you will get to the ssh RSA Key, if you have one.  
+
 
 
 
