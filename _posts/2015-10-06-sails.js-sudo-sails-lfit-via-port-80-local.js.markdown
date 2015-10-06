@@ -212,13 +212,6 @@ port: process.env.PORT || 80,
 </pre></pre></div> 
 
 
-
-
-
-<br> 
-
-
-
 ps: Install Video will come up soon. Stay Tuned!
 
 
@@ -236,7 +229,7 @@ ps: Install Video will come up soon. Stay Tuned!
 
 
 
-Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js"> local.js</a> 
+Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js" target="_blank"> local.js</a> 
 
 <blockquote>
 "i want, i want, i want , i want !!!!"
