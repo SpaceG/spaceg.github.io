@@ -16,7 +16,8 @@ header-img: "img/sep.jpg"
 
 The Error was to sails lift the App via only <code> sails lift </code>  
 Get many Times this error back, tried everything to lift the Web App. but Error. 
-To fix this Issue, do you can change some files inside your App. 
+To fix this Issue, do you can change some files inside your App. After Run your 
+App with <code> $ sudo sails lift </code>. 
 
 
 <div style="overflow:auto; height=200; width=100%;">
