@@ -15,23 +15,9 @@ header-img: "img/sep.jpg"
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
-info: To see your app, visit http://localhost
-info: To shut down Sails, press <CTRL> + C at any time.
-
-debug: --------------------------------------------------------
-debug: :: Tue Oct 06 2015 22:18:40 GMT+0200 (CEST)
-
-debug: Environment : development
-debug: Port        : 80
-debug: --------------------------------------------------------
-events.js:85
-      throw er; // Unhandled 'error' event
-            ^
-Error: listen EACCES
-    at exports._errnoException (util.js:746:11)
-    at Server._listen2 (net.js:1139:19)
-    at listen (net.js:1182:10)
-
+--iptables -A INPUT -i eth0 -p tcp --dport 80 -j ACCEPT
+--iptables -A INPUT -i eth0 -p tcp --dport 8080 -j ACCEPT
+--iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
 
 </pre></pre></div> 
 
