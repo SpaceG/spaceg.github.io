@@ -23,15 +23,6 @@ header-img: "img/sep.jpg"
 
 
 
-
-PerfectWork: With Carbon based Lifeforms - Interloper!
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/-9pgIVcB3rk" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-
 <!--
 
 <a href="{{ site.baseurl }}/img/p-4.png">
@@ -53,6 +44,6 @@ Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deployi
 
 
 <blockquote>
-"i want, i want, i want , i want !!!!"
+"Port Running on Linux Ubuntu Servers"
 </blockquote>
 
