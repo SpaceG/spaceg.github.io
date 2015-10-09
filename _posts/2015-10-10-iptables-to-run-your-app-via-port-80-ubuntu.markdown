@@ -35,11 +35,8 @@ header-img: "img/sep.jpg"
 
 
 
-Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js" target="_blank"> local.js</a> 
-Link: <a href="http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp" target="_blank"> superuser</a> 
-Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> sails issues</a> 
-Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error" target="_blank"> Stack Overflow</a> 
-
+Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a> 
+Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a> 
 
 
 
