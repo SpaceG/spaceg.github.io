@@ -4,7 +4,7 @@ title:      "ipTables - Run Port on 80 on Ubuntu Linux"
 subtitle:   "Set Up ipTables"
 date:       2015-10-10 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/sep.jpg"
+header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
 ---
 <h2 class="section-heading">ipTables</h2>
 
