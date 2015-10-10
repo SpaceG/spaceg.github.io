@@ -27,6 +27,67 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 --> 
 
 
+{% highlight ruby %}
+
+
+root@gitlist:/etc/nginx/sites-enabled# nano default
+
+  GNU nano 2.2.6                            File: default                                                                
+
+
+        # deny access to .htaccess files, if Apache's document root
+        # concurs with nginx's one
+        #
+        #location ~ /\.ht {
+        #       deny all;
+        #}
+}
+
+
+# another virtual host using mix of IP-, name-, and port-based configuration
+#
+#server {
+#       listen 81;
+#       listen somename:81;
+#       server_name somename alias another.alias;
+#       root html;
+#       index index.html index.htm;
+#
+#       location / {
+#               try_files $uri $uri/ =404;
+#       }
+#}
+
+
+# HTTPS server
+#
+#server {
+#       listen 443;
+#       server_name localhost:81;
+#
+#       root html;
+#       index index.html index.htm;
+#
+#       ssl on;
+#       ssl_certificate cert.pem;
+#       ssl_certificate_key cert.key;
+#
+#       ssl_session_timeout 5m;
+#
+#       ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
+#       ssl_ciphers "HIGH:!aNULL:!MD5 or HIGH:!aNULL:!MD5:!3DES";
+#       ssl_prefer_server_ciphers on;
+#
+#       location / {
+#               try_files $uri $uri/ =404;
+#       }
+#}
+
+
+
+{% endhighlight %}
+
+
 
 
 Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a> 
