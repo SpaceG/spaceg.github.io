@@ -35,8 +35,7 @@ First Open your Terminal in Mac Osx. Then Type
 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
 
 Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
 PING raspberrypi.local (10.0.0.3): 56 data bytes
@@ -66,7 +65,8 @@ PING raspberrypi.local (10.0.0.3): 56 data bytes
 21 packets transmitted, 21 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
 
-</pre></pre></div> 
+{% endhighlight %}
+
 
 
 After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
@@ -78,22 +78,20 @@ Now do you will get to the ssh RSA Key, if you have one.
 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
 
 Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
 The authenticity of host 'raspberrypi.local (10.0.0.3)' can't be established.
 RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
 Are you sure you want to continue connecting (yes/no)?
 
-</pre></pre></div> 
+{% endhighlight %}
 
 Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. 
 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
 
 Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
 
@@ -107,7 +105,7 @@ Last login: Mon Sep 28 00:04:24 2015
 pi@raspberrypi ~ $ 
 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
@@ -124,8 +122,8 @@ you will get this Information out : Type your Password from your PI. After he as
 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+
+{% highlight ruby %}
 
 You will require a password to access your desktops.
 
@@ -141,7 +139,7 @@ Log file is /home/pi/.vnc/raspberrypi:1.log
 
 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
