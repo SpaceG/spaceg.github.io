@@ -10,17 +10,14 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 
 <h2 class="section-heading">Run Your Web App via port 80 on Ubuntu Linux Machine - Sails.js</h2>
 
+{% highlight ruby %}
 
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
 
 --iptables -A INPUT -i eth0 -p tcp --dport 80 -j ACCEPT
 --iptables -A INPUT -i eth0 -p tcp --dport 8080 -j ACCEPT
 --iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
 
-</pre></pre></div> 
-
+{% endhighlight %}
 
 
 <!--
