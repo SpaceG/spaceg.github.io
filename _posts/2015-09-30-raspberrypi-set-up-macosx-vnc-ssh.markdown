@@ -184,8 +184,8 @@ ps: Install Video will come up soon. Stay Tuned!
 
 My Full Terminal Work: 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
+
 
 Last login: Mon Sep 28 03:04:26 on ttys000
 Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
@@ -277,7 +277,7 @@ Log file is /home/pi/.vnc/raspberrypi:1.log
 
 pi@raspberrypi ~ $ 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 
