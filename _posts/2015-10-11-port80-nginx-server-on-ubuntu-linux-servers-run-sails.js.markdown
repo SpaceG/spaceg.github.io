@@ -27,10 +27,13 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 --> 
 
 
+<strong> The Code inside and port changes to :81</strong>
+
+
 {% highlight ruby %}
 
 
-root@gitlist:/etc/nginx/sites-enabled# nano default
+root@webapp:/etc/nginx/sites-enabled# nano default
 
   GNU nano 2.2.6                            File: default                                                                
 
