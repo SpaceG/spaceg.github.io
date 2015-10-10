@@ -29,9 +29,8 @@ first i have inculded this in the <code> development.js </code> file. and saved 
 
 
 
+{% highlight ruby %}
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
 
 info: To see your app, visit http://localhost
 info: To shut down Sails, press <CTRL> + C at any time.
@@ -51,7 +50,7 @@ Error: listen EACCES
     at listen (net.js:1182:10)
 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 
@@ -61,8 +60,8 @@ Error: listen EACCES
 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
+
 /**
  * Development environment settings
  *
@@ -93,7 +92,7 @@ module.exports = {
    // port: 80,
 };
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 
@@ -103,8 +102,7 @@ module.exports = {
 <strong>  The <code> development.js.bak </code>  File! </strong> 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
 
 
 
@@ -139,7 +137,7 @@ module.exports = {
 };
 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 
@@ -149,9 +147,7 @@ module.exports = {
 <strong> The <code> local.js </code>  File! </strong> 
 
 
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
 
 
 /**
@@ -204,7 +200,7 @@ port: process.env.PORT || 80,
 
 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 
@@ -213,8 +209,7 @@ port: process.env.PORT || 80,
 Pingo The WebApp is running now on <code> localhost </code> 
 
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+{% highlight ruby %}
 
 
 
@@ -250,7 +245,7 @@ debug: --------------------------------------------------------
 
 
 
-</pre></pre></div> 
+{% endhighlight %}
 
 
 
