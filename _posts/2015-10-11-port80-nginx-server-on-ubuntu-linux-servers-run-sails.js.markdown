@@ -9,6 +9,13 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 
 <h2 class="section-heading">Nginx Port 80 </h2>
 
+
+
+To change the Port from Ngnix to :81 is very easy steps. : Open your path in your Terminal root. 
+go to this path <code> /etc/nginx/sites-enabled/  </code> 
+
+
+
 {% highlight ruby %}
 
 
