@@ -55,7 +55,7 @@ Error: listen EACCES
 
 
 
-<strong>  The <code> development.js </code>  File! </strong> 
+The <code> development.js </code>  File! 
 
 
 
@@ -99,7 +99,7 @@ module.exports = {
 <br> 
 
 
-<strong>  The <code> development.js.bak </code>  File! </strong> 
+ The <code> development.js.bak </code>  File! 
 
 
 {% highlight ruby %}
@@ -143,8 +143,7 @@ module.exports = {
 
 
 
-
-<strong> The <code> local.js </code>  File! </strong> 
+ The <code> local.js </code>  File! 
 
 
 {% highlight ruby %}
