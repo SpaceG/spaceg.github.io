@@ -107,7 +107,9 @@ sudo sysctl -w net.inet.tcp.always_keepalive=9999 (Damit setzen wir die Lebensda
 
 
 Link: <a href="http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection" target="_blank"> Linux Ubuntu Broken Pipe </a> 
-Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a> 
+
+<!-- 
+Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a>  --> 
 
 
 
