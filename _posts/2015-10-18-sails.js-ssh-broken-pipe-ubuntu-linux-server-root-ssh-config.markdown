@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      "Broken Pipe"
+subtitle:   "Ubuntu Linux Server"
+date:       2015-10-18 14:00:44
+author:     "Lucas Gatsas"
+header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
+---
+
+<h2 class="section-heading">Broken Pipe - Write failed: Broken pipe
+</h2>
+
+
+
+
+
+{% highlight ruby %}
+
+debug: :: Sun Oct 18 2015 12:05:54 GMT-0400 (EDT)
+
+debug: Environment : development
+debug: Port        : 80
+debug: --------------------------------------------------------
+Write failed: Broken pipe
+Space-O-Mac-Pro:~ cypo$ ssh root@xxx.xxx.xxx.xx
+
+
+root@xxx.xxx.xxx.xx's password: 
+
+{% endhighlight %}
+
+
+
+
+{% highlight ruby %}
+
+ npm clear cache
+ npm rebuild
+ sudo sails lift
+
+{% endhighlight %}
+
+
+
+
+Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a> 
+Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a> 
+
+
+
+<blockquote>
+"Port Running on Linux Ubuntu Servers"
+</blockquote>
+
