@@ -58,6 +58,41 @@ root@xxx.xxx.xxx.xx's password:
 
 
 
+<strong> MAC OS X </strong> 
+
+Zur Sicherheit bearbeiten Sie gleich 2 config Dateien auf dem MAC. Die allgemeine SSH Config Datei und die SSH Config Datei des Users.
+
+Hier liegen die beiden SSH Konfigurationsdateien
+
+<code>cd ~ </code> (ins Homeverzeichnis des aktuellen Benutzers wechseln. Mit diesem Bentzer müssen wir uns später auch per SSH anmelden)
+
+<code> 
+cd .ssh </code> 
+(und) <code>  cd /etc/ </code> 
+Ist dies Datei sshd_config nicht vorhanden legen Sie die Datei mit
+
+<code> touch sshd_config </code>
+
+neu an.
+
+Bearbeiten Sie die Datei sshd_config nun mit
+
+vim sshd_config
+und fügen Sie folgende Zeilen ein:
+
+Host *
+ServerAliveInterval 30
+ServerAliveCountMax 120
+Nun sollte das write failed, broken pipe Problem unter Mac OSX nicht mehr vorkommen.
+
+SSH Verbindung bricht immer noch ab?
+Versuchen Sie folgende Einstellungen:
+
+TCPKeepAlive yes
+sudo sysctl -w net.inet.tcp.always_keepalive=9999 (Damit setzen wir die Lebensdauer von TCP Verbindungen höher. hat bei uns geholfen!)
+
+
+
 
 
 {% highlight ruby %}
@@ -71,7 +106,7 @@ root@xxx.xxx.xxx.xx's password:
 
 
 
-Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a> 
+Link: <a href="http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection" target="_blank"> Linux Ubuntu Broken Pipe </a> 
 Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a> 
 
 
