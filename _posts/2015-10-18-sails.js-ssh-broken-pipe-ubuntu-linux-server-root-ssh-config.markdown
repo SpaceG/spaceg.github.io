@@ -21,8 +21,11 @@ Fügen Sie folgende Zeilen in die sshd_config Datei hinzu
 <br>
 Die Meldung „write failed: broken pipe“ tritt häufig während einer aktiven SSH Sitzung auf. Dafür verantwortlich ist eine zu lange Antwortzeit vom Server, der ein Debian Linux Server oder auch genau so ein MAC OS X Rechner sein kann. Das Problem eines Sitzungsabbruches mit write failed: broken pipe ist bei uns in der Verwendung mit dem Tar-Befehl beim anfertigen eines Backups zu einem entfernten MAC OS X Servers aufgetreten.
 
+<strong> Warum „write failed broken pipe“? </strong> 
+Braucht der Server zu lange um eine Antwort zu senden wird die TCP Verbindung geschlossen und eine neue Anmeldung ist erforderlich. Wird die Verbindung während eines Datentransfers geschlossen, so kommt es zu dem Fehler write failed:broken pipe. Dieses Problem kann während eines tar oder rsync Kommandos auf allen Unix- und somit auch auf allen MAC OS X Systemen auftreten.
 
 
+<br> 
 <br>
 
 
