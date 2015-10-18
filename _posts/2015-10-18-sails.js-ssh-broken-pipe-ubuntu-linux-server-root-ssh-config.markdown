@@ -32,6 +32,9 @@ root@xxx.xxx.xxx.xx's password:
 
 
 
+
+
+
 {% highlight ruby %}
 
  npm clear cache
