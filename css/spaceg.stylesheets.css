@@ -448,8 +448,8 @@ strong#gitlist-blue-color {
 
 button#gitlist-promo-readmore {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color:  rgb(66, 127, 237);
+  border-color:  rgb(66, 127, 237);
 }
 button#gitlist-promo-readmore:hover {
   color: #fff;
