@@ -67,14 +67,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Blog Title -->
     <title>Lucas Gatsas - Web Developer & Front-End Engineer from Switzerland. </title>
 
-    <!--     <title>lucas gatsas</title>
+    <!--     <title>Broken Pipe - lucas gatsas</title>
 --> 
     <!-- Property Metas --> 
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <!-- Canonical -->
-    <link rel="canonical" href="http://lucasgatsas.ch/page89/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
@@ -110,7 +110,19 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
-
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #1F1F1F;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
     a {
     color: rgb(138, 138, 138);
 }
@@ -267,476 +279,132 @@ code {
 
 
 
-    <!-- New Update on Mi.12.August.2015 by Lucas Gatsas on 22:08:42 --> 
-     <!-- New Update --> 
-
-
-<header class="intro-header" style="background-image: url('/')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
-    <div class="container head">
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-<br><br>
-             <img class="img-circle portfolio-link center-block" src="/img/zLAW5YPs_400x400.jpg"  href="#portfolioModal1" data-toggle="modal" width="100" height="100" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"><br>
-              
-                    <span class="subheading" id="textfloat">Hello, my Name is <a href="http://www.twitter.com/lucasgatsas" target="_blank"><strong id="gitlist-blue-color">Lucas Gatsas</strong></a>. <br> I'm the Founder/CEO and Developer of <a href="http://www.twitter.com/lucasgatsas" target="_blank"><strong id="gitlist-blue-color">Gitlist.io</strong></a> I'm a UI Designer/ Front-End Engineer & Software Engineer based in the City of Saint Gallen, Switzerland. 
-                       <br> <br>
+                <div class="post-heading">
+                    <h1>Broken Pipe</h1>
                     
-                    <i class="fa fa-chevron-down" id="scroll-down"></i>
-                    </span>
+                    <h2 class="subheading">Ubuntu Linux Server</h2>
+                    
+                    <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<h2 class="section-heading">Broken Pipe - Write failed: Broken pipe
+</h2>
+
+<p><br /><br /><br /> 
+Linux System</p>
+
+<p><code> cd /etc/ssh/ </code>  (in das SSH Verzeichnis wechseln)
+<code> vim sshd_config </code>  (sshd_config bearbeiten)
+Fügen Sie folgende Zeilen in die sshd_config Datei hinzu
+<br />
+Die Meldung „write failed: broken pipe“ tritt häufig während einer aktiven SSH Sitzung auf. Dafür verantwortlich ist eine zu lange Antwortzeit vom Server, der ein Debian Linux Server oder auch genau so ein MAC OS X Rechner sein kann. Das Problem eines Sitzungsabbruches mit write failed: broken pipe ist bei uns in der Verwendung mit dem Tar-Befehl beim anfertigen eines Backups zu einem entfernten MAC OS X Servers aufgetreten.</p>
+
+<p><strong> Warum „write failed broken pipe“? </strong> 
+Braucht der Server zu lange um eine Antwort zu senden wird die TCP Verbindung geschlossen und eine neue Anmeldung ist erforderlich. Wird die Verbindung während eines Datentransfers geschlossen, so kommt es zu dem Fehler write failed:broken pipe. Dieses Problem kann während eines tar oder rsync Kommandos auf allen Unix- und somit auch auf allen MAC OS X Systemen auftreten.</p>
+
+<p><br /> 
+<br /></p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">ServerAliveInterval</span> <span class="mi">30</span>
+<span class="no">ServerAliveCountMax</span> <span class="mi">120</span></code></pre></div>
+
+<p><br /> </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">debug</span><span class="p">:</span> <span class="o">::</span> <span class="no">Sun</span> <span class="no">Oct</span> <span class="mi">18</span> <span class="mi">2015</span> <span class="mi">12</span><span class="p">:</span><span class="mo">05</span><span class="p">:</span><span class="mi">54</span> <span class="no">GMT</span><span class="o">-</span><span class="mo">0400</span> <span class="p">(</span><span class="no">EDT</span><span class="p">)</span>
+
+<span class="ss">debug</span><span class="p">:</span> <span class="no">Environment</span> <span class="p">:</span> <span class="n">development</span>
+<span class="ss">debug</span><span class="p">:</span> <span class="no">Port</span>        <span class="p">:</span> <span class="mi">80</span>
+<span class="ss">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
+<span class="no">Write</span> <span class="ss">failed</span><span class="p">:</span> <span class="no">Broken</span> <span class="n">pipe</span>
+<span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="o">~</span> <span class="n">cypo</span><span class="err">$</span> <span class="n">ssh</span> <span class="n">root</span><span class="vi">@xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xx</span>
 
 
-<!--
-   <div id="fullpage" class="sections-wrapper">
-            
-            <section id="promo" class="promo section gradient-1">
-                <div class="container">
-                    <div class="row">                                      
-                        <div class="intro-area col-md-4 col-sm-12 col-xs-12">
-                               <h1 class="logo">
-                    <a href="#">Gitlist.io</a>
-                </h1>
-                            <h2 class="title">Meet the Newest Gits</h2>
-                            <p class="intro">Gitlist the best Place to Share your Gits and Repos from GitHub. Get the Developer Social Network soon and Share your Gits with our Gitlist. Create your Gitlist Today.</p>
-                        
-                      
+<span class="n">root</span><span class="vi">@xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xx</span><span class="err">&#39;</span><span class="n">s</span> <span class="ss">password</span><span class="p">:</span></code></pre></div>
 
+<p><strong> MAC OS X </strong> </p>
 
-                        </div>
-                        <div class="clearfix visible-sm-block visible-xs-block"></div>
-                        <div class="download-area col-md-4 col-sm-6 col-xs-12 col-md-push-4 col-sm-push-6 col-xs-push-0">
-                            <ul class="list-unstyled download-buttons">
+<p>Zur Sicherheit bearbeiten Sie gleich 2 config Dateien auf dem MAC. Die allgemeine SSH Config Datei und die SSH Config Datei des Users.</p>
 
-                            </ul>
-                            <ul class="list-unstyled summary">
-                                <li><i class="fa fa-check"></i> <a href="index.html#gitlist">Work the way you live</a></li>
-                                <li><i class="fa fa-check"></i> <a href="index.html#benefit2">Capture the moment</a></li>
-                                <li><i class="fa fa-check"></i> <a href="index.html#benefit3">A new way to connect</a></li>
-                                <li><i class="fa fa-check"></i> <a href="index.html#download">Trusted by many</a></li>
-                                <li>                            <p class="lead-text" id="gitlist-landing"><a href="http://gitlist.io/" id="gitlist-landing"></a><br>©. 2015 by Gitlist. all rights reserved. <br> 
+<p>Hier liegen die beiden SSH Konfigurationsdateien</p>
 
-</p>                            <a href="index.html#gitlist" class="animate pe-7s-bottom-arrow pe-3x"></a>
-</li>
-                            </ul>
+<p><code>cd ~ </code> (ins Homeverzeichnis des aktuellen Benutzers wechseln. Mit diesem Bentzer müssen wir uns später auch per SSH anmelden)</p>
 
-                        </div>
-                        <div class="clearfix visible-xs-block"></div>
-                        <div class="device device-iphone text-center col-md-4 col-sm-6 col-xs-12 col-md-pull-4 col-sm-pull-6 col-xs-pull-0">     
-                            <div class="device-holder iphone-holder iphone-gold-holder offset-top">                 
-                                <div class="device-holder-inner">
-                                    <div id="home-slideshow" class="owl-carousel owl-theme"> 
-                                      <div class="item"><img class="img-responsive" src="/img/iphone6-screen-1.1.jpg" alt=""></div>
-                                      <div class="item"><img class="img-responsive" src="/img/iphone6-screen-1.2.jpg" alt=""></div>
-                                      <div class="item"><img class="img-responsive" src="/img/iphone6-screen-1.3.jpg" alt=""></div>                         
-                                    </div>
-                                </div>
-                            </div>                
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="arrow-holder text-center">
-                            <p class="lead-text"> <a href="http://gitlist.io/"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-check-circle-o"></i> Sign Up Soon!</button></a><br><br>©.2015 by Gitlist. all rights reserved. <br>
-</p>
-                            <a href="index.html#gitlist" class="animate pe-7s-bottom-arrow pe-3x"></a>
-                        </div>
-                    </div>
-                </div>         
-            </section> --> 
-            
-           
+<p><code> 
+cd .ssh </code> 
+(und) <code>  cd /etc/ </code> 
+Ist dies Datei sshd_config nicht vorhanden legen Sie die Datei mit</p>
+
+<p><code> touch sshd_config </code></p>
+
+<p>neu an.</p>
+
+<p>Bearbeiten Sie die Datei sshd_config nun mit</p>
+
+<p>vim sshd_config
+und fügen Sie folgende Zeilen ein:</p>
+
+<p>Host *
+ServerAliveInterval 30
+ServerAliveCountMax 120
+Nun sollte das write failed, broken pipe Problem unter Mac OSX nicht mehr vorkommen.</p>
+
+<p>SSH Verbindung bricht immer noch ab?
+Versuchen Sie folgende Einstellungen:</p>
+
+<p>TCPKeepAlive yes
+sudo sysctl -w net.inet.tcp.always_keepalive=9999 (Damit setzen wir die Lebensdauer von TCP Verbindungen höher. hat bei uns geholfen!)</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">npm</span> <span class="n">clear</span> <span class="n">cache</span>
+ <span class="n">npm</span> <span class="n">rebuild</span>
+ <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span></code></pre></div>
+
+<p>Link: <a href="http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection" target="_blank"> Linux Ubuntu Broken Pipe </a> </p>
+
+<!-- 
+Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a>  -->
+
+<blockquote>
+"Port Running on Linux Ubuntu Servers"
+</blockquote>
 
 
 
-
-<br><br>
-
+                <hr>
 
 
-<style>
 
-.mag {
-    width:200px;
-    margin: 0 auto;
-    float: none;
-}
-    
-.mag img {
-    max-width: 100%;
-}
-        
-  
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2015/10/14/sails-forever-run-forever-on-ubuntu-server-digital-ocean/" data-toggle="tooltip" data-placement="top" title="Run Sails Forever on Port 80">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2015/10/18/start-up-launching-now/" data-toggle="tooltip" data-placement="top" title="Start Up Launch">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
 
-.magnify {
-    position: relative;
-    cursor: none
-}
-
-.magnify-large {
-    position: absolute;
-    display: none;
-    width: 175px;
-    height: 175px;
-
-    -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-       -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-    
-    -webkit-border-radius: 100%;
-       -moz-border-radius: 100%;
-             border-radius: 100%
-}
-
-
-#home2 #cta a:hover {
-    display: inline-block;
-    margin-top: 25px;
-    background: rgb(41, 94, 191);
-    color: #FFF;
-    padding: 23px 40px;
-    font-size: 17px;
-    letter-spacing: .7px;
-    font-weight: 300;
-    font-family: Lato;
-    text-transform: uppercase;
-    border-radius: 5px;
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -ms-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-#home2 #cta a {
-    display: inline-block;
-    margin-top: 25px;
-    background: rgb(66, 127, 237);
-    color: #FFF;
-    padding: 23px 40px;
-    font-size: 17px;
-    letter-spacing: .7px;
-    font-weight: 300;
-    font-family: Lato;
-    text-transform: uppercase;
-    border-radius: 5px;
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -ms-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-</style>
-
-<section id="middle-place-01">
-            <div class="middle-place-con-01"><br><br> 
-                <img src="/img/macbookE4DC87EEC6098E66CF0548E81C93EE48.png" class="center-block container-small"alt="" /> 
-
-                <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
-                <p class="description-2-small"> This is my New Start Up Project and Beta Version Gitlist.io 0.0.1 <br> Go Read Out how was built. </p> <br>      
-        <div class="bs-example">
-    <p>
-      <button class="btn btn-primary collapsed center-block" type="button" id="gitlist-promo-readmore" data-toggle="collapse" data-target="#collapseBeispiel" aria-expanded="false" aria-controls="collapseBeispiel">
-        + Click here & Go See <br> How Was Gitlist Built?
-      </button>
-      <br><br><br>
-    </p>
-    <div class="collapse" id="collapseBeispiel" aria-expanded="false" style="height: 0px;">
-      <div class="well container">                                                                
- <img src="/img/phones.png" class="center-block container-small"alt="" /> <br<br><br><br> - Who was built Gitlist? Gitlist was Developed by <strong> Lucas Gatsas </strong> A Swiss based Senior UI/ Designer, Front -End Enginner and Software Developer. - Gitlist was Developed by Developers for Developers to share their Git arround the Globe and built Awesome Community. Get more Connections arround the Globe with the Best Developers. <br><br><br> - How was built Gitlist? <br> Gitlist was built with Today Top Modern Frameworks and a Ton of Open Source. I Have listed here few Details and the Main Core from the Open-Source Project and Start Up <strong> Gitlist</strong> <br> First of all Gitlist is Coded from Scratch. I have begonn with no Sketches since 1. of January. Then shortly i realized this a Big Project and Web App for Mobile Devices. I begonn With Bootstrap FrameWork. Which i have Downloaded on getbootstrap.com. <br><br> <br> <strong> Programming Languages </strong> <br><br> <strong> HTML5 </strong> <a href="https://en.wikipedia.org/wiki/HTML5" target="blank"> Link to : HTML5</a> <br> - <strong> Css3/ Overwriting </strong> <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Link to : CSS 3</a> <br> - <strong>Less/ Css3</strong> <a href="https://en.wikipedia.org/wiki/Less_(stylesheet_language)" target="_blank"> Link to : Less/ Css3</a> <br> - <strong>Javascript</strong> <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"> Link to : Javascript</a> <br> - <strong>Jquery </strong> <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank"> Link to : Jquery</a> <br> - <strong>JSON </strong> <a href="https://en.wikipedia.org/wiki/JSON" target="_blank"> Link to : JSON</a> <br> - <strong>C/ C++ Header </strong> <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank"> Link to : Robot Framework</a> <br> - <strong>make</strong> <a href="https://en.wikipedia.org/wiki/Make_(software)" target="_blank"> Link to : make</a> <br> - <strong>XML</strong> <a href="https://en.wikipedia.org/wiki/XML" target="_blank"> Link to : XML</a> <br> - <strong>YAML</strong> <a href="https://en.wikipedia.org/wiki/YAML" target="_blank"> Link to : YAML</a> <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> <br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> <br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> <br> - <strong>Handlebars</strong> <a href="https://en.wikipedia.org/wiki/Handlebars_(template_system)" target="_blank"> Link to : Handlebars</a> <br> - <strong>C</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : C - Language</a> <br> - <strong>RobotFramework</strong> <a href="https://en.wikipedia.org/wiki/Robot_Framework" target="_blank"> Link to : Robot Framework</a> <br> - <strong>Lisp</strong> <a href="https://en.wikipedia.org/wiki/Lisp" target="_bkank"> Link to : Lisp</a> <br> - <strong>Sass</strong> <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank"> Link to : Sass / Css</a> <br> <br><br><br> <strong> Frameworks (Open Source) </strong> <br><br><br> - <strong>Boootstrap 3</strong> (Robust Front-End Framework) <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_bkank"> Link to : Bootstrap Framework</a> <br> - <strong>Sails.js</strong> (MVC Realtime Framework) <a href="http://sailsjs.org/documentation/concepts/)" target="_bkank"> Link to : Sails.js Framework</a> <br> - <strong>Backbone.js</strong> <a href="https://en.wikipedia.org/wiki/Backbone.js" target="_bkank"> Link to : Backbone.js</a> <br> - <strong> underscore.js </strong> <a href="https://en.wikipedia.org/wiki/Underscore.js" target="_bkank"> Link to : Robot Framework</a> <br> - <strong>Node.js </strong>( Source for Virtual Servers) <a href="https://en.wikipedia.org/wiki/Node.js" target="_bkank"> Link to : Robot Framework</a> <br> - <strong>Nginx </strong>(Webserver-Software, Reverse Proxy und E-Mail-Proxy) <a href="https://en.wikipedia.org/wiki/Nginx" target="_bkank"> Link to : Robot Framework</a> <br> - <strong>oAuth - GitHub and Twitter Api</strong> (let allow User to sign with Twiiter + Github) <a href="https://en.wikipedia.org/wiki/OAuth" target="_bkank"> Link to : Robot Framework</a> <br<br><br> <br<br><br> <strong> Virtual Servers </strong> <br><br> - <strong>Digital Ocean</strong> (Servers in San Fransisco, New York, Singabore) <a href="https://en.wikipedia.org/wiki/DigitalOcean" target="_bkank"> Link to : Digital Ocean</a> <br> - <strong>Nginx </strong>(Webserver-Software, Reverse Proxy und E-Mail-Proxy) <a href="https://en.wikipedia.org/wiki/Nginx" target="_bkank"> Link to : Nginx</a> <br> - <strong>Node.js</strong> (Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. ) <a href=" https://en.wikipedia.org/wiki/Node.js" target="_bkank"> Link to : Node.js Framework</a> <br> - <strong>MongoDB</strong> ( is a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas (MongoDB calls the format BSON), making the integration of data in certain types of applications easier and faster. ) <a href="https://en.wikipedia.org/wiki/MongoDB" target="_bkank"> Link to : Mongo DB</a> <br> - <strong>Linux Ubnutu (Operating System)</strong> <a href="https://en.wikipedia.org/wiki/Ubuntu_(operating_system)" target="_bkank"> Link to : Linux</a> <br> - <strong>Linux Ubnutu 14.04 LTS Virtual Machine (Servers)</strong> (Scale out with Ubuntu Server ) <a href="http://www.ubuntu.com/server" target="_bkank"> Link to : Linux Ubnutu 14.04 LTS Virtual Machine</a> <br> - <strong>Unix</strong> <a href="https://en.wikipedia.org/wiki/Unix" target="_bkank"> Link to : Unix</a> <br> - <strong>Mac Os</strong> <a href="https://en.wikipedia.org/wiki/Mac_OS" target="_bkank"> Link to : Mac Os</a> <br> - <strong>Windwos</strong> <a href="https://en.wikipedia.org/wiki/Microsoft_Windows" target="_bkank"> Link to : Windwos</a> <br> <br<br> <br><br><br> <strong> Security (Open Source) </strong> <br><br><br> - <strong> OpenSSL</strong>(Certificate - Security) <a href="https://en.wikipedia.org/wiki/OpenSSL" target="_bkank"> Link to : Robot Framework</a> <br> <br> <br> <br> - Lindes of Code <strong>678'134 </strong>(Full Web App in Code of Lines) <br> Start Up, Idea, Realisation, Development Time since: <strong> 1. of January - 22. of July 2015 </strong> <br> <br> <br> <br>
-<img src="/img/figure-4.png" class="center-block"alt="" />
-                      </div>                                                            
-                    </div>
-                  </div>
-                </div>
-         </section> 
-
-         <!--
-<section id="cta-section" class="cta-section section gradient-5">  <div class="press text-center"> <div class="press-inner"> <div class="container text-center"> <h2 class="title">As featured on...</h2> <div class="row"> <ul class="list-unstyled press-list"> <li class="col-md-2 col-sm-4 col-xs-6"><a href="press.html"><img class="img-responsive" src="assets/images/press/logo-1.png" alt=""></a></li> <li class="col-md-2 col-sm-4 col-xs-6"><a href="press.html"><img class="img-responsive" src="assets/images/press/logo-2.png" alt=""></a></li> <li class="col-md-2 col-sm-4 col-xs-6"><a href="press.html"><img class="img-responsive" src="assets/images/press/logo-3.png" alt=""></a></li> <li class="col-md-2 col-sm-4 col-xs-6"><a href="press.html"><img class="img-responsive" src="assets/images/press/logo-4.png" alt=""></a></li> <li class="col-md-2 col-sm-4 col-xs-6"><a href="press.html"><img class="img-responsive" src="assets/images/press/logo-5.png" alt=""></a></li> <li class="col-md-2 col-sm-4 col-xs-6"><a href="press.html"><img class="img-responsive" src="assets/images/press/logo-6.png" alt=""></a></li> </ul> </div> </div> </div> </div>  <div class="download text-center"> <div class="container"> <h3 class="title">Download Atom now <br />and start marketing your app to your audience</h3> <ul class="list-inline download-list"> <li><a class="btn btn-cta btn-cta-primary" href="index.html#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li> </ul> <figure class="qr-holder"> <img src="assets/images/buttons/QR-code.png" class="center-block"alt="" /> <figcaption class="caption">Scan the QR code to download</figcaption> </figure> </div> </div> </section> 
-        <section id="middle-place-01">
-            <div class="middle-place-con-01">
-         
-                <br> 
-            </div>
-         </section> --> 
-<!--
-<section id="benefit-2" class="gradient-4"  style=" padding: 60px 0px 0px;">
-    <div class="64592346" >
-                <div class="dsadewdada">
-                    <div class="container center-block">
-                            <div class="center-block  col-lg-7" style="float:none;">
-                            <h1 class="description-1" id="des-blog-bottom-footer">This is my Start Up</h1>
-                            <p class="description-2-small center-block">
-                        <a href="https://www.twitter.com/LucasGatsas" class="center-block" id="roundbutton" target="_blank"><i class="fa fa-twitter"></i>Visit Blog</a>
-                    </p> 
-                 <br> 
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        </div>
-        
- <!-- ******FOOTER****** --> <!-- <footer class="footer"> <div class="container text-center"> <nav class="links"> <ul class="list-inline"> <li><a href="about.html">About</a></li> <li><a href="press.html">Press</a></li> <li><a href="pricing.html">Pricing</a></li> <li><a href="faqs.html">FAQs</a></li> <li><a href="jobs.html">Jobs</a></li> <li><a href="blog.html">Blog</a></li> <li><a href="contact.html">Contact</a></li> </ul> </nav> <ul class="social-icons list-inline"> <li><a href=""><i class="fa fa-twitter"></i></a></li> <li><a href=""><i class="fa fa-facebook"></i></a></li> <li><a href=""><i class="fa fa-instagram"></i></a></li> <li class="last"><a href="index.html#"><i class="fa fa-linkedin"></i></a></li> </ul> <ul class="links legal-links list-inline"> <li><a href="index.html#">Privacy</a></li> <li class="last"><a href="index.html#">Terms</a></li> </ul> <small class="copyright">Copyright &copy; 2015 <a href="../index.html">3rd wave Media</a></small> </div> </footer>--> </div> <!--<section id="gitlist-headerwrap"> <div class="container"> <div class="row centered"> <div class="[ col-lg-12 ]"> <h1 id="gitlist-start-up">welcome to <b> gitlist.io</b></h1> <h3 id="gitlist-start-up-web-app">Best Way to Share Gits and Respos.</h3> <br> <br> <br> </div> <div class="[ col-lg-2 ]"> <h5>Amazing List</h5> <p>Share your Awesome Open Source, Code, Git and Respos today for Free and Share it tausend of other Developers.</p> <img class="hidden-xs hidden-sm hidden-md" src="/img/arrow1.png"> </div> <div class="[ col-lg-8 ]"> <img class="img-responsive" src="/img/phones.png" alt=""> </div> <div class="[ col-lg-2 ]"> <br> <img class="hidden-xs hidden-sm hidden-md" src="/img/arrow2.png"> <h5>Awesome Developers</h5> <p>Sign Up for Free and Share your Gits and Respos. Get in Contact with Awesome Developers. - industry.</p> </div> </div> </div> </section> -->
-<br><br><br>
-
-    <div id="features home2">
-        <div class="container">
-
-            <div class="row feature backwards">
-                <div class="col-md-6 info">
-                    <h4>A fully featured well.</h4>
-                    <p>
-                        Gitlist is a Open Source Plattform for Developers and the IT Industry. 
-Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. Gitlist is made for It Nerds to get Daily the newest Gits and Open Source in a List.
-                    </p>
-                    <p>
-                       Gitlist is very simple to use it. Sign Up with your e-mail and set a paswort, and begin to add Gits here 
-+ Submit Git
-                    </p>
-                </div>
-                <div class="col-md-6 image">
-                    <img src="img/figure-4.png" class="img-responsive" alt="feature2" />
-                </div>
-            </div>
-        </div>      
-    </div>
-
-    <div id="features-hover">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 images">
-                    <img src="images/services5.png" class="img-responsive active" alt="services1" />
-                    <img src="images/services6.png" class="img-responsive" alt="services2" />
-                    <img src="images/services7.png" class="img-responsive" alt="services3" />
-                </div>
-            </div>
-            <div class="row features">
-                <div class="col-md-4">
-                    <div class="feature active">
-                        <strong>Your own Gitlist</strong>
-                        <p>
-                            Create a your Own Gitlist and list it to our Front. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature">
-                        <strong>Showcase of other Gits</strong>
-                        <p>
-                            Discover Newest Gits around the Globe. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature">
-                        <strong>Community and Connections</strong>
-                        <p>
-                            Get Community and Connections with other Developers. 
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-
-    <div id="testimonials">
-        <div class="container">
-            <div class="row header">
-                <div class="col-md-12">
-                    <h3>Trusted by a lot of Developers around the world:</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <div class="testimonial pull-right">
-                        <div class="quote">
-                            I am just quoting some stuff but I am seriously happy about my Start Up. Has a lot of powerful
-                            Gits and is so easy to set up and Share, I could stay at gitlist day and night, it's just so much fun!
-                            <div class="arrow-down">
-                                <div class="arrow">
-                                </div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="img/zLAW5YPs_400x400.jpg" class="pic" alt="testimonial1" />
-                            <div class="name">Lucas Gatsas</div>
-                            <div class="company">Founder of Gitlist</div>
-                        </div>
-                    </div>
-                </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="cta">
-        <p>
-            Start your free Gitlist Today 
-        </p>
-        <a href="http://www.gitlist.io/g/signup/">
-            Sign up for free
-        </a>
-    </div>
-
-
-    <br><br><br>
-    <!--<div id="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Our Customers</h3>
-                    <p>
-                        These are some of our customers who have helped us by using our product.
-                    </p>
-                    <div class="logos">
-                        <img src="images/logos/google.png">
-                        <img src="images/logos/facebook.png">
-                        <img src="images/logos/apple.png">
-                        <img src="images/logos/stripe.png">
-                        <img src="images/logos/yahoo.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --> 
-
-<div class="container front-end">
-	<div class="row">
-		<div class="posts">
-			<div class="content">
-  
-    <article>
-			<header class="intro-header" style="background-image: url('/img/odeyssey.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
-				
-				<div class="post-meta">
-					<span class="entry-date date published updated">
-						<time datetime="2014-07-01T14:00:00+02:00">
-							<a href="http://lucasgatsas.ch/2014/07/01/getready/">July 01, 2014</a>
-						</time>
-					</span>
-					<span class="author vcard">
-						<span class="fn">
-							<a href="http://lucasgatsas.ch/about/" title="About "></a>
-						</span>
-					</span>
-						
-				</div>
-		
-				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2014/07/01/getready/" id="post-title-h1" rel="bookmark" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." itemprop="url">The dreams of yesterday are the hopes of today and the reality of tomorrow.</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2014/07/01/getready/" rel="bookmark" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." itemprop="url" id="readmore-link"> ReadMore</a></h1>
-
-				
-			</header>
-
-
-
-    </article>
-
-
-    
-	<article class="container hentry">
-		<div class="entry-content">
-			<p>This is my First Post, Hello World! I will try out to describe my Code's here on my GitHub Blog, this isn't my Official Website!  I'm current working on it! also Stay Tuned! This Blog is dedicated to my Git's!</p>
-
-<h2 class="section-heading">The Development Processes!</h2>
-
-<p>I will describe and Blog about my development Processes @ my Official Website!</p>
-
-<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<h2 class="section-heading">Start Up Projects in Progress.</h2>
-
-<p>Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.</p>
-
-<p> Here is my Install Video </p>
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen=""></iframe>
-
-<!--
-
-<a href="#">
-    <img src="/img/post-sample-image.jpg" alt="Post Sample Image">
-</a> -->
-
-
-		</div>
-		<br>
- <div class="[ col-xs-12 ] meine-visitenkarte"
- style="  background-color: #F7F7F7;
-padding-left: 20px;
-padding-bottom: 20px;
-border-radius: 4px;
-padding-top: 20px;
-text-align: -webkit-center;
-line-height: 30px;
-border: 1px solid rgba(0, 0, 0, 0.09);
-  ">
-	<td colspan="999">
-	    <a href="">Lucas Gatsas  </a> 
-	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
-		<a class="no-border" href=""><img src="/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
-		<a href="">follow:</a>
-		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
-		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
-		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
-		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
-		<a href="https://angel.co/lucas-gatsas" target="_blank"><i class="fa fa-angellist"></i></a>
-
-	</td>
-</div>
-	</article>
-
-  
-
-
-  
-  <div class="pagination">
-    
-      
-        <a href="/page88/">&laquo; Prev</a>
-          
-    
-
-    
-      <a class='next' href="/page90/">Next &raquo;</a>
-    
-  </div>
-  
-</div>
-
-<script src="/js/jquery-1.11.1.js"></script>
-<script src="/js/jscroll/jquery.jscroll.js"></script>
-
-<script type="text/javascript">
-$('.content').jscroll({
-    contentSelector: ".content",
-    nextSelector: '.next'
-});
-</script>
-
-		</div> 
-
-        
-	</div>
-</div> 
+</article>
 <hr>
 
     <!-- Footer -->

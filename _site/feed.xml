@@ -5,9 +5,143 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Oct 2015 14:08:35 +0200</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2015 14:08:35 +0200</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2015 04:17:54 +0200</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2015 04:17:54 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Start Up Launch</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Start Up Launch
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block&quot; alt=&quot;lucas gatsas&quot; src=&quot;http://space.lucasgatsas.ch/images/gitlist-logo-blue-main-1-lucas-gatsas.png&quot; style=&quot;width:90px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;gitlist-logo-blue-main&quot; style=&quot;font-size: 27px;
+    line-height: 3px;
+    letter-spacing: -1px;
+    color: rgb(66, 127, 237);
+    font-weight: 800;
+    font-family: Open Sans;
+    text-align: center;
+    padding-bottom: 40px;&quot; class=&quot;center-block&quot;&gt;Gitlist App&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block&quot; alt=&quot;lucas gatsas&quot; src=&quot;/img/iPad-Display-Mockup.png &quot; style=&quot;width:100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
+Now it’s your turn! &lt;a href=&quot;http://www.gitlist.io/g/login&quot;&gt;Login &lt;/a&gt; and list your &lt;a href=&quot;http://www.gitlist.io/g/add&quot;&gt;Git’s!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gilitst&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://github.com/SpaceG/gitlist-launching&quot; target=&quot;_blank&quot;&gt; Let me Know about Issues and Bugs! &lt;/a&gt; &lt;/p&gt;
+
+&lt;!-- 
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;  --&gt;
+
+&lt;blockquote&gt;
+&quot;Start Up Launching - Let the little Missile fly as far as she can.&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 18 Oct 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/10/18/start-up-launching-now/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/10/18/start-up-launching-now/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Broken Pipe</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Broken Pipe - Write failed: Broken pipe
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; 
+Linux System&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; cd /etc/ssh/ &lt;/code&gt;  (in das SSH Verzeichnis wechseln)
+&lt;code&gt; vim sshd_config &lt;/code&gt;  (sshd_config bearbeiten)
+Fügen Sie folgende Zeilen in die sshd_config Datei hinzu
+&lt;br /&gt;
+Die Meldung „write failed: broken pipe“ tritt häufig während einer aktiven SSH Sitzung auf. Dafür verantwortlich ist eine zu lange Antwortzeit vom Server, der ein Debian Linux Server oder auch genau so ein MAC OS X Rechner sein kann. Das Problem eines Sitzungsabbruches mit write failed: broken pipe ist bei uns in der Verwendung mit dem Tar-Befehl beim anfertigen eines Backups zu einem entfernten MAC OS X Servers aufgetreten.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Warum „write failed broken pipe“? &lt;/strong&gt; 
+Braucht der Server zu lange um eine Antwort zu senden wird die TCP Verbindung geschlossen und eine neue Anmeldung ist erforderlich. Wird die Verbindung während eines Datentransfers geschlossen, so kommt es zu dem Fehler write failed:broken pipe. Dieses Problem kann während eines tar oder rsync Kommandos auf allen Unix- und somit auch auf allen MAC OS X Systemen auftreten.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;ServerAliveInterval&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;ServerAliveCountMax&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;120&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sun&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Oct&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;05&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;54&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GMT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0400&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EDT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;ss&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Environment&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;development&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Port&lt;/span&gt;        &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Write&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;failed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Broken&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pipe&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cypo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xx&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt; MAC OS X &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Zur Sicherheit bearbeiten Sie gleich 2 config Dateien auf dem MAC. Die allgemeine SSH Config Datei und die SSH Config Datei des Users.&lt;/p&gt;
+
+&lt;p&gt;Hier liegen die beiden SSH Konfigurationsdateien&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd ~ &lt;/code&gt; (ins Homeverzeichnis des aktuellen Benutzers wechseln. Mit diesem Bentzer müssen wir uns später auch per SSH anmelden)&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; 
+cd .ssh &lt;/code&gt; 
+(und) &lt;code&gt;  cd /etc/ &lt;/code&gt; 
+Ist dies Datei sshd_config nicht vorhanden legen Sie die Datei mit&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; touch sshd_config &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;neu an.&lt;/p&gt;
+
+&lt;p&gt;Bearbeiten Sie die Datei sshd_config nun mit&lt;/p&gt;
+
+&lt;p&gt;vim sshd_config
+und fügen Sie folgende Zeilen ein:&lt;/p&gt;
+
+&lt;p&gt;Host *
+ServerAliveInterval 30
+ServerAliveCountMax 120
+Nun sollte das write failed, broken pipe Problem unter Mac OSX nicht mehr vorkommen.&lt;/p&gt;
+
+&lt;p&gt;SSH Verbindung bricht immer noch ab?
+Versuchen Sie folgende Einstellungen:&lt;/p&gt;
+
+&lt;p&gt;TCPKeepAlive yes
+sudo sysctl -w net.inet.tcp.always_keepalive=9999 (Damit setzen wir die Lebensdauer von TCP Verbindungen höher. hat bei uns geholfen!)&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clear&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cache&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rebuild&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lift&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection&quot; target=&quot;_blank&quot;&gt; Linux Ubuntu Broken Pipe &lt;/a&gt; &lt;/p&gt;
+
+&lt;!-- 
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;  --&gt;
+
+&lt;blockquote&gt;
+&quot;Port Running on Linux Ubuntu Servers&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 18 Oct 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Run Sails Forever on Port 80</title>
@@ -896,235 +1030,6 @@ Any App, Anywhere&quot;
         <pubDate>Tue, 25 Aug 2015 16:00:44 +0200</pubDate>
         <link>http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/</link>
         <guid isPermaLink="true">http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My Playlist</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;My Playlist&lt;/h2&gt;
-
-&lt;p&gt;This is my current Playlist, Music i listening Last few Weeks ago.. because, i gorw up with Metal. This kind of Music make me streeless. And i Love Metal Peoples. They are very friendly. &lt;/p&gt;
-
-&lt;p&gt;Artist &amp;amp; Tracks:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QRof6njCZWU&quot;&gt;Arch Enemy - We will Rise - Live in Japan&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;Set list : Arch Enemy - We will Rise&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Blood On Your Hands&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ravenous&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Taking Back My Soul&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Dead Eyes See No Future&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Dark Insanity&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Day You Died&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Christopher Solo&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Silverwing&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Night Falls Fast&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Daniel Solo&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Burning Angel&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Michael Amott Solo (incl. Intermezzo Liberte)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Dead Bury Their Dead&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Vultures&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enemy Within&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Snowbound&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Shadows And Dust&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nemesis&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;We Will Rise&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Fields Of Desolation (Outro)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kR-UCNF9BeU&quot;&gt;InFlames - Colony&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;Tracklist: InFlames - Colony&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Embody The Invisible (0 - 03:36)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ordinary Story(03:37 - 07:49)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Scorn(07:50 - 11:24)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Colony(11:25 - 16:00)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Zombie Inc(16:01 - 21:02)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pallar Anders Visa(21:03 - 22:40)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Coerced Coexistence(22:41 - 26:50)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Resin(26:51 - 30:10)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Behind Space ‘99(30:11 - 34:04)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Insipid 2000(34:05 - 37:46)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The New Word(37:47 - 41:03)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Clad In Shadows ‘99(41:04 - 43:23)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Man Made God(43:24 - 47:36)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VC9L-BZ1PI0&quot;&gt;Guns ‘n’ Roses&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-“be patient, be patient... every good ang big Start Up Need Times. We are launching soon.” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 07 Jul 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/07/07/playlist-july/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/07/07/playlist-july/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mongo DB</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Mongo DB&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;&quot;Agility, Scalability, Performance Database&quot;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;
-PLATFORM SUPPORT
-Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Install MongoDB&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You can install MongoDB with &lt;strong&gt;Homebrew&lt;/strong&gt; or manually. This section describes both.&lt;/p&gt;
-
-&lt;p&gt;1.&lt;strong&gt; Update Homebrew’s package database.&lt;/strong&gt; 
-In a system shell, issue the following command: &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;brew update &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;2.&lt;strong&gt;Install MongoDB.&lt;/strong&gt; 
-You can install MongoDB via brew with several different options. Use one of the following operations:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Install the MongoDB Binaries&lt;/strong&gt; 
-To install the MongoDB binaries, issue the following command in a system shell:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;brew install mongodb&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;brew install mongodb --with-openssl&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Build MongoDB from Source with TLS/SSL Support&lt;strong&gt; 
-To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Install the Latest Development Release of MongoDB&lt;/strong&gt; 
-To install the latest development release for use in testing and development, issue the following command in a system shell:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; brew install mongodb --devel&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Install MongoDB Manually &lt;/strong&gt; 
-Only install MongoDB using this procedure if you cannot use homebrew.&lt;/p&gt;
-
-&lt;p&gt;1.&lt;strong&gt; Download the binary files for the desired release of MongoDB.&lt;/strong&gt; 
-Download the binaries from &lt;code&gt; https://www.mongodb.org/
-downloads. &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;For example, to download the latest release through the shell, issue the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; curl -O https://fastdl.mongodb.org/
-  osx/mongodb-osx-x86_64-3.0.4.tgz&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;2.&lt;strong&gt;Extract the files from the downloaded archive.&lt;/strong&gt; 
-For example, from a system shell, you can extract through the tar command:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;tar -zxvf mongodb-osx-x86_64-3.0.4.tgz&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;3.&lt;strong&gt;Copy the extracted archive to the target directory.&lt;/strong&gt;
-Copy the extracted folder to the location from which MongoDB will run.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;mkdir -p mongodb&lt;/code&gt;
-&lt;code&gt;cp -R -n mongodb-osx-x86_
-  64-3.0.4/ mongodb&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;4.&lt;strong&gt;Ensure the location of the binaries is in the PATH variable.&lt;/strong&gt;
-The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.&lt;/p&gt;
-
-&lt;p&gt;For example, you can add the following line to your shell’s rc file &lt;code&gt;(e.g. ~/.bashrc):&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;export PATH=&lt;mongodb-install-directory&gt; &lt;code&gt;/bin:$PATH&lt;/code&gt;
-Replace &lt;mongodb-install-directory&gt; with the path to the extracted MongoDB archive.&lt;/mongodb-install-directory&gt;&lt;/mongodb-install-directory&gt;&lt;/p&gt;
-
-&lt;p&gt;Link: &lt;a href=&quot;https://www.mongodb.org&quot;&gt;Mongo DB&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-“Built by developers like you at MongoDB. &lt;strong&gt;Highly Scalable&lt;/strong&gt;
-Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
-
- &lt;strong&gt;Flexible Data Model &lt;/strong&gt;
-MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
-
-
- &lt;strong&gt;Fastest-Growing Community &lt;/strong&gt;
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 07 Jul 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/</guid>
         
         
       </item>
