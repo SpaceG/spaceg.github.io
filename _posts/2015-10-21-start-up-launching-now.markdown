@@ -36,7 +36,7 @@ Now it's your turn! <a href="http://www.gitlist.io/g/login" >Login </a> and list
 
 {% highlight ruby %}
 
-http://www.gilitst.io
+http://www.gitlist.io
 
 
 {% endhighlight %}
