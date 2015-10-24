@@ -457,3 +457,6 @@ button#gitlist-promo-readmore:hover {
 img.center-block.container-small.img-responsive {
   max-height: 400px;
 }
+time {
+    font-weight: 800;
+}
