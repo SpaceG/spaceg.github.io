@@ -5,12 +5,12 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Oct 2015 00:30:35 +0100</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2015 00:30:35 +0100</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2015 00:35:00 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2015 00:35:00 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Start Up Launch</title>
+        <title>Some More Cluster and CDN Serves</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Start Up Launch
 &lt;/h2&gt;
 
@@ -29,11 +29,13 @@
 
 &lt;p&gt;&lt;br /&gt; &lt;/p&gt;
 
-&lt;p&gt;Now, i get some CDN Geo Servers, to delivery the Content in a Fast Way. This is a Big thing with the Server Details. Prehap, i have learned so many details
+&lt;p&gt;Now, i get some CDN Geo Servers, to delivery the Content in a Fast Way. This is a Big thing and complexed thing with the Server Details. I have learned so many details
 in the last Month about SYS Admin. And Always Server Configurations. There alot of details do you have watching for. &lt;/p&gt;
 
 &lt;p&gt;This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
 Now it’s your turn! &lt;a href=&quot;http://www.gitlist.io/g/login&quot;&gt;Login &lt;/a&gt; and list your &lt;a href=&quot;http://www.gitlist.io/g/add&quot;&gt;Git’s!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also bit this Domain in your URL and Sign Up now to Gitlist. &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gitlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 

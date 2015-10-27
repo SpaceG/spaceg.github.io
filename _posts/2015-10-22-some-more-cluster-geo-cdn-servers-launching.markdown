@@ -29,7 +29,9 @@ header-img: "img/tumblr_mbnmjpD1WP1rhkyyso1_500.gif"
 
 <br> 
 
-Now, i get some CDN Geo Servers, to delivery the Content in a Fast Way. This is a Big thing with the Server Details. Prehap, i have learned so many details
+
+
+Now, i get some CDN Geo Servers, to delivery the Content in a Fast Way. This is a Big thing and complexed thing with the Server Details. I have learned so many details
 in the last Month about SYS Admin. And Always Server Configurations. There alot of details do you have watching for. 
 
 This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
