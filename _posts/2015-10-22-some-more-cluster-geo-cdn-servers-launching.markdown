@@ -37,6 +37,8 @@ Now it's your turn! <a href="http://www.gitlist.io/g/login" >Login </a> and list
 
 
 
+Also bit this Domain in your URL and Sign Up now to Gitlist. 
+
 {% highlight ruby %}
 
 http://www.gitlist.io
