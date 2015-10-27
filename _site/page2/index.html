@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/458841main_2010-3416.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
 						<time datetime="2015-10-18T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/">October 18, 2015</a>
+							<a href="http://lucasgatsas.ch/2015/10/18/start-up-launching-now/">October 18, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/" id="post-title-h1" rel="bookmark" title="Broken Pipe" itemprop="url">Broken Pipe</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/" rel="bookmark" title="Broken Pipe" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/18/start-up-launching-now/" id="post-title-h1" rel="bookmark" title="Start Up Launch" itemprop="url">Start Up Launch</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/18/start-up-launching-now/" rel="bookmark" title="Start Up Launch" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,84 +773,38 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Broken Pipe - Write failed: Broken pipe
+			<h2 class="section-heading">Start Up Launch
 </h2>
 
-<p><br /><br /><br /> 
-Linux System</p>
+<p><img class="img-responsive center-block" alt="lucas gatsas" src="http://space.lucasgatsas.ch/images/gitlist-logo-blue-main-1-lucas-gatsas.png" style="width:90px;" /></p>
 
-<p><code> cd /etc/ssh/ </code>  (in das SSH Verzeichnis wechseln)
-<code> vim sshd_config </code>  (sshd_config bearbeiten)
-Fügen Sie folgende Zeilen in die sshd_config Datei hinzu
-<br />
-Die Meldung „write failed: broken pipe“ tritt häufig während einer aktiven SSH Sitzung auf. Dafür verantwortlich ist eine zu lange Antwortzeit vom Server, der ein Debian Linux Server oder auch genau so ein MAC OS X Rechner sein kann. Das Problem eines Sitzungsabbruches mit write failed: broken pipe ist bei uns in der Verwendung mit dem Tar-Befehl beim anfertigen eines Backups zu einem entfernten MAC OS X Servers aufgetreten.</p>
+<h1 id="gitlist-logo-blue-main" style="font-size: 27px;
+    line-height: 3px;
+    letter-spacing: -1px;
+    color: rgb(66, 127, 237);
+    font-weight: 800;
+    font-family: Open Sans;
+    text-align: center;
+    padding-bottom: 40px;" class="center-block">Gitlist App</h1>
 
-<p><strong> Warum „write failed broken pipe“? </strong> 
-Braucht der Server zu lange um eine Antwort zu senden wird die TCP Verbindung geschlossen und eine neue Anmeldung ist erforderlich. Wird die Verbindung während eines Datentransfers geschlossen, so kommt es zu dem Fehler write failed:broken pipe. Dieses Problem kann während eines tar oder rsync Kommandos auf allen Unix- und somit auch auf allen MAC OS X Systemen auftreten.</p>
-
-<p><br /> 
-<br /></p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">ServerAliveInterval</span> <span class="mi">30</span>
-<span class="no">ServerAliveCountMax</span> <span class="mi">120</span></code></pre></div>
+<p><img class="img-responsive center-block" alt="lucas gatsas" src="/img/iPad-Display-Mockup.png " style="width:100%;" /></p>
 
 <p><br /> </p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">debug</span><span class="p">:</span> <span class="o">::</span> <span class="no">Sun</span> <span class="no">Oct</span> <span class="mi">18</span> <span class="mi">2015</span> <span class="mi">12</span><span class="p">:</span><span class="mo">05</span><span class="p">:</span><span class="mi">54</span> <span class="no">GMT</span><span class="o">-</span><span class="mo">0400</span> <span class="p">(</span><span class="no">EDT</span><span class="p">)</span>
+<p>This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
+Now it’s your turn! <a href="http://www.gitlist.io/g/login">Login </a> and list your <a href="http://www.gitlist.io/g/add">Git’s!</a></p>
 
-<span class="ss">debug</span><span class="p">:</span> <span class="no">Environment</span> <span class="p">:</span> <span class="n">development</span>
-<span class="ss">debug</span><span class="p">:</span> <span class="no">Port</span>        <span class="p">:</span> <span class="mi">80</span>
-<span class="ss">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
-<span class="no">Write</span> <span class="ss">failed</span><span class="p">:</span> <span class="no">Broken</span> <span class="n">pipe</span>
-<span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="o">~</span> <span class="n">cypo</span><span class="err">$</span> <span class="n">ssh</span> <span class="n">root</span><span class="vi">@xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xx</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">gitlist</span><span class="o">.</span><span class="n">io</span></code></pre></div>
 
+<p><br /> </p>
 
-<span class="n">root</span><span class="vi">@xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xxx</span><span class="o">.</span><span class="n">xx</span><span class="err">&#39;</span><span class="n">s</span> <span class="ss">password</span><span class="p">:</span></code></pre></div>
-
-<p><strong> MAC OS X </strong> </p>
-
-<p>Zur Sicherheit bearbeiten Sie gleich 2 config Dateien auf dem MAC. Die allgemeine SSH Config Datei und die SSH Config Datei des Users.</p>
-
-<p>Hier liegen die beiden SSH Konfigurationsdateien</p>
-
-<p><code>cd ~ </code> (ins Homeverzeichnis des aktuellen Benutzers wechseln. Mit diesem Bentzer müssen wir uns später auch per SSH anmelden)</p>
-
-<p><code> 
-cd .ssh </code> 
-(und) <code>  cd /etc/ </code> 
-Ist dies Datei sshd_config nicht vorhanden legen Sie die Datei mit</p>
-
-<p><code> touch sshd_config </code></p>
-
-<p>neu an.</p>
-
-<p>Bearbeiten Sie die Datei sshd_config nun mit</p>
-
-<p>vim sshd_config
-und fügen Sie folgende Zeilen ein:</p>
-
-<p>Host *
-ServerAliveInterval 30
-ServerAliveCountMax 120
-Nun sollte das write failed, broken pipe Problem unter Mac OSX nicht mehr vorkommen.</p>
-
-<p>SSH Verbindung bricht immer noch ab?
-Versuchen Sie folgende Einstellungen:</p>
-
-<p>TCPKeepAlive yes
-sudo sysctl -w net.inet.tcp.always_keepalive=9999 (Damit setzen wir die Lebensdauer von TCP Verbindungen höher. hat bei uns geholfen!)</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">npm</span> <span class="n">clear</span> <span class="n">cache</span>
- <span class="n">npm</span> <span class="n">rebuild</span>
- <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span></code></pre></div>
-
-<p>Link: <a href="http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection" target="_blank"> Linux Ubuntu Broken Pipe </a> </p>
+<p>Link: <a href="https://github.com/SpaceG/gitlist-launching" target="_blank"> Let me Know about Issues and Bugs! </a> </p>
 
 <!-- 
 Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a>  -->
 
 <blockquote>
-"Port Running on Linux Ubuntu Servers"
+"Start Up Launching - Let the little Missile fly as far as she can."
 </blockquote>
 
 

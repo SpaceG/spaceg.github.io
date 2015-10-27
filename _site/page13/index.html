@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-21351524.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/diamond_new_age_ruby.png')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-06-26T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/06/26/im-at-angellist-now/">June 26, 2015</a>
+						<time datetime="2015-05-06T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/05/06/gem-npm-ruby-gems-node.js/">May 06, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/06/26/im-at-angellist-now/" id="post-title-h1" rel="bookmark" title="AngelList" itemprop="url">AngelList</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/06/26/im-at-angellist-now/" rel="bookmark" title="AngelList" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/05/06/gem-npm-ruby-gems-node.js/" id="post-title-h1" rel="bookmark" title="Ruby Gems" itemprop="url">Ruby Gems</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/05/06/gem-npm-ruby-gems-node.js/" rel="bookmark" title="Ruby Gems" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,18 +773,83 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">My Profile @ AngelList</h2>
-<h2 class="section-heading">"Raise Money with Syndicates"</h2>
+			<h2 class="section-heading"> RubyGems</h2>
+<h2 class="section-heading">Make your Own Gem</h2>
 
-<p>I’m now at <a href="https://angel.co/lucas-gatsas" target="_blank">AngelList</a> and Set Up my Full Profile Next Week. We also rising Up and would be great to find some Invest. So far everything was Selfmade. Of course it would be good. But I think it goes without investiment.</p>
+<p><strong> What is Gem? </strong> 
+RubyGems is the official packaging system for <a href="https://www.ruby-lang.org/de/">ruby-lang.org</a>  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution. </p>
+
+<p>Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:</p>
+
+<p><strong> Use </strong></p>
+
+<pre><code>RubyGems be accessed via the command line acc.
+</code></pre>
+
+<stromg> Example : 
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+require 'json'        # aktuelle Version
+gem 'rake', '= 10.1.0' # mit Versionsangabe
+
+
+</pre></pre></div> 
+
+<strong>Gem Installation : Rake  </strong>
+
+Download and install rake with the following.
+<code> gem install rake </code> 
+
+
+
+<strong> Example : </strong> 
+
+First, you must write a “Rakefile” file which contains the build rules. Here's a simple example:
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+task default: %w[test]
+
+task :test do
+  ruby "test/unittest.rb"
+end
+
+</pre></pre></div> 
+
+This Rakefile has two tasks:
+
+A task named “test”, which – upon invocation – will run a unit test file in Ruby.
+
+A task named “default”. This task does nothing by itself, but it has exactly one dependency, namely the “test” task. Invoking the “default” task will cause Rake to invoke the “test” task as well.
+
+Running the “rake” command without any options will cause it to run the “default” task in the Rakefile:
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+% ls
+Rakefile     test/
+% rake
+(in /home/some_user/Projects/rake)
+ruby test/unittest.rb
+....unit test output here...
+
+</pre></pre></div> 
+
+
+Type “rake –help” for all available options.
+<br /><br />
+
+Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
 
 <blockquote>
-“AngelList is a US website for startups, angel investors, and job-seekers looking to work at startups.[1] The platform has a mission democratizing the investment process. It started as an online introduction board for tech startups that needed seed funding. Now, the site allows startups to raise from angel investors free of charge.
-
-AngelList syndicates allow investors to invite other accredited investors to share in the deals. 
-As of 2014, AngelList syndicates invested over <strong>$100M</strong> in US startups.” 
+“Grind and Polish your Gems!” 
 </blockquote>
 
+</stromg>
 
 		</div>
 		<br>

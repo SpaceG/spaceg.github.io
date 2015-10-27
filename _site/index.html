@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/458841main_2010-3416.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/tumblr_mbnmjpD1WP1rhkyyso1_500.gif')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-10-18T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/10/18/start-up-launching-now/">October 18, 2015</a>
+						<time datetime="2015-10-22T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/10/22/some-more-cluster-geo-cdn-servers-launching/">October 22, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/18/start-up-launching-now/" id="post-title-h1" rel="bookmark" title="Start Up Launch" itemprop="url">Start Up Launch</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/18/start-up-launching-now/" rel="bookmark" title="Start Up Launch" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/22/some-more-cluster-geo-cdn-servers-launching/" id="post-title-h1" rel="bookmark" title="Start Up Launch" itemprop="url">Start Up Launch</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/22/some-more-cluster-geo-cdn-servers-launching/" rel="bookmark" title="Start Up Launch" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -789,14 +787,17 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     text-align: center;
     padding-bottom: 40px;" class="center-block">Gitlist App</h1>
 
-<p><img class="img-responsive center-block" alt="lucas gatsas" src="/img/iPad-Display-Mockup.png " style="width:100%;" /></p>
+<p><img class="img-responsive center-block" alt="lucas gatsas" src="https://pbs.twimg.com/media/CSXAvSGUwAAXf1r.png:large " style="width:100%;" /></p>
 
 <p><br /> </p>
+
+<p>Now, i get some CDN Geo Servers, to delivery the Content in a Fast Way. This is a Big thing with the Server Details. Prehap, i have learned so many details
+in the last Month about SYS Admin. And Always Server Configurations. There alot of details do you have watching for. </p>
 
 <p>This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
 Now it’s your turn! <a href="http://www.gitlist.io/g/login">Login </a> and list your <a href="http://www.gitlist.io/g/add">Git’s!</a></p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">gilitst</span><span class="o">.</span><span class="n">io</span></code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">gitlist</span><span class="o">.</span><span class="n">io</span></code></pre></div>
 
 <p><br /> </p>
 

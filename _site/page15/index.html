@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-ui-ux-12345.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/lucas-gatsas-07.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-06-21T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/">June 21, 2015</a>
+						<time datetime="2015-04-28T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/">April 28, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/" id="post-title-h1" rel="bookmark" title="Programming a Prototype for our Native Mobile App" itemprop="url">Programming a Prototype for our Native Mobile App</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/" rel="bookmark" title="Programming a Prototype for our Native Mobile App" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/" id="post-title-h1" rel="bookmark" title="SSH - Key on Mac Os X" itemprop="url">SSH - Key on Mac Os X</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/" rel="bookmark" title="SSH - Key on Mac Os X" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,28 +773,88 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">iOs - SDK - Objective-C</h2>
-<h2 class="section-heading">"Beginning to develop a Prototype of our iOs<br /> Mobile App"</h2>
+			<h2 class="section-heading"><strong> Secure Shell - SSH - Key on Mac Os X </strong> </h2>
+<h2 class="section-heading">The Key Set Up.</h2>
+
+<p><a href="/img/bash-ssh-1.png">
+    <img src="/img/bash-ssh-1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Enter Commandlines :</p>
+
+<p><code>ssh-keygen -t rsa</code></p>
+
+<p>after enter your path again :</p>
+
+<p><code>/Users/cyberspace/.ssh/id_rsa</code></p>
+
+<p>Overwrite <code> (y/n)?  </code> press <code>yes</code></p>
+
+<p>Enter: if you don’t want a passphrase</p>
+
+<p>press Enter to get your Key - Gen ! </p>
+
+<p><a href="/img/bash-ssh-2.png">
+    <img src="/img/bash-ssh-2.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Type <code> ssh-add </code> and press Enter!</p>
+
+<p>add <code> ssh-add -l </code> to see your <code> .ssh/id_rsa  </code></p>
+
+<p><a href="/img/bash-ssh-3.png">
+    <img src="/img/bash-ssh-3.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>follow steps : </p>
+
+<p><code> ls </code> show list :</p>
+
+<p>enter your rsa id like here <code> cat id_rsa </code> </p>
+
+<p>This is The Private Key !</p>
+
+<p>—–BEGIN RSA PRIVATE KEY—–</p>
+
+<p><a href="/img/bash-ssh-4.png">
+    <img src="/img/bash-ssh-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Now : Check out the Public Key : </p>
+
+<p>Type following Commandline : <code>cat id_rsa.pub </code></p>
+
+<p><a href="/img/bash-ssh5.png">
+    <img src="/img/bash-ssh5.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Next Step ! Login In your Root Server!
+Update Post soon. ! </p>
 
 <p><br /></p>
 
-<p>I have started today to develop our Start Up Native Mobile App for iOs/ Mac Os, writing in Objective-C.
-Native mobile apps provide fast performance and a high degree of reliability. Of course our <a href="http://lucasgatsas.ch/2015/05/09/startup-streak/">Web App</a> is writen in Media Querris and is Pure Responsive. </p>
+<p>Diagramm of my SSH Sketches! </p>
 
-<p>Links: <a href="https://idmsa.apple.com/IDMSWebAuth/login?&amp;appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&amp;path=%2F%2Fmembercenter%2Findex.action" target="_blank">Apple Developers</a>
-Links: <a href="https://en.wikipedia.org/wiki/IOS_SDK" target="_blank">iOs_SDK</a>
-Links: <a href="https://en.wikipedia.org/wiki/Objective-C" target="_blank">Objective-C</a>
-Links: <a href="https://en.wikipedia.org/wiki/Cocoa_(API)" target="_blank">Cocoa API</a>
-Links: <a href="https://developer.apple.com/ios/" target="_blank">iOS 8 SDK and Xcode 6 for Developers</a>
-Links: <a href="https://de.wikipedia.org/wiki/AppleScript" target="_blank">Apple Script</a> 
-Links: <a href="http://space.lucasgatsas.ch/waves" target="_blank">space.lucasgatsas.ch/waves</a>
-Links: <a href="https://de.wikipedia.org/wiki/Mac_OS" target="_blank">Mac Os</a>
-Links: <a href="https://de.wikipedia.org/wiki/Interface_Builder" target="_blank">Interface Builder</a>
-Links: <a href="https://de.wikipedia.org/wiki/Xcode" target="_blank">Xcode</a></p>
+<p><a href="/img/lucasgatsas_grafic.png">
+    <img src="/img/lucasgatsas_grafic.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
 
-<p><br /></p>
+<p><a href="/img/dia_01_ssh_tube_bylucas-gatsas.png">
+    <img src="/img/dia_01_ssh_tube_bylucas-gatsas.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Sketches by Lucas Gatsas : Free to Use</p>
+
+<!--
+<strong> Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model </strong>
+
+<a href="#">
+    <img src="/img/SSH_public_private_key.gif" alt="Lucas Gatsas"  style="width:100%">
+</a>
+-->
+
 <blockquote>
-“The SDK itself is a free download, but beta SDKs require a paid developer account. In order to release software, one must enroll in the iPhone Developer Program—a step requiring payment and Apple's approval. As of February 2015, cost of enrollment in the iPhone Developer Program is US$99 per year (the cost varies from country to country) for the standard program. Signed keys are provided to upload the application to Apple's App Store. Applications can be distributed in three ways: through the App Store, through enterprise deployment to a company's employees only, and on an "Ad-hoc" basis to up to 100 iPhones. Once distributed through the App Store, a developer can request up to 50 promotional codes that can be used to freely distribute a commercial application he or she has developed. The SDK can only be installed in OS X, and the latest SDK (iOS SDK 8.0 with Xcode 6.0.1, as of September 2014) requires OS X 10.9.4 "Mavericks" or later.” 
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
 
 

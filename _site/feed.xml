@@ -5,9 +5,56 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Oct 2015 04:28:49 +0200</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2015 04:28:49 +0200</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2015 00:30:35 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2015 00:30:35 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Start Up Launch</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Start Up Launch
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block&quot; alt=&quot;lucas gatsas&quot; src=&quot;http://space.lucasgatsas.ch/images/gitlist-logo-blue-main-1-lucas-gatsas.png&quot; style=&quot;width:90px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;gitlist-logo-blue-main&quot; style=&quot;font-size: 27px;
+    line-height: 3px;
+    letter-spacing: -1px;
+    color: rgb(66, 127, 237);
+    font-weight: 800;
+    font-family: Open Sans;
+    text-align: center;
+    padding-bottom: 40px;&quot; class=&quot;center-block&quot;&gt;Gitlist App&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block&quot; alt=&quot;lucas gatsas&quot; src=&quot;https://pbs.twimg.com/media/CSXAvSGUwAAXf1r.png:large &quot; style=&quot;width:100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;Now, i get some CDN Geo Servers, to delivery the Content in a Fast Way. This is a Big thing with the Server Details. Prehap, i have learned so many details
+in the last Month about SYS Admin. And Always Server Configurations. There alot of details do you have watching for. &lt;/p&gt;
+
+&lt;p&gt;This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
+Now it’s your turn! &lt;a href=&quot;http://www.gitlist.io/g/login&quot;&gt;Login &lt;/a&gt; and list your &lt;a href=&quot;http://www.gitlist.io/g/add&quot;&gt;Git’s!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gitlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://github.com/SpaceG/gitlist-launching&quot; target=&quot;_blank&quot;&gt; Let me Know about Issues and Bugs! &lt;/a&gt; &lt;/p&gt;
+
+&lt;!-- 
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;  --&gt;
+
+&lt;blockquote&gt;
+&quot;Start Up Launching - Let the little Missile fly as far as she can.&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 22 Oct 2015 16:00:44 +0200</pubDate>
+        <link>http://lucasgatsas.ch/2015/10/22/some-more-cluster-geo-cdn-servers-launching/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/10/22/some-more-cluster-geo-cdn-servers-launching/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Start Up Launch</title>
@@ -32,7 +79,7 @@
 &lt;p&gt;This is the first version 0.0.1 I am currently working on version 0.0.2. Many Feautures will come. 
 Now it’s your turn! &lt;a href=&quot;http://www.gitlist.io/g/login&quot;&gt;Login &lt;/a&gt; and list your &lt;a href=&quot;http://www.gitlist.io/g/add&quot;&gt;Git’s!&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gilitst&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gitlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt; &lt;/p&gt;
 
@@ -847,189 +894,6 @@ Raw&quot;
         <pubDate>Sun, 30 Aug 2015 16:00:44 +0200</pubDate>
         <link>http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/</link>
         <guid isPermaLink="true">http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Create a GeoDNS</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Geo DNS - CDN Servers&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;&quot;CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server&quot;&lt;/h2&gt;
-
-&lt;p&gt;Rolling Your Own &lt;code&gt;CDN &lt;/code&gt; – Build A 3 Continent CDN For $25 In 1 Hour&lt;/p&gt;
-
-&lt;p&gt;First create a folder &lt;code&gt;mkdir /dns&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Then run:
-docker run &lt;code&gt; -d -p 53:53 -p 53:53/udp -v &lt;/code&gt;
-&lt;code&gt;/dns:/opt/geodns/dns 
-	coocood/geodns /opt/geodns/geodns.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Put zone files in /dns.&lt;/p&gt;
-
-&lt;p&gt;Zone file is &lt;code&gt; json &lt;/code&gt; formatted, file name looks like “deployiotest.com.json”, it’s content looks like:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1: Order a DNS instance from DigitalOcean.&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;We chose SFO and the 2nd smallest instance.&lt;/p&gt;
-
-&lt;p&gt;We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ns1.deploy.io    192.241.224.116 &lt;/code&gt;
-&lt;code&gt;ns2.deploy.io    192.241.224.116 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;See https://index.docker.io/u/coocood/geodns for detail.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;We used the smallest instance.  We setup DNS for this example using them:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;code&gt;test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo &lt;/code&gt;
-&lt;code&gt;test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo &lt;/code&gt;
-&lt;code&gt;test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo &lt;/code&gt;
-&lt;code&gt;test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here’s what DigitalOcean’s web interface looks like with all the machines spun up:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/1789766_orig1.png&quot;&gt;
-    &lt;img src=&quot;/img/1789766_orig1.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Setup 4: Setup a test domain for the CDN:&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;If you lookup deployiotest.com the 4 web servers are chosen randomly&lt;/p&gt;
-
-&lt;p&gt;If you look up www.deployiotest.com, it will go to the closest geo server.&lt;/p&gt;
-
-&lt;p&gt;Set the name servers to point to:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; ns1.deploy.io 192.241.224.116 &lt;/code&gt;
-&lt;code&gt; ns2.deploy.io 192.241.224.116 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;   &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SEE THE CDN GEO DNS WORKING&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/dns-geo.png&quot;&gt;
-    &lt;img src=&quot;/img/dns-geo.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
-
-
-	{
-	&quot;serial&quot;:1394372421,
-	&quot;ttl&quot;:    390,
-	&quot;targeting&quot;: &quot;country continent @ regiongroup region asn&quot;,
-	&quot;data&quot;:{
-	    &quot;&quot;:{
-	        &quot;ns&quot;: [ &quot;ns1.deploy.io&quot;, &quot;ns2.deploy.io&quot; ],
-	        &quot;a&quot;:[
-	            [
-	               &quot;107.170.45.174&quot;,
-	               &quot;1000&quot;
-	            ],
-	            [
-	               &quot;128.199.216.96&quot;,
-	               &quot;1000&quot;
-	            ],
-	            [
-	               &quot;107.170.251.75&quot;,
-	               &quot;1000&quot;
-	            ],
-	            [
-	               &quot;188.226.185.173&quot;,
-	               &quot;1000&quot;
-	            ]
-	        ]
-	    },
-	    &quot;www&quot;:{
-	        &quot;alias&quot;: &quot;&quot;    
-	    },
-	    &quot;www.us-west&quot;:{
-	        &quot;cname&quot;: &quot;test-sfo-do.deploy.io.&quot;    
-	    },
-	    &quot;www.europe&quot;:{
-	        &quot;cname&quot;: &quot;test-ams-do.deploy.io.&quot;    
-	    },
-	    &quot;www.asia&quot;:{
-	        &quot;cname&quot;: &quot;test-sin-do.deploy.io.&quot;    
-	    },
-	    &quot;www.us-east&quot;:{
-	        &quot;cname&quot;: &quot;test-jfk-do.deploy.io.&quot;    
-	    }
-	  }
-	}
-
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Step 5: Verify that your &lt;strong&gt;  &lt;code&gt; CDN &lt;/code&gt; &lt;strong&gt;  is working using &lt;/strong&gt; &lt;code&gt; JustPing.com &lt;/code&gt; &lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Just test it on &lt;code&gt; www.just-ping.com. &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; Todo &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;Add a way to take servers in and out of rotation using a little daemon on the geodns server&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;Tune the Geo map for places outside of the US/Europe and Asia.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Add more virtual servers from other providers&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Add a way to spin up servers using lib-cloud&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/dns-geo-cdn.png&quot;&gt;
-    &lt;img src=&quot;/img/dns-geo-cdn.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Link: &lt;a href=&quot;https://hub.docker.com/r/coocood/geodns/&quot; target=&quot;_blank&quot;&gt;Geo DNS - CDN Servers&lt;/a&gt; Link: &lt;a href=&quot;https://www.digitalocean.com/&quot; target=&quot;_blank&quot;&gt; Digital Ocean &lt;/a&gt; Link: &lt;a href=&quot;http://nginx.org/&quot; target=&quot;_blank&quot;&gt; Nginx &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;see &lt;a href=&quot;https://github.com/abh/geodns&quot; target=&quot;_blank&quot;&gt;Geo DNS - CDN Servers&lt;/a&gt; for more detail&lt;/p&gt;
-
-&lt;blockquote&gt;
-&quot;HUB DOCKER coocood/geodns - Build, Ship, and Run
-Any App, Anywhere&quot;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 25 Aug 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/</guid>
         
         
       </item>

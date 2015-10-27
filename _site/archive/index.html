@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -294,6 +304,13 @@ padding-top: 100px;
                      
                       <ul class="this">
                       
+                      <li><time>22 Oct</time> <a href="/2015/10/22/some-more-cluster-geo-cdn-servers-launching/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Start Up Launch</a></li>
+                      
+                     
+                      
+                      
+                      
+                      
                       <li><time>18 Oct</time> <a href="/2015/10/18/start-up-launching-now/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Start Up Launch</a></li>
                       
                      
@@ -371,153 +388,6 @@ padding-top: 100px;
                       
                       
                       
-                      <li><time>27 Jun</time> <a href="/2015/06/27/current-streak-startup/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Current Streak</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>26 Jun</time> <a href="/2015/06/26/im-at-angellist-now/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">AngelList</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>22 Jun</time> <a href="/2015/06/22/sails.js-partials-pages-code-page-sections/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Sails.js - Partials</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>21 Jun</time> <a href="/2015/06/21/programming-our-ios-app-sdk-cocoa-startup/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Programming a Prototype for our Native Mobile App</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>17 Jun</time> <a href="/2015/06/17/oauth-github-twitter-api/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">oAuth - Github - Twitter Api</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>10 Jun</time> <a href="/2015/06/10/hacker-camp-switzerland-hack-night/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Hacker Camps - Start Up Camps in Switzerland 2016</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>04 Jun</time> <a href="/2015/06/04/www:space:lucasgatsas:ch:waves/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Waves</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>01 Jun</time> <a href="/2015/06/01/htaccess-404-cpanel/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Modify .htaccess</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>30 May</time> <a href="/2015/05/30/space.lucasgatsas.ch/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">100 Days Online - Non Stop</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>29 May</time> <a href="/2015/05/29/inspiration-waves/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Inspiration</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>27 May</time> <a href="/2015/05/27/inspiration-waves-II/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Inspiration</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>20 May</time> <a href="/2015/05/20/grunt.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Grunt.js - Javascript Task Runner</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>18 May</time> <a href="/2015/05/18/openssl-nginx-server-linux/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">OpenSSL - Os X - Linux on nginx Server Linux</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>17 May</time> <a href="/2015/05/17/openssl-mac-linux/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">OpenSSL - Os X - Linux</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>14 May</time> <a href="/2015/05/14/cloc-code-count-on-our-app-start-up/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Count Lines of Code</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>13 May</time> <a href="/2015/05/13/gulp.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">gulp.js </a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>12 May</time> <a href="/2015/05/12/user-on-sails.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">User on sails.js </a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>10 May</time> <a href="/2015/05/10/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">reboot your Mac  - chmod o+rx</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>09 May</time> <a href="/2015/05/09/startup-streak/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Start Up - Streak</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>08 May</time> <a href="/2015/05/08/underscore.js-library-for-programmers/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">underscore.js </a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>07 May</time> <a href="/2015/05/07/getting-crazy-witdh-sails.js-and-backbone.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Sails.js</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
                       <li><time>06 May</time> <a href="/2015/05/06/gem-npm-ruby-gems-node.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Ruby Gems</a></li>
                       
                      
@@ -567,98 +437,7 @@ padding-top: 100px;
                       
                       
                       
-                      <li><time>11 Apr</time> <a href="/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">UI/UX Testing - Start Up Current Streak</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>09 Apr</time> <a href="/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">X-UA Compatible Part II</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>04 Apr</time> <a href="/2015/04/04/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Add X-UA Compatibility Mode</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>31 Mar</time> <a href="/2015/03/31/bash-unix-shell-awesome-v.0.0.1/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Get $bash Unix Shell Awesome v.0.0.1</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>30 Mar</time> <a href="/2015/03/30/npm-v.2.7.4.-for-javascript-developers/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">npm V.2.7.4</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>29 Mar</time> <a href="/2015/03/29/mac-osx-commands-terminal-front/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Mac Os X - CommandLines</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
                       <li><time>27 Mar</time> <a href="/2015/03/27/node.js-v0.12.1/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Node.js - New Javascript</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>26 Mar</time> <a href="/2015/03/26/xcode-without-appstore/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Get Xcode without Appstore</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>24 Mar</time> <a href="/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported%20Kopie/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">sudoers file - Add Premission to any User</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>23 Mar</time> <a href="/2015/03/23/ready-for-macports/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Ready For MacPorts</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>22 Mar</time> <a href="/2015/03/22/get-emacs-on-your-machine/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">emacs</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>21 Mar</time> <a href="/2015/03/21/work-with-sails-js-on-github/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Sails.js - Remote Work</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>20 Mar</time> <a href="/2015/03/20/git-install/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Git Introduction</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>19 Mar</time> <a href="/2015/03/19/Raspberry-Pi-Modell-B/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">RaspberryPI Modell B</a></li>
                       
                      
                       
@@ -672,193 +451,7 @@ padding-top: 100px;
                       
                       
                       
-                      <li><time>01 Mar</time> <a href="/2015/03/01/my-playlist-january-march/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">My Playlist</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>27 Feb</time> <a href="/2015/02/27/worktime-tracking-harvest-app/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Worktime Tracking App from Havest App</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>23 Feb</time> <a href="/2015/02/23/work-static/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Work Static from our Start Up</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>21 Feb</time> <a href="/2015/02/21/design-work-flow-ui-ux/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Design Workflow UI/UX</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>14 Feb</time> <a href="/2015/02/14/io-domians/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">.io - Domains</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>10 Feb</time> <a href="/2015/02/10/github-punsh/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">How many Hours do you sleep?</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>09 Feb</time> <a href="/2015/02/09/ycombinator-hacker-news/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">y-combinator Hacker News</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>01 Feb</time> <a href="/2015/02/01/fonts/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Get Started with Fonts</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
                       <li><time>28 Jan</time> <a href="/2015/01/28/angular.js-framework/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Angular.js</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>27 Jan</time> <a href="/2015/01/27/clean-magic-jekyll-theme/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Clean Magic Jekyll Theme V.0.3.0</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>21 Jan</time> <a href="/2015/01/21/infinite-scroll-jekyll/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Infinite Scroll for Jekyll</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>20 Jan</time> <a href="/2015/01/20/google-cast.sender.js-console-error/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Chrome YouTube cast_sender.js console error</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>19 Jan</time> <a href="/2015/01/19/github-workflow/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Github - Introduction</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>17 Jan</time> <a href="/2015/01/17/sails.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Implement Passport.js authentication with Sails.js ~0.10</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>16 Jan</time> <a href="/2015/01/16/introduction-less-css/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">less/css - Introduction</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>15 Jan</time> <a href="/2015/01/15/why-do-you-will-be-not-a-programmer-in-a-year-full-of-learning/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Why do you will be not a Programmer in a Month!</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>14 Jan</time> <a href="/2015/01/14/WCAG-2.0-on-color-contrast-ratio/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">WCAG 2.0 on Color Contrast - Ratio</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>13 Jan</time> <a href="/2015/01/13/an-introduction-to-object-oriented-css-oocss/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">An Introduction To Object Oriented CSS (OOCSS)</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>12 Jan</time> <a href="/2015/01/12/work-online/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Work Online</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>10 Jan</time> <a href="/2015/01/10/bootstrap-front-end-framework.v.3/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Bootstrap Currently v3.3.1 - Front-End Framework</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>08 Jan</time> <a href="/2015/01/08/backbone.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">backbone.js </a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>06 Jan</time> <a href="/2015/01/06/set-up-sails-js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Set Up sails.js - Sails js - Framework</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>06 Jan</time> <a href="/2015/01/06/get-introduction-get-started/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Get Introduction - Get Started</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>05 Jan</time> <a href="/2015/01/05/install-laravel-on-xampp-mamp/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">How Install Laravel on Mac Os X - PHP Framework on Xampp + Mamp</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>04 Jan</time> <a href="/2015/01/04/science-medium-jekyll-theme/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Science Medium Jekyll Theme V.0.2.0</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>01 Jan</time> <a href="/2015/01/01/ssl-https/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">ssl - https over GitHub.</a></li>
-                      
-                     
-                      
-                      
-                      
-                      </ul>
-                      <h2>2014</h2>
-                      <ul class="past">
-                      
-                      
-                      <li><time>01 Jul</time> <a href="/2014/07/01/getready/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">The dreams of yesterday are the hopes of today and the reality of tomorrow.</a></li>
                       
                       </ul>
                       <!--    <hr class="small"> -->

@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/living-room-inspiration-5.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/Pi2ModB1GB_-comp-1.jpeg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-09-04T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/09/04/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine/">September 04, 2015</a>
+						<time datetime="2015-09-30T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/">September 30, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/09/04/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine/" id="post-title-h1" rel="bookmark" title="bcrypt Issue on your Local Machine" itemprop="url">bcrypt Issue on your Local Machine</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/09/04/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine/" rel="bookmark" title="bcrypt Issue on your Local Machine" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/" id="post-title-h1" rel="bookmark" title="Run Raspberry Pi over Mac Os X" itemprop="url">Run Raspberry Pi over Mac Os X</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/" rel="bookmark" title="Run Raspberry Pi over Mac Os X" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,62 +773,223 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading"> bcrypt Issue on your Local Machine - node.bcrypt.js</h2>
+			<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
 
-<p>To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline. </p>
+<p>I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
+I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram. </p>
 
-<p><br /></p>
+<p>First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.</p>
+
+<p>Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. </p>
+
+<p><strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> </p>
+
+<p>All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
+DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). </p>
+
+<p>First Open your Terminal in Mac Osx. Then Type </p>
+
+<p>(1.) <code> ping raspberrypi.local </code> </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="o">~</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">ping</span> <span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span>
+<span class="no">PING</span> <span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span> <span class="p">(</span><span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">):</span> <span class="mi">56</span> <span class="n">data</span> <span class="n">bytes</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">0</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">1</span><span class="o">.</span><span class="mi">202</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">1</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">554</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">2</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">597</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">3</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">544</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">4</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">597</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">5</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">553</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">6</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">645</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">7</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">674</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">8</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">578</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">9</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">581</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">10</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">566</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">11</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">614</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">12</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">581</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">13</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">577</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">14</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">554</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">15</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">590</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">16</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">646</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">17</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">641</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">18</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">575</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">19</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">602</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">20</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">645</span> <span class="n">ms</span>
+<span class="o">^</span><span class="n">C</span>
+<span class="o">---</span> <span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span> <span class="n">ping</span> <span class="n">statistics</span> <span class="o">---</span>
+<span class="mi">21</span> <span class="n">packets</span> <span class="n">transmitted</span><span class="p">,</span> <span class="mi">21</span> <span class="n">packets</span> <span class="n">received</span><span class="p">,</span> <span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">%</span> <span class="n">packet</span> <span class="n">loss</span>
+<span class="n">round</span><span class="o">-</span><span class="n">trip</span> <span class="n">min</span><span class="o">/</span><span class="n">avg</span><span class="o">/</span><span class="n">max</span><span class="o">/</span><span class="n">stddev</span> <span class="o">=</span> <span class="mi">0</span><span class="o">.</span><span class="mi">544</span><span class="o">/</span><span class="mi">0</span><span class="o">.</span><span class="mi">625</span><span class="o">/</span><span class="mi">1</span><span class="o">.</span><span class="mi">202</span><span class="o">/</span><span class="mi">0</span><span class="o">.</span><span class="mi">134</span> <span class="n">ms</span></code></pre></div>
+
+<p>After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. </p>
+
+<p>(2.) <code> ssh pi@raspberrypi.local </code> </p>
+
+<p>Now do you will get to the ssh RSA Key, if you have one.  </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="o">~</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">ssh</span> <span class="n">pi</span><span class="vi">@raspberrypi</span><span class="o">.</span><span class="n">local</span>
+<span class="no">The</span> <span class="n">authenticity</span> <span class="n">of</span> <span class="n">host</span> <span class="s1">&#39;raspberrypi.local (10.0.0.3)&#39;</span> <span class="n">can</span><span class="err">&#39;</span><span class="n">t</span> <span class="n">be</span> <span class="n">established</span><span class="o">.</span>
+<span class="no">RSA</span> <span class="n">key</span> <span class="n">fingerprint</span> <span class="n">is</span> <span class="mi">7</span><span class="ss">d</span><span class="p">:</span><span class="ss">b7</span><span class="p">:</span><span class="mi">30</span><span class="ss">:bb:bc</span><span class="p">:</span><span class="mi">78</span><span class="p">:</span><span class="mi">97</span><span class="ss">:da</span><span class="p">:</span><span class="mi">3</span><span class="ss">e</span><span class="p">:</span><span class="ss">d8</span><span class="p">:</span><span class="ss">e7</span><span class="p">:</span><span class="ss">e7</span><span class="p">:</span><span class="mi">7</span><span class="ss">f</span><span class="p">:</span><span class="ss">e4</span><span class="p">:</span><span class="ss">a6</span><span class="p">:</span><span class="mo">04</span><span class="o">.</span>
+<span class="no">Are</span> <span class="n">you</span> <span class="n">sure</span> <span class="n">you</span> <span class="n">want</span> <span class="n">to</span> <span class="n">continue</span> <span class="n">connecting</span> <span class="p">(</span><span class="n">yes</span><span class="o">/</span><span class="n">no</span><span class="p">)?</span></code></pre></div>
+
+<p>Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Linux</span> <span class="n">raspberrypi</span> <span class="mi">3</span><span class="o">.</span><span class="mi">18</span><span class="o">.</span><span class="mi">11</span><span class="o">+</span> <span class="c1">#781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l</span>
+
+<span class="no">The</span> <span class="n">programs</span> <span class="n">included</span> <span class="n">with</span> <span class="n">the</span> <span class="no">Debian</span> <span class="no">GNU</span><span class="o">/</span><span class="no">Linux</span> <span class="nb">system</span> <span class="n">are</span> <span class="n">free</span> <span class="n">software</span><span class="p">;</span>
+<span class="n">the</span> <span class="n">exact</span> <span class="n">distribution</span> <span class="n">terms</span> <span class="k">for</span> <span class="n">each</span> <span class="n">program</span> <span class="n">are</span> <span class="n">described</span> <span class="k">in</span> <span class="n">the</span>
+<span class="n">individual</span> <span class="n">files</span> <span class="k">in</span> <span class="sr">/usr/s</span><span class="n">hare</span><span class="o">/</span><span class="n">doc</span><span class="o">/*/</span><span class="n">copyright</span><span class="o">.</span>
+
+<span class="no">Debian</span> <span class="no">GNU</span><span class="o">/</span><span class="no">Linux</span> <span class="n">comes</span> <span class="n">with</span> <span class="no">ABSOLUTELY</span> <span class="no">NO</span> <span class="no">WARRANTY</span><span class="p">,</span> <span class="n">to</span> <span class="n">the</span> <span class="n">extent</span>
+<span class="n">permitted</span> <span class="n">by</span> <span class="n">applicable</span> <span class="n">law</span><span class="o">.</span>
+<span class="no">Last</span> <span class="ss">login</span><span class="p">:</span> <span class="no">Mon</span> <span class="no">Sep</span> <span class="mi">28</span> <span class="mo">00</span><span class="p">:</span><span class="mo">04</span><span class="p">:</span><span class="mi">24</span> <span class="mi">2015</span>
+<span class="n">pi</span><span class="vi">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span></code></pre></div>
+
+<p>Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Right After you entry your RaspberryPi via Termina, you have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.</p>
+
+<p>(3.) <code>sudo apt-get install tightvncserver </code> </p>
+
+<p>Don’t be worry this need a while, after that process type Commandline </p>
+
+<p>(4.) <code> tightvncserver </code> </p>
+
+<p>you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer. </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">You</span> <span class="n">will</span> <span class="nb">require</span> <span class="n">a</span> <span class="n">password</span> <span class="n">to</span> <span class="n">access</span> <span class="n">your</span> <span class="n">desktops</span><span class="o">.</span>
+
+<span class="ss">Password</span><span class="p">:</span> 
+<span class="ss">Verify</span><span class="p">:</span>   
+<span class="no">Would</span> <span class="n">you</span> <span class="n">like</span> <span class="n">to</span> <span class="n">enter</span> <span class="n">a</span> <span class="n">view</span><span class="o">-</span><span class="n">only</span> <span class="n">password</span> <span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">n</span><span class="p">)?</span> <span class="n">no</span>
+
+<span class="no">New</span> <span class="s1">&#39;X&#39;</span> <span class="n">desktop</span> <span class="n">is</span> <span class="ss">raspberrypi</span><span class="p">:</span><span class="mi">1</span>
+
+<span class="no">Creating</span> <span class="n">default</span> <span class="n">startup</span> <span class="n">script</span> <span class="sr">/home/</span><span class="n">pi</span><span class="o">/.</span><span class="n">vnc</span><span class="o">/</span><span class="n">xstartup</span>
+<span class="no">Starting</span> <span class="n">applications</span> <span class="n">specified</span> <span class="k">in</span> <span class="sr">/home/</span><span class="n">pi</span><span class="o">/.</span><span class="n">vnc</span><span class="o">/</span><span class="n">xstartup</span>
+<span class="no">Log</span> <span class="n">file</span> <span class="n">is</span> <span class="sr">/home/</span><span class="n">pi</span><span class="o">/.</span><span class="n">vnc</span><span class="o">/</span><span class="ss">raspberrypi</span><span class="p">:</span><span class="mi">1</span><span class="o">.</span><span class="n">log</span></code></pre></div>
+
+<p>At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> </p>
+
+<p>Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. </p>
+
+<p>Cheers!</p>
+
+<p>ps: Install Video will come up soon. Stay Tuned!</p>
+
 <center>
-<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/7J_biOzgpb/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">Total Crash ladt night Outthere with npm install bcrypt!  bcrypt ! #terminal #commandline #linux #macosx ! Issue fixed and the App is back after 4 Hours! Coding Hardcore!</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-03T05:06:42+00:00">2. Sep 2015 um 22:06 Uhr</time></p></div></blockquote>
-<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script></center>
 
-<p><br /></p>
+<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/8PHK_lTgjl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-30T01:21:57+00:00">29. Sep 2015 um 18:21 Uhr</time></p></div></blockquote>
+<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+</center>
 
-Space-Odysseys-Mac-Pro:www cyberspace$ sails lift
+<p><a href="/img/p-4.png">
+    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
 
-info: Starting app...
+<p><a href="/img/pi-3.png">
+    <img src="/img/pi-3.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
 
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:83
-throw e
-^
-Error: dlopen(/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node, 1): no suitable image found. Did find:
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node: unknown file type, first eight bytes: 0x7F 0x45 0x4C 0x46 0x02 0x01 0x01 0x03
-at Error (native)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at bindings (/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:76:44)
-at Object. (/Users/cyberspace/Desktop/www/node_modules/bcrypt/bcrypt.js:3:35)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at Object. (/Users/cyberspace/Desktop/www/config/passport.js:5:10)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-Space-Odysseys-Mac-Pro:www cyberspace$
+<p><a href="/img/pi1.png">
+    <img src="/img/pi1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
+</a></p>
 
-</pre></pre></div>
+<p>My Full Terminal Work: </p>
 
-<p>I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install <code>$ npm -v </code> !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline <code> $ npm install bcrypt </code> </p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Last</span> <span class="ss">login</span><span class="p">:</span> <span class="no">Mon</span> <span class="no">Sep</span> <span class="mi">28</span> <span class="mo">03</span><span class="p">:</span><span class="mo">04</span><span class="p">:</span><span class="mi">26</span> <span class="n">on</span> <span class="n">ttys000</span>
+<span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="o">~</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">ping</span> <span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span>
+<span class="no">PING</span> <span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span> <span class="p">(</span><span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">):</span> <span class="mi">56</span> <span class="n">data</span> <span class="n">bytes</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">0</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">1</span><span class="o">.</span><span class="mi">202</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">1</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">554</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">2</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">597</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">3</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">544</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">4</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">597</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">5</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">553</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">6</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">645</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">7</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">674</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">8</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">578</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">9</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">581</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">10</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">566</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">11</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">614</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">12</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">581</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">13</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">577</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">14</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">554</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">15</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">590</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">16</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">646</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">17</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">641</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">18</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">575</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">19</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">602</span> <span class="n">ms</span>
+<span class="mi">64</span> <span class="n">bytes</span> <span class="n">from</span> <span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">:</span> <span class="n">icmp_seq</span><span class="o">=</span><span class="mi">20</span> <span class="n">ttl</span><span class="o">=</span><span class="mi">64</span> <span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="o">.</span><span class="mi">645</span> <span class="n">ms</span>
+<span class="o">^</span><span class="n">C</span>
+<span class="o">---</span> <span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span> <span class="n">ping</span> <span class="n">statistics</span> <span class="o">---</span>
+<span class="mi">21</span> <span class="n">packets</span> <span class="n">transmitted</span><span class="p">,</span> <span class="mi">21</span> <span class="n">packets</span> <span class="n">received</span><span class="p">,</span> <span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">%</span> <span class="n">packet</span> <span class="n">loss</span>
+<span class="n">round</span><span class="o">-</span><span class="n">trip</span> <span class="n">min</span><span class="o">/</span><span class="n">avg</span><span class="o">/</span><span class="n">max</span><span class="o">/</span><span class="n">stddev</span> <span class="o">=</span> <span class="mi">0</span><span class="o">.</span><span class="mi">544</span><span class="o">/</span><span class="mi">0</span><span class="o">.</span><span class="mi">625</span><span class="o">/</span><span class="mi">1</span><span class="o">.</span><span class="mi">202</span><span class="o">/</span><span class="mi">0</span><span class="o">.</span><span class="mi">134</span> <span class="n">ms</span>
+<span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="o">~</span> <span class="n">cyberspace</span><span class="err">$</span> <span class="n">ssh</span> <span class="n">pi</span><span class="vi">@raspberrypi</span><span class="o">.</span><span class="n">local</span>
+<span class="no">The</span> <span class="n">authenticity</span> <span class="n">of</span> <span class="n">host</span> <span class="s1">&#39;raspberrypi.local (10.0.0.4)&#39;</span> <span class="n">can</span><span class="s1">&#39;t be established.</span>
+<span class="s1">RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.</span>
+<span class="s1">Are you sure you want to continue connecting (yes/no)? yes</span>
+<span class="s1">Warning: Permanently added &#39;</span><span class="n">raspberrypi</span><span class="o">.</span><span class="n">local</span><span class="p">,</span><span class="mi">10</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">4</span><span class="s1">&#39; (RSA) to the list of known hosts.</span>
+<span class="s1">pi@raspberrypi.local&#39;</span><span class="n">s</span> <span class="ss">password</span><span class="p">:</span> 
+<span class="no">Linux</span> <span class="n">raspberrypi</span> <span class="mi">3</span><span class="o">.</span><span class="mi">18</span><span class="o">.</span><span class="mi">11</span><span class="o">+</span> <span class="c1">#781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l</span>
 
-<p><br /></p>
-<center>
-<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/7KAoZ6Tgqe/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">Bug fixing! #commandline #terminal #node</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-03T05:17:12+00:00">2. Sep 2015 um 22:17 Uhr</time></p></div></blockquote>
-<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script></center>
+<span class="no">The</span> <span class="n">programs</span> <span class="n">included</span> <span class="n">with</span> <span class="n">the</span> <span class="no">Debian</span> <span class="no">GNU</span><span class="o">/</span><span class="no">Linux</span> <span class="nb">system</span> <span class="n">are</span> <span class="n">free</span> <span class="n">software</span><span class="p">;</span>
+<span class="n">the</span> <span class="n">exact</span> <span class="n">distribution</span> <span class="n">terms</span> <span class="k">for</span> <span class="n">each</span> <span class="n">program</span> <span class="n">are</span> <span class="n">described</span> <span class="k">in</span> <span class="n">the</span>
+<span class="n">individual</span> <span class="n">files</span> <span class="k">in</span> <span class="sr">/usr/s</span><span class="n">hare</span><span class="o">/</span><span class="n">doc</span><span class="o">/*/</span><span class="n">copyright</span><span class="o">.</span>
 
-<p>See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a> 
-Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> </p>
+<span class="no">Debian</span> <span class="no">GNU</span><span class="o">/</span><span class="no">Linux</span> <span class="n">comes</span> <span class="n">with</span> <span class="no">ABSOLUTELY</span> <span class="no">NO</span> <span class="no">WARRANTY</span><span class="p">,</span> <span class="n">to</span> <span class="n">the</span> <span class="n">extent</span>
+<span class="n">permitted</span> <span class="n">by</span> <span class="n">applicable</span> <span class="n">law</span><span class="o">.</span>
+<span class="no">Last</span> <span class="ss">login</span><span class="p">:</span> <span class="no">Mon</span> <span class="no">Sep</span> <span class="mi">28</span> <span class="mo">00</span><span class="p">:</span><span class="mo">04</span><span class="p">:</span><span class="mi">24</span> <span class="mi">2015</span>
+<span class="n">pi</span><span class="vi">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span> <span class="n">ls</span>
+<span class="no">Desktop</span>  <span class="n">python_games</span>
+<span class="n">pi</span><span class="vi">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span> <span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">tightvncserver</span>
+<span class="no">Paketlisten</span> <span class="n">werden</span> <span class="n">gelesen</span><span class="o">.</span><span class="n">.</span><span class="o">.</span> <span class="no">Fertig</span>
+<span class="no">Abh</span><span class="err">ä</span><span class="n">ngigkeitsbaum</span> <span class="n">wird</span> <span class="n">aufgebaut</span><span class="o">.</span>       
+<span class="no">Statusinformationen</span> <span class="n">werden</span> <span class="n">eingelesen</span><span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">.</span> <span class="no">Fertig</span>
+<span class="no">Die</span> <span class="n">folgenden</span> <span class="n">zus</span><span class="err">ä</span><span class="n">tzlichen</span> <span class="no">Pakete</span> <span class="n">werden</span> <span class="ss">installiert</span><span class="p">:</span>
+  <span class="n">xfonts</span><span class="o">-</span><span class="n">base</span>
+<span class="no">Vorgeschlagene</span> <span class="ss">Pakete</span><span class="p">:</span>
+  <span class="n">tightvnc</span><span class="o">-</span><span class="n">java</span>
+<span class="no">Die</span> <span class="n">folgenden</span> <span class="no">NEUEN</span> <span class="no">Pakete</span> <span class="n">werden</span> <span class="ss">installiert</span><span class="p">:</span>
+  <span class="n">tightvncserver</span> <span class="n">xfonts</span><span class="o">-</span><span class="n">base</span>
+<span class="mi">0</span> <span class="n">aktualisiert</span><span class="p">,</span> <span class="mi">2</span> <span class="n">neu</span> <span class="n">installiert</span><span class="p">,</span> <span class="mi">0</span> <span class="n">zu</span> <span class="n">entfernen</span> <span class="n">und</span> <span class="mi">0</span> <span class="n">nicht</span> <span class="n">aktualisiert</span><span class="o">.</span>
+<span class="no">Es</span> <span class="n">m</span><span class="err">ü</span><span class="n">ssen</span> <span class="mi">6</span><span class="o">.</span><span class="mi">967</span> <span class="n">kB</span> <span class="n">an</span> <span class="no">Archiven</span> <span class="n">heruntergeladen</span> <span class="n">werden</span><span class="o">.</span>
+<span class="no">Nach</span> <span class="n">dieser</span> <span class="no">Operation</span> <span class="n">werden</span> <span class="mi">9</span><span class="o">.</span><span class="mi">988</span> <span class="n">kB</span> <span class="no">Plattenplatz</span> <span class="n">zus</span><span class="err">ä</span><span class="n">tzlich</span> <span class="n">benutzt</span><span class="o">.</span>
+<span class="n">M</span><span class="err">ö</span><span class="n">chten</span> <span class="no">Sie</span> <span class="n">fortfahren</span> <span class="o">[</span><span class="n">J</span><span class="o">/</span><span class="n">n</span><span class="o">]</span><span class="p">?</span> <span class="n">ja</span>
+<span class="ss">Holen</span><span class="p">:</span> <span class="mi">1</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//mi</span><span class="n">rrordirector</span><span class="o">.</span><span class="n">raspbian</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">raspbian</span><span class="o">/</span> <span class="n">wheezy</span><span class="o">/</span><span class="n">main</span> <span class="n">tightvncserver</span> <span class="n">armhf</span> <span class="mi">1</span><span class="o">.</span><span class="mi">3</span><span class="o">.</span><span class="mi">9</span><span class="o">-</span><span class="mi">6</span><span class="o">.</span><span class="mi">4</span> <span class="o">[</span><span class="mi">786</span> <span class="n">kB</span><span class="o">]</span>
+<span class="ss">Holen</span><span class="p">:</span> <span class="mi">2</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//mi</span><span class="n">rrordirector</span><span class="o">.</span><span class="n">raspbian</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">raspbian</span><span class="o">/</span> <span class="n">wheezy</span><span class="o">/</span><span class="n">main</span> <span class="n">xfonts</span><span class="o">-</span><span class="n">base</span> <span class="n">all</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span> <span class="o">[</span><span class="mi">6</span><span class="o">.</span><span class="mi">181</span> <span class="n">kB</span><span class="o">]</span>
+<span class="no">Es</span> <span class="n">wurden</span> <span class="mi">6</span><span class="o">.</span><span class="mi">967</span> <span class="n">kB</span> <span class="k">in</span> <span class="mi">4</span> <span class="n">s</span> <span class="n">geholt</span> <span class="p">(</span><span class="mi">1</span><span class="o">.</span><span class="mi">570</span> <span class="n">kB</span><span class="o">/</span><span class="n">s</span><span class="p">)</span><span class="o">.</span>
+<span class="no">Vormals</span> <span class="n">nicht</span> <span class="n">ausgew</span><span class="err">ä</span><span class="n">hltes</span> <span class="no">Paket</span> <span class="n">tightvncserver</span> <span class="n">wird</span> <span class="n">gew</span><span class="err">ä</span><span class="n">hlt</span><span class="o">.</span>
+<span class="p">(</span><span class="no">Lese</span> <span class="no">Datenbank</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span> <span class="mi">77851</span> <span class="no">Dateien</span> <span class="n">und</span> <span class="no">Verzeichnisse</span> <span class="n">sind</span> <span class="n">derzeit</span> <span class="n">installiert</span><span class="o">.</span><span class="p">)</span>
+<span class="no">Entpacken</span> <span class="n">von</span> <span class="n">tightvncserver</span> <span class="p">(</span><span class="n">aus</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">/tightvncserver_1</span><span class="o">.</span><span class="mi">3</span><span class="o">.</span><span class="mi">9</span><span class="o">-</span><span class="mi">6</span><span class="o">.</span><span class="mi">4</span><span class="n">_armhf</span><span class="o">.</span><span class="n">deb</span><span class="p">)</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="no">Vormals</span> <span class="n">nicht</span> <span class="n">ausgew</span><span class="err">ä</span><span class="n">hltes</span> <span class="no">Paket</span> <span class="n">xfonts</span><span class="o">-</span><span class="n">base</span> <span class="n">wird</span> <span class="n">gew</span><span class="err">ä</span><span class="n">hlt</span><span class="o">.</span>
+<span class="no">Entpacken</span> <span class="n">von</span> <span class="n">xfonts</span><span class="o">-</span><span class="n">base</span> <span class="p">(</span><span class="n">aus</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">/xfonts</span><span class="o">-</span><span class="n">base_1</span><span class="o">%</span><span class="mi">3</span><span class="n">a1</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="n">_all</span><span class="o">.</span><span class="n">deb</span><span class="p">)</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="no">Trigger</span> <span class="n">f</span><span class="err">ü</span><span class="n">r</span> <span class="n">man</span><span class="o">-</span><span class="n">db</span> <span class="n">werden</span> <span class="n">verarbeitet</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="no">Trigger</span> <span class="n">f</span><span class="err">ü</span><span class="n">r</span> <span class="n">fontconfig</span> <span class="n">werden</span> <span class="n">verarbeitet</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="n">tightvncserver</span> <span class="p">(</span><span class="mi">1</span><span class="o">.</span><span class="mi">3</span><span class="o">.</span><span class="mi">9</span><span class="o">-</span><span class="mi">6</span><span class="o">.</span><span class="mi">4</span><span class="p">)</span> <span class="n">wird</span> <span class="n">eingerichtet</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="n">update</span><span class="o">-</span><span class="ss">alternatives</span><span class="p">:</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">tightvncserver</span> <span class="n">wird</span> <span class="n">verwendet</span><span class="p">,</span> <span class="n">um</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">vncserver</span> <span class="p">(</span><span class="n">vncserver</span><span class="p">)</span> <span class="n">im</span> <span class="no">Auto</span><span class="o">-</span><span class="no">Modus</span> <span class="n">bereitzustellen</span>
+<span class="n">update</span><span class="o">-</span><span class="ss">alternatives</span><span class="p">:</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="no">Xtightvnc</span> <span class="n">wird</span> <span class="n">verwendet</span><span class="p">,</span> <span class="n">um</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="no">Xvnc</span> <span class="p">(</span><span class="no">Xvnc</span><span class="p">)</span> <span class="n">im</span> <span class="no">Auto</span><span class="o">-</span><span class="no">Modus</span> <span class="n">bereitzustellen</span>
+<span class="n">update</span><span class="o">-</span><span class="ss">alternatives</span><span class="p">:</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">tightvncpasswd</span> <span class="n">wird</span> <span class="n">verwendet</span><span class="p">,</span> <span class="n">um</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">vncpasswd</span> <span class="p">(</span><span class="n">vncpasswd</span><span class="p">)</span> <span class="n">im</span> <span class="no">Auto</span><span class="o">-</span><span class="no">Modus</span> <span class="n">bereitzustellen</span>
+<span class="n">xfonts</span><span class="o">-</span><span class="n">base</span> <span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">3</span><span class="p">)</span> <span class="n">wird</span> <span class="n">eingerichtet</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="n">pi</span><span class="vi">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span> <span class="n">tightvncserver</span>
+
+<span class="no">You</span> <span class="n">will</span> <span class="nb">require</span> <span class="n">a</span> <span class="n">password</span> <span class="n">to</span> <span class="n">access</span> <span class="n">your</span> <span class="n">desktops</span><span class="o">.</span>
+
+<span class="ss">Password</span><span class="p">:</span> 
+<span class="ss">Verify</span><span class="p">:</span>   
+<span class="no">Would</span> <span class="n">you</span> <span class="n">like</span> <span class="n">to</span> <span class="n">enter</span> <span class="n">a</span> <span class="n">view</span><span class="o">-</span><span class="n">only</span> <span class="n">password</span> <span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">n</span><span class="p">)?</span> <span class="n">no</span>
+
+<span class="no">New</span> <span class="s1">&#39;X&#39;</span> <span class="n">desktop</span> <span class="n">is</span> <span class="ss">raspberrypi</span><span class="p">:</span><span class="mi">1</span>
+
+<span class="no">Creating</span> <span class="n">default</span> <span class="n">startup</span> <span class="n">script</span> <span class="sr">/home/</span><span class="n">pi</span><span class="o">/.</span><span class="n">vnc</span><span class="o">/</span><span class="n">xstartup</span>
+<span class="no">Starting</span> <span class="n">applications</span> <span class="n">specified</span> <span class="k">in</span> <span class="sr">/home/</span><span class="n">pi</span><span class="o">/.</span><span class="n">vnc</span><span class="o">/</span><span class="n">xstartup</span>
+<span class="no">Log</span> <span class="n">file</span> <span class="n">is</span> <span class="sr">/home/</span><span class="n">pi</span><span class="o">/.</span><span class="n">vnc</span><span class="o">/</span><span class="ss">raspberrypi</span><span class="p">:</span><span class="mi">1</span><span class="o">.</span><span class="n">log</span>
+
+<span class="n">pi</span><span class="vi">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span></code></pre></div>
+
+<p>Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a> </p>
 
 <blockquote>
-"bcrypt Packages "
+"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
 </blockquote>
 
 

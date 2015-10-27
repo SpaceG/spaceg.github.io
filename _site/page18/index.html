@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/Lucas_Gatsas_lucas_gatsas_0257.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/sgdhsafdc.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-06-04T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/06/04/www:space:lucasgatsas:ch:waves/">June 04, 2015</a>
+						<time datetime="2015-04-18T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/">April 18, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/06/04/www:space:lucasgatsas:ch:waves/" id="post-title-h1" rel="bookmark" title="Waves" itemprop="url">Waves</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/06/04/www:space:lucasgatsas:ch:waves/" rel="bookmark" title="Waves" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/" id="post-title-h1" rel="bookmark" title="Run Raspberry PI over Mac Os X" itemprop="url">Run Raspberry PI over Mac Os X</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/" rel="bookmark" title="Run Raspberry PI over Mac Os X" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,96 +773,36 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">WAVES</h2>
-<h2 class="section-heading">"This will be my Inspiration Site"</h2>
-<p>Need a few days break. I need the beautiful places to be able to pull me Back. Here is my New Page! 
-<a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a> <br /></p>
-<div>
+			<h2 class="section-heading"><strong>Set Up Your Router Firewall PI</strong> </h2>
+<h2 class="section-heading"> RaspberryPI Modell B </h2>
 
-<div class="row">
-            <div class="col-lg-12">
-              <h1 class="page-header">
-             <small>SpaceTravels</small>
-          </h1>
-     </div>
-</div>
-<div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0001.jpg" alt="lucas gatsas" />
-                </a>
-                <h3>
-                    <a href="#">Space [01]</a>
-                </h3>
-              <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0002.jpg" alt="lucas gatsas" />
-                </a>
-                <h3>
-                    <a href="#">Space [02]</a>
-                </h3>
-              <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
-            </div>
-        </div>
-<div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0003.jpg" alt="lucas gatsas" />
-                </a>
-                <h3>
-                    <a href="#">Space [03]</a>
-                </h3>
-            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-0004.jpg" alt="lucas gatsas" />
-                </a>
-                <h3>
-                    <a href="#">Space [04]</a>
-                </h3>
-            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
-            </div>
-        </div>
-<div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-00010.jpg" alt="lucas gatsas" />
-                </a>
-                <h3>
-                    <a href="#">Space [05]</a>
-                </h3>
-            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="http://space.lucasgatsas.ch/waves">
-                    <img class="img-responsive" src="http://lucasgatsas.ch/img/lucas-gatsas-00011.jpg" alt="lucas gatsas" />
-                </a>
-                <h3>
-                    <a href="#">Space [06]</a>
-                </h3>
-            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
-            </div>
-        </div>
+<p>Complete my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
+Waiting for my soldering iron! </p>
 
- <hr />
-<br />
+<blockquote class="twitter-tweet tw-align-center" lang="de"><p>Set Completed soon! Let&#39;s build that Thing! <a href="http://t.co/JGmtW7YSTe">pic.twitter.com/JGmtW7YSTe</a></p>&mdash; Lucas Gatsas (@LucasGatsas) <a href="https://twitter.com/LucasGatsas/status/587991897869783040">14. April 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<p><a href="/img/IMG_1049.jpg">
+    <img src="/img/IMG_1049.jpg" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" />
+</a></p>
 
+<blockquote> Use Raspberry PI as Firewall and Block (WatchDOG) some IP's  which one try to entrie your System! Raspberry PI will send in Auto Modus a Trojanhorse. - My Mini Project for my Studing. </blockquote>
 
-<a href="http://space.lucasgatsas.ch/waves">space.lucasgatsas.ch/waves</a>
+<h2 class="section-heading"><strong>Run it with USB Console Cable </strong> </h2>
+<h2 class="section-heading"></h2>
 
-<br /><br />
+<p><a href="/img/ttl-cable.jpg">
+    <img src="/img/ttl-cable.jpg" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" />
+</a></p>
 
+<blockquote>USB Console Cable</blockquote>
 
-<br />
+<p>Update Complete Post soon. </p>
+
 <blockquote>
-“Ich breche die Brücken hinter mir ab. Man verliert dann keine Zeit mit Rückblicken, wo es schon genug Mühe macht, die Augen nach vorn zu richten. Es gibt also keine andere Wahl, als vorwärts zu gehen.” 
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
 
-</div>
 
 		</div>
 		<br>

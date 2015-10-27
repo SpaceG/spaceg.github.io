@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -748,8 +746,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-10-11T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/10/11/port80-nginx-server-on-ubuntu-linux-servers-run-sails.js/">October 11, 2015</a>
+						<time datetime="2015-10-14T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/10/14/sails-forever-run-forever-on-ubuntu-server-digital-ocean/">October 14, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/11/port80-nginx-server-on-ubuntu-linux-servers-run-sails.js/" id="post-title-h1" rel="bookmark" title="Nginx Port 80 changes and run sails.js via port 80" itemprop="url">Nginx Port 80 changes and run sails.js via port 80</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/11/port80-nginx-server-on-ubuntu-linux-servers-run-sails.js/" rel="bookmark" title="Nginx Port 80 changes and run sails.js via port 80" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/14/sails-forever-run-forever-on-ubuntu-server-digital-ocean/" id="post-title-h1" rel="bookmark" title="Run Sails Forever on Port 80" itemprop="url">Run Sails Forever on Port 80</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/14/sails-forever-run-forever-on-ubuntu-server-digital-ocean/" rel="bookmark" title="Run Sails Forever on Port 80" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,76 +773,13 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Nginx Port 80 </h2>
+			<h2 class="section-heading">Run Sails Forever on Port 80</h2>
 
-<p>To change the Port from Ngnix to :81 is very easy steps. : Open your path in your Terminal root. 
-go to this path <code> /etc/nginx/sites-enabled/  </code> </p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">root</span><span class="vi">@gitlist</span><span class="ss">:/</span><span class="n">var</span><span class="o">/</span><span class="n">www</span><span class="c1"># forever start app.js</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/etc/n</span><span class="n">ginx</span><span class="o">/</span><span class="n">sites</span><span class="o">-</span><span class="n">enabled</span><span class="o">/</span></code></pre></div>
-
-<!--
-
-<a href="/img/p-4.png">
-    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
-</a>
-
-
--->
-
-<p><strong> The Code inside and port changes to :81</strong></p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">root</span><span class="vi">@webapp</span><span class="ss">:/</span><span class="n">etc</span><span class="o">/</span><span class="n">nginx</span><span class="o">/</span><span class="n">sites</span><span class="o">-</span><span class="n">enabled</span><span class="c1"># nano default</span>
-
-  <span class="no">GNU</span> <span class="n">nano</span> <span class="mi">2</span><span class="o">.</span><span class="mi">2</span><span class="o">.</span><span class="mi">6</span>                            <span class="ss">File</span><span class="p">:</span> <span class="n">default</span>                                                                
-
-
-        <span class="c1"># deny access to .htaccess files, if Apache&#39;s document root</span>
-        <span class="c1"># concurs with nginx&#39;s one</span>
-        <span class="c1">#</span>
-        <span class="c1">#location ~ /\.ht {</span>
-        <span class="c1">#       deny all;</span>
-        <span class="c1">#}</span>
-<span class="p">}</span>
-
-
-<span class="c1"># another virtual host using mix of IP-, name-, and port-based configuration</span>
-<span class="c1">#</span>
-<span class="c1">#server {</span>
-<span class="c1">#       listen 81;</span>
-<span class="c1">#       listen somename:81;</span>
-<span class="c1">#       server_name somename alias another.alias;</span>
-<span class="c1">#       root html;</span>
-<span class="c1">#       index index.html index.htm;</span>
-<span class="c1">#</span>
-<span class="c1">#       location / {</span>
-<span class="c1">#               try_files $uri $uri/ =404;</span>
-<span class="c1">#       }</span>
-<span class="c1">#}</span>
-
-
-<span class="c1"># HTTPS server</span>
-<span class="c1">#</span>
-<span class="c1">#server {</span>
-<span class="c1">#       listen 443;</span>
-<span class="c1">#       server_name localhost:81;</span>
-<span class="c1">#</span>
-<span class="c1">#       root html;</span>
-<span class="c1">#       index index.html index.htm;</span>
-<span class="c1">#</span>
-<span class="c1">#       ssl on;</span>
-<span class="c1">#       ssl_certificate cert.pem;</span>
-<span class="c1">#       ssl_certificate_key cert.key;</span>
-<span class="c1">#</span>
-<span class="c1">#       ssl_session_timeout 5m;</span>
-<span class="c1">#</span>
-<span class="c1">#       ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;</span>
-<span class="c1">#       ssl_ciphers &quot;HIGH:!aNULL:!MD5 or HIGH:!aNULL:!MD5:!3DES&quot;;</span>
-<span class="c1">#       ssl_prefer_server_ciphers on;</span>
-<span class="c1">#</span>
-<span class="c1">#       location / {</span>
-<span class="c1">#               try_files $uri $uri/ =404;</span>
-<span class="c1">#       }</span>
-<span class="c1">#}</span></code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">npm</span> <span class="n">clear</span> <span class="n">cache</span>
+ <span class="n">npm</span> <span class="n">rebuild</span>
+ <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span></code></pre></div>
 
 <p>Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a> 
 Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a> </p>

@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/Lucas_Gatsas_lucas_gatsas_0268.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/tumblr_n5e4viuHai1r4v7ypo1_1280-1.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-06-01T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/06/01/htaccess-404-cpanel/">June 01, 2015</a>
+						<time datetime="2015-04-12T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/">April 12, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/06/01/htaccess-404-cpanel/" id="post-title-h1" rel="bookmark" title="Modify .htaccess" itemprop="url">Modify .htaccess</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/06/01/htaccess-404-cpanel/" rel="bookmark" title="Modify .htaccess" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/" id="post-title-h1" rel="bookmark" title="Installing nginx on OS X Yosemite" itemprop="url">Installing nginx on OS X Yosemite</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/" rel="bookmark" title="Installing nginx on OS X Yosemite" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,19 +773,134 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Modify .htaccess</h2>
-<h2 class="section-heading">"Separat Things on cPanel"</h2>
+			<h2 class="section-heading"><strong>Installing nginx on OS X Yosemite</strong> </h2>
+<h2 class="section-heading">Localhost - Server </h2>
 
-<p>To Run a .htaccess File on your cPanel Server. <code> ErrorDocument 404 /404.html</code> Create One, Save it as <code>.htaccess</code> and create a <code>404.html</code> or <code>505.html</code>. <strong>Notice:</strong> Do you don’t will see this File on your Machine or Computer. Becuase it’s a invisible and hidden File.</p>
+<p><strong> Install Brew</strong> : First you have also Install <a href="http://git-scm.com/">brew.sh</a>  on your Machine! Go Install Brew and all Packages:</p>
 
-<p><a href="http://space.lucasgatsas.ch/64376473647637467364634376437647364736473647356736537657365763576375673657365763756376">space.lucasgatsas.ch</a></p>
+<p><code>ruby -e"$(curl -fsSL https://raw.githubusercontent.com/
+Homebrew/install/master/install)"</code> </p>
 
-<p><br /><br /></p>
+<p>More About: <a href="https://www.ruby-lang.org/de/documentation/installation/#building-from-source">ruby.org</a> </p>
 
-<p><br /></p>
+<p><a href="/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg">
+    <img src="/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>After Install Brew: Follow these Steps : </p>
+
+<h2 class="section-heading">Installing nginx on OS X
+</h2>
+
+<p>To install nginx, simply open up the Terminal and enter the following command.</p>
+
+<p><code> brew install nginx</code></p>
+
+<p>That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.</p>
+
+<p><a href="/img/install-nginx.png">
+    <img src="/img/install-nginx.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>Bingo! :) Here we GO Run Nginx : </p>
+
+<p><a href="/img/nginx-install-4-700.png">
+    <img src="/img/nginx-install-4-700.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p><strong>Notice: if you get an error : </strong></p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
+/usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 
+
+</pre></pre></div>
+
+<p><a href="/img/done-ruby-.png">
+    <img src="/img/done-ruby-.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<blockquote> :) &gt;&gt; Warning: fast-forwarding your working tree from </blockquote>
+
+<p>Try this out: very simple: </p>
+
+<p>Open Terminal and Type : </p>
+
+<p><code> cd /usr/local/Library </code></p>
+
+<p><code>git pull origin master  </code></p>
+
+<p>Or if you go with sudo, then type :</p>
+
+<p><code> sudo git pull origin master </code> </p>
+
+<p>In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you’ll have to fetch the master branch and set it forcibly as master:</p>
+
+<p><code> git fetch --all </code> </p>
+
+<p><code> git reset --hard origin/master </code> </p>
+
+<p>This will upgrade your homebrew and you can use brew again.</p>
+
+<p><a href="/img/ruby-done-1.png">
+    <img src="/img/ruby-done-1.png" alt="Lucas Gatsas" style="width:100%" />
+</a></p>
+
+<p>If you installed Homebrew as a non-root user, you’ll need to cd to <code> /Users/yourusername/homebrew/Library</code> instead of <code>/usr/local/Library.</code></p>
+
+<h2 class="section-heading"><strong>Changing nginx’ Default Port to 80</strong> </h2>
+<h2 class="section-heading">8080 - default port</h2>
+
+<p>By default, nginx listens to <code> port 8080 </code>, but let us change that to the default HTTP port, which is 80. To do that, we need to make a simple change to the configuration file <code>  /usr/local/etc/nginx/nginx.conf. </code> You can do this with any text editor such as <code>vi</code> or <code>nano</code></p>
+
+<p><code>sudo vi /usr/local/etc/nginx/nginx.conf</code></p>
+
+<p>Scroll a bit down and you should see the following.</p>
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="color:black;background:white;"><pre>
+
+server {
+        listen       8080;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+        
+        ...       
+}
+
+</pre></pre></div>
+
+<p>What you want to do is to simple change the number 8080 to 80 next to the listen keyword.</p>
+
+<h2 class="section-heading">Testing</h2>
+
+<p>To start up nginx, simply enter the following command in the Terminal.</p>
+
+<p><code>sudo nginx</code></p>
+
+<p>nginx should now start up, and you can test that everything works by navigating to <code>http://localhost</code> in your browser.</p>
+
+<p>If you have problems starting up nginx, a common problem is that the port that nginx is configured to listen to is already in use. If you changed the port to <code>80</code>, then this could be an Apache web server or Skype, for instance.</p>
+
+<p>Should you need to stop nginx, then you can do so with the below command.</p>
+
+<p><code>sudo nginx -s stop</code></p>
+
+<p>As you have seen, nginx is very simple to install and set up on OS X Yosemite!</p>
+
 <blockquote>
-“Um sich in der heutigen Welt zurechtzufinden,
-ist es besser, intelligent als gebildet zu sein.” 
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 </blockquote>
 
 

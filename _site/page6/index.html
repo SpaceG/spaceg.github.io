@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/sep.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-10-06T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/">October 06, 2015</a>
+						<time datetime="2015-10-10T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/10/10/iptables-to-run-your-app-via-port-80-ubuntu/">October 10, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/" id="post-title-h1" rel="bookmark" title="Run Your Web App via port 80 - Sails.js" itemprop="url">Run Your Web App via port 80 - Sails.js</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/" rel="bookmark" title="Run Your Web App via port 80 - Sails.js" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/10/10/iptables-to-run-your-app-via-port-80-ubuntu/" id="post-title-h1" rel="bookmark" title="ipTables - Run Port on 80 on Ubuntu Linux" itemprop="url">ipTables - Run Port on 80 on Ubuntu Linux</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/10/10/iptables-to-run-your-app-via-port-80-ubuntu/" rel="bookmark" title="ipTables - Run Port on 80 on Ubuntu Linux" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,196 +773,13 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">奋力拼搏</h2>
+			<h2 class="section-heading">ipTables</h2>
 
-<h2 class="section-heading">Run Your Web App via port 80 - Sails.js</h2>
+<h2 class="section-heading">Run Your Web App via port 80 on Ubuntu Linux Machine - Sails.js</h2>
 
-<p>The Error was to sails lift the App via only <code> sails lift </code><br />
-Get many Times this error back, tried everything to lift the Web App. but Error. 
-To fix this Issue, do you can change some files inside your App. After Run your 
-App with <code> $ sudo sails lift </code>. 
-<br /></p>
-
-<p>I have included a <code> local.js </code> file to the App. 
-Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 1337 </code>.
-The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
-<br /></p>
-
-<p>Now a was go ahead with the <code> local.js </code> like in the description in the sails.js document! 
-first i have inculded this in the <code> development.js </code> file. and saved this. </p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">info</span><span class="p">:</span> <span class="no">To</span> <span class="n">see</span> <span class="n">your</span> <span class="n">app</span><span class="p">,</span> <span class="n">visit</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">localhost</span>
-<span class="ss">info</span><span class="p">:</span> <span class="no">To</span> <span class="n">shut</span> <span class="n">down</span> <span class="no">Sails</span><span class="p">,</span> <span class="n">press</span> <span class="o">&lt;</span><span class="no">CTRL</span><span class="o">&gt;</span> <span class="o">+</span> <span class="n">C</span> <span class="n">at</span> <span class="n">any</span> <span class="n">time</span><span class="o">.</span>
-
-<span class="ss">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
-<span class="ss">debug</span><span class="p">:</span> <span class="o">::</span> <span class="no">Tue</span> <span class="no">Oct</span> <span class="mo">06</span> <span class="mi">2015</span> <span class="mi">22</span><span class="p">:</span><span class="mi">18</span><span class="p">:</span><span class="mi">40</span> <span class="no">GMT</span><span class="o">+</span><span class="mo">0200</span> <span class="p">(</span><span class="no">CEST</span><span class="p">)</span>
-
-<span class="ss">debug</span><span class="p">:</span> <span class="no">Environment</span> <span class="p">:</span> <span class="n">development</span>
-<span class="ss">debug</span><span class="p">:</span> <span class="no">Port</span>        <span class="p">:</span> <span class="mi">80</span>
-<span class="ss">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
-<span class="n">events</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">85</span>
-      <span class="kp">throw</span> <span class="n">er</span><span class="p">;</span> <span class="sr">//</span> <span class="no">Unhandled</span> <span class="s1">&#39;error&#39;</span> <span class="n">event</span>
-            <span class="o">^</span>
-<span class="ss">Error</span><span class="p">:</span> <span class="n">listen</span> <span class="no">EACCES</span>
-    <span class="n">at</span> <span class="n">exports</span><span class="o">.</span><span class="n">_errnoException</span> <span class="p">(</span><span class="n">util</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">746</span><span class="p">:</span><span class="mi">11</span><span class="p">)</span>
-    <span class="n">at</span> <span class="no">Server</span><span class="o">.</span><span class="n">_listen2</span> <span class="p">(</span><span class="n">net</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">1139</span><span class="p">:</span><span class="mi">19</span><span class="p">)</span>
-    <span class="n">at</span> <span class="n">listen</span> <span class="p">(</span><span class="n">net</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">1182</span><span class="p">:</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
-
-<p>The <code> development.js </code>  File! </p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**</span>
-<span class="sr"> * Development environment settings</span>
-<span class="sr"> *</span>
-<span class="sr"> * This file can include shared settings for a development team,</span>
-<span class="sr"> * such as API keys or remote database passwords.  If you&#39;re using</span>
-<span class="sr"> * a version control solution for your Sails app, this file will</span>
-<span class="sr"> * be committed to your repository unless you add it to your .gitignore</span>
-<span class="sr"> * file.  If your repository will be publicly viewable, don&#39;t add</span>
-<span class="sr"> * any private information to this file!</span>
-<span class="sr"> *</span>
-<span class="sr"> */</span>
-
-<span class="n">module</span><span class="o">.</span><span class="n">exports</span> <span class="o">=</span> <span class="p">{</span>
-
-  <span class="sr">/***************************************************************************</span>
-<span class="sr">   * Set the default database connection for models in the development       *</span>
-<span class="sr">   * environment (see config/</span><span class="n">connections</span><span class="o">.</span><span class="n">js</span> <span class="ow">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="o">.</span><span class="n">js</span> <span class="p">)</span>           <span class="o">*</span>
-   <span class="o">***************************************************************************/</span>
-
-  <span class="sr">//</span> <span class="ss">models</span><span class="p">:</span> <span class="p">{</span>
-  <span class="sr">//</span>   <span class="ss">connection</span><span class="p">:</span> <span class="s1">&#39;someMongodbServer&#39;</span>
-  <span class="sr">//</span> <span class="p">},</span>
-  
-  <span class="sr">/***************************************************************************</span>
-<span class="sr">   * Set the port in the development environment to 80                        *</span>
-<span class="sr">   ***************************************************************************/</span>
-
-   <span class="sr">//</span> <span class="ss">port</span><span class="p">:</span> <span class="mi">80</span><span class="p">,</span>
-<span class="p">};</span></code></pre></div>
-
-<p><br /> </p>
-
-<p>The <code> development.js.bak </code>  File! </p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**</span>
-<span class="sr"> * Development environment settings</span>
-<span class="sr"> *</span>
-<span class="sr"> * This file can include shared settings for a development team,</span>
-<span class="sr"> * such as API keys or remote database passwords.  If you&#39;re using</span>
-<span class="sr"> * a version control solution for your Sails app, this file will</span>
-<span class="sr"> * be committed to your repository unless you add it to your .gitignore</span>
-<span class="sr"> * file.  If your repository will be publicly viewable, don&#39;t add</span>
-<span class="sr"> * any private information to this file!</span>
-<span class="sr"> *</span>
-<span class="sr"> */</span>
-
-<span class="n">module</span><span class="o">.</span><span class="n">exports</span> <span class="o">=</span> <span class="p">{</span>
-
-  <span class="sr">/***************************************************************************</span>
-<span class="sr">   * Set the default database connection for models in the development       *</span>
-<span class="sr">   * environment (see config/</span><span class="n">connections</span><span class="o">.</span><span class="n">js</span> <span class="ow">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="o">.</span><span class="n">js</span> <span class="p">)</span>           <span class="o">*</span>
-   <span class="o">***************************************************************************/</span>
-
-  <span class="sr">//</span> <span class="ss">models</span><span class="p">:</span> <span class="p">{</span>
-  <span class="sr">//</span>   <span class="ss">connection</span><span class="p">:</span> <span class="s1">&#39;someMongodbServer&#39;</span>
-  <span class="sr">//</span> <span class="p">},</span>
-  
-  <span class="sr">/***************************************************************************</span>
-<span class="sr">   * Set the port in the development environment to 80                        *</span>
-<span class="sr">   ***************************************************************************/</span>
-
-   <span class="ss">port</span><span class="p">:</span> <span class="mi">80</span><span class="p">,</span>
-<span class="p">};</span></code></pre></div>
-
-<p>The <code> local.js </code>  File! </p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**</span>
-
-<span class="sr">Local environment settings *</span>
-<span class="sr">While you&#39;re developing your app, this config file should include</span>
-<span class="sr">any settings specifically for your development computer (db passwords, etc.)</span>
-<span class="sr">When you&#39;re ready to deploy your app in production, you can use this file</span>
-<span class="sr">for configuration options on the server where it will be deployed. * *</span>
-<span class="sr">PLEASE NOTE:</span>
-<span class="sr">This file is included in your .gitignore, so if you&#39;re using git</span>
-<span class="sr">as a version control solution for your Sails app, keep in mind that</span>
-<span class="sr">this file won&#39;t be committed to your repository! *</span>
-<span class="sr">Good news is, that means you can specify configuration for your local</span>
-<span class="sr">machine in this file without inadvertently committing personal information</span>
-<span class="sr">(like database passwords) to the repo. Plus, this prevents other members</span>
-<span class="sr">of your team from commiting their local configuration changes on top of yours. * *</span>
-<span class="sr">For more information, check out:</span>
-<span class="sr">http:/</span><span class="o">/</span><span class="n">sailsjs</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="c1">#documentation */</span>
-<span class="n">module</span><span class="o">.</span><span class="n">exports</span> <span class="o">=</span> <span class="p">{</span>
-
-<span class="sr">//</span> <span class="no">The</span> <span class="n">port</span> <span class="n">setting</span> <span class="n">determines</span> <span class="n">which</span> <span class="no">TCP</span> <span class="n">port</span> <span class="n">your</span> <span class="n">app</span> <span class="n">will</span> <span class="n">be</span> <span class="n">deployed</span> <span class="n">on</span>
-<span class="sr">//</span> <span class="no">Ports</span> <span class="n">are</span> <span class="n">a</span> <span class="n">transport</span><span class="o">-</span><span class="n">layer</span> <span class="n">concept</span> <span class="n">designed</span> <span class="n">to</span> <span class="n">allow</span> <span class="n">many</span> <span class="n">different</span>
-<span class="sr">//</span> <span class="n">networking</span> <span class="n">applications</span> <span class="n">run</span> <span class="n">at</span> <span class="n">the</span> <span class="n">same</span> <span class="n">time</span> <span class="n">on</span> <span class="n">a</span> <span class="n">single</span> <span class="n">computer</span><span class="o">.</span>
-<span class="sr">//</span> <span class="no">More</span> <span class="n">about</span> <span class="ss">ports</span><span class="p">:</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//en</span><span class="o">.</span><span class="n">wikipedia</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">wiki</span><span class="o">/</span><span class="no">Port_</span><span class="p">(</span><span class="n">computer_networking</span><span class="p">)</span>
-<span class="sr">//</span> 
-<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="k">if</span> <span class="n">it</span><span class="s1">&#39;s set, Sails uses the PORT environment variable.</span>
-<span class="s1">// Otherwise it falls back to port 1337.</span>
-<span class="s1">//</span>
-<span class="s1">// In production, you&#39;</span><span class="n">ll</span> <span class="n">probably</span> <span class="n">want</span> <span class="n">to</span> <span class="n">change</span> <span class="n">this</span> <span class="n">setting</span> 
-<span class="sr">//</span> <span class="n">to</span> <span class="mi">80</span> <span class="p">(</span><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="p">)</span> <span class="ow">or</span> <span class="mi">443</span> <span class="p">(</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="p">)</span> <span class="k">if</span> <span class="n">you</span> <span class="n">have</span> <span class="n">an</span> <span class="no">SSL</span> <span class="n">certificate</span>
-
-<span class="ss">port</span><span class="p">:</span> <span class="n">process</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">PORT</span> <span class="o">||</span> <span class="mi">80</span><span class="p">,</span>
-
-<span class="sr">//</span> <span class="no">The</span> <span class="n">runtime</span> <span class="s2">&quot;environment&quot;</span> <span class="n">of</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">is</span> <span class="n">either</span> <span class="s1">&#39;development&#39;</span> <span class="ow">or</span> <span class="s1">&#39;production&#39;</span><span class="o">.</span>
-<span class="sr">//</span>
-<span class="sr">//</span> <span class="no">In</span> <span class="n">development</span><span class="p">,</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">will</span> <span class="n">go</span> <span class="n">out</span> <span class="n">of</span> <span class="n">its</span> <span class="n">way</span> <span class="n">to</span> <span class="n">help</span> <span class="n">you</span>
-<span class="sr">//</span> <span class="p">(</span><span class="k">for</span> <span class="n">instance</span> <span class="n">you</span> <span class="n">will</span> <span class="n">receive</span> <span class="n">more</span> <span class="n">descriptive</span> <span class="n">error</span> <span class="ow">and</span> <span class="n">debugging</span> <span class="n">output</span><span class="p">)</span>
-<span class="sr">//</span>
-<span class="sr">//</span> <span class="no">In</span> <span class="n">production</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">configures</span> <span class="n">itself</span> <span class="p">(</span><span class="ow">and</span> <span class="n">its</span> <span class="n">dependencies</span><span class="p">)</span> <span class="n">to</span> <span class="n">optimize</span> <span class="n">performance</span><span class="o">.</span>
-<span class="sr">//</span> <span class="no">You</span> <span class="n">should</span> <span class="n">always</span> <span class="n">put</span> <span class="n">your</span> <span class="n">app</span> <span class="k">in</span> <span class="n">production</span> <span class="n">mode</span> <span class="n">before</span> <span class="n">you</span> <span class="n">deploy</span> <span class="n">it</span> <span class="n">to</span> <span class="n">a</span> <span class="n">server</span><span class="o">-</span>
-<span class="sr">//</span> <span class="no">This</span> <span class="n">helps</span> <span class="k">ensure</span> <span class="n">that</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">remains</span> <span class="n">stable</span><span class="p">,</span> <span class="n">performant</span><span class="p">,</span> <span class="ow">and</span> <span class="n">scalable</span><span class="o">.</span>
-<span class="sr">//</span> 
-<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">sets</span> <span class="n">its</span> <span class="n">environment</span> <span class="n">using</span> <span class="n">the</span> <span class="no">NODE_ENV</span> <span class="n">environment</span> <span class="n">variable</span><span class="o">.</span>
-<span class="sr">//</span> <span class="no">If</span> <span class="no">NODE_ENV</span> <span class="n">is</span> <span class="ow">not</span> <span class="n">set</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">will</span> <span class="n">run</span> <span class="k">in</span> <span class="n">the</span> <span class="s1">&#39;development&#39;</span> <span class="n">environment</span><span class="o">.</span>
-
- <span class="sr">//en</span><span class="ss">vironment</span><span class="p">:</span> <span class="n">process</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">NODE_ENV</span> <span class="o">||</span> <span class="s1">&#39;development&#39;</span>
-
-<span class="p">};</span></code></pre></div>
-
-<p>Pingo The WebApp is running now on <code> localhost </code> </p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="n">xxxxxx</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span>
-<span class="ss">Password</span><span class="p">:</span>
-
-<span class="ss">info</span><span class="p">:</span> <span class="no">Starting</span> <span class="n">app</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
-
-<span class="ss">info</span><span class="p">:</span> 
-<span class="ss">info</span><span class="p">:</span>                <span class="o">.</span><span class="n">-</span><span class="o">.</span><span class="n">.</span><span class="o">-.</span>
-<span class="ss">info</span><span class="p">:</span> 
-<span class="ss">info</span><span class="p">:</span>    <span class="no">Sails</span>              <span class="o">&lt;|</span>    <span class="o">.</span><span class="n">-</span><span class="o">.</span><span class="n">.</span><span class="o">-.</span>
-<span class="ss">info</span><span class="p">:</span>    <span class="n">v0</span><span class="o">.</span><span class="mi">11</span><span class="o">.</span><span class="mi">0</span>             <span class="o">|</span><span class="p">\</span>
-<span class="ss">info</span><span class="p">:</span>                       <span class="sr">/|.\</span>
-<span class="sr">info:                      /</span> <span class="o">||</span> <span class="p">\</span>
-<span class="ss">info</span><span class="p">:</span>                    <span class="p">,</span><span class="s1">&#39;  |&#39;</span>  <span class="p">\</span>
-<span class="ss">info</span><span class="p">:</span>                 <span class="o">.</span><span class="n">-</span><span class="s1">&#39;.-==|/_--&#39;</span>
-<span class="ss">info</span><span class="p">:</span>                 <span class="sb">`--&#39;-------&#39; </span>
-<span class="sb">info:    __---___--___---___--___---___--___</span>
-<span class="sb">info:  ____---___--___---___--___---___--___-__</span>
-<span class="sb">info: </span>
-<span class="sb">info: Server lifted in `</span><span class="o">/</span><span class="no">Users</span><span class="o">/</span><span class="n">cybo</span><span class="o">/</span><span class="no">Downloads</span><span class="o">/</span><span class="n">xxxxxxx</span><span class="sb">`</span>
-<span class="sb">info: To see your app, visit http://localhost</span>
-<span class="sb">info: To shut down Sails, press &lt;CTRL&gt; + C at any time.</span>
-
-<span class="sb">debug: --------------------------------------------------------</span>
-<span class="sb">debug: :: Tue Oct 06 2015 22:24:03 GMT+0200 (CEST)</span>
-
-<span class="sb">debug: Environment : development</span>
-<span class="sb">debug: Port        : 80</span>
-<span class="sb">debug: --------------------------------------------------------</span></code></pre></div>
-
-<p>PerfectWork: With Carbon based Lifeforms - Interloper!</p>
-
-<!--
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/-9pgIVcB3rk" frameborder="0" allowfullscreen></iframe>
-
-
- -->
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">--</span><span class="n">iptables</span> <span class="o">-</span><span class="n">A</span> <span class="no">INPUT</span> <span class="o">-</span><span class="n">i</span> <span class="n">eth0</span> <span class="o">-</span><span class="nb">p</span> <span class="n">tcp</span> <span class="o">--</span><span class="n">dport</span> <span class="mi">80</span> <span class="o">-</span><span class="n">j</span> <span class="no">ACCEPT</span>
+<span class="o">--</span><span class="n">iptables</span> <span class="o">-</span><span class="n">A</span> <span class="no">INPUT</span> <span class="o">-</span><span class="n">i</span> <span class="n">eth0</span> <span class="o">-</span><span class="nb">p</span> <span class="n">tcp</span> <span class="o">--</span><span class="n">dport</span> <span class="mi">8080</span> <span class="o">-</span><span class="n">j</span> <span class="no">ACCEPT</span>
+<span class="o">--</span><span class="n">iptables</span> <span class="o">-</span><span class="n">A</span> <span class="no">PREROUTING</span> <span class="o">-</span><span class="n">t</span> <span class="n">nat</span> <span class="o">-</span><span class="n">i</span> <span class="n">eth0</span> <span class="o">-</span><span class="nb">p</span> <span class="n">tcp</span> <span class="o">--</span><span class="n">dport</span> <span class="mi">80</span> <span class="o">-</span><span class="n">j</span> <span class="no">REDIRECT</span> <span class="o">--</span><span class="n">to</span><span class="o">-</span><span class="n">port</span> <span class="mi">8080</span></code></pre></div>
 
 <!--
 
@@ -975,13 +790,11 @@ first i have inculded this in the <code> development.js </code> file. and saved 
 
 -->
 
-<p>Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js" target="_blank"> local.js</a> 
-Link: <a href="http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp" target="_blank"> superuser</a> 
-Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> sails issues</a> 
-Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error" target="_blank"> Stack Overflow</a> </p>
+<p>Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a> 
+Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a> </p>
 
 <blockquote>
-"i want, i want, i want , i want !!!!"
+"Port Running on Linux Ubuntu Servers"
 </blockquote>
 
 

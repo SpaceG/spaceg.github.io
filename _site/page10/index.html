@@ -110,6 +110,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <!-- Preloader --><!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
     <style>
+    .pager li>a, .pager li>span {
+    display: inline-block;
+    /* padding: 5px 14px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 90px;
+}
 pre {
     display: block;
     padding: 9.5px;
@@ -120,18 +127,21 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 0px solid #fff;
     border-radius: 4px;
 }
     a {
     color:   rgb(66, 127, 237);
 }
+
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}.navbar-default {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
 code {
+
+  
     padding: 2px 4px;
     font-size: 90%;
     color: #3A3A3A;
@@ -412,7 +422,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -430,7 +440,7 @@ code {
     padding: 23px 40px;
     font-size: 17px;
     letter-spacing: .7px;
-    font-weight: 300;
+    font-weight: 800;
     font-family: Lato;
     text-transform: uppercase;
     border-radius: 5px;
@@ -510,8 +520,8 @@ I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in
 <br> - <strong>PERL</strong> <a href="https://en.wikipedia.org/wiki/Perl" target="_blank"> Link to : PERL</a> 
 <br> - <strong>CoffeeScript</strong> <a href=" https://en.wikipedia.org/wiki/CoffeeScript)" target="_blank"> Link to : Coffescript</a> 
 <br> - <strong>D</strong> <a href=" https://en.wikipedia.org/wiki/D#Computing_codes" target="_blank"> Link to : D </a> 
-<br> - <strong>Bourne Again Shell</strong> <a href=" https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Again Shell</a> 
-<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"> Link to : Bourne Shell</a> 
+<br> - <strong>Bourne Again Shell</strong> <a href="https://en.wikipedia.org/wiki/Bourne_shell" target="_blank"> Link to : Bourne Again Shell</a> 
+<br> - <strong>Bourne Shell</strong> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank"> Link to : Bourne Shell</a> 
 <br> - <strong>Ruby</strong> <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"> Link to : Ruby on Rails</a> 
 <br> - <strong>DOS Batch</strong> <a href="https://en.wikipedia.org/wiki/Batch_file" target="_blank"> Link to : DOS BATCH</a> 
 <br> - <strong>Python</strong> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Link to : PYTHON</a> 
@@ -662,7 +672,7 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
             </div>
         </div>
     </div>
-    <div id="testimonials">
+ <!--   <div id="testimonials">
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
@@ -688,26 +698,14 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
                         </div>
                     </div>
                 </div>
-            <!--    <div class="col-sm-6">
-                    <div class="testimonial">
-                        <div class="quote">
-                            This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
-                            <div class="arrow-down">
-                                <div class="arrow"></div>
-                                <div class="arrow-border"></div>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
-                            <div class="name">Karen Jones</div>
-                            <div class="company">Pixar Co.</div>
-                        </div>
-                    </div>-->
+     
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta">
+    </div> --> 
+
+
+    <div id="cta" class="gitlist-logo">
         <p>
             Start your free Gitlist Today 
         </p>
@@ -744,12 +742,12 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 			<div class="content">
   
     <article>
-			<header class="intro-header" style="background-image: url('/img/deskto-1.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
+			<header class="intro-header" style="background-image: url('/img/Lucas_Gatsas_lucas_gatsas_0254.jpg')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				
 				<div class="post-meta">
 					<span class="entry-date date published updated">
-						<time datetime="2015-08-25T16:00:44+02:00">
-							<a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/">August 25, 2015</a>
+						<time datetime="2015-08-30T16:00:44+02:00">
+							<a href="http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/">August 30, 2015</a>
 						</time>
 					</span>
 					<span class="author vcard">
@@ -761,8 +759,8 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
 				</div>
 		
 				
-				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" id="post-title-h1" rel="bookmark" title="Create a GeoDNS" itemprop="url">Create a GeoDNS</a></h1>
-								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" rel="bookmark" title="Create a GeoDNS" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+				<h1 class="post-title"><a href="http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/" id="post-title-h1" rel="bookmark" title="Ejs - Highlighter for Sublime Text 2" itemprop="url">Ejs - Highlighter for Sublime Text 2</a></h1>
+								<h1 class="post-title-readmore"><a href="http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/" rel="bookmark" title="Ejs - Highlighter for Sublime Text 2" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				
 			</header>
@@ -775,177 +773,39 @@ Is made to Share Git's to Gitlist and Share it with other Developers WorldWide. 
     
 	<article class="container hentry">
 		<div class="entry-content">
-			<h2 class="section-heading">Geo DNS - CDN Servers</h2>
-<h2 class="section-heading">"CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server"</h2>
+			<h2 class="section-heading">Ejs - Highlighter for Sublime Text 2</h2>
 
-<p>Rolling Your Own <code>CDN </code> – Build A 3 Continent CDN For $25 In 1 Hour</p>
+<p>Step 1: Clone the bundles into your Sublime Text packages directory</p>
 
-<p>First create a folder <code>mkdir /dns</code></p>
+<p>Preferecnes &gt; Browse Packages gets you to the right directory in windows.  <code> [AppData]\Roaming\
+Sublime Text 2\Packages </code> </p>
 
-<p>Then run:
-docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
-<code>/dns:/opt/geodns/dns 
-	coocood/geodns /opt/geodns/geodns.</code></p>
-
-<p>Put zone files in /dns.</p>
-
-<p>Zone file is <code> json </code> formatted, file name looks like “deployiotest.com.json”, it’s content looks like:</p>
-
-<p><strong>Step 1: Order a DNS instance from DigitalOcean.</strong> </p>
-
-<p>We chose SFO and the 2nd smallest instance.</p>
-
-<p>We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.</p>
-
-<p><br /> </p>
-
-<p><code>ns1.deploy.io    192.241.224.116 </code>
-<code>ns2.deploy.io    192.241.224.116 </code></p>
-
-<p><br /></p>
-
-<p><strong> Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance</strong></p>
-
-<p>See https://index.docker.io/u/coocood/geodns for detail.</p>
-
-<p><br /></p>
-
-<p><strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> </p>
-
-<p>We used the smallest instance.  We setup DNS for this example using them:</p>
-
-<p><br />
-<code>test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo </code>
-<code>test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo </code>
-<code>test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo </code>
-<code>test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo </code></p>
-
-<p><br /></p>
-
-<p>Here’s what DigitalOcean’s web interface looks like with all the machines spun up:</p>
-
-<p><br /> </p>
-
-<p><a href="/img/1789766_orig1.png">
-    <img src="/img/1789766_orig1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p><br /> </p>
-
-<p><strong> Setup 4: Setup a test domain for the CDN:</strong> </p>
-
-<p>If you lookup deployiotest.com the 4 web servers are chosen randomly</p>
-
-<p>If you look up www.deployiotest.com, it will go to the closest geo server.</p>
-
-<p>Set the name servers to point to:</p>
-
-<p><br /> </p>
-
-<p><code> ns1.deploy.io 192.241.224.116 </code>
-<code> ns2.deploy.io 192.241.224.116 </code></p>
-
-<p><br />   </p>
-
-<p><strong>SEE THE CDN GEO DNS WORKING</strong> </p>
-
-<p><a href="/img/dns-geo.png">
-    <img src="/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p><br /> </p>
+<p>Packages:</p>
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
 
 
-	{
-	"serial":1394372421,
-	"ttl":    390,
-	"targeting": "country continent @ regiongroup region asn",
-	"data":{
-	    "":{
-	        "ns": [ "ns1.deploy.io", "ns2.deploy.io" ],
-	        "a":[
-	            [
-	               "107.170.45.174",
-	               "1000"
-	            ],
-	            [
-	               "128.199.216.96",
-	               "1000"
-	            ],
-	            [
-	               "107.170.251.75",
-	               "1000"
-	            ],
-	            [
-	               "188.226.185.173",
-	               "1000"
-	            ]
-	        ]
-	    },
-	    "www":{
-	        "alias": ""    
-	    },
-	    "www.us-west":{
-	        "cname": "test-sfo-do.deploy.io."    
-	    },
-	    "www.europe":{
-	        "cname": "test-ams-do.deploy.io."    
-	    },
-	    "www.asia":{
-	        "cname": "test-sin-do.deploy.io."    
-	    },
-	    "www.us-east":{
-	        "cname": "test-jfk-do.deploy.io."    
-	    }
-	  }
-	}
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript
+git clone https://github.com/miksago/jade-tmbundle.git Jade
+git clone https://github.com/LearnBoost/stylus.git Stylus
 
 </pre></pre></div>
 
-<p><br /> </p>
+<p>For EJS:
+<code> git clone git://github.com/
+	gregory-m/ejs-tmbundle.git EJS</code> </p>
 
-<p><strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code> </strong></strong></p>
+<p>For LESS:
+<code> git clone https://github.com/danro/
+LESS-sublime.git LESS</code> </p>
 
-<p>Just test it on <code> www.just-ping.com. </code></p>
-
-<p><code> Todo </code> </p>
-
-<p><br /> </p>
-
-<p>Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example</p>
-
-<p><br /> </p>
-
-<p>Add a way to take servers in and out of rotation using a little daemon on the geodns server</p>
-
-<p><br /> </p>
-
-<p>Tune the Geo map for places outside of the US/Europe and Asia.</p>
-
-<p><br /></p>
-
-<p>Add more virtual servers from other providers</p>
-
-<p><br /></p>
-
-<p>Add a way to spin up servers using lib-cloud</p>
-
-<p><br /> </p>
-
-<p><a href="/img/dns-geo-cdn.png">
-    <img src="/img/dns-geo-cdn.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>Link: <a href="https://hub.docker.com/r/coocood/geodns/" target="_blank">Geo DNS - CDN Servers</a> Link: <a href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> Link: <a href="http://nginx.org/" target="_blank"> Nginx </a></p>
-
-<p>see <a href="https://github.com/abh/geodns" target="_blank">Geo DNS - CDN Servers</a> for more detail</p>
+<p>Link: <a href="https://gist.github.com/liamdon/2467603" target="_blank">SublimeText Highlight Syntax</a> </p>
 
 <blockquote>
-"HUB DOCKER coocood/geodns - Build, Ship, and Run
-Any App, Anywhere"
+"CoffeeScript, Jade and Stylus syntax highlighting in Sublime Text 2
+Raw"
 </blockquote>
 
 
