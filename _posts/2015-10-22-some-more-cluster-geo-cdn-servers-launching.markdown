@@ -60,9 +60,3 @@ Link: <a href="https://github.com/SpaceG/gitlist-launching" target="_blank"> Let
 <!-- 
 Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a>  --> 
 
-
-
-<blockquote>
-"Start Up Launching - Let the little Missile fly as far as she can."
-</blockquote>
-
