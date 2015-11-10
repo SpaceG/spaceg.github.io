@@ -48,7 +48,7 @@ header-img:
 
     </article>
 
-<!--
+
     
 	<article class="container hentry">
 		<div class="entry-content">
@@ -78,20 +78,12 @@ border: 1px solid rgba(0, 0, 0, 0.09);
 
 	</td>
 </div>
-	</article> --> 
+	</article>
+
+  {% endfor %}
 
 
-
-  {% endfor %
-
-
-
-
-
-
-
-<!--
-  {% if paginator.total_pages > 1 %}
+ <!-- {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
@@ -109,11 +101,8 @@ border: 1px solid rgba(0, 0, 0, 0.09);
       <span class='next'>Next &raquo;</span>
     {% endif %}
   </div>
-  {% endif %}
-</div> --> 
-
-
-
+  {% endif %} --> 
+</div>
 
 <script src="{{ site.siteurl }}/js/jquery-1.11.1.js"></script>
 <script src="{{ site.siteurl }}/js/jscroll/jquery.jscroll.js"></script>
