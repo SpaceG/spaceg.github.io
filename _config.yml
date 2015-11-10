@@ -18,5 +18,5 @@ permalink: pretty
 paginate: 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-paginate: 1 #posts per page
+paginate: 0 #posts per page
 
