@@ -1,4 +1,3 @@
-
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -87,67 +86,17 @@
 </footer>
 
 
+ <script src= "{{ "/js/highlight.js " | prepend: site.baseurl }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
-
-
-        <script type="text/javascript">
-  /*
-Credits:
-https://github.com/marcaube/bootstrap-magnify
-*/
-
-!function(a){"use strict";var b=function(a,b){this.init("magnify",a,b)};b.prototype={constructor:b,init:function(b,c,d){var e="mousemove",f="mouseleave";this.type=b,this.$element=a(c),this.options=this.getOptions(d),this.nativeWidth=0,this.nativeHeight=0,this.$element.wrap('<div class="magnify" >'),this.$element.parent(".magnify").append('<div class="magnify-large" >'),this.$element.siblings(".magnify-large").css("background","url('"+this.$element.attr("src")+"') no-repeat"),this.$element.parent(".magnify").on(e+"."+this.type,a.proxy(this.check,this)),this.$element.parent(".magnify").on(f+"."+this.type,a.proxy(this.check,this))},getOptions:function(b){return b=a.extend({},a.fn[this.type].defaults,b,this.$element.data()),b.delay&&"number"==typeof b.delay&&(b.delay={show:b.delay,hide:b.delay}),b},check:function(b){var c=a(b.currentTarget),d=c.children("img"),e=c.children(".magnify-large");if(this.nativeWidth||this.nativeHeight){var g=c.offset(),h=b.pageX-g.left,i=b.pageY-g.top;if(h<c.width()&&i<c.height()&&h>0&&i>0?e.fadeIn(100):e.fadeOut(100),e.is(":visible")){var j=-1*Math.round(h/c.width()*this.nativeWidth-e.width()/2),k=-1*Math.round(i/c.height()*this.nativeHeight-e.height()/2),l=j+"px "+k+"px",m=h-e.width()/2,n=i-e.height()/2;e.css({left:m,top:n,backgroundPosition:l})}}else{var f=new Image;f.src=d.attr("src"),this.nativeWidth=f.width,this.nativeHeight=f.height}}},a.fn.magnify=function(c){return this.each(function(){var d=a(this),e=d.data("magnify"),f="object"==typeof c&&c;e||d.data("tooltip",e=new b(this,f)),"string"==typeof c&&e[c]()})},a.fn.magnify.Constructor=b,a.fn.magnify.defaults={delay:0},a(window).on("load",function(){a('[data-toggle="magnify"]').each(function(){var b=a(this);b.magnify()})})}(window.jQuery);
-  </script>
-    
-
-
-
-  <!-- javascript -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <!--<script src="js/bootstrap/bootstrap.min.js"></script>--> 
-
-  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+ <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
-<script src="{{ "/js/spaceg.stylesheets.min.js" | prepend: site.baseurl }}"></script> 
+ <script src="{{ "/js/spaceg.stylesheets.min.js" | prepend: site.baseurl }}"></script> 
 
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+ <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
-
-
-
-    <!-- Main Javascript -->          
-    <!--<script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/jquery-1.11.2.min.js"></script> -->
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>             
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>                                                                  
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/main.js"></script>
-    
-    <!-- Fullpage.js -->
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/fullPage.js/jquery.fullPage.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fullpage-custom.js"></script> 
-    
-    <!-- Owl Carousel -->
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/owl-carousel/owl.carousel.js"></script> 
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/owl-custom.js"></script> 
-   
-    
-    <!-- Form Validation -->
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/jquery.validate.min.js"></script> 
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/form-validation-custom.js"></script>
-    
-    <!-- Form iOS fix -->
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/plugins/isMobile/isMobile.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/form-mobile-fix.js"></script>
-    
-    <!-- Vimeo video -->
-    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/vimeo.js"></script>
 
 
 
@@ -155,8 +104,8 @@ https://github.com/marcaube/bootstrap-magnify
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(50).fadeOut('fast'); // will fade out the white DIV that covers the website.
-      $('body').delay(50).css({'overflow':'visible'});
+      $('#preloader').delay(5).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(5).css({'overflow':'visible'});
     })
   //]]>
 </script> 
