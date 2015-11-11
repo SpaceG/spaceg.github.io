@@ -2,26 +2,8 @@
 <html lang="en">
 
 
-
 <head>
- <!-- 
-      loads the http over https ssl - 
-      welcome to my website! 
-      follow me at my twitter  
-      https://www.twitter.com/LucasGatsas
-      www.lucasgatsas.ch - switzerland. 
 
-                                                    --> 
-
- <!-- here my e-mail to contact me lucasgatsas@gmail.com --> 
-<!--
-<script type="text/javascript">
-var host = "https://lucasgatsas.ch/";
-if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-</script>
--->
-<!-- Microsoft Internet Explorer documentMode compatMode setting IE Modus --> 
 <script type="text/javascript">
 var IE = null;
 if (window.navigator.appName == "Microsoft Internet Explorer") {
@@ -40,37 +22,25 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 </script>
 
     <meta charset="utf-8">
-    <!-- X-UA --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
     <link rel="author" title="Lucas Gatsas" href="https://plus.google.com/101826267816845608605/posts"/>
     <meta name="google-site-verification" content="F5lkHug5Hdw4XRPcwJuQsK01auhET-yWy1o5SrCM-Sw" />
     <meta name="google" content="notranslate" />
-    <!-- Viewport --> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- index ROBOTS follow --> 
     <meta name="robots"    content="index, follow" />
-    <!-- Site Desciption --> 
-    <meta name="description" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. ">
-        <!-- Site Desciption --> 
+    <meta name="description" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. ">
     <meta name="keywords" content="Lucas Gatsas, Gatsas, Web Developer, Front End Engineer, Web Entwickler, Web Designer, Marketing, Online Marketing, St. Gallen, Switzerland, Schweiz">
-    <!-- Favicon --> 
     <link rel="shortcut icon" href="/img/favicon-7326478236.png" type="image/x-icon" />
-    <!-- Blog Title -->
     <title>Lucas Gatsas - Web Developer & Front-End Engineer from Switzerland. </title>
 
-    <!--     <title>Run Your Web App via port 80 - Sails.js - l.g</title>
---> 
-    <!-- Property Metas --> 
+
     <meta property="og:image" content="/img/93TyTG3x.png"/>
-    <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <!-- Canonical -->
+    <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
+    <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <link rel="canonical" href="http://lucasgatsas.ch/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/">
-    <!-- StyleSheet -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
-    <!-- Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -80,13 +50,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="https://gist-assets.github.com/assets/embed-b67021dc07195830cc157f7720b938fb.css" rel="stylesheet" type="text/css">
-    <!-- Loading front stylesheet here --> 
     <style>
+
 
 #preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:url("img/preloader.gif"); /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */}ul, ol {margin-top: 0;margin-bottom: 10px;list-style: none;}.navbar-inverse {background-color: #FFF;border-color: #FFFFFF;}</style> <link rel="stylesheet" href="/css/prettify.css"><style>header.intro-header {background: #6f5499;background: no-repeat center center;background-attachment: scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}/* Preloader */#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff; /* change if the mask should have another color then white */z-index:99; /* makes sure it stays on top */}#status {width:200px;height:200px;position:absolute;left:50%; /* centers the loading animation horizontally one the screen */top:50%; /* centers the loading animation vertically one the screen */background-image:; /* path to your loading animation */background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px; /* is width and height divided by two */} li {list-style: none;}li {list-style: none;}body.modal-open {overflow: hidden;padding-right: 0px;}
     </style>
-    <!-- end Loading front stylesheet here --> 
 </head>
+
+ 
 
 
 
@@ -100,11 +71,9 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 </div>  
 
-    
-<!-- Navigation -->
+   
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -112,16 +81,9 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!--
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapses-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button> -->
+     
             <a class="navbar-brand" href="/" id="blog-title-left-top">g</a>
         </div>   
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
   <li class="dropdown">
@@ -137,15 +99,12 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
                                 <li><a href="http://space.lucasgatsas.ch" target="_blank">Space</a></li>
                                 <li><a href="http://lucasgatsas.ch/archive/">Archive</a></li>
 
-             <!--   <li><a class="navbar-brand portfolio-link" href="#portfolioModal1" data-toggle="modal"><img src="/img/93TyTG3x.png" id="small-img-nav" width="40" height="40" class="img-circle" alt="newspace"></a></li> -->
+       
                     <li><a href="https://www.twitter.com/LucasGatsas" id="roundbutton" target="_blank"><i class="fa fa-twitter"></i>LucasGatsas</a></li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container -->
 </nav>
-<!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px; overflow: hidden;">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -162,7 +121,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
                             <hr class="star-primary">
                             <img src="/img/zLAW5YPs_400x400.jpg" class="img-responsive img-centered" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
                             <p class="font-style-inline-small">
-                                Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein.  <br>
+                                Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein.  <br>
                                 <a href="https://www.twitter.com/LucasGatsas" target="_blank">follow me</a>. <br> 
                                 <a href="https://www.github.com/spaceg" target="_blank">    <i class="fa fa-github" id="spaceg-social-modal"></i> </a> 
                                 <a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>    
@@ -175,7 +134,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
             </div>
         </div>
     </div>
-<!-- Menu Modals Add New Sa.21.Feb.2015 03:22:25 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="padding-right:0px; overflow: hidden;">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -190,7 +148,6 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
                         <div class="modal-body">
                             <h1 class="font-style-inline-small-h1">l.g</h1>
                             <hr class="star-primary">
-                       <!--     <img src="https://pbs.twimg.com/profile_images/598639420363923456/zLAW5YPs_400x400.jpg" class="img-responsive img-centered" alt=""> -->
                             <p class="font-style-inline-small">
                         <a href="https://www.twitter.com/LucasGatsas" target="_blank">follow</a>. <br> 
                                 <a href="https://www.github.com/spaceg" target="_blank">    <i class="fa fa-github" id="spaceg-social-modal"></i> </a> 
@@ -209,10 +166,10 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         </div>
     </div>
 
+ 
 
-
-    <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/Pi2ModB1GB_-comp-1.jpeg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+   <!--<!--
+<header class="intro-header" style="background-image: url('/img/sep.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -228,259 +185,219 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     </div>
 </header>
 
-<!-- Post Content -->
+
 <article>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
+				<h2 class="section-heading">奋力拼搏</h2>
 
-<h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
+<h2 class="section-heading">Run Your Web App via port 80 - Sails.js</h2>
 
-<p>I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
-I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram. </p>
+<p>The Error was to sails lift the App via only <code> sails lift </code><br />
+Get many Times this error back, tried everything to lift the Web App. but Error. 
+To fix this Issue, do you can change some files inside your App. After Run your 
+App with <code> $ sudo sails lift </code>. 
+<br /></p>
 
-<p>First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.</p>
+<p>I have included a <code> local.js </code> file to the App. 
+Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 1337 </code>.
+The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
+<br /></p>
 
-<p>Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. </p>
+<p>Now a was go ahead with the <code> local.js </code> like in the description in the sails.js document! 
+first i have inculded this in the <code> development.js </code> file. and saved this. </p>
 
-<p><strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> </p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">info</span><span class="p">:</span> <span class="no">To</span> <span class="n">see</span> <span class="n">your</span> <span class="n">app</span><span class="p">,</span> <span class="n">visit</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">localhost</span>
+<span class="ss">info</span><span class="p">:</span> <span class="no">To</span> <span class="n">shut</span> <span class="n">down</span> <span class="no">Sails</span><span class="p">,</span> <span class="n">press</span> <span class="o">&lt;</span><span class="no">CTRL</span><span class="o">&gt;</span> <span class="o">+</span> <span class="n">C</span> <span class="n">at</span> <span class="n">any</span> <span class="n">time</span><span class="o">.</span>
 
-<p>All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
-DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). </p>
+<span class="ss">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
+<span class="ss">debug</span><span class="p">:</span> <span class="o">::</span> <span class="no">Tue</span> <span class="no">Oct</span> <span class="mo">06</span> <span class="mi">2015</span> <span class="mi">22</span><span class="p">:</span><span class="mi">18</span><span class="p">:</span><span class="mi">40</span> <span class="no">GMT</span><span class="o">+</span><span class="mo">0200</span> <span class="p">(</span><span class="no">CEST</span><span class="p">)</span>
 
-<p>First Open your Terminal in Mac Osx. Then Type </p>
+<span class="ss">debug</span><span class="p">:</span> <span class="no">Environment</span> <span class="p">:</span> <span class="n">development</span>
+<span class="ss">debug</span><span class="p">:</span> <span class="no">Port</span>        <span class="p">:</span> <span class="mi">80</span>
+<span class="ss">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
+<span class="n">events</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">85</span>
+      <span class="kp">throw</span> <span class="n">er</span><span class="p">;</span> <span class="sr">//</span> <span class="no">Unhandled</span> <span class="s1">&#39;error&#39;</span> <span class="n">event</span>
+            <span class="o">^</span>
+<span class="ss">Error</span><span class="p">:</span> <span class="n">listen</span> <span class="no">EACCES</span>
+    <span class="n">at</span> <span class="n">exports</span><span class="o">.</span><span class="n">_errnoException</span> <span class="p">(</span><span class="n">util</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">746</span><span class="p">:</span><span class="mi">11</span><span class="p">)</span>
+    <span class="n">at</span> <span class="no">Server</span><span class="o">.</span><span class="n">_listen2</span> <span class="p">(</span><span class="n">net</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">1139</span><span class="p">:</span><span class="mi">19</span><span class="p">)</span>
+    <span class="n">at</span> <span class="n">listen</span> <span class="p">(</span><span class="n">net</span><span class="o">.</span><span class="n">js</span><span class="p">:</span><span class="mi">1182</span><span class="p">:</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
 
-<p>(1.) <code> ping raspberrypi.local </code> </p>
+<p>The <code> development.js </code>  File! </p>
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**</span>
+<span class="sr"> * Development environment settings</span>
+<span class="sr"> *</span>
+<span class="sr"> * This file can include shared settings for a development team,</span>
+<span class="sr"> * such as API keys or remote database passwords.  If you&#39;re using</span>
+<span class="sr"> * a version control solution for your Sails app, this file will</span>
+<span class="sr"> * be committed to your repository unless you add it to your .gitignore</span>
+<span class="sr"> * file.  If your repository will be publicly viewable, don&#39;t add</span>
+<span class="sr"> * any private information to this file!</span>
+<span class="sr"> *</span>
+<span class="sr"> */</span>
 
-Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
-PING raspberrypi.local (10.0.0.3): 56 data bytes
-64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
-64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
-64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
-64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
-64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
-64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
-64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
-64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
-64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
-64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
-64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
-64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
-64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
-64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
-64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
-64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
-64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
-64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
-64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
-64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
-64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
-^C
---- raspberrypi.local ping statistics ---
-21 packets transmitted, 21 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
+<span class="n">module</span><span class="o">.</span><span class="n">exports</span> <span class="o">=</span> <span class="p">{</span>
 
-</pre></pre></div>
+  <span class="sr">/***************************************************************************</span>
+<span class="sr">   * Set the default database connection for models in the development       *</span>
+<span class="sr">   * environment (see config/</span><span class="n">connections</span><span class="o">.</span><span class="n">js</span> <span class="ow">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="o">.</span><span class="n">js</span> <span class="p">)</span>           <span class="o">*</span>
+   <span class="o">***************************************************************************/</span>
 
-<p>After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. </p>
+  <span class="sr">//</span> <span class="ss">models</span><span class="p">:</span> <span class="p">{</span>
+  <span class="sr">//</span>   <span class="ss">connection</span><span class="p">:</span> <span class="s1">&#39;someMongodbServer&#39;</span>
+  <span class="sr">//</span> <span class="p">},</span>
+  
+  <span class="sr">/***************************************************************************</span>
+<span class="sr">   * Set the port in the development environment to 80                        *</span>
+<span class="sr">   ***************************************************************************/</span>
 
-<p>(2.) <code> ssh pi@raspberrypi.local </code> </p>
+   <span class="sr">//</span> <span class="ss">port</span><span class="p">:</span> <span class="mi">80</span><span class="p">,</span>
+<span class="p">};</span></code></pre></div>
 
-<p>Now do you will get to the ssh RSA Key, if you have one.  </p>
+<p><br /> </p>
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+<p>The <code> development.js.bak </code>  File! </p>
 
-Space-O-Mac-Pro:~ cybo$ ssh pi@raspberrypi.local
-The authenticity of host 'raspberrypi.local (10.0.0.3)' can't be established.
-RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
-Are you sure you want to continue connecting (yes/no)?
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**</span>
+<span class="sr"> * Development environment settings</span>
+<span class="sr"> *</span>
+<span class="sr"> * This file can include shared settings for a development team,</span>
+<span class="sr"> * such as API keys or remote database passwords.  If you&#39;re using</span>
+<span class="sr"> * a version control solution for your Sails app, this file will</span>
+<span class="sr"> * be committed to your repository unless you add it to your .gitignore</span>
+<span class="sr"> * file.  If your repository will be publicly viewable, don&#39;t add</span>
+<span class="sr"> * any private information to this file!</span>
+<span class="sr"> *</span>
+<span class="sr"> */</span>
 
-</pre></pre></div>
+<span class="n">module</span><span class="o">.</span><span class="n">exports</span> <span class="o">=</span> <span class="p">{</span>
 
-<p>Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. </p>
+  <span class="sr">/***************************************************************************</span>
+<span class="sr">   * Set the default database connection for models in the development       *</span>
+<span class="sr">   * environment (see config/</span><span class="n">connections</span><span class="o">.</span><span class="n">js</span> <span class="ow">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="o">.</span><span class="n">js</span> <span class="p">)</span>           <span class="o">*</span>
+   <span class="o">***************************************************************************/</span>
 
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
+  <span class="sr">//</span> <span class="ss">models</span><span class="p">:</span> <span class="p">{</span>
+  <span class="sr">//</span>   <span class="ss">connection</span><span class="p">:</span> <span class="s1">&#39;someMongodbServer&#39;</span>
+  <span class="sr">//</span> <span class="p">},</span>
+  
+  <span class="sr">/***************************************************************************</span>
+<span class="sr">   * Set the port in the development environment to 80                        *</span>
+<span class="sr">   ***************************************************************************/</span>
 
-Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
+   <span class="ss">port</span><span class="p">:</span> <span class="mi">80</span><span class="p">,</span>
+<span class="p">};</span></code></pre></div>
 
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
+<p>The <code> local.js </code>  File! </p>
 
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Mon Sep 28 00:04:24 2015
-pi@raspberrypi ~ $ 
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**</span>
+
+<span class="sr">Local environment settings *</span>
+<span class="sr">While you&#39;re developing your app, this config file should include</span>
+<span class="sr">any settings specifically for your development computer (db passwords, etc.)</span>
+<span class="sr">When you&#39;re ready to deploy your app in production, you can use this file</span>
+<span class="sr">for configuration options on the server where it will be deployed. * *</span>
+<span class="sr">PLEASE NOTE:</span>
+<span class="sr">This file is included in your .gitignore, so if you&#39;re using git</span>
+<span class="sr">as a version control solution for your Sails app, keep in mind that</span>
+<span class="sr">this file won&#39;t be committed to your repository! *</span>
+<span class="sr">Good news is, that means you can specify configuration for your local</span>
+<span class="sr">machine in this file without inadvertently committing personal information</span>
+<span class="sr">(like database passwords) to the repo. Plus, this prevents other members</span>
+<span class="sr">of your team from commiting their local configuration changes on top of yours. * *</span>
+<span class="sr">For more information, check out:</span>
+<span class="sr">http:/</span><span class="o">/</span><span class="n">sailsjs</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="c1">#documentation */</span>
+<span class="n">module</span><span class="o">.</span><span class="n">exports</span> <span class="o">=</span> <span class="p">{</span>
+
+<span class="sr">//</span> <span class="no">The</span> <span class="n">port</span> <span class="n">setting</span> <span class="n">determines</span> <span class="n">which</span> <span class="no">TCP</span> <span class="n">port</span> <span class="n">your</span> <span class="n">app</span> <span class="n">will</span> <span class="n">be</span> <span class="n">deployed</span> <span class="n">on</span>
+<span class="sr">//</span> <span class="no">Ports</span> <span class="n">are</span> <span class="n">a</span> <span class="n">transport</span><span class="o">-</span><span class="n">layer</span> <span class="n">concept</span> <span class="n">designed</span> <span class="n">to</span> <span class="n">allow</span> <span class="n">many</span> <span class="n">different</span>
+<span class="sr">//</span> <span class="n">networking</span> <span class="n">applications</span> <span class="n">run</span> <span class="n">at</span> <span class="n">the</span> <span class="n">same</span> <span class="n">time</span> <span class="n">on</span> <span class="n">a</span> <span class="n">single</span> <span class="n">computer</span><span class="o">.</span>
+<span class="sr">//</span> <span class="no">More</span> <span class="n">about</span> <span class="ss">ports</span><span class="p">:</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//en</span><span class="o">.</span><span class="n">wikipedia</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">wiki</span><span class="o">/</span><span class="no">Port_</span><span class="p">(</span><span class="n">computer_networking</span><span class="p">)</span>
+<span class="sr">//</span> 
+<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="k">if</span> <span class="n">it</span><span class="s1">&#39;s set, Sails uses the PORT environment variable.</span>
+<span class="s1">// Otherwise it falls back to port 1337.</span>
+<span class="s1">//</span>
+<span class="s1">// In production, you&#39;</span><span class="n">ll</span> <span class="n">probably</span> <span class="n">want</span> <span class="n">to</span> <span class="n">change</span> <span class="n">this</span> <span class="n">setting</span> 
+<span class="sr">//</span> <span class="n">to</span> <span class="mi">80</span> <span class="p">(</span><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="p">)</span> <span class="ow">or</span> <span class="mi">443</span> <span class="p">(</span><span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="p">)</span> <span class="k">if</span> <span class="n">you</span> <span class="n">have</span> <span class="n">an</span> <span class="no">SSL</span> <span class="n">certificate</span>
+
+<span class="ss">port</span><span class="p">:</span> <span class="n">process</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">PORT</span> <span class="o">||</span> <span class="mi">80</span><span class="p">,</span>
+
+<span class="sr">//</span> <span class="no">The</span> <span class="n">runtime</span> <span class="s2">&quot;environment&quot;</span> <span class="n">of</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">is</span> <span class="n">either</span> <span class="s1">&#39;development&#39;</span> <span class="ow">or</span> <span class="s1">&#39;production&#39;</span><span class="o">.</span>
+<span class="sr">//</span>
+<span class="sr">//</span> <span class="no">In</span> <span class="n">development</span><span class="p">,</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">will</span> <span class="n">go</span> <span class="n">out</span> <span class="n">of</span> <span class="n">its</span> <span class="n">way</span> <span class="n">to</span> <span class="n">help</span> <span class="n">you</span>
+<span class="sr">//</span> <span class="p">(</span><span class="k">for</span> <span class="n">instance</span> <span class="n">you</span> <span class="n">will</span> <span class="n">receive</span> <span class="n">more</span> <span class="n">descriptive</span> <span class="n">error</span> <span class="ow">and</span> <span class="n">debugging</span> <span class="n">output</span><span class="p">)</span>
+<span class="sr">//</span>
+<span class="sr">//</span> <span class="no">In</span> <span class="n">production</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">configures</span> <span class="n">itself</span> <span class="p">(</span><span class="ow">and</span> <span class="n">its</span> <span class="n">dependencies</span><span class="p">)</span> <span class="n">to</span> <span class="n">optimize</span> <span class="n">performance</span><span class="o">.</span>
+<span class="sr">//</span> <span class="no">You</span> <span class="n">should</span> <span class="n">always</span> <span class="n">put</span> <span class="n">your</span> <span class="n">app</span> <span class="k">in</span> <span class="n">production</span> <span class="n">mode</span> <span class="n">before</span> <span class="n">you</span> <span class="n">deploy</span> <span class="n">it</span> <span class="n">to</span> <span class="n">a</span> <span class="n">server</span><span class="o">-</span>
+<span class="sr">//</span> <span class="no">This</span> <span class="n">helps</span> <span class="k">ensure</span> <span class="n">that</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">remains</span> <span class="n">stable</span><span class="p">,</span> <span class="n">performant</span><span class="p">,</span> <span class="ow">and</span> <span class="n">scalable</span><span class="o">.</span>
+<span class="sr">//</span> 
+<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">sets</span> <span class="n">its</span> <span class="n">environment</span> <span class="n">using</span> <span class="n">the</span> <span class="no">NODE_ENV</span> <span class="n">environment</span> <span class="n">variable</span><span class="o">.</span>
+<span class="sr">//</span> <span class="no">If</span> <span class="no">NODE_ENV</span> <span class="n">is</span> <span class="ow">not</span> <span class="n">set</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">will</span> <span class="n">run</span> <span class="k">in</span> <span class="n">the</span> <span class="s1">&#39;development&#39;</span> <span class="n">environment</span><span class="o">.</span>
+
+ <span class="sr">//en</span><span class="ss">vironment</span><span class="p">:</span> <span class="n">process</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">NODE_ENV</span> <span class="o">||</span> <span class="s1">&#39;development&#39;</span>
+
+<span class="p">};</span></code></pre></div>
+
+<p>Pingo The WebApp is running now on <code> localhost </code> </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Space</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="ss">Pro</span><span class="p">:</span><span class="n">xxxxxx</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span>
+<span class="ss">Password</span><span class="p">:</span>
+
+<span class="ss">info</span><span class="p">:</span> <span class="no">Starting</span> <span class="n">app</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+
+<span class="ss">info</span><span class="p">:</span> 
+<span class="ss">info</span><span class="p">:</span>                <span class="o">.</span><span class="n">-</span><span class="o">.</span><span class="n">.</span><span class="o">-.</span>
+<span class="ss">info</span><span class="p">:</span> 
+<span class="ss">info</span><span class="p">:</span>    <span class="no">Sails</span>              <span class="o">&lt;|</span>    <span class="o">.</span><span class="n">-</span><span class="o">.</span><span class="n">.</span><span class="o">-.</span>
+<span class="ss">info</span><span class="p">:</span>    <span class="n">v0</span><span class="o">.</span><span class="mi">11</span><span class="o">.</span><span class="mi">0</span>             <span class="o">|</span><span class="p">\</span>
+<span class="ss">info</span><span class="p">:</span>                       <span class="sr">/|.\</span>
+<span class="sr">info:                      /</span> <span class="o">||</span> <span class="p">\</span>
+<span class="ss">info</span><span class="p">:</span>                    <span class="p">,</span><span class="s1">&#39;  |&#39;</span>  <span class="p">\</span>
+<span class="ss">info</span><span class="p">:</span>                 <span class="o">.</span><span class="n">-</span><span class="s1">&#39;.-==|/_--&#39;</span>
+<span class="ss">info</span><span class="p">:</span>                 <span class="sb">`--&#39;-------&#39; </span>
+<span class="sb">info:    __---___--___---___--___---___--___</span>
+<span class="sb">info:  ____---___--___---___--___---___--___-__</span>
+<span class="sb">info: </span>
+<span class="sb">info: Server lifted in `</span><span class="o">/</span><span class="no">Users</span><span class="o">/</span><span class="n">cybo</span><span class="o">/</span><span class="no">Downloads</span><span class="o">/</span><span class="n">xxxxxxx</span><span class="sb">`</span>
+<span class="sb">info: To see your app, visit http://localhost</span>
+<span class="sb">info: To shut down Sails, press &lt;CTRL&gt; + C at any time.</span>
+
+<span class="sb">debug: --------------------------------------------------------</span>
+<span class="sb">debug: :: Tue Oct 06 2015 22:24:03 GMT+0200 (CEST)</span>
+
+<span class="sb">debug: Environment : development</span>
+<span class="sb">debug: Port        : 80</span>
+<span class="sb">debug: --------------------------------------------------------</span></code></pre></div>
+
+<p>PerfectWork: With Carbon based Lifeforms - Interloper!</p>
+
+<!--
+
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/-9pgIVcB3rk" frameborder="0" allowfullscreen></iframe>
 
 
-</pre></pre></div>
+ -->
 
-<p>Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
-Right After you entry your RaspberryPi via Termina, you have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.</p>
+<!--
 
-<p>(3.) <code>sudo apt-get install tightvncserver </code> </p>
-
-<p>Don’t be worry this need a while, after that process type Commandline </p>
-
-<p>(4.) <code> tightvncserver </code> </p>
-
-<p>you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer. </p>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-You will require a password to access your desktops.
-
-Password: 
-Verify:   
-Would you like to enter a view-only password (y/n)? no
-
-New 'X' desktop is raspberrypi:1
-
-Creating default startup script /home/pi/.vnc/xstartup
-Starting applications specified in /home/pi/.vnc/xstartup
-Log file is /home/pi/.vnc/raspberrypi:1.log
+<a href="/img/p-4.png">
+    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+</a>
 
 
+-->
 
-</pre></pre></div>
-
-<p>At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
-In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> </p>
-
-<p>Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. </p>
-
-<p>Cheers!</p>
-
-<p>ps: Install Video will come up soon. Stay Tuned!</p>
-
-<center>
-
-<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/8PHK_lTgjl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-30T01:21:57+00:00">29. Sep 2015 um 18:21 Uhr</time></p></div></blockquote>
-<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
-
-</center>
-
-<p><a href="/img/p-4.png">
-    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p><a href="/img/pi-3.png">
-    <img src="/img/pi-3.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p><a href="/img/pi1.png">
-    <img src="/img/pi1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a></p>
-
-<p>My Full Terminal Work: </p>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-Last login: Mon Sep 28 03:04:26 on ttys000
-Space-O-Mac-Pro:~ cybo$ ping raspberrypi.local
-PING raspberrypi.local (10.0.0.3): 56 data bytes
-64 bytes from 10.0.0.3: icmp_seq=0 ttl=64 time=1.202 ms
-64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.554 ms
-64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.597 ms
-64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.544 ms
-64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.597 ms
-64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.553 ms
-64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=0.645 ms
-64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=0.674 ms
-64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=0.578 ms
-64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=0.581 ms
-64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=0.566 ms
-64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=0.614 ms
-64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=0.581 ms
-64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=0.577 ms
-64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=0.554 ms
-64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=0.590 ms
-64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=0.646 ms
-64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=0.641 ms
-64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=0.575 ms
-64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=0.602 ms
-64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=0.645 ms
-^C
---- raspberrypi.local ping statistics ---
-21 packets transmitted, 21 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
-Space-O-Mac-Pro:~ cyberspace$ ssh pi@raspberrypi.local
-The authenticity of host 'raspberrypi.local (10.0.0.4)' can't be established.
-RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'raspberrypi.local,10.0.0.4' (RSA) to the list of known hosts.
-pi@raspberrypi.local's password: 
-Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Mon Sep 28 00:04:24 2015
-pi@raspberrypi ~ $ ls
-Desktop  python_games
-pi@raspberrypi ~ $ sudo apt-get install tightvncserver
-Paketlisten werden gelesen... Fertig
-Abhängigkeitsbaum wird aufgebaut.       
-Statusinformationen werden eingelesen.... Fertig
-Die folgenden zusätzlichen Pakete werden installiert:
-  xfonts-base
-Vorgeschlagene Pakete:
-  tightvnc-java
-Die folgenden NEUEN Pakete werden installiert:
-  tightvncserver xfonts-base
-0 aktualisiert, 2 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
-Es müssen 6.967 kB an Archiven heruntergeladen werden.
-Nach dieser Operation werden 9.988 kB Plattenplatz zusätzlich benutzt.
-Möchten Sie fortfahren [J/n]? ja
-Holen: 1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main tightvncserver armhf 1.3.9-6.4 [786 kB]
-Holen: 2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main xfonts-base all 1:1.0.3 [6.181 kB]
-Es wurden 6.967 kB in 4 s geholt (1.570 kB/s).
-Vormals nicht ausgewähltes Paket tightvncserver wird gewählt.
-(Lese Datenbank ... 77851 Dateien und Verzeichnisse sind derzeit installiert.)
-Entpacken von tightvncserver (aus .../tightvncserver_1.3.9-6.4_armhf.deb) ...
-Vormals nicht ausgewähltes Paket xfonts-base wird gewählt.
-Entpacken von xfonts-base (aus .../xfonts-base_1%3a1.0.3_all.deb) ...
-Trigger für man-db werden verarbeitet ...
-Trigger für fontconfig werden verarbeitet ...
-tightvncserver (1.3.9-6.4) wird eingerichtet ...
-update-alternatives: /usr/bin/tightvncserver wird verwendet, um /usr/bin/vncserver (vncserver) im Auto-Modus bereitzustellen
-update-alternatives: /usr/bin/Xtightvnc wird verwendet, um /usr/bin/Xvnc (Xvnc) im Auto-Modus bereitzustellen
-update-alternatives: /usr/bin/tightvncpasswd wird verwendet, um /usr/bin/vncpasswd (vncpasswd) im Auto-Modus bereitzustellen
-xfonts-base (1:1.0.3) wird eingerichtet ...
-pi@raspberrypi ~ $ tightvncserver
-
-You will require a password to access your desktops.
-
-Password: 
-Verify:   
-Would you like to enter a view-only password (y/n)? no
-
-New 'X' desktop is raspberrypi:1
-
-Creating default startup script /home/pi/.vnc/xstartup
-Starting applications specified in /home/pi/.vnc/xstartup
-Log file is /home/pi/.vnc/raspberrypi:1.log
-
-pi@raspberrypi ~ $ 
-
-</pre></pre></div>
-
-<p>Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a> </p>
+<p>Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js" target="_blank"> local.js</a> 
+Link: <a href="http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp" target="_blank"> superuser</a> 
+Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> sails issues</a> 
+Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error" target="_blank"> Stack Overflow</a> </p>
 
 <blockquote>
-"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
+"i want, i want, i want , i want !!!!"
 </blockquote>
 
 
@@ -496,15 +413,22 @@ pi@raspberrypi ~ $
                     </li>
                     
                     
+                    <li class="next">
+                        <a href="/2015/10/10/iptables-to-run-your-app-via-port-80-ubuntu/" data-toggle="tooltip" data-placement="top" title="ipTables - Run Port on 80 on Ubuntu Linux">Next Post &rarr;</a>
+                    </li>
+                    
                 </ul>
 
             </div>
         </div>
     </div>
 </article>
-<hr>
+<hr>-->   --> 
 
-    <!-- Footer -->
+  <!-- Footer -->
+
+
+<!--
 <footer>
     <div class="container">
         <div class="row">
@@ -580,7 +504,6 @@ pi@raspberrypi ~ $
                 </p>
 <div class="col-md-12">
      <p class="copyright text-muted"> Running with
-      <!-- ICE AND FIRE THEME https://github.com/SpaceG/iceandfire -->
     <a href="https://github.com/SpaceG/iceandfire">ICE & FIRE Theme by Lucas Gatsas.</a> Hosted on <a href="https://pages.github.com/"> Github</a></p>
     </div>
 
@@ -589,14 +512,19 @@ pi@raspberrypi ~ $
             </div>
         </div>
     </div>
-</footer>
+</footer> --> 
+
+
+ <script src= "/js/highlight.js "></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 
 <!-- jQuery -->
-<script src="/js/jquery.min.js "></script>
+ <script src="/js/jquery.min.js "></script>
 
-<script src="/js/spaceg.stylesheets.min.js"></script> 
+ <script src="/js/spaceg.stylesheets.min.js"></script> 
 
-<script src="/js/bootstrap.min.js "></script>
+ <script src="/js/bootstrap.min.js "></script>
 
 
 
@@ -605,8 +533,8 @@ pi@raspberrypi ~ $
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(50).fadeOut('fast'); // will fade out the white DIV that covers the website.
-      $('body').delay(50).css({'overflow':'visible'});
+      $('#preloader').delay(5).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(5).css({'overflow':'visible'});
     })
   //]]>
 </script> 
@@ -640,11 +568,20 @@ pi@raspberrypi ~ $
   ga('send', 'pageview');
 
 </script>
+ 
 
 
 
-    
+
+
 
 </body>
 
 </html>
+
+
+
+
+
+
+
