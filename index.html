@@ -1,15 +1,12 @@
-
-
-<!--
 ---
-layout: page
+layout: default
 description: "Hello, my Name is LucasGatsas. I'm a  Web Developer, Front-End Engineer, Hacker, Linux Ubuntu Sys Admin based in the City of Saint Gallen, Switzerland."
 feature: abstract-1.jpg
 header-img: 
 
 ---
 
---> 
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -181,6 +178,38 @@ header-img:
       </div><!--/container-->
     </div><!--/.G-->
 
+
+    <br><br><br>
+<section id="archive" style="text-align: center;">
+   <div class="container">
+        <div class="row">
+            <div class="785389456726'6z72334058345834583468348634672723763467267ß">
+                <div class="site-heading">
+                <!--  <span class="subheading" id="textfloat">{{ page.description }}</span> -->
+                  <h2>This Years Hacks Archive.</h2>
+                    {% for post in site.posts offset: 0 limit: 10  %}
+                     {% unless post.next %}
+                      <ul class="this">
+                      {% else %}
+                      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+                      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+                      {% if year != nyear %}
+                      </ul>
+                      <h2>{{ post.date | date: '%Y' }}</h2>
+                      <ul class="past">
+                      {% endif %}
+                      {% endunless %}
+                      <li><time>{{ post.date | date:"%d %b" }}</time> <a href="{{ post.url }}" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">{{ post.title }}</a></li>
+                      {% endfor %}
+                      </ul>
+                      <!--    <hr class="small"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
     <div id="sep">
       <div class="container">
         <div class="row centered">
@@ -192,6 +221,8 @@ header-img:
         </div><!--/row-->
       </div><!--/container-->
     </div><!--/.sep-->
+
+
 
     <div id="f">
       <div class="container">
