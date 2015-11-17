@@ -11,7 +11,7 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 
 
 
-To change the Port from Ngnix to :81 is very easy steps. : Open your path in your Terminal root. 
+To change the Port from Ngnix to :81 in very easy steps. : Open your path in your Terminal root. 
 go to this path <code> /etc/nginx/sites-enabled/  </code> 
 
 

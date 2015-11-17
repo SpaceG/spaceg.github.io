@@ -11,10 +11,6 @@ header-img: "img/lucas-gatsas-09.jpg"
 Angular.js - is a fast Javascript MVW Framework. [Angular.js](https://angularjs.org/) 
 
 
-I Got this tip from Helen, [Helen V. Holmes](https://twitter.com/helenvholmes) My Ask about her Page Script and Code,
-because the Page have only a frame in the index.html file and the rest based on Javascript. 
-<br>
-
 The <code>angular.js</code> file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here [Angular.js](https://angularjs.org/) Alternative, do cou can download it and integrate locally. - 
 
 
@@ -72,6 +68,6 @@ By the attribute ng app in HTML tag AngularJS recognizes our side now than Angul
 
 
 
-<blockquote>Every large system that works started as small system that worked.
+<blockquote>
 
 </blockquote>
