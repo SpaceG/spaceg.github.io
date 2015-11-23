@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2015 02:28:42 +0100</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2015 02:28:42 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2015 01:39:24 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 01:39:24 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -128,7 +128,7 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
         <title>Nginx Port 80 changes and run sails.js via port 80</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nginx Port 80 &lt;/h2&gt;
 
-&lt;p&gt;To change the Port from Ngnix to :81 is very easy steps. : Open your path in your Terminal root. 
+&lt;p&gt;To change the Port from Ngnix to :81 in very easy steps. : Open your path in your Terminal root. 
 go to this path &lt;code&gt; /etc/nginx/sites-enabled/  &lt;/code&gt; &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/etc/n&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ginx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sites&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -252,18 +252,12 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Run Your Web App via port 80 - Sails.js&lt;/h2&gt;
 
-&lt;p&gt;The Error was to sails lift the App via only &lt;code&gt; sails lift &lt;/code&gt;&lt;br /&gt;
-Get many Times this error back, tried everything to lift the Web App. but Error. 
-To fix this Issue, do you can change some files inside your App. After Run your 
-App with &lt;code&gt; $ sudo sails lift &lt;/code&gt;. 
-&lt;br /&gt;&lt;/p&gt;
-
 &lt;p&gt;I have included a &lt;code&gt; local.js &lt;/code&gt; file to the App. 
 Here is my Code to Run the WebApp via &lt;code&gt; port 80 &lt;/code&gt;  without &lt;code&gt; 1337 &lt;/code&gt;.
-The very Important thing is to take your port with this small code &lt;code&gt;  port: process.env.PORT || 80, &lt;/code&gt; 
+Take your port with this small code &lt;code&gt;  port: process.env.PORT || 80, &lt;/code&gt; 
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Now a was go ahead with the &lt;code&gt; local.js &lt;/code&gt; like in the description in the sails.js document! 
+&lt;p&gt;Now go ahead with the &lt;code&gt; local.js &lt;/code&gt; like in the description in the sails.js document! 
 first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file. and saved this. &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;see&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localhost&lt;/span&gt;
@@ -430,8 +424,6 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
 &lt;span class=&quot;sb&quot;&gt;debug: Port        : 80&lt;/span&gt;
 &lt;span class=&quot;sb&quot;&gt;debug: --------------------------------------------------------&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;PerfectWork: With Carbon based Lifeforms - Interloper!&lt;/p&gt;
-
 &lt;!--
 
 &lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;https://www.youtube.com/embed/-9pgIVcB3rk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -454,7 +446,7 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; ta
 Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt; &lt;/p&gt;
 
 &lt;blockquote&gt;
-&quot;i want, i want, i want , i want !!!!&quot;
+
 &lt;/blockquote&gt;
 
 </description>
@@ -683,81 +675,13 @@ In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress al
 &lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
 
 &lt;blockquote&gt;
-&quot;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas&quot;
+
 &lt;/blockquote&gt;
 
 </description>
         <pubDate>Wed, 30 Sep 2015 16:00:44 +0200</pubDate>
         <link>http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/</link>
         <guid isPermaLink="true">http://lucasgatsas.ch/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>bcrypt Issue on your Local Machine</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; bcrypt Issue on your Local Machine - node.bcrypt.js&lt;/h2&gt;
-
-&lt;p&gt;To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline. &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/7J_biOzgpb/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Total Crash ladt night Outthere with npm install bcrypt!  bcrypt ! #terminal #commandline #linux #macosx ! Issue fixed and the App is back after 4 Hours! Coding Hardcore!&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-03T05:06:42+00:00&quot;&gt;2. Sep 2015 um 22:06 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
-
-Space-Odysseys-Mac-Pro:www cyberspace$ sails lift
-
-info: Starting app...
-
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:83
-throw e
-^
-Error: dlopen(/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node, 1): no suitable image found. Did find:
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node: unknown file type, first eight bytes: 0x7F 0x45 0x4C 0x46 0x02 0x01 0x01 0x03
-at Error (native)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at bindings (/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:76:44)
-at Object. (/Users/cyberspace/Desktop/www/node_modules/bcrypt/bcrypt.js:3:35)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at Object. (/Users/cyberspace/Desktop/www/config/passport.js:5:10)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-Space-Odysseys-Mac-Pro:www cyberspace$
-
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install &lt;code&gt;$ npm -v &lt;/code&gt; !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/7KAoZ6Tgqe/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Bug fixing! #commandline #terminal #node&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-03T05:17:12+00:00&quot;&gt;2. Sep 2015 um 22:17 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
-
-&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
-Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&quot;bcrypt Packages &quot;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Fri, 04 Sep 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/09/04/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/09/04/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine/</guid>
         
         
       </item>
@@ -991,91 +915,63 @@ Any App, Anywhere&quot;
       </item>
     
       <item>
-        <title>Mongo DB</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Mongo DB&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;&quot;Agility, Scalability, Performance Database&quot;&lt;/h2&gt;
+        <title>Angular.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;
-PLATFORM SUPPORT
-Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Intel x86-64 and later.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Install MongoDB&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
 
-&lt;p&gt;You can install MongoDB with &lt;strong&gt;Homebrew&lt;/strong&gt; or manually. This section describes both.&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas - Helen V Holmes&quot; /&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
 
-&lt;p&gt;1.&lt;strong&gt; Update Homebrew’s package database.&lt;/strong&gt; 
-In a system shell, issue the following command: &lt;/p&gt;
+&lt;p&gt;By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;brew update &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:50%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;2.&lt;strong&gt;Install MongoDB.&lt;/strong&gt; 
-You can install MongoDB via brew with several different options. Use one of the following operations:&lt;/p&gt;
+&lt;!--
 
-&lt;p&gt;&lt;strong&gt;Install the MongoDB Binaries&lt;/strong&gt; 
-To install the MongoDB binaries, issue the following command in a system shell:&lt;/p&gt;
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
 
-&lt;p&gt;&lt;code&gt;brew install mongodb&lt;/code&gt;&lt;/p&gt;
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
 
-&lt;p&gt;&lt;code&gt;brew install mongodb --with-openssl&lt;/code&gt; &lt;/p&gt;
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
 
-&lt;p&gt;&lt;strong&gt; Build MongoDB from Source with TLS/SSL Support&lt;strong&gt; 
-To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Install the Latest Development Release of MongoDB&lt;/strong&gt; 
-To install the latest development release for use in testing and development, issue the following command in a system shell:&lt;/p&gt;
+--&gt;
 
-&lt;p&gt;&lt;code&gt; brew install mongodb --devel&lt;/code&gt; &lt;/p&gt;
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
 
-&lt;p&gt;&lt;strong&gt; Install MongoDB Manually &lt;/strong&gt; 
-Only install MongoDB using this procedure if you cannot use homebrew.&lt;/p&gt;
 
-&lt;p&gt;1.&lt;strong&gt; Download the binary files for the desired release of MongoDB.&lt;/strong&gt; 
-Download the binaries from &lt;code&gt; https://www.mongodb.org/
-downloads. &lt;/code&gt; &lt;/p&gt;
 
-&lt;p&gt;For example, to download the latest release through the shell, issue the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; curl -O https://fastdl.mongodb.org/
-  osx/mongodb-osx-x86_64-3.0.4.tgz&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;2.&lt;strong&gt;Extract the files from the downloaded archive.&lt;/strong&gt; 
-For example, from a system shell, you can extract through the tar command:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;tar -zxvf mongodb-osx-x86_64-3.0.4.tgz&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;3.&lt;strong&gt;Copy the extracted archive to the target directory.&lt;/strong&gt;
-Copy the extracted folder to the location from which MongoDB will run.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;mkdir -p mongodb&lt;/code&gt;
-&lt;code&gt;cp -R -n mongodb-osx-x86_
-  64-3.0.4/ mongodb&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;4.&lt;strong&gt;Ensure the location of the binaries is in the PATH variable.&lt;/strong&gt;
-The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.&lt;/p&gt;
-
-&lt;p&gt;For example, you can add the following line to your shell’s rc file &lt;code&gt;(e.g. ~/.bashrc):&lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;export PATH=&lt;mongodb-install-directory&gt; &lt;code&gt;/bin:$PATH&lt;/code&gt;
-Replace &lt;mongodb-install-directory&gt; with the path to the extracted MongoDB archive.&lt;/mongodb-install-directory&gt;&lt;/mongodb-install-directory&gt;&lt;/p&gt;
-
-&lt;p&gt;Link: &lt;a href=&quot;https://www.mongodb.org&quot;&gt;Mongo DB&lt;/a&gt;&lt;/p&gt;
+ --&gt;
 
 &lt;blockquote&gt;
-“Built by developers like you at MongoDB. &lt;strong&gt;Highly Scalable&lt;/strong&gt;
-Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
 
- &lt;strong&gt;Flexible Data Model &lt;/strong&gt;
-MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
-
-
- &lt;strong&gt;Fastest-Growing Community &lt;/strong&gt;
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
 &lt;/blockquote&gt;
-
 </description>
-        <pubDate>Tue, 07 Jul 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/07/07/mongoDB-database-for-scalability-performance-Agility/</guid>
+        <pubDate>Wed, 28 Jan 2015 15:00:44 +0100</pubDate>
+        <link>http://lucasgatsas.ch/2015/01/28/angular.js-framework/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/01/28/angular.js-framework/</guid>
         
         
       </item>
