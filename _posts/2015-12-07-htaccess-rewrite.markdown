@@ -99,14 +99,17 @@ for a certain domain, example.com:
 
 
 
-Link: <a href="http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection" target="_blank"> Linux Ubuntu Broken Pipe </a> 
 
-<!-- 
-Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a>  --> 
+
+
+Link: <a href="https://de.wikipedia.org/wiki/Rewrite-Engine" target="_blank"> Rewrite-Engine </a> 
+Link: <a href="https://de.wikipedia.org/wiki/CPanel" target="_blank"> C-Panel </a> 
+
 
 
 
 <blockquote>
-"Port Running on Linux Ubuntu Servers"
+"Quote of the Operation : Gefahr entsteht, wenn der Mensch sich in seiner Position sicher fühlt. Verderben bedroht dem, der versucht, einen Zustand zu erhalten. Durcheinander entsteht, wenn wir alles ordnen. Daher vergißt der überlegene Mensch nicht die Gefahr, wenn er in Sicherheit ist. Der Weise vergißt nicht das Gespenst des Verderbens, wenn er sich in vollständigem Wohlstand befindet. Der Intelligente vergißt nicht das Durcheinander, wenn seine Geschäfte geordnet sind. 
+"
 </blockquote>
 
