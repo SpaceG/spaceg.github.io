@@ -38,7 +38,7 @@ for a certain domain, example.com:
 
 <br> 
 
-<strong>for any domain .htaccess takes effect on:</strong>
+for any domain .htaccess takes effect on:
 
 
 
@@ -56,7 +56,7 @@ for a certain domain, example.com:
 
 
 
-<strong>for any domain .htaccess takes effect on:</strong>
+for any domain .htaccess takes effect on:
 
 <br> 
 
@@ -65,7 +65,7 @@ for a certain domain, example.com:
 <br> 
 
 
-<strong>for any domain .htaccess takes effect on:</strong>
+for any domain .htaccess takes effect on:
 
 
 
@@ -80,7 +80,7 @@ for a certain domain, example.com:
 <br> 
 
 
-<strong>for a certain domain, example.com:</strong>
+for a certain domain, example.com:
 
 
 
