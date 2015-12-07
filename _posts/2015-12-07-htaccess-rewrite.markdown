@@ -53,11 +53,6 @@ for any domain .htaccess takes effect on:
 {% endhighlight %}
 
 
-
-
-
-for any domain .htaccess takes effect on:
-
 <br> 
 
 
