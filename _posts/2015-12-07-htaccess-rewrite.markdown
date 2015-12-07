@@ -7,7 +7,7 @@ author:     "Lucas Gatsas"
 header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
 ---
 
-<h2 class="section-heading">Broken Pipe - Write failed: Broken pipe
+<h2 class="section-heading">.htaccess Rewrite Engine for C-Panel
 </h2>
 
 
