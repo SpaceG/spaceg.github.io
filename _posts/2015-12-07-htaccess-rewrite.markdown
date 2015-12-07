@@ -100,6 +100,56 @@ for a certain domain, example.com:
 
 
 
+<strong>Redirect from WWW to non-WWW</strong>
+
+for any domain .htaccess takes effect on:
+
+{% highlight ruby %}
+
+
+         RewriteEngine On
+         RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC] 
+         RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+{% endhighlight %}
+
+
+for a certain domain, example.com:
+
+{% highlight ruby %}
+
+
+         RewriteEngine On 
+         RewriteCond %{HTTP_HOST} ^www\.example\.com [NC] 
+         RewriteRule (.*) http://example.com/$1 [R=301,L]
+
+         {% endhighlight %}
+
+
+
+Changes the directory root for the main domain to public_html/subfolder
+
+{% highlight ruby %}
+
+
+         RewriteEngine on 
+         RewriteCond %{HTTP_HOST} ^(www.)?example.com$ 
+         RewriteCond %{REQUEST_URI} !^/subfolder/ 
+         RewriteCond %{REQUEST_FILENAME} !-f 
+         RewriteCond %{REQUEST_FILENAME} !-d 
+         RewriteRule ^(.*)$ /subfolder/$1 
+         RewriteCond %{HTTP_HOST} ^(www.)?example.com$ 
+         RewriteRule ^(/)?$ subfolder/index.php [L] 
+
+         {% endhighlight %}
+
+
+
+NOTE: .htaccess file should be located in the directory root of the domain you wish to configure certain rules for. 
+
+
+That's it!
 
 
 Link: <a href="https://de.wikipedia.org/wiki/Rewrite-Engine" target="_blank"> Rewrite-Engine </a> 
