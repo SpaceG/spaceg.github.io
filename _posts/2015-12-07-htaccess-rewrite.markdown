@@ -10,12 +10,8 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 <h2 class="section-heading">.htaccess Rewrite Engine for C-Panel
 </h2>
 
-
-
-<br><br><br> 
-Linux System
-
-
+<br>
+<strong>Linux System C- Panel </strong>
 
 
 
