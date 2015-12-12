@@ -14,7 +14,7 @@ header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg
 <strong>Javascript and Css  </strong>
 
 
-The Javascript Variant 
+The Javascript Variant for Google Chrome 
 
 
 
