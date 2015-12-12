@@ -38,7 +38,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <link rel="canonical" href="http://lucasgatsas.ch/2015/01/28/angular.js-framework/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/05/17/openssl-mac-linux/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -177,14 +177,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
  
 
-   <header class="intro-header" style="background-image: url('/img/lucas-gatsas-09.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+   <header class="intro-header" style="background-image: url('/img/Lucas_Gatsas_lucas_gatsas_0272.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Angular.js</h1>
+                    <h1>OpenSSL - Os X - Linux</h1>
                     
-                    <h2 class="subheading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+                    <h2 class="subheading">Run it over https</h2>
                     
                     <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
@@ -199,58 +199,58 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+				<h2 class="section-heading">OpenSSL</h2>
+<h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-<p>Angular.js - is a fast Javascript MVW Framework. <a href="https://angularjs.org/">Angular.js</a> </p>
+<p><strong>Steps ( For Linux ) </strong></p>
 
-<p>The <code>angular.js</code> file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here <a href="https://angularjs.org/">Angular.js</a> Alternative, do cou can download it and integrate locally. - </p>
+<p><code>  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code></p>
 
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="Lucas Gatsas lucas gatsas - Helen V Holmes" />  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
+<p><code> tar -xvzf openssl-1.0.2a.tar.gz  </code></p>
 
-<p>By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.</p>
+<p><code>  cd openssl-1.0.2a </code></p>
 
-<p><a href="#">
-    <img src="/img/concepts-startup.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:50%" />
-</a> </p>
+<p><code>  ./config --prefix=/usr/ </code></p>
+
+<p><code> make </code></p>
+
+<p><code>  sudo make install  </code></p>
 
 <!--
-
-<a href="#">
-    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
-</a>
--->
-
-<!--
-<a href="#">
-    <img src="/img/gitlist.io.png" alt="Post Sample Image">
+<a href="/img/gli.png">
+    <img src="/img/gli.png" alt="Lucas Gatsas"  style="width:100%">
 </a> -->
-<!--
 
-<a href="#">
-    <img src="/img/design.png" alt="Post Sample Image">
-</a> 
+<p><br />
+<br /></p>
 
+<p><strong>Steps ( For Mac Os X ) </strong></p>
 
--->
+<p><code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code></p>
 
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
+<p><code> tar -xvzf openssl-1.0.2a.tar.gz</code></p>
 
+<p><code> cd openssl-1.0.2a</code></p>
 
+<p><code> ./Configure darwin64-x86_64-cc --prefix=/usr</code></p>
 
- -->
+<p><code> make</code></p>
 
+<p><code> sudo make install </code></p>
+
+<p><strong>Verify the Installation</strong></p>
+
+<p>Verify that you have successfully installed OpenSSL.</p>
+
+<p><code>openssl version -a</code></p>
+
+<p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
+
+<p><br /></p>
 <blockquote>
-
+“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
 </blockquote>
+
 
 
                 <hr>
@@ -259,9 +259,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/" data-toggle="tooltip" data-placement="top" title="Installing nginx on a Virtual Server">&larr; Previous Post</a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/2015/02/23/work-static/" data-toggle="tooltip" data-placement="top" title="Work Static from our Start Up">Next Post &rarr;</a>
+                        <a href="/2015/05/18/openssl-nginx-server-linux/" data-toggle="tooltip" data-placement="top" title="OpenSSL - Os X - Linux on nginx Server Linux">Next Post &rarr;</a>
                     </li>
                     
                 </ul>

@@ -38,7 +38,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <link rel="canonical" href="http://lucasgatsas.ch/2015/01/28/angular.js-framework/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -177,14 +177,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
  
 
-   <header class="intro-header" style="background-image: url('/img/lucas-gatsas-09.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+   <header class="intro-header" style="background-image: url('/img/133972-050-9F4E1129-1.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Angular.js</h1>
+                    <h1>sudoers file - Add Premission to any User</h1>
                     
-                    <h2 class="subheading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+                    <h2 class="subheading">Add Premission to any User on your Machine</h2>
                     
                     <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
@@ -199,57 +199,50 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+				<h2 class="section-heading"><strong>Sudoers</strong> </h2>
 
-<p>Angular.js - is a fast Javascript MVW Framework. <a href="https://angularjs.org/">Angular.js</a> </p>
+<h2 class="section-heading">Add a User to Sudoers in Mac OS X</h2>
 
-<p>The <code>angular.js</code> file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here <a href="https://angularjs.org/">Angular.js</a> Alternative, do cou can download it and integrate locally. - </p>
+<p>(1.) Launch Terminal : type : </p>
 
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="Lucas Gatsas lucas gatsas - Helen V Holmes" />  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
+<p><code>sudo visudo</code></p>
 
-<p>By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.</p>
+<p>(2.) Change your User Privilege specification</p>
 
-<p><a href="#">
-    <img src="/img/concepts-startup.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:50%" />
-</a> </p>
+<p><code># User privilege specification </code></p>
 
-<!--
+<p><code>root	ALL=(ALL) ALL</code></p>
 
-<a href="#">
-    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
-</a>
--->
+<p><code>%admin	ALL=(ALL) ALL</code></p>
 
-<!--
-<a href="#">
-    <img src="/img/gitlist.io.png" alt="Post Sample Image">
-</a> -->
-<!--
+<p>(3.) Add Below the User Privilege specification </p>
 
-<a href="#">
-    <img src="/img/design.png" alt="Post Sample Image">
-</a> 
+<p><code>
+youradminusername ALL=(ALL) ALL
+</code></p>
 
+<p>See The Blue Marked Window in the Terminal : </p>
 
--->
+<p><a href="/img/sudoerspic.png">
+    <img src="/img/sudoerspic.png" style="width:100%" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" />
+</a></p>
 
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
+<p>(4.)  Now press “ESC” (escape) key to stop editing the file</p>
 
+<p>(5.) Enter the : key (colon) and then type <code>“wq”</code> followed by the Return key to save changes and <code> exit vi</code></p>
 
+<p>Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code></p>
 
- -->
+<p>(1.) Open it with right Mouse Click and « Open with other » </p>
+
+<p>(2.) the Finder Menu will Open </p>
+
+<p>(3.) Open with enable  « All Applications » with your Text Editor</p>
+
+<p>(4.) After changes Save the File. Enter ! :)</p>
 
 <blockquote>
-
+	"Open Terminal and do Funny Things! :) "
 </blockquote>
 
 
@@ -259,9 +252,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2015/03/23/ready-for-macports/" data-toggle="tooltip" data-placement="top" title="Ready For MacPorts">&larr; Previous Post</a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/2015/02/23/work-static/" data-toggle="tooltip" data-placement="top" title="Work Static from our Start Up">Next Post &rarr;</a>
+                        <a href="/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/" data-toggle="tooltip" data-placement="top" title="Installing nginx on a Virtual Server">Next Post &rarr;</a>
                     </li>
                     
                 </ul>

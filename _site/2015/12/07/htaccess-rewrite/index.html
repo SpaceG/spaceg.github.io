@@ -38,7 +38,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <link rel="canonical" href="http://lucasgatsas.ch/2015/01/28/angular.js-framework/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/12/07/htaccess-rewrite/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -177,14 +177,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
  
 
-   <header class="intro-header" style="background-image: url('/img/lucas-gatsas-09.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+   <header class="intro-header" style="background-image: url('/img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Angular.js</h1>
+                    <h1>.htaccess Rewrite Engine for C-Panel</h1>
                     
-                    <h2 class="subheading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+                    <h2 class="subheading">Run .htaccess Code on Ubuntu Linux Server</h2>
                     
                     <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
@@ -199,58 +199,139 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+				<h2 class="section-heading">.htaccess Rewrite Engine for C-Panel
+</h2>
 
-<p>Angular.js - is a fast Javascript MVW Framework. <a href="https://angularjs.org/">Angular.js</a> </p>
+<p><br />
+<strong>Linux System C- Panel </strong></p>
 
-<p>The <code>angular.js</code> file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here <a href="https://angularjs.org/">Angular.js</a> Alternative, do cou can download it and integrate locally. - </p>
+<p>Permanent redirect from example.com to domain.com </p>
 
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="Lucas Gatsas lucas gatsas - Helen V Holmes" />  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">OR</span><span class="o">]</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> 
+         <span class="no">RewriteRule</span> <span class="o">^/</span><span class="sc">?$</span> <span class="s2">&quot;http\:\/\/domain\.com\/&quot;</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
 
-<p>By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.</p>
+<p>Temporary redirect from example.com to domain.com </p>
 
-<p><a href="#">
-    <img src="/img/concepts-startup.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:50%" />
-</a> </p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">OR</span><span class="o">]</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> 
+         <span class="no">RewriteRule</span> <span class="o">^/</span><span class="sc">?$</span> <span class="s2">&quot;http\:\/\/domain\.com\/&quot;</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">302</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
 
-<!--
+<p>NOTE: below are the examples of permanent redirects. Temporary one can be defined by replacing [R=301,L] with [R=302,L] in the end of the code (where necessary). </p>
 
-<a href="#">
-    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
-</a>
--->
+<p>Redirect from example.com/subfolder to domain.com</p>
 
-<!--
-<a href="#">
-    <img src="/img/gitlist.io.png" alt="Post Sample Image">
-</a> -->
-<!--
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">OR</span><span class="o">]</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="n">subfolder</span><span class="err">$</span> <span class="s2">&quot;http\:\/\/domain\.com\/&quot;</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
 
-<a href="#">
-    <img src="/img/design.png" alt="Post Sample Image">
-</a> 
+<p><strong>Redirect from HTTP to HTTPS</strong></p>
 
+<p>for any domain .htaccess takes effect on:</p>
 
--->
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTPS}</span> <span class="n">off</span> 
+         <span class="no">RewriteRule</span> <span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="sx">%{HTTP_HOST}%{REQUEST_URI}</span></code></pre></div>
 
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
+<p>for a certain domain, example.com:</p>
 
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>      
+         <span class="no">RewriteCond</span> <span class="sx">%{SERVER_PORT}</span> <span class="mi">80</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
 
+<p><strong>Redirect from non-WWW to WWW</strong></p>
 
- -->
+<p>for any domain .htaccess takes effect on:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">!^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">%</span><span class="p">{</span><span class="no">HTTP_HOST</span><span class="p">}</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p>for a certain domain, example.com:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>     
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">NC</span><span class="o">]</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p><br /> 
+<br />
+<strong>Redirect from HTTP to HTTPS</strong></p>
+
+<p>for a certain domain, example.com:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>      
+         <span class="no">RewriteCond</span> <span class="sx">%{SERVER_PORT}</span> <span class="mi">80</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">yourspace</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p><br /> </p>
+
+<p>for any domain .htaccess takes effect on:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTPS}</span> <span class="n">off</span> 
+         <span class="no">RewriteRule</span> <span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="sx">%{HTTP_HOST}%{REQUEST_URI}</span></code></pre></div>
+
+<p><br /> </p>
+
+<p><strong>Redirect from non-WWW to WWW</strong>
+<br /> </p>
+
+<p>for any domain .htaccess takes effect on:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">!^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">%</span><span class="p">{</span><span class="no">HTTP_HOST</span><span class="p">}</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p><br /> </p>
+
+<p>for a certain domain, example.com:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>     
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">NC</span><span class="o">]</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p><br /> </p>
+
+<p><strong>Redirect from WWW to non-WWW</strong></p>
+
+<p>for any domain .htaccess takes effect on:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span>
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="o">[</span><span class="no">NC</span><span class="o">]</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="o">%</span><span class="mi">1</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p>for a certain domain, example.com:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="no">On</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span> <span class="o">[</span><span class="no">NC</span><span class="o">]</span> 
+         <span class="no">RewriteRule</span> <span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//ex</span><span class="n">ample</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p>Changes the directory root for the main domain to public_html/subfolder</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">RewriteEngine</span> <span class="n">on</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="p">(</span><span class="n">www</span><span class="o">.</span><span class="p">)?</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{REQUEST_URI}</span> <span class="o">!^/</span><span class="n">subfolder</span><span class="o">/</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{REQUEST_FILENAME}</span> <span class="o">!-</span><span class="n">f</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{REQUEST_FILENAME}</span> <span class="o">!-</span><span class="n">d</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="sr">/subfolder/</span><span class="vg">$1</span> 
+         <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="p">(</span><span class="n">www</span><span class="o">.</span><span class="p">)?</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> 
+         <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="sr">/)?$ subfolder/in</span><span class="n">dex</span><span class="o">.</span><span class="n">php</span> <span class="o">[</span><span class="n">L</span><span class="o">]</span></code></pre></div>
+
+<p>NOTE: .htaccess file should be located in the directory root of the domain you wish to configure certain rules for. </p>
+
+<p>That’s it!</p>
+
+<p>Link: <a href="https://de.wikipedia.org/wiki/Rewrite-Engine" target="_blank"> Rewrite-Engine </a> 
+Link: <a href="https://de.wikipedia.org/wiki/CPanel" target="_blank"> C-Panel </a> </p>
 
 <blockquote>
-
+"Quote of the Operation : Gefahr entsteht, wenn der Mensch sich in seiner Position sicher fühlt. Verderben bedroht dem, der versucht, einen Zustand zu erhalten. Durcheinander entsteht, wenn wir alles ordnen. Daher vergißt der überlegene Mensch nicht die Gefahr, wenn er in Sicherheit ist. Der Weise vergißt nicht das Gespenst des Verderbens, wenn er sich in vollständigem Wohlstand befindet. Der Intelligente vergißt nicht das Durcheinander, wenn seine Geschäfte geordnet sind. 
+"
 </blockquote>
+
 
 
                 <hr>
@@ -259,9 +340,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/" data-toggle="tooltip" data-placement="top" title="Broken Pipe">&larr; Previous Post</a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/2015/02/23/work-static/" data-toggle="tooltip" data-placement="top" title="Work Static from our Start Up">Next Post &rarr;</a>
+                        <a href="/2015/12/07/input-webkit-autofill/" data-toggle="tooltip" data-placement="top" title="The Crazy Autofill in Css">Next Post &rarr;</a>
                     </li>
                     
                 </ul>

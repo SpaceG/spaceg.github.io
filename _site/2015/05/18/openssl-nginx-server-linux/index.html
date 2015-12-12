@@ -38,7 +38,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <link rel="canonical" href="http://lucasgatsas.ch/2015/01/28/angular.js-framework/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/05/18/openssl-nginx-server-linux/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -177,14 +177,14 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
  
 
-   <header class="intro-header" style="background-image: url('/img/lucas-gatsas-09.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+   <header class="intro-header" style="background-image: url('/img/tumblr_static_2014-07-30_09.18.41_1.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Angular.js</h1>
+                    <h1>OpenSSL - Os X - Linux on nginx Server Linux</h1>
                     
-                    <h2 class="subheading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+                    <h2 class="subheading">Run it over https</h2>
                     
                     <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
@@ -199,58 +199,110 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 class="section-heading">AngularJS — Superheroic JavaScript MVW Framework</h2>
+				<h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
+<h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-<p>Angular.js - is a fast Javascript MVW Framework. <a href="https://angularjs.org/">Angular.js</a> </p>
+<p><strong> Set Up </strong> </p>
 
-<p>The <code>angular.js</code> file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here <a href="https://angularjs.org/">Angular.js</a> Alternative, do cou can download it and integrate locally. - </p>
+<p><code> $ sudo apt-get install nginx </code></p>
 
-<div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="/img/9k=.jpg" alt="Lucas Gatsas lucas gatsas - Helen V Holmes" />  <h3>Helen V. Holmes
-                    <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
-                </h3></div>
-        <div class="col-md-4"></div>
-      </div>
+<p><strong> Step One—Create a Directory for the Certificate </strong> </p>
 
-<p>By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.</p>
+<p><code>sudo mkdir /etc/nginx/ssl</code></p>
 
-<p><a href="#">
-    <img src="/img/concepts-startup.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:50%" />
-</a> </p>
+<p>We will perform the next few steps within the directory:</p>
 
-<!--
+<p><code>  cd /etc/nginx/ssl </code> </p>
 
-<a href="#">
-    <img src="/img/static.squarespace.jpg" alt="Post Sample Image">
-</a>
--->
+<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong> </p>
 
-<!--
-<a href="#">
-    <img src="/img/gitlist.io.png" alt="Post Sample Image">
-</a> -->
-<!--
+<p><code> sudo openssl genrsa -des3 -out server.key 2048 </code></p>
 
-<a href="#">
-    <img src="/img/design.png" alt="Post Sample Image">
-</a> 
+<p>Follow up by creating a certificate signing request:</p>
+
+<p><code>sudo openssl req -new -key server.key -out server.csr</code></p>
+
+<p>You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter ‘.’, the field will be left blank.—–
+Country Name (2 letter code) [AU]:CH
+State or Province Name (full name) [Some-State]:St. Gallen
+Locality Name (eg, city) []:Saint City
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:lucasgatsas.ch 
+Organizational Unit Name (eg, section) []:Dept of Engineering - IT NERDS
+Common Name (e.g. server FQDN or YOUR name) []:lucasgatsas@gmail.com                <br />
+Email Address []:lucasgatsas@example.com</p>
+
+<p><strong> Step Three—Remove the Passphrase </strong> </p>
+
+<p><code> sudo cp server.key server.key.org </code> 
+<code> sudo openssl rsa -in server.key.org 
+	-out server.key </code> </p>
+
+<p><strong> Step Four— Sign your SSL Certificate </strong> </p>
+
+<p><code>  sudo openssl x509 -req -days 365 -in server.csr 
+	-signkey server.key -out server.crt </code></p>
+
+<p><strong> Step Five—Set Up the Certificate </strong> </p>
+
+<p><code>sudo cp /etc/nginx/sites-available/default
+ /etc/nginx/sites-available/example</code></p>
+
+<p>Then go ahead and open up that new file:</p>
+
+<p><code> sudo nano /etc/nginx/
+	sites-available/example </code></p>
+
+<p>Scroll down to the bottom of the file and find the section that begins with this:</p>
+
+<pre><code># HTTPS server
+
+server {
+        listen 443;
+        server_name example.com;
+
+        root /usr/share/nginx/www;
+        index index.html index.htm;
+
+        ssl on;
+        ssl_certificate /etc/nginx/ssl/server.crt;
+        ssl_certificate_key /etc/nginx/ssl/server.key; 
+}
 
 
--->
-
-<!-- 
-<a href="#">
-    <img src="/img/jekyllthemewhite.png" alt="Post Sample Image">
-</a> 
 
 
 
- -->
+# Make site accessible from http://localhost/
+# server_name localhost;
+</code></pre>
 
+<p><strong> Step Six—Activate the Virtual Host </strong> </p>
+
+<p>The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.</p>
+
+<p><code>  sudo ln -s /etc/nginx/sites-available/example 
+	/etc/nginx/sites-enabled/example </code></p>
+
+<p>Then restart nginx:</p>
+
+<p><code>  sudo service nginx restart </code></p>
+
+<p>Visit https://youraddress</p>
+
+<p>Cheers! </p>
+
+<p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
+
+<p><br /></p>
 <blockquote>
-
+“Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.” 
 </blockquote>
+
 
 
                 <hr>
@@ -259,9 +311,13 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2015/05/17/openssl-mac-linux/" data-toggle="tooltip" data-placement="top" title="OpenSSL - Os X - Linux">&larr; Previous Post</a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/2015/02/23/work-static/" data-toggle="tooltip" data-placement="top" title="Work Static from our Start Up">Next Post &rarr;</a>
+                        <a href="/2015/07/07/mongoDB-database-for-scalability-performance-Agility/" data-toggle="tooltip" data-placement="top" title="Mongo DB">Next Post &rarr;</a>
                     </li>
                     
                 </ul>
