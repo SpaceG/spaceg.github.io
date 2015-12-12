@@ -47,6 +47,9 @@ if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
 
 
 
+
+
+
 Permanent User Agent Stylesheet  
 
 {% highlight ruby %}
