@@ -4,7 +4,7 @@ title:      "The Crazy Autofill in Css"
 subtitle:   "User Agent Stylesheet input "
 date:       2015-12-12 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
+header-img: "img/179163.jpg"
 ---
 
 <h2 class="section-heading">User Agent Stylesheet input 
@@ -34,8 +34,6 @@ if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
     });
   });
 }
-
-
 </script>
 
          {% endhighlight %}

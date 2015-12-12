@@ -38,7 +38,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <link rel="canonical" href="http://lucasgatsas.ch/2015/12/07/input-webkit-autofill/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/12/12/input-webkit-autofill/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -203,9 +203,9 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 </h2>
 
 <p><br />
-<strong>Linux System C- Panel </strong></p>
+<strong>Javascript and Css  </strong></p>
 
-<p>Permanent redirect from example.com to domain.com </p>
+<p>The Javascript Variant for Google Chrome </p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">navigator</span><span class="o">.</span><span class="n">userAgent</span><span class="o">.</span><span class="n">toLowerCase</span><span class="p">()</span><span class="o">.</span><span class="n">indexOf</span><span class="p">(</span><span class="s2">&quot;chrome&quot;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
@@ -218,23 +218,25 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <span class="p">});</span>
   <span class="p">});</span>
 <span class="p">}</span>
+<span class="o">&lt;</span><span class="sr">/script&gt;</span></code></pre></div>
+
+<p><br /></p>
+
+<p>Permanent User Agent Stylesheet  </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">style</span><span class="o">&gt;</span>
 
 
-<span class="o">&lt;</span><span class="sr">/script&gt;</span>
-
-<span class="sr">&lt;style&gt;</span>
-
-
-<span class="sr">input[type=&quot;checkbox&quot;] {</span>
-<span class="sr"> -webkit-appearance: checkbox;</span>
-<span class="sr"> #if !(defined(WTF_PLATFORM_IOS) &amp;&amp; WTF_PLATFORM_IOS)</span>
-<span class="sr">box-sizing: border-box;</span>
-<span class="sr"> #else</span>
-<span class="sr">     border-radius: 5px;</span>
-<span class="sr">     width: 16px;</span>
-<span class="sr">     height: 16px;</span>
-<span class="sr">     padding: 0px;</span>
-<span class="sr">     /</span><span class="o">*</span> <span class="no">We</span> <span class="n">want</span> <span class="n">to</span> <span class="n">be</span> <span class="n">as</span> <span class="n">close</span> <span class="n">to</span> <span class="ss">background</span><span class="p">:</span><span class="n">transparent</span> <span class="n">as</span> <span class="n">possible</span> <span class="n">without</span> <span class="n">actually</span> <span class="n">being</span> <span class="n">transparent</span> <span class="o">*/</span>
+<span class="n">input</span><span class="o">[</span><span class="n">type</span><span class="o">=</span><span class="s2">&quot;checkbox&quot;</span><span class="o">]</span> <span class="p">{</span>
+ <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="ss">appearance</span><span class="p">:</span> <span class="n">checkbox</span><span class="p">;</span>
+ <span class="c1">#if !(defined(WTF_PLATFORM_IOS) &amp;&amp; WTF_PLATFORM_IOS)</span>
+<span class="n">box</span><span class="o">-</span><span class="ss">sizing</span><span class="p">:</span> <span class="n">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span>
+ <span class="c1">#else</span>
+     <span class="n">border</span><span class="o">-</span><span class="ss">radius</span><span class="p">:</span> <span class="mi">5</span><span class="n">px</span><span class="p">;</span>
+     <span class="ss">width</span><span class="p">:</span> <span class="mi">16</span><span class="n">px</span><span class="p">;</span>
+     <span class="ss">height</span><span class="p">:</span> <span class="mi">16</span><span class="n">px</span><span class="p">;</span>
+     <span class="ss">padding</span><span class="p">:</span> <span class="mi">0</span><span class="n">px</span><span class="p">;</span>
+     <span class="sr">/* We want to be as close to background:transparent as possible without actually being transparent */</span>
      <span class="n">background</span><span class="o">-</span><span class="ss">color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="o">.</span><span class="mo">01</span><span class="p">);</span>
 
  <span class="c1">#endif</span>
@@ -304,6 +306,8 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 <span class="p">}</span>
 
 <span class="o">&lt;</span><span class="sr">/style&gt;</span></code></pre></div>
+
+<p><br /></p>
 
 <p>Link: <a href="https://de.wikipedia.org/wiki/Rewrite-Engine" target="_blank"> Rewrite-Engine </a> 
 Link: <a href="https://de.wikipedia.org/wiki/CPanel" target="_blank"> C-Panel </a> </p>
