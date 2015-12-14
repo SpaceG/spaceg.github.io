@@ -4,7 +4,7 @@ title:      "Broken Pipe"
 subtitle:   "Ubuntu Linux Server"
 date:       2015-10-18 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
+header-img: "img/ParksacresFogNov2010 159 - Copy - Copy.JPG"
 ---
 
 <h2 class="section-heading">Broken Pipe - Write failed: Broken pipe
