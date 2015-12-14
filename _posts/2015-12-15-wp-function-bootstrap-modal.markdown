@@ -47,6 +47,8 @@ add_action( 'wp_enqueue_scripts', 'themeprefix_bootstrap_modals');
 
 
 
+
+
 HTML 
 
 {% highlight ruby %}
