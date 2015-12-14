@@ -4,7 +4,7 @@ title:      ".htaccess Rewrite Engine for C-Panel"
 subtitle:   "Run .htaccess Code on Ubuntu Linux Server"
 date:       2015-12-07 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/3d-abstract_widewallpaper_misty-clouds-over-mountains_57245.jpg"
+header-img: "img/reed-flute-cave (4).jpg"
 ---
 
 <h2 class="section-heading">.htaccess Rewrite Engine for C-Panel
