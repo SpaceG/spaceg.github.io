@@ -38,7 +38,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
     <meta property="og:site_name" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
-    <link rel="canonical" href="http://lucasgatsas.ch/linux/">
+    <link rel="canonical" href="http://lucasgatsas.ch/2015/12/15/wp-function-bootstrap-modal/">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/spaceg.stylesheets.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -177,383 +177,106 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
  
 
-   <meta name="description" content="Page description. No longer than 155 characters." />
-
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@lucasgatsas">
-<meta name="twitter:title" content="Security Research & Studying Lessons.">
-<meta name="twitter:description" content="Page description less than 200 characters">
-<meta name="twitter:creator" content="@author_handle">
-
-<meta name="twitter:image" content="http://lucasgatsas.ch/img/the-swiss-alps.jpg">
-
-<!-- Open Graph data -->
-<meta property="og:title" content="Lucas Gatsas - Web Developer from Switzerland. " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.lucasgatsas.ch" />
-<meta property="og:image" content="http://lucasgatsas.ch/img/the-swiss-alps.jpg" />
-<meta property="og:description" content="Lucas Gatsas - Web Developer from Switzerland. " /> 
-<meta property="og:site_name" content="www.lucasgatsas.ch" />
-<meta property="fb:admins" content="100010261894353" />
-
-
-<style>
-.text-center {
-
-font-size: 30px;
-color:white;
-font-family: ;
-font-weight:800;
-
-}
-
-
-/*!
- * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-body {
-    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-
-.navbar-inverse {
-    background-color: #fff;
-    border-color: #fff;
-}
-
-code {
-    padding: 2px 4px;
-    font-size: 90%;
-    color: #d9edf7;
-    background-color: #1E2D38;
-    border-radius: 4px;
-}
-
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 28px;
-    line-height: 20px;
-    font-family: Georgia;
-    color: #666;
-}
-
-.image-bg-fluid-height,
-.image-bg-fixed-height {
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.image-bg-fluid-height {
-	    background: url('http://www.lucasgatsas.ch/img/the-swiss-alps.jpg') no-repeat center center scroll;
-    padding: 100px 0;
-    min-width: 100%;
-    background-size: cover;
-    height: 600px;
-}
-
-.image-bg-fixed-height {
-	background: url('../img/World___Switzerland_Swiss_Alps_058791_.jpg') no-repeat center center scroll;
-    height: 450px;
-        background-size: cover;
-
-}
-
-.img-center {
-	margin: 0 auto;
-}
-
-section {
-    padding: 75px 0;
-}
-
-.section-heading {
-    margin: 30px 0;
-    font-size: 4em;
-}
-
-.section-lead {
-    margin: 30px 0;
-}
-
-.section-paragraph {
-    margin: 30px 0;
-}
-
-footer {
-    margin: 50px 0;
-}
-
-@media(max-width:768px) {
-    section {
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-
-    .section-heading {
-        font-size: 2em;
-    }
-}
-
-</style>
- 
-    <!-- Full Width Image Header with Logo -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    <header class="image-bg-fluid-height">
-        <img class="img-responsive img-center" src="" alt=""><p class="text-center"> Security Research & Studying Lessons.</p>
-                              <a href="mailto:lucasgatsas@gmail.com">  <button class="btn btn-conf btn-clear">Request for Information</button></a><br><br><br>
-
-    </header>
-
-    <!-- Content Section -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-heading">Brute Force Attacks!</h1>
-                    <p class="lead section-lead">via smtp port 465 - gmail</p>
-                    <p class="section-paragraph">I'm wundering about every bug, but, no idea, why Google is not fix the Bug. For me as Web Developer was simple to going into my Account. I mean, every Account! But i want to let you know these are Penetration Test and Playing arounf with THC - HYDRA. </p>
-                    <p>  i have written a New CommandLine which Brute Force The Gmail Port 465 via. Mac Os X or Linux. Of course you have write a passlist.txt file and but in to your Root of your Mac. - and open Terminal and start hydra. </p> <br> Hydra Commandline by Lucas Gatsas - for Brute Force Attack on Mac Os X
-<br>
-                        <code> hydra -S -l victim@gmail.com -P /users/yourmac/passlist.txt -e ns -V -s 465 smtp.gmail.com smtp  </code>
-
-
-                        <br>  <br>  <br>
-
-
-
-<iframe width="100%" height="615" src="https://www.youtube.com/embed/3Zz7gLsN7fk" frameborder="0" allowfullscreen></iframe>
-
-
-
-                       <pre>
-
-Hydra (http://www.thc.org/thc-hydra) starting at 2015-11-23 04:14:48
-[DATA] 3 tasks, 1 server, 3 login tries (l:1/p:3), ~1 try per task
-[DATA] attacking service smtp on port 465
-[ATTEMPT] target smtp.gmail.com - login "lucasgatsas@gmail.com" - pass "lucasgatsas@gmail.com" - 1 of 3 [child 0]
-[ATTEMPT] target smtp.gmail.com - login "lucasgatsas@gmail.com" - pass "" - 2 of 3 [child 1]
-[ATTEMPT] target smtp.gmail.com - login "lucasgatsas@gmail.com" - pass "Cash-/*-?-2014-spacecrash" - 3 of 3 [child 2]
-1 of 1 target completed, 0 valid passwords found
-Hydra (http://www.thc.org/thc-hydra) finished at 2015-11-23 04:14:49
-Space-Odysseys-Mac-Pro:~ cyberspace$ </pre>
-
-as you can see, the e-mail and the password is showing up : 
-<br><br>
-
-the password is : <pre> - pass "Cash-/*-?-2014-spacecrash" </pre>
-<pre>
-[ATTEMPT] target smtp.gmail.com - login "lucasgatsas@gmail.com" - pass "Cash-/*-?-2014-spacecrash" - 3 of 3 [child 2]
-
-</pre>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Fixed Height Image Aside -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    <aside class="image-bg-fixed-height"></aside>
-
-    <!-- Content Section -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-heading">Wanna see more Hacks soon? </h1>
-                    <p class="lead section-lead">Stay Tuned. - And come back later. Thanks.</p>
-                    <p class="section-paragraph"><br> - Notice : This Site is not made to make or handle with  Criminall Act's! Be aware, Hack in Someone's Account is under the Law and a Criminall Act! -  This Site is made only for my Studying in informatic and Science in Security Penetration Test & Operations. </p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-
-
-
-
-<style>
-section#archive {
-padding-top: 100px;
-}</style>
-<section id="archive">
-   <div class="container">
+   <header class="intro-header" style="background-image: url('/img/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg')" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                <!--  <span class="subheading" id="textfloat">This is my LINUX Lab!</span> -->
-                  <h2>This Years Archive.</h2>
+                <div class="post-heading">
+                    <h1>UI WP Bootstrap Modal Function Javascript</h1>
                     
-                     
-                      <ul class="this">
-                      
-                      <li><time>15 Dec</time> <a href="/2015/12/15/wp-function-bootstrap-modal/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">UI WP Bootstrap Modal Function Javascript</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>12 Dec</time> <a href="/2015/12/12/input-webkit-autofill/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">The Crazy Autofill in Css</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>07 Dec</time> <a href="/2015/12/07/htaccess-rewrite/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">.htaccess Rewrite Engine for C-Panel</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>18 Oct</time> <a href="/2015/10/18/sails.js-ssh-broken-pipe-ubuntu-linux-server-root-ssh-config/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Broken Pipe</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>14 Oct</time> <a href="/2015/10/14/sails-forever-run-forever-on-ubuntu-server-digital-ocean/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Run Sails Forever on Port 80</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>11 Oct</time> <a href="/2015/10/11/port80-nginx-server-on-ubuntu-linux-servers-run-sails.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Nginx Port 80 changes and run sails.js via port 80</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>10 Oct</time> <a href="/2015/10/10/iptables-to-run-your-app-via-port-80-ubuntu/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">ipTables - Run Port on 80 on Ubuntu Linux</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>06 Oct</time> <a href="/2015/10/06/sails.js-sudo-sails-lfit-via-port-80-local.js/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Run Your Web App via port 80 - Sails.js</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>30 Sep</time> <a href="/2015/09/30/raspberrypi-set-up-macosx-vnc-ssh/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Run Raspberry Pi over Mac Os X</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>30 Aug</time> <a href="/2015/08/30/ejs-highlighter-for-sublime-2-text/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Ejs - Highlighter for Sublime Text 2</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>25 Aug</time> <a href="/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Create a GeoDNS</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>07 Jul</time> <a href="/2015/07/07/mongoDB-database-for-scalability-performance-Agility/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Mongo DB</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>18 May</time> <a href="/2015/05/18/openssl-nginx-server-linux/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">OpenSSL - Os X - Linux on nginx Server Linux</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>17 May</time> <a href="/2015/05/17/openssl-mac-linux/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">OpenSSL - Os X - Linux</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>21 Apr</time> <a href="/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Installing nginx on a Virtual Server</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>24 Mar</time> <a href="/2015/03/24/user-is-not-in-the-sudoers-file-this-incident-will-be-reported/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">sudoers file - Add Premission to any User</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>23 Mar</time> <a href="/2015/03/23/ready-for-macports/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Ready For MacPorts</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>22 Mar</time> <a href="/2015/03/22/get-emacs-on-your-machine/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">emacs</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>20 Mar</time> <a href="/2015/03/20/git-install/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Git Introduction</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>16 Mar</time> <a href="/2015/03/16/i-want-to-know-how-to-use-power-commands/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">I Want To Know How To Use Power Commands</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>23 Feb</time> <a href="/2015/02/23/work-static/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Work Static from our Start Up</a></li>
-                      
-                     
-                      
-                      
-                      
-                      
-                      <li><time>28 Jan</time> <a href="/2015/01/28/angular.js-framework/" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">Angular.js</a></li>
-                      
-                      </ul>
-
-                   
+                    <h2 class="subheading">Javascript Function for WP</h2>
+                    
+                    <span class="meta">Posted by Lucas Gatsas  </span>
                 </div>
             </div>
         </div>
     </div>
-</section> 
+</header>
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<h2 class="section-heading">UI WP Bootstrap Modal Function Javascript
+</h2>
+
+<p><br />
+<strong>UI Javascript WP Function for Bootstrap </strong></p>
+
+<p>The Javascript </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">//</span> <span class="n">add</span> <span class="n">bootstrap</span> <span class="no">Modal</span> <span class="n">function</span> 
+<span class="n">function</span> <span class="n">themeprefix_bootstrap_modals</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">wp_register_script</span> <span class="p">(</span> <span class="s1">&#39;modaljs&#39;</span> <span class="p">,</span> <span class="n">get_stylesheet_directory_uri</span><span class="p">()</span> <span class="o">.</span> <span class="s1">&#39;/js/bootstrap/bootstrap.min.js&#39;</span><span class="p">,</span> <span class="n">array</span><span class="p">(</span> <span class="s1">&#39;jquery&#39;</span> <span class="p">),</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="kp">true</span> <span class="p">);</span>
+  <span class="n">wp_register_style</span> <span class="p">(</span> <span class="s1">&#39;modalcss&#39;</span> <span class="p">,</span> <span class="n">get_stylesheet_directory_uri</span><span class="p">()</span> <span class="o">.</span> <span class="s1">&#39;/css/bootstrap/bootstrap.css&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span> <span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;all&#39;</span> <span class="p">);</span>
+  
+  <span class="n">wp_enqueue_script</span><span class="p">(</span> <span class="s1">&#39;modaljs&#39;</span> <span class="p">);</span>
+  <span class="n">wp_enqueue_style</span><span class="p">(</span> <span class="s1">&#39;modalcss&#39;</span> <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">add_action</span><span class="p">(</span> <span class="s1">&#39;wp_enqueue_scripts&#39;</span><span class="p">,</span> <span class="s1">&#39;themeprefix_bootstrap_modals&#39;</span><span class="p">);</span></code></pre></div>
+
+<p><br /></p>
+
+<p>HTML </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!--</span> <span class="no">Button</span> <span class="n">trigger</span> <span class="n">modal</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="n">a</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;btn btn-primary btn-lg&quot;</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;#myModal1&quot;</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">&quot;modal&quot;</span><span class="o">&gt;</span><span class="no">Start</span> <span class="no">Modal</span><span class="o">&lt;</span><span class="sr">/a&gt;</span>
+
+<span class="sr">&lt;!-- Modal --&gt;</span>
+<span class="sr">&lt;div id=&quot;myModal1&quot; class=&quot;modal fade&quot; tabindex=&quot;-1&quot;&gt;</span>
+<span class="sr">  &lt;div class=&quot;modal-dialog&quot;&gt;</span>
+<span class="sr">    &lt;div class=&quot;modal-content&quot;&gt;</span>
+<span class="sr">      &lt;div class=&quot;modal-header&quot;&gt;</span>
+<span class="sr">        &lt;button class=&quot;close&quot; type=&quot;button&quot; data-dismiss=&quot;modal&quot;&gt;×&lt;/</span><span class="n">button</span><span class="o">&gt;</span>
+          <span class="o">&lt;</span><span class="n">h4</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;modal-title&quot;</span><span class="o">&gt;</span><span class="no">Get</span> <span class="n">to</span> <span class="n">the</span> <span class="no">Front</span> <span class="n">of</span> <span class="no">The</span> <span class="no">Queue</span><span class="o">&lt;</span><span class="sr">/h4&gt;</span>
+<span class="sr">      &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;modal-body&quot;</span><span class="o">&gt;.</span><span class="n">.</span><span class="o">.</span><span class="n">&lt;</span><span class="sr">/div&gt;</span>
+<span class="sr">      &lt;div class=&quot;modal-footer&quot;&gt;&lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/</span><span class="n">button</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">button</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;btn btn-primary&quot;</span> <span class="n">type</span><span class="o">=</span><span class="s2">&quot;button&quot;</span><span class="o">&gt;</span><span class="no">Save</span> <span class="n">changes</span><span class="o">&lt;</span><span class="sr">/button&gt;&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span><span class="o">-</span><span class="n">content</span> <span class="o">--&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span><span class="o">-</span><span class="n">dialog</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span> <span class="o">--&gt;</span></code></pre></div>
+
+<p><br /></p>
+
+<p>The CDN’s </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">script</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="sr">/script&gt;</span>
+
+
+<span class="sr">    &lt;link href=&quot;https:/</span><span class="o">/</span><span class="n">netdna</span><span class="o">.</span><span class="n">bootstrapcdn</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bootstrap</span><span class="o">/</span><span class="mi">3</span><span class="o">.</span><span class="mi">1</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">bootstrap</span><span class="o">.</span><span class="n">min</span><span class="o">.</span><span class="n">css</span><span class="s2">&quot; rel=&quot;</span><span class="n">stylesheet</span><span class="s2">&quot; id=&quot;</span><span class="n">bootstrap</span><span class="o">-</span><span class="n">css</span><span class="s2">&quot;&gt;</span></code></pre></div>
+
+<p>Link: <a href="https://wordpress.com" target="_blank"> Wordpress </a> 
+Link: <a href="https://bootstrap.com" target="_blank"> Bootstrap</a> </p>
+
+<blockquote>
+"Change your Life
+"
+</blockquote>
+
+
+
+                <hr>
+
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2015/12/12/input-webkit-autofill/" data-toggle="tooltip" data-placement="top" title="The Crazy Autofill in Css">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+<hr> 
 
   <!-- Footer -->
 

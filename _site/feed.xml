@@ -5,9 +5,77 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Dec 2015 02:19:38 +0100</pubDate>
-    <lastBuildDate>Sat, 12 Dec 2015 02:19:38 +0100</lastBuildDate>
+    <pubDate>Tue, 15 Dec 2015 01:00:00 +0100</pubDate>
+    <lastBuildDate>Tue, 15 Dec 2015 01:00:00 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>UI WP Bootstrap Modal Function Javascript</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;UI WP Bootstrap Modal Function Javascript
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;UI Javascript WP Function for Bootstrap &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Javascript &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bootstrap&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Modal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;themeprefix_bootstrap_modals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;wp_register_script&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;modaljs&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_stylesheet_directory_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/js/bootstrap/bootstrap.min.js&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;jquery&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;wp_register_style&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;modalcss&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_stylesheet_directory_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/css/bootstrap/bootstrap.css&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;all&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  
+  &lt;span class=&quot;n&quot;&gt;wp_enqueue_script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;modaljs&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;wp_enqueue_style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;modalcss&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;add_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_enqueue_scripts&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;themeprefix_bootstrap_modals&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!--&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Button&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trigger&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;modal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;btn btn-primary btn-lg&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;#myModal1&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;modal&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Modal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;sr&quot;&gt;&amp;lt;!-- Modal --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;&amp;lt;div id=&amp;quot;myModal1&amp;quot; class=&amp;quot;modal fade&amp;quot; tabindex=&amp;quot;-1&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;  &amp;lt;div class=&amp;quot;modal-dialog&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;    &amp;lt;div class=&amp;quot;modal-content&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;      &amp;lt;div class=&amp;quot;modal-header&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;        &amp;lt;button class=&amp;quot;close&amp;quot; type=&amp;quot;button&amp;quot; data-dismiss=&amp;quot;modal&amp;quot;&amp;gt;×&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h4&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;modal-title&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Front&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Queue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;      &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;modal-body&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;      &amp;lt;div class=&amp;quot;modal-footer&amp;quot;&amp;gt;&amp;lt;button class=&amp;quot;btn btn-default&amp;quot; type=&amp;quot;button&amp;quot; data-dismiss=&amp;quot;modal&amp;quot;&amp;gt;Close&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;btn btn-primary&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;button&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Save&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;changes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;&amp;lt;!-- /&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;modal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;&amp;lt;!-- /&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;modal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dialog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;&amp;lt;!-- /&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;modal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The CDN’s &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&amp;gt;&lt;/span&gt;
+
+
+&lt;span class=&quot;sr&quot;&gt;    &amp;lt;link href=&amp;quot;https:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;netdna&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bootstrapcdn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bootstrap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bootstrap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; rel=&amp;quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stylesheet&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; id=&amp;quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bootstrap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://wordpress.com&quot; target=&quot;_blank&quot;&gt; Wordpress &lt;/a&gt; 
+Link: &lt;a href=&quot;https://bootstrap.com&quot; target=&quot;_blank&quot;&gt; Bootstrap&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;Change your Life
+&quot;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 15 Dec 2015 15:00:44 +0100</pubDate>
+        <link>http://lucasgatsas.ch/2015/12/15/wp-function-bootstrap-modal/</link>
+        <guid isPermaLink="true">http://lucasgatsas.ch/2015/12/15/wp-function-bootstrap-modal/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Crazy Autofill in Css</title>
@@ -268,7 +336,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
 Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_blank&quot;&gt; C-Panel &lt;/a&gt; &lt;/p&gt;
 
 &lt;blockquote&gt;
-&quot;Quote of the Operation : Gefahr entsteht, wenn der Mensch sich in seiner Position sicher fühlt. Verderben bedroht dem, der versucht, einen Zustand zu erhalten. Durcheinander entsteht, wenn wir alles ordnen. Daher vergißt der überlegene Mensch nicht die Gefahr, wenn er in Sicherheit ist. Der Weise vergißt nicht das Gespenst des Verderbens, wenn er sich in vollständigem Wohlstand befindet. Der Intelligente vergißt nicht das Durcheinander, wenn seine Geschäfte geordnet sind. 
+&quot;Update !!!
 &quot;
 &lt;/blockquote&gt;
 
@@ -998,189 +1066,6 @@ Raw&quot;
         <pubDate>Sun, 30 Aug 2015 16:00:44 +0200</pubDate>
         <link>http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/</link>
         <guid isPermaLink="true">http://lucasgatsas.ch/2015/08/30/ejs-highlighter-for-sublime-2-text/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Create a GeoDNS</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Geo DNS - CDN Servers&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;&quot;CDN SERVERS, Performance via GeoDNS, Get fast Speed, Nginx Server&quot;&lt;/h2&gt;
-
-&lt;p&gt;Rolling Your Own &lt;code&gt;CDN &lt;/code&gt; – Build A 3 Continent CDN For $25 In 1 Hour&lt;/p&gt;
-
-&lt;p&gt;First create a folder &lt;code&gt;mkdir /dns&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Then run:
-docker run &lt;code&gt; -d -p 53:53 -p 53:53/udp -v &lt;/code&gt;
-&lt;code&gt;/dns:/opt/geodns/dns 
-	coocood/geodns /opt/geodns/geodns.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Put zone files in /dns.&lt;/p&gt;
-
-&lt;p&gt;Zone file is &lt;code&gt; json &lt;/code&gt; formatted, file name looks like “deployiotest.com.json”, it’s content looks like:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1: Order a DNS instance from DigitalOcean.&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;We chose SFO and the 2nd smallest instance.&lt;/p&gt;
-
-&lt;p&gt;We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ns1.deploy.io    192.241.224.116 &lt;/code&gt;
-&lt;code&gt;ns2.deploy.io    192.241.224.116 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Step 2: Install Docker and run with “coocood/geodns” image on the DNS instance&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;See https://index.docker.io/u/coocood/geodns for detail.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;We used the smallest instance.  We setup DNS for this example using them:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;code&gt;test-sfo-do.deploy.io    107.170.251.75    San Francisco  $5/mo &lt;/code&gt;
-&lt;code&gt;test-jfk-do.deploy.io    107.170.45.174    New York       $5/mo &lt;/code&gt;
-&lt;code&gt;test-sin-do.deploy.io    128.199.216.96    Singapore      $5/mo &lt;/code&gt;
-&lt;code&gt;test-ams-do.deploy.io    188.226.185.173   Amsterdam      $5/mo &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here’s what DigitalOcean’s web interface looks like with all the machines spun up:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/1789766_orig1.png&quot;&gt;
-    &lt;img src=&quot;/img/1789766_orig1.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Setup 4: Setup a test domain for the CDN:&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;If you lookup deployiotest.com the 4 web servers are chosen randomly&lt;/p&gt;
-
-&lt;p&gt;If you look up www.deployiotest.com, it will go to the closest geo server.&lt;/p&gt;
-
-&lt;p&gt;Set the name servers to point to:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; ns1.deploy.io 192.241.224.116 &lt;/code&gt;
-&lt;code&gt; ns2.deploy.io 192.241.224.116 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;   &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SEE THE CDN GEO DNS WORKING&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/dns-geo.png&quot;&gt;
-    &lt;img src=&quot;/img/dns-geo.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
-
-
-	{
-	&quot;serial&quot;:1394372421,
-	&quot;ttl&quot;:    390,
-	&quot;targeting&quot;: &quot;country continent @ regiongroup region asn&quot;,
-	&quot;data&quot;:{
-	    &quot;&quot;:{
-	        &quot;ns&quot;: [ &quot;ns1.deploy.io&quot;, &quot;ns2.deploy.io&quot; ],
-	        &quot;a&quot;:[
-	            [
-	               &quot;107.170.45.174&quot;,
-	               &quot;1000&quot;
-	            ],
-	            [
-	               &quot;128.199.216.96&quot;,
-	               &quot;1000&quot;
-	            ],
-	            [
-	               &quot;107.170.251.75&quot;,
-	               &quot;1000&quot;
-	            ],
-	            [
-	               &quot;188.226.185.173&quot;,
-	               &quot;1000&quot;
-	            ]
-	        ]
-	    },
-	    &quot;www&quot;:{
-	        &quot;alias&quot;: &quot;&quot;    
-	    },
-	    &quot;www.us-west&quot;:{
-	        &quot;cname&quot;: &quot;test-sfo-do.deploy.io.&quot;    
-	    },
-	    &quot;www.europe&quot;:{
-	        &quot;cname&quot;: &quot;test-ams-do.deploy.io.&quot;    
-	    },
-	    &quot;www.asia&quot;:{
-	        &quot;cname&quot;: &quot;test-sin-do.deploy.io.&quot;    
-	    },
-	    &quot;www.us-east&quot;:{
-	        &quot;cname&quot;: &quot;test-jfk-do.deploy.io.&quot;    
-	    }
-	  }
-	}
-
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Step 5: Verify that your &lt;strong&gt;  &lt;code&gt; CDN &lt;/code&gt; &lt;strong&gt;  is working using &lt;/strong&gt; &lt;code&gt; JustPing.com &lt;/code&gt; &lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Just test it on &lt;code&gt; www.just-ping.com. &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; Todo &lt;/code&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;Add a way to take servers in and out of rotation using a little daemon on the geodns server&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;Tune the Geo map for places outside of the US/Europe and Asia.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Add more virtual servers from other providers&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Add a way to spin up servers using lib-cloud&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/dns-geo-cdn.png&quot;&gt;
-    &lt;img src=&quot;/img/dns-geo-cdn.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Link: &lt;a href=&quot;https://hub.docker.com/r/coocood/geodns/&quot; target=&quot;_blank&quot;&gt;Geo DNS - CDN Servers&lt;/a&gt; Link: &lt;a href=&quot;https://www.digitalocean.com/&quot; target=&quot;_blank&quot;&gt; Digital Ocean &lt;/a&gt; Link: &lt;a href=&quot;http://nginx.org/&quot; target=&quot;_blank&quot;&gt; Nginx &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;see &lt;a href=&quot;https://github.com/abh/geodns&quot; target=&quot;_blank&quot;&gt;Geo DNS - CDN Servers&lt;/a&gt; for more detail&lt;/p&gt;
-
-&lt;blockquote&gt;
-&quot;HUB DOCKER coocood/geodns - Build, Ship, and Run
-Any App, Anywhere&quot;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 25 Aug 2015 16:00:44 +0200</pubDate>
-        <link>http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/</link>
-        <guid isPermaLink="true">http://lucasgatsas.ch/2015/08/25/geodns-via-dockerhub-digitalocean-nginx-server-cdn-file-json/</guid>
         
         
       </item>
