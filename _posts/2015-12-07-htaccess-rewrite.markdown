@@ -259,7 +259,6 @@ Link: <a href="https://de.wikipedia.org/wiki/CPanel" target="_blank"> C-Panel </
 
 
 <blockquote>
-"Update !!!
-"
+"Update !!!"
 </blockquote>
 
