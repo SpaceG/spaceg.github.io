@@ -19,7 +19,15 @@ https://www.twitter.com/LucasGatsas
 /* New Update Fr. 12. May. 2015 -00:20:24ƒ*/
 /* New Update Mi. 17. Juni. 2015 - 01:13:24*/
 
-
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
 
 
 
