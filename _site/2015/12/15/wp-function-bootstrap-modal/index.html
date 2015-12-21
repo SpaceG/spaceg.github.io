@@ -33,7 +33,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
     <meta name="keywords" content="Lucas Gatsas, Gatsas, Web Developer, Front End Engineer, Web Entwickler, Web Designer, Marketing, Online Marketing, St. Gallen, Switzerland, Schweiz">
     <link rel="shortcut icon" href="/img/favicon-7326478236.png" type="image/x-icon" />
     <title>Lucas Gatsas - Web Developer & Front-End Engineer from Switzerland. </title>
-
+    <link rel="stylesheet" type="text/css" href="/assets/proxima_nova/proxima_nova.css">
 
     <meta property="og:image" content="/img/93TyTG3x.png"/>
     <meta property="og:title" content="Hello, My Name is Lucas Gatsas, I'm a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. "/>
@@ -75,7 +75,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 
 
-    
+
     <style>
 
 
@@ -265,7 +265,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
 <p>The Javascript </p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">//</span> <span class="n">add</span> <span class="n">bootstrap</span> <span class="no">Modal</span> <span class="n">function</span> 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">//</span> <span class="n">add</span> <span class="n">bootstrap</span> <span class="no">Modal</span> <span class="n">function</span> 
 <span class="n">function</span> <span class="n">themeprefix_bootstrap_modals</span><span class="p">()</span> <span class="p">{</span>
   <span class="n">wp_register_script</span> <span class="p">(</span> <span class="s1">&#39;modaljs&#39;</span> <span class="p">,</span> <span class="n">get_stylesheet_directory_uri</span><span class="p">()</span> <span class="o">.</span> <span class="s1">&#39;/js/bootstrap/bootstrap.min.js&#39;</span><span class="p">,</span> <span class="n">array</span><span class="p">(</span> <span class="s1">&#39;jquery&#39;</span> <span class="p">),</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="kp">true</span> <span class="p">);</span>
   <span class="n">wp_register_style</span> <span class="p">(</span> <span class="s1">&#39;modalcss&#39;</span> <span class="p">,</span> <span class="n">get_stylesheet_directory_uri</span><span class="p">()</span> <span class="o">.</span> <span class="s1">&#39;/css/bootstrap/bootstrap.css&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span> <span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;all&#39;</span> <span class="p">);</span>
@@ -274,13 +274,15 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
   <span class="n">wp_enqueue_style</span><span class="p">(</span> <span class="s1">&#39;modalcss&#39;</span> <span class="p">);</span>
 <span class="p">}</span>
 
-<span class="n">add_action</span><span class="p">(</span> <span class="s1">&#39;wp_enqueue_scripts&#39;</span><span class="p">,</span> <span class="s1">&#39;themeprefix_bootstrap_modals&#39;</span><span class="p">);</span></code></pre></div>
+<span class="n">add_action</span><span class="p">(</span> <span class="s1">&#39;wp_enqueue_scripts&#39;</span><span class="p">,</span> <span class="s1">&#39;themeprefix_bootstrap_modals&#39;</span><span class="p">);</span>
+
+         </code></pre></figure>
 
 <p><br /></p>
 
 <p>HTML </p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!--</span> <span class="no">Button</span> <span class="n">trigger</span> <span class="n">modal</span> <span class="o">--&gt;</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!--</span> <span class="no">Button</span> <span class="n">trigger</span> <span class="n">modal</span> <span class="o">--&gt;</span>
 <span class="o">&lt;</span><span class="n">a</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;btn btn-primary btn-lg&quot;</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;#myModal1&quot;</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">&quot;modal&quot;</span><span class="o">&gt;</span><span class="no">Start</span> <span class="no">Modal</span><span class="o">&lt;</span><span class="sr">/a&gt;</span>
 
 <span class="sr">&lt;!-- Modal --&gt;</span>
@@ -296,16 +298,24 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
         <span class="o">&lt;</span><span class="n">button</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;btn btn-primary&quot;</span> <span class="n">type</span><span class="o">=</span><span class="s2">&quot;button&quot;</span><span class="o">&gt;</span><span class="no">Save</span> <span class="n">changes</span><span class="o">&lt;</span><span class="sr">/button&gt;&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
       <span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span><span class="o">-</span><span class="n">content</span> <span class="o">--&gt;</span>
   <span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span><span class="o">-</span><span class="n">dialog</span> <span class="o">--&gt;</span>
-<span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span> <span class="o">--&gt;</span></code></pre></div>
+<span class="o">&lt;</span><span class="sr">/div&gt;&lt;!-- /</span><span class="o">.</span><span class="n">modal</span> <span class="o">--&gt;</span>
+
+
+
+
+         </code></pre></figure>
 
 <p><br /></p>
 
 <p>The CDN’s </p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">script</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="sr">/script&gt;</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">    <span class="o">&lt;</span><span class="n">script</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="sr">/script&gt;</span>
 
 
-<span class="sr">    &lt;link href=&quot;https:/</span><span class="o">/</span><span class="n">netdna</span><span class="o">.</span><span class="n">bootstrapcdn</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bootstrap</span><span class="o">/</span><span class="mi">3</span><span class="o">.</span><span class="mi">1</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">bootstrap</span><span class="o">.</span><span class="n">min</span><span class="o">.</span><span class="n">css</span><span class="s2">&quot; rel=&quot;</span><span class="n">stylesheet</span><span class="s2">&quot; id=&quot;</span><span class="n">bootstrap</span><span class="o">-</span><span class="n">css</span><span class="s2">&quot;&gt;</span></code></pre></div>
+<span class="sr">    &lt;link href=&quot;https:/</span><span class="o">/</span><span class="n">netdna</span><span class="o">.</span><span class="n">bootstrapcdn</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bootstrap</span><span class="o">/</span><span class="mi">3</span><span class="o">.</span><span class="mi">1</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">bootstrap</span><span class="o">.</span><span class="n">min</span><span class="o">.</span><span class="n">css</span><span class="s2">&quot; rel=&quot;</span><span class="n">stylesheet</span><span class="s2">&quot; id=&quot;</span><span class="n">bootstrap</span><span class="o">-</span><span class="n">css</span><span class="s2">&quot;&gt;</span>
+
+
+<span class="s2">         </span></code></pre></figure>
 
 <p>Link: <a href="https://wordpress.com" target="_blank"> Wordpress </a> 
 Link: <a href="https://bootstrap.com" target="_blank"> Bootstrap</a> </p>
@@ -334,7 +344,8 @@ Link: <a href="https://bootstrap.com" target="_blank"> Bootstrap</a> </p>
         </div>
     </div>
 </article>
-<hr> 
+<hr>
+ 
 
   <!-- Footer -->
 
