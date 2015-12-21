@@ -4,7 +4,7 @@ title:      "UI WP Bootstrap Modal Function Javascript"
 subtitle:   "Javascript Function for WP"
 date:       2015-12-15 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg"
+header-img: "img/maxresdefault-1.jpg"
 ---
 
 <h2 class="section-heading">UI WP Bootstrap Modal Function Javascript
