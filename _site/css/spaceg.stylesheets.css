@@ -108,7 +108,8 @@ https://www.twitter.com/LucasGatsas
 		.post-preview > .post-meta > a{text-decoration:none;color:#404040}
 		.post-preview > .post-meta > a:hover,.post-preview > .post-meta > a:focus{color:#BBB;text-decoration:underline}@media only screen and (min-width: 768px){.post-preview > a > .post-title{font-size:36px}}
 		.section-heading{font-size:36px;/*margin-top:60px;*/font-weight:100;color:rgba(0,0,0,0.83);text-align:center}
-    .caption{text-align:center;font-size:14px;padding:10px;font-style:italic;margin:0;display:block;border-bottom-right-radius:5px;border-bottom-left-radius:5px}footer{padding:50px 0 65px}footer 
+    .caption{text-align:center;font-size:14px;padding:10px;font-style:italic;margin:0;display:block;border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+    footer{padding:50px 0 65px;background:white;}footer 
     .list-inline{margin:0;padding:0}footer .copyright{font-size:14px;text-align:center;margin-bottom:0}
     .floating-label-form-group{font-size:14px;position:relative;margin-bottom:0;padding-bottom:.5em;border-bottom:1px solid #eee}
     .floating-label-form-group input,.floating-label-form-group textarea{z-index:1;position:relative;padding-right:0;padding-left:0;border:none;border-radius:0;font-size:1.5em;background:none;box-shadow:none!important;resize:none}
