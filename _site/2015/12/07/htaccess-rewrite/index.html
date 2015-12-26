@@ -264,7 +264,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 <p><br />
 <strong>Linux System C- Panel </strong></p>
 
-<p>Permanent redirect from example.com to domain.com </p>
+<p>Permanent redirect from example.com to domain.com</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">         <span class="no">RewriteEngine</span> <span class="no">On</span>
          <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">OR</span><span class="o">]</span> 
@@ -273,7 +273,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
          </code></pre></figure>
 
-<p>Temporary redirect from example.com to domain.com </p>
+<p>Temporary redirect from example.com to domain.com</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">         <span class="no">RewriteEngine</span> <span class="no">On</span>
          <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">OR</span><span class="o">]</span> 
@@ -282,7 +282,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
          </code></pre></figure>
 
-<p>NOTE: below are the examples of permanent redirects. Temporary one can be defined by replacing [R=301,L] with [R=302,L] in the end of the code (where necessary). </p>
+<p>NOTE: below are the examples of permanent redirects. Temporary one can be defined by replacing [R=301,L] with [R=302,L] in the end of the code (where necessary).</p>
 
 <p>Redirect from example.com/subfolder to domain.com</p>
 
@@ -337,7 +337,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
          <span class="no">RewriteCond</span> <span class="sx">%{SERVER_PORT}</span> <span class="mi">80</span> 
          <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">yourspace</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="p">,</span><span class="n">L</span><span class="o">]</span> </code></pre></figure>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p>for any domain .htaccess takes effect on:</p>
 
@@ -345,10 +345,10 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
          <span class="no">RewriteCond</span> <span class="sx">%{HTTPS}</span> <span class="n">off</span> 
          <span class="no">RewriteRule</span> <span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="sx">%{HTTP_HOST}%{REQUEST_URI}</span> </code></pre></figure>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p><strong>Redirect from non-WWW to WWW</strong>
-<br /> </p>
+<br /></p>
 
 <p>for any domain .htaccess takes effect on:</p>
 
@@ -356,7 +356,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
          <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">!^</span><span class="n">www</span><span class="p">\</span><span class="o">.</span> 
          <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">%</span><span class="p">{</span><span class="no">HTTP_HOST</span><span class="p">}</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span> </code></pre></figure>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p>for a certain domain, example.com:</p>
 
@@ -364,7 +364,7 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
          <span class="no">RewriteCond</span> <span class="sx">%{HTTP_HOST}</span> <span class="o">^</span><span class="n">example</span><span class="p">\</span><span class="o">.</span><span class="n">com</span><span class="err">$</span> <span class="o">[</span><span class="no">NC</span><span class="o">]</span> 
          <span class="no">RewriteRule</span> <span class="o">^</span><span class="p">(</span><span class="o">.</span><span class="n">*</span><span class="p">)</span><span class="err">$</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="vg">$1</span> <span class="o">[</span><span class="n">R</span><span class="o">=</span><span class="mi">301</span><span class="p">,</span><span class="n">L</span><span class="o">]</span> </code></pre></figure>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p><strong>Redirect from WWW to non-WWW</strong></p>
 
@@ -395,12 +395,12 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 
          </code></pre></figure>
 
-<p>NOTE: .htaccess file should be located in the directory root of the domain you wish to configure certain rules for. </p>
+<p>NOTE: .htaccess file should be located in the directory root of the domain you wish to configure certain rules for.</p>
 
 <p>That’s it!</p>
 
 <p>Link: <a href="https://de.wikipedia.org/wiki/Rewrite-Engine" target="_blank"> Rewrite-Engine </a> 
-Link: <a href="https://de.wikipedia.org/wiki/CPanel" target="_blank"> C-Panel </a> </p>
+Link: <a href="https://de.wikipedia.org/wiki/CPanel" target="_blank"> C-Panel </a></p>
 
 <blockquote>
 "Update !!!"

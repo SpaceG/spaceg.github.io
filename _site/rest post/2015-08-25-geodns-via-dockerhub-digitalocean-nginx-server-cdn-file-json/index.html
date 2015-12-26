@@ -274,13 +274,13 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 <p>Zone file is <code> json </code> formatted, file name looks like “deployiotest.com.json”, it’s content looks like:</p>
 
-<p><strong>Step 1: Order a DNS instance from DigitalOcean.</strong> </p>
+<p><strong>Step 1: Order a DNS instance from DigitalOcean.</strong></p>
 
 <p>We chose SFO and the 2nd smallest instance.</p>
 
 <p>We setup DNS info to point here (both NS1 and NS2 point here for ease of setup).  These are A records.</p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p><code>ns1.deploy.io    192.241.224.116 </code>
 <code>ns2.deploy.io    192.241.224.116 </code></p>
@@ -293,7 +293,7 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 <p><br /></p>
 
-<p><strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong> </p>
+<p><strong> Step 3: Order the CDN “edge” instances for Nginx from DigitalOcean. </strong></p>
 
 <p>We used the smallest instance.  We setup DNS for this example using them:</p>
 
@@ -307,15 +307,15 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 <p>Here’s what DigitalOcean’s web interface looks like with all the machines spun up:</p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p><a href="/img/1789766_orig1.png">
     <img src="/img/1789766_orig1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
 </a></p>
 
-<p><br /> </p>
+<p><br /></p>
 
-<p><strong> Setup 4: Setup a test domain for the CDN:</strong> </p>
+<p><strong> Setup 4: Setup a test domain for the CDN:</strong></p>
 
 <p>If you lookup deployiotest.com the 4 web servers are chosen randomly</p>
 
@@ -323,20 +323,20 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 <p>Set the name servers to point to:</p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p><code> ns1.deploy.io 192.241.224.116 </code>
 <code> ns2.deploy.io 192.241.224.116 </code></p>
 
-<p><br />   </p>
+<p><br /></p>
 
-<p><strong>SEE THE CDN GEO DNS WORKING</strong> </p>
+<p><strong>SEE THE CDN GEO DNS WORKING</strong></p>
 
 <p><a href="/img/dns-geo.png">
     <img src="/img/dns-geo.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
 </a></p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <div style="overflow:auto; height=200; width=100%;">
 <pre style="color:black;background:white;"><pre>
@@ -388,23 +388,23 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 </pre></pre></div>
 
-<p><br /> </p>
+<p><br /></p>
 
-<p><strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code> </strong></strong></p>
+<p><strong> Step 5: Verify that your <strong>  <code> CDN </code> <strong>  is working using </strong> <code> JustPing.com </code></strong></strong></p>
 
 <p>Just test it on <code> www.just-ping.com. </code></p>
 
-<p><code> Todo </code> </p>
+<p><code> Todo </code></p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p>Note: a comment from akerl_ on HN pointed out “the article doesn’t point out the serious risk of running a single DNS server for the records”. It’s a good point. Think before production – this is intended as an example</p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p>Add a way to take servers in and out of rotation using a little daemon on the geodns server</p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p>Tune the Geo map for places outside of the US/Europe and Asia.</p>
 
@@ -416,7 +416,7 @@ docker run <code> -d -p 53:53 -p 53:53/udp -v </code>
 
 <p>Add a way to spin up servers using lib-cloud</p>
 
-<p><br /> </p>
+<p><br /></p>
 
 <p><a href="/img/dns-geo-cdn.png">
     <img src="/img/dns-geo-cdn.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />

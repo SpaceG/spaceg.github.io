@@ -261,19 +261,19 @@ if (window.navigator.appName == "Microsoft Internet Explorer") {
 				<h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-<p><strong> Set Up </strong> </p>
+<p><strong> Set Up </strong></p>
 
 <p><code> $ sudo apt-get install nginx </code></p>
 
-<p><strong> Step One—Create a Directory for the Certificate </strong> </p>
+<p><strong> Step One—Create a Directory for the Certificate </strong></p>
 
 <p><code>sudo mkdir /etc/nginx/ssl</code></p>
 
 <p>We will perform the next few steps within the directory:</p>
 
-<p><code>  cd /etc/nginx/ssl </code> </p>
+<p><code>  cd /etc/nginx/ssl </code></p>
 
-<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong> </p>
+<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong></p>
 
 <p><code> sudo openssl genrsa -des3 -out server.key 2048 </code></p>
 
@@ -295,18 +295,18 @@ Organizational Unit Name (eg, section) []:Dept of Engineering - IT NERDS
 Common Name (e.g. server FQDN or YOUR name) []:lucasgatsas@gmail.com                <br />
 Email Address []:lucasgatsas@example.com</p>
 
-<p><strong> Step Three—Remove the Passphrase </strong> </p>
+<p><strong> Step Three—Remove the Passphrase </strong></p>
 
 <p><code> sudo cp server.key server.key.org </code> 
 <code> sudo openssl rsa -in server.key.org 
-	-out server.key </code> </p>
+	-out server.key </code></p>
 
-<p><strong> Step Four— Sign your SSL Certificate </strong> </p>
+<p><strong> Step Four— Sign your SSL Certificate </strong></p>
 
 <p><code>  sudo openssl x509 -req -days 365 -in server.csr 
 	-signkey server.key -out server.crt </code></p>
 
-<p><strong> Step Five—Set Up the Certificate </strong> </p>
+<p><strong> Step Five—Set Up the Certificate </strong></p>
 
 <p><code>sudo cp /etc/nginx/sites-available/default
  /etc/nginx/sites-available/example</code></p>
@@ -340,7 +340,7 @@ server {
 # server_name localhost;
 </code></pre>
 
-<p><strong> Step Six—Activate the Virtual Host </strong> </p>
+<p><strong> Step Six—Activate the Virtual Host </strong></p>
 
 <p>The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.</p>
 
@@ -353,7 +353,7 @@ server {
 
 <p>Visit https://youraddress</p>
 
-<p>Cheers! </p>
+<p>Cheers!</p>
 
 <p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
 

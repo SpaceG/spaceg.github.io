@@ -5,8 +5,8 @@
     <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer, Web Developer Sys Admin from St. Gallen, Switzerland. My Skills are HTML/HTML5, CSS/CSS3, LESS/SASS, Javascript (DOM), jQuery, PHP/MYSQL, RUBY/RAILS. Hallo, mein Name ist Lucas Gatsas, komme aus St. Gallen, Schweiz. Ich entwickle Websiten Groos oder Klein. </description>
     <link>http://lucasgatsas.ch/</link>
     <atom:link href="http://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Dec 2015 13:39:39 +0100</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2015 13:39:39 +0100</lastBuildDate>
+    <pubDate>Sat, 26 Dec 2015 14:24:07 +0100</pubDate>
+    <lastBuildDate>Sat, 26 Dec 2015 14:24:07 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -17,7 +17,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;UI Javascript WP Function for Bootstrap &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The Javascript &lt;/p&gt;
+&lt;p&gt;The Javascript&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bootstrap&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Modal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt; 
 &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;themeprefix_bootstrap_modals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -34,7 +34,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;HTML &lt;/p&gt;
+&lt;p&gt;HTML&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!--&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Button&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trigger&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;modal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;btn btn-primary btn-lg&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;#myModal1&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;modal&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Modal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&lt;/span&gt;
@@ -61,7 +61,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The CDN’s &lt;/p&gt;
+&lt;p&gt;The CDN’s&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&amp;gt;&lt;/span&gt;
 
@@ -72,7 +72,7 @@
 &lt;span class=&quot;s2&quot;&gt;         &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://wordpress.com&quot; target=&quot;_blank&quot;&gt; Wordpress &lt;/a&gt; 
-Link: &lt;a href=&quot;https://bootstrap.com&quot; target=&quot;_blank&quot;&gt; Bootstrap&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://bootstrap.com&quot; target=&quot;_blank&quot;&gt; Bootstrap&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Change your Life
@@ -95,7 +95,7 @@ Link: &lt;a href=&quot;https://bootstrap.com&quot; target=&quot;_blank&quot;&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;Javascript and Css  &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The Javascript Variant for Google Chrome &lt;/p&gt;
+&lt;p&gt;The Javascript Variant for Google Chrome&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userAgent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toLowerCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;chrome&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -114,7 +114,7 @@ Link: &lt;a href=&quot;https://bootstrap.com&quot; target=&quot;_blank&quot;&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Permanent User Agent Stylesheet  &lt;/p&gt;
+&lt;p&gt;Permanent User Agent Stylesheet&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 
@@ -205,7 +205,7 @@ Link: &lt;a href=&quot;https://bootstrap.com&quot; target=&quot;_blank&quot;&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/Rewrite-Engine&quot; target=&quot;_blank&quot;&gt; Rewrite-Engine &lt;/a&gt; 
-Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_blank&quot;&gt; C-Panel &lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_blank&quot;&gt; C-Panel &lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Quote of the Operation : Gefahr entsteht, wenn der Mensch sich in seiner Position sicher fühlt. Verderben bedroht dem, der versucht, einen Zustand zu erhalten. Durcheinander entsteht, wenn wir alles ordnen. Daher vergißt der überlegene Mensch nicht die Gefahr, wenn er in Sicherheit ist. Der Weise vergißt nicht das Gespenst des Verderbens, wenn er sich in vollständigem Wohlstand befindet. Der Intelligente vergißt nicht das Durcheinander, wenn seine Geschäfte geordnet sind. 
@@ -228,7 +228,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;Linux System C- Panel &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Permanent redirect from example.com to domain.com &lt;/p&gt;
+&lt;p&gt;Permanent redirect from example.com to domain.com&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;         &lt;span class=&quot;no&quot;&gt;RewriteEngine&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;On&lt;/span&gt;
          &lt;span class=&quot;no&quot;&gt;RewriteCond&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%{HTTP_HOST}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; 
@@ -237,7 +237,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
 
          &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Temporary redirect from example.com to domain.com &lt;/p&gt;
+&lt;p&gt;Temporary redirect from example.com to domain.com&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;         &lt;span class=&quot;no&quot;&gt;RewriteEngine&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;On&lt;/span&gt;
          &lt;span class=&quot;no&quot;&gt;RewriteCond&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%{HTTP_HOST}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; 
@@ -246,7 +246,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
 
          &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;NOTE: below are the examples of permanent redirects. Temporary one can be defined by replacing [R=301,L] with [R=302,L] in the end of the code (where necessary). &lt;/p&gt;
+&lt;p&gt;NOTE: below are the examples of permanent redirects. Temporary one can be defined by replacing [R=301,L] with [R=302,L] in the end of the code (where necessary).&lt;/p&gt;
 
 &lt;p&gt;Redirect from example.com/subfolder to domain.com&lt;/p&gt;
 
@@ -301,7 +301,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
          &lt;span class=&quot;no&quot;&gt;RewriteCond&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%{SERVER_PORT}&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt; 
          &lt;span class=&quot;no&quot;&gt;RewriteRule&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yourspace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;for any domain .htaccess takes effect on:&lt;/p&gt;
 
@@ -309,10 +309,10 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
          &lt;span class=&quot;no&quot;&gt;RewriteCond&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%{HTTPS}&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;off&lt;/span&gt; 
          &lt;span class=&quot;no&quot;&gt;RewriteRule&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%{HTTP_HOST}%{REQUEST_URI}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Redirect from non-WWW to WWW&lt;/strong&gt;
-&lt;br /&gt; &lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;for any domain .htaccess takes effect on:&lt;/p&gt;
 
@@ -320,7 +320,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
          &lt;span class=&quot;no&quot;&gt;RewriteCond&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%{HTTP_HOST}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; 
          &lt;span class=&quot;no&quot;&gt;RewriteRule&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTTP_HOST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;301&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;for a certain domain, example.com:&lt;/p&gt;
 
@@ -328,7 +328,7 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
          &lt;span class=&quot;no&quot;&gt;RewriteCond&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%{HTTP_HOST}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;NC&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; 
          &lt;span class=&quot;no&quot;&gt;RewriteRule&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;301&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Redirect from WWW to non-WWW&lt;/strong&gt;&lt;/p&gt;
 
@@ -359,12 +359,12 @@ Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_
 
          &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;NOTE: .htaccess file should be located in the directory root of the domain you wish to configure certain rules for. &lt;/p&gt;
+&lt;p&gt;NOTE: .htaccess file should be located in the directory root of the domain you wish to configure certain rules for.&lt;/p&gt;
 
 &lt;p&gt;That’s it!&lt;/p&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/Rewrite-Engine&quot; target=&quot;_blank&quot;&gt; Rewrite-Engine &lt;/a&gt; 
-Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_blank&quot;&gt; C-Panel &lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://de.wikipedia.org/wiki/CPanel&quot; target=&quot;_blank&quot;&gt; C-Panel &lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Update !!!&quot;
@@ -401,7 +401,7 @@ Braucht der Server zu lange um eine Antwort zu senden wird die TCP Verbindung ge
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;ServerAliveInterval&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;ServerAliveCountMax&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;120&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sun&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Oct&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;05&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;54&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GMT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0400&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EDT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -414,7 +414,7 @@ Braucht der Server zu lange um eine Antwort zu senden wird die TCP Verbindung ge
 
 &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt; MAC OS X &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; MAC OS X &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Zur Sicherheit bearbeiten Sie gleich 2 config Dateien auf dem MAC. Die allgemeine SSH Config Datei und die SSH Config Datei des Users.&lt;/p&gt;
 
@@ -451,7 +451,7 @@ sudo sysctl -w net.inet.tcp.always_keepalive=9999 (Damit setzen wir die Lebensda
  &lt;span class=&quot;n&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rebuild&lt;/span&gt;
  &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lift&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Link: &lt;a href=&quot;http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection&quot; target=&quot;_blank&quot;&gt; Linux Ubuntu Broken Pipe &lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Link: &lt;a href=&quot;http://askubuntu.com/questions/127369/how-to-prevent-write-failed-broken-pipe-on-ssh-connection&quot; target=&quot;_blank&quot;&gt; Linux Ubuntu Broken Pipe &lt;/a&gt;&lt;/p&gt;
 
 &lt;!-- 
 Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;  --&gt;
@@ -479,7 +479,7 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
  &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lift&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; Github Issues 1361&lt;/a&gt; 
-Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Port Running on Linux Ubuntu Servers&quot;
@@ -498,7 +498,7 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nginx Port 80 &lt;/h2&gt;
 
 &lt;p&gt;To change the Port from Ngnix to :81 in very easy steps. : Open your path in your Terminal root. 
-go to this path &lt;code&gt; /etc/nginx/sites-enabled/  &lt;/code&gt; &lt;/p&gt;
+go to this path &lt;code&gt; /etc/nginx/sites-enabled/  &lt;/code&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/etc/n&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ginx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sites&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -567,7 +567,7 @@ go to this path &lt;code&gt; /etc/nginx/sites-enabled/  &lt;/code&gt; &lt;/p&gt;
 &lt;span class=&quot;c1&quot;&gt;#}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; Github Issues 1361&lt;/a&gt; 
-Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Port Running on Linux Ubuntu Servers&quot;
@@ -601,7 +601,7 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
 --&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; Github Issues 1361&lt;/a&gt; 
-Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Port Running on Linux Ubuntu Servers&quot;
@@ -627,7 +627,7 @@ Take your port with this small code &lt;code&gt;  port: process.env.PORT || 80, 
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now go ahead with the &lt;code&gt; local.js &lt;/code&gt; like in the description in the sails.js document! 
-first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file. and saved this. &lt;/p&gt;
+first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file. and saved this.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;see&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localhost&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shut&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;down&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;press&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;CTRL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;any&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
@@ -646,7 +646,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
     &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Server&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_listen2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1139&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1182&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The &lt;code&gt; development.js &lt;/code&gt;  File! &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt; development.js &lt;/code&gt;  File!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt; * Development environment settings&lt;/span&gt;
@@ -678,9 +678,9 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
    &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt; development.js.bak &lt;/code&gt;  File! &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt; development.js.bak &lt;/code&gt;  File!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt; * Development environment settings&lt;/span&gt;
@@ -712,7 +712,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
    &lt;span class=&quot;ss&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The &lt;code&gt; local.js &lt;/code&gt;  File! &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt; local.js &lt;/code&gt;  File!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**&lt;/span&gt;
 
@@ -762,7 +762,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
 
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Pingo The WebApp is running now on &lt;code&gt; localhost &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Pingo The WebApp is running now on &lt;code&gt; localhost &lt;/code&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxxxxx&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lift&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -812,7 +812,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
 &lt;p&gt;Link: &lt;a href=&quot;http://sailsjs.org/documentation/anatomy/my-app/config/local-js&quot; target=&quot;_blank&quot;&gt; local.js&lt;/a&gt; 
 Link: &lt;a href=&quot;http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp&quot; target=&quot;_blank&quot;&gt; superuser&lt;/a&gt; 
 Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; sails issues&lt;/a&gt; 
-Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 
@@ -831,20 +831,20 @@ Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&lt;/h2&gt;
 
 &lt;p&gt;I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
-I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram. &lt;/p&gt;
+I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram.&lt;/p&gt;
 
 &lt;p&gt;First of all, do you need a &lt;a href=&quot;https://www.raspberrypi.org/ &quot; target=&quot;_blank&quot;&gt;Raspberry Pi&lt;/a&gt;  Pi to get this Tutorial and set up your &lt;strong&gt; Raspberry PI &lt;/strong&gt; to your Mac.&lt;/p&gt;
 
-&lt;p&gt;Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. &lt;/p&gt;
+&lt;p&gt;Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Now we go Connect the Raspberry Pi to your Mac Os &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Now we go Connect the Raspberry Pi to your Mac Os &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;All of first do you have to Download the VNC Viewer &lt;a href=&quot;https://www.realvnc.com/download/viewer/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; Download the newest Version of &lt;strong&gt; VNC Viewer for Mac OS X
-DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt;/p&gt;
+DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os).&lt;/p&gt;
 
-&lt;p&gt;First Open your Terminal in Mac Osx. Then Type &lt;/p&gt;
+&lt;p&gt;First Open your Terminal in Mac Osx. Then Type&lt;/p&gt;
 
-&lt;p&gt;(1.) &lt;code&gt; ping raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(1.) &lt;code&gt; ping raspberrypi.local &lt;/code&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;PING&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;56&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bytes&lt;/span&gt;
@@ -874,18 +874,18 @@ DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt
 &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;transmitted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;received&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;avg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stddev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;544&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;625&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;202&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;134&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ms&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;After Ping your Network, do you will get your current &lt;strong&gt; IP &lt;/strong&gt; from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your &lt;strong&gt; ssh pi@raspberrypi.local &lt;/strong&gt; the Promp with your Enter Taste. &lt;/p&gt;
+&lt;p&gt;After Ping your Network, do you will get your current &lt;strong&gt; IP &lt;/strong&gt; from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your &lt;strong&gt; ssh pi@raspberrypi.local &lt;/strong&gt; the Promp with your Enter Taste.&lt;/p&gt;
 
-&lt;p&gt;(2.) &lt;code&gt; ssh pi@raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(2.) &lt;code&gt; ssh pi@raspberrypi.local &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.  &lt;/p&gt;
+&lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;authenticity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;raspberrypi.local (10.0.0.3)&amp;#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;established&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;RSA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fingerprint&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;b7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:bb:bc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;78&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:da&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;d8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;e7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;e7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;e4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;a6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;connecting&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Then Say &lt;code&gt;Yes/No &lt;/code&gt; i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. &lt;/p&gt;
+&lt;p&gt;Then Say &lt;code&gt;Yes/No &lt;/code&gt; i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l&lt;/span&gt;
 
@@ -901,13 +901,13 @@ DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt
 &lt;p&gt;Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
 Right After you entry your RaspberryPi via Termina, you have now to type the Commanline &lt;code&gt; ls &lt;/code&gt; to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.&lt;/p&gt;
 
-&lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Don’t be worry this need a while, after that process type Commandline &lt;/p&gt;
+&lt;p&gt;Don’t be worry this need a while, after that process type Commandline&lt;/p&gt;
 
-&lt;p&gt;(4.) &lt;code&gt; tightvncserver &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(4.) &lt;code&gt; tightvncserver &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  &lt;code&gt; No &lt;/code&gt; you will get forward to the desktop of your RaspberryPi. This Number after &lt;code&gt; pi:1 &lt;/code&gt; is very important for our Viewer &lt;code&gt; :1 &lt;/code&gt; This we need it for our VNC Viewer. &lt;/p&gt;
+&lt;p&gt;you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  &lt;code&gt; No &lt;/code&gt; you will get forward to the desktop of your RaspberryPi. This Number after &lt;code&gt; pi:1 &lt;/code&gt; is very important for our Viewer &lt;code&gt; :1 &lt;/code&gt; This we need it for our VNC Viewer.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;access&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktops&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 
@@ -922,9 +922,9 @@ Right After you entry your RaspberryPi via Termina, you have now to type the Com
 &lt;span class=&quot;no&quot;&gt;Log&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
-In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt; &lt;/p&gt;
+In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. &lt;/p&gt;
+&lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine.&lt;/p&gt;
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
@@ -949,7 +949,7 @@ In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress al
     &lt;img src=&quot;/img/pi1.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;My Full Terminal Work: &lt;/p&gt;
+&lt;p&gt;My Full Terminal Work:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Last&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Mon&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sep&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ttys000&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;
@@ -1041,7 +1041,7 @@ In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress al
 
 &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 
@@ -1062,7 +1062,7 @@ In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress al
 &lt;p&gt;Step 1: Clone the bundles into your Sublime Text packages directory&lt;/p&gt;
 
 &lt;p&gt;Preferecnes &amp;gt; Browse Packages gets you to the right directory in windows.  &lt;code&gt; [AppData]\Roaming\
-Sublime Text 2\Packages &lt;/code&gt; &lt;/p&gt;
+Sublime Text 2\Packages &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Packages:&lt;/p&gt;
 
@@ -1079,13 +1079,13 @@ git clone https://github.com/LearnBoost/stylus.git Stylus
 
 &lt;p&gt;For EJS:
 &lt;code&gt; git clone git://github.com/
-	gregory-m/ejs-tmbundle.git EJS&lt;/code&gt; &lt;/p&gt;
+	gregory-m/ejs-tmbundle.git EJS&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;For LESS:
 &lt;code&gt; git clone https://github.com/danro/
-LESS-sublime.git LESS&lt;/code&gt; &lt;/p&gt;
+LESS-sublime.git LESS&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Link: &lt;a href=&quot;https://gist.github.com/liamdon/2467603&quot; target=&quot;_blank&quot;&gt;SublimeText Highlight Syntax&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://gist.github.com/liamdon/2467603&quot; target=&quot;_blank&quot;&gt;SublimeText Highlight Syntax&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;CoffeeScript, Jade and Stylus syntax highlighting in Sublime Text 2
