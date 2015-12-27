@@ -356,4 +356,8 @@ img.img-circle.portfolio-link.img-responsive {
 }
 b {
     color: #CACACA;
+    font-weight:800;
+}
+h1.__web-inspector-hide-shortcut__top__ {
+    color: rgba(128, 128, 128, 0.34);
 }
