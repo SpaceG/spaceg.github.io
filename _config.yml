@@ -19,4 +19,6 @@ paginate:
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 paginate: 0 #posts per page
+relative_path_from: ":path/page:num"
+
 
