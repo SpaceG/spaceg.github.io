@@ -102,7 +102,7 @@ Link: <a href="https://bootstrap.com" target="_blank"> Bootstrap</a>
 
 
 <blockquote>
-"Change your Life
+"
 "
 </blockquote>
 
