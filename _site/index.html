@@ -353,7 +353,7 @@ https://www.twitter.com/LucasGatsas
                   },
                   format: function(r){
                     var out="";
-                    out += r.s +("."+r.ms)+" "+((r.s==1)?"<br>sec":"<br>files downloaded")+", ";
+                    out += r.s +("."+r.ms)+" "+((r.s==1)?"<br>sec":"<br>files downloading..")+", ";
 
                     return out.substr(0,out.length-2);
                   },
@@ -406,7 +406,7 @@ https://www.twitter.com/LucasGatsas
                 window.onload=function(){
                   var cdown = new CDown();
 
-                  cdown.add(new Date(2016,1,3,23,14,27), "countbox1");
+                  cdown.add(new Date(2017,1,3,23,14,27), "countbox1");
                 };
                 </script>
                 <div id="countbox1"></div>
