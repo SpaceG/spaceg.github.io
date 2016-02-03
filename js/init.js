@@ -123,7 +123,7 @@ function pogody(){
 	
 	/*Typed js*/
 	$("#typed").typed({
-		strings: [" Hello World!", "I do Write..", " Code!"],
+		strings: [" Hello World!", "I Write..", " Code!"],
 		typeSpeed: 100,
 		backDelay: 900,
 		loop: true,
