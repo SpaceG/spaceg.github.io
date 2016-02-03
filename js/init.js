@@ -121,6 +121,7 @@ function pogody(){
     }
 	});
 	
+	
 	/*Typed js*/
 	$("#typed").typed({
 		strings: [" Hello World!", "I Write..", " Code!"],
