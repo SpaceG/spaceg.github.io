@@ -2,5 +2,5 @@ User-agent: *
 Disallow:
 
 
-Sitemap: http://lucasgatsas.ch/sitemap.xml
-Sitemap: http://lucasgatsas.ch/image-sitemap.xml
+Sitemap: http://spaceg.github.io/sitemap.xml
+Sitemap: http://spaceg.github.io/image-sitemap.xml
