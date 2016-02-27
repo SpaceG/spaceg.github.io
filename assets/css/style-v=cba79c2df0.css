@@ -806,9 +806,9 @@ pre .storage {
 
 .button:hover,
 .square:hover {
-	background-color: #ffea00;
-	border-color: #ffea00;
-	color: #111;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
 }
 
 /* Animations */
