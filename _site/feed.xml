@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas Gatsas</title>
+    <description>Lucas Gatsas, is a Web -Developer, Front -End Engineer &amp; UI/UX Designer based in  St. Gallen, Switerland.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Feb 2016 03:17:19 +0100</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2016 03:17:19 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>OpenSSL Mac</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;OpenSSL&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Install Transport Layer Security - Secure Sockets Layer (SSL)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Steps ( For Linux ) &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; tar -xvzf openssl-1.0.2a.tar.gz  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  cd openssl-1.0.2a &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  ./config --prefix=/usr/ &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; make &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  sudo make install  &lt;/code&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;/img/gli.png&quot;&gt;
+    &lt;img src=&quot;/img/gli.png&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steps ( For Mac Os X ) &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; tar -xvzf openssl-1.0.2a.tar.gz&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; cd openssl-1.0.2a&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ./Configure darwin64-x86_64-cc --prefix=/usr&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; make&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo make install &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Verify the Installation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Verify that you have successfully installed OpenSSL.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;openssl version -a&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://github.com/openssl/openssl&quot;&gt;OpenSSL&lt;/a&gt; Link: &lt;a href=&quot;http://www.openssl.org/source/&quot;&gt;OpenSSL Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 28 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/event/openssl-mac-linux.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/openssl-mac-linux.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hacker Camp</title>
+        <description>&lt;blockquote&gt;The &lt;strong&gt;&lt;a href=&quot;http://www.ccc.de/&quot;&gt;CCC&lt;/a&gt;&lt;/strong&gt; - Hacker Camp in Germany&lt;/blockquote&gt;
+
+&lt;p&gt;Would like to Share this Post with you, becuase I’m current have some New Ideas and Start Up’s Projects and these would be great to realize it. 
+A Outdoor or Indoor Camp with lot of good Developers.&lt;/p&gt;
+
+&lt;p&gt;Front-End Engineering / Developers
+ Back-End Engineering / Developers
+ UI/UX - Interface - Interactive / Developers / Designer - 
+ Web - Design&lt;/p&gt;
+
+&lt;p&gt;Themes: &lt;/p&gt;
+
+&lt;p&gt;New Front -End Engineering 
+ New Back -End Engineering
+ New UI/UX Designs &lt;/p&gt;
+
+&lt;p&gt;Themes: &lt;/p&gt;
+
+&lt;p&gt;Security - White, Grey, Black Hats&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/lucas-gatsas-0111.jpg&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas-0111.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a lot of projects that I still want to organize Next Year 2016. One of my favorite projekt is a New Hacker Camp and Start Up Camp for a Week here in Switzerland.
+But it should more a Camp to attract new Start Ups. But so far we are still working on our current Start Up.&lt;/p&gt;
+
+&lt;p&gt;Waves!
+&lt;a href=&quot;http://space.lucasgatsas.ch/waves&quot;&gt;space.lucasgatsas.ch/waves&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Links: &lt;a href=&quot;http://www.ccc.de/de/hackerethics&quot;&gt;CCC - Club&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+“Ich breche die Brücken hinter mir ab. Man verliert dann keine Zeit mit Rückblicken, wo es schon genug Mühe macht, die Augen nach vorn zu richten. Es gibt also keine andere Wahl, als vorwärts zu gehen.” 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/event/hacker-camp.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/hacker-camp.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Angular Framework</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
+
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; My Ask about her Page Script and Code,
+because the Page have only a frame in the index.html file and the rest based on Javascript. 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas - Helen V Holmes&quot; /&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;p&gt;By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:50%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+&lt;blockquote&gt;Every large system that works started as small system that worked.
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/event/angular.js-framework.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/angular.js-framework.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ReactJS</title>
+        <description>&lt;p&gt;I will be doing a small talk on an Introduction into ReactJS. We will cover the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is React?&lt;/li&gt;
+  &lt;li&gt;How to get setup with React.&lt;/li&gt;
+  &lt;li&gt;How to get building React Apps.&lt;/li&gt;
+  &lt;li&gt;Bundle your application&lt;/li&gt;
+  &lt;li&gt;Release your application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If this sounds interesting please register your interest below.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/event/intro-to-react.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/intro-to-react.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>bycrypt Node.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; bcrypt Issue on your Local Machine - node.bcrypt.js&lt;/h2&gt;
+
+&lt;p&gt;To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/7J_biOzgpb/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Total Crash ladt night Outthere with npm install bcrypt!  bcrypt ! #terminal #commandline #linux #macosx ! Issue fixed and the App is back after 4 Hours! Coding Hardcore!&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-03T05:06:42+00:00&quot;&gt;2. Sep 2015 um 22:06 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-Odysseys-Mac-Pro:www cyberspace$ sails lift
+
+info: Starting app...
+
+/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:83
+throw e
+^
+Error: dlopen(/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node, 1): no suitable image found. Did find:
+/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node: unknown file type, first eight bytes: 0x7F 0x45 0x4C 0x46 0x02 0x01 0x01 0x03
+at Error (native)
+at Module.load (module.js:355:32)
+at Function.Module._load (module.js:310:12)
+at Module.require (module.js:365:17)
+at require (module.js:384:17)
+at bindings (/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:76:44)
+at Object. (/Users/cyberspace/Desktop/www/node_modules/bcrypt/bcrypt.js:3:35)
+at Module._compile (module.js:460:26)
+at Object.Module._extensions..js (module.js:478:10)
+at Module.load (module.js:355:32)
+at Function.Module._load (module.js:310:12)
+at Module.require (module.js:365:17)
+at require (module.js:384:17)
+at Object. (/Users/cyberspace/Desktop/www/config/passport.js:5:10)
+at Module._compile (module.js:460:26)
+at Object.Module._extensions..js (module.js:478:10)
+Space-Odysseys-Mac-Pro:www cyberspace$
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install &lt;code&gt;$ npm -v &lt;/code&gt; !
+After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/7KAoZ6Tgqe/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Bug fixing! #commandline #terminal #node&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-03T05:17:12+00:00&quot;&gt;2. Sep 2015 um 22:17 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
+Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;bcrypt Packages &quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 28 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/event/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ready for mac Ports</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;MacPorts&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;2.2.1. OS X Package Install&lt;/h2&gt;
+
+&lt;p&gt;The OS X package installer automatically installs MacPorts, &lt;a href=&quot;https://guide.macports.org/chunked/installing.shell.html&quot;&gt;sets the shell environment&lt;/a&gt;, and runs a
+&lt;a href=&quot;https://guide.macports.org/chunked/using.html#using.port.selfupdate&quot;&gt;selfupdate&lt;/a&gt;  operation to update the ports tree and MacPorts base with the latest release.&lt;/p&gt;
+
+&lt;p&gt;(1.) Download the latest &lt;strong&gt;MacPorts-2.3.1-….pkg&lt;/strong&gt; installer from the &lt;strong&gt; &lt;a href=&quot;https://distfiles.macports.org/MacPorts/&quot;&gt;MacPorts download directory&lt;/a&gt; &lt;/strong&gt; . Here are direct links for the latest versions of OS X:&lt;/p&gt;
+
+&lt;p&gt;OS X 10.9 Mavericks:
+&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.9-Mavericks.pkg&quot;&gt;MacPorts-2.3.1-10.9-Mavericks.pkg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OS X 10.8 Mountain Lion:
+&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.8-MountainLion.pkg&quot;&gt;MacPorts-2.3.1-10.8-MountainLion.pkg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OS X 10.7 Lion:
+&lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1-10.7-Lion.pkg&quot;&gt;MacPorts-2.3.1-10.7-Lion.pkg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(2.) Double-click the downloaded package installer to perform the default “easy” install.&lt;/p&gt;
+
+&lt;p&gt;(3.) After this step you are done already, MacPorts is now installed and your shell environment was set up automatically by the installer. To confirm the installation is working as expected, now try using the port command in a new terminal window.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ port version&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Version: 2.3.1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In case of problems such as “command not found”, make sure that you opened a new terminal window or consult Section 2.5, &lt;a href=&quot;https://guide.macports.org/chunked/installing.shell.html&quot;&gt; “MacPorts and the Shell”&lt;/a&gt; . Otherwise, please skip the remainder of this chapter and continue with &lt;a href=&quot;https://guide.macports.org/chunked/using.html&quot;&gt;Chapter 3, Using MacPorts&lt;/a&gt; in this guide.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;2.2.2. Source Install&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Install Macports via Terminal&lt;/h2&gt;
+
+&lt;p&gt;If you installed MacPorts using the package installer, skip this section. To install MacPorts from the source code, follow the steps below.&lt;/p&gt;
+
+&lt;p&gt;(1.) Download and extract the &lt;a href=&quot;https://distfiles.macports.org/MacPorts/MacPorts-2.3.1.tar.bz2&quot;&gt;MacPorts 2.3.1 tarball&lt;/a&gt;. Either do so using your browser and the Finder, or use the given commands in a terminal window.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ curl -O https://distfiles.macports.org/
+	MacPorts/MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ tar xf MacPorts-2.3.1.tar.bz2&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;(2.) Afterwards, perform the commands shown in the terminal window. If you wish to use a path other than &lt;code&gt;/opt/local&lt;/code&gt;, follow the instructions for installing multiple copies of MacPorts instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ cd MacPorts-2.3.1/&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ ./configure&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ make&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ sudo make install&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://plus.google.com/u/0/101826267816845608605/posts/Lit9AU1msaY&quot;&gt;GO SEE MacPorts-2.3.3 INSTALL VIDEO&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;https://www.youtube.com/embed/RBriCmHGrXk?autoplay=1&amp;amp;loop=1&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;(3.) Please continue with  &lt;a href=&quot;https://guide.macports.org/chunked/installing.macports.html#installing.macports.source.multiple&quot;&gt;Section 2.5, “MacPorts and the Shell”&lt;/a&gt;  to set up your shell environment.&lt;/p&gt;
+
+&lt;p&gt;install macports &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port version&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port list&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port search git&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port info git-core&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port installed&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo install git-core&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git —version&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port installed&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;port outdated&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo port upgrade&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo port upgrade git-core&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo port upgrade outdated&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo port selfupdate&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo port uninstall git-core&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo port install git-core&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/event/ready-for-macports.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/ready-for-macports.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Angular 2</title>
+        <description>&lt;p&gt;Angular computes updates based on changes to data, not DOM, for fast updates that scale to the largest data sets with minimal memory overhead.&lt;/p&gt;
+
+&lt;p&gt;With Angular Universal for server-side rendering and Web Workers for smooth scrolling and transitions, Angular 2 solves the core challenges in mobile web performance.&lt;/p&gt;
+
+&lt;p&gt;Supports several languages including plain JavaScript, TypeScript, and Dart. Also supports both object-style data structure with POJO data-binding and functional reactive style with unidirectional data flow and support for observables and immutable data structures.&lt;/p&gt;
+
+&lt;p&gt;Angular is built by a team of engineers who share a passion for making web development feel effortless. We believe that writing beautiful apps should be joyful and fun. We’re building a platform for the future….&lt;/p&gt;
+
+&lt;p&gt;If you want to know more come along to my event!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/event/angular-2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/angular-2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Power Commandlines</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Real Men Don&#39;t Use Menus. I Want To Know How To Use Power Commands.&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;OS X Thema: Terminal/UNIX&lt;/h2&gt;
+
+&lt;style&gt;
+tbody tr:hover td {
+background: rgba(237,237,237,.25);
+}
+tr {
+border-bottom: .1em solid rgb(237,237,237);
+}
+td {
+border-left: 1px solid rgba(65, 65, 65, 0.09);
+border-right: 1px solid rgba(65, 65, 65, 0.09);
+padding-left: 5px;
+}
+&lt;/style&gt;
+
+&lt;figure class=&quot;table textLeft&quot;&gt;&lt;table class=&quot;fullTable&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Befehl&lt;/th&gt;&lt;th&gt;Funktion&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&amp;nbsp; 	&lt;tbody&gt;
+&amp;nbsp; 		&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;change directory&lt;/em&gt; — Welchselt in ein angegebenenes Verzeichnis&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;list&lt;/em&gt; — Listet den Inhalt eines Verzeichnisses auf&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;print working directory&lt;/em&gt; — Zeigt das aktuelle Verzeichnis an&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;cp&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;copy&lt;/em&gt; — Kopiert Dateien und Ordner&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;mv&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;move&lt;/em&gt; — Verschiebt Dateien und Ordner&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;rm&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;remove&lt;/em&gt; — Löscht Dateien oder Ordner&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;mkdir&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;make directory&lt;/em&gt; — Erstellt einen neuen Ordner&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;rmdir&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;remove directory&lt;/em&gt; — Löscht einen (leeren) Ordner&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;open&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Öffnet eine angegebene Datei oder Ordner&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;kill &lt;/code&gt;&lt;code&gt; killall&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Beendet einen angegebenen Prozess&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;whoami&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Zeigt den aktuellen Benutzer an&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;su&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;switch user&lt;/em&gt; — Wechselt zum angegebenen Benutzer&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;sudo&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;substitute user do&lt;/em&gt; — Führt den Befehl als Superuser (root) aus&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;pbcopy&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;pasteboard copy&lt;/em&gt; — Übergibt Inhalt an die Zwischenablage von OS X&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;pbpaste&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;pasteboard past&lt;/em&gt; — Gibt Inhalt der OS X Zwischenablage aus&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;say&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Sprachausgabe eines angegebenen Textes&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;date&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Zeigt das aktuelle Datum und Uhrzeit an&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;nano&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Text-Editor nano&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;screencapture&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Erstellt ein Bildschirmfoto&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;find&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Suche nach Dateien&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;mdfind&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Spotlight-Suche&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;ps&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Listet die aktuell aktiven Prozesse auf&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;top&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Listet eine detaillierte Prozessliste auf&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;history&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Listet die zuletzt benutzten Befehle auf&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;man&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;em&gt;Man-Page&lt;/em&gt; — Ruft die Man-Seite zum angegebenen Befehl auf&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;which&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Welcher Befehl wird ausgeführt?&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;&lt;tr&gt;
+&amp;nbsp; 			&lt;td&gt;&lt;code&gt;whatis&lt;/code&gt;&lt;/td&gt;
+&amp;nbsp; 			&lt;td&gt;Kurzinfo zum angegebenen Befehl&lt;/td&gt;
+&amp;nbsp; 		&lt;/tr&gt;
+&amp;nbsp; 	&lt;/tbody&gt;
+&amp;nbsp; &lt;/table&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Installing Command Line Tools in Mac OS X&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Launch the Terminal, found in &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;/Applications/Utilities/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/install-command-line-tools-os-x.jpg&quot;&gt;
+    &lt;img src=&quot;/img/install-command-line-tools-os-x.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;
+&lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Type the following command string:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/confirm-install-command-line-tools-mac-os-x-1.jpg&quot;&gt;
+    &lt;img src=&quot;/img/confirm-install-command-line-tools-mac-os-x-1.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;max-width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A popup window will show that asks. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt; The xcode-select command requires the command line developer tools. Would you like to install the tools now?&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;choose to confirm this by clicking “Install”, then agree to the Terms of Service when requested (feel free to read them thoroughly, we’ll be here)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;/img/downloading-command-line-tools-1.jpg&quot;&gt;
+    &lt;img src=&quot;/img/downloading-command-line-tools-1.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;max-width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The installer goes away on its own when complete, and you can then confirm everything is working by trying to use one of the commands that were just installed, like gcc, git, svn, rebase, make, ld, otool, nm, whatever you want from the list below. Assuming the installation went uninterrupted, the command will execute as expected. This also means you can compile and install things from source code directly without having to use a package manager. Enjoy your new unix command line toolkit!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What Installs with Command Line Tools and Where&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For those interested, the entire package command line toolkit package gets placed in the following directory:&lt;/p&gt;
+
+&lt;p&gt;/Library/Developer/
+CommandLineTools/&lt;/p&gt;
+
+&lt;p&gt;(note that is the root /Library, not user ~/Library)&lt;/p&gt;
+
+&lt;p&gt;If you want to see the 61 new commands available to you, they’re all in &lt;/p&gt;
+
+&lt;p&gt;/Library/Developer/
+CommandLineTools/usr/bin/&lt;/p&gt;
+
+&lt;p&gt;and we have listed them below for convenience:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ar&lt;br /&gt;
+as&lt;br /&gt;
+asa&lt;br /&gt;
+bison&lt;br /&gt;
+BuildStrings&lt;br /&gt;
+c++&lt;br /&gt;
+c89&lt;br /&gt;
+c99&lt;br /&gt;
+cc&lt;br /&gt;
+clang&lt;br /&gt;
+clang++&lt;br /&gt;
+cmpdylib&lt;br /&gt;
+codesign_allocate&lt;br /&gt;
+CpMac&lt;br /&gt;
+cpp&lt;br /&gt;
+ctags&lt;br /&gt;
+ctf_insert&lt;br /&gt;
+DeRez&lt;br /&gt;
+dsymutil&lt;br /&gt;
+dwarfdump&lt;br /&gt;
+dyldinfo&lt;br /&gt;
+flex&lt;br /&gt;
+flex++&lt;br /&gt;
+g++&lt;br /&gt;
+gatherheaderdoc&lt;br /&gt;
+gcc&lt;br /&gt;
+gcov&lt;br /&gt;
+GetFileInfo&lt;br /&gt;
+git&lt;br /&gt;
+git-cvsserver&lt;br /&gt;
+git-receive-pack&lt;br /&gt;
+git-shell&lt;br /&gt;
+git-upload-archive&lt;br /&gt;
+git-upload-pack&lt;br /&gt;
+gm4&lt;br /&gt;
+gnumake&lt;br /&gt;
+gperf&lt;br /&gt;
+hdxml2manxml&lt;br /&gt;
+headerdoc2html&lt;br /&gt;
+indent&lt;br /&gt;
+install_name_tool&lt;br /&gt;
+ld&lt;br /&gt;
+lex&lt;br /&gt;
+libtool&lt;br /&gt;
+lipo&lt;br /&gt;
+lldb&lt;br /&gt;
+lorder&lt;br /&gt;
+m4&lt;br /&gt;
+make&lt;br /&gt;
+MergePef&lt;br /&gt;
+mig&lt;br /&gt;
+mkdep&lt;br /&gt;
+MvMac&lt;br /&gt;
+nasm&lt;br /&gt;
+ndisasm&lt;br /&gt;
+nm&lt;br /&gt;
+nmedit&lt;br /&gt;
+otool&lt;br /&gt;
+pagestuff&lt;br /&gt;
+projectInfo&lt;br /&gt;
+ranlib&lt;br /&gt;
+rebase&lt;br /&gt;
+redo_prebinding&lt;br /&gt;
+ResMerger&lt;br /&gt;
+resolveLinks&lt;br /&gt;
+Rez&lt;br /&gt;
+RezDet&lt;br /&gt;
+RezWack&lt;br /&gt;
+rpcgen&lt;br /&gt;
+segedit&lt;br /&gt;
+SetFile&lt;br /&gt;
+size&lt;br /&gt;
+SplitForks&lt;br /&gt;
+strings&lt;br /&gt;
+strip&lt;br /&gt;
+svn&lt;br /&gt;
+svnadmin&lt;br /&gt;
+svndumpfilter&lt;br /&gt;
+svnlook&lt;br /&gt;
+svnrdump&lt;br /&gt;
+svnserve&lt;br /&gt;
+svnsync&lt;br /&gt;
+svnversion&lt;br /&gt;
+unifdef&lt;br /&gt;
+unifdefall&lt;br /&gt;
+UnRezWack&lt;br /&gt;
+unwinddump&lt;br /&gt;
+what&lt;br /&gt;
+xml2man&lt;br /&gt;
+yacc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo&lt;/small&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	“sudo make me a sandwich :) ! ”
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 28 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/event/i-want-to-know-how-to-use-power-commands.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/i-want-to-know-how-to-use-power-commands.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>NMAP MAC OSX</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nmap for Mac Os X - Linux&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Nmap Security Scanner for Linux-MAC-UNIX &lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; Was ist Nmap ? &lt;/strong&gt; &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   Nmap (&quot;Network Mapper&quot;) ist ein Open-Source-Werkzeug fA1/4r die
+   Netzwerkanalyse und SicherheitsA1/4berprA1/4fung. Es wurde entworfen, um
+   groAe Netzwerke schnell zu scannen, auch wenn es bei einzelnen Hosts auch
+   gut funktioniert. Nmap benutzt rohe IP-Pakete auf neuartige Weise, um
+   festzustellen, welche Hosts im Netzwerk verfA1/4gbar sind, welche Dienste
+   (Anwendungsname und -version) diese Hosts bieten, welche Betriebssysteme
+   (und Versionen davon) darauf laufen, welche Art von
+   Paketfiltern/-Firewalls benutzt werden sowie Dutzende anderer
+   Eigenschaften. Auch wenn Nmap A1/4blicherweise fA1/4r
+   SicherheitsA1/4berprA1/4fungen verwendet wird, wird es von vielen Systemen
+   und Netzwerkadministratoren fA1/4r Routineaufgaben benutzt, z.B.
+   Netzwerkinventarisierung, Verwaltung von AblaufplAxnen fA1/4r
+   Dienstaktualisierungen und die Aberwachung von Betriebszeiten von Hosts
+   oder Diensten.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt; Install and Set Up &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Download it here &lt;a href=&quot;https://nmap.org/download.html#macosx&quot;&gt;nmap-6.47.dmg&lt;/a&gt; or Run it with Terminal: First installl &lt;a href=&quot;http://www.bzip.org/&quot;&gt;bzip.org&lt;/a&gt;! Promt
+in your Temrinal follow the Commanlines: &lt;/p&gt;
+
+&lt;p&gt;To install using &lt;a href=&quot;https://www.macports.org/&quot;&gt;MacPorts&lt;/a&gt;, run &lt;code&gt; sudo port install nmap &lt;/code&gt;. Nmap will be installed as &lt;code&gt; /opt/local/bin/nmap &lt;/code&gt;. To uninstall, run sudo port uninstall nmap.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Example Ports Show Up after entire NetWork Scanning! &lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+PORT STATE SERVICE
+
+22/tcp open ssh
+
+80/tcp open http
+
+445/tcp open microsoft-ds
+
+548/tcp open afp
+
+6817/tcp open unknown
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt; nmap hostname &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;1.What computers did you find running on the local network?&lt;/p&gt;
+
+&lt;p&gt;2.What IP addresses did you find running on the local network?&lt;/p&gt;
+
+&lt;p&gt;3.What is the operating system of your target machine?&lt;/p&gt;
+
+&lt;p&gt;4.Find out what ports are open on the machine that you just scanned?&lt;/p&gt;
+
+&lt;p&gt;5.Find out if the system is infected with malware or virus.&lt;/p&gt;
+
+&lt;p&gt;6.Search for unauthorized servers or network service on your network.&lt;/p&gt;
+
+&lt;p&gt;7.Find and remove computers which don’t meet the organization’s minimum level of security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Scan &amp;amp; List a Range of Local Network IP’s &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  &lt;code&gt; 192.169.0.1&lt;/code&gt; to &lt;code&gt; 192.169.0.25 &lt;/code&gt; change numbers as appropritae: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap -sP 192.168.0.1-25&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don’t know the range, you can also use wildcards:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap 192.168.0.*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scan &amp;amp; Detect Operating System&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+nmap -O 192.168.0.1-5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+nmap --osscan-guess 192.168.0.2 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Exmaple Diagram: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                          +---------+
+    +---------+           | Network |         +--------+
+    | server1 |-----------+ swtich  +---------|server2 |
+    +---------+           | (sw0)   |         +--------+
+                          +----+----+
+                               |
+                               |
+                     +---------+----------+
+                     | wks01 Linux/OSX    |
+                     +--------------------+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote id=&quot;strict-alert-red&quot;&gt;
+Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only &lt;strong&gt;your Network &lt;/strong&gt; and &lt;strong&gt; Computers, Websites &lt;/strong&gt; etc.  as follows:
+&lt;/blockquote&gt;
+
+&lt;p&gt;At last i have to lol. because i found this crazy thing here : 
+&lt;a href=&quot;http://nmap.org/movies/#elysium&quot;&gt;Nmap in Movies!&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Link: 
+&lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+This is a SwissWatch! :)
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/event/nmap-mac-osx.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/nmap-mac-osx.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gem Npm Packages</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; RubyGems&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Make your Own Gem&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; What is Gem? &lt;/strong&gt; 
+RubyGems is the official packaging system for &lt;a href=&quot;https://www.ruby-lang.org/de/&quot;&gt;ruby-lang.org&lt;/a&gt;  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution. &lt;/p&gt;
+
+&lt;p&gt;Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Use &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;RubyGems be accessed via the command line acc.&lt;/p&gt;
+
+&lt;stromg&gt; Example : 
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+require &#39;json&#39;        # aktuelle Version
+gem &#39;rake&#39;, &#39;= 10.1.0&#39; # mit Versionsangabe
+
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt; 
+
+&lt;strong&gt;Gem Installation : Rake  &lt;/strong&gt;
+
+Download and install rake with the following.
+&lt;code&gt; gem install rake &lt;/code&gt; 
+
+
+
+&lt;strong&gt; Example : &lt;/strong&gt; 
+
+First, you must write a “Rakefile” file which contains the build rules. Here&#39;s a simple example:
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+task default: %w[test]
+
+task :test do
+  ruby &quot;test/unittest.rb&quot;
+end
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt; 
+
+This Rakefile has two tasks:
+
+A task named “test”, which – upon invocation – will run a unit test file in Ruby.
+
+A task named “default”. This task does nothing by itself, but it has exactly one dependency, namely the “test” task. Invoking the “default” task will cause Rake to invoke the “test” task as well.
+
+Running the “rake” command without any options will cause it to run the “default” task in the Rakefile:
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+% ls
+Rakefile     test/
+% rake
+(in /home/some_user/Projects/rake)
+ruby test/unittest.rb
+....unit test output here...
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt; 
+
+
+Type “rake –help” for all available options.
+&lt;br /&gt;&lt;br /&gt;
+
+Link: &lt;a href=&quot;https://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt;  Link:  &lt;a href=&quot;https://www.ruby-lang.org/de/&quot;&gt; ruby-lang.org&lt;/a&gt;
+
+&lt;blockquote&gt;
+“Grind and Polish your Gems!” 
+&lt;/blockquote&gt;
+
+&lt;/stromg&gt;
+</description>
+        <pubDate>Sun, 18 Oct 2015 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/event/gem-npm-ruby-gems-node.js.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/gem-npm-ruby-gems-node.js.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
