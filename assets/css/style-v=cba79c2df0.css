@@ -1203,12 +1203,12 @@ pre .storage {
 
 .post-meta a {
 	border-color: transparent;
-	color: #ffea00;
+	color: #fff;
 }
 
 .post-meta a:hover {
 	border-color: #fff;
-	color: #fff;
+	color: #868686;
 }
 
 .tag-template .post-meta a,
