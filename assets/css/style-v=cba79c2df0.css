@@ -1155,7 +1155,7 @@ pre .storage {
 .post-title a:hover,
 .tag-template .post-title a:hover,
 .author-template .post-title a:hover {
-	border-color: #ffea00;
+	border-color: #000;
 }
 
 .tag-links {
