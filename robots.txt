@@ -1,6 +1,0 @@
-User-agent: *
-Disallow:
-
-
-Sitemap: http://spaceg.github.io/sitemap.xml
-Sitemap: http://spaceg.github.io/image-sitemap.xml
