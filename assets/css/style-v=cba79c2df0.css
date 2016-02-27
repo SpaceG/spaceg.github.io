@@ -2463,3 +2463,14 @@ li.previous {
 li.next {
     list-style: none;
 }
+
+a.page-link {
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 15px;
+}div#countbox1{
+
+	  font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 15px;
+}
