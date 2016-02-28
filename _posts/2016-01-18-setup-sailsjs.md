@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Set Up Sails"
-cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
+cover: "img/1-1.jpg"
 date:   2015-01-11
 start_time: "10:00"
 end_time: "17:00"
