@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "ReactJS"
 cover: "img/walking-2.jpg"
-date:   2016-03-28
+date:   2015-04-10
 start_time: "12:00"
 end_time: "13:00"
 
