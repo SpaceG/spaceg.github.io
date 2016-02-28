@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "DNS - Set UP"
+title:  "Commandslines Mac OsX"
 cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
 date:   2011-01-13
 start_time: "10:00"
