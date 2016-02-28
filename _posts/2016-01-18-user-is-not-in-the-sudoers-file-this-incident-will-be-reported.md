@@ -22,6 +22,8 @@ organiser: "Lucas Gatsas"
 <code>sudo visudo</code>
 
 
+
+
 (2.) Change your User Privilege specification
 
 <code># User privilege specification </code>
