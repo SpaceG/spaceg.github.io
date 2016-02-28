@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "sudoers file  Add Premission to any User"
-cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
+cover: "img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg"
 date:   2013-06-11
 start_time: "10:00"
 end_time: "17:00"
