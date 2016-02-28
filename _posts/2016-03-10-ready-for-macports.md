@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Ready for mac Ports"
 cover: "img/Lucas_Gatsas_lucas_gatsas_0261.jpg"
-date:   2016-03-11
+date:   2015-05-11
 start_time: "12:00"
 end_time: "13:00"
 
