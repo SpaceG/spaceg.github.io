@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "OpenSSL Mac"
 cover: "img/interior.jpg"
-date:   2015-04-15
+date:   2015-04-18
 start_time: "10:00"
 end_time: "17:00"
 
