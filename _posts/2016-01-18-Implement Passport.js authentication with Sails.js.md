@@ -12,6 +12,8 @@ end_time: "17:00"
 organiser: "Lucas Gatsas"
 
 
+
+
 ---
 <h2 class="section-heading">sailsjs, passportjs, nodejss</h2>
 
