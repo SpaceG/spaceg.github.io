@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Hacker Camp"
 cover: "img/lucas-gatsas-dreamhack-night-shot.jpg"
-date:   2016-03-29
+date:   2016-02-25
 start_time: "12:00"
 end_time: "13:00"
 
