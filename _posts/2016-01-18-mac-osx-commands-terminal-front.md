@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Mac Os X Commands"
 cover: "img/CIJpn.png"
-date:   2012-04-13
+date:   2012-02-13
 start_time: "10:00"
 end_time: "17:00"
 
