@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Install Laravel Xampp Mamp"
 cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
-date:   2013-08-02
+date:   2013-07-02
 start_time: "10:00"
 end_time: "17:00"
 
