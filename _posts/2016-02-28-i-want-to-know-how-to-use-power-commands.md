@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Power Commandlines"
 cover: "img/interior.jpg"
-date:   2016-02-28
+date:   2016-02-27
 start_time: "12:00"
 end_time: "13:00"
 
