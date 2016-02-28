@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Get emacs on your Machine"
-cover: "img/books1.jpg"
+cover: "img/5.jpg"
 date:   2015-03-26
 start_time: "12:00"
 end_time: "13:00"
