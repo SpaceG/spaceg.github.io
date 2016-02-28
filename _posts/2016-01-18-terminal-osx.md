@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Commandslines Mac OsX"
-cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
+cover: "img/CIJpn.png"
 date:   2011-01-13
 start_time: "10:00"
 end_time: "17:00"
