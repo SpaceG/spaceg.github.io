@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Mac Os X Commands"
+title:  "Mac Os Commands"
 cover: "img/CIJpn.png"
 date:   2012-02-13
 start_time: "10:00"
@@ -13,8 +13,6 @@ organiser: "Lucas Gatsas"
 
 
 ---
-
-
 
 <h2 class="section-heading"><strong> Mac Os X - CommandLines</strong> </h2>
 <table class="table">
