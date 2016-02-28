@@ -16,6 +16,7 @@ organiser: "Lucas Gatsas"
 <h2 class="section-heading">sails.js </h2>
 
 
+
 Sails.js:
 ###[sails.js](http://sailsjs.org/)
 
