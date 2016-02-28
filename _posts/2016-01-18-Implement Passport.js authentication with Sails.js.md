@@ -11,9 +11,6 @@ end_time: "17:00"
 #event organiser details
 organiser: "Lucas Gatsas"
 
-
-
-
 ---
 
 
