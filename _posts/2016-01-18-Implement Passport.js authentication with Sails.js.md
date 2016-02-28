@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Implement Passport.js authentication with Sails.js"
+title:  "Implement Passportjs authentication with Sailsjs"
 cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
 date:   2016-02-28
 start_time: "10:00"
