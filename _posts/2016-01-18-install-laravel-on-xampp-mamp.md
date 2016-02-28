@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Install Laravel Xampp Mamp"
-cover: "img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png"
+cover: "img/Aurora.jpg"
 date:   2013-07-02
 start_time: "10:00"
 end_time: "17:00"
@@ -16,10 +16,6 @@ organiser: "Lucas Gatsas"
 
 
 <h2 class="section-heading">Laravel Install - The Popular PHP Framework to Code Web Applications. </h2>
-
-
-
-
 
 Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server. 
 
