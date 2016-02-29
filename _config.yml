@@ -28,6 +28,5 @@ markdown: kramdown
 #Have to show future posts for future events.
 future: true
 
-
 permalink: /event/:title.html
 
