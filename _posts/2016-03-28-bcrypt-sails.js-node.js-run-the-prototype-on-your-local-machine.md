@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "bycrypt Node.js"
 cover: "img/Halle-E_G5__c_-Rupert-Steiner_web.jpg"
-date:   2015-12-01
+date:   2016-02-16
 start_time: "12:00"
 end_time: "13:00"
 
