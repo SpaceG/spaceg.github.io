@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Hacker Camp"
 cover: "img/lucas-gatsas-dreamhack-night-shot.jpg"
-date:   2016-02-25
+date:   2016-02-22
 start_time: "12:00"
 end_time: "13:00"
 
@@ -15,7 +15,6 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>The <strong><a href="http://www.ccc.de/">CCC</a></strong> - Hacker Camp in Germany</blockquote>
-
 
 
 Would like to Share this Post with you, becuase I'm current have some New Ideas and Start Up's Projects and these would be great to realize it. 
