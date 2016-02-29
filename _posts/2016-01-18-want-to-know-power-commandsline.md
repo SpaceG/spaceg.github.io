@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Power Commandlines Os X"
 cover: "img/lucas-gatsas-06.png"
-date:   2016-02-16
+date:   2010-09-14
 start_time: "10:00"
 end_time: "17:00"
 

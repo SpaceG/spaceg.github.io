@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Implement Passportjs authentication with Sailsjs"
 cover: "img/779699537035500360-1.jpg"
-date:   2016-02-28
+date:   2016-02-29
 start_time: "10:00"
 end_time: "17:00"
 
