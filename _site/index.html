@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="de-DE"
+xmlns:og="http://opengraphprotocol.org/schema/"
+xmlns:fb="http://www.facebook.com/2008/fbml">
 
   <head>
 
@@ -20,13 +22,22 @@
   <title>Lucas Gatsas</title>
   <meta name="description" content="Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
 ">
-  <link rel="canonical" href="http://yourdomain.com/">
-  <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://yourdomain.com/feed.xml">
+  <link rel="canonical" href="http://blog.lucasgatsas.ch/">
+  <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
   <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
       <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
     <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
-    
+    <!-- Facebook Meta Data -->
+<meta property="og:image" content="http://spaceg.github.io/img/Pi2ModB1GB_-comp.jpg"/>
+<meta property="og:locality" content="St. Gallen"/>
+<meta property="og:country-name" content="Switzerland"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Lucas Gatsas, Front -End Engineer, SYS-Admin & UI/UX Designer from St. Gallen, Switzerland"/>
+<meta property="og:url" content="http://spaceg.github.io/"/>
+<meta property="og:site_name" content="www.lucasgatsas.ch"/>
+<meta name="robots" content="index, follow">
+<meta name="robots" content="all">
 </head>
 
 
@@ -43,6 +54,62 @@
     <ul class="menu">
         <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
          
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
             
                 <a class="page-link" href="/about/">About</a>
@@ -129,93 +196,9 @@
             <hr>
             <p class="hero-text fade-in">
 
-                <script type="text/javascript">
-                //###################################################################
-
-                var CDown = function() {
-                  this.state=0;// if initialized
-                  this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
-                  this.interval=null;// setInterval object
-                }
-
-                CDown.prototype = {
-                  init: function(){
-                    this.state=1;
-                    var self=this;
-                    this.interval=window.setInterval(function(){self.tick();}, 25);
-                  },
-                  add: function(date,id){
-                    this.counts.push({d:date,id:id});
-                    this.tick();
-                    if(this.state==0) this.init();
-                  },
-                  expire: function(idxs){
-                    for(var x in idxs) {
-                      this.display(this.counts[idxs[x]], "Now!");
-                      this.counts.splice(idxs[x], 1);
-                    }
-                  },
-                  format: function(r){
-                    var out="";
-                    out += r.s +("."+r.ms)+" "+((r.s==1)?"<br>sec":"<br>files downloading..")+", ";
-
-                    return out.substr(0,out.length-2);
-                  },
-                  math: function(work){
-                    var y=w=d=h=m=s=ms=0;
-
-                    ms=(""+((work%1000)+1000)).substr(1,3);
-                    work=Math.floor(work/1000);//kill the "milliseconds" so just secs
-
-                    y=Math.floor(work/31536000);//years (no leapyear support)
-                    w=Math.floor(work/604800);//weeks
-                    d=Math.floor(work/86400);//days
-                    h=Math.floor(work/3600);//hours
-                    m=Math.floor(work/60);//minutes
-                    s=Math.floor(work);//seconds
-
-                    return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
-                  },
-                  tick: function(){
-                    var now=(new Date()).getTime(),
-                      expired=[],cnt=0,amount=0;
-
-                    if(this.counts)
-                    for(var idx=0,n=this.counts.length; idx<n; ++idx){
-                      cnt=this.counts[idx];
-                      amount=cnt.d.getTime()-now;//calc milliseconds between dates
-
-                      // if time is already past
-                      if(amount<0){
-                        expired.push(idx);
-                      }
-                      // date is still good
-                      else{
-                        this.display(cnt, this.format(this.math(amount)));
-                      }
-                    }
-
-                    // deal with any expired
-                    if(expired.length>0) this.expire(expired);
-
-                    // if no active counts, stop updating
-                    if(this.counts.length==0) window.clearTimeout(this.interval);
-                    
-                  },
-                  display: function(cnt,msg){
-                    document.getElementById(cnt.id).innerHTML=msg;
-                  }
-                };
-
-                window.onload=function(){
-                  var cdown = new CDown();
-
-                  cdown.add(new Date(2017,1,3,23,14,27), "countbox1");
-                };
-                </script>
-                <div id="countbox1"><br>files downloading..</div>
+             Hello, My Name is Lucas Gatsas, I'm a Front -End Engineer, SYS-Admin & UI/UX - Designer based in the City of St. Gallen, Switzerland. <br>
             Blogging here about Code & Technology.</p>
-            <p class="subscribe"><a href="rss/index.html" class="button light fade-in">Subscribe</a></p>
+            <p class="subscribe"><a href="rss/" class="button light fade-in">Subscribe</a></p>
           </div>          
         </div><!-- .inner -->
       </div><!-- .cover-content -->
@@ -240,37 +223,31 @@
 
         
 
-      
-
-        
-
-        
-
                  
 
     <article class="post-inside post-inside grid-item post tag-music tag-science">
          
 
-      <div class="post-bg" style="background-image:url(img/lucas-gatsas-dreamhack-night-shot.jpg);"></div>
+      <div class="post-bg" style="background-image:url(img/map.jpg);"></div>
 
                           
 
 
       <header class="post-header">
      <!--   <div class="tag-links">
-          <a href="/event/hacker-camp.html">Music</a><a href="/event/hacker-camp.html">Science</a>
+          <a href="/event/dns-cname.html">Music</a><a href="/event/dns-cname.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/hacker-camp.html" rel="bookmark">Hacker Camp <span></span></a></h2>
+        <h2 class="post-title"><a href="/event/dns-cname.html" rel="bookmark">DNS - cname Set Up <span></span></a></h2>
 
             
 
       
         <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 29, 2016</time>
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Feb 29, 2016</time>
         </div><!-- .post-meta -->
       </header><!-- .post-header -->
       <div class="read-more">
-        <a class="button light" href="/event/hacker-camp.html" title="Walking on Thin Ice">Read More</a>
+        <a class="button light" href="/event/dns-cname.html" title="Walking on Thin Ice">Read More</a>
       </div>
     </article>
 
@@ -283,219 +260,9 @@
 
         
 
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0266.jpeg);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/angular.js-framework.html">Music</a><a href="/event/angular.js-framework.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/angular.js-framework.html" rel="bookmark">Angular Framework <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 29, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/angular.js-framework.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
-
-        
-
       
 
         
-
-        
-
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(img/walking-2.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/intro-to-react.html">Music</a><a href="/event/intro-to-react.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/intro-to-react.html" rel="bookmark">ReactJS <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 28, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/intro-to-react.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
-
-        
-
-      
-
-        
-
-        
-
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(img/Halle-E_G5__c_-Rupert-Steiner_web.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine.html">Music</a><a href="/event/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine.html" rel="bookmark">bycrypt Node.js <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 28, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/bcrypt-sails.js-node.js-run-the-prototype-on-your-local-machine.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
-
-        
-
-      
-
-        
-
-        
-
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0261.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/ready-for-macports.html">Music</a><a href="/event/ready-for-macports.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/ready-for-macports.html" rel="bookmark">Ready for mac Ports <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 11, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/ready-for-macports.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
-
-        
-
-      
-
-        
-
-        
-
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(img/lucas-gatsas-06.png);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/angular-2.html">Music</a><a href="/event/angular-2.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/angular-2.html" rel="bookmark">Angular 2 <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 10, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/angular-2.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
-
-        
-
-      
-
-        
-
-        
-
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(img/interior.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/i-want-to-know-how-to-use-power-commands.html">Music</a><a href="/event/i-want-to-know-how-to-use-power-commands.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/i-want-to-know-how-to-use-power-commands.html" rel="bookmark">Power Commandlines <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Feb 28, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/i-want-to-know-how-to-use-power-commands.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
 
         
 
@@ -530,6 +297,43 @@
       </header><!-- .post-header -->
       <div class="read-more">
         <a class="button light" href="/event/nmap-mac-osx.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/tag-bc.jpg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/angular-2.html">Music</a><a href="/event/angular-2.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/angular-2.html" rel="bookmark">Angular 2 <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jan 10, 2016</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/angular-2.html" title="Walking on Thin Ice">Read More</a>
       </div>
     </article>
 
@@ -621,7 +425,7 @@
     <article class="post-inside post-inside grid-item post tag-music tag-science">
          
 
-      <div class="post-bg" style="background-image:url(img/lucas-gatsas-06.png);"></div>
+      <div class="post-bg" style="background-image:url(img/Pi2ModB1GB_-comp.jpg);"></div>
 
                           
 
@@ -641,6 +445,43 @@
       </header><!-- .post-header -->
       <div class="read-more">
         <a class="button light" href="/event/raspberrypi-set-up-macosx-vnc-ssh.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0266.jpeg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/angular.js-framework.html">Music</a><a href="/event/angular.js-framework.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/angular.js-framework.html" rel="bookmark">Angular Framework <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jul 23, 2015</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/angular.js-framework.html" title="Walking on Thin Ice">Read More</a>
       </div>
     </article>
 
@@ -695,6 +536,43 @@
     <article class="post-inside post-inside grid-item post tag-music tag-science">
          
 
+      <div class="post-bg" style="background-image:url(img/dsc_0566.jpg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/npm.js.html">Music</a><a href="/event/npm.js.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/npm.js.html" rel="bookmark">npm.js install <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jun 4, 2015</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/npm.js.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
       <div class="post-bg" style="background-image:url(img/stork_v3.jpg);"></div>
 
                           
@@ -715,43 +593,6 @@
       </header><!-- .post-header -->
       <div class="read-more">
         <a class="button light" href="/event/htaccess-404-cpanel.html" title="Walking on Thin Ice">Read More</a>
-      </div>
-    </article>
-
-
-        
-
-      
-
-        
-
-        
-
-                 
-
-    <article class="post-inside post-inside grid-item post tag-music tag-science">
-         
-
-      <div class="post-bg" style="background-image:url(http://rack.2.mshcdn.com/media/ZgkyMDEyLzEyLzA0L2JiLzl0aGluZ3NidXNpLmNZbi5qcGcKcAl0aHVtYgkxMjAweDYyNyMKZQlqcGc/5d927a64/abc/9-things-businesses-need-to-know-about-web-security-e5e7ae36a9.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
-     <!--   <div class="tag-links">
-          <a href="/event/openssl-nginx-server-linux.html">Music</a><a href="/event/openssl-nginx-server-linux.html">Science</a>
-        </div> -->
-        <h2 class="post-title"><a href="/event/openssl-nginx-server-linux.html" rel="bookmark">Open SSL on a Nginx Linux Server <span></span></a></h2>
-
-            
-
-      
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">May 18, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/openssl-nginx-server-linux.html" title="Walking on Thin Ice">Read More</a>
       </div>
     </article>
 
@@ -880,7 +721,7 @@
     <article class="post-inside post-inside grid-item post tag-music tag-science">
          
 
-      <div class="post-bg" style="background-image:url(img/deskto-1.jpg);"></div>
+      <div class="post-bg" style="background-image:url(img/FreeAgent_Eva-20.JPG);"></div>
 
                           
 
@@ -903,6 +744,49 @@
       </div>
     </article>
 
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/books1.jpg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/node.js.html">Music</a><a href="/event/node.js.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/node.js.html" rel="bookmark">node.js <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Mar 3, 2015</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/node.js.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
 
         
 
@@ -982,6 +866,191 @@
 
       
 
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/1-1.jpg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/setup-sailsjs.html">Music</a><a href="/event/setup-sailsjs.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/setup-sailsjs.html" rel="bookmark">Set Up Sails <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jan 11, 2015</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/setup-sailsjs.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/dns-github.html">Music</a><a href="/event/dns-github.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/dns-github.html" rel="bookmark">DNS - Set UP <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Oct 13, 2014</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/dns-github.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/Aurora.jpg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/install-laravel-on-xampp-mamp.html">Music</a><a href="/event/install-laravel-on-xampp-mamp.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/install-laravel-on-xampp-mamp.html" rel="bookmark">Install Laravel Xampp Mamp <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jul 2, 2013</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/install-laravel-on-xampp-mamp.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html">Music</a><a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html" rel="bookmark">sudoers file  Add Premission to any User <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jun 11, 2013</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
+        
+
+        
+
+                 
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url(img/CIJpn.png);"></div>
+
+                          
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="/event/terminal-osx.html">Music</a><a href="/event/terminal-osx.html">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="/event/terminal-osx.html" rel="bookmark">Commandslines Mac OsX <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="2015-10-05">Jan 13, 2011</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="/event/terminal-osx.html" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        
+
+      
+
 
 
 
@@ -1014,26 +1083,30 @@
     <div class="inner-wide">
       <div class="offsite-links">
         <a href="http://www.twitter.com/lucasgatsas" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>
-        <a href="https://www.facebook.com/" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a> 
-        <a href="https://plus.google.com/" class="icon-google"><span class="screen-reader-text">Google+</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100010261894353" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a> 
+        <a href="https://plus.google.com/101826267816845608605" class="icon-google"><span class="screen-reader-text">Google+</span></a>
         <a href="https://github.com/spaceg" class="icon-github"><span class="screen-reader-text">GitHub</span></a>
         <a href="https://medium.com/@lucasgatsas" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
         <a href="http://instagram.com/lucasgatsas" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
         <a href="https://www.youtube.com/watch?v=3Zz7gLsN7fk" class="icon-youtube"><span class="screen-reader-text">YouTube</span></a>
         <a href="rss/index.html" class="icon-feed"><span class="screen-reader-text">RSS</span></a>
       </div><!-- .offsite-links -->
-      <a href="index.html#page" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+      <a href="#" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
     </div><!-- .inner -->
   </div><!-- .footer-top -->
   <div class="site-info inner-wide">
     <p>&copy;. 2014 - 2016 by <a href="index.html">   Lucas Gatsas <!-- Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
- --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a></p>   
+ --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a>      This site is built with <a href="http://rubyonrails.org/" target="_blank"> Ruby on Rails </a>
+ </p>   
   </div><!-- .site-info -->
 </footer><!-- .site-footer -->
 
 
 
 <!-- jQuery -->
+
+
+
 
 
   <script src="/assets/js/plugins-v=cba79c2df0.js"></script> 

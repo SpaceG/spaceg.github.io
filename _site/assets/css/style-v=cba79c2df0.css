@@ -806,9 +806,9 @@ pre .storage {
 
 .button:hover,
 .square:hover {
-	background-color: #ffea00;
-	border-color: #ffea00;
-	color: #111;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
 }
 
 /* Animations */
@@ -1155,7 +1155,7 @@ pre .storage {
 .post-title a:hover,
 .tag-template .post-title a:hover,
 .author-template .post-title a:hover {
-	border-color: #ffea00;
+	border-color: #000;
 }
 
 .tag-links {
@@ -1203,12 +1203,12 @@ pre .storage {
 
 .post-meta a {
 	border-color: transparent;
-	color: #ffea00;
+	color: #fff;
 }
 
 .post-meta a:hover {
 	border-color: #fff;
-	color: #fff;
+	color: #868686;
 }
 
 .tag-template .post-meta a,
@@ -2462,4 +2462,15 @@ li.previous {
 }
 li.next {
     list-style: none;
+}
+
+a.page-link {
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 15px;
+}div#countbox1{
+
+	  font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 15px;
 }
