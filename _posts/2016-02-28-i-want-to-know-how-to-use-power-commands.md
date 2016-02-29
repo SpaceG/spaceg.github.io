@@ -30,6 +30,7 @@ padding-left: 5px;
 }
 </style>
 
+
 <figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
 &nbsp; 	<tbody>
 &nbsp; 		<tr>
