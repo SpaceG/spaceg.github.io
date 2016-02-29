@@ -2,14 +2,15 @@
 layout: post
 
 #event information
-title:  "Power Commandlines"
-cover: "img/interior.jpg"
-date:   2015-02-22
-start_time: "12:00"
-end_time: "13:00"
+title:  "2015-02-17"
+cover: "img/lucas-gatsas-06.png"
+date:   2016-02-16
+start_time: "10:00"
+end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"
+
 
 ---
 
