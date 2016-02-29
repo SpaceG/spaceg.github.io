@@ -235,8 +235,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 
 <p><a href="http://space.lucasgatsas.ch/64376473647637467364634376437647364736473647356736537657365763576375673657365763756376">space.lucasgatsas.ch</a></p>
 
-<p><br /><br />
-<strong>Redirect from HTTP to HTTPS</strong></p>
+<p><br /><br /></p>
+
+<p><strong>Redirect from HTTP to HTTPS</strong></p>
 
 <pre>
 
@@ -268,6 +269,7 @@ for any domain .htaccess takes effect on:
 
 
 <strong>for any domain .htaccess takes effect on:</strong>
+
 <pre>
          RewriteEngine On 
          RewriteCond %{HTTP_HOST} !^www\. 
@@ -275,6 +277,7 @@ for any domain .htaccess takes effect on:
 </pre>
 
 <strong>for a certain domain, example.com:</strong>
+
 <pre>
          RewriteEngine On     
          RewriteCond %{HTTP_HOST} ^example\.com$ [NC] 
@@ -285,6 +288,7 @@ for any domain .htaccess takes effect on:
 <strong>Redirect from WWW to non-WWW</strong>
 
 <strong>for any domain .htaccess takes effect on:</strong>
+
 <pre>
          RewriteEngine On
          RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC] 
@@ -292,6 +296,7 @@ for any domain .htaccess takes effect on:
 </pre>
 
 <strong>for a certain domain, example.com:</strong>
+
 <pre>
          RewriteEngine On 
          RewriteCond %{HTTP_HOST} ^www\.example\.com [NC] 
@@ -299,6 +304,7 @@ for any domain .htaccess takes effect on:
 </pre>
 
 <strong>Changes the directory root for the main domain to public_html/subfolder</strong>
+
 <pre>
          RewriteEngine on 
          RewriteCond %{HTTP_HOST} ^(www.)?example.com$ 
@@ -311,10 +317,8 @@ for any domain .htaccess takes effect on:
 </pre>
 
 <br />
-<blockquote>
-“Um sich in der heutigen Welt zurechtzufinden,
-ist es besser, intelligent als gebildet zu sein.” 
-</blockquote>
+
+
 
 </pre></pre>
 

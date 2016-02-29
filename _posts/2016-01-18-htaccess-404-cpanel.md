@@ -22,6 +22,7 @@ To Run a .htaccess File on your cPanel Server. <code> ErrorDocument 404 /404.htm
 <a href="http://space.lucasgatsas.ch/64376473647637467364634376437647364736473647356736537657365763576375673657365763756376">space.lucasgatsas.ch</a>
 
 <br><br>
+
 <strong>Redirect from HTTP to HTTPS</strong>
 
 
@@ -56,6 +57,7 @@ for a certain domain, example.com:
 
 
 <strong>for any domain .htaccess takes effect on:</strong>
+
 <pre>
          RewriteEngine On 
          RewriteCond %{HTTP_HOST} !^www\. 
@@ -63,6 +65,7 @@ for a certain domain, example.com:
 </pre>
 
 <strong>for a certain domain, example.com:</strong>
+
 <pre>
          RewriteEngine On     
          RewriteCond %{HTTP_HOST} ^example\.com$ [NC] 
@@ -73,6 +76,7 @@ for a certain domain, example.com:
 <strong>Redirect from WWW to non-WWW</strong>
 
 <strong>for any domain .htaccess takes effect on:</strong>
+
 <pre>
          RewriteEngine On
          RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC] 
@@ -80,6 +84,7 @@ for a certain domain, example.com:
 </pre>
 
 <strong>for a certain domain, example.com:</strong>
+
 <pre>
          RewriteEngine On 
          RewriteCond %{HTTP_HOST} ^www\.example\.com [NC] 
@@ -87,6 +92,7 @@ for a certain domain, example.com:
 </pre>
 
 <strong>Changes the directory root for the main domain to public_html/subfolder</strong>
+
 <pre>
          RewriteEngine on 
          RewriteCond %{HTTP_HOST} ^(www.)?example.com$ 
@@ -99,8 +105,6 @@ for a certain domain, example.com:
 </pre>
 
 <br>
-<blockquote>
-“Um sich in der heutigen Welt zurechtzufinden,
-ist es besser, intelligent als gebildet zu sein.” 
-</blockquote>
+
+
 
