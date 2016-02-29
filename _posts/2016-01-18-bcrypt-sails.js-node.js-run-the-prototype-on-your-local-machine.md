@@ -2,14 +2,15 @@
 layout: post
 
 #event information
-title:  "bycrypt Node.js"
+title:  "bycrypt Nodejs"
 cover: "img/Halle-E_G5__c_-Rupert-Steiner_web.jpg"
 date:   2016-02-16
-start_time: "12:00"
-end_time: "13:00"
+start_time: "10:00"
+end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"
+
 
 ---
 
