@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "2015-02-17"
+title:  "Power Commandlines Os X"
 cover: "img/lucas-gatsas-06.png"
 date:   2016-02-16
 start_time: "10:00"
