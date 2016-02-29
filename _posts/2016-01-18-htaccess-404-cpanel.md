@@ -37,11 +37,7 @@ for any domain .htaccess takes effect on:
 
 </pre>
 
-<strong>
-
-
-for a certain domain, example.com:
-</strong>
+<strong>for a certain domain, example.com:</strong>
 
 <pre>
 
