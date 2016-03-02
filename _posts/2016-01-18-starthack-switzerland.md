@@ -6,7 +6,6 @@ title:  "Starthack Hackathon"
 cover: "img/starhack-2016.jpg"
 date:   2016-03-02
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

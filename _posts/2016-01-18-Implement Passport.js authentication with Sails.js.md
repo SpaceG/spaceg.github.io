@@ -15,6 +15,9 @@ organiser: "Lucas Gatsas"
 
 
 
+
+
+
 <h2 class="section-heading">sailsjs, passportjs, nodejss</h2>
 
 Step 1: dependencies
