@@ -6,36 +6,9 @@
 </description>
     <link>http://blog.lucasgatsas.ch/</link>
     <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Mar 2016 11:04:57 +0100</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2016 11:04:57 +0100</lastBuildDate>
+    <pubDate>Wed, 02 Mar 2016 11:06:01 +0100</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2016 11:06:01 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
-    
-      <item>
-        <title>Starthack Hackathon</title>
-        <description>&lt;p&gt;I will be there at starthack 2016 in St. Gallen, Switzerland.
-Would like to see you there! :D hurrayyy!&lt;/p&gt;
-
-&lt;p&gt;Hundreds of attendees
-Hackers from all over Europe, USA and Israel are going to participate.
-35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility.
-A range of challenges
-Our Partners will provide a big number of sophisticated challenges, which the hackers are able to tackle.&lt;/p&gt;
-
-&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;http://starthack.ch&quot;&gt; Starthack 2016&lt;/a&gt; 
-Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&quot;35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility. &quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 02 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/starthack-switzerland.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/starthack-switzerland.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>bycrypt</title>
@@ -1321,6 +1294,72 @@ Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;
         <pubDate>Wed, 30 Sep 2015 00:00:00 +0200</pubDate>
         <link>http://blog.lucasgatsas.ch/event/raspberrypi-set-up-macosx-vnc-ssh.html</link>
         <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/raspberrypi-set-up-macosx-vnc-ssh.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Angular Framework</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
+
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; My Ask about her Page Script and Code,
+because the Page have only a frame in the index.html file and the rest based on Javascript. 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas - Helen V Holmes&quot; /&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;p&gt;By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:50%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+&lt;blockquote&gt;Every large system that works started as small system that worked.
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 23 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://blog.lucasgatsas.ch/event/angular.js-framework.html</link>
+        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/angular.js-framework.html</guid>
         
         
       </item>
