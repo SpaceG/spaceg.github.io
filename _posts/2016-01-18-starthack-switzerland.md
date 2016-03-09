@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Starthack Hackathon"
 cover: "img/starhack-2016.jpg"
-date:   2016-03-02
+date:   2016-03-09
 start_time: "10:00"
 
 #event organiser details
