@@ -13,21 +13,35 @@ organiser: "Lucas Gatsas"
 
 ---
 
-I will be there at starthack 2016 in St. Gallen, Switzerland.
-Would like to see you there! :D hurrayyy!
+<h1> The Start @ Hackathon - St. Gallen </h1> 
 
-Hundreds of attendees
-Hackers from all over Europe, USA and Israel are going to participate.
-35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility.
-A range of challenges
-Our Partners will provide a big number of sophisticated challenges, which the hackers are able to tackle.
+The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action. 
+I was in the team Cesar. We eventually publish our project on GitHub. We had written a Mortage Calculator.
 
 
+<a href="{{ site.baseurl }}/img/IMG_0344.JPG">
+    <img src="{{ site.baseurl }}/img/IMG_0344.JPG" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
 
 
-See the Issue Detail here on Github <a href="http://starthack.ch"> Starthack 2016</a> 
-Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> 
+And the Winner was Alica Sykes with here Sentiment Sweep Project.
+
+
+<center>
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">How do you think the world is feeling via Twitter? Sentiment Sweep can let you know! Built at <a href="https://twitter.com/START_Hack">@START_Hack</a> <a href="https://t.co/4pVUuNDtpC">pic.twitter.com/4pVUuNDtpC</a></p>&mdash; Major League Hacking (@MLHacks) <a href="https://twitter.com/MLHacks/status/708986457751470080">13. März 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+Can't wait for the Next Hackathon here at the STARThack in St. Gallen, Switzerland, next time with more Gadget and my own Tools. 
+
+
+<a href="{{ site.baseurl }}/img/10363637_10208373305708123_7837373092865267162_n.jpg">
+    <img src="{{ site.baseurl }}/img/10363637_10208373305708123_7837373092865267162_n.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
+</a>
+
+
+
+<a href="http://starthack.ch"> Starthack 2016</a> 
+<a href="https://twitter.com/lucasgatsas">Twitter</a> 
 
 <blockquote>
 "35 hours of coding
