@@ -18,6 +18,10 @@ organiser: "Lucas Gatsas"
 The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action. 
 I was in the team Cesar. We eventually publish our project on GitHub. We had written a Mortage Calculator.
 
+<strong>"Namics Challenge Winner" Project at Start Hack Hackathon in Switzerland — </strong>
+
+<a href="https://github.com/SpaceG/Clear">Clear </a>
+
 
 <a href="{{ site.baseurl }}/img/IMG_0344.JPG">
     <img src="{{ site.baseurl }}/img/IMG_0344.JPG" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
