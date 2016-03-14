@@ -20,7 +20,7 @@ I was in the team Cesar. We eventually publish our project on GitHub. We had wri
 
 <strong>"Namics Challenge Winner" Project at Start Hack Hackathon in Switzerland — </strong>
 
-<a href="https://github.com/SpaceG/Clear">Clear </a>
+<a href="https://github.com/SpaceG/Clear">Github - Clear </a>
 
 
 <a href="{{ site.baseurl }}/img/IMG_0344.JPG">
