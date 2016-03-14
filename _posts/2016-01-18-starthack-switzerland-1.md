@@ -13,7 +13,7 @@ organiser: "Lucas Gatsas"
 
 ---
 
-<h1> The Start @ Hackathon - St. Gallen </h1> 
+<h1> The Start @ Hackathon <br> St. Gallen </h1> 
 
 The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action. 
 I was in the team Cesar. We eventually publish our project on GitHub. We had written a Mortage Calculator.
