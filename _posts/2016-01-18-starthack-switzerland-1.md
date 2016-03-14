@@ -43,6 +43,7 @@ Can't wait for the Next Hackathon here at the STARThack in St. Gallen, Switzerla
 
 
 <a href="http://starthack.ch"> Starthack 2016</a> 
+<a href="https://www.facebook.com/starthackathon/?fref=ts"> Starthack 2016 - Facebook</a> 
 <a href="https://twitter.com/lucasgatsas">Twitter</a> 
 
 <blockquote>
