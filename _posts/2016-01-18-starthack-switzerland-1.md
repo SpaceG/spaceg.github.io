@@ -22,6 +22,11 @@ I was in the team Cesar. We eventually publish our project on GitHub. We had wri
 
 <a href="https://github.com/SpaceG/Clear">Github - Clear </a>
 
+Team Cesare:
+
+Cesare
+<a href="http://cesare.io/" target="_blank">cesare.io</a>
+
 
 <a href="{{ site.baseurl }}/img/IMG_0344.JPG">
     <img src="{{ site.baseurl }}/img/IMG_0344.JPG" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
