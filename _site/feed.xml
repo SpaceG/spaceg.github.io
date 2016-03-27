@@ -6,9 +6,104 @@
 </description>
     <link>http://blog.lucasgatsas.ch/</link>
     <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2016 11:02:45 +0100</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2016 11:02:45 +0100</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2016 02:28:20 +0100</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 02:28:20 +0100</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Interpretierte und Kompilierte Sprachen</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Interpretierte (Skript Sprachen)&lt;/h2&gt;
+
+&lt;h2&gt;Schlechte Performance &lt;/h2&gt;
+
+&lt;p&gt;Die Performance bei Skriptsprachebn ist generell etwas schlechter als bei den kompilierten Alternativen.&lt;/p&gt;
+
+&lt;h2&gt;Höherer Speicherverbrauch&lt;/h2&gt;
+
+&lt;p&gt;Speicherverbauch  ist ebenfalls meist höher als bei der Implementierung vergleichbar Logik in kompilierten Sprachen.&lt;/p&gt;
+
+&lt;h2&gt;Schnellere Entwicklung&lt;/h2&gt;
+&lt;p&gt;Die Entwicklung mit Skriptsprachen ist meist etwas weinger zeitaufwendig, da zum Beispiel Speicherverwaltung entfällt.&lt;/p&gt;
+
+&lt;h2&gt;Programmiersprachen&lt;/h2&gt;
+
+&lt;p&gt;Bekannte Skriptsprachen sind zum Beispiel PHP, Javascript, Python, Ruby sowie Perl.&lt;/p&gt;
+
+&lt;h2&gt;Speziallfall Java&lt;/h2&gt;
+
+&lt;p&gt;Code zur Lauftzeit Java ist ein Sonderfall. Hier gibt es einen Java - Compilier, der erzeugt jedoch Bytecode. Eine Art Zwischenschritt zwischen Interpreteur und Compiler.&lt;/p&gt;
+
+&lt;h2&gt;Sicherheit&lt;/h2&gt;
+
+&lt;p&gt;Generell bieten Skriptsprachen mehr Unterstützung im Bezug auf Sicherheit. C/C ++ lagert does voll auf den Entwickler aus.&lt;/p&gt;
+
+&lt;p&gt;Interpretierte Sprachen&lt;/p&gt;
+
+&lt;p&gt;Quelltext Editieren&lt;/p&gt;
+
+&lt;p&gt;In Interpreter ausführen&lt;/p&gt;
+
+&lt;p&gt;Software Testen&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt; Kompilierte &lt;/h2&gt;
+
+&lt;h3 class=&quot;section-heading&quot;&gt; Mark Up Sprachen&lt;/h3&gt;
+
+&lt;h2&gt;Auszeichnung von Elementen&lt;/h2&gt;
+
+&lt;p&gt;Markup -Sprachebn ebschrieben den Inhalt, legen aber nicht automatisch auvh das Format fest.&lt;/p&gt;
+
+&lt;h2&gt;HTML / XML&lt;/h2&gt;
+
+&lt;p&gt;Beispiele für Markup -Sprachen sind HTML und XML. Hier werden Inhalte in einer Baumstruktur verschachelt.&lt;/p&gt;
+
+&lt;h2&gt;Keine Echten Programmiersprachen&lt;/h2&gt;
+
+&lt;p&gt;Eine Markup ist keine Programmiersprache. Hier der dynamische Aspekt.&lt;/p&gt;
+
+&lt;h2&gt;Keine Logik&lt;/h2&gt;
+
+&lt;p&gt;Auszeichnungssprachen haben keine Logik, Keine Bedingungen oder Schleifen. U.a. daher Javascript.&lt;/p&gt;
+
+&lt;h2&gt;Beschreibungssprache&lt;/h2&gt;
+
+&lt;p&gt;HTML und XML beschreiben Inhalte, legen jedach nur fest um welche Art esd sich handelt. Aussehen wird woanders difiniert.&lt;/p&gt;
+
+&lt;h2&gt;Stylesheets&lt;/h2&gt;
+
+&lt;p&gt;Aussehen wird durch Stylesheets festgelegt. Ausserdem gitbz es bei HTML definierte Darstellung, je nach Browser ggf. abweichend.&lt;/p&gt;
+
+&lt;h2&gt;How to get Fit with all?&lt;/h2&gt;
+
+&lt;p&gt;98,9% Bücher lesen.&lt;/p&gt;
+
+&lt;p&gt;87.3 % Eigne Beispiele umsetzen&lt;/p&gt;
+
+&lt;p&gt;82.1 % Tutorial&lt;/p&gt;
+
+&lt;p&gt;110&amp;amp; Eigne Projekte&lt;/p&gt;
+
+&lt;p&gt;72.1 % Fremde Open Source Projekte Ansehen &amp;amp; Studieren&lt;/p&gt;
+
+&lt;p&gt;Github &amp;amp; Google  - nach Open Sources Suchen - reicht über ein ganzes Menschenleben.&lt;/p&gt;
+
+&lt;p&gt;67.4 % Feedback&lt;/p&gt;
+
+&lt;p&gt;120 % Praxis&lt;/p&gt;
+
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
+Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;bcrypt Packages &quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://blog.lucasgatsas.ch/event/peformance-interpretierte-kompilierte.html</link>
+        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/peformance-interpretierte-kompilierte.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Starthack Hackathon</title>
@@ -16,6 +111,15 @@
 
 &lt;p&gt;The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action. 
 I was in the team Cesar. We eventually publish our project on GitHub. We had written a Mortage Calculator.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Namics Challenge Winner” Project at Start Hack Hackathon in Switzerland — &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/Clear&quot;&gt;Github - Clear &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Team Cesare:&lt;/p&gt;
+
+&lt;p&gt;Cesare
+&lt;a href=&quot;http://cesare.io/&quot; target=&quot;_blank&quot;&gt;cesare.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/img/IMG_0344.JPG&quot;&gt;
     &lt;img src=&quot;/img/IMG_0344.JPG&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
