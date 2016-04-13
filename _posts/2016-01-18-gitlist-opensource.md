@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Gitlist OpenSource V.1.0.1"
-cover: "https://pbs.twimg.com/media/Cf2QfRbXIAEAic6.jpg:large"
+cover: "img/Cf2QfRbXIAEAic6.jpg"
 date:   2016-04-13
 
 
