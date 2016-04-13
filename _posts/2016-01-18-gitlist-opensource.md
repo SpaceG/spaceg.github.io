@@ -29,6 +29,9 @@ Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github
 Read the Full Documentation here on my Github : <a href="https://github.com/SpaceG/gitlist.io/blob/master/README.md"> Gitlist Documentation </a>
 
 
+If you find a Bug or Update the Source give a Note about a Issue :
+ <a href="https://github.com/SpaceG/gitlist.io/issues
+"> Gitlist OpenSource Issues </a> 
 
 
 <blockquote>
