@@ -24,6 +24,10 @@ Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github
 
 <code> $ npm install </code> 
 
+<code> ä npm install sails-mongo --save  </code> 
+
+
+
 
 
 <blockquote>
