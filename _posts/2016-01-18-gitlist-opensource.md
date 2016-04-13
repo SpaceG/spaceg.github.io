@@ -16,7 +16,7 @@ organiser: "Lucas Gatsas"
 
 
 Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github 
-<a href="http://www.gitlist.com/spaceG/gitlist.io"> Gitlist On Github </a>
+<a href="http://www.github.com/spaceG/gitlist.io"> Gitlist On Github </a>
 
 <code> $ git clone https://github.com/SpaceG/gitlist.io.git </code>
 
@@ -24,8 +24,9 @@ Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github
 
 <code> $ npm install </code> 
 
-<code> ä npm install sails-mongo --save  </code> 
+<code> $ npm install sails-mongo --save  </code> 
 
+Read the Full Documentation here on my Github : <a href="https://github.com/SpaceG/gitlist.io/blob/master/README.md"> Gitlist Documentation </a>
 
 
 
