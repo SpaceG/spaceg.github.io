@@ -15,6 +15,8 @@ organiser: "Lucas Gatsas"
 <h2 class="section-heading"> Gitlist OpenSource Project </h2>
 
 
+
+
 Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github 
 <a href="http://www.github.com/spaceG/gitlist.io"> Gitlist On Github </a>
 
@@ -25,6 +27,13 @@ Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github
 <code> $ npm install </code> 
 
 <code> $ npm install sails-mongo --save  </code> 
+
+
+
+first remove the node_module  folder, then install npm packages  $npm install  then after, $ sudo sails lift , do you will see, it give a error back, becuase do you haven't install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run <code> npm install sails-mongo --save  </code> then it will intsall all MongoDB Packages : then run again  $ sudo sails lift  .
+
+
+
 
 Read the Full Documentation here on my Github : <a href="https://github.com/SpaceG/gitlist.io/blob/master/README.md"> Gitlist Documentation </a>
 
