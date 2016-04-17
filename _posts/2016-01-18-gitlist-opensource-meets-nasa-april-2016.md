@@ -48,8 +48,8 @@ Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2
 </a>
 
 
-App  Count. Code of Lines  total : <br> files: 
- 6243  <br>    blank:   142507  <br> comment:      245423  <br>   code:    870786
+App  Count. Code of Lines  total : <br> <code>files: 
+ 6243 </code> <br>  <code>  blank:   142507 </code> <br> <code>comment:      245423 </code> <br> <code>  code:    870786</code>
 
 <a href="">
     <img src="{{ site.baseurl }}/img/IMG_3508.jpg" style="width:100%" alt="Lucas Gatsas">
