@@ -75,5 +75,5 @@ See the Issue Detail and The Gitlist OpenSource Master Branch  <a href="https://
 Link: <a href="http://www.gitlist.io"> Gitlist.io</a> 
 
 <blockquote>
-"Nasa"
+"Nasa - National Aeronautics and Space Administration"
 </blockquote>
