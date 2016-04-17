@@ -15,6 +15,9 @@ organiser: "Lucas Gatsas"
 <h2 class="section-heading"> Gitlist OpenSource Project </h2>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/Cf2QfRbXIAEAic6.jpg" style="width:100%" alt="Lucas Gatsas">
+</a>
 
 
 Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github 
