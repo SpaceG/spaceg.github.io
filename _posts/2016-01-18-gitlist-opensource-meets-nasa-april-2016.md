@@ -52,7 +52,7 @@ App  Count. Code of Lines  total : <br> files:
  6243  <br>    blank:   142507  <br> comment:      245423  <br>   code:    870786
 
 <a href="">
-    <img src="{{ site.baseurl }}/img/IMG_3508,jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/IMG_3508.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
