@@ -36,7 +36,7 @@ Testing App.
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/IMG_3499.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/IMG_3458.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2 
