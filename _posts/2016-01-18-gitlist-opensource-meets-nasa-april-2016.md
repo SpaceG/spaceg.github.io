@@ -14,28 +14,28 @@ organiser: "Lucas Gatsas"
 ---
 <h2 class="section-heading"> Gitlist Nasa Collaboration</h2>
 
-<a href="#">
+<a href="">
     <img src="{{ site.baseurl }}/img/Cf2QfRbXIAEAic6.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 
 On 28. April 2016 i will have a meeting with jason from the Nasa. We talking about the OpenSource, Future and Details about the Gitlist App and OpenSource Project. 
 
-<a href="#">
+<a href="">
     <img src="{{ site.baseurl }}/img/gitlist-new.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 New List with Javascript Arrays. :) ! 
 
 
-<a href="#">
+<a href="">
     <img src="{{ site.baseurl }}/img/IMG_3499.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
 Testing App. 
 
 
-<a href="#">
+<a href="">
     <img src="{{ site.baseurl }}/img/IMG_3458.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
@@ -43,7 +43,7 @@ Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2
 
 
 
-<a href="#">
+<a href="">
     <img src="{{ site.baseurl }}/img/IMG_3466.jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
@@ -51,7 +51,7 @@ Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2
 App  Count. Code of Lines  total : <br> files: 
  6243  <br>    blank:   142507  <br> comment:      245423  <br>   code:    870786
 
-<a href="#">
+<a href="">
     <img src="{{ site.baseurl }}/img/IMG_3508,jpg" style="width:100%" alt="Lucas Gatsas">
 </a>
 
