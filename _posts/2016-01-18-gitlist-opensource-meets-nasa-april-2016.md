@@ -54,6 +54,21 @@ More Features will next Step. We will write some Api. More to follow soon.
 I have New small Team Up. I will list all Members. Specially one Person which i like it much to include it to the Team. Never seen such a good a Developer like her. :) ! 
 
 
+<a href="http://www.github.com/spaceG/gitlist.io"> Gitlist On Github </a>
+
+<code> $ git clone https://github.com/SpaceG/gitlist.io.git </code>
+
+<code> $ sudo sails lift </code>
+
+<code> $ npm install </code> 
+
+<code> $ npm install sails-mongo --save  </code> 
+
+
+
+first remove the <code> node_module </code>  folder, then install npm packages <code> $npm install</code>  then after, <code> $ sudo sails lift </code> , do you will see, it give a error back, becuase do you haven't install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run <code> npm install sails-mongo --save  </code> then it will intsall all MongoDB Packages : then run again <code> $ sudo sails lift </code>  .
+
+
 
 
 See the Issue Detail and The Gitlist OpenSource Master Branch  <a href="https://github.com/SpaceG/gitlist.io"> Master Branch - Gitlist OS v.1.0.2</a> 
