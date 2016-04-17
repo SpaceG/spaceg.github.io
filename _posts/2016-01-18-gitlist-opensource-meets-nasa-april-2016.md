@@ -51,6 +51,9 @@ New UI/UX Up. Time: 34 Hours Work on The New Version 1.0.2 - It's faster, cleane
 More Features will next Step. We will write some Api. More to follow soon. 
 
 
+I have New small Team Up. I will list all Members. Specially one Person which i like it much to include it to the Team. Never seen such a good a Developer like her. :) ! 
+
+
 
 
 See the Issue Detail and The Gitlist OpenSource Master Branch  <a href="https://github.com/SpaceG/gitlist.io"> Master Branch - Gitlist OS v.1.0.2</a> 
