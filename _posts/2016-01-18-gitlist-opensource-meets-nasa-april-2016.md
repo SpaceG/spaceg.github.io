@@ -19,7 +19,7 @@ organiser: "Lucas Gatsas"
 </a>
 
 
-
+On 28. April 2016 i will have a meeting with jason from the Nasa. We talking about the OpenSource, Future and Details about the Gitlist App and OpenSource Project. 
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/gitlist-new.png" style="width:100%" alt="Lucas Gatsas">
@@ -40,6 +40,16 @@ Testing App.
 </a>
 
 Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2 
+
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/IMG_3466.jpg" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+New UI/UX Up. Time: 34 Hours Work on The New Version 1.0.2 - It's faster, cleaner, more Userfriendly as the Old Version 1.0.1 . 
+More Features will next Step. We will write some Api. More to follow soon. 
+
 
 
 
