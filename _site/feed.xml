@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.lucasgatsas.ch/</link>
     <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Apr 2016 00:13:43 +0200</pubDate>
-    <lastBuildDate>Thu, 14 Apr 2016 00:13:43 +0200</lastBuildDate>
+    <pubDate>Sun, 17 Apr 2016 22:46:25 +0200</pubDate>
+    <lastBuildDate>Sun, 17 Apr 2016 22:46:25 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Gitlist Nasa Collaboration</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Gitlist Nasa Collaboration&lt;/h2&gt;
+
+&lt;p&gt;See the Issue Detail and The Gitlist OpenSource Master Branch  &lt;a href=&quot;https://github.com/SpaceG/gitlist.io&quot;&gt; issue332&lt;/a&gt; 
+Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;Nasa&quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://blog.lucasgatsas.ch/event/gitlist-opensource-meets-nasa-april-2016.html</link>
+        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/gitlist-opensource-meets-nasa-april-2016.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Gitlist OpenSource V.1.0.1</title>
@@ -24,6 +42,8 @@
 &lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
 
 &lt;p&gt;Read the Full Documentation here on my Github : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/README.md&quot;&gt; Gitlist Documentation &lt;/a&gt;&lt;/p&gt;
 
