@@ -47,6 +47,11 @@ Clone The Master Branch to your Desktop: <a href="https://github.com/SpaceG/gitl
 Read the Full Documentation here on my Github : <a href="https://github.com/SpaceG/gitlist.io/blob/master/README.md"> Gitlist Documentation </a>
 
 
+Big dedicated to my Friends Stellardrone: 
+
+<iframe width="100%" height="425" src="https://www.youtube.com/embed/YPRTIonMVQY" frameborder="0" allowfullscreen></iframe>
+
+
 If you find a Bug or Update the Source give a Note about a Issue :
  <a href="https://github.com/SpaceG/gitlist.io/issues
 "> Gitlist OpenSource Issues </a> 
