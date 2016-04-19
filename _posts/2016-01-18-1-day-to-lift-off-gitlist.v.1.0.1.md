@@ -17,6 +17,8 @@ organiser: "Lucas Gatsas"
 Now, finally in few hours i will launch a New Prototype of the Gitlist Version 1.0.2!
 We current working on new Features. I have some New Features in Mind which i will realize soon. 
 
+Some Last Confugurations and Code Detail Issues. Can't wait to Include soon some Sentiment to the App. ;) !
+
 
 See the Current Install Video:
 
@@ -40,7 +42,7 @@ See the Current Install Video:
 first remove the <code> node_module </code>  folder, then install npm packages <code> $npm install</code>  then after, <code> $ sudo sails lift </code> , do you will see, it give a error back, becuase do you haven't install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run <code> npm install sails-mongo --save  </code> then it will intsall all MongoDB Packages : then run again <code> $ sudo sails lift </code>  .
 
 
-
+Clone The Master Branch to your Desktop: <a href="https://github.com/SpaceG/gitlist.io/"> Clone Gitlist Master  </a>
 
 Read the Full Documentation here on my Github : <a href="https://github.com/SpaceG/gitlist.io/blob/master/README.md"> Gitlist Documentation </a>
 
