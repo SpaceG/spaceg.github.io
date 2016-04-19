@@ -15,7 +15,7 @@ organiser: "Lucas Gatsas"
 
 
 Now, finally in few hours i will launch a New Prototype of the Gitlist Version 1.0.2!
-We current working on new Features. New Features in Mind which i want to realize soon. 
+We current working on new Features. A few details that I want to realize. 
 
 Some Last Confugurations and Code Detail Issues. Can't wait to Include soon some Sentiment to the App. ;) !
 
