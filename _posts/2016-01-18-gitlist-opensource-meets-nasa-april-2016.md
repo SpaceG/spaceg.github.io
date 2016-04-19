@@ -25,7 +25,7 @@ On 28. April 2016 i will have a meeting with jason from the Nasa. We talking abo
     <img src="{{ site.baseurl }}/img/gitlist-new.png" style="width:100%" alt="Lucas Gatsas">
 </a>
 
-New List with Javascript Arrays. :) ! 
+New List with Arrays. :) ! 
 
 
 <a href="">
@@ -71,7 +71,7 @@ New UI/UX Up. Time: 34 Hours Work on The New Version 1.0.2 - It's faster, cleane
 More Features will next Step. We will write some Api. More to follow soon. 
 
 
-I have New small Team Up. I will list all Members. Specially one Person which i like it much to include it to the Team. Never seen such a good a Developer like her. :) ! 
+ New small Team Up. I will list all Members. Specially one Person which i like it much to include it to the Team. Never seen such a good a Developer like her! 
 
 
 <a href="http://www.github.com/spaceG/gitlist.io"> Gitlist On Github </a>
