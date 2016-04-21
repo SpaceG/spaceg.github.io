@@ -24,7 +24,9 @@ See the Current Install Video:
 
 <iframe width="100%" height="425" src="https://www.youtube.com/embed/mOZGPi0grTw" frameborder="0" allowfullscreen></iframe>
 
+Current Work Flow  : gitlist V.1.0.2 - Testing App - Notify me of follow-up comments & posts by email.
 
+<iframe width="100%" height="425"  src="https://www.youtube.com/embed/ibCQfTGpriw" frameborder="0" allowfullscreen></iframe>
 
 
 <a href="http://www.github.com/spaceG/gitlist.io">Gitlist OS Source </a>
