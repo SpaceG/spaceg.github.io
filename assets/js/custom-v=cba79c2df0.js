@@ -8,8 +8,7 @@
 
 	$(document).ready(function(){
 
-		// Responsive video embeds
-		$('.post-content').fitVids();
+	
 
 		// Scroll to content
 		$('.cover .scroll-down').on('click', function(e) {
