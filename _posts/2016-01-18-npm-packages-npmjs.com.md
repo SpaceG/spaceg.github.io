@@ -103,11 +103,13 @@ going back to your Terminal
 prompt the Terminal 
 
 <code> $ npm adduser</code>
+
+<pre>
 Password: 
 Email: (this IS public) npm.demo.user@gmail.com
 
 ....
-
+</pre>
 
 wait a Moment 
 
