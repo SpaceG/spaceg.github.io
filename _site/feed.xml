@@ -6,9 +6,233 @@
 </description>
     <link>http://blog.lucasgatsas.ch/</link>
     <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 May 2016 04:21:07 +0200</pubDate>
-    <lastBuildDate>Sat, 07 May 2016 04:21:07 +0200</lastBuildDate>
+    <pubDate>Tue, 10 May 2016 03:43:46 +0200</pubDate>
+    <lastBuildDate>Tue, 10 May 2016 03:43:46 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>$sudo gitlist</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;$sudo gitlist&lt;/h2&gt;
+
+&lt;p&gt;Here is my New Commandline to lift the App Gitlist. You Can easy clone the Repository and and lfit the App with Commandline &lt;code&gt;$ sudo gitlist&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have Fun!&lt;/p&gt;
+
+&lt;p&gt;Fork, Star it.&lt;/p&gt;
+
+&lt;p&gt;See the Current Install Video:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/mOZGPi0grTw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Current Work Flow  : gitlist V.1.0.2 - Testing App - Notify me of follow-up comments &amp;amp; posts by email.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/ibCQfTGpriw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt;Gitlist OS Source &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ sudo gitlist lift &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Clone The Master Branch to your Desktop: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/&quot;&gt; Clone Gitlist Master  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Read the Full Documentation here on my Github : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/README.md&quot;&gt; Gitlist Documentation &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you find a Bug or Update the Source give a Note about a Issue :
+ &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/issues &quot;&gt; Gitlist OpenSource Issues &lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 +0200</pubDate>
+        <link>http://blog.lucasgatsas.ch/event/sudo-gitlist-commandline.html</link>
+        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/sudo-gitlist-commandline.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Create Commandline Node.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Create Commandline in node.js for your Sails.js&lt;/h2&gt;
+
+&lt;p&gt;First: Make sure your App is running on Localhost &lt;code&gt;port:80&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Seconds: Clone Tilda : &lt;a href=&quot;https://www.npmjs.com/package/tilda&quot;&gt;Tilda&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thrid: Create a&lt;code&gt;cli.js&lt;/code&gt; file and inpust the following Code below&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+// Make sure that no matter where we call the command from,
+// we lift the app that lives in the same directory as this script
+process.chdir(__dirname);
+// Get an instance of Sails
+var sails = require(&#39;sails&#39;);
+// Lift the Sails app in the current working directory
+       console.log(&quot;Start The GITLIST App&quot;);
+        console.log(&quot;To see your app. visit:&quot;);
+        console.log(clc.xterm(39).bgBlack.underline(&#39;http://127..0.0.1&#39;));
+        console.log(&quot;To Clone the Repository and Open Source:&quot;);
+        console.log(clc.xterm(39).bgBlack.underline(&#39;see: http://www.github.com/spaceg/github.io&#39;));
+        console.log(&quot;Bash The Universe by Lucas Gatsas.&quot;);
+        console.log(&quot;©.2016 by Gitlist OS&quot;);
+
+        console.log(&quot;press c to stop the app&quot;);
+
+
+sails.lift({log:{noShip: true}});
+
+/*  sails.lift(rc(&#39;sails&#39;));*/
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is a Robost Code for the Commandline and lift your with your own commandline: 
+here are the links:&lt;/p&gt;
+
+&lt;p&gt;package.json: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/package.json&quot;&gt;package.json&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;cli.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/cli.js&quot;&gt;cli.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;app.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/app.js&quot;&gt;app.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.gitgnore &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/.gitignore&quot;&gt;.gitignore&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.local.js &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/config/local.js&quot;&gt;.local.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;create a &lt;code&gt; .gitgnore &lt;/code&gt; file for your Branch. Set it to the Root of your Directory. 
+but the Following code Below in that file. Save it.&lt;/p&gt;
+&lt;pre&gt;
+*.swp
+*.swo
+*~
+*.log
+node_modules
+
+
+
+
+config/local.js
+&lt;/pre&gt;
+
+&lt;p&gt;After Include in your &lt;code&gt;package.json&lt;/code&gt; the following code from the Tilda for the &lt;code&gt;bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+ &quot;bin&quot;: {
+    &quot;gitlist&quot;: &quot;./cli.js&quot;
+  },
+&lt;/pre&gt;
+
+&lt;p&gt;The full package.json file:&lt;/p&gt;
+
+&lt;pre&gt;
+
+{
+  &quot;name&quot;: &quot;gitlist&quot;,
+  &quot;version&quot;: &quot;1.0.5&quot;,
+  &quot;description&quot;: &quot;Gitlist OS&quot;,
+  &quot;keywords&quot;: [],
+  &quot;bin&quot;: {
+    &quot;gitlist&quot;: &quot;./cli.js&quot;
+  },
+  &quot;dependencies&quot;: {
+    &quot;bcrypt&quot;: &quot;~0.8.0&quot;,
+    &quot;commander&quot;: &quot;^2.9.0&quot;,
+    &quot;ejs&quot;: &quot;~0.8.4&quot;,
+    &quot;grunt&quot;: &quot;0.4.2&quot;,
+    &quot;grunt-contrib-clean&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-coffee&quot;: &quot;~0.10.1&quot;,
+    &quot;grunt-contrib-concat&quot;: &quot;~0.3.0&quot;,
+    &quot;grunt-contrib-copy&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-cssmin&quot;: &quot;~0.9.0&quot;,
+    &quot;grunt-contrib-jst&quot;: &quot;~0.6.0&quot;,
+    &quot;grunt-contrib-less&quot;: &quot;0.11.1&quot;,
+    &quot;grunt-contrib-uglify&quot;: &quot;~0.4.0&quot;,
+    &quot;grunt-contrib-watch&quot;: &quot;~0.5.3&quot;,
+    &quot;grunt-sails-linker&quot;: &quot;~0.9.5&quot;,
+    &quot;grunt-sync&quot;: &quot;~0.0.4&quot;,
+    &quot;include-all&quot;: &quot;~0.1.3&quot;,
+    &quot;nodemailer&quot;: &quot;~1.4.0&quot;,
+    &quot;passport&quot;: &quot;~0.2.1&quot;,
+    &quot;passport-github&quot;: &quot;^0.1.5&quot;,
+    &quot;passport-local&quot;: &quot;~1.0.0&quot;,
+    &quot;passport-twitter&quot;: &quot;~1.0.2&quot;,
+    &quot;password-generator&quot;: &quot;^0.2.3&quot;,
+    &quot;progress&quot;: &quot;^1.1.8&quot;,
+    &quot;rc&quot;: &quot;~0.5.0&quot;,
+    &quot;sails&quot;: &quot;~0.11.0-rc10&quot;,
+    &quot;sails-disk&quot;: &quot;~0.10.0&quot;,
+    &quot;sails-hook-autoreload&quot;: &quot;^0.11.4&quot;,
+    &quot;sails-mongo&quot;: &quot;^0.12.0&quot;,
+    &quot;shortid&quot;: &quot;~2.1.3&quot;,
+    &quot;tilda&quot;: &quot;^4.2.1&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node app.js&quot;,
+    &quot;debug&quot;: &quot;node debug app.js&quot;
+  },
+  &quot;main&quot;: &quot;app.js&quot;,
+  &quot;repository&quot;: {
+    &quot;type&quot;: &quot;git&quot;,
+    &quot;url&quot;: &quot;git://github.com/SpaceG/gitlist.io.git&quot;
+  },
+  &quot;author&quot;: &quot;lucasgatsas&quot;,
+  &quot;license&quot;: &quot;BSD-2-Clause&quot;,
+  &quot;bugs&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SpaceG/gitlist.io/issues&quot;
+  },
+  &quot;homepage&quot;: &quot;https://github.com/SpaceG/gitlist.io#readme&quot;
+}
+
+
+&lt;/pre&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+#!/usr/bin/env node
+// Make sure that no matter where we call the command from,
+// we lift the app that lives in the same directory as this script
+process.chdir(__dirname);
+
+        console.log(&quot;HELLOOOOOOOOO&quot;);
+        console.log(&quot;©.2016 by Gitlist OS&quot;);
+
+        console.log(&quot;press c to stop the app&quot;);
+
+// Get an instance of Sails
+var sails = require(&#39;sails&#39;);
+// Lift the Sails app in the current working directory
+sails.lift({log:{noShip: true}});
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Thats it.&lt;/p&gt;
+
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/package.json&quot;&gt; package.json&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;package.json: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/package.json&quot;&gt;package.json&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;cli.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/cli.js&quot;&gt;cli.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;app.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/app.js&quot;&gt;app.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.gitgnore &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/.gitignore&quot;&gt;.gitignore&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.local.js &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/config/local.js&quot;&gt;.local.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools:&lt;/p&gt;
+
+&lt;p&gt;Seconds: Clone Tilda : &lt;a href=&quot;https://www.npmjs.com/package/tilda&quot;&gt;Tilda&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;Create Commandline in node.js for sails.js&quot;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 +0200</pubDate>
+        <link>http://blog.lucasgatsas.ch/event/create-commandline-for-your-app-sails.js.html</link>
+        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/create-commandline-for-your-app-sails.js.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>$npm install gitlist</title>
@@ -17,10 +241,143 @@
 &lt;p&gt;We have created a package for our OS @npmjs.com
 Getting Started with Gitlist OS &lt;a href=&quot;https://www.npmjs.com/package/gitlist/tutorial&quot;&gt; $npm install gitlist &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Now, finally in few hours i will launch a New Prototype of the Gitlist Version 1.0.2!
-We current working on new Features. A few details that I want to realize.&lt;/p&gt;
+&lt;p&gt;download the package via npm&lt;/p&gt;
 
-&lt;p&gt;Some Last Confugurations and Code Detail Issues. Can’t wait to Include soon some Sentiment to the App. ;) !&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; $ npm install gitlist &lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt; To Create a Package &lt;/h2&gt;
+
+&lt;p&gt;Go to your Folder which the App is Created:&lt;/p&gt;
+
+&lt;p&gt;Open it with the Terminal &lt;code&gt; ls &lt;/code&gt;
+your App. Create your package.json file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $npm run build &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Going back to your Folder &lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ vi package.json&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Include your Node Tree like Name of the package, the Version etc.&lt;/p&gt;
+
+&lt;pre&gt;
+{
+  &quot;name&quot;: &quot;gitlist&quot;,
+  &quot;version&quot;: &quot;1.0.7&quot;,
+  &quot;description&quot;: &quot;Gitlist OS&quot;,
+  &quot;keywords&quot;: [],
+  &quot;dependencies&quot;: {
+    &quot;bcrypt&quot;: &quot;~0.8.0&quot;,
+    &quot;ejs&quot;: &quot;~0.8.4&quot;,
+    &quot;grunt&quot;: &quot;0.4.2&quot;,
+    &quot;grunt-contrib-clean&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-coffee&quot;: &quot;~0.10.1&quot;,
+    &quot;grunt-contrib-concat&quot;: &quot;~0.3.0&quot;,
+    &quot;grunt-contrib-copy&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-cssmin&quot;: &quot;~0.9.0&quot;,
+    &quot;grunt-contrib-jst&quot;: &quot;~0.6.0&quot;,
+    &quot;grunt-contrib-less&quot;: &quot;0.11.1&quot;,
+    &quot;grunt-contrib-uglify&quot;: &quot;~0.4.0&quot;,
+    &quot;grunt-contrib-watch&quot;: &quot;~0.5.3&quot;,
+    &quot;grunt-sails-linker&quot;: &quot;~0.9.5&quot;,
+    &quot;grunt-sync&quot;: &quot;~0.0.4&quot;,
+    &quot;include-all&quot;: &quot;~0.1.3&quot;,
+    &quot;nodemailer&quot;: &quot;~1.4.0&quot;,
+    &quot;passport&quot;: &quot;~0.2.1&quot;,
+    &quot;passport-github&quot;: &quot;^0.1.5&quot;,
+    &quot;passport-local&quot;: &quot;~1.0.0&quot;,
+    &quot;passport-twitter&quot;: &quot;~1.0.2&quot;,
+    &quot;password-generator&quot;: &quot;^0.2.3&quot;,
+    &quot;rc&quot;: &quot;~0.5.0&quot;,
+    &quot;sails&quot;: &quot;~0.11.0-rc10&quot;,
+    &quot;sails-disk&quot;: &quot;~0.10.0&quot;,
+    &quot;sails-hook-autoreload&quot;: &quot;^0.11.4&quot;,
+    &quot;sails-mongo&quot;: &quot;^0.12.0&quot;,
+    &quot;shortid&quot;: &quot;~2.1.3&quot;,
+    &quot;tilda&quot;: &quot;^4.2.1&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node app.js&quot;,
+    &quot;debug&quot;: &quot;node debug app.js&quot;
+  },
+  &quot;main&quot;: &quot;app.js&quot;,
+  &quot;repository&quot;: {
+    &quot;type&quot;: &quot;git&quot;,
+    &quot;url&quot;: &quot;git://github.com/SpaceG/gitlist.io.git&quot;
+  },
+  &quot;author&quot;: &quot;lucasgatsas&quot;,
+  &quot;license&quot;: &quot;BSD-2-Clause&quot;,
+  &quot;bugs&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SpaceG/gitlist.io/issues&quot;
+  },
+  &quot;homepage&quot;: &quot;https://github.com/SpaceG/gitlist.io#readme&quot;
+}
+
+&lt;/pre&gt;
+
+&lt;p&gt;after you want to publish your package: 
+going back to your Terminal&lt;/p&gt;
+
+&lt;p&gt;prompt the Terminal&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm adduser&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+Password: 
+Email: (this IS public) npm.demo.user@gmail.com
+
+....
+&lt;/pre&gt;
+
+&lt;p&gt;wait a Moment&lt;/p&gt;
+
+&lt;p&gt;prompt after this Commandline&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; npm config ls &lt;/code&gt;
+do you will see your informationa which one do you have submited to your &lt;code&gt;$ npm adduser &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;going to the Webiste of Npmjs.com like :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/~spaceg&quot;&gt; https://www.npmjs.com/~spaceg &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now, your are fix to publishing your package!
+with the Commandline&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm publish&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;do you will see the Version Number of the App which do you have included to the package.json file !&lt;/p&gt;
+
+&lt;pre&gt;
+cyberspace$ npm publish
++ gitlist@1.0.6
+&lt;/pre&gt;
+
+&lt;p&gt;Now, do you can chec your npm package to see if it published and to see its possible to download…&lt;/p&gt;
+
+&lt;p&gt;press to see your package &amp;amp; to download. 
+&lt;code&gt;$ npm install yourpackage name &lt;/code&gt;
+mine also:
+&lt;code&gt; $npm install gitlist &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;you can test it with the commandline to see the Message  from the Console like : &lt;code&gt;node test.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;i have created a&lt;code&gt; index.js&lt;/code&gt; file in the root of the Folder of the App.&lt;/p&gt;
+
+&lt;p&gt;and put in this export Message :&lt;/p&gt;
+
+&lt;pre&gt;
+exports.printMsg = function() {
+
+	console.log(&quot;Thanks using npm install gitlist&quot;);
+}
+&lt;/pre&gt;
+
+&lt;p&gt;dyou can see the Version patch with the Commandline&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm version patch &lt;/code&gt;
+it give the Output of the Version Informations.&lt;/p&gt;
+
+&lt;p&gt;Thats it! Have fun with the Modern npm packages !&lt;/p&gt;
 
 &lt;p&gt;See the Current Install Video:&lt;/p&gt;
 
@@ -57,54 +414,6 @@ We current working on new Features. A few details that I want to realize.&lt;/p&
         <pubDate>Sat, 07 May 2016 00:00:00 +0200</pubDate>
         <link>http://blog.lucasgatsas.ch/event/npm-packages-npmjs.com.html</link>
         <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/npm-packages-npmjs.com.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>lift Off Gitlist V.1.0.2</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; View Hours to Go - to Lift Off Version 1.0.2&lt;/h2&gt;
-
-&lt;p&gt;Now, finally in few hours i will launch a New Prototype of the Gitlist Version 1.0.2!
-We current working on new Features. A few details that I want to realize.&lt;/p&gt;
-
-&lt;p&gt;Some Last Confugurations and Code Detail Issues. Can’t wait to Include soon some Sentiment to the App. ;) !&lt;/p&gt;
-
-&lt;p&gt;See the Current Install Video:&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/mOZGPi0grTw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Current Work Flow  : gitlist V.1.0.2 - Testing App - Notify me of follow-up comments &amp;amp; posts by email.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/ibCQfTGpriw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt;Gitlist OS Source &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ sudo sails lift &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
-
-&lt;p&gt;Clone The Master Branch to your Desktop: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/&quot;&gt; Clone Gitlist Master  &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Read the Full Documentation here on my Github : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/README.md&quot;&gt; Gitlist Documentation &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you find a Bug or Update the Source give a Note about a Issue :
- &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/issues &quot;&gt; Gitlist OpenSource Issues &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Big dedicated to my Friends Stellardrone:&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/YPRTIonMVQY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-</description>
-        <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/1-day-to-lift-off-gitlist.v.1.0.1.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/1-day-to-lift-off-gitlist.v.1.0.1.html</guid>
         
         
       </item>

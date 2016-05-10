@@ -169,10 +169,143 @@
 <p>We have created a package for our OS @npmjs.com
 Getting Started with Gitlist OS <a href="https://www.npmjs.com/package/gitlist/tutorial"> $npm install gitlist </a></p>
 
-<p>Now, finally in few hours i will launch a New Prototype of the Gitlist Version 1.0.2!
-We current working on new Features. A few details that I want to realize.</p>
+<p>download the package via npm</p>
 
-<p>Some Last Confugurations and Code Detail Issues. Can’t wait to Include soon some Sentiment to the App. ;) !</p>
+<p><code> $ npm install gitlist </code></p>
+
+<h2> To Create a Package </h2>
+
+<p>Go to your Folder which the App is Created:</p>
+
+<p>Open it with the Terminal <code> ls </code>
+your App. Create your package.json file.</p>
+
+<p><code> $npm run build </code></p>
+
+<p>Going back to your Folder <code>cd</code></p>
+
+<p><code>$ vi package.json</code></p>
+
+<p>Include your Node Tree like Name of the package, the Version etc.</p>
+
+<pre>
+{
+  "name": "gitlist",
+  "version": "1.0.7",
+  "description": "Gitlist OS",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "~0.8.0",
+    "ejs": "~0.8.4",
+    "grunt": "0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-jst": "~0.6.0",
+    "grunt-contrib-less": "0.11.1",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-sails-linker": "~0.9.5",
+    "grunt-sync": "~0.0.4",
+    "include-all": "~0.1.3",
+    "nodemailer": "~1.4.0",
+    "passport": "~0.2.1",
+    "passport-github": "^0.1.5",
+    "passport-local": "~1.0.0",
+    "passport-twitter": "~1.0.2",
+    "password-generator": "^0.2.3",
+    "rc": "~0.5.0",
+    "sails": "~0.11.0-rc10",
+    "sails-disk": "~0.10.0",
+    "sails-hook-autoreload": "^0.11.4",
+    "sails-mongo": "^0.12.0",
+    "shortid": "~2.1.3",
+    "tilda": "^4.2.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SpaceG/gitlist.io.git"
+  },
+  "author": "lucasgatsas",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SpaceG/gitlist.io/issues"
+  },
+  "homepage": "https://github.com/SpaceG/gitlist.io#readme"
+}
+
+</pre>
+
+<p>after you want to publish your package: 
+going back to your Terminal</p>
+
+<p>prompt the Terminal</p>
+
+<p><code> $ npm adduser</code></p>
+
+<pre>
+Password: 
+Email: (this IS public) npm.demo.user@gmail.com
+
+....
+</pre>
+
+<p>wait a Moment</p>
+
+<p>prompt after this Commandline</p>
+
+<p><code> npm config ls </code>
+do you will see your informationa which one do you have submited to your <code>$ npm adduser </code></p>
+
+<p>going to the Webiste of Npmjs.com like :</p>
+
+<p><a href="https://www.npmjs.com/~spaceg"> https://www.npmjs.com/~spaceg </a></p>
+
+<p>Right now, your are fix to publishing your package!
+with the Commandline</p>
+
+<p><code> $ npm publish</code></p>
+
+<p>do you will see the Version Number of the App which do you have included to the package.json file !</p>
+
+<pre>
+cyberspace$ npm publish
++ gitlist@1.0.6
+</pre>
+
+<p>Now, do you can chec your npm package to see if it published and to see its possible to download…</p>
+
+<p>press to see your package &amp; to download. 
+<code>$ npm install yourpackage name </code>
+mine also:
+<code> $npm install gitlist </code></p>
+
+<p>you can test it with the commandline to see the Message  from the Console like : <code>node test.js</code></p>
+
+<p>i have created a<code> index.js</code> file in the root of the Folder of the App.</p>
+
+<p>and put in this export Message :</p>
+
+<pre>
+exports.printMsg = function() {
+
+	console.log("Thanks using npm install gitlist");
+}
+</pre>
+
+<p>dyou can see the Version patch with the Commandline</p>
+
+<p><code> $ npm version patch </code>
+it give the Output of the Version Informations.</p>
+
+<p>Thats it! Have fun with the Modern npm packages !</p>
 
 <p>See the Current Install Video:</p>
 
@@ -302,9 +435,13 @@ We current working on new Features. A few details that I want to realize.</p>
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/event/1-day-to-lift-off-gitlist.v.1.0.1.html" data-toggle="tooltip" data-placement="top" title="lift Off Gitlist V.1.0.2">&larr; Previous Post</a>
+                        <a href="/event/gitlist-opensource-meets-nasa-april-2016.html" data-toggle="tooltip" data-placement="top" title="Gitlist Nasa Collaboration">&larr; Previous Post</a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/event/create-commandline-for-your-app-sails.js.html" data-toggle="tooltip" data-placement="top" title="Create Commandline Node.js">Next Post &rarr;</a>
+                    </li>
                     
                 </ul>
 
