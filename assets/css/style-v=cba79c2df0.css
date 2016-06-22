@@ -2475,3 +2475,9 @@ a.page-link {
     text-transform: uppercase;
     font-size: 15px;
 }
+a#lucas-gatsas-logo-1 {
+    font-size: 35px;
+    font-family: Times;
+    font-weight:normal;
+        text-transform: none;
+}
