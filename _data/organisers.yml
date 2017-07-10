@@ -4,10 +4,10 @@ Lucas Gatsas:
     photo: "http://127.0.0.1:8000/assets/img/avatar@2x.png"
     country: Switzerland 
     web: spaceg.github.io
-    descsidebartitle: This is my Developer Blog New.
-    descsidebartext: you can modify this sidebar in the organisers.yml file.
-    sidebarnewsletter: you can modify this sidebar in the organisers.yml file.
-    descsidebartext2: Hello, Here some Text Already, you can modify this sidebar in the organisers.yml file! 
-    sidebaremail: "your@mail.com"
-    sidebarcountry: Switzerland
+    descsidebartitle: Hello, My Name is Lucas Gatsas.
+    descsidebartext: I will write here about Technology and Web & Mobile Development.
+    sidebarnewsletter: Please, feel free to  Stay Up to Date with the Source and Blog.
+    descsidebartext2: If you have any Question about everything, please feel free to contact me. 
+    sidebaremail: "lucasgatsas@gmail.com"
+    sidebarcountry: St. Gallen, CH - Switzerland
 
