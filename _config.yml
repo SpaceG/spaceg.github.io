@@ -14,10 +14,10 @@ description: > # "
   Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.lucasgatsas.ch" # the base hostname & protocol for your site
+url: "http://spaceg.github.io" # the base hostname & protocol for your site
 
 #These settings might be able to go?
-author: Lucas Gatsas
+author: Lucas Gatsas @ spacedig.ch 
 twitter_username: lucasgatsas
 github_username:  spaceg
 company_name: lucasgatsas
