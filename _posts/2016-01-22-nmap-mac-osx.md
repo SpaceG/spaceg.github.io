@@ -147,5 +147,3 @@ Link:
 
 
 
-<blockquote>
-</blockquote>

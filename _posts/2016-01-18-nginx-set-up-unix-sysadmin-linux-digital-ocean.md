@@ -23,10 +23,5 @@ Now, I'm here and Studing some Steps how Set Up a nginx Server on [Digital Ocean
 <blockquote class="twitter-tweet tw-align-center" lang="de"><p>My eyes! They burn! <a href="http://t.co/Nbgavlphnn">http://t.co/Nbgavlphnn</a> <a href="http://t.co/HfIH0RGdjx">pic.twitter.com/HfIH0RGdjx</a></p>&mdash; Etel Sverdlov (@etelsverdlov) <a href="https://twitter.com/etelsverdlov/status/555172636817649664">14. Januar 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote> The Work from a Sysadmin! :)  </blockquote>
-
-<blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-</blockquote>
 
 

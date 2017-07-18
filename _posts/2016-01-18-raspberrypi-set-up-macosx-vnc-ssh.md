@@ -290,6 +290,4 @@ pi@raspberrypi ~ $
 
 Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a>
 
-<blockquote>
-"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall"
-</blockquote>
+

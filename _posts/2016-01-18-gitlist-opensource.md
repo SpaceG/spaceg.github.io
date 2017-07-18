@@ -46,6 +46,4 @@ If you find a Bug or Update the Source give a Note about a Issue :
 "> Gitlist OpenSource Issues </a> 
 
 
-<blockquote>
-"Gitlist is now OpenSource"
-</blockquote>
+

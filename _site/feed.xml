@@ -6,9 +6,42 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 15:40:25 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 15:40:25 +0200</lastBuildDate>
+    <pubDate>Tue, 18 Jul 2017 11:32:28 +0200</pubDate>
+    <lastBuildDate>Tue, 18 Jul 2017 11:32:28 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Javascript - Canvas</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Javascript Canvas - Math Code&lt;/h2&gt;
+
+&lt;p&gt;Today i gonna show you, how write javascript for canvas and Webgl. 
+I want to build a Animation in canvas (Javascript) and overlay it with a gradient Background colors. but, there is one thing about the &lt;code&gt; opacity&lt;/code&gt;. How set the Gradient Background beetween the Javascript Particles and the Canvas Background. And the SpaceBall (Spacesphere) should turn left or right in a rotate x or y.&lt;/p&gt;
+
+&lt;p&gt;Then i have writed in the Javascript, that the code should give out a div conatiner for the HTML of the Front Page. now, it’s create a element “div” with a class “space-id”&lt;/p&gt;
+&lt;pre&gt;
+		container = document.createElement('div');
+				container.setAttribute('class', 'space-id');
+				document.body.appendChild(container);
+&lt;/pre&gt;
+
+&lt;p&gt;First i had created a animation with three.js the source code for the canvas. 
+came up with this one.&lt;/p&gt;
+
+&lt;p&gt;My Fiddle File: 
+&lt;script async=&quot;&quot; src=&quot;//jsfiddle.net/SpaceG/0w149z6o/embed/result/&quot;&gt;&lt;/script&gt;
+&lt;script async=&quot;&quot; src=&quot;//jsfiddle.net/SpaceG/0w149z6o/embed/js/&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;here is my fiddle.js to show you up, how it works. 
+&lt;script async=&quot;&quot; src=&quot;//jsfiddle.net/0w149z6o/3/embed/result/&quot;&gt;&lt;/script&gt;
+&lt;script async=&quot;&quot; src=&quot;//jsfiddle.net/0w149z6o/3/embed/js/&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/javascript-canvas.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/javascript-canvas.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Javascript Basis</title>
@@ -225,9 +258,6 @@ sails.lift({log:{noShip: true}});
 
 &lt;p&gt;Seconds: Clone Tilda : &lt;a href=&quot;https://www.npmjs.com/package/tilda&quot;&gt;Tilda&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;Create Commandline in node.js for sails.js&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 11 May 2016 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/create-commandline-for-your-app-sails.js.html</link>
@@ -486,9 +516,6 @@ More Features will next Step. We will write some Api. More to follow soon.&lt;/p
 &lt;p&gt;See the Issue Detail and The Gitlist OpenSource Master Branch  &lt;a href=&quot;https://github.com/SpaceG/gitlist.io&quot;&gt; Master Branch - Gitlist OS v.1.0.2&lt;/a&gt; 
 Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;Nasa - National Aeronautics and Space Administration&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</link>
@@ -523,9 +550,6 @@ Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/
 &lt;p&gt;If you find a Bug or Update the Source give a Note about a Issue :
  &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/issues &quot;&gt; Gitlist OpenSource Issues &lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;Gitlist is now OpenSource&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 13 Apr 2016 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/gitlist-opensource.html</link>
@@ -618,9 +642,6 @@ Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;bcrypt Packages &quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/peformance-interpretierte-kompilierte.html</link>
@@ -644,10 +665,6 @@ Our Partners will provide a big number of sophisticated challenges, which the ha
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;http://starthack.ch&quot;&gt; Starthack 2016&lt;/a&gt; 
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility. &quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/starthack-switzerland.html</link>
@@ -711,8 +728,6 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ np
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt;
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/npm-bcrypt.html</link>
@@ -1025,12 +1040,6 @@ References:&lt;/p&gt;
 &lt;a href=&quot;http://passportjs.org/&quot;&gt;→ Passport.js&lt;/a&gt; 
 &lt;a href=&quot;hhttps://github.com/balderdashy/waterline&quot;&gt;→ Waterline&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;When in doubt, use brute force.
-
-        — Ken Thompson
-
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Tue, 26 Jan 2016 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/Implement-Passport.js-authentication-with-Sails.js.html</link>
@@ -1148,8 +1157,6 @@ Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Sc
 &lt;p&gt;Link:
 &lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/nmap-mac-osx.html</link>
@@ -1250,9 +1257,6 @@ Type “rake –help” for all available options.
 
 Link: &lt;a href=&quot;https://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt;  Link:  &lt;a href=&quot;https://www.ruby-lang.org/de/&quot;&gt; ruby-lang.org&lt;/a&gt;
 
-&lt;blockquote&gt;
-“Grind and Polish your Gems!” 
-&lt;/blockquote&gt;
 
 &lt;/stromg&gt;
 </description>
@@ -1470,8 +1474,6 @@ Link: &lt;a href=&quot;http://superuser.com/questions/363353/http-localhost8080-
 Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; sails issues&lt;/a&gt;
 Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 06 Oct 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html</link>
@@ -1697,9 +1699,6 @@ Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 30 Sep 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/raspberrypi-set-up-macosx-vnc-ssh.html</link>
@@ -1763,9 +1762,6 @@ because the Page have only a frame in the index.html file and the rest based on 
 
  --&gt;
 
-&lt;blockquote&gt;Every large system that works started as small system that worked.
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 23 Jul 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/angular.js-framework.html</link>
@@ -1844,17 +1840,14 @@ Replace &lt;mongodb-install-directory&gt; with the path to the extracted MongoDB
 
 &lt;p&gt;Link: &lt;a href=&quot;https://www.mongodb.org&quot;&gt;Mongo DB&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-“Built by developers like you at MongoDB. &lt;strong&gt;Highly Scalable&lt;/strong&gt;
-Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
+&lt;p&gt;“Built by developers like you at MongoDB. &lt;strong&gt;Highly Scalable&lt;/strong&gt;
+Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.&lt;/p&gt;
 
- &lt;strong&gt;Flexible Data Model &lt;/strong&gt;
-MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
+&lt;p&gt;&lt;strong&gt;Flexible Data Model &lt;/strong&gt;
+MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.&lt;/p&gt;
 
-
- &lt;strong&gt;Fastest-Growing Community &lt;/strong&gt;
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fastest-Growing Community &lt;/strong&gt;
+Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.”&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 07 Jul 2015 00:00:00 +0200</pubDate>
@@ -1905,9 +1898,6 @@ Join the world’s fastest-growing database community. MongoDB stands behind its
         &lt;/tbody&gt;
       &lt;/table&gt;
 
-&lt;blockquote&gt;
-    &quot;Learn &amp;amp; Understand how Machine Works!&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 04 Jun 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/npm.js.html</link>
@@ -2066,9 +2056,7 @@ for any domain .htaccess takes effect on:
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/openssl/openssl&quot;&gt;OpenSSL&lt;/a&gt; Link: &lt;a href=&quot;http://www.openssl.org/source/&quot;&gt;OpenSSL Website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können”
-&lt;/blockquote&gt;
+
 </description>
         <pubDate>Mon, 18 May 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/openssl-nginx-server-linux.html</link>
@@ -2125,9 +2113,6 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
 
 &lt;p&gt;I don’t need anymore a Apple Supporter! :D&lt;/p&gt;
 
-&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 10 May 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html</link>
@@ -2160,11 +2145,8 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
     &lt;img src=&quot;/img/emacs-screeshot.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Update Post soon!&lt;/p&gt;
+&lt;p&gt;“Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.”&lt;/p&gt;
 
-&lt;blockquote&gt;
-	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 26 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/get-emacs-on-your-machine.html</link>
@@ -2182,12 +2164,6 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;My eyes! They burn! &lt;a href=&quot;http://t.co/Nbgavlphnn&quot;&gt;http://t.co/Nbgavlphnn&lt;/a&gt; &lt;a href=&quot;http://t.co/HfIH0RGdjx&quot;&gt;pic.twitter.com/HfIH0RGdjx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Etel Sverdlov (@etelsverdlov) &lt;a href=&quot;https://twitter.com/etelsverdlov/status/555172636817649664&quot;&gt;14. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote&gt; The Work from a Sysadmin! :)  &lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-&lt;/blockquote&gt;
 
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0100</pubDate>
@@ -2900,9 +2876,6 @@ Merge just &lt;strong&gt;one specific commit&lt;/strong&gt; from another branch 
 
 &lt;p&gt;&lt;small&gt;Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo&lt;/small&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/git-install.html</link>
@@ -2974,11 +2947,6 @@ To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. 
 
 &lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/&quot;&gt;Download node.js&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-
-
-&quot;Node.js is an open source, cross-platform runtime environment for server-side and networking applications.&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/node.js.html</link>
@@ -3140,11 +3108,6 @@ Link:
 Link:
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;Domian Name Systems&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-
-
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/dns-cname.html</link>
@@ -3208,9 +3171,6 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ np
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;bcrypt Packages &quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/bcrypt.html</link>
@@ -3291,9 +3251,6 @@ Update Post soon. !&lt;/p&gt;
     &lt;img src=&quot;/img/dia_01_ssh_tube_bylucas-gatsas.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 29 Jan 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/ssh-key-on-mac-osx.html</link>
@@ -3323,10 +3280,6 @@ Update Post soon. !&lt;/p&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; Github Issues 1361&lt;/a&gt; 
 Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&quot;Port Running on Linux Ubuntu Servers&quot;
-&lt;/blockquote&gt;
 
 </description>
         <pubDate>Sun, 18 Jan 2015 00:00:00 +0100</pubDate>
@@ -3390,12 +3343,6 @@ info: To shut down Sails, press &lt;CTRL&gt; + C at any time.&lt;/CTRL&gt;&lt;/p
     &lt;img src=&quot;/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 500px;&quot;&gt; 
 &lt;/a&gt; 
 --&gt;
-
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-
-- Steve Jobs
-
-&lt;/blockquote&gt;
 
 </description>
         <pubDate>Sun, 11 Jan 2015 00:00:00 +0100</pubDate>
@@ -3584,12 +3531,6 @@ Link:
 Link:
 &lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-This is a SwissWatch! 
-
-
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/dns-github.html</link>
@@ -3622,7 +3563,6 @@ This is a SwissWatch!
     &lt;img src=&quot;/img/laravel_logo1.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 500px;&quot;&gt;
 &lt;/a&gt;
 --&gt;
-&lt;blockquote&gt;Laravel over Xampp.&lt;/blockquote&gt;
 
 &lt;p&gt;###&lt;a href=&quot;https://www.apachefriends.org/de/download.html&quot;&gt; Download Xampp for Mac Os X. →&lt;/a&gt;&lt;/p&gt;
 
@@ -3721,8 +3661,6 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 &lt;/a&gt;
 
  --&gt;
-
-&lt;blockquote&gt;Laravel over Mamp&lt;/blockquote&gt;
 
 &lt;p&gt;###&lt;a href=&quot;http://www.mamp.info/de/&quot;&gt; Download Mamp for Mac Os X. →&lt;/a&gt;&lt;/p&gt;
 
@@ -3917,9 +3855,6 @@ youradminusername ALL=(ALL) ALL
 &lt;p&gt;(3.) Open with enable  « All Applications » with your Text Editor&lt;/p&gt;
 
 &lt;p&gt;(4.) After changes Save the File. Enter ! :)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 11 Jun 2013 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html</link>
@@ -4017,10 +3952,6 @@ To get a list of every running process on your computer, type this:&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
-
-&lt;blockquote&gt;
-    &quot;Learn &amp;amp; Understand how Machine Works!&quot;
-&lt;/blockquote&gt;
 
 </description>
         <pubDate>Thu, 13 Jan 2011 00:00:00 +0100</pubDate>
@@ -4293,9 +4224,6 @@ yacc&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo&lt;/small&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-	“sudo make me a sandwich! ”
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 14 Sep 2010 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/want-to-know-power-commandsline.html</link>

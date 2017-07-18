@@ -62,7 +62,3 @@ Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
 (3.) Open with enable  << All Applications >> with your Text Editor
 
 (4.) After changes Save the File. Enter ! :)
-
-
-<blockquote>
-</blockquote>

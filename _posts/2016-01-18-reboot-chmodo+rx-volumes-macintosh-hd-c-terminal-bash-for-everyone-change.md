@@ -77,6 +77,4 @@ Press <code> cmd + V</code> to boot into verbose mode, You See Your Desktop in a
 I don't need anymore a Apple Supporter! :D
 
 
-<blockquote>
 
-</blockquote>

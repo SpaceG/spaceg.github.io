@@ -217,6 +217,4 @@ Seconds: Clone Tilda : <a href="https://www.npmjs.com/package/tilda">Tilda</a>
 
 
 
-<blockquote>
-"Create Commandline in node.js for sails.js"
-</blockquote>
+

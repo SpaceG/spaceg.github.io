@@ -238,9 +238,3 @@ Link:
 
 
 
-<blockquote>
-This is a SwissWatch! 
-
-
-
-</blockquote>

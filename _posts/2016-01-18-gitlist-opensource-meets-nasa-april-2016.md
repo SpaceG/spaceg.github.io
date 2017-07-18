@@ -94,6 +94,4 @@ first remove the <code> node_module </code>  folder, then install npm packages <
 See the Issue Detail and The Gitlist OpenSource Master Branch  <a href="https://github.com/SpaceG/gitlist.io"> Master Branch - Gitlist OS v.1.0.2</a> 
 Link: <a href="http://www.gitlist.io"> Gitlist.io</a> 
 
-<blockquote>
-"Nasa - National Aeronautics and Space Administration"
-</blockquote>
+

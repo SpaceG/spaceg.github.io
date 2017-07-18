@@ -124,8 +124,3 @@ Diagramm of my SSH Sketches!
 
 
 
-
-
-<blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch
-</blockquote>

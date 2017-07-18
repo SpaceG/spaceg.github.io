@@ -37,7 +37,6 @@ Get Composer :
     <img src="{{ site.baseurl }}/img/laravel_logo1.png" alt="Post Sample Image" style="height: 500px;">
 </a>
 -->
-<blockquote>Laravel over Xampp.</blockquote>
 
 ###[ Download Xampp for Mac Os X. &rarr;](https://www.apachefriends.org/de/download.html)
 
@@ -170,7 +169,6 @@ Update
  -->
 
 
-<blockquote>Laravel over Mamp</blockquote>
 
 
 ###[ Download Mamp for Mac Os X. &rarr;](http://www.mamp.info/de/)

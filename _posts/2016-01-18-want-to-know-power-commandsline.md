@@ -287,6 +287,3 @@ yacc</code>
 <small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small>
 
 
-<blockquote>
-	“sudo make me a sandwich! ”
-</blockquote>
