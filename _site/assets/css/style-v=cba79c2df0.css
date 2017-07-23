@@ -917,7 +917,7 @@ pre .storage {
 
 .inner {
 	margin: 0 auto;
-	max-width: 740px;
+	max-width: 940px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
@@ -2628,5 +2628,15 @@ a.button.light1:hover {
     background: white;
     border-radius: 4px;
     padding-bottom: 40px;
-    margin-top:60px;
+    /*margin-top:60px;*/
+}
+
+
+@media only screen and (max-width: 999px) {
+.post-content.inner {
+    background: white;
+    border-radius: 0px;
+    padding-bottom: 40px;
+    /*margin-top:60px;*/
+}
 }
