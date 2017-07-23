@@ -416,7 +416,6 @@ body {
 
 a {
 	border-bottom: 0px solid #111;
-	color: #111;
 	text-decoration: none;
 	-webkit-transition: all .3s;
 	-moz-transition:	all .3s;
@@ -2540,7 +2539,7 @@ li.previous {
     list-style: none;
     padding-right: 40px;
         list-style: none;
-    border: 2px solid #ccc;
+    border: 2px solid #6a00ff;
     color: #666;
     display: inline-block;
     font: bold 12px/1.5 'Open Sans', sans-serif;
@@ -2551,7 +2550,7 @@ li.previous {
 }
 li.next {
         list-style: none;
-    border: 2px solid #ccc;
+    border: 2px solid #6a00ff;
     color: #666;
     display: inline-block;
     font: bold 12px/1.5 'Open Sans', sans-serif;
@@ -2565,7 +2564,7 @@ li.previous:hover {
     list-style: none;
     padding-right: 40px;
         list-style: none;
-    border: 2px solid #ccc;
+    border: 2px solid #fff;
     color: #fff;
     display: inline-block;
     font: bold 12px/1.5 'Open Sans', sans-serif;
@@ -2573,11 +2572,11 @@ li.previous:hover {
     padding: 8px 15px;
     text-transform: uppercase;
     border-radius: 90px;
-    background:black;
+    background:none;
 }
 li.next:hover {
         list-style: none;
-    border: 2px solid #ccc;
+    border: 2px solid #fff;
     color: #fff;
     display: inline-block;
     font: bold 12px/1.5 'Open Sans', sans-serif;
@@ -2585,7 +2584,7 @@ li.next:hover {
     padding: 8px 15px;
     text-transform: uppercase;
     border-radius: 90px;
-        background:black;
+        background:none;
 
 }
 a#pagehove:hover {
