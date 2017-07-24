@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jul 2017 01:02:17 +0200</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2017 01:02:17 +0200</lastBuildDate>
-    <generator>Jekyll v3.4.0</generator>
+    <pubDate>Tue, 25 Jul 2017 00:36:38 +0200</pubDate>
+    <lastBuildDate>Tue, 25 Jul 2017 00:36:38 +0200</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>socket.io - chat app</title>
