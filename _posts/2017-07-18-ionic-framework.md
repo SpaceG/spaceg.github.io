@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Ionic - Framework"
-cover: "img/Halle-E_G5__c_-Rupert-Steiner_web.jpg"
+cover: "img/headerIonic1.jpg"
 date:   2017-07-25
 
 #event organiser details
