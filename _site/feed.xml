@@ -6,9 +6,57 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Jul 2017 20:13:03 +0200</pubDate>
-    <lastBuildDate>Wed, 26 Jul 2017 20:13:03 +0200</lastBuildDate>
+    <pubDate>Wed, 26 Jul 2017 22:06:38 +0200</pubDate>
+    <lastBuildDate>Wed, 26 Jul 2017 22:06:38 +0200</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>shell.sh</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;create a shell script to launch your device on another computer. - stand July 2017 &lt;/h2&gt;
+
+&lt;p&gt;vnc shell script to open another screen on your current device&lt;/p&gt;
+
+&lt;p&gt;run in to your Terminal, Open a New Terminal Window. Then Type&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;./space.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;it will open a window to put the data in from your another computer. name and &lt;code&gt;password&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt; $ ./space.sh &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/SpaceG/space.sh/master/img/ezgif.com-video-to-gif_4.gif&quot; alt=&quot;Alt text&quot; title=&quot;space.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/shell.png&quot; alt=&quot;Alt text&quot; title=&quot;space.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+	
+#!/bin/sh
+echo &quot;What is your name?&quot;
+read USER_NAME
+echo &quot;Hello $USER_NAME&quot;
+echo &quot;I will open your device now ${USER_NAME}.txt and print out your file&quot;
+#write here your connections down with the ip of your computer which do you want to connect.
+open vnc://yourip.yourhost/
+touch  ${USER_NAME}.txt
+
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/SpaceG/space.sh/master/img/ezgif.com-video-to-gif_5.gif&quot; alt=&quot;Alt text&quot; title=&quot;space.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/SpaceG/space.sh/master/img/ezgif.com-video-to-gif_6.gif&quot; alt=&quot;Alt text&quot; title=&quot;space.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/SpaceG/space.sh/blob/master/README.md&quot;&gt;Fork, Star, Downlaod it.&lt;/a&gt; 
+Link: &lt;a href=&quot;https://github.com/SpaceG/space.sh/blob/master/README.md&quot;&gt;Download space.sh&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 26 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/shell.sh-terminal-commandlines.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/shell.sh-terminal-commandlines.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ionic - Framework</title>
