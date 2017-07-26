@@ -213,7 +213,7 @@ template {
 }
 
 html {
-	font-size: 112.5%;
+	font-size: 89.5%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	min-height: 100%;
@@ -483,18 +483,46 @@ ins {
 }
 
 code {
-	font-size: 16px;
-	padding: 1px 3px;
-	white-space: pre;
+	    font-size: 16px;
+    padding: 1px 3px;
+    white-space: pre;
+    background: blue;
+    color: white;
+    border-radius: 4px;
 }
 
 pre {
-	background-color: #111;
-	color: #ccc;
-	font-size: 16px;
-	margin: 0 0 30px;
-	padding: 15px;
-	white-space: pre;
+    background-color: #111;
+    color: #ccc;
+    font-size: 16px;
+    margin: 0 0 30px;
+    padding: 15px;
+    white-space: pre;
+    padding: 0.3em;
+    padding-left: 0.8em;
+    border-left: 0.5em solid #1800ff;
+    background: white;
+    /* background: #eee; */
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+    color: #1800ff;
+    font-weight: lighter;
+    font-size: 14px;
+    /* background: #eee; */
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    /* font-size: 1.5rem; */
+    line-height: 1.2;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
 }
 
 pre code {
@@ -848,9 +876,9 @@ pre .storage {
 
 .button:hover,
 .square:hover {
-	background-color: #000;
-	border-color: #000;
-	color: #fff;
+    background-color: #1800ff;
+    border-color: #1800ff;
+    color: #fff;
 }
 
 /* Animations */
@@ -1867,7 +1895,7 @@ pre .storage {
  */
 
 .site-footer {
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 .footer-top {
@@ -1887,7 +1915,7 @@ pre .storage {
 }
 
 .offsite-links a {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	color: #ccc;
 	float: left;
 	font-size: 14px;
@@ -1899,7 +1927,7 @@ pre .storage {
 }
 
 .offsite-links a:hover {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	color: #111;
 }
 
@@ -2639,4 +2667,51 @@ a.button.light1:hover {
     padding-bottom: 40px;
     /*margin-top:60px;*/
 }
+}
+
+
+/* Syntax Highlighter */
+pre .comment {
+	color: #666;
+}
+
+pre .variable.global,
+pre .variable.class,
+pre .variable.instance {
+	color: #ef6155;
+}
+
+pre .constant.numeric,
+pre .constant.language,
+pre .constant.hex-color,
+pre .keyword.unit {
+	color: #f99b15;
+}
+
+pre .constant,
+pre .entity,
+pre .entity.class,
+pre .support {
+	color: #ffea00;
+}
+
+pre .constant.symbol,
+pre .string {
+	color: #48b685;
+}
+
+pre .entity.function,
+pre .support.css-property,
+pre .selector {
+	color: #06b6ef;
+}
+
+pre .keyword,
+pre .storage {
+	color: #815ba4;
+}
+
+
+h2.section-heading {
+    color: blue;
 }

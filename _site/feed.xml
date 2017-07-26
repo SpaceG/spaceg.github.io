@@ -6,13 +6,60 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Jul 2017 01:46:49 +0200</pubDate>
-    <lastBuildDate>Tue, 25 Jul 2017 01:46:49 +0200</lastBuildDate>
+    <pubDate>Wed, 26 Jul 2017 20:07:42 +0200</pubDate>
+    <lastBuildDate>Wed, 26 Jul 2017 20:07:42 +0200</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Ionic - Framework</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Create a Mobile App using Ionic&lt;/h2&gt;
+
+&lt;p&gt;I love Ionic Framework. Love the Controllers and Install settings with the PackAges. This a very usefull Framework to build fast Mobile Apps. Its made to code with the commandline cli Tool from the xCode App from Apple. And included the Cordova Apache. You can read more about it on cordova.apache.org&lt;/p&gt;
+
+&lt;p&gt;First of all you have install Node.js to get start with &lt;strong&gt;&lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic Framework&lt;/a&gt; &lt;/strong&gt;. Download Node.js and the XCode app for the App Store.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt; $ sudo npm install -g cordova ionic &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;after installing the ionic type in your Terminal.&lt;/p&gt;
+
+&lt;pre&gt;
+ &lt;code&gt;$ ionic&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;if you want go directly with your app name type these steps right down here.&lt;/p&gt;
+
+&lt;p&gt;if you go with a blank page, type:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; $ ionic start myAppNamehere blank&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;if you go with some tabs, type:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; $ ioinc start myAppNamehere tabs&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;if you want a sidebar menu, then type and start with&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; $ ioinc start myAppNamehere sidemenu&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;then after that you can also  start your server right now.&lt;/p&gt;
+
+&lt;p&gt;start your app with :&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; $ cd myAppnamehere&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;then start your localhost server on port :8100 like &lt;strong&gt; http://localhost:8100 &lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; $ ionic serve&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;please go a head if you want read the full document and deploying guide:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/headerIonic1.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Download&lt;/a&gt; 
 Link: &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic Framework&lt;/a&gt;&lt;/p&gt;
@@ -29,55 +76,334 @@ Link: &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic Framework&lt;/a
         <title>socket.io - chat app</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Let's get Started with Socket.io&lt;/h2&gt;
 
-&lt;p&gt;&lt;code&gt; package.json&lt;/code&gt; 
-&lt;code&gt;$ package.json&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Get Started: Chat application
+In this guide we’ll create a basic chat application. It requires almost no basic prior knowledge of &lt;code&gt;Node.JS&lt;/code&gt; or &lt;code style=&quot;background:#e400ff&quot;&gt;Socket.IO&lt;/code&gt;, so it’s ideal for users of all knowledge levels.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/7J_biOzgpb/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Total Crash ladt night Outthere with npm install bcrypt!  bcrypt ! #terminal #commandline #linux #macosx ! Issue fixed and the App is back after 4 Hours! Coding Hardcore!&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-03T05:06:42+00:00&quot;&gt;2. Sep 2015 um 22:06 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;p&gt;Introduction
+Writing a chat application with popular web applications stacks like LAMP (PHP) has traditionally been very hard. It involves polling the server for changes, keeping track of timestamps, and it’s a lot slower than it should be.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Sockets have traditionally been the solution around which most realtime chat systems are architected, providing a bi-directional communication channel between a client and a server.&lt;/p&gt;
+
+&lt;p&gt;This means that the server can push messages to clients. Whenever you write a chat message, the idea is that the server will get it and push it to all other connected clients.&lt;/p&gt;
+
+&lt;p&gt;First let’s create a &lt;code&gt;package.json&lt;/code&gt; manifest file that describes our project. I recommend you place it in a dedicated empty directory (I’ll call mine chat-example).&lt;/p&gt;
 
 &lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
 
-Space-Odysseys-Mac-Pro:www cyberspace$ sails lift
+{
+  &quot;name&quot;: &quot;socket app name&quot;,
+  &quot;version&quot;: &quot;0.0.1&quot;,
+  &quot;description&quot;: &quot;your socket.io app&quot;,
+  &quot;dependencies&quot;: {}
+}
 
-info: Starting app...
+&lt;/pre&gt;&lt;/div&gt;
 
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:83
-throw e
-^
-Error: dlopen(/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node, 1): no suitable image found. Did find:
-/Users/cyberspace/Desktop/www/node_modules/bcrypt/build/Release/bcrypt_lib.node: unknown file type, first eight bytes: 0x7F 0x45 0x4C 0x46 0x02 0x01 0x01 0x03
-at Error (native)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at bindings (/Users/cyberspace/Desktop/www/node_modules/bcrypt/node_modules/bindings/bindings.js:76:44)
-at Object. (/Users/cyberspace/Desktop/www/node_modules/bcrypt/bcrypt.js:3:35)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-at Module.load (module.js:355:32)
-at Function.Module._load (module.js:310:12)
-at Module.require (module.js:365:17)
-at require (module.js:384:17)
-at Object. (/Users/cyberspace/Desktop/www/config/passport.js:5:10)
-at Module._compile (module.js:460:26)
-at Object.Module._extensions..js (module.js:478:10)
-Space-Odysseys-Mac-Pro:www cyberspace$
+&lt;p&gt;&lt;a href=&quot;/img/socket.io.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, in order to easily populate the dependencies with the things we need, we’ll use npm install –save:&lt;/p&gt;
 
-&lt;p&gt;I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install &lt;code&gt;$ npm -v &lt;/code&gt; !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt;&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+npm install --save express@4.15.2
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now that express is installed we can create an &lt;code&gt;index.js&lt;/code&gt; file that will setup our application.&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+var app = require('express')();
+var http = require('http').Server(app);
+
+app.get('/', function(req, res){
+  res.send(' &lt;code&gt;Hello world&lt;/code&gt;');
+});
+
+http.listen(3000, function(){
+  console.log('listening on http://localhost:3000 *:3000');
+});
+    
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This translates into the following:&lt;/p&gt;
+
+&lt;p&gt;#1. Express initializes app to be a function handler that you can supply to an HTTP server (as seen in line 2).&lt;/p&gt;
+
+&lt;p&gt;#2. We define a route handler / that gets called when we hit our website home.&lt;/p&gt;
+
+&lt;p&gt;#3. We make the http server listen on port 3000.&lt;/p&gt;
+
+&lt;p&gt;If you run &lt;code&gt;node index.js&lt;/code&gt; you should see the following: &lt;code style=&quot;background:#e400ff&quot;&gt; http://localhost:3000&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io-2.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io-2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And if you point your browser to &lt;code style=&quot;background:#e400ff&quot;&gt; http://localhost:3000: &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io_3.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io_3.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Serving HTML&lt;/h2&gt;
+
+&lt;p&gt;So far in index.js we’re calling res.send and pass it a HTML string. Our code would look very confusing if we just placed our entire application’s HTML there. Instead, we’re going to create a index.html file and serve it.&lt;/p&gt;
+
+&lt;p&gt;Let’s refactor our route handler to use sendFile instead:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+    app.get('/', function(req, res){
+    res.sendFile(__dirname + '/index.html');
+    });
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And populate index.html with the following:
+include Bootstrap for the Stylesheets and Javascript to get up with your Front.&lt;/p&gt;
+
+&lt;p&gt;#1. boostrap.min.css + bootstrap.min.js&lt;/p&gt;
+
+&lt;p&gt;#2. sockio.min.css&lt;/p&gt;
+
+&lt;p&gt;#3. socket.io.js&lt;/p&gt;
+
+&lt;p&gt;#4. jquery-1.11.1.js&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Sockio - Socket.IO chat&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;/static/css/sockio.min.css&amp;quot;&amp;gt;
+    &amp;lt;!-- Latest compiled and minified CSS --&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&amp;quot;&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-1.11.1.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+  $(function () {
+    var socket = io();
+    $(&amp;apos;form&amp;apos;).submit(function(){
+      socket.emit(&amp;apos;chat message&amp;apos;, $(&amp;apos;#sender&amp;apos;).val());
+      $(&amp;apos;#sender&amp;apos;).val(&amp;apos;&amp;apos;);
+      return false;
+    });
+    socket.on(&amp;apos;chat message&amp;apos;, function(msg){
+      $(&amp;apos;#messages&amp;apos;).append($(&amp;apos;&amp;lt;li&amp;gt;&amp;apos;).text(msg));
+    });
+  });
+&amp;lt;/script&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;col-lg-12&amp;quot;&amp;gt;
+                &amp;lt;h1&amp;gt;Sockio - Chat &amp;lt;/h1&amp;gt;
+              &amp;lt;ul id=&amp;quot;messages&amp;quot;&amp;gt;&amp;lt;/ul&amp;gt;
+                &amp;lt;div class=&amp;quot;form-group&amp;quot;&amp;gt;
+                    &amp;lt;form action=&amp;quot;&amp;quot;&amp;gt;
+                      &amp;lt;input id=&amp;quot;sender&amp;quot;  class=&amp;quot;form-control&amp;quot; id=&amp;quot;exampleInputEmail1&amp;quot; placeholder=&amp;quot;Type Here&amp;quot; autocomplete=&amp;quot;off&amp;quot; /&amp;gt;&amp;lt;br&amp;gt;
+                      &amp;lt;button  class=&amp;quot;btn-1&amp;quot;&amp;gt;Send&amp;lt;/button&amp;gt;
+                    &amp;lt;/form&amp;gt;
+               &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;!-- Latest compiled and minified JavaScript --&amp;gt;
+&amp;lt;script src=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&amp;quot; 
+integrity=&amp;quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&amp;quot; 
+crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+    &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you restart the process (by hitting Control+C and running node index again) and refresh the page it should look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io_4.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io_4.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Integrating Socket.IO&lt;/h2&gt;
+&lt;p&gt;Socket.IO is composed of two parts:&lt;/p&gt;
+
+&lt;p&gt;A server that integrates with (or mounts on) the Node.JS HTTP Server: socket.io
+A client library that loads on the browser side: socket.io-client
+During development, socket.io serves the client automatically for us, as we’ll see, so for now we only have to install one module:&lt;/p&gt;
+
+&lt;p&gt;npm install –save socket.io
+That will install the module and add the dependency to package.json. Now let’s edit index.js to add it:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
+
+io.on('connection', function(socket){
+  console.log('a user connected');
+});
+
+http.listen(3000, function(){
+  console.log('listening on *:3000');
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice that I initialize a new instance of socket.io by passing the http (the HTTP server) object. Then I listen on the connection event for incoming sockets, and I log it to the console.&lt;/p&gt;
+
+&lt;p&gt;Now in index.html I add the following snippet before the &amp;lt;/body&amp;gt;:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+&amp;lt;script src=&amp;quot;/socket.io/socket.io.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+  var socket = io();
+&amp;lt;/script&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That’s all it takes to load the socket.io-client, which exposes a io global, and then connect.&lt;/p&gt;
+
+&lt;p&gt;Notice that I’m not specifying any URL when I call io(), since it defaults to trying to connect to the host that serves the page.&lt;/p&gt;
+
+&lt;p&gt;If you now reload the server and the website you should see the console print “a user connected”.
+Try opening several tabs, and you’ll see several messages:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io-2.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io-2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Each socket also fires a special disconnect event:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+io.on('connection', function(socket){
+  console.log('a user connected');
+  socket.on('disconnect', function(){
+    console.log('user disconnected');
+  });
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then if you refresh a tab several times you can see it in action:&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Emitting events&lt;/h2&gt;
+&lt;p&gt;The main idea behind Socket.IO is that you can send and receive any events you want, with any data you want. Any objects that can be encoded as JSON will do, and binary data is supported too.&lt;/p&gt;
+
+&lt;p&gt;Let’s make it so that when the user types in a message, the server gets it as a chat message event. The scripts section in index.html should now look as follows:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+$(function () {
+    var socket = io();
+    $('form').submit(function(){
+      socket.emit('chat message', $('#sender').val());
+      $('#sender').val('');
+      return false;
+    });
+    socket.on('chat message', function(msg){
+      $('#messages').append($('
+').text(msg));
+    });
+  });
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And in index.js we print out the chat message event:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    console.log('message: ' + msg);
+  });
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The result should be like the following video:&lt;/p&gt;
+
+&lt;p&gt;video here soon.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Broadcasting&lt;/h2&gt;
+&lt;p&gt;The next goal is for us to emit the event from the server to the rest of the users.&lt;/p&gt;
+
+&lt;p&gt;In order to send an event to everyone, Socket.IO gives us the io.emit:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.emit('some event', { for: 'everyone' });
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to send a message to everyone except for a certain socket, we have the broadcast flag:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.on('connection', function(socket){
+  socket.broadcast.emit('hi');
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this case, for the sake of simplicity we’ll send the message to everyone, including the sender.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    io.emit('chat message', msg);
+  });
+});
+    
+
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And on the client side when we capture a chat message event we’ll include it in the page. The total client-side JavaScript code now amounts to:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+$(function () {
+    var socket = io();
+    $('form').submit(function(){
+      socket.emit('chat message', $('#sender').val());
+      $('#sender').val('');
+      return false;
+    });
+    socket.on('chat message', function(msg){
+      $('#messages').append($('
+').text(msg));
+    });
+  });
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And that completes our chat application, in about 20 lines of code! This is what it looks like:&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Here are some ideas to improve the application:&lt;/p&gt;
+
+&lt;p&gt;Broadcast a message to connected users when someone connects or disconnects
+Add support for nicknames
+Don’t send the same message to the user that sent it himself. Instead, append the message directly as soon as he presses enter.
+Add “{user} is typing” functionality
+Show who’s online
+Add private messaging
+Share your improvements!&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
-Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 18 Jul 2017 00:00:00 +0200</pubDate>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-post
 ---
 {% assign organiser = site.data.organisers[page.organiser] %}
 
@@ -19,7 +19,7 @@ layout: default
                 <div class="post-bg" style="background-image:url({{ site.baseurl }}/{{ page.cover }});"></div>
                 <div class="cover-content">
                     <div class="inner">
-                        <h1 class="post-title">{{ page.title }}</h1>
+                        <h1 class="post-title" style="color:white;">{{ page.title }}</h1>
                         <div class="post-meta">
                             by <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> on <time class="published" datetime="2015-10-05" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" >{{ page.date | date: "%b %-d, %Y" }}</time> <span class="reading-time"> <span class="eta"></span></span>
                         </div><!-- .post-meta -->
