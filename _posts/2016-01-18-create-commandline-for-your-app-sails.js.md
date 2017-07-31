@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Create Commandline Node.js"
-cover: "img/gitlist-new.png"
+cover: "img/lucas-gatsas-10.png"
 date:   2016-05-11
 
 #event organiser details
