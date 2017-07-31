@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "NMAP MAC OSX"
-cover: "img/hiking-2.jpg"
+cover: "img/nmap1.png"
 date:   2016-01-13
 start_time: "10:00"
 end_time: "17:00"
