@@ -938,9 +938,9 @@ pre .storage {
 
 .inner-wide {
 	margin: 0 auto;
-	max-width: 1600px;
-	padding-left: 30px;
-	padding-right: 30px;
+	/*max-width: 1600px;*/*
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .inner {
@@ -963,6 +963,7 @@ pre .storage {
 
 .site-header .inner-wide {
 	position: relative;
+	    max-width: 1400px;
 }
 
 .post-template .site-header,
@@ -1386,7 +1387,7 @@ pre .storage {
 	-moz-box-sizing:	border-box;
 	box-sizing:			border-box;
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	padding-left: 30px;
 }
 
@@ -1461,7 +1462,7 @@ pre .storage {
 
 .cover.hero {
 	height: 600px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	height: 200px;
 }
 
