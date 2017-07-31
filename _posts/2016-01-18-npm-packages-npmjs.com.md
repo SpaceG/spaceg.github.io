@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "$npm install gitlist"
-cover: "img/gl-1212-1.png"
+cover: "img/npm1-2.png"
 date:   2016-05-07
 
 #event organiser details
