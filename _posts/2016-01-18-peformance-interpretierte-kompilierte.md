@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Interpretierte und Kompilierte Sprachen"
-cover: "img/Forever-Shady-S.jpg"
+cover: "img/lucas-gatsas-01.png"
 date:   2016-03-23
 
 #event organiser details
