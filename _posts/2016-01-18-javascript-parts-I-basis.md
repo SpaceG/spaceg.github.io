@@ -13,8 +13,41 @@ organiser: "Lucas Gatsas"
 ---
 <h2 class="section-heading"> Javascript Basis </h2>
 
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="background:white;">
+
+var myVariable;
+
+</pre></div>
 
 
+You can do both these operations on the same line if you wish:
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="background:white;">
+
+var myVariable = 'Bob';
+
+</pre></div>
+You can retrieve the value by just calling the variable by name:
+
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="background:white;">
+
+myVariable;
+</pre></div>
+
+
+After giving a variable a value, you can later choose to change it:
+
+
+<div style="overflow:auto; height=200; width=100%;">
+<pre style="background:white;">
+
+var myVariable = 'Bob';
+myVariable = 'Steve';
+</pre></div>
 
 
 
@@ -61,11 +94,73 @@ Variables are containers that you can store values in. You start by declaring a 
  </tbody>
 </table>
 
+So why do we need variables? Well, variables are needed to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change the image displayed in an image gallery.
+
+
+
+
+
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="row">Operator</th>
+   <th scope="col">Explanation</th>
+   <th scope="col">Symbol(s)</th>
+   <th scope="col">Example</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <th scope="row">add/concatenation</th>
+   <td>Used to add two numbers together, or glue two strings together.</td>
+   <td><code>+</code></td>
+   <td><code>6 + 9;<br>
+    "Hello " + "world!";</code></td>
+  </tr>
+  <tr>
+   <th scope="row">subtract, multiply, divide</th>
+   <td>These do what you'd expect them to do in basic math.</td>
+   <td><code>-</code>, <code>*</code>, <code>/</code></td>
+   <td><code>9 - 3;<br>
+    8 * 2; // multiply in JS is an asterisk<br>
+    9 / 3;</code></td>
+  </tr>
+  <tr>
+   <th scope="row">assignment operator</th>
+   <td>You've seen this already: it assigns a value to a variable.</td>
+   <td><code>=</code></td>
+   <td><code>var myVariable = 'Bob';</code></td>
+  </tr>
+  <tr>
+   <th scope="row">Identity operator</th>
+   <td>Does a test to see if two values are equal to one another, and returns a <code>true</code>/<code>false</code> (Boolean) result.</td>
+   <td><code>===</code></td>
+   <td><code>var myVariable = 3;<br>
+    myVariable === 4;</code></td>
+  </tr>
+  <tr>
+   <th scope="row">Negation, not equal</th>
+   <td>Returns the logically opposite value of what it preceeds; it turns&nbsp; a <code>true</code> into a <code>false</code>, etc. When it is used alongside the Equality operator, the negation operator tests whether two values are <em>not</em> equal.</td>
+   <td><code>!</code>, <code>!==</code></td>
+   <td>
+    <p>The basic expression is <code>true</code>, but the comparison returns <code>false</code> because we've negated it:</p>
+
+    <p><code>var myVariable = 3;<br>
+     !(myVariable === 3);</code></p>
+
+    <p>Here we are testing "is <code>myVariable</code> NOT equal to 3". This returns<code> false</code> because <code>myVariable</code> IS equal to 3.</p>
+
+    <p><code><code>var myVariable = 3;</code><br>
+     myVariable !== 3;</code></p>
+   </td>
+  </tr>
+ </tbody>
+</table>
 
 
 <div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;">
-
+<pre style="background:white;">
 
 function printTheCity(city) {
 	var preffix = "i live in";
@@ -78,3 +173,4 @@ function printTheCity(city) {
 	
 	</pre>
 	</div>
+</pre></div>
