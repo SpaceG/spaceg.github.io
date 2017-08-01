@@ -97,8 +97,8 @@ Variables are containers that you can store values in. You start by declaring a 
 So why do we need variables? Well, variables are needed to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change the image displayed in an image gallery.
 
 
-
-
+<h2 class="section-heading"> Operators</h2>
+An operator is a mathematical symbol that produces a result based on two values (or variables). In the following table you can see some of the simplest operators, along with some examples to try out in the JavaScript console.
 
 
 <table class="standard-table">
