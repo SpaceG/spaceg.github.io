@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Javascript - Canvas"
-cover: "img/canvas.jpeg"
+cover: "img/sp-gif-1.gif"
 date:   2017-07-10
 
 #event organiser details
