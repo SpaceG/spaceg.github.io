@@ -15,6 +15,12 @@ organiser: "Lucas Gatsas"
 
 
 
+
+
+
+<h2 class="section-heading"> Variables </h2>
+Variables are containers that you can store values in. You start by declaring a variable with the var keyword, followed by any name you want to call it:
+
 <table class="standard-table">
  <thead>
   <tr>
