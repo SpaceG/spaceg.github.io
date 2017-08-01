@@ -1053,6 +1053,7 @@ pre .storage {
 	list-style: none;
 	margin-bottom: 0;
 	padding-left: 0;
+	    padding-top: 10px;
 }
 
 .site-navigation .menu-item {
@@ -1071,9 +1072,10 @@ pre .storage {
 .site-header .menu-item a {
     /* border: 1px solid #d1d1d1; */
     color: #fff;
-    padding: 7px 15px;
+    /* padding: 7px 15px; */
     border-radius: 90px;
     background: #6a00ff;
+    margin-right: 10px;
 }
 
 .site-header .menu-item a:hover {
@@ -2682,7 +2684,7 @@ a.page-link {
     font-family: Helvetica;
     text-transform: uppercase;
     font-size: 12px;
-    padding:3px;
+    padding: 10px;
 }div#countbox1{
 
 	  font-family: Helvetica;
