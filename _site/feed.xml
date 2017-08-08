@@ -6,9 +6,462 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Jul 2017 22:07:40 +0200</pubDate>
-    <lastBuildDate>Wed, 26 Jul 2017 22:07:40 +0200</lastBuildDate>
+    <pubDate>Tue, 08 Aug 2017 02:48:30 +0200</pubDate>
+    <lastBuildDate>Tue, 08 Aug 2017 02:48:30 +0200</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Webkits Scrollbar in Browsers</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Get Another | ::-webkit-scrollbar, 
+
+::-webkit-scrollbar-thumb, 
+
+::-webkit-scrollbar-track and 
+
+::selection  &lt;/h2&gt;
+
+&lt;p&gt;This Post is about the right Scrollbars in the Browsers, to change the width, like &lt;code&gt; width: 3px;&lt;/code&gt;. To get your own.
+You can also designing your own, change the background colors and so on. It’s look nicer and more eleganter. This is how you can change also the 
+scrollbar, Hope you like it. -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/sc.png&quot;&gt;
+    &lt;img src=&quot;/img/sc.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the CSS for the Scrollbar.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ::-webkit-scrollbar &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ::-webkit-scrollbar-thumb &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ::-webkit-scrollbar-track &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ::selection &lt;/code&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+
+
+ /**
+Scrollbar 
+ **/
+
+::-webkit-scrollbar {
+    width: 3px;
+    position: relative;
+    z-index: 1000;
+}
+::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+::-webkit-scrollbar-track {
+    border-width: 0;
+}
+::selection {
+    text-shadow: none;
+    background: #c0e6ff;
+}
+
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 07 Aug 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/webkit-scrollbar-webkit-scrollbar-thumb-webkit-scrollbar-track-selection.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/webkit-scrollbar-webkit-scrollbar-thumb-webkit-scrollbar-track-selection.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SVG - Version 1.1</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Let's get Started with Socket.io&lt;/h2&gt;
+
+&lt;p&gt;Get Started: Chat application
+In this guide we’ll create a basic chat application. It requires almost no basic prior knowledge of &lt;code&gt;Node.JS&lt;/code&gt; or &lt;code style=&quot;background:#e400ff&quot;&gt;Socket.IO&lt;/code&gt;, so it’s ideal for users of all knowledge levels.&lt;/p&gt;
+
+&lt;p&gt;Introduction
+Writing a chat application with popular web applications stacks like LAMP (PHP) has traditionally been very hard. It involves polling the server for changes, keeping track of timestamps, and it’s a lot slower than it should be.&lt;/p&gt;
+
+&lt;p&gt;Sockets have traditionally been the solution around which most realtime chat systems are architected, providing a bi-directional communication channel between a client and a server.&lt;/p&gt;
+
+&lt;p&gt;This means that the server can push messages to clients. Whenever you write a chat message, the idea is that the server will get it and push it to all other connected clients.&lt;/p&gt;
+
+&lt;p&gt;First let’s create a &lt;code&gt;package.json&lt;/code&gt; manifest file that describes our project. I recommend you place it in a dedicated empty directory (I’ll call mine chat-example).&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+{
+  &quot;name&quot;: &quot;socket app name&quot;,
+  &quot;version&quot;: &quot;0.0.1&quot;,
+  &quot;description&quot;: &quot;your socket.io app&quot;,
+  &quot;dependencies&quot;: {}
+}
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, in order to easily populate the dependencies with the things we need, we’ll use npm install –save:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+npm install --save express@4.15.2
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now that express is installed we can create an &lt;code&gt;index.js&lt;/code&gt; file that will setup our application.&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+var app = require('express')();
+var http = require('http').Server(app);
+
+app.get('/', function(req, res){
+  res.send(' &lt;code&gt;Hello world&lt;/code&gt;');
+});
+
+http.listen(3000, function(){
+  console.log('listening on http://localhost:3000 *:3000');
+});
+    
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This translates into the following:&lt;/p&gt;
+
+&lt;p&gt;#1. Express initializes app to be a function handler that you can supply to an HTTP server (as seen in line 2).&lt;/p&gt;
+
+&lt;p&gt;#2. We define a route handler / that gets called when we hit our website home.&lt;/p&gt;
+
+&lt;p&gt;#3. We make the http server listen on port 3000.&lt;/p&gt;
+
+&lt;p&gt;If you run &lt;code&gt;node index.js&lt;/code&gt; you should see the following: &lt;code style=&quot;background:#e400ff&quot;&gt; http://localhost:3000&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io-2.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io-2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And if you point your browser to &lt;code style=&quot;background:#e400ff&quot;&gt; http://localhost:3000: &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io_3.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io_3.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Serving HTML&lt;/h2&gt;
+
+&lt;p&gt;So far in index.js we’re calling res.send and pass it a HTML string. Our code would look very confusing if we just placed our entire application’s HTML there. Instead, we’re going to create a index.html file and serve it.&lt;/p&gt;
+
+&lt;p&gt;Let’s refactor our route handler to use sendFile instead:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+    app.get('/', function(req, res){
+    res.sendFile(__dirname + '/index.html');
+    });
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And populate index.html with the following:
+include Bootstrap for the Stylesheets and Javascript to get up with your Front.&lt;/p&gt;
+
+&lt;p&gt;#1. boostrap.min.css + bootstrap.min.js&lt;/p&gt;
+
+&lt;p&gt;#2. sockio.min.css&lt;/p&gt;
+
+&lt;p&gt;#3. socket.io.js&lt;/p&gt;
+
+&lt;p&gt;#4. jquery-1.11.1.js&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Sockio - Socket.IO chat&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;/static/css/sockio.min.css&amp;quot;&amp;gt;
+    &amp;lt;!-- Latest compiled and minified CSS --&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&amp;quot;&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src=&amp;quot;https://code.jquery.com/jquery-1.11.1.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+  $(function () {
+    var socket = io();
+    $(&amp;apos;form&amp;apos;).submit(function(){
+      socket.emit(&amp;apos;chat message&amp;apos;, $(&amp;apos;#sender&amp;apos;).val());
+      $(&amp;apos;#sender&amp;apos;).val(&amp;apos;&amp;apos;);
+      return false;
+    });
+    socket.on(&amp;apos;chat message&amp;apos;, function(msg){
+      $(&amp;apos;#messages&amp;apos;).append($(&amp;apos;&amp;lt;li&amp;gt;&amp;apos;).text(msg));
+    });
+  });
+&amp;lt;/script&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;col-lg-12&amp;quot;&amp;gt;
+                &amp;lt;h1&amp;gt;Sockio - Chat &amp;lt;/h1&amp;gt;
+              &amp;lt;ul id=&amp;quot;messages&amp;quot;&amp;gt;&amp;lt;/ul&amp;gt;
+                &amp;lt;div class=&amp;quot;form-group&amp;quot;&amp;gt;
+                    &amp;lt;form action=&amp;quot;&amp;quot;&amp;gt;
+                      &amp;lt;input id=&amp;quot;sender&amp;quot;  class=&amp;quot;form-control&amp;quot; id=&amp;quot;exampleInputEmail1&amp;quot; placeholder=&amp;quot;Type Here&amp;quot; autocomplete=&amp;quot;off&amp;quot; /&amp;gt;&amp;lt;br&amp;gt;
+                      &amp;lt;button  class=&amp;quot;btn-1&amp;quot;&amp;gt;Send&amp;lt;/button&amp;gt;
+                    &amp;lt;/form&amp;gt;
+               &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;!-- Latest compiled and minified JavaScript --&amp;gt;
+&amp;lt;script src=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&amp;quot; 
+integrity=&amp;quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&amp;quot; 
+crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+    &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you restart the process (by hitting Control+C and running node index again) and refresh the page it should look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io_4.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io_4.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Integrating Socket.IO&lt;/h2&gt;
+&lt;p&gt;Socket.IO is composed of two parts:&lt;/p&gt;
+
+&lt;p&gt;A server that integrates with (or mounts on) the Node.JS HTTP Server: socket.io
+A client library that loads on the browser side: socket.io-client
+During development, socket.io serves the client automatically for us, as we’ll see, so for now we only have to install one module:&lt;/p&gt;
+
+&lt;p&gt;npm install –save socket.io
+That will install the module and add the dependency to package.json. Now let’s edit index.js to add it:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
+
+io.on('connection', function(socket){
+  console.log('a user connected');
+});
+
+http.listen(3000, function(){
+  console.log('listening on *:3000');
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice that I initialize a new instance of socket.io by passing the http (the HTTP server) object. Then I listen on the connection event for incoming sockets, and I log it to the console.&lt;/p&gt;
+
+&lt;p&gt;Now in index.html I add the following snippet before the &amp;lt;/body&amp;gt;:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+&amp;lt;script src=&amp;quot;/socket.io/socket.io.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+  var socket = io();
+&amp;lt;/script&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That’s all it takes to load the socket.io-client, which exposes a io global, and then connect.&lt;/p&gt;
+
+&lt;p&gt;Notice that I’m not specifying any URL when I call io(), since it defaults to trying to connect to the host that serves the page.&lt;/p&gt;
+
+&lt;p&gt;If you now reload the server and the website you should see the console print “a user connected”.
+Try opening several tabs, and you’ll see several messages:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/socket.io-2.png&quot;&gt;
+    &lt;img src=&quot;/img/socket.io-2.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Each socket also fires a special disconnect event:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+io.on('connection', function(socket){
+  console.log('a user connected');
+  socket.on('disconnect', function(){
+    console.log('user disconnected');
+  });
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then if you refresh a tab several times you can see it in action:&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Emitting events&lt;/h2&gt;
+&lt;p&gt;The main idea behind Socket.IO is that you can send and receive any events you want, with any data you want. Any objects that can be encoded as JSON will do, and binary data is supported too.&lt;/p&gt;
+
+&lt;p&gt;Let’s make it so that when the user types in a message, the server gets it as a chat message event. The scripts section in index.html should now look as follows:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+$(function () {
+    var socket = io();
+    $('form').submit(function(){
+      socket.emit('chat message', $('#sender').val());
+      $('#sender').val('');
+      return false;
+    });
+    socket.on('chat message', function(msg){
+      $('#messages').append($('
+').text(msg));
+    });
+  });
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And in index.js we print out the chat message event:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    console.log('message: ' + msg);
+  });
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The result should be like the following video:&lt;/p&gt;
+
+&lt;p&gt;video here soon.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Broadcasting&lt;/h2&gt;
+&lt;p&gt;The next goal is for us to emit the event from the server to the rest of the users.&lt;/p&gt;
+
+&lt;p&gt;In order to send an event to everyone, Socket.IO gives us the io.emit:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.emit('some event', { for: 'everyone' });
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to send a message to everyone except for a certain socket, we have the broadcast flag:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.on('connection', function(socket){
+  socket.broadcast.emit('hi');
+});
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this case, for the sake of simplicity we’ll send the message to everyone, including the sender.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    io.emit('chat message', msg);
+  });
+});
+    
+
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And on the client side when we capture a chat message event we’ll include it in the page. The total client-side JavaScript code now amounts to:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+$(function () {
+    var socket = io();
+    $('form').submit(function(){
+      socket.emit('chat message', $('#sender').val());
+      $('#sender').val('');
+      return false;
+    });
+    socket.on('chat message', function(msg){
+      $('#messages').append($('
+').text(msg));
+    });
+  });
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And that completes our chat application, in about 20 lines of code! This is what it looks like:&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Here are some ideas to improve the application:&lt;/p&gt;
+
+&lt;p&gt;Broadcast a message to connected users when someone connects or disconnects
+Add support for nicknames
+Don’t send the same message to the user that sent it himself. Instead, append the message directly as soon as he presses enter.
+Add “{user} is typing” functionality
+Show who’s online
+Add private messaging
+Share your improvements!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 04 Aug 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/svg.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/svg.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mac Ports</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Mac Ports on Mac - Open Ports and Close Ports&lt;/h2&gt;
+
+&lt;p&gt;If on the other hand you decide to install MacPorts from source, there are still a couple of things you will need to do after downloading the tarball before you can start installing ports, namely compiling and installing MacPorts itself:&lt;/p&gt;
+
+&lt;p&gt;“cd” into the directory where you downloaded the package and run &lt;code&gt;“tar xjvf MacPorts-2.4.1.tar.bz2”&lt;/code&gt; or &lt;code&gt;“tar xzvf MacPorts-2.4.1.tar.gz”&lt;/code&gt;, depending on whether you downloaded the bz2 tarball or the gz one, respectively.
+Build and install the recently unpacked sources:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+cd MacPorts-2.4.1
+./configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; sudo make install
+
+
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Optionally:&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+cd ../
+rm -rf MacPorts-2.4.1*
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/macports.gif&quot;&gt;
+    &lt;img src=&quot;/img/macports.gif&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See the MacPorts &lt;a href=&quot;https://www.macports.org/install.php&quot; target=&quot;_blank&quot;&gt;MacPorts Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Aug 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/macports.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/macports.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>shell.sh</title>
@@ -498,9 +951,144 @@ came up with this one.&lt;/p&gt;
         <title>Javascript Basis</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; Javascript Basis &lt;/h2&gt;
 
-&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
-&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; Variables &lt;/h2&gt;
+&lt;p&gt;Variables are containers that you can store values in. You start by declaring a variable with the var keyword, followed by any name you want to call it:&lt;/p&gt;
 
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+var myVariable;
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can do both these operations on the same line if you wish:&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+var myVariable = 'Bob';
+
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can retrieve the value by just calling the variable by name:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+myVariable;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After giving a variable a value, you can later choose to change it:&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
+
+var myVariable = 'Bob';
+myVariable = 'Steve';
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;table class=&quot;standard-table&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;Variable&lt;/th&gt;
+   &lt;th scope=&quot;col&quot;&gt;Explanation&lt;/th&gt;
+   &lt;th scope=&quot;col&quot;&gt;Example&lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;&lt;a title=&quot;Die Definition dieses Ausdrucks (String) wurde noch nicht geschrieben; bitte hilf mit und trage sie bei!&quot; href=&quot;/de/docs/Glossary/String&quot; class=&quot;new glossaryLink&quot;&gt;String&lt;/a&gt;&lt;/th&gt;
+   &lt;td&gt;A string of text. To signify that the variable is a string, you should enclose it in quote marks.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = 'Bob';&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;&lt;a title=&quot;Number: In JavaScript ist&amp;nbsp;Number&amp;nbsp;ein numerischer Datentyp im&amp;nbsp;double-precision 64-bit floating point format (IEEE 754). In anderen Programmiersprachen können verschiedene numerische Typen existieren zum Beispiel Integer, Float, Double oder Bignum.&quot; href=&quot;/de/docs/Glossary/Number&quot; class=&quot;glossaryLink&quot;&gt;Number&lt;/a&gt;&lt;/th&gt;
+   &lt;td&gt;A number. Numbers don't have quotes around them.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = 10;&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;&lt;a title=&quot;Boolean: In der Programmierung ist Boolean&amp;nbsp;ein logischer Datentyp, der nur einen der zwei&amp;nbsp;Werte&amp;nbsp;true oder&amp;nbsp;false&amp;nbsp;annehmen kann. Ein Boolean ist die Umsetzung von wahr&amp;nbsp;oder falsch&amp;nbsp;in der Programmierung. Ohne die Möglichkeit Dinge in Booleans auszudrücken würden viele Dinge in einer Programmiersprache nicht mehr funktionieren. Zum Beispiel muss sich in JavaScript eine Bedingung eines&amp;nbsp;if-Statements&amp;nbsp;zu einem Boolean auflösen können. &amp;nbsp;Eine&amp;nbsp;for-Schleife könnte ohne Bedingung nicht feststellen, ob sie den Code ausführen soll oder nicht.&quot; href=&quot;/de/docs/Glossary/Boolean&quot; class=&quot;glossaryLink&quot;&gt;Boolean&lt;/a&gt;&lt;/th&gt;
+   &lt;td&gt;A True/False value. The words &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; are special keywords in JS, and don't need quotes.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = true;&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;&lt;a title=&quot;Die Definition dieses Ausdrucks (Array) wurde noch nicht geschrieben; bitte hilf mit und trage sie bei!&quot; href=&quot;/de/docs/Glossary/Array&quot; class=&quot;new glossaryLink&quot;&gt;Array&lt;/a&gt;&lt;/th&gt;
+   &lt;td&gt;A structure that allows you to store multiple values in one single reference.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = [1,'Bob','Steve',10];&lt;/code&gt;&lt;br /&gt;
+    Refer to each member of the array like this:&lt;br /&gt;
+    &lt;code&gt;myVariable[0]&lt;/code&gt;, &lt;code&gt;myVariable[1]&lt;/code&gt;, etc.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;&lt;a title=&quot;Die Definition dieses Ausdrucks (Object) wurde noch nicht geschrieben; bitte hilf mit und trage sie bei!&quot; href=&quot;/de/docs/Glossary/Object&quot; class=&quot;new glossaryLink&quot;&gt;Object&lt;/a&gt;&lt;/th&gt;
+   &lt;td&gt;Basically, anything. Everything in JavaScript is an object, and can be stored in a variable. Keep this in mind as you learn.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = document.querySelector('h1');&lt;/code&gt;&lt;br /&gt;
+    All of the above examples too.&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;So why do we need variables? Well, variables are needed to do anything interesting in programming. If values couldn’t change, then you couldn’t do anything dynamic, like personalize a greeting message or change the image displayed in an image gallery.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt; Operators&lt;/h2&gt;
+&lt;p&gt;An operator is a mathematical symbol that produces a result based on two values (or variables). In the following table you can see some of the simplest operators, along with some examples to try out in the JavaScript console.&lt;/p&gt;
+
+&lt;table class=&quot;standard-table&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;Operator&lt;/th&gt;
+   &lt;th scope=&quot;col&quot;&gt;Explanation&lt;/th&gt;
+   &lt;th scope=&quot;col&quot;&gt;Symbol(s)&lt;/th&gt;
+   &lt;th scope=&quot;col&quot;&gt;Example&lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;add/concatenation&lt;/th&gt;
+   &lt;td&gt;Used to add two numbers together, or glue two strings together.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;+&lt;/code&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;6 + 9;&lt;br /&gt;
+    &quot;Hello &quot; + &quot;world!&quot;;&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;subtract, multiply, divide&lt;/th&gt;
+   &lt;td&gt;These do what you'd expect them to do in basic math.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;9 - 3;&lt;br /&gt;
+    8 * 2; // multiply in JS is an asterisk&lt;br /&gt;
+    9 / 3;&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;assignment operator&lt;/th&gt;
+   &lt;td&gt;You've seen this already: it assigns a value to a variable.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;=&lt;/code&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = 'Bob';&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;Identity operator&lt;/th&gt;
+   &lt;td&gt;Does a test to see if two values are equal to one another, and returns a &lt;code&gt;true&lt;/code&gt;/&lt;code&gt;false&lt;/code&gt; (Boolean) result.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;===&lt;/code&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;var myVariable = 3;&lt;br /&gt;
+    myVariable === 4;&lt;/code&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th scope=&quot;row&quot;&gt;Negation, not equal&lt;/th&gt;
+   &lt;td&gt;Returns the logically opposite value of what it preceeds; it turns&amp;nbsp; a &lt;code&gt;true&lt;/code&gt; into a &lt;code&gt;false&lt;/code&gt;, etc. When it is used alongside the Equality operator, the negation operator tests whether two values are &lt;em&gt;not&lt;/em&gt; equal.&lt;/td&gt;
+   &lt;td&gt;&lt;code&gt;!&lt;/code&gt;, &lt;code&gt;!==&lt;/code&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;The basic expression is &lt;code&gt;true&lt;/code&gt;, but the comparison returns &lt;code&gt;false&lt;/code&gt; because we've negated it:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;var myVariable = 3;&lt;br /&gt;
+     !(myVariable === 3);&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;Here we are testing &quot;is &lt;code&gt;myVariable&lt;/code&gt; NOT equal to 3&quot;. This returns&lt;code&gt; false&lt;/code&gt; because &lt;code&gt;myVariable&lt;/code&gt; IS equal to 3.&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;&lt;code&gt;var myVariable = 3;&lt;/code&gt;&lt;br /&gt;
+     myVariable !== 3;&lt;/code&gt;&lt;/p&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;background:white;&quot;&gt;
 
 function printTheCity(city) {
 	var preffix = &quot;i live in&quot;;
@@ -510,27 +1098,14 @@ function printTheCity(city) {
 	printTheCity(&quot;New York&quot;);
 
 
-	&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+	
+	&lt;/pre&gt;
+	&lt;/div&gt;
+&lt;p&gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Jun 2016 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/javascript-parts-I-basis.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/javascript-parts-I-basis.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hack Zuerich Switzerland</title>
-        <description>&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/f71716cc-0663-4813-878a-4850cc6ad7d7.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Video Preview of the Hack Zuerich 2015!&lt;/p&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/i6JNtQgdk_4?list=UU_OLD4CaI0fsEMLLWyfTisw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Thu, 16 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:8000/event/hack-zuerich-switzerland.html</link>
-        <guid isPermaLink="true">http://localhost:8000/event/hack-zuerich-switzerland.html</guid>
         
         
       </item>
@@ -897,114 +1472,6 @@ it give the Output of the Version Informations.&lt;/p&gt;
         <pubDate>Sat, 07 May 2016 00:00:00 +0200</pubDate>
         <link>http://localhost:8000/event/npm-packages-npmjs.com.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/npm-packages-npmjs.com.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gitlist Nasa Collaboration</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Gitlist Nasa Collaboration&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/Cf2QfRbXIAEAic6.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;On 28. April 2016 i will have a meeting with jason from the Nasa. We talking about the OpenSource, Future and Details about the Gitlist App and OpenSource Project.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/gitlist-new.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;New List with Arrays. :) !&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3499.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Testing App.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3458.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3466.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;App  Count. Code of Lines  total :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;files: 6243 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;blank:   142507 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;comment:      245423 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;code:    870786 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3508.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;New UI/UX Up. Time: 34 Hours Work on The New Version 1.0.2 - It’s faster, cleaner, more Userfriendly as the Old Version 1.0.1 . 
-More Features will next Step. We will write some Api. More to follow soon.&lt;/p&gt;
-
-&lt;p&gt;New small Team Up. I will list all Members. Specially one Person which i like it much to include it to the Team. Never seen such a good a Developer like her!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt; Gitlist On Github &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ sudo sails lift &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
-
-&lt;p&gt;See the Issue Detail and The Gitlist OpenSource Master Branch  &lt;a href=&quot;https://github.com/SpaceG/gitlist.io&quot;&gt; Master Branch - Gitlist OS v.1.0.2&lt;/a&gt; 
-Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</link>
-        <guid isPermaLink="true">http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gitlist OpenSource V.1.0.1</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Gitlist OpenSource Project &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/Cf2QfRbXIAEAic6.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github 
-&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt; Gitlist On Github &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ sudo sails lift &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
-
-&lt;p&gt;Read the Full Documentation here on my Github : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/README.md&quot;&gt; Gitlist Documentation &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you find a Bug or Update the Source give a Note about a Issue :
- &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/issues &quot;&gt; Gitlist OpenSource Issues &lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 13 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:8000/event/gitlist-opensource.html</link>
-        <guid isPermaLink="true">http://localhost:8000/event/gitlist-opensource.html</guid>
         
         
       </item>
@@ -2620,717 +3087,6 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:8000/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Git Install</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Git CommandLines&lt;/strong&gt; &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://git-scm.com/&quot;&gt;Git&lt;/a&gt; is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.&lt;/p&gt;
-
-&lt;p&gt;(1.) Go Download Git &lt;a href=&quot;http://git-scm.com/download/mac&quot;&gt;Git&lt;/a&gt; I’m also a Mac/Unix &amp;amp; Linux User. But this install and Workflow is for Mac Os X. Do you can Download it directly from &lt;a href=&quot;http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect&quot;&gt;sourceforge.net&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;(2.)
-Open the pkg File with Doppleclick :&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/git-sourceforge.png&quot;&gt;
-    &lt;img src=&quot;/img/git-sourceforge.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(3.)
-Open Terminal : then type : which git&lt;/p&gt;
-
-&lt;p&gt;(4.)
-Type : git  –version&lt;/p&gt;
-
-&lt;p&gt;(5.)
-Type: git config -l&lt;/p&gt;
-
-&lt;p&gt;(6.)
-Type: git config –global user.name “[yourusername]”&lt;/p&gt;
-
-&lt;p&gt;(7.)
-Type: git config –global user.email “[youruseremail@mail.io]”&lt;/p&gt;
-
-&lt;p&gt;(8.)
-Type: git config -l&lt;/p&gt;
-
-&lt;p&gt;(9.)
-Then do you will see your user &amp;amp; email which one do you have set up right now!&lt;/p&gt;
-
-&lt;p&gt;exmaple&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt; user.name=[yourusernamewillshowuphere]&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;user.email=[youruseremailwillshowuphere]&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Have fun with Git! 
-Below do you will see some Git CommandLines&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-info&quot;&gt;
-&lt;strong&gt;Git Terminology:&lt;/strong&gt;&lt;br /&gt;
-&lt;table class=&quot;table table-responsive&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-master
-&lt;/td&gt;
-&lt;td&gt;
-default branch we develop in
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-origin
-&lt;/td&gt;
-&lt;td&gt;
-default upstream repo (Github)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-HEAD
-&lt;/td&gt;
-&lt;td&gt;
-current branch
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-remote
-&lt;/td&gt;
-&lt;td&gt;
-repository stored on another computer
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-staging (adding)
-&lt;/td&gt;
-&lt;td&gt;
-adding changed files to index tree to be committed
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;
-Here’s a good &lt;a href=&quot;http://stackoverflow.com/questions/7076164/terminology-used-by-git&quot; target=&quot;_blank&quot; class=&quot;alert-link&quot;&gt;glossary&lt;/a&gt; of definitions.
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#starting-a-repo-init/clone/remote&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Starting a Repo &lt;small&gt;init/clone/remote&lt;/small&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-	git init
-	&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Create a repo from existing data
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git clone (repo_url)
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Clone a current repo (into a folder with same name as repo)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git clone (repo_url) (folder_name)
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Clone a repo into a specific folder name
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git clone (repo_url) .
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-
-Clone a repo into current directory (should be an empty directory)
-
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-&lt;code&gt;
-git remote add origin 
-	https://github.com/
-	username/
-	(repo_name).git
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Create a remote repo named origin pointing at your Github repo (after you’ve already created the repo on Github) (used if you git init since the repo you created locally isn’t linked to a remote repo yet)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-&lt;code&gt;
-git remote add 
-	origin git@github.com:
-	username/
-	(repo_name).git
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Create a remote repo named origin pointing at your Github repo (using SSH url instead of HTTP url)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git remote
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Show the names of the remote repositories you’ve set up
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-
-git remote -v
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Show the names and URLs of the remote repositories
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-
-git remote rm 
-	(remote_name)
-	&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Remove a remote repository
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-&lt;code&gt;
-
-git remote set-url 
-	origin (git_url)
-	&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Change the URL of the git repo
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-
-git push
-&lt;/code&gt;
-
-&lt;/td&gt;
-&lt;td&gt;
-Push your changes to the origin
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#showing-changes-status/diff/log/blame&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Showing Changes &lt;small&gt;status/diff/log/blame&lt;/small&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-git status
-&lt;/code&gt;
-&lt;/td&gt;
-
-
-&lt;td&gt;
-Show the files changed
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git diff
-&lt;/code&gt;
-&lt;/td&gt;
-
-
-
-&lt;td&gt;
-Show changes to files compared to last commit
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git diff (filename)
-&lt;/code&gt;
-&lt;/td&gt;
-
-
-&lt;td&gt;
-Show changes in single file compared to last commit
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-	&lt;code&gt;
-git diff (commit_id)
-&lt;/code&gt;
-&lt;/td&gt;
-
-
-&lt;td&gt;
-Show changes between two different commits.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-git log
-&lt;/code&gt;
-&lt;/td&gt;
-
-
-&lt;td&gt;
-Show history of changes
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-git blame (filename)
-&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Show who changed each line of a file and when
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-info&quot;&gt;
-&lt;strong&gt;Commit ID:&lt;/strong&gt; This can be that giant long SHA-1 hash. You can call it many different ways. I usually just use the &lt;strong&gt;first 4 characters&lt;/strong&gt; of the hash.
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#undoing-changes-reset/revert&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Undoing Changes &lt;small&gt;reset/revert&lt;/small&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-git reset –hard
-&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Go back to the last commit (will not delete new unstaged files)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-git revert HEAD
-&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Undo/revert last commit AND create a new commit
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-	&lt;code&gt;
-git revert (commit_id)
-&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Undo/revert a specific commit AND create a new commit
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#staging-files-add/rm&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Staging Files &lt;small&gt;add/rm&lt;/small&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git add -A&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Stage all files (new, modified, and deleted)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git add .&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Stage new and modified files (not deleted)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git add -u&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Stage modified and deleted files (not new)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git rm (filename)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Remove a file and untrack it
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git rm (filename) –cached&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Untrack a file only. It will still exist. Usually you will add this file to .gitignore after rm
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-info&quot;&gt;
-&lt;strong&gt;Git Workflow Trees:&lt;/strong&gt; How adding and committing moves files between the different git trees.
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;table class=&quot;table table-responsive&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-Working Tree
-&lt;/td&gt;
-&lt;td&gt;
-The “tree” that holds all our current files.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-Index (after adding/staging file)
-&lt;/td&gt;
-&lt;td&gt;
-The “staging” area that holds files that need to be committed.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-HEAD
-&lt;/td&gt;
-&lt;td&gt;
-Tree that represents the last commit.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#publishing-commit/stash/push&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Publishing &lt;small&gt;commit/stash/push&lt;/small&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git commit -m “message”&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Commit the local changes that were staged
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git commit -am “message”&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Stage files (modified and deleted, not new) and commit
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git stash&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Take the uncommitted work (modified tracked files and staged changes) and saves it
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git stash list&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Show list of stashes
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git stash apply&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Reapply the latest stashed contents
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git stash apply (stash_id)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Reapply a specific stash. (stash id = &lt;strong&gt;stash@{2})&lt;/strong&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git stash drop (stash_id)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Drop a specific stash
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git push&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Push your changes to the origin
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git push origin (local_branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Push a branch to the origin
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git tag (tag_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Tag a version (ie v1.0). Useful for Github releases.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#updating-and-getting-code-fetch/pull&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Updating and Getting Code &lt;small&gt;fetch/pull&lt;/small&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git fetch&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Get the latest changes from origin (don’t merge)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git pull&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Get the latest changes from origin AND merge
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git checkout -b (new_branch_name) origin/(branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Get a remote branch from origin into a local branch (naming the branch and switching to it)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#branching-branch/checkout&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Branching &lt;small&gt;branch/checkout&lt;/small&gt;&lt;br /&gt;
-&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git branch&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Show all branches (local)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git branch -a&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Show all branches (local and remote)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git branch (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Create a branch from HEAD
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git checkout -b (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Create a new branch and switch to it
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git checkout (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Switch to an already created branch
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git push origin (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Push a branch up to the origin (Github)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git checkout -b (new_branch_name) origin/(branch_name)&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;
-Get a remote branch from origin into a local branch (naming the branch and switching to it)
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;
-git push origin –delete (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Delete a branch locally and remotely
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;&lt;a href=&quot;#integrating-branches-merge/rebase&quot;&gt;&lt;span class=&quot;heading-link ti-link&quot;&gt;&lt;/span&gt; Integrating Branches &lt;small&gt;merge/rebase&lt;/small&gt;&lt;br /&gt;
-&lt;/a&gt;&lt;/h2&gt;
-
-&lt;table class=&quot;table table-responsive table-hover&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;code&gt;git checkout master &lt;/code&gt; &lt;br /&gt; &lt;code&gt;git merge (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Merge a specific branch into the master branch.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;code&gt;git rebase (branch_name)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Take all the changes in one branch and replay them on another. Usually used in a feature branch. Rebase the master to the feature branch so you are testing your feature on the latest main code base. Then merge to the master.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;code&gt;git cherry-pick (commit_id)&lt;/code&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Merge just &lt;strong&gt;one specific commit&lt;/strong&gt; from another branch to your current branch.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-info&quot;&gt;
-&lt;strong&gt;Merging:&lt;/strong&gt; Merging will occur &lt;strong&gt;FROM&lt;/strong&gt; the branch you name &lt;strong&gt;TO&lt;/strong&gt; the branch you are &lt;em&gt;currently&lt;/em&gt; in. &lt;strong&gt;Rebasing:&lt;/strong&gt; Usually switch to a feature branch (&lt;code&gt;git checkout newFeature&lt;/code&gt;). Then rebase (&lt;code&gt;git rebase master&lt;/code&gt;). Then merge back so you have all the changes of master and the feature branch (&lt;code&gt;git checkout master&lt;/code&gt;, and &lt;code&gt;git merge newFeature&lt;/code&gt;).
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo&lt;/small&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 20 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:8000/event/git-install.html</link>
-        <guid isPermaLink="true">http://localhost:8000/event/git-install.html</guid>
         
         
       </item>
