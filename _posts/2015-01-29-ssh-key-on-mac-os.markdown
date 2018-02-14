@@ -1,6 +1,6 @@
 ---
 title:  "SSH Key on Mac Os"
-date:   2010-02-01 06:18:00
+date:   2015-01-29 06:18:00
 description: Secure Shell - SSH - Key on Mac Os 
 ---
 
