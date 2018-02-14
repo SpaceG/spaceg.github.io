@@ -34,6 +34,19 @@
       </item>
     
       <item>
+        <title>Get emacs on your Machine</title>
+        
+        
+          <description>&lt;p&gt;to install Emacs 24. The MacPorts installer updates your PATH environment variable, so the MacPorts build of Emacs should be found by your shell before the (outdated) build that comes with Mac OS when you type &lt;strong&gt;‘emacs’&lt;/strong&gt;. If you prefer the Emacs.app build, that’s available by executing:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 26 Mar 2015 06:18:00 +0000</pubDate>
+        <link>http://localhost:4000/2015/get-emacs-on-your-machine/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/get-emacs-on-your-machine/</guid>
+      </item>
+    
+      <item>
         <title>Unix Commandlines</title>
         
         
@@ -44,6 +57,20 @@
         <pubDate>Wed, 10 Nov 2010 10:18:00 +0000</pubDate>
         <link>http://localhost:4000/2010/commandlines/</link>
         <guid isPermaLink="true">http://localhost:4000/2010/commandlines/</guid>
+      </item>
+    
+      <item>
+        <title>NMAP MAC OS</title>
+        
+        
+          <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nmap for Mac Os X - Linux&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Nmap Security Scanner for Linux-MAC-UNIX &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 01 Feb 2010 06:18:00 +0000</pubDate>
+        <link>http://localhost:4000/2010/nmap-mac-os/</link>
+        <guid isPermaLink="true">http://localhost:4000/2010/nmap-mac-os/</guid>
       </item>
     
       <item>
