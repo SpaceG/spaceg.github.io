@@ -101,6 +101,8 @@ nSalt = 18ea7d118e4fcc61
 
 
 
+
+
 This it, Hope you like my Salt/Hash Passwort Generator. Please feel free to Fork, Star and Clone it. 
 See the Issue Detail here on Github <a href="https://github.com/SpaceG/salt-hash-password">Download</a> 
 Link: <a href="https://github.com/SpaceG/salt-hash-password/">Salt Hash Password Generator in (SHA-512).</a> 
