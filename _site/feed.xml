@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Salt + Hash Password Generator</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;This practice gonna be to the Salt and Hash Generator in Node.js! I will example you, how to code this Script. So let's Start it. Now, first of all, we need to Install already Node.js on our Machine. &lt;a href=&quot;https://en.wikipedia.org/wiki/Salt_(cryptography)&quot; target=&quot;_blank&quot;&gt;wiki/Salt_(cryptography)&lt;/a&gt; Then, we create a foler like &lt;code&gt;SaltHash&lt;/code&gt; Then we open  that Folder with our Terminal. &lt;a href=&quot;https://en.wikipedia.org/wiki/Npm_(software)&quot; target=&quot;_blank&quot;&gt;Create your Npm_(software) package.json file with our dependencies for the Node.js Modules. &lt;/a&gt;. Okey, let's downlaod the Module &lt;code&gt;crypto&lt;/code&gt; with &lt;code&gt;npm install crypto &lt;/code&gt; packages. The JavaScript implementations of Standard and Secure Cryptographic Algorithms.&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 06 Jul 2017 10:18:00 +0000</pubDate>
+        <link>http://localhost:4000/2017/salt-hash-password-generator/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/salt-hash-password-generator/</guid>
+      </item>
+    
+      <item>
         <title>OpenSSL</title>
         
         
