@@ -96,10 +96,6 @@ Diagramm of my SSH Sketches!
 
 
 
-
-
-
-
  Hello, I'm work @ [SpaceDig.ch][spacedig] for more info, how to get contact with us. File all bugs/feature requests at My  [Github][jekyll-gh].
 
 [jekyll-gh]: https://github.com/spaceg
