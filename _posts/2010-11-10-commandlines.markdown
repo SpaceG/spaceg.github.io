@@ -7,9 +7,6 @@ description: Commandlines!
 
 
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
 
 <h1>Installing Command Line Tools in Mac OS X</h1>
 Launch the Terminal, found in
@@ -65,7 +62,7 @@ and we have listed them below for convenience:
 
 
 {% highlight ruby %}
-code @ ~/desktop 
+code @ ~/desktop
  [5] → git clone https://github.com/SpaceG/sockio.git
 Cloning into 'sockio'...
 remote: Counting objects: 786, done.

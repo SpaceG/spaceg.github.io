@@ -11,10 +11,9 @@ description: reboot your Mac  - chmod o+rx!
 
 <strong> Recovery Mode </strong>
 
-You know, i do crazy things with my Terminal and Try and Hacking everything.
 So my History now.. i tried hack my HD! After a Error, i put the rights to the {% highlight ruby %}(:denied){% endhighlight %}
 
-Spoken Words: - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again. 
+Spoken Words: - I don't had rights anymore everywhere! After a New Start my Machine, the same thing again.
 
 i Tried out to reboot the Machine on {% highlight ruby %} "C" {% endhighlight %}! Nothing Works! After booted in to the {% highlight ruby %}C{% endhighlight %}
 {% highlight ruby %}cmd + r {% endhighlight %} ! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# {% highlight ruby %}chmod o+rx "/Volumes/YOURHD"{% endhighlight %} and prompt (Enter) it. {% highlight ruby %} sudo shutdown -r now {% endhighlight %}! New Started and waited for a while
@@ -30,7 +29,7 @@ And New Start your Mac!
 
 <br>
 {% highlight ruby %}
-Single-User Mode 
+Single-User Mode
 {% endhighlight %}
 
 
@@ -44,7 +43,7 @@ Unix/ Will Open! This is your root single-user Mode if you want to reboot press 
 
 First i have typed :
 {% highlight ruby %}
-$mount -uw/ 
+$mount -uw/
 {% endhighlight %}
 
 Then After Prompt :
@@ -57,7 +56,7 @@ And Now Type :
 $chmod 1773/Shared
 {% endhighlight %}
 
-At Last prompt: 
+At Last prompt:
 {% highlight ruby %}
 $chmod 1777/Users/Shared
 {% endhighlight %}
