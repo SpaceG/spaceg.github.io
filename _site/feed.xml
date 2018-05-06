@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;This Partial shows, you how get Implement Passport.js authentication with Sails.js 1.0.1&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 06 May 2018 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/passportjs+sailsjs+mongodb/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/passportjs+sailsjs+mongodb/</guid>
+      </item>
+    
+      <item>
         <title>Salt + Hash Password Generator</title>
         
         
@@ -14,7 +27,7 @@
 
 </description>
         
-        <pubDate>Thu, 06 Jul 2017 10:18:00 +0000</pubDate>
+        <pubDate>Thu, 06 Jul 2017 12:18:00 +0200</pubDate>
         <link>http://localhost:4000/2017/salt-hash-password-generator/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/salt-hash-password-generator/</guid>
       </item>
@@ -27,7 +40,7 @@
 
 </description>
         
-        <pubDate>Mon, 13 Jun 2016 06:18:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jun 2016 08:18:00 +0200</pubDate>
         <link>http://localhost:4000/2016/implement-Passport.js-authentication-with-Sails.js/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/implement-Passport.js-authentication-with-Sails.js/</guid>
       </item>
@@ -41,7 +54,7 @@
 
 </description>
         
-        <pubDate>Fri, 22 Jan 2016 06:18:00 +0000</pubDate>
+        <pubDate>Fri, 22 Jan 2016 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2016/nmap-mac-os/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/nmap-mac-os/</guid>
       </item>
@@ -55,7 +68,7 @@
 
 </description>
         
-        <pubDate>Mon, 18 Jan 2016 06:18:00 +0000</pubDate>
+        <pubDate>Mon, 18 Jan 2016 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2016/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</guid>
       </item>
@@ -69,7 +82,7 @@
 
 </description>
         
-        <pubDate>Mon, 18 May 2015 06:18:00 +0000</pubDate>
+        <pubDate>Mon, 18 May 2015 08:18:00 +0200</pubDate>
         <link>http://localhost:4000/2015/open-ssl/</link>
         <guid isPermaLink="true">http://localhost:4000/2015/open-ssl/</guid>
       </item>
@@ -82,7 +95,7 @@
 
 </description>
         
-        <pubDate>Thu, 26 Mar 2015 06:18:00 +0000</pubDate>
+        <pubDate>Thu, 26 Mar 2015 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2015/get-emacs-on-your-machine/</link>
         <guid isPermaLink="true">http://localhost:4000/2015/get-emacs-on-your-machine/</guid>
       </item>
@@ -96,7 +109,7 @@
 
 </description>
         
-        <pubDate>Thu, 29 Jan 2015 06:18:00 +0000</pubDate>
+        <pubDate>Thu, 29 Jan 2015 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2015/ssh-key-on-mac-os/</link>
         <guid isPermaLink="true">http://localhost:4000/2015/ssh-key-on-mac-os/</guid>
       </item>
@@ -109,7 +122,7 @@
 
 </description>
         
-        <pubDate>Mon, 19 Jan 2015 06:18:00 +0000</pubDate>
+        <pubDate>Mon, 19 Jan 2015 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2015/iptables-to-run-your-app-via-port-80-ubuntu/</link>
         <guid isPermaLink="true">http://localhost:4000/2015/iptables-to-run-your-app-via-port-80-ubuntu/</guid>
       </item>
@@ -122,22 +135,9 @@
 
 </description>
         
-        <pubDate>Wed, 10 Nov 2010 10:18:00 +0000</pubDate>
+        <pubDate>Wed, 10 Nov 2010 11:18:00 +0100</pubDate>
         <link>http://localhost:4000/2010/commandlines/</link>
         <guid isPermaLink="true">http://localhost:4000/2010/commandlines/</guid>
-      </item>
-    
-      <item>
-        <title>Hello World</title>
-        
-        
-          <description>&lt;p&gt;This is my first  &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;  Post!&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 01 Feb 2010 06:18:00 +0000</pubDate>
-        <link>http://localhost:4000/2010/hello-world/</link>
-        <guid isPermaLink="true">http://localhost:4000/2010/hello-world/</guid>
       </item>
     
   </channel>
