@@ -7,7 +7,7 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1</title>
+        <title>SailsJS/PassportJS/MongoDB authentication SailsJS V. 1.0.1</title>
         
         
           <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;This Partial shows, you how get Implement Passport.js authentication with Sails.js 1.0.1&lt;/h2&gt;
