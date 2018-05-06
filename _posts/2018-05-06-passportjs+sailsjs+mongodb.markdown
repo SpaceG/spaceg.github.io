@@ -1,5 +1,5 @@
 ---
-title:  "SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1"
+title:  "SailsJS/PassportJS/MongoDB authentication SailsJS V. 1.0.1"
 date:   2018-05-06 10:18:00
 description: Crypto/HASH Password authentication in SailsJS
 ---
