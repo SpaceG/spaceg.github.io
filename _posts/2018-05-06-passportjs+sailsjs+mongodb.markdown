@@ -1,7 +1,7 @@
 ---
 title:  "SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1"
 date:   2018-05-06 10:18:00
-description: Salt + Hash Password Generator
+description: Salt + Hash Password authentication SailsJS V. 1.0.1
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">This Partial shows, you how get Implement Passport.js authentication with Sails.js 1.0.1</h2>
 
