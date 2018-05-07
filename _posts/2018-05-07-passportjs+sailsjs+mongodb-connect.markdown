@@ -219,8 +219,8 @@ module.exports.models = {
 
 
 This it, Hope you like my SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1. Please feel free to Fork, Star and Clone it. 
-See the Issue Detail here on Github <a href="https://github.com/SpaceG/salt-hash-password">Download</a> 
-Link: <a href="https://github.com/SpaceG/salt-hash-password/">SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1.</a> 
+See the Issue Detail here on Github <a href="https://github.com/SpaceG/oAuthy-SailsJS-PassportJS-MongoDB-Authentication">Download</a> 
+Link: <a href="https://github.com/SpaceG/oAuthy-SailsJS-PassportJS-MongoDB-Authentication">SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1.</a> 
 
 
 
