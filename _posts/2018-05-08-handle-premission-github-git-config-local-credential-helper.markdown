@@ -51,6 +51,7 @@ $ git push origin master
 That's its ! Have Fun with your Remote Work. :)
 
 
+
 This show the conflict below : 
 
 
