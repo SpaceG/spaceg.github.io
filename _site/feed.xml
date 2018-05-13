@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Install AngularJS</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;mongoDB Commandlines &amp;amp; set up Database&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 13 May 2018 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/install-angular5-on-macos/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/install-angular5-on-macos/</guid>
+      </item>
+    
+      <item>
         <title>mongoDB Commandlines &amp; set up Database</title>
         
         
@@ -123,20 +136,6 @@
         <pubDate>Mon, 18 Jan 2016 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2016/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</guid>
-      </item>
-    
-      <item>
-        <title>OpenSSL</title>
-        
-        
-          <description>&lt;h2 class=&quot;section-heading&quot;&gt;OpenSSL&lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Install Transport Layer Security - Secure Sockets Layer (SSL)&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 18 May 2015 08:18:00 +0200</pubDate>
-        <link>http://localhost:4000/2015/open-ssl/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/open-ssl/</guid>
       </item>
     
   </channel>
