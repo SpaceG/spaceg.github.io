@@ -8,6 +8,8 @@ description: Slove your Git Conflict
 <h1>Step 1: CheckOut your Repository Local</h1>
 
 
+
+
 {% highlight ruby %}
 ADMIN
 
@@ -150,10 +152,9 @@ $ db.sytsem.users.find();
 
 
 
-
-This it, Hope you like my SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1. Please feel free to Fork, Star and Clone it. 
-See the Issue Detail here on Github <a href="https://github.com/SpaceG/oAuthy-SailsJS-PassportJS-MongoDB-Authentication">Download</a> 
-Link: <a href="https://github.com/SpaceG/oAuthy-SailsJS-PassportJS-MongoDB-Authentication">SailsJS + PassportJS + MongoDB authentication SailsJS V. 1.0.1.</a> 
+Reade More @ our Files: 
+See the Issue Detail here on Github <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Go Read</a> 
+Link: <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">MongoDB Connections and Set Up. </a> 
 
 
 

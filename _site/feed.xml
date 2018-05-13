@@ -7,6 +7,32 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>mongoDB Commandlines &amp; set up Database</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;mongoDB Commandlines &amp;amp; set up Database&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 13 May 2018 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/mongodb-commandlines-database-setup/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/mongodb-commandlines-database-setup/</guid>
+      </item>
+    
+      <item>
+        <title>NodeMailerForm in Node.js</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;NodeMailerForm in Node.js&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 12 May 2018 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/nodemailerform-in-nodejs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/nodemailerform-in-nodejs/</guid>
+      </item>
+    
+      <item>
         <title>git config --local credential.helper </title>
         
         
@@ -111,33 +137,6 @@
         <pubDate>Mon, 18 May 2015 08:18:00 +0200</pubDate>
         <link>http://localhost:4000/2015/open-ssl/</link>
         <guid isPermaLink="true">http://localhost:4000/2015/open-ssl/</guid>
-      </item>
-    
-      <item>
-        <title>Get emacs on your Machine</title>
-        
-        
-          <description>&lt;p&gt;to install Emacs 24. The MacPorts installer updates your PATH environment variable, so the MacPorts build of Emacs should be found by your shell before the (outdated) build that comes with Mac OS when you type &lt;strong&gt;‘emacs’&lt;/strong&gt;. If you prefer the Emacs.app build, that’s available by executing:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 26 Mar 2015 07:18:00 +0100</pubDate>
-        <link>http://localhost:4000/2015/get-emacs-on-your-machine/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/get-emacs-on-your-machine/</guid>
-      </item>
-    
-      <item>
-        <title>SSH Key on Mac Os</title>
-        
-        
-          <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Secure Shell - SSH - Key on Mac Os X &lt;/strong&gt; &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;The Key Set Up.&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Thu, 29 Jan 2015 07:18:00 +0100</pubDate>
-        <link>http://localhost:4000/2015/ssh-key-on-mac-os/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/ssh-key-on-mac-os/</guid>
       </item>
     
   </channel>
