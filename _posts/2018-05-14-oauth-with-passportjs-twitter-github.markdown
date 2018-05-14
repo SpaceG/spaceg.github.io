@@ -62,6 +62,74 @@ function(token, tokenSecret, profile, done) {
 
 
 
+Input this to your <code>AuthController.js</code> file.
+
+
+
+{% highlight ruby %}
+
+
+// oAuth beginning here 
+
+twitter: function(req, res){
+
+    passport.authenticate('twitter')(req,res);
+
+  },
+
+  twitterCallback: function(req, res){
+  	
+		 passport.authenticate('twitter', { failureRedirect: '/login' }, function(err, user) {
+      req.logIn(user, function(err) {
+  
+
+        res.redirect('/');
+        return;
+      });
+    })(req, res);
+
+  },
+
+{% endhighlight %}
+
+
+Input this to your <code>routes.js</code> file.
+
+
+{% highlight ruby %}
+
+ '/': {
+    view: 'pages/homepage'
+  },
+
+  'GET /login': { 
+    view: 'login' 
+  },
+
+  'POST /login': 'AuthController.login',
+  
+  '/logout': 'AuthController.logout',
+
+
+  'get /auth/twitter' : 'AuthController.twitter',
+
+  'get /auth/twitter/callback' : 'AuthController.twitterCallback',
+
+  
+  'get /auth/github' : 'AuthController.github',
+
+  'get /auth/github/callback' : 'AuthController.githubCallback',
+
+  
+
+
+  'GET /register': { 
+    view: 'register' 
+  }
+
+{% endhighlight %}
+
+
 
 
 
