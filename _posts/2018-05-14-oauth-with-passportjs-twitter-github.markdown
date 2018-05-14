@@ -38,7 +38,6 @@ Input this to your <code>passport.js</code> file.
 
 {% highlight ruby %}
 
-// oAuth beginning here 
 
 
 passport.use(new TwitterStrategy({
@@ -69,7 +68,6 @@ Input this to your <code>AuthController.js</code> file.
 {% highlight ruby %}
 
 
-// oAuth beginning here 
 
 twitter: function(req, res){
 
