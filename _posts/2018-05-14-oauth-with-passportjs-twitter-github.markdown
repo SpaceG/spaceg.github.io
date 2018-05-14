@@ -27,6 +27,8 @@ Commandline:
 {% highlight ruby %}
 
 $ npm install passport-twitter --save
+$ npm install passport-facebook --save
+$ npm install passport-github --save
 
 {% endhighlight %}
 
