@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>oAuth with PassportJS &amp; SailsJS</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;Create a Login script which allow users to login and signup with social media accounts.&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 May 2018 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/oauth-with-passportjs-twitter-github/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/oauth-with-passportjs-twitter-github/</guid>
+      </item>
+    
+      <item>
         <title>Install AngularJS</title>
         
         
@@ -122,20 +135,6 @@
         <pubDate>Fri, 22 Jan 2016 07:18:00 +0100</pubDate>
         <link>http://localhost:4000/2016/nmap-mac-os/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/nmap-mac-os/</guid>
-      </item>
-    
-      <item>
-        <title>Hacking Macintosh HD</title>
-        
-        
-          <description>&lt;h2 class=&quot;section-heading&quot;&gt; Hacking Macintosh HD &lt;/h2&gt;
-&lt;h2 class=&quot;section-heading&quot;&gt;Entry Your Data with the Terminal Commandline Chmod o+rx&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 18 Jan 2016 07:18:00 +0100</pubDate>
-        <link>http://localhost:4000/2016/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change/</guid>
       </item>
     
   </channel>
