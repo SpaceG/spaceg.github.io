@@ -847,6 +847,503 @@ What a amazing workflow?! :) isn't it ? :) Okey let's go forward !
 <img src="https://spaceg.github.io/assets/images/angu_8.jpg">
 
 
+Okey, let's go  Interpolation, Property & Event Binding  
+
+
+
+{% highlight ruby %}
+
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+
+  //now let's code in there 
+
+
+  itemCount: number = 4; 
+
+
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+now let's go back to the home.components.html file 
+
+But the          ({{ itemCount }}) to paragraph ! Now Save that, go back to your localhost! 
+
+
+{% highlight ruby %}
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List ({{ itemCount }})</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="Trendy Gits">
+            <input type="submit" class="btn" value="Add Item">
+          </form>
+    </div>
+    <div class="col">
+      <p class="git-container">
+            I want to be a Trendy Git
+      </p>
+    </div>
+</div>
+{% endhighlight %}
+
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_9.jpg">
+
+
+now you see the Numer 4 in your Treny List (4). 
+
+
+Now we can also include some more Property into our code : 
+
+
+
+
+
+
+{% highlight ruby %}
+
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+
+  //now let's code in there 
+
+
+  itemCount: number = 4; 
+
+
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+now we can also include the {{ btnText }}
+
+{% highlight ruby %}
+
+
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List ({{ itemCount }})</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="Trendy Gits">
+            <input type="submit" class="btn" value="{{ btnText }}">
+          </form>
+    </div>
+    <div class="col">
+      <p class="git-container">
+            I want to be a Trendy Git
+      </p>
+    </div>
+</div>
+{% endhighlight %}
+
+Now actally, we can also change and give another Event Binding like [value]="btnText
+
+
+{% highlight ruby %}
+
+
+
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List ({{ itemCount }})</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="Trendy Gits">
+            <input type="submit" class="btn" [value]="btnText">
+          </form>
+    </div>
+    <div class="col">
+      <p class="git-container">
+            I want to be a Trendy Git
+      </p>
+    </div>
+</div>
+
+{% endhighlight %}
+
+Now it's the same thing, after your preload it ! 
+
+
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_10.jpg">
+
+
+
+Now you can find a file named app.modules.ts now we add some modules right now to our application! 
+
+{% highlight ruby %}
+dd the follow line 
+import { FormsModule } from '@angular/forms';
+{% endhighlight %}
+
+
+
+{% highlight ruby %}
+
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+//add the follow line 
+import { FormsModule } from '@angular/forms';
+
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    AboutComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+{% endhighlight %}
+
+Now Save that and go back to the home.component.ts 
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+
+  //now let's code in there 
+
+
+  itemCount: number = 4; 
+  btnText: string =  'Add a Git';
+  gitText: string = 'My First Git';
+
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+
+Add some html Text! 
+
+
+{% highlight ruby %}
+
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List ({{ itemCount }})</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="Trendy Gits" [(ngModel)]="gitText">
+            <br><span>{{ gitText }}</span>
+            <input type="submit" class="btn" [value]="btnText">
+          </form>
+    </div>
+    <div class="col">
+      <p class="git-container">
+            I want to be a Trendy Git
+      </p>
+    </div>
+</div>
+{% endhighlight %}
+
+
+Now let's see the Terminal APP! 
+
+
+{% highlight ruby %}
+
+Date: 2018-05-20T15:51:51.405Z - Hash: 40bb1a628013104eb637 - Time: 5417ms
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.62 MB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:51:54.826Z - Hash: 40bb1a628013104eb637 - Time: 139ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:52:06.033Z - Hash: 40bb1a628013104eb637 - Time: 136ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:53:27.808Z - Hash: d15d3b3a0898aedccb6f - Time: 6592ms
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.88 MB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:56:40.397Z - Hash: 75f1a0870c047f1772d7 - Time: 317ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.4 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:56:44.755Z - Hash: 75f1a0870c047f1772d7 - Time: 163ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T16:00:08.784Z - Hash: 23c66006b2195fd2a931 - Time: 187ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.4 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /runtime.js
+ℹ ｢wdm｣: wait until bundle finished: /polyfills.js
+ℹ ｢wdm｣: wait until bundle finished: /styles.js
+ℹ ｢wdm｣: wait until bundle finished: /polyfills.js.map
+ℹ ｢wdm｣: wait until bundle finished: /styles.js.map
+                                                                                          
+Date: 2018-05-20T16:00:09.331Z - Hash: 23c66006b2195fd2a931 - Time: 170ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T16:00:17.009Z - Hash: 23c66006b2195fd2a931 - Time: 139ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T16:00:24.844Z - Hash: 23c66006b2195fd2a931 - Time: 196ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T16:00:32.042Z - Hash: 23c66006b2195fd2a931 - Time: 449ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+{% endhighlight %}
+
+
+<img src="https://spaceg.github.io/assets/images/angu_11.jpg">
+
+
+
+
+Now we go back and add some events to our html file : add an event : (click)="addItem()"
+
+{% highlight ruby %}
+
+
+ <input type="submit" class="btn" [value]="btnText" (click)="addItem()" >
+
+
+ {% endhighlight %}
+
+
+{% highlight ruby %}
+
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List ({{ itemCount }})</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="Trendy Gits" [(ngModel)]="gitText">
+            <input type="submit" class="btn" [value]="btnText" (click)="addItem()" >
+          </form>
+    </div>
+    <div class="col">
+      <p class="git-container">
+            I want to be a Trendy Git
+      </p>
+    </div>
+</div>
+
+
+{% endhighlight %}
+
+
+
+Now let's  change the follow process : 
+
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  itemCount: number = 4;
+  btnText: string = 'Add an Item';
+  gitText: string = 'My first Gitlist';
+  gits = [];
+
+  constructor() { }
+
+  ngOnInit() {
+    this.itemCount = this.gits.length;
+  }
+
+  addItem() {
+    this.gits.push(this.gitText);
+    this.gitText = '';
+    this.itemCount = this.gits.length;
+  }
+
+}
+{% endhighlight %}
+
+
+Now, it's gonna be count, not listed, now see the image below. 
+
+
+<img src="https://spaceg.github.io/assets/images/angu_12.jpg">
+
+
+
+Now Let's fix this in our Template! 
+
+
+
+{% highlight ruby %}
+
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List ({{ itemCount }})</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="GitList" [(ngModel)]="gitText">
+            <input type="submit" class="btn" [value]="btnText" (click)="addItem()">
+          </form>
+    </div>
+    <div class="col">
+        <p class="git-container" *ngFor="let git of gits">
+            {{ git }}
+          </p>
+    </div>
+</div>
+
+{% endhighlight %}
+
+
+
+add this in our Html file ! 
+
+
+{% highlight ruby %}
+
+     <p class="git-container" *ngFor="let git of gits">
+            {{ git }}
+          </p>
+
+{% endhighlight %}
+
+
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_13.jpg">
+
+
+
 
 
 Reade More @ our Files: 
