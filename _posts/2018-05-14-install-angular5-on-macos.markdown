@@ -313,6 +313,542 @@ chunk {vendor} vendor.js, vendor.js.map (vendor) 3.62 MB [initial] [rendered]
 {% endhighlight %}
 
 
+To create componetns, type these code below. example : 
+{% highlight ruby %}
+$  ng generate component home
+{% endhighlight %}
+
+
+{% highlight ruby %}
+
+codes-Mac-mini:ng5 jh$ ng generate component home
+CREATE src/app/home/home.component.scss (0 bytes)
+CREATE src/app/home/home.component.html (23 bytes)
+CREATE src/app/home/home.component.spec.ts (614 bytes)
+CREATE src/app/home/home.component.ts (262 bytes)
+UPDATE src/app/app.module.ts (467 bytes)
+codes-Mac-mini:ng5 jh$ 
+{% endhighlight %}
+
+
+checkout the new folder which was created, by the generate components :
+
+
+<img src="https://spaceg.github.io/assets/images/angu_1.jpg">
+
+
+so now let's create some pages : 
+
+{% highlight ruby %}
+
+ $ ng g c about
+
+{% endhighlight %}
+
+see the terminal below: 
+
+
+{% highlight ruby %}
+
+codes-Mac-mini:ng5 jh$ ng g c about
+CREATE src/app/about/about.component.scss (0 bytes)
+CREATE src/app/about/about.component.html (24 bytes)
+CREATE src/app/about/about.component.spec.ts (621 bytes)
+CREATE src/app/about/about.component.ts (266 bytes)
+UPDATE src/app/app.module.ts (545 bytes)
+codes-Mac-mini:ng5 jh$ 
+
+{% endhighlight %}
+
+right now we gonna see the new pages in our Visual Code 
+
+<img src="https://spaceg.github.io/assets/images/angu_2.jpg">
+
+{% highlight ruby %}
+
+codes-Mac-mini:ng5 jh$ ng g c about
+CREATE src/app/about/about.component.scss (0 bytes)
+CREATE src/app/about/about.component.html (24 bytes)
+CREATE src/app/about/about.component.spec.ts (621 bytes)
+CREATE src/app/about/about.component.ts (266 bytes)
+UPDATE src/app/app.module.ts (545 bytes)
+codes-Mac-mini:ng5 jh$ 
+
+{% endhighlight %}
+
+
+now go back to the app.component.html file, this is our index file. 
+{% highlight ruby %}
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
+
+
+{% endhighlight %}
+
+
+Remove the Angular Html MarkUp : and let's create a routerLink: 
+{% highlight ruby %}
+
+<!--The content below is only a placeholder and can be replaced.-->
+
+<ul>
+
+    <li><a routerLink="">Home</a></li>
+
+</ul>
+
+
+
+
+<router-outlet></router-outlet>
+
+{% endhighlight %}
+
+
+
+Now you can also Link to the diffirent Pages: 
+{% highlight ruby %}
+
+
+<!--The content below is only a placeholder and can be replaced.-->
+
+<ul>
+  <li><a routerLink="">Home</a></li>
+  <li><a routerLink="about">About</a></li>
+</ul>
+
+
+
+
+<router-outlet></router-outlet>
+{% endhighlight %}
+
+
+
+Now you can see the Componetns at the about.components.ts page
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.scss']
+})
+export class AboutComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+in the main index.html file which gonna link the app-root ! 
+
+the <strong><code> <app-root></app-root> </code></strong>
+
+{% highlight ruby %}
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ng5</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+
+{% endhighlight %}
+
+
+Right now we gonna Design & Template Styling
+
+
+In the home.components.ts you find this Code : 
+
+
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+
+We can change something like this : in the component : 
+
+<code>templateURL</code>
+
+change it to : 
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  template: '
+  
+    <p>This is my Hello World!</p>
+
+  ,
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+Now go back to your Server and start your server with <code>ng serve</code>
+
+<img src="https://spaceg.github.io/assets/images/angu_3.jpg">
+
+
+
+
+now go back to your code: and change something : 
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+now we can change it allready in the home.components.html file 
+
+
+{% highlight ruby %}
+<div class="container color-dark">
+    <div class="col">
+      <p>Add Some Git List</p>
+    </div>
+    <div class="col">
+        <p>Your Git List</p>
+    </div>
+  </div>
+    <div class="container color-light">
+    <div class="col">
+        <p class="sm">Use The Form below to add new Git to the Gitlist</p>
+        <form>
+            <input type="text" class="txt" name="item" placeholder="Trendy Gits">
+            <input type="submit" class="btn" value="Add Item">
+          </form>
+    </div>
+    <div class="col">
+      <p class="git-container">
+            I want to be a Trendy Git
+      </p>
+    </div>
+</div>
+{% endhighlight %}
+
+
+
+Now let's go back to the home.components.ts , now let's change the styles.. 
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+
+{% endhighlight %}
+
+
+
+now let's change the styles.. 
+
+{% highlight ruby %}
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styles: ['
+  
+  p { font-weight: bold } div { color: gray }
+  
+  ']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+
+{% endhighlight %}
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_4.jpg">
+
+
+Now let's go back : CHange the follow code again : 
+
+
+{% highlight ruby %}
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styles: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+Now, finally we can also styling our css with scss file in the home.components.scss file 
+
+But, you find also some more styles.scss file in the root of your code : like  the file styles.scss 
+you can also add there your global styles ! 
+
+{% highlight ruby %}
+styles.scss 
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    background: rgb(255, 255, 255);
+    padding: 3em;
+    font-family: 'Open Sans', sans-serif; 
+    color: blue; 
+
+}
+ul {
+    list-style-type:none;
+    margin: 0 0 2em 0;
+    padding:0;
+
+}
+
+ul li {
+    display:inline;
+    margin-right: 30px; 
+
+}
+
+ul li a {
+    font-size: 1.5em ;
+}
+
+a {
+    color: blue; 
+}
+{% endhighlight %}
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_5.jpg">
+
+
+{% highlight ruby %}
+
+                                                                                          
+Date: 2018-05-20T15:09:04.448Z - Hash: aaba6bd1af515d64a753 - Time: 173ms
+4 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:09:06.027Z - Hash: aaba6bd1af515d64a753 - Time: 80ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:09:06.633Z - Hash: aaba6bd1af515d64a753 - Time: 98ms
+5 unchanged chunks
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                          
+Date: 2018-05-20T15:09:40.628Z - Hash: f6d4db58756d36f587f7 - Time: 133ms
+4 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+
+{% endhighlight %}
+
+
+See the Changes in the Terminal below: 
+<img src="https://spaceg.github.io/assets/images/angu_6.jpg">
+
+
+Now, let's go back to our home.components.scss file and code your css down like mine: 
+
+{% highlight ruby %}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4em 1.3em;
+}
+.color-dark {
+    background: rgb(222, 242, 255);
+}
+.color-light {
+    background: rgb(238, 248, 255);
+}
+
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+    border-radius: 4px;
+}
+input.btn {
+    border: 0;
+    display:block;
+    padding:1em 3em;
+    background:#A5F883;
+    color:#003A61;
+    margin-bottom:1em;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.git-container {
+    background:rgb(222, 242, 255);
+    padding:.5em;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius: 4px; 
+}
+{% endhighlight %}
+
+
+
+Now go back to the home.components.ts file and let0s change the components : 
+back to the <code> styleUrls:</code>
+
+{% highlight ruby %}
+
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+{% endhighlight %}
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_7.jpg">
+
+What a amazing workflow?! :) isn't it ? :) Okey let's go forward ! 
+
+
+
+
+<img src="https://spaceg.github.io/assets/images/angu_8.jpg">
+
+
+
+
 Reade More @ our Files: 
 See the Issue Detail here on Github <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Go Read</a> 
 Link: <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Read More about on my Gist File.</a> 
