@@ -7,7 +7,7 @@ description: a flexible user back end cms
 
 <h1>Here you can see a preview of my first Prototype version v.0.1, how does it work.</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jCS4cTieJkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/jCS4cTieJkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 <img class="card-img-top" src="https://spaceg.github.io/works/assets/images/hr_14.jpg" alt="">
@@ -19,7 +19,7 @@ description: a flexible user back end cms
 
 {% endhighlight %}
 
-<iframe width="100%" height="615" src="https://www.youtube.com/embed/jCS4cTieJkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/jCS4cTieJkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Reade More @ our Files: 
 See the Issue Detail here on Github <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Go Read</a> 
