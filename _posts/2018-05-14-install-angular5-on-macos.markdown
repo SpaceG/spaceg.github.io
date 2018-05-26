@@ -1346,10 +1346,7 @@ add this in our Html file !
 
 
 
-Reade More @ our Files: 
-See the Issue Detail here on Github <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Go Read</a> 
-Link: <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Read More about on my Gist File.</a> 
-
+Reade More @ my Github  <a href="https://github.com/SpaceG/">Go Follow</a> 
 
 
 

@@ -131,9 +131,9 @@ Input this to your <code>routes.js</code> file.
 
 
 
-Reade More @ our Files: 
-See the Issue Detail here on Github <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Go Read</a> 
-Link: <a href="https://github.com/SpaceG/youtube/edit/master/mongo_db.md">Read More about on my Gist File.</a> 
+Reade More @ my Github: 
+If you find any issue write here on Github <a href="https://github.com/SpaceG/">Go Read</a> 
+
 
 
 
