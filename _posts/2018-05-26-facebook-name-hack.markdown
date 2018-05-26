@@ -1,6 +1,6 @@
 ---
 title:  "Facebook - Name Hack 2018"
-date:   2018-05-26 10:18:00
+date:   2018-05-25 10:18:00
 description: set only first name with proxy
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">Small Facebook Hack - How Set Only Firstname for your Facebook Profile.</h2>
@@ -44,6 +44,9 @@ Enjoy.
 
 Go See my Github: 
 See the Issue Detail here on Github <a href="https://github.com/SpaceG/">Go Read</a> 
+
+
+
 
 
 
