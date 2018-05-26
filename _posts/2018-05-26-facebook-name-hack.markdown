@@ -11,8 +11,7 @@ description: set only first name with proxy
 Then Use in your Settings the Language 
 Like in the Image! 
 
-<img class="card-img-top" src="https://spaceg.github.io/works/assets/images/facebook-q.jpg" alt="">
-
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/facebook-q.jpg" alt="">
 
 
 Then Go Back into your Firefox Browser opne your Settings, Then go to the Network Proxy! 
@@ -27,14 +26,14 @@ Then Go Back into your Firefox Browser opne your Settings, Then go to the Networ
 
 
 <h1>Configure Proxies to Access the Internet</h1>
-<img class="card-img-top" src="https://spaceg.github.io/works/assets/images/proxy-firefox.jpg" alt="">
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/proxy-firefox.jpg" alt="">
 
 Use Manual proxy configuration
 
 THen go Back to your Facebook Account: 
 
 
-<img class="card-img-top" src="https://spaceg.github.io/works/assets/images/facebook-q2-2.jpg" alt="">
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/facebook-q2-2.jpg" alt="">
 
 
 Remove your Lastname ! Then Save! After that, it will be open a pop up, type your Password and save! Finish that Hack. ! - 
