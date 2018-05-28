@@ -1,7 +1,7 @@
 ---
 title:  "Facebook - oAuth Login / Register with SailsJS"
-date:   2018-05-25 10:18:00
-description: set only first name with proxy
+date:   2018-05-28 10:18:00
+description: Get authentication for Facebook
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">Get Facebook oAuth with passportjs for the SailsJs Framework</h2>
 
