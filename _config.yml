@@ -9,7 +9,7 @@ highlighter: rouge
 
 plugins: [jekyll-paginate]
 paginate: 20
-domain_name: 'http://spaceg.github.io'
+domain_name: 'https://spaceg.github.io'
 google_analytics: 'UA-98626242-1'
 disqus: true
 disqus_shortname: 'spaceg-1'
