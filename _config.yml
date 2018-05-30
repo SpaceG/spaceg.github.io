@@ -11,8 +11,8 @@ plugins: [jekyll-paginate]
 paginate: 20
 domain_name: 'http://spaceg.github.io'
 google_analytics: 'UA-98626242-1'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'spaceg-1'
 
 # Details for the RSS feed generator
 url:            'http://spaceg.github.io'
