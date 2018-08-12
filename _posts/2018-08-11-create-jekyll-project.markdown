@@ -1,6 +1,6 @@
 ---
 title:  "Create a Jekyll Project"
-date:   2018-05-28 10:18:00
+date:   2018-08-11 10:18:00
 description: and launch it the right way! 
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">Start with Static Html Pages</h2>
