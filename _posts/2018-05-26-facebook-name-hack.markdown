@@ -25,6 +25,9 @@ Then Go Back into your Firefox Browser opne your Settings, Then go to the Networ
 {% endhighlight %}
 
 
+
+
+
 <h1>Configure Proxies to Access the Internet</h1>
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/proxy-firefox.jpg" alt="">
 
