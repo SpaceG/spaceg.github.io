@@ -14,9 +14,22 @@
 
 </description>
         
-        <pubDate>Mon, 28 May 2018 12:18:00 +0200</pubDate>
+        <pubDate>Sat, 11 Aug 2018 12:18:00 +0200</pubDate>
         <link>http://localhost:4000/2018/create-jekyll-project/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/create-jekyll-project/</guid>
+      </item>
+    
+      <item>
+        <title>Get Start with Angular Material UI/UX</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;Google Angular 5 Material Design&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Aug 2018 12:18:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/Angular-Material-Design-ui-ux/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Angular-Material-Design-ui-ux/</guid>
       </item>
     
       <item>
@@ -121,19 +134,6 @@
         <pubDate>Sat, 12 May 2018 12:18:00 +0200</pubDate>
         <link>http://localhost:4000/2018/nodemailerform-in-nodejs/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/nodemailerform-in-nodejs/</guid>
-      </item>
-    
-      <item>
-        <title>git config --local credential.helper </title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;This Partial shows, you how to slove your conflict with your local and remote github git Repositorys&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Tue, 08 May 2018 12:18:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/handle-premission-github-git-config-local-credential-helper/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/handle-premission-github-git-config-local-credential-helper/</guid>
       </item>
     
   </channel>
