@@ -52,7 +52,7 @@ $ npm install --save @angular/cdk@5.2.4.
 
 
 lets have a look at stackoverflow : 
-<a href="https://stackoverflow.com/questions/50134205/error-ts2315-type-elementref-is-not-generic">https://stackoverflow.com/questions/50134205/error-ts2315-type-elementref-is-not-generic
+<a href="https://stackoverflow.com/questions/50134205/error-ts2315-type-elementref-is-not-generic#comment88409375_50134524">https://stackoverflow.com/questions/50134205/error-ts2315-type-elementref-is-not-generic
 </a>
 
 

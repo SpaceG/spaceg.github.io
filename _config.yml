@@ -8,7 +8,7 @@ markdown: kramdown
 highlighter: rouge
 
 plugins: [jekyll-paginate]
-paginate: 20
+paginate: 30
 domain_name: 'https://spaceg.github.io'
 google_analytics: 'UA-98626242-1'
 disqus: true
