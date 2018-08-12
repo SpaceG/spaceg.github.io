@@ -9,9 +9,6 @@ description: Get authentication for Facebook
 
 
 
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/c2sL2eXOyC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <h1>This is the passportJS file for the oAuth</h1>
 
 
