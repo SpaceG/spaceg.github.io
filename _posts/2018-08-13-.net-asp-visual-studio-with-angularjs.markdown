@@ -16,6 +16,182 @@ Welcome to Part One of a series of articles regarding AngularJS and ASP.NET MVC,
 
 
 
+
+
+
+
+
+Angular 6 is announced recently which has introduced some pretty awesome features.
+
+Let us see how to create Angular 6 application with and without using .Net Core SPA templates using Visual Studio 2017.
+
+There are more than one ways to create Angular 6 application with .Net Core, Let us see some of them.
+
+Make sure you have instilled Visual Studio 2017 & .Net Core latest SDK and of course Node & Angular CLI.
+
+Without using SPA Template
+In this approach we will not use any template and will add Angular 6 within an API project.
+
+Create the Angular application using .Net Core 2.0 template in VS 2017
+Once you have all these installed, open your Visual Studio 2017 -> Create New Project -> Select Core Web application:
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang9.png" alt="">
+
+
+
+Click on Ok and in next window, select API as shown below:
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang10.png" alt="">
+
+
+Once the API project is created, open Command prompt and navigate to the project folder -> run command:
+
+ng new ClientApp
+
+This will create Angular 6 application within API project.
+
+Next task is to run our Angular application with .Net Core. For this we need to add some code within Startup.cs class.
+
+Add below lines in ConfigureService method:
+
+{% highlight ruby %}
+
+
+services.AddSpaStaticFiles(configuration =>
+{
+configuration.RootPath = "ClientApp/dist";
+});
+
+{% endhighlight %}
+
+
+
+Add below lines in Configure method:
+
+
+
+{% highlight ruby %}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseSpaStaticFiles();
+ 
+app.UseHttpsRedirection();
+app.UseMvc();
+ 
+app.UseSpa(spa =>
+{
+spa.Options.SourcePath = "ClientApp";
+ 
+if (env.IsDevelopment())
+{
+spa.UseAngularCliServer(npmScript: "start");
+}
+});
+
+{% endhighlight %}
+
+
+Above code adds required configuration for running Angular code with .Net Core.
+
+Note: Make sure the property “launchUrl”: “api/values” is not present in the Properties/launchSettings.json, if it is available then delete it.
+
+Just run the application in the browser:
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang11.png" alt="">
+
+Your Angular 6 application is now running with .Net Core.
+
+With SPA Template
+In first approach, we have not used SPA template to create Angular app, in this approach we will use the Angular template.
+
+Create the Angular application using .Net Core 2.1 template in VS 2017
+Once you have all these installed, open your Visual Studio 2017 -> Create New Project -> Select Core Web application:
+
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang1.png" alt="">
+
+
+Click on Ok and in next window, select Angular as shown below:
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang2.png" alt="">
+
+
+
+
+
+Visual Studio will create a well-structured application for you.
+
+If you compare latest project structure with the previous versions then you would notice that the Views folder is no more there:
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang3.png" alt="">
+
+
+We do not need that Views folder now.
+
+Delete ClientApp and install Angular 6
+If you open package.json file under ClientApp folder, you would notice the Angular version is 5.0 but we want to create Angular 6 application.
+
+So go to File explorer and delete ClientApp folder:
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang41.png" alt="">
+
+
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang41.png" alt="">
+
+
+
+Once the folder is deleted, open Command prompt and navigate to the project and run command:
+{% highlight ruby %}
+ng new ClientApp
+{% endhighlight %}
+This command will create brand new Angular application with latest version.
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang5.png" alt="">
+
+Once the process is completed, go back to solution explorer -> ClientApp -> package.json file, it should show Angular 6.0 references:
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang6.png" alt="">
+
+That is it. We have just created Angular 6 application with .Net Core.
+
+Let us try to use any random Angular 6 feature just to make sure we have latest Angular 6 code.
+
+
+
+Test Library feature
+We will test the library feature which has been shipped with Angular 6.
+
+Open the command prompt again and navigate to ClientApp folder -> run command:
+
+ng generate library my-shared-library
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang7.png" alt="">
+Logs in the window confirms that we have Angular 6 now. Library would be created under the ClientApp -> Projects folder:
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ang8.png" alt="">
+
+
+
+
 Material Design for Angular 6 : 
  <a href="https://material.io/design/color/#">https://material.io/design/color/#</a>
 
