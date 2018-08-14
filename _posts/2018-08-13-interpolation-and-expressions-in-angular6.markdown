@@ -199,10 +199,118 @@ now, we go a head with our interpolation and expressions in our angular 6 source
 
 
 
+<h1>Interpolation and Expressions</h1>
+
+
+{% highlight ruby %}
+//{ { myfire } }
+{% endhighlight %}
+
+or
+
+
+{% highlight ruby %}
+//{ { 5+2 } }
+{% endhighlight %}
+
+
+or 
+
+{% highlight ruby %}
+//{ { 5*2 } }
+{% endhighlight %}
+
+
+
+<h1>This is our Interpolation & Expressions Script and Examples !</h1>
+
+This is our fire.component.html 
+
+
+{% highlight ruby %}
+<p>
+  This is our Angular 6 App Fire!
+</p>
+
+<!-- // (1). set here our Variable -->
+{ { myVariable }}
+
+
+<!-- // (2). set here our bitwiseOR  -->
+{ { bitwiseOR }}
+
+<!-- // (3). someTask |  -->
+{ { doSomeHeavyTask() } }
+ 
+{% endhighlight %}
+
+
+
+now lets go back to our fire.component.ts file and write down the code example: 
 
 
 
 
+{% highlight ruby %}
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-fire',
+  templateUrl: './fire.component.html',
+  styleUrls: ['./fire.component.css']
+})
+export class FireComponent implements OnInit {
+
+
+// (1). set here our Variable 
+
+myVariable = "MyFire"
+
+// (2). set here our bitwiseOR  
+
+bitwiseOR = 2 | 5 // 010 101 => 0 | 1 = 1 then 1 | 0 is 1 | then 0 | 1 = 1; 111
+
+// (3). ${this.i++} from the ConsoleLOG 
+i = 0 
+
+// (4). setInterval 
+someVar = Math.random()
+
+
+// The Constructor 
+
+  constructor() { 
+
+  }
+
+
+// (3). someTask | 
+    // here we start the console.log 
+
+doSomeHeavyTask() {
+  console.log(`Called ${this.i++} times`) 
+}
+
+
+  ngOnInit() {
+
+    // (4). setInterval 
+
+    setInterval(()=> {
+
+      this.someVar = Math.random()
+
+    }, 50)
+  }
+
+}
+
+
+{% endhighlight %}
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/dd_2.png" alt="">
 
 
 
