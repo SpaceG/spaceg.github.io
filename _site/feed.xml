@@ -7,6 +7,20 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Interpolation and Expressions</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 - short project&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 14 Aug 2018 12:18:03 +0200</pubDate>
+        <link>http://localhost:4000/2018/interpolation-and-expressions-in-angular6/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/interpolation-and-expressions-in-angular6/</guid>
+      </item>
+    
+      <item>
         <title> ASP.NET MVC Angular 6 + Material </title>
         
         
@@ -122,19 +136,6 @@ Welcome to Part One of a series of articles regarding AngularJS and ASP.NET MVC,
         <pubDate>Sun, 20 May 2018 12:18:00 +0200</pubDate>
         <link>http://localhost:4000/2018/hypeFramework-nodejs-sailsjs-userbackend-cms/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/hypeFramework-nodejs-sailsjs-userbackend-cms/</guid>
-      </item>
-    
-      <item>
-        <title>oAuth with PassportJS &amp; SailsJS</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;Create a Login script which allow users to login and signup with social media accounts.&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 14 May 2018 12:18:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/oauth-with-passportjs-twitter-github/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/oauth-with-passportjs-twitter-github/</guid>
       </item>
     
   </channel>
