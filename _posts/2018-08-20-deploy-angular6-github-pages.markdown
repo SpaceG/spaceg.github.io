@@ -53,6 +53,9 @@ sudo npm i -g angular-cli-ghpages
 while we running our commandline, we create a new repository on github. sign in to your github account, create a new github repo. with the same name of your local repo. like mine <code>my-deploy</code>
 
 
+
+
+
 {% highlight ruby %}
 codes-Mac-mini:my-deploy jh$ sudo npm i -g angular-cli-ghpages
 Password:
