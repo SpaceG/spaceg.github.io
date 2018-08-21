@@ -120,6 +120,8 @@ git push -u origin master
 
 
 the we have to give our User name for 
+{% highlight ruby %}
+
 codes-Mac-mini:my-deploy jh$ git push -u origin master
 Username for 'https://github.com': 
 {% endhighlight %}
