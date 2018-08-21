@@ -183,6 +183,19 @@ ng build --prod --output-path 'my-deploy' --base-href "https://spaceg.github.io/
 
 {% endhighlight %}
 
+or 
+{% highlight ruby %}
+
+ng build --prod --base-href https://spaceg.github.io/my-ngdeploy/
+{% endhighlight %}
+
+or
+{% highlight ruby %}
+
+ng build --prod --base-href=/my-ngdeploy/
+{% endhighlight %}
+
+
 
 then we deploy it finally to GitHub!
 
