@@ -354,6 +354,10 @@ Microsoft  Hello World Sample using AngularJS framework along with ASP.Net MVC5:
 
 
 
+
+
+
+
 Visual Studio IDE für Windows und Mac: 
  <a href="https://visualstudio.microsoft.com/de/?rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Faspnet%2Fweb-api%2Foverview%2Fgetting-started-with-aspnet-web-api%2Fbuild-a-single-page-application-spa-with-aspnet-web-api-and-angularjs">https://visualstudio.microsoft.com/de/?rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Faspnet%2Fweb-api%2Foverview%2Fgetting-started-with-aspnet-web-api%2Fbuild-a-single-page-application-spa-with-aspnet-web-api-and-angularjs
 </a>
