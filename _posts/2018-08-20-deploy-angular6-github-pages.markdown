@@ -176,23 +176,23 @@ ng build 'my-deploy' --prod --base-href https://spaceg.github.io/my-deploy/
 
 or 
 
+
+
 {% highlight ruby %}
-
-
 ng build --prod --output-path 'my-deploy' --base-href "https://spaceg.github.io/my-deploy/"
-
 {% endhighlight %}
 
 or 
-{% highlight ruby %}
 
-ng build --prod --base-href https://spaceg.github.io/my-ngdeploy/
+
+{% highlight ruby %}
+ng build --prod --base-href https://spaceg.github.io/my-deploy/
 {% endhighlight %}
 
 or
-{% highlight ruby %}
 
-ng build --prod --base-href=/my-ngdeploy/
+{% highlight ruby %}
+ng build --prod --base-href=/my-deploy/
 {% endhighlight %}
 
 
@@ -200,8 +200,7 @@ ng build --prod --base-href=/my-ngdeploy/
 then we deploy it finally to GitHub!
 
 {% highlight ruby %}
-
-sudo ngh --dir=dist/my-deploy
+sudo ngh --dir=dist/my-deploy/
 {% endhighlight %}
 
 my Terminal Output!
