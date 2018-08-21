@@ -129,6 +129,9 @@ Username for 'https://github.com':
 type down your github username and passwort like mine  below : 
 
 
+
+
+
 {% highlight ruby %}
 
 codes-Mac-mini:my-deploy jh$ git push -u origin master
