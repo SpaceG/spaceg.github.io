@@ -12,6 +12,10 @@ Angular 6 - short project</h2>
 <small>.Net Core, .Net Core 2.1, Angular .Net, Angular .Net core, Angular .Net core 2.0, Angular 6 .Net Core, Angular Visual studio, ASP .Net Core, ASP .Net Core 2.0, Asp .Net Core 2.1, asp.netcore2.0, Core 2.0, Visual Studio 2017</small>
 
 
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/LIYOCaQHUg4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 {% highlight ruby %}
 ng new my-deploy
 {% endhighlight %}
