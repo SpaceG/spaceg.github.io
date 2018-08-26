@@ -15,7 +15,6 @@ In the following style.scss ( Sass - Stylesheet File) you can inlude your global
 
 in the app.components.html the very root of your html - file you can also change the html, template and include your own html template.
 
-
 {% highlight ruby %}
 <div style="text-align:center">
   <h1>
@@ -35,14 +34,38 @@ in the app.components.html the very root of your html - file you can also change
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
+<router-outlet></router-outlet>
+
+{% endhighlight %}
+
+
+we can also remove the standart of the angular html. 
+include your own. 
+
+
+let the router-oulet in that .hmtl file
+
+
+{% highlight ruby %}
+
+<router-outlet></router-outlet>
+
 {% endhighlight %}
 
 
 
+now we gonna include our router links. 
 
 
+{% highlight ruby %}
 
+<ul>
+  <li><a router-Link="">Home</a></li>
+  <li><a router-Link="about">About</a></li>
+</ul>
+<router-outlet></router-outlet>
 
+{% endhighlight %}
 
 
 
