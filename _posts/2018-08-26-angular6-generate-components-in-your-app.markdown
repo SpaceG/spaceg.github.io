@@ -1,5 +1,5 @@
 ---
-title:  "Generate Anguler 6 Components - CLI"
+title:  "Generate Angular 6 Components - CLI"
 date:   2018-08-26 10:18:04
 description: get start with components
 ---
