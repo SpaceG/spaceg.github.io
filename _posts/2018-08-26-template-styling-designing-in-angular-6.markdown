@@ -42,6 +42,9 @@ in the home.component.html you can include your html in your on way, like you wa
 or you can go with the styles
 
 
+
+
+
 {% highlight ruby %}
 
 @Component ({
