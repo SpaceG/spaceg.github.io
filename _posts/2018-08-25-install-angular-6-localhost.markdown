@@ -8,9 +8,6 @@ Install Angular 6</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI </small>
 
-In the following style.scss ( Sass - Stylesheet File) you can inlude your global stylesheets. And create sameTime with routing commandline CLI form Angular to your App ( Project) style home.component.css file. for only that session. 
-
-
 <h1>Install Angular 6</h1>
 
 <iframe width="100%" height="615" src="https://www.youtube.com/embed/MST99Q8ZOnE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -19,6 +16,8 @@ Doc Install Guide Angular 5
 <a href="https://angular.io/guide/quickstart">https://angular.io/guide/quickstart</a>
 
 Then install the Angular CLI globally.
+<a href="https://cli.angular.io/">https://cli.angular.io/</a>
+
 
 
 {% highlight ruby %}
