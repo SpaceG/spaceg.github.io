@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 Interpolation, Property & Event Binding"
+title:  "Angular 6 - Interpolation, Property & Event Binding"
 date:   2018-08-26 11:18:33
 description: get start with Angular Template & Styling
 ---

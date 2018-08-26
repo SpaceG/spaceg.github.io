@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 Template & Styling"
+title:  "Angular 6 - Template & Styling"
 date:   2018-08-26 10:18:23
 description: get start with Angular Template & Styling
 ---
