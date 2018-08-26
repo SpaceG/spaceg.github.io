@@ -69,6 +69,11 @@ export class AppRoutingModule { }
 
 
 
+
+
+
+
+
 Set Up follwing commandlines for testing. etc.
 
 wiki of angular commandline interface 
