@@ -67,6 +67,14 @@ export class AppRoutingModule { }
 {% endhighlight %}
 
 
+this is the app.component.html file 
+{% highlight ruby %}
+<ul>
+  <li><a routerLink="">Home</a></li>
+  <li><a routerLink="about">About</a></li>
+</ul>
+<router-outlet></router-outlet>
+{% endhighlight %}
 
 
 
