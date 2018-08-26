@@ -8,7 +8,7 @@ Angular Template & Styling</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI </small>
 
-Create New Angular 6 Project, with the following scss ( Sass - Stylesheet File) to but in your styles there in that easy file. And create sameTime with routing commandline CLI form Angular to your App ( Project).
+In the following style.scss ( Sass - Stylesheet File) you can inlude your global stylesheets. And create sameTime with routing commandline CLI form Angular to your App ( Project) style home.component.css file. for only that session. 
 
 
 <h1>Template & Design Styling in Angular 6</h1>
@@ -26,54 +26,7 @@ to
 
 
 
-{% highlight ruby %}
-@Component ({
-    selector: 'app-home',
-    template:'<p>This is my Home Template</p>',
-    styleUrls: ['./home.component.scss']
-})
-{% endhighlight %}
-
-or another example: 
-
-in the home.component.html you can include your html in your on way, like you want..
-
-{% highlight ruby %}
-<div class="container color-blue"><h1>Hello World</h1></div>
-{% endhighlight %}
-
-or you can go with the styles
-
-
-
-
-
-{% highlight ruby %}
-
-@Component ({
-    selector: 'app-home',
-     templateUrl:'./home.component.html',
-    styleUrls: ['./home.component.scss']
-})
-{% endhighlight %}
-
-
-
-
-
-change it to the styles
-{% highlight ruby %}
-
-@Component ({
-    selector: 'app-home',
-     templateUrl:'./home.component.html',
-    styles: ['h1 {color: red; font-size: 34px;}']
-})
-{% endhighlight %}
-
-
 or your can include your style global in your style.scss for example. - or you can input your style in to your extrenal component which we have created the home.component.css - the css will only rendering that css from that .css file not in the global stylesheet. - thats makes angular fast and nice. 
-
 
 
 

@@ -1,50 +1,77 @@
 ---
-title:  "Generate Angular 6 Components - CLI"
-date:   2018-08-26 10:18:04
-description: get start with components
+title:  "Angular 6 Interpolation, Property & Event Binding"
+date:   2018-08-26 11:18:33
+description: get start with Angular Template & Styling
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">
-Angular/CLI - Generate Components with CLI Interface</h2>
-
-
-<h1>Generate pages and components</h1>
+Angular 6 - Interpolation, Property & Event Binding</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI </small>
 
-Create New Angular 6 Project, with the following scss ( Sass - Stylesheet File) to but in your styles there in that easy file. And create sameTime with routing commandline CLI form Angular to your App ( Project). 
+
+<h1>Interpolation, Property & Event Binding</h1>
+
+in the home.components.ts change the 
+{% highlight ruby %}
+@Component ({
+    selector: 'app-home',
+    templateUrl:'./home.component.html',
+    styleUrls: ['./home.component.scss']
+})
+{% endhighlight %}
+to
+
+
 
 
 {% highlight ruby %}
-$ ng new ng5 --style=scss --routing 
+@Component ({
+    selector: 'app-home',
+    template:'<p>This is my Home Template</p>',
+    styleUrls: ['./home.component.scss']
+})
 {% endhighlight %}
 
-check out the following commandlines for the command-line interface of angular 
+or another example: 
 
-Open your Project!
-{% highlight ruby %}
-$ cd ng5 
-{% endhighlight %}
-
-Then we can generate finally our Components with the command.
-
-{% highlight ruby %}
-$ ng generate component home
-{% endhighlight %}
-
-or we can doing the with the following command. 
+in the home.component.html you can include your html in your on way, like you want..
 
 {% highlight ruby %}
-$ ng g c ( your page name ) home
-// its gonna be looks like this
-$ ng g c home
+<div class="container color-blue"><h1>Hello World</h1></div>
 {% endhighlight %}
 
+or you can go with the styles
 
-or you want create a specific page
+
+
+
 
 {% highlight ruby %}
-$ ng g c about
+
+@Component ({
+    selector: 'app-home',
+     templateUrl:'./home.component.html',
+    styleUrls: ['./home.component.scss']
+})
 {% endhighlight %}
+
+
+
+
+
+change it to the styles
+{% highlight ruby %}
+
+@Component ({
+    selector: 'app-home',
+     templateUrl:'./home.component.html',
+    styles: ['h1 {color: red; font-size: 34px;}']
+})
+{% endhighlight %}
+
+
+
+
 
 
 
