@@ -58,14 +58,44 @@ now we gonna include our router links.
 
 
 {% highlight ruby %}
-
 <ul>
   <li><a router-Link="">Home</a></li>
   <li><a router-Link="about">About</a></li>
 </ul>
 <router-outlet></router-outlet>
-
 {% endhighlight %}
+
+
+and include our templates fromt the home and about components :
+
+{% highlight ruby %}
+<ul>
+  <li><a router-Link="">Home</a></li>
+  <li><a router-Link="about">About</a></li>
+</ul>
+<!--link the app about page-->
+<app-about></app-about>
+<!--link the app home page-->
+<app-home></app-home>
+<router-outlet></router-outlet>
+{% endhighlight %}
+
+
+from the home.component.ts and about.components.ts file selector
+
+
+
+{% highlight ruby %}
+@Component({
+  selector: 'app-home',
+{% endhighlight %}
+and
+{% highlight ruby %}
+@Component({
+  selector: 'app-about',
+{% endhighlight %}
+
+
 
 
 
