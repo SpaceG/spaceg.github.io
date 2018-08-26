@@ -44,6 +44,11 @@ $ ng g c home
 
 
 
+
+
+
+
+
 Set Up follwing commandlines for testing. etc.
 
 wiki of angular commandline interface 
