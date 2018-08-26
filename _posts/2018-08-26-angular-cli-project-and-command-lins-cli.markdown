@@ -7,9 +7,9 @@ description: get start with Angular CLI
 Angular/CLI - Command-Lines Interface</h2>
 
 
-<h1>find the hidden  ~/.ssh/ folder in your Machine!</h1>
+<h1>start with your ng --help in Angular to see all commandlines in CLI</h1>
 
-<small>~/.ssh/github_rsa.pub</small>
+<small>Angular CLI Interface</small>
 
 
 {% highlight ruby %}
