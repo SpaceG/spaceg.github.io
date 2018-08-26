@@ -40,6 +40,68 @@ $ ng g c home
 {% endhighlight %}
 
 
+or you want create a specific page
+
+{% highlight ruby %}
+$ ng g c about
+{% endhighlight %}
+
+
+
+
+<h1>Template & Design Styling in Angular 6</h1>
+
+in the home.components.ts change the 
+{% highlight ruby %}
+@Component ({
+    selector: 'app-home',
+    templateUrl:'./home.component.html',
+    styleUrls: ['./home.component.scss']
+})
+{% endhighlight %}
+to
+
+{% highlight ruby %}
+@Component ({
+    selector: 'app-home',
+    template:'<p>This is my Home Template</p>',
+    styleUrls: ['./home.component.scss']
+})
+{% endhighlight %}
+
+or another example: 
+
+in the home.component.html you can include your html in your on way, like you want..
+
+{% highlight ruby %}
+<div class="container color-blue"><h1>Hello World</h1></div>
+{% endhighlight %}
+
+or you can go with the styles
+
+
+{% highlight ruby %}
+
+@Component ({
+    selector: 'app-home',
+     templateUrl:'./home.component.html',
+    styleUrls: ['./home.component.scss']
+})
+{% endhighlight %}
+
+
+change it to the styles
+{% highlight ruby %}
+
+@Component ({
+    selector: 'app-home',
+     templateUrl:'./home.component.html',
+    styles: ['h1 {color: red; font-size: 34px;}']
+})
+{% endhighlight %}
+
+
+or your can include your style global in your style.scss for example. - or you can input your style in to your extrenal component which we have created the home.component.css - the css will only rendering that css from that .css file not in the global stylesheet. - thats makes angular fast and nice. 
 
 
 
