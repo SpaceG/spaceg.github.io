@@ -1,6 +1,6 @@
 ---
 title:  "Angular 6 Template & Styling"
-date:   2018-08-26 10:18:09
+date:   2018-08-26 10:18:23
 description: get start with Angular Template & Styling
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">
@@ -22,6 +22,9 @@ in the home.components.ts change the
 })
 {% endhighlight %}
 to
+
+
+
 
 {% highlight ruby %}
 @Component ({
