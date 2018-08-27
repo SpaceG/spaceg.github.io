@@ -18,7 +18,7 @@ $ ng --help
 
 check out the following commandlines for the command-line interface of angular 
 
-
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/YRpd3UXxocU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 {% highlight ruby %}
 $ codes-Mac-mini:~ jh$ ng
