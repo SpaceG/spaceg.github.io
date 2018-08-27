@@ -11,8 +11,6 @@
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ "/" | relative_url  }}feed.xml">
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/highlight.css">
 
-  <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/fancybox/jquery.fancybox.css">
-  <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css3/stylesheets.css">
 
 </head>
 <body>
@@ -27,94 +25,6 @@
     {{ content }}
   </section>
 
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="{{ "/" | relative_url  }}assets/fancybox/jquery.fancybox.pack.js"></script>
-  <script src="{{ "/" | relative_url  }}assets/js/jquery.tubber.min.js"></script>
-  
-
-
-
- 
-  <script>
-    $.fn.tubber.defaults.apiKey = 'AIzaSyDqzmfeV62e1PAPRvZggro0P2DXhuNWW3k';
-
-    // Example 1 - Simple last video
-    $('#example1-container').tubber({
-      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
-      itemsPerPage: 3
-    });
-
-    // Example 2 - Gallery with videos opening in their YouTube pages
-    $('#example2-container').tubber({
-      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
-      itemsPerPage: 18,
-      embedVideo: false,
-      loadingControl: $('#example2-loading'),
-      prevPageControl: $('#example2-prev-page'),
-      nextPageControl: $('#example2-next-page'),
-      templates: {
-        thumbnail: '<img src="{{image_medium}}">'
-      }
-    });
-
-    // Example 3 - Gallery with embed videos
-    $('#example3-container').tubber({
-      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
-      itemsPerPage: 6,
-      loadingControl: $('#example3-loading'),
-      prevPageControl: $('#example3-prev-page'),
-      nextPageControl: $('#example3-next-page')
-    });
-
-
-
-
-    // Example 4 - Gallery with videos opening through the Fancybox
-    $('#example4-container').tubber({
-      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
-      itemsPerPage: 6,
-      embedVideo: false,
-      showVideoTitle: true,
-      loadingControl: $('#example4-loading'),
-      prevPageControl: $('#example4-prev-page'),
-      nextPageControl: $('#example4-next-page'),
-      mediaViewer: function (videoId) {
-        $.fancybox.open({
-          type: 'html',
-          content: '<iframe width="720" height="405" src="https://www.youtube.com/embed/' + videoId + '?autoplay=1" frameborder="0" allowfullscreen></iframe>',
-          padding: 0,
-          helpers : {
-                overlay : {
-                    css : {
-                        'background' : 'rgba(0, 0, 0, .85)'
-                    }
-                }
-            }
-        });
-      },
-      templates: {
-        thumbnail: '<img src="{{image_medium}}">'
-      }
-    });
-
-    // Example 5 - Gallery with thumbnails and an area to show the selected video
-    $('#example5-container').tubber({
-      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
-      itemsPerPage: 6,
-      embedVideo: false,
-      loadingControl: $('#example5-loading'),
-      prevPageControl: $('#example5-prev-page'),
-      nextPageControl: $('#example5-next-page'),
-      mediaViewer: $('#example5-media-viewer'),
-      templates: {
-        thumbnail: '<img src="{{image_medium}}">'
-      }
-    });
-
-    $('.show-code').click(function () {
-      $(this).closest('.example').find('.code').toggle();
-    });
-  </script>
 
 
 
