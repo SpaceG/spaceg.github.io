@@ -468,7 +468,6 @@ img {
 
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/highlight.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
@@ -493,7 +492,7 @@ img {
 
     // Example 1 - Simple last video
     $('#example1-container').tubber({
-      username: 'youtube',
+      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
       itemsPerPage: 1
     });
 
@@ -512,12 +511,15 @@ img {
 
     // Example 3 - Gallery with embed videos
     $('#example3-container').tubber({
-      username: 'youtube',
+      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
       itemsPerPage: 6,
       loadingControl: $('#example3-loading'),
       prevPageControl: $('#example3-prev-page'),
       nextPageControl: $('#example3-next-page')
     });
+
+
+
 
     // Example 4 - Gallery with videos opening through the Fancybox
     $('#example4-container').tubber({
@@ -549,7 +551,7 @@ img {
 
     // Example 5 - Gallery with thumbnails and an area to show the selected video
     $('#example5-container').tubber({
-      username: 'youtube',
+      playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
       itemsPerPage: 6,
       embedVideo: false,
       loadingControl: $('#example5-loading'),
