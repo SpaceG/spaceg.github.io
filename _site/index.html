@@ -10,272 +10,10 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
-<style>
 
+  <link rel="stylesheet" href="/assets/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="/assets/css3/stylesheets.css">
 
-  body {
-	font-family: 'Lato', sans-serif;
-	color: #E74C3C;
-}
-
-small {
-	color: #9B9B9B;
-}
-
-img {
-	max-width: 100%;
-}
-
-.container {
-	max-width: 970px;
-	margin: auto;
-}
-
-/*
- * Main page *
- */
-
-.main-page {
-	text-align: center;
-}
-
-.plugin-name {
-	margin: 50px 0;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 144px;
-	font-weight: normal;
-	letter-spacing: -5px;
-}
-
-.plugin-description {
-	margin: 0;
-	font-size: 48px;
-	font-weight: normal;
-}
-
-.menu {
-	position: relative;
-	overflow: hidden;
-	max-width: 864px;
-	margin: 50px auto;
-	border-radius: 2px;
-}
-
-.menu .background {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	width: 100%;
-	height: 100%;
-	background: #E74C3C;
-	opacity: .80;
-}
-
-.menu .thumbnails img {
-	float: left;
-	width: 54px;
-	-webkit-filter:blur(3px);
-    filter:blur(3px);
-}
-
-.menu a,
-.menu small {
-	color: #fff;
-}
-
-.menu a {
-	font-size: 20px;	
-	text-decoration: none;
-	transition: opacity 0.1s;
-}
-
-.menu a:hover {
-	opacity: .7;
-}
-
-.menu small {
-	font-size: 18px;
-}
-
-.menu ul {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;	
-	right: 0;
-	z-index: 20;
-	height: 25px;
-	margin: auto;
-	padding: 0;
-	list-style-type: none;
-}
-
-.menu ul li {
-	display: inline-block;
-	margin: 0 15px;
-}
-
-.plugin-current-version {
-	font-size: 20px;
-	color: #9B9B9B;
-}
-
-/*
- * Examples *
- */
-
-.example .show-code {
-	display: inline-block;
-	float: right;
-	width: 20px;
-	height: 20px;
-	font-size: 15px;
-	text-align: center;
-	color: #fff;
-	background: #E74C3C;
-	border-radius: 100%;
-	cursor: pointer;
-}
-
-.example .code {
-	display: none;
-}
-
-.example .loading {
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	margin-left: 5px;
-	background: url(loading.gif) no-repeat;
-	vertical-align: middle;
-}
-
-.example .pagination {
-	padding: 10px 0;
-	text-align: center;
-}
-
-.example .pagination span {
-	display: inline-block;
-	padding: 8px;
-	margin: 0 1px;
-	border: 1px solid #E74C3C;
-	border-radius: 2px;
-	cursor: pointer;
-}
-
-.example .pagination span.disabled {
-	cursor: default;
-}
-
-.example .pagination span:hover:not(.disabled) {
-	color: #fff;
-	background: #E74C3C;
-}
-
-.example-container {
-	overflow: hidden;
-	margin: 0 -5px;
-}
-
-.example-container iframe,
-.example-container img {
-	display: block;
-}
-
-.example-container .video-item {
-	float: left;
-	box-sizing: border-box;
-	padding: 5px;
-	cursor: pointer;
-}
-
-/* Example 1 - Simple last video */
-
-#example1 iframe {
-	width: 310px;
-	height: 175px;
-}
-
-/* Example 2 - Gallery with videos opening in their YouTube pages */
-
-#example2 .video-item {
-	width: 16.66666666666667%;
-	transition: opacity 0.3s;
-}
-
-#example2 .example-container:hover .video-item {
-	opacity: .8;
-}
-
-#example2 .example-container:hover .video-item:hover {
-	opacity: 1;
-}
-
-#example2 .video-item img {
-	max-width: 100%;
-}
-
-/* Example 3 - Gallery with embed videos */
-
-#example3 .video-item {
-	width: 33.33333333333333%;
-}
-
-#example3 .video-item iframe {
-	width: 100%;
-	height: 175px;
-}
-
-/* Example 4 - Gallery with videos opening through the Fancybox */
-
-#example4 .video-item {
-	width: 20%;
-}
-
-#example4 .video-item:nth-child(6n) {
-	clear: both;
-}
-
-#example4 .video-item .title {
-	display: block;
-	margin-top: 5px;
-}
-
-/* Example 5 - Gallery with thumbnails and an area to show the selected video */
-
-#example5 .media-viewer {
-	float: left;
-}
-
-#example5 .media-viewer iframe {
-	width: 560px;
-	height: 315px;
-}
-
-#example5 .thumbnails {
-	overflow: hidden;
-}
-
-#example5 .example-container {
-	margin: 0;
-}
-
-#example5 .video-item {
-	overflow: hidden;
-	width: 50%;
-	height: 105px;
-	padding: 0;
-}
-
-#example5 .video-item.active {
-	opacity: .50;
-}
-</style>
- 
- 
- <link rel="stylesheet" href="https://wyllyan.github.io/tubber/fancybox/jquery.fancybox.css">
 </head>
 <body>
 
@@ -303,73 +41,75 @@ img {
             <h1>Lucas Gatsas</h1>
             <h2>I'm Angular 6, Ui/Ux, Sys-Admin & Front End Engineer</h2>
         </header>
+
+
+
+
     </section>
 
 
-	<div class="container">
+
+
+
+    <div class="container">
         <div class="example" id="example1">
             <h2>
-                <small>Example 1</small><br>
-                Simple last video
+                <small>Visit Angular Major Coding </small><br>
+                Last Angular 6 Tutorials 
                 <span class="show-code" title="Show the code">?</span>
             </h2>
-            <div class="code"><script src="https://gist.github.com/wyllyan/2ee8df13c3a6b8502a39.js"></script></div>
             <div class="example-container" id="example1-container"></div>
         </div>
 
-        <div class="example" id="example2">
+     <!--   <div class="example" id="example2">
             <h2>
                 <small>Example 2</small><br>
                 Gallery with videos opening in their YouTube pages
                 <span class="loading" id="example2-loading"></span>
                 <span class="show-code" title="Show the code">?</span>
             </h2>
-            <div class="code"><script src="https://gist.github.com/wyllyan/15cb8bea8489928d771d.js"></script></div>
             <div class="example-container" id="example2-container"></div>
             <div class="pagination">
                 <span id="example2-prev-page">< Previous</span>
                 <span id="example2-next-page">Next ></span>
             </div>
-        </div>
+        </div> -->
 
-        <div class="example" id="example3">
+      <!--  <div class="example" id="example3">
             <h2>
                 <small>Example 3</small><br>
                 Gallery with embed videos
                 <span class="loading" id="example3-loading"></span>
                 <span class="show-code" title="Show the code">?</span>
             </h2>
-            <div class="code"><script src="https://gist.github.com/wyllyan/7fa224fc87027047b657.js"></script></div>
             <div class="example-container" id="example3-container"></div>
             <div class="pagination">
                 <span id="example3-prev-page">< Previous</span>
                 <span id="example3-next-page">Next ></span>
             </div>
-        </div>
+        </div> --> 
 
         <div class="example" id="example4">
             <h2>
-                <small>Example 4</small><br>
-                Gallery with videos opening through the Fancybox
+                <small>Angular 6 Tutorials</small><br>
+                Let's get start with Angular 6 
                 <span class="loading" id="example4-loading"></span>
                 <span class="show-code" title="Show the code">?</span>
             </h2>
-            <div class="code"><script src="https://gist.github.com/wyllyan/02275d09f127388103ec.js"></script></div>
             <div class="example-container" id="example4-container"></div>
             <div class="pagination">
-                <span id="example4-prev-page">< Previous</span>
-                <span id="example4-next-page">Next ></span>
+              <!--  <span id="example4-prev-page">< Previous</span>
+                <span id="example4-next-page">Next ></span> --> 
             </div>
         </div>
 
-        <div class="example" id="example5">
+     <!--   <div class="example" id="example5">
             <h2>
                 <small>Example 5</small><br>
                 Gallery with thumbnails and an area to show the selected video
                 <span class="loading" id="example5-loading"></span>
                 <span class="show-code" title="Show the code">?</span>
             </h2>
-            <div class="code"><script src="https://gist.github.com/wyllyan/1cab01b6d95fc9ec0227.js"></script></div>
             <div class="media-viewer" id="example5-media-viewer"></div>
             <div class="thumbnails">
                 <div class="example-container" id="example5-container"></div>
@@ -377,9 +117,12 @@ img {
                     <span id="example5-prev-page">< Previous</span>
                     <span id="example5-next-page">Next ></span>
                 </div>
-            </div>				
+            </div>	-->			
         </div>
     </div>
+
+
+
 
 
 
@@ -571,43 +314,7 @@ img {
         </div>
 
 
-        <section>
-
-
-			<div class='example' id='example2'>
-				<h2>
-					<span class='loading' id='example2-loading'/>
-				</h2>
-				<div class='example-container' id='example2-container'/>
-				<div class='pagination'>
-					<span id='example2-prev-page'> Previous </span>
-					<span id='example2-next-page'>Next </span>
-				</div>
-			</div>
-
-			<div class='example' id='example3'>
-				<h2>
-					<span class='loading' id='example3-loading'/>
-				</h2>
-				<div class='example-container' id='example3-container'/>
-				<div class='pagination'>
-					<span id='example3-prev-page'> Previous </span>
-					<span id='example3-next-page'>Next </span>
-				</div>
-			</div>
-
-			<div class='example' id='example4'>
-				
-				<div class='example-container' id='example4-container'/>
-				<div class='pagination'>
-					<span id='example4-prev-page'> Previous </span>
-					<span id='example4-next-page'>Next </span>
-				</div>
-			</div>
-
-
-</section>
-
+        
 <section id="wrapper" class="home">
 
   
@@ -635,25 +342,14 @@ img {
 
   </section>
 
-  <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/highlight.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-
-
-
-
-
-
-
-
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="http://wyllyan.github.io/tubber/fancybox/jquery.fancybox.pack.js"></script>
-  <script src="https://wyllyan.github.io/tubber/jquery.tubber.min.js"></script>
+  <script src="/assets/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="/assets/js/jquery.tubber.min.js"></script>
   
+
+
+
+ 
   <script>
     $.fn.tubber.defaults.apiKey = 'AIzaSyDqzmfeV62e1PAPRvZggro0P2DXhuNWW3k';
 
@@ -691,7 +387,7 @@ img {
     // Example 4 - Gallery with videos opening through the Fancybox
     $('#example4-container').tubber({
       playlistId: 'PLl77zVBbAzdcl58vodL6Fo4LWqiVYTL2U',
-      itemsPerPage: 10,
+      itemsPerPage: 6,
       embedVideo: false,
       showVideoTitle: true,
       loadingControl: $('#example4-loading'),
@@ -737,6 +433,11 @@ img {
 
 
 
+
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 
 
