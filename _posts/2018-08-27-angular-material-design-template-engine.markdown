@@ -19,9 +19,31 @@ Create a New Angular 6 Project and start your app.
 $ ng new ng-space --routing --style=scss 
 $ cd ng-space
 $ ng serve --open
+$ code .
 {% endhighlight %}
 
+
+
+then  add angular material 
+
+{% highlight ruby %}
+$ ng add @angular/material
+{% endhighlight %}
+
+
+Then, generate the Navigation Menu to your Angular Project, easy via Command-Line CLI. It generate a new component with the Navigation!
+
+{% highlight ruby %}
+$ ng generate @angular/material:material-nav --name=main-nav
+{% endhighlight %}
+
+open your <strong>app.module.ts</strong> file, be sure you have aslo importet all packages from material design, which we need to set up our Navigation in our Themplate. 
 Then inside of your Angular , import some packages 1. material design 2. cdk 3. animations, to your Project. 
+
+then include in your app.component.html your output, or outlet, like
+{% highlight ruby %}
+< app-main-nav></ app-main-nav>
+{% endhighlight %}
 
 {% highlight ruby %}
 $ npm install --save @angular/material @angular/cdk @angular/animations
@@ -33,11 +55,9 @@ include and import your angular animations to your Angular Project.
 $ npm install --save angular/material2-builds angular/cdk-builds angular/animations-builds
 {% endhighlight %}
 
-then  add angular material 
 
-{% highlight ruby %}
-$ ng add @angular/material
-{% endhighlight %}
+
+
 
 
 
