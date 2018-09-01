@@ -8,9 +8,10 @@ Angular 6 - with Bootstrap 4</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI, Bootstrap 4 </small>
 
-In This Tutorial, i will show you, how to install Bootstrap 4 in to your Current Angeular 6 App. 
+In This Tutorial, i will show you, how to install Bootstrap 4 in to your Current Angular 6 App. 
 Okey Let's get start with Angular 6. 
 
+<strong>DEMO</strong> <a href="https://angular6-spaceg-judgement-day.stackblitz.io/">angular6-spaceg-judgement-day.stackblitz.io </a>
 
 <h1>Angular 6 & Bootstrap 4</h1>
 
@@ -326,7 +327,7 @@ in the carousel-basic.html we include this code below :
   
 
 
-  
+
 
 right now, we can update the app.component.html file in our Angular App
 
