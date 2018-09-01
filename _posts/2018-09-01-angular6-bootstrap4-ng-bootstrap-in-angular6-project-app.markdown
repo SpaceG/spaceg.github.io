@@ -117,6 +117,214 @@ now it should like my index.html file from the angular 6 project :
 
 yes, we have also included now the Bootstrap 4 source finally. 
 
+
+
+
+
+now, we have to create two components. because we gonna create our Carousel. 
+the HTML file 
+{% highlight ruby %}
+carousel-basic.html
+{% endhighlight %}
+and the Typescript File 
+{% highlight ruby %}
+carousel-basic.ts
+{% endhighlight %}
+
+
+and include your your import to the app.module.ts file 
+
+import the carousel, which route it to our index page : 
+
+{% highlight ruby %}
+import { NgbdCarouselBasic } from './carousel-basic';
+{% endhighlight %}
+
+and update the declarations: [ NgbdCarouselBasic]
+
+and here is the full app.module.ts code!
+
+{% highlight ruby %}
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppComponent } from './app.component';
+import { NgbdCarouselBasic } from './carousel-basic';
+
+@NgModule({
+  imports: [
+    BrowserModule, 
+    FormsModule, 
+    ReactiveFormsModule, 
+    HttpClientModule, NgbModule.forRoot()], 
+  declarations: [
+    AppComponent,
+    NgbdCarouselBasic
+
+  ],
+  bootstrap: [AppComponent]
+}) 
+export class AppModule {}
+
+{% endhighlight %}
+
+
+
+
+now create the carousel-basic.ts file with the following code : 
+
+
+
+{% highlight ruby %}
+
+import { Component } from '@angular/core';
+
+@Component({selector: 'ngbd-carousel-basic', templateUrl: './carousel-basic.html'})
+export class NgbdCarouselBasic {
+  images = [1, 2, 3].map(() => `https://i.imgur.com/3VFThE0.gif?random&t=${Math.random()}`);
+  images2 = [1, 2, 3].map(() => `https://www.laguiadelvaron.com/wp-content/uploads/2016/07/tumblr.com-tumblr_o4m7qhEumc1v4u49oo1_500.gif?random&t=${Math.random()}`);
+  images3 = [1, 2, 3].map(() => `https://giffiles.alphacoders.com/899/89957.gif?random&t=${Math.random()}`); images4 = [1, 2, 3].map(() => `https://media.giphy.com/media/NvHeuMnxXzJS/giphy.gif?random&t=${Math.random()}`);
+  images5 = [1, 2, 3].map(() => `https://media.giphy.com/media/Gac5lzgUbciZy/giphy.gif?random&t=${Math.random()}`);
+
+}
+{% endhighlight %}
+
+
+
+
+in the carousel-basic.html we include this code below : 
+{% highlight ruby %}
+
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <img [src]="images[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Judgement Day</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  
+
+  <ngb-carousel *ngIf="images2">
+    <ng-template ngbSlide>
+      <img [src]="images2[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Judgement Day</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images2[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images2[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+
+
+  <ngb-carousel *ngIf="images3">
+    <ng-template ngbSlide>
+      <img [src]="images3[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Judgement Day</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images3[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images3[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  
+  
+  <ngb-carousel *ngIf="images4">
+    <ng-template ngbSlide>
+      <img [src]="images4[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Judgement Day</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images4[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images4[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  
+  
+  <ngb-carousel *ngIf="images5">
+    <ng-template ngbSlide>
+      <img [src]="images5[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Judgement Day</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images5[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images5[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  {% endhighlight %}
+
+  
+
 right now, we can update the app.component.html file in our Angular App
 
 
@@ -142,52 +350,6 @@ now we have include our Routes: below the ending header tag <code> </header> </c
   <ngbd-carousel-basic></ngbd-carousel-basic>
 {% endhighlight %}
 
-
-
-now, we have to create two components. because we gonna create our Carousel. 
-the HTML file 
-{% highlight ruby %}
-carousel-basic.html
-{% endhighlight %}
-and the Typescript File 
-{% highlight ruby %}
-carousel-basic.ts
-{% endhighlight %}
-
-
-and include your your import to the app.module.ts file 
-
-import the carousel, which route it to our indey page : 
-
-{% highlight ruby %}
-import { NgbdCarouselBasic } from './carousel-basic';
-{% endhighlight %}
-
-
-and here is the full app.module.ts code!
-
-{% highlight ruby %}
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AppComponent } from './app.component';
-
-@NgModule({
-  imports: [
-    BrowserModule, 
-    FormsModule, 
-    ReactiveFormsModule, 
-    HttpClientModule, NgbModule.forRoot()], 
-  declarations: [
-    AppComponent
-  ],
-  bootstrap: [AppComponent]
-}) 
-export class AppModule {}
-
-{% endhighlight %}
 
 
 
