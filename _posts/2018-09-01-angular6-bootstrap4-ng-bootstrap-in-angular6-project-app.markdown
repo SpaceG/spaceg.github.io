@@ -138,7 +138,10 @@ right now, we can update the app.component.html file in our Angular App
 {% endhighlight %}
 
 
-
+now we have include our Routes: below the ending header tag <code> </header> </code>
+{% highlight ruby %}
+  <ngbd-carousel-basic></ngbd-carousel-basic>
+{% endhighlight %}
 
 
 Set Up follwing commandlines for testing. etc.
