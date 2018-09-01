@@ -16,8 +16,8 @@ In the following style.scss ( Sass - Stylesheet File) you can inlude your global
 Create a New Angular 6 Project and start your app. 
 
 {% highlight ruby %}
-$ ng new ng-space --routing --style=scss 
-$ cd ng-space
+$ ng new space-ngs
+$ cd space-ngs
 $ ng serve --open
 $ code .
 {% endhighlight %}
@@ -37,13 +37,111 @@ Then, generate the Navigation Menu to your Angular Project, easy via Command-Lin
 $ ng generate @angular/material:material-nav --name=main-nav
 {% endhighlight %}
 
-open your <strong>app.module.ts</strong> file, be sure you have aslo importet all packages from material design, which we need to set up our Navigation in our Themplate. 
-Then inside of your Angular , import some packages 1. material design 2. cdk 3. animations, to your Project. 
+its generate a new nav component 
+
+
+now checkout your app.module.ts file its already imported 
+
+{% highlight ruby %}
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+{% endhighlight %}
+
+it will be import the
+
 
 then include in your app.component.html your output, or outlet, like
 {% highlight ruby %}
 < app-main-nav></ app-main-nav>
 {% endhighlight %}
+
+
+{% highlight ruby %}
+$ ng serve --open
+{% endhighlight %}
+
+
+okey, next step, go back to the <strong>app.module.ts</strong> then add a import :
+
+
+
+
+
+{% highlight ruby %}
+import { RouterModule, Routes } from '@angular/router';
+{% endhighlight %}
+
+
+{% highlight ruby %}
+RouterModule.forRoot(appRoutes),
+{% endhighlight %}
+
+
+
+create a constance below the imports like : 
+
+
+
+
+
+{% highlight ruby %}
+
+
+const appRoutes: Routes = [
+
+  { path: 'first-page', component: FirstPageComponent },
+  { path: 'second-page', component: SecondPageComponent },
+  { path: 'third-page', component: ThirdPageComponent }
+
+];
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+in the Html, create the pages links and routes finally 
+go to your main-nav.component,html file 
+
+
+{% highlight ruby %}
+
+    <mat-nav-list>
+      <a mat-list-item href="/first-page">First Page</a>
+      <a mat-list-item href="/second-page">Second Page</a>
+      <a mat-list-item href="/third-page">Third Page</a>
+    </mat-nav-list>
+{% endhighlight %}
+
+
+
+
+
+
+
+open your <strong>app.module.ts</strong> file, be sure you have aslo importet all packages from material design, which we need to set up our Navigation in our Themplate. 
+Then inside of your Angular , import some packages 1. material design 2. cdk 3. animations, to your Project. 
+
+
+
+
+
+
+
+
+
+
 
 {% highlight ruby %}
 $ npm install --save @angular/material @angular/cdk @angular/animations
