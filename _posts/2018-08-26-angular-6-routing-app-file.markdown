@@ -8,6 +8,9 @@ Angular 6 - app-routing.module.ts file</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI </small>
 
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/OyXLnCBGQA8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 When we started this project with the Angular CLI, we used the --routing flag, which set us up with a file located at /src/app/app-routing.module.ts, visit this file and import the 2 components we created earlier:
 
 {% highlight ruby %}
