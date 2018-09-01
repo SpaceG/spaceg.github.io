@@ -116,6 +116,28 @@ now it should like my index.html file from the angular 6 project :
 {% endhighlight %}
 
 
+yes, we have also included now the Bootstrap 4 source finally. 
+
+right now, we can update the app.component.html file in our Angular App
+
+
+{% highlight ruby %}
+<div class="container-fluid">
+  <hr>
+  <header>
+    <img style="width:100px;margin: 0 auto;display:table;" src="http://jamescamerononline.com/metallict2.gif"/> 
+      <p>
+        This is Our Example Carousel in Angular 6<strong>ng-bootstrap</strong> project: Angular powered Bootstrap.
+        Visit <a href="https://www.youtube.com/channel/UCpMkxjR1N5J3NSFfC6oEbZw" 
+        target="_blank">https://www.youtube.com/channel/UCpMkxjR1N5J3NSFfC6oEbZw</a> for more Tutorials.
+      </p>
+  <hr>
+</header>
+  <ngbd-carousel-basic></ngbd-carousel-basic>
+</div>
+{% endhighlight %}
+
+
 
 
 
