@@ -11,7 +11,13 @@ Angular/CLI - Generate Components with CLI Interface</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI </small>
 
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/hnfUUq8bUrs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Create New Angular 6 Project, with the following scss ( Sass - Stylesheet File) to but in your styles there in that easy file. And create sameTime with routing commandline CLI form Angular to your App ( Project). 
+
+
+
 
 
 {% highlight ruby %}

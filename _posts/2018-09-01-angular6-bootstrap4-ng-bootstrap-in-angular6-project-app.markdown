@@ -13,6 +13,8 @@ Okey Let's get start with Angular 6.
 
 <strong>DEMO</strong> <a href="https://angular6-spaceg-judgement-day.stackblitz.io/">angular6-spaceg-judgement-day.stackblitz.io </a>
 
+<strong>DEMO 2 - Stackblitz</strong> <a href="https://stackblitz.com/edit/angular6-spaceg-judgement-day?file=src%2Findex.html">https://stackblitz.com/edit/angular6-spaceg-judgement-day?file=src%2Findex.html</a>
+
 <h1>Angular 6 & Bootstrap 4</h1>
 
 Let's see the start Guide. here @  <a href="https://ng-bootstrap.github.io/#/getting-started">Bootstrap 4 - Ng - Bootstrap 4</a>
