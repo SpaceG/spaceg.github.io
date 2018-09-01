@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 - Include Bootstrap 4 - Ng-Boostrap"
+title:  "Angular 6 - Include Bootstrap 4 - Ng-Bootsrap"
 date:   2018-09-01 10:18:23
 description: Install Bootstrap 4 in to your Angular 6 App
 ---
@@ -49,16 +49,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { NgbdCarouselBasic } from './carousel-basic';
 
 @NgModule({
-  imports: [BrowserModule, 
+  imports: [
+    BrowserModule, 
     FormsModule, 
     ReactiveFormsModule, 
     HttpClientModule, NgbModule.forRoot()], 
   declarations: [
-    AppComponent, 
-    NgbdCarouselBasic
+    AppComponent
   ],
   bootstrap: [AppComponent]
 }) 
@@ -142,6 +141,57 @@ now we have include our Routes: below the ending header tag <code> </header> </c
 {% highlight ruby %}
   <ngbd-carousel-basic></ngbd-carousel-basic>
 {% endhighlight %}
+
+
+
+now, we have to create two components. because we gonna create our Carousel. 
+the HTML file 
+{% highlight ruby %}
+carousel-basic.html
+{% endhighlight %}
+and the Typescript File 
+{% highlight ruby %}
+carousel-basic.ts
+{% endhighlight %}
+
+
+and include your your import to the app.module.ts file 
+
+import the carousel, which route it to our indey page : 
+
+{% highlight ruby %}
+import { NgbdCarouselBasic } from './carousel-basic';
+{% endhighlight %}
+
+
+and here is the full app.module.ts code!
+
+{% highlight ruby %}
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  imports: [
+    BrowserModule, 
+    FormsModule, 
+    ReactiveFormsModule, 
+    HttpClientModule, NgbModule.forRoot()], 
+  declarations: [
+    AppComponent
+  ],
+  bootstrap: [AppComponent]
+}) 
+export class AppModule {}
+
+{% endhighlight %}
+
+
+
+
 
 
 Set Up follwing commandlines for testing. etc.
