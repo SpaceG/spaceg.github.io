@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 - Include Boostrap 4"
+title:  "Angular 6 - Include Bootstrap 4 - Ng-Boostrap"
 date:   2018-09-01 10:18:23
 description: Install Bootstrap 4 in to your Angular 6 App
 ---
