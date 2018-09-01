@@ -8,10 +8,13 @@ Angular Template & Styling</h2>
 
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI </small>
 
-In the following style.scss ( Sass - Stylesheet File) you can inlude your global stylesheets. And create sameTime with routing commandline CLI form Angular to your App ( Project) style home.component.css file. for only that session. 
 
 
 <h1>Material Design in Angular 6</h1>
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/HXoyMe3JIgw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 Create a New Angular 6 Project and start your app. 
 
@@ -56,6 +59,8 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
 it will be import the
 
 
+
+
 then include in your app.component.html your output, or outlet, like
 {% highlight ruby %}
 < app-main-nav></ app-main-nav>
@@ -69,28 +74,16 @@ $ ng serve --open
 
 okey, next step, go back to the <strong>app.module.ts</strong> then add a import :
 
-
-
-
-
 {% highlight ruby %}
 import { RouterModule, Routes } from '@angular/router';
 {% endhighlight %}
 
-
-{% highlight ruby %}
-RouterModule.forRoot(appRoutes),
-{% endhighlight %}
-
-
-
 create a constance below the imports like : 
-
-
-
-
-
 {% highlight ruby %}
+
+
+
+
 
 
 const appRoutes: Routes = [
@@ -128,20 +121,41 @@ go to your main-nav.component,html file
 
 
 
-
-
 open your <strong>app.module.ts</strong> file, be sure you have aslo importet all packages from material design, which we need to set up our Navigation in our Themplate. 
 Then inside of your Angular , import some packages 1. material design 2. cdk 3. animations, to your Project. 
 
 
 
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Shiba Inu</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://media-cdn.tripadvisor.com/media/photo-s/05/f0/70/a4/pines-and-palms-resort.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+      bred for hunting.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
 
 
 
-
-
-
-
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/05/f0/70/a4/pines-and-palms-resort.jpg');
+    background-size: cover;
+  }
 
 {% highlight ruby %}
 $ npm install --save @angular/material @angular/cdk @angular/animations

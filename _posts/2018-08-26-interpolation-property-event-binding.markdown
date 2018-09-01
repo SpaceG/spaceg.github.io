@@ -11,6 +11,11 @@ Angular 6 - Interpolation, Property & Event Binding</h2>
 
 <h1>Interpolation, Property & Event Binding</h1>
 
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/-old99l06OM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
 in the home.components.ts change the 
 {% highlight ruby %}
 @Component ({
