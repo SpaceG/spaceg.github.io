@@ -325,6 +325,9 @@ in the carousel-basic.html we include this code below :
 
   
 
+
+  
+
 right now, we can update the app.component.html file in our Angular App
 
 
