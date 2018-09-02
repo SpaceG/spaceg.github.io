@@ -12,10 +12,14 @@ Hello World!
 
 I'm a Front End Engineer based in the LocalHost. This is my Developer Blog! YOu are very Welcome to read my Tech - IT Blog for your Issue. 
 
+
+
 Skills: 
 Languages: HTML5/CSS3/ Javascript/ Jquery, A part of PHP/MySQL, 
-Frameworks: Angular 6, Sails.JS, NodeJS, 
-Database: MongoDB (NoSQL), MySQL, (SQL), 
+Frameworks: Angular 6, Sails.JS, NodeJS, .NET/ASP, 
+Database: MongoDB (NoSQL), MySQL, (SQL), a lot of others.
+OperationSystems: MacOS, Windows, Linux (Ubuntu)
+
 
 Download and Clone, Fork, Star  my OpenSource :  <a href="https://github.com/SpaceG">SpaceG</a> Hope see YOU there!
 
