@@ -11,7 +11,7 @@ I'm a Front End Engineer based in the LocalHost. This is my Developer Blog! YOu 
 </h1>
 <br><br>
 
-<iframe width="100%" height="615" src="https://www.youtube.com/embed/IKYUMvT9Yes?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/IKYUMvT9Yes?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin"></iframe>
 
 
 
