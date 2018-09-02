@@ -14,6 +14,11 @@ In the following style.scss ( Sass - Stylesheet File) you can inlude your global
 <h1>Angular 6 - New App Workflow.</h1>
 
 
+
+
+
+
+
 Set Up follwing commandlines for testing. etc.
 
 wiki of angular commandline interface 
