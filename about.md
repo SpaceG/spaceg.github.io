@@ -21,8 +21,11 @@ I'm a Front End Engineer based in the LocalHost. This is my Developer Blog! YOu 
 
 Skills: 
 Languages: HTML5/CSS3/ Javascript/ Jquery, A part of PHP/MySQL, Git
+
 Frameworks: Angular 6, Sails.JS, NodeJS, .NET/ASP, 
+
 Database: MongoDB (NoSQL), MySQL, (SQL), a lot of others.
+
 OperationSystems: MacOS, Windows, Linux (Ubuntu)
 
 Workflow: Jira, Github etc.
