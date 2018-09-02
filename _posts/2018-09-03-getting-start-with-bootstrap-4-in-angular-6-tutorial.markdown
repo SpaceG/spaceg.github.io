@@ -1,6 +1,6 @@
 ---
 title:  "Angular 6 - Bootstrap 4 - Video Tutorial #01"
-date:   2018-09-02 10:18:23
+date:   2018-09-03 00:01:23
 description: Start a New Serie of my Bootstrap 4 and Angular 6 Videos
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">
