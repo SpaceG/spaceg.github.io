@@ -4,15 +4,16 @@ permalink: about/
 profile: true
 ---
 
-<iframe width="100%" height="615" src="https://www.youtube.com/embed/IKYUMvT9Yes?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-
 <h1>
-Hello World!
+Hello World! My name is Lucas Gatsas. 
 
 I'm a Front End Engineer based in the LocalHost. This is my Developer Blog! YOu are very Welcome to read my Tech - IT Blog for your Issue. 
 </h1>
+<br><br>
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/IKYUMvT9Yes?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 <h1>
 Skills: 
