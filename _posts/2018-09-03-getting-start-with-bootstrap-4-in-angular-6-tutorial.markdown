@@ -9,9 +9,11 @@ Angular 6 - with Bootstrap 4</h2>
 <small>Angular 6, Framework, components, command-line, CLI, Angular CLI, Bootstrap 4 </small>
 
 
+
+
 <iframe width="100%" height="615" src="https://www.youtube.com/embed/gcGV6mcyPcs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-See The Tutorial on YouTube.
+See The Tutorial on YouTube. <a href="https://www.youtube.com/embed/gcGV6mcyPcs">Angular 6 + Bootstrap 4 | 60.Min Crash Guide Course</a>
 
 
 Set Up follwing commandlines for testing. etc.
