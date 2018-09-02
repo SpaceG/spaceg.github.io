@@ -7,6 +7,76 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Angular 6 - Bootstrap 4 - Judgment Day Project</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 - with Bootstrap 4&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 02 Sep 2018 12:18:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/judgement-day-angular6-app-project-in-bootstrap4/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/judgement-day-angular6-app-project-in-bootstrap4/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 - Include Bootstrap 4 - Sass Files</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 - with Bootstrap 4&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 02 Sep 2018 12:18:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/angular6-bootstrap4-ng-bootstrap-in-angular6-project-app-Kopie/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/angular6-bootstrap4-ng-bootstrap-in-angular6-project-app-Kopie/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 - Include Bootstrap 4 - Ng-Bootsrap</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 - with Bootstrap 4&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 01 Sep 2018 12:18:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/angular6-bootstrap4-ng-bootstrap-in-angular6-project-app/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/angular6-bootstrap4-ng-bootstrap-in-angular6-project-app/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 - New App Workflow.</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular Template &amp;amp; Styling&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 27 Aug 2018 12:18:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/workflow-with-the-kapa-team-gemdat/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/workflow-with-the-kapa-team-gemdat/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 - Material Design</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular Template &amp;amp; Styling&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 27 Aug 2018 12:18:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/angular-material-design-template-engine/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/angular-material-design-template-engine/</guid>
+      </item>
+    
+      <item>
         <title>Angular 6 - Interpolation, Property &amp; Event Binding</title>
         
         
@@ -74,76 +144,6 @@ Angular/CLI - Command-Lines Interface&lt;/h2&gt;
         <pubDate>Sun, 26 Aug 2018 12:18:04 +0200</pubDate>
         <link>http://localhost:4000/2018/angular-cli-project-and-command-lins-cli/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/angular-cli-project-and-command-lins-cli/</guid>
-      </item>
-    
-      <item>
-        <title>Angular 6 - Install Angular 6</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Install Angular 6&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Sat, 25 Aug 2018 12:18:23 +0200</pubDate>
-        <link>http://localhost:4000/2018/install-angular-6-localhost/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/install-angular-6-localhost/</guid>
-      </item>
-    
-      <item>
-        <title>SSH Rsa Key on your Machine</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Change the SSH Rsa Key on your Machine&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Fri, 24 Aug 2018 12:18:04 +0200</pubDate>
-        <link>http://localhost:4000/2018/change-ssh-rsa-key-on-mac-os/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/change-ssh-rsa-key-on-mac-os/</guid>
-      </item>
-    
-      <item>
-        <title>Deploy Angular 6</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Angular 6 - short project&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 20 Aug 2018 12:18:04 +0200</pubDate>
-        <link>http://localhost:4000/2018/deploy-angular6-github-pages/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/deploy-angular6-github-pages/</guid>
-      </item>
-    
-      <item>
-        <title>Interpolation and Expressions</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Angular 6 - short project&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Tue, 14 Aug 2018 12:18:03 +0200</pubDate>
-        <link>http://localhost:4000/2018/interpolation-and-expressions-in-angular6/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/interpolation-and-expressions-in-angular6/</guid>
-      </item>
-    
-      <item>
-        <title> ASP.NET MVC Angular 6 + Material </title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Welcome to Part One of a series of articles regarding AngularJS and ASP.NET MVC, and utilizing and getting the most out of both&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 13 Aug 2018 12:18:02 +0200</pubDate>
-        <link>http://localhost:4000/2018/.net-asp-visual-studio-with-angularjs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/.net-asp-visual-studio-with-angularjs/</guid>
       </item>
     
   </channel>
