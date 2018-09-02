@@ -21,10 +21,13 @@ EMBED URL
 
 <h1>Angular 6 & Bootstrap 4</h1>
 
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/ezgif.com-video-to-gif.gif" alt="">
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/ezgif.com-video-to-gif%20(2).gif" alt="">
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/ezgif.com-video-to-gif%20(3).gif" alt="">
+
+
 
 Set Up follwing commandlines for testing. etc.
 
