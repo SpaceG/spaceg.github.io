@@ -127,7 +127,33 @@ From the SASS documentation:
 You can assign to variables if they aren’t already assigned by adding the !default flag to the end of the value. This means that if the variable has already been assigned to, it won’t be re-assigned, but if it doesn’t have a value yet, it will be given one</blockquote>
 This means that we first need to import our custom variables, otherwise they won’t be used when we import Bootstrap.
 
+<h1>Can I add Bootstrap to .angular-cli.json instead of styles.scss?</h1>
 
+One might ask why we are not adding the path (i.e. ../node_modules/bootstrap/scss/bootstrap.scss) to the styles array inside our .angular-cli.jsonfile as such:
+{% highlight ruby %}
+
+"styles": [
+  "../node_modules/bootstrap/scss/bootstrap.scss",
+  "styles.scss"
+]
+{% endhighlight %}
+
+
+Well, you can indeed do that, but you won’t be able to customise it as whenever you add a new path to the stylesarray inside .angular-cli.json, they get appended as internal CSS between your <head>tags.
+
+As a consequence, if you define your Bootstrap path in the .angular-cli.jsonfile, then it gets appended to the top of your index.htmland the styles coming from your styles.scss file are appended separately.
+
+Troubleshooting: if you get an error similar to the one below
+
+BrowserslistError: Unknown browser major
+
+then you might have an older version of Angular CLI (run ng -versionto check it) and need to update it to Angular CLI 1.7+.
+
+This was an issue with the Angular CLI which was fixed before, so don’t worry about it.
+
+If you would like to find out more about the issue, then you can check it here.
+
+Thanks for having the patience to read the article until the end and I hope you learnt something new today.
 
 
 
