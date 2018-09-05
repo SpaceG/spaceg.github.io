@@ -1,5 +1,5 @@
 ---
-title:  "Get Start with Angular Material UI/UX"
+title:  "Angular6 - Get Start with Angular Material UI/UX"
 date:   2018-08-11 10:18:03
 description: Create a Front End Angular Material App 
 ---

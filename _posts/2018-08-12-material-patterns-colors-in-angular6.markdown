@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 Material Ui/UX Design"
+title:  "Angular 6 - Material Ui/UX Design"
 date:   2018-08-12 10:18:02
 description: Start with Material Design in Angular 6 
 ---

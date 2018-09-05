@@ -1,5 +1,5 @@
 ---
-title:  " ASP.NET MVC Angular 6 + Material "
+title:  "Angular6 - ASP.NET MVC Angular 6 + Material "
 date:   2018-08-13 10:18:02
 description: Start with ASP.NET MVC in Angular 6 
 ---

@@ -1,5 +1,5 @@
 ---
-title:  "Deploy Angular 6"
+title:  "Angular6 - Deploy Angular 6 App"
 date:   2018-08-20 10:18:04
 description: Start with Deploying & Deployment with in Angular 6 
 ---

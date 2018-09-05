@@ -1,5 +1,5 @@
 ---
-title:  "Angular/CLI - Command-Lines Interface"
+title:  "Angular 6 - Angular/CLI - Command-Lines Interface"
 date:   2018-08-26 10:18:04
 description: get start with Angular CLI 
 ---
