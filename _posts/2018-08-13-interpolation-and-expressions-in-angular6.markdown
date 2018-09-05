@@ -1,5 +1,5 @@
 ---
-title:  "Angular6 - Interpolation and Expressions"
+title:  "Angular 6 - Interpolation and Expressions"
 date:   2018-08-14 10:18:03
 description: Start with Interpolation and Expressions in Angular 6 
 ---
