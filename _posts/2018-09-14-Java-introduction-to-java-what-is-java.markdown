@@ -33,14 +33,22 @@ This Tutorial introduces the Java platform, and explains why Java is a platform 
 To understand JAVA programming language, we need to understand some basic concept of how a computer program can run a command and execute the action.
 
 
-What is PC?
+<h1>What is PC?</h1>
 A computer is an electronic device capable of performing computations, and we all know that it is composed of a monitor, keyboard, mouse, and memory to store information. But the most important component of the computer is a PROCESSOR. Which does all thinking of computer, but the question is how the computer does this thinking? How does it understand text, images, videos, etc.?
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/th-2.png" alt="">
 
+<h1>What is Assembly Language?</h1>
+The computer is an electronic device, and it can only understand electronic signals or binary signals. For example, the 5-volt electronic signal may represent binary number 1 while 0 volts may represent binary number 0. So your PC is continuously bombarded with these signals.
 
 
-Introduction to JAVA
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-3.png" alt="">
+
+
+
+Eight bits of such signals are group together to interpret Text, numerical and symbols.
+
+<h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
 
