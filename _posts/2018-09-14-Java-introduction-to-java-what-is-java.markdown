@@ -34,6 +34,7 @@ To understand JAVA programming language, we need to understand some basic concep
 
 
 <h1>What is PC?</h1>
+
 A computer is an electronic device capable of performing computations, and we all know that it is composed of a monitor, keyboard, mouse, and memory to store information. But the most important component of the computer is a PROCESSOR. Which does all thinking of computer, but the question is how the computer does this thinking? How does it understand text, images, videos, etc.?
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/th-2.png" alt="">
