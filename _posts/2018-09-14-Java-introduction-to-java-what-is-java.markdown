@@ -112,15 +112,21 @@ Now, suppose Windows operating system is running on this Intel processor, a comb
 
 Now, with a change in processor, the assembly instructions will also change. For example the
 
-Add instruction in Intel may be called ADDITION for AMD
-OR Math ADD for Power PC
+- Add instruction in Intel may be called ADDITION for AMD
+- OR Math ADD for Power PC
+
+
 And obviously, with a change in Operating System, the level and nature of O.S level calls will also change.
 
 As a developer, I want my software program to work on all platforms available, to maximize my revenues. So I would have to buy separate compilers which convert my print f command into the native machine code.
 
 
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-9.png" alt="">
 
+But compilers come expensive, and there is a chance of compatibility issues. So buying and installing a separate compiler for different O.S and processor is not feasible. So, what can be an alternative solution? Enter Java language.
 
+<h1>How Java Virtual Machine works?</h1>
+By using Java Virtual Machine, this problem can be solved. But how it works on different processors and O.S. Let's understand this process step by step.
 
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
