@@ -84,6 +84,10 @@ But how are we going to do this? Back in 1950's when computers were huge and con
 
 
 
+<h1>What are Assembler and Compiler?</h1>
+With the advancement in technology i/o devices were invented, you could directly type your program into the PC using a program called ASSEMBLER. It converts it into corresponding machine code (110001..) and feeds to your processor. So coming back to our example addition of (1+2), the assembler will convert this code into machine code and give the output.
+
+
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
