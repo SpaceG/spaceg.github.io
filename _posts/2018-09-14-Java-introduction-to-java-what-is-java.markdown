@@ -102,6 +102,13 @@ That apart, you will also have to make calls to create Operating System provided
 But alone assembler is not involved in this whole process; it also requires the compiler to compile the long code into a small chunk of codes. With advancement in software development languages, this entire assembly code could shrink into just one line print f 1+2 A with the help of software called COMPILER. It is used to convert your c language code into assembly code, and the assembler converts it into corresponding machine code, and this machine code will be transmitted to the processor. The most common processor used in PC or Computers are Intel processor.
 
 
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-8.png" alt="">
+
+
+
+
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
