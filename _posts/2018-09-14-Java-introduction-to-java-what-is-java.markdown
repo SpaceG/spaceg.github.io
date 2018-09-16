@@ -147,6 +147,15 @@ Hence,
 
 </blockquote>
 
+
+<h1>How is Java Platform Independent?</h1>
+Like C compiler, Java compiler does not produce native executable code for a particular machine. Instead, Java produces a unique format called bytecode. It executes according to the rules laid out in the virtual machine specification.
+
+Bytecode is understandable to any JVM installed on any OS. In short, the java source code can run on all operating systems.
+
+
+
+
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
