@@ -128,6 +128,25 @@ But compilers come expensive, and there is a chance of compatibility issues. So 
 <h1>How Java Virtual Machine works?</h1>
 By using Java Virtual Machine, this problem can be solved. But how it works on different processors and O.S. Let's understand this process step by step.
 
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-10.png" alt="">
+Step 1) The code to display addition of two numbers is System.out.println(1+2), and saved as .java file.
+
+- Step 2) Using the java compiler the code is converted into an intermediate code called the bytecode. The output is a .class file.
+
+- Step 3) This code is not understood by any platform, but only a virtual platform called the Java Virtual Machine.
+
+- Step 4) This Virtual Machine resides in the RAM of your operating system. When the Virtual Machine is fed with this bytecode, it identifies the platform it is working on and converts the bytecode into the native machine code.
+
+In fact, while working on your PC or browsing the web whenever you see either of these icons be assured the java virtual machine is loaded into your RAM. But what makes java lucrative is that code once compiled can run not only on all PC platforms but also mobiles or other electronic gadgets supporting java.
+
+Hence, 
+
+<blockquote>
+"Java is a programming language as well as a Platform"
+
+</blockquote>
+
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
