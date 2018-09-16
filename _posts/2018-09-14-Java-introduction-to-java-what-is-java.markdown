@@ -106,6 +106,18 @@ But alone assembler is not involved in this whole process; it also requires the 
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/th-8.png" alt="">
 
+Though present-day compilers come bundled with assembler can directly convert your higher language code into machine code.
+
+Now, suppose Windows operating system is running on this Intel processor, a combination of Operating System plus the processor is called the PLATFORM. The most common platform in the world is the Windows, and Intel called the Wintel Platform. The other popular platforms are AMD and Linux, Power PC, and Mac OS X.
+
+Now, with a change in processor, the assembly instructions will also change. For example the
+
+Add instruction in Intel may be called ADDITION for AMD
+OR Math ADD for Power PC
+And obviously, with a change in Operating System, the level and nature of O.S level calls will also change.
+
+As a developer, I want my software program to work on all platforms available, to maximize my revenues. So I would have to buy separate compilers which convert my print f command into the native machine code.
+
 
 
 
