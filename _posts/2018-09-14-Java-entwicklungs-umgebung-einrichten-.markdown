@@ -1,5 +1,5 @@
 ---
-title:  "Java - Introduction to Java #01"
+title:  "Java - Introduction to Java Virtual Machine (JVM) #02"
 date:   2018-09-13 00:00:01
 description: Get Start with Java - what is Java? 
 ---
