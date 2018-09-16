@@ -13,6 +13,9 @@ Introduction to JAVA
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
 
+
+
+
 <h1>What is JAVA?</h1>
 
 Bevor we start with the JAVA-PLATTFORM. you can aks your self ? 
