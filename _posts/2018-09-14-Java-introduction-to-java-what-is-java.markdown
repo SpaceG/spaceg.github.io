@@ -67,6 +67,9 @@ Suppose if you want to tell the computer to add two number (1+2) which is repres
 </blockquote>
 
 
+
+
+
 We are going to give the command to a computer in this format as shown below. Your code to add two numbers in this language would be in this order.
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/th-6.png" alt="">
@@ -86,6 +89,15 @@ But how are we going to do this? Back in 1950's when computers were huge and con
 
 <h1>What are Assembler and Compiler?</h1>
 With the advancement in technology i/o devices were invented, you could directly type your program into the PC using a program called ASSEMBLER. It converts it into corresponding machine code (110001..) and feeds to your processor. So coming back to our example addition of (1+2), the assembler will convert this code into machine code and give the output.
+
+
+
+
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-7.png" alt="">
+
+
+
 
 
 <h1>Introduction to JAVA</h1>
