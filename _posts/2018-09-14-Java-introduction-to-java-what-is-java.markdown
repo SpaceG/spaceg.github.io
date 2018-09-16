@@ -49,6 +49,24 @@ The computer is an electronic device, and it can only understand electronic sign
 
 Eight bits of such signals are group together to interpret Text, numerical and symbols.
 
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-4.png" alt="">
+For example, the # symbol is identified by computer as 10101010. Similarly, the pattern for adding a function is represented by 10000011.
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-5.png" alt="">
+
+This is known as 8-bit computing. Current day processor is capable of decoding 64-bit time. But what is the relation of this concept with the programming language JAVA? Let understand these as an example.
+
+Suppose if you want to tell the computer to add two number (1+2) which is represented by some binary numbers (10000011), how are you going to tell the computer? Yes, we going to use assembly language to get our code executed.
+
+
+
+
+
+<blockquote>"Assembly Language is the most elementary form of software development languages."
+
+</blockquote>
+
+
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
