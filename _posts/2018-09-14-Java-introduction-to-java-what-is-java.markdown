@@ -67,6 +67,23 @@ Suppose if you want to tell the computer to add two number (1+2) which is repres
 </blockquote>
 
 
+We are going to give the command to a computer in this format as shown below. Your code to add two numbers in this language would be in this order.
+
+<img class="card-img-top" src="https://spaceg.github.io/assets/images/th-6.png" alt="">
+
+
+
+Store number 1 at memory location say A
+Store number 2 at memory location say B
+Add contents of Location A & B
+Store results
+
+
+But how are we going to do this? Back in 1950's when computers were huge and consumed a great deal of power, you would convert your assembly code into corresponding machine code to 1 and 0's using mapping sheets. Later this code will be punched into the machine cards and feed to the computer. The computer will read these code and execute the program. These would be a long process then until ASSEMBLER came to help.
+
+
+
+
 <h1>Introduction to JAVA</h1>
 <a href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">https://de.wikipedia.org/wiki/Java_(Programmiersprache) </a>
 
