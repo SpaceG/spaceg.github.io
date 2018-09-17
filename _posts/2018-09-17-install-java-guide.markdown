@@ -101,6 +101,8 @@ codes-Mac-mini:~ jh$
 {% endhighlight %}
 
 
+<h1>Install Settings</h1>
+
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/java.png" alt="">
 
