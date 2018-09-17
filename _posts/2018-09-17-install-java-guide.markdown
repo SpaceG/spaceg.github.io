@@ -86,6 +86,21 @@ $JAVA_HOME
 {% endhighlight %}
 
 
+{% highlight ruby %}
+
+Last login: Tue Sep 18 00:00:51 on ttys000
+codes-Mac-mini:~ jh$ echo $JAVA_HOME
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
+codes-Mac-mini:~ jh$ javac -version
+javac 10.0.2
+codes-Mac-mini:~ jh$ java -version
+java version "10.0.2" 2018-07-17
+Java(TM) SE Runtime Environment 18.3 (build 10.0.2+13)
+Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.2+13, mixed mode)
+codes-Mac-mini:~ jh$
+{% endhighlight %}
+
+
 
 <img class="card-img-top" src="https://spaceg.github.io/assets/images/java.png" alt="">
 
