@@ -15,7 +15,6 @@ Introduction to JAVA
 
 <h1>What is JAVA?</h1>
 
-Bevor we start with the JAVA-PLATTFORM. you can aks your self ? 
 
 
 Java is a programming language and a computing platform for application development. It was first released by Sun Microsystem in 1995 and later acquired by Oracle Corporation. It is one of the most used programming languages.
