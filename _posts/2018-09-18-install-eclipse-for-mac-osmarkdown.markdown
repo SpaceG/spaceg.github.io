@@ -26,6 +26,16 @@ Download the JAVA IDE
 https://www.eclipse.org/photon/
 {% endhighlight %}
 
+Links: 
+<a href="https://projects.eclipse.org/releases/photon">https://projects.eclipse.org/releases/photon</a>
+
+Links: 
+<a href="https://www.eclipse.org/photon/">https://www.eclipse.org/photon/</a>
+
+Links: 
+<a href="https://www.eclipse.org/">
+https://www.eclipse.org/</a>
+
 
 follow the introduction from install Video!
 
