@@ -15,7 +15,9 @@ Introduction to JAVA
 
 
 
-<h1>Install Eclipse</h1>
+
+
+<h1>Install Eclipse Photon</h1>
 
 Now let's get start with JAVA & create a Hello World App in JAVA.
 
