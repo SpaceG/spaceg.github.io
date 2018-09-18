@@ -27,6 +27,8 @@ https://www.eclipse.org/photon/
 {% endhighlight %}
 
 
+follow the introduction from install Video!
+
 
 
 
