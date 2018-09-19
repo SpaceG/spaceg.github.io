@@ -19,8 +19,8 @@ Now let's get start with JAVA & create a Hello World App in JAVA.
 
 {% highlight ruby %}
 /******************************************************************************
- *  Compilation:  javac helloWorld.java
- *  Execution:    java helloWorld
+ *  Compilation:  javac HelloWorld.java
+ *  Execution:    java HelloWorld
  *
  *  Prints "Hello, World". By tradition, this is everyone's first program.
  *
@@ -36,24 +36,12 @@ Now let's get start with JAVA & create a Hello World App in JAVA.
  *
  ******************************************************************************/
 
-package helloWorld;
-import java.util.Date;
-import java.net.InetAddress; 
-import java.net.UnknownHostException; 
+public class HelloWorld {
 
-
-public class Test {
-
-	public static void main(String[] args) throws 
-	 UnknownHostException {
-	
-		System.out.println("helloWorld");
-		  Date date = new Date();
-	        System.out.println(date.toString());
-	        InetAddress IP=InetAddress.getLocalHost();
-	        System.out.println("IP of my system is := "+IP.getHostAddress());
-
-	}
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
 
 }
 
