@@ -1,5 +1,5 @@
 ---
-title:  "Jekyll on Windows - Install Jekyll W -10"
+title:  "Jekyll on Windows - Install Jekyll - Ruby on Rails W -10"
 date:   2018-09-19 00:00:01
 description: Start Blogging like a Hacker.
 ---
