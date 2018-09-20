@@ -15,7 +15,7 @@ Introduction to Ruby and Rails
 <a href="https://rubyonrails.org/">https://rubyonrails.org/</a>
 
 
-<h1>Set up on Windowss</h1>
+<h1>Set up on Windows</h1>
 
 Go to the Page from RubyInstaller for Windows and Download the Current Package!
 <a href="https://rubyinstaller.org/">https://rubyinstaller.org/</a>
@@ -88,7 +88,15 @@ $
 
 {% endhighlight %}
 
+It does Save everything running inside the Code and output it RealTime to your Browser!
 
+
+{% highlight ruby %}
+
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2018-09-20 13:09:04 ...done in 6.59158 seconds.
+
+{% endhighlight %}
 
 
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
