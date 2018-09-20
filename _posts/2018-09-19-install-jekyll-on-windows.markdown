@@ -65,6 +65,32 @@ bundle exec jekyll serve --open
 
 Thats it. 
 
+{% highlight ruby %}
+
+lucas.gatsas@NB59 MINGW64 ~/desktop/spaceg.github.io (master)
+$ bundle exec jekyll serve --open
+Configuration file: C:/Users/Lucas.Gatsas/desktop/spaceg.github.io/_config.yml
+            Source: C:/Users/Lucas.Gatsas/desktop/spaceg.github.io
+       Destination: C:/Users/Lucas.Gatsas/desktop/spaceg.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 9.706 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'C:/Users/Lucas.Gatsas/desktop/spaceg.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+Batchvorgang abbrechen (J/N)? n
+n
+
+lucas.gatsas@NB59 MINGW64 ~/desktop/spaceg.github.io (master)
+$
+
+{% endhighlight %}
+
+
+
+
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
 
 
