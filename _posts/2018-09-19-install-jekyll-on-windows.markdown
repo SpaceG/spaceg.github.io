@@ -1,5 +1,5 @@
 ---
-title:  "Jekyll on Windows - Install Jekyll - Ruby on Rails W -10"
+title:  "Jekyll on Windows - Install Jekyll - Ruby on Rails - GEM - W -10"
 date:   2018-09-19 00:00:01
 description: Start Blogging like a Hacker.
 ---
@@ -10,7 +10,8 @@ Install Jekyll on Windows 10 with the RubyInstaller </h2>
 
 <small>Jekyll Serve, Blogging like Hacker.</small>
 
-What is Jekyll ? Jekyll is a static Page Builder in Ruby and Rails, based on Gem. 
+What is Jekyll ? <a href="https://jekyllrb.com/docs/installation/windows/">Jekyll</a>
+ is a static Page Builder in Ruby and Rails, based on Gem. 
 Introduction to Ruby and Rails
 <a href="https://rubyonrails.org/">https://rubyonrails.org/</a>
 
