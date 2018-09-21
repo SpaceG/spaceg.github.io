@@ -96,7 +96,7 @@ Host Address : 172.212.168.88
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
 
 
- Hello, I'm work @ [SpaceDig.ch][spacedig] for more info, how to get contact with us. File all bugs/feature requests at My  [Github][jekyll-gh].
+ Hello, I'm work as Front-End Developer @ [SpaceDig.ch][spacedig] for more info, how to get contact with us. File all bugs/feature requests at My  [Github][jekyll-gh].
 
 [jekyll-gh]: https://github.com/spaceg
 [spacedig]:    http://spacedig.ch
