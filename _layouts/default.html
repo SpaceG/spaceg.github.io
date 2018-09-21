@@ -10,16 +10,20 @@
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ "/" | relative_url  }}feed.xml">
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/highlight.css">
-
+	<!-- Dependencies: JQuery should be loaded first -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 </head>
 <body>
+
 
   {% include navigation.html %}
 
   {% if page.profile %}
       {% include profile.html %}
   {% endif %}
+
+	<div class="eupopup eupopup-bottom eupopup-color-inverse "></div>
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
