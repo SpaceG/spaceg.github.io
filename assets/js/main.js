@@ -68,7 +68,7 @@ $(document).ready(retina);
         ///////////////////////////////////////////////////////////////////////////////////////////////
         // PARAMETERS (MODIFY THIS PART) //////////////////////////////////////////////////////////////
         _self.params = {
-            cookiePolicyUrl : '/?cookie-policy',
+            cookiePolicyUrl : '/cookie-policy',
             popupPosition : 'top',
             colorStyle : 'default',
             compactStyle : false,
