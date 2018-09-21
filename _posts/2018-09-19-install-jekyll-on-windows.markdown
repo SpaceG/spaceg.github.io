@@ -58,6 +58,9 @@ bundler install
 {% endhighlight %}
 
 
+
+
+
 then launch your Project on your Localhost with 
 {% highlight ruby %}
 bundle exec jekyll serve --open
