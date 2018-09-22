@@ -22,26 +22,51 @@ Create your JAVA classes and write down this code below and run it in your IDE.
 
 {% highlight ruby %}
 
-package helloWorld;
+package javaApp;
 import java.util.Date;
+import java.util.Arrays; 
+import java.net.Inet4Address;
 import java.net.InetAddress; 
 import java.net.UnknownHostException; 
 
-
 public class Test {
 
-	public static void main(String[] args) throws 
-	 UnknownHostException {
-	
-		System.out.println("helloWorld");
-		  Date date = new Date();
-	        System.out.println(date.toString());
-	        InetAddress IP=InetAddress.getLocalHost();
-	        System.out.println("IP of my system is := "+IP.getHostAddress());
+	public static void main(String[] args) throws UnknownHostException {
+		
+		String url = "www.youtube.com"; 
+		byte addr[]= {127, 0, 0, 1};
+		InetAddress ip1 = Inet4Address.getByName(url); 
+		InetAddress ip2 = InetAddress.getByAddress(addr); 
+		
+		// Print Out the String 
+		System.out.println(" Address : " + Arrays.toString(ip1.getAddress())); 
+		
+		// Print Out the Hello World 
+		System.out.println("HelloWorld");
 
+		//Print Out the Date 
+		Date date = new Date();
+		System.out.println(date.toString());
+		
+		// Print Out the IP ADRESS 
+		InetAddress IP=InetAddress.getLocalHost();
+		System.out.println("IP of my system is := " +IP.getHostAddress());
+		
+		// Print Out the HashCode 
+		System.out.println("hashCode : " + ip1.hashCode());
+		
+		// equals ip1 === ip2 method 
+		System.out.println("ip1==ip2 : " + ip1.equals(ip2)); 
+		
+		// Print Out the HostAddress 
+		System.out.println("Host Address : "  + ip1.getHostAddress());
+		
+		
+		
 	}
 
 }
+
 
 
 {% endhighlight %}
@@ -49,9 +74,13 @@ public class Test {
 This is the Output:
 
 {% highlight ruby %}
-helloWorld
-Wed Sep 19 23:24:43 CEST 2018
-IP of my system is := 182.168.178.45
+ Address : [-84, -39, -88, 78]
+HelloWorld
+Thu Sep 20 00:44:14 CEST 2018
+IP of my system is := 192.168.176.29
+hashCode : -1395021746
+ip1==ip2 : false
+Host Address : 172.212.168.88
 {% endhighlight %}
 
 

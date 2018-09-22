@@ -52,10 +52,17 @@ Then Update the Gems. with the Commandline:
 gem update bundler
 {% endhighlight %}
 
+
+
+
+
 Right now, we gonna install all Bundler we need to launch Jekyll finally 
 {% highlight ruby %}
 bundler install 
 {% endhighlight %}
+
+
+
 
 
 then launch your Project on your Localhost with 
