@@ -23,6 +23,9 @@ Initially only implemented client-side in web browsers, JavaScript engines are n
 
 Although there are strong outward similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design; JavaScript was influenced by programming languages such as Self and Scheme.
 
+
+
+
  Hello, I'm work @ [SpaceDig.ch][spacedig] for more info, how to get contact with us. File all bugs/feature requests at My  [Github][jekyll-gh].
 
 [jekyll-gh]: https://github.com/spaceg
