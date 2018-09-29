@@ -10,7 +10,7 @@ description: What is Javascript? Introduction to Javascript.
 
 <h1> What is Javascript? Introduction to JS.</h1>
 
-<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a> is a one of the most Programming Language! (Not to be confused with Java (programming language), Java (software platform), or Javanese script.)
+<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a> 
 
 
 JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
