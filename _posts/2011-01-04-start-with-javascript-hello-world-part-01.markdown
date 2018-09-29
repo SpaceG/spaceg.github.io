@@ -1,5 +1,5 @@
 ---
-title:  "Javascript - Javascript - Hello Worl App #01"
+title:  "Javascript - Javascript - Hello Worl App #02"
 date:   2011-01-04 10:18:00
 description: Hello World in Javascript.
 ---
