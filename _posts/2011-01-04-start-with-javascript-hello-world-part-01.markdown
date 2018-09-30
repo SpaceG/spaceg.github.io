@@ -1,5 +1,5 @@
 ---
-title:  "Javascript - Javascript - Hello Worl App #02"
+title:  "Javascript - Javascript - Hello World App #02"
 date:   2011-01-04 10:18:00
 description: Hello World in Javascript.
 ---
@@ -91,7 +91,68 @@ This attribute was meant to show the language of the script. As of now, this att
 <strong>Comments before and after scripts.</strong>
 In really ancient books and guides, one may find comments inside <script>, like this:
 
+<h1>External scripts</h1>
+If we have a lot of JavaScript code, we can put it into a separate file.
 
+The script file is attached to HTML with the src attribute:
+
+{% highlight ruby %}
+< script src="/path/to/script.js"></script>
+{% endhighlight %}
+
+
+Here <strong>/path/to/script.js</strong> is an absolute path to the file with the script (from the site root).
+
+It is also possible to provide a path relative to the current page. For instance, <strong>src="script.js"</strong> would mean a file <strong>"script.js"</strong> in the current folder.
+
+We can give a full URL as well, for instance:
+
+{% highlight ruby %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
+{% endhighlight %}
+
+
+To attach several scripts, use multiple tags:
+
+{% highlight ruby %}
+<script src="/js/script1.js"></script>
+<script src="/js/script2.js"></script>
+{% endhighlight %}
+
+
+<blockquote>
+Please note:
+As a rule, only the simplest scripts are put into HTML. More complex ones reside in separate files.
+
+The benefit of a separate file is that the browser will download it and then store in its cache.
+
+After this, other pages that want the same script will take it from the cache instead of downloading it. So the file is actually downloaded only once.
+
+That saves traffic and makes pages faster.
+</blockquote>
+
+
+
+<strong>If <strong>src</strong> is set, the script content is ignored.</strong>
+A single <script> tag can’t have both the src attribute and the code inside.
+
+This won’t work:
+
+{% highlight ruby %}
+<script src="file.js">
+  alert(1); // the content is ignored, because src is set
+</script>
+{% endhighlight %}
+
+We must choose: either it’s an external <strong><script src="…"></strong> or a regular <strong>< script></strong> with code.
+
+The example above can be split into two scripts to work:
+<strong>
+<script src="file.js"></script>
+<script>
+  alert(1);
+</script>
+</strong>
 
 <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a> 
 
