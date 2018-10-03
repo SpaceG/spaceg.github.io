@@ -7,6 +7,90 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Angular 6 on Windows 10 - SASS - SCSS File - Bootstrap4 Part04</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 on Windows 10 - SASS - SCSS File - Bootstrap4 Part04&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 30 Sep 2018 00:03:03 +0000</pubDate>
+        <link>http://localhost:4000/2018/sass-scss-bootstrap4-angular6-part04/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/sass-scss-bootstrap4-angular6-part04/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 on Windows 10 - Event Binding - Property -  Part05</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 on Windows 10 - Event Binding - Property -  Part05&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 29 Sep 2018 00:03:03 +0000</pubDate>
+        <link>http://localhost:4000/2018/event-binding-property-part05/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/event-binding-property-part05/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 on Windows 10 - Create Component and App Structure Part 02</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 on Windows 10 - Create Component and App Structure Part 02&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 24 Sep 2018 00:00:30 +0000</pubDate>
+        <link>http://localhost:4000/2018/app-structure-generate-component-in-angular6-on-windows-10-part02/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/app-structure-generate-component-in-angular6-on-windows-10-part02/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 on Windows 10 - Install on Windows Part 01</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 on Windows 10 - Install on Windows Part 01 &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 24 Sep 2018 00:00:01 +0000</pubDate>
+        <link>http://localhost:4000/2018/install-angular6-windows-learning-angular6-with-windows-10-part01/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/install-angular6-windows-learning-angular6-with-windows-10-part01/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 on Windows 10 - Routing in Angular 6  Part 03</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 on Windows 10 - Routing in Angular 6  Part 03&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 23 Sep 2018 00:03:03 +0000</pubDate>
+        <link>http://localhost:4000/2018/routing-in-angular6-on-windows-10-part03/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/routing-in-angular6-on-windows-10-part03/</guid>
+      </item>
+    
+      <item>
+        <title>Angular 6 on Windows 10 - Get Start #01</title>
+        
+        
+          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
+Angular 6 on Windows 10 - Get Start #01&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 23 Sep 2018 00:00:01 +0000</pubDate>
+        <link>http://localhost:4000/2018/install-angular6-windows-learning-angular6-with-windows-10/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/install-angular6-windows-learning-angular6-with-windows-10/</guid>
+      </item>
+    
+      <item>
         <title>Java - Small Java App #06</title>
         
         
@@ -60,90 +144,6 @@ Java - Install Eclispe Photon #04&lt;/h2&gt;
         <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/2018/install-eclipse-for-mac-osmarkdown/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/install-eclipse-for-mac-osmarkdown/</guid>
-      </item>
-    
-      <item>
-        <title>Java - Install Java on your Machine (Mac Os) #03</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Java - Install Java on your Machine #03&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 17 Sep 2018 00:00:01 +0000</pubDate>
-        <link>http://localhost:4000/2018/install-java-guide/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/install-java-guide/</guid>
-      </item>
-    
-      <item>
-        <title>Java - Introduction to Java Virtual Machine (JVM) #02</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Java - Introduction to Java Virtual Machine (JVM) #02&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Sun, 16 Sep 2018 00:00:04 +0000</pubDate>
-        <link>http://localhost:4000/2018/Java-entwicklungs-umgebung-einrichten/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/Java-entwicklungs-umgebung-einrichten/</guid>
-      </item>
-    
-      <item>
-        <title>Java - Introduction to Java #01</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Java - Introduction to Java #01&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Thu, 13 Sep 2018 00:00:01 +0000</pubDate>
-        <link>http://localhost:4000/2018/Java-introduction-to-java-what-is-java/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/Java-introduction-to-java-what-is-java/</guid>
-      </item>
-    
-      <item>
-        <title>Angular 6 - Bootstrap 4 - Video Tutorial #01</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Angular 6 - with Bootstrap 4&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 03 Sep 2018 00:01:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/getting-start-with-bootstrap-4-in-angular-6-tutorial/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/getting-start-with-bootstrap-4-in-angular-6-tutorial/</guid>
-      </item>
-    
-      <item>
-        <title>Angular 6 - Bootstrap 4 - Judgment Day Project</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Angular 6 - with Bootstrap 4&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Sun, 02 Sep 2018 10:18:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/judgement-day-angular6-app-project-in-bootstrap4/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/judgement-day-angular6-app-project-in-bootstrap4/</guid>
-      </item>
-    
-      <item>
-        <title>Angular 6 - Include Bootstrap 4 - Sass Files</title>
-        
-        
-          <description>&lt;h2 id=&quot;this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators&quot;&gt;
-Angular 6 - with Bootstrap 4&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Sun, 02 Sep 2018 10:18:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/angular6-bootstrap4-ng-bootstrap-in-angular6-project-app-Kopie/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/angular6-bootstrap4-ng-bootstrap-in-angular6-project-app-Kopie/</guid>
       </item>
     
   </channel>
