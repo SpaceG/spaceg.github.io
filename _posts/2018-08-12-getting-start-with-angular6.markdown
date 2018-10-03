@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6"
+title:  "Angular 6 - Start with Angular"
 date:   2018-08-12 10:18:01
 description: getting start with angular6
 ---

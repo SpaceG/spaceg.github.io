@@ -4,6 +4,7 @@ permalink: cookie-policy/
 profile: true
 ---
 
+<br><br>
 <h1>Your privacy is very important to Me.</h1> 
 
 Accordingly, i have developed this Policy in order for you to understand how i collect, use, communicate and disclose and make use of personal information. The following outlines my  privacy policy.
