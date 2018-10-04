@@ -1,10 +1,12 @@
 ---
-title:  "Angular 6 on Windows 10 - The Basics 02 - How an Angular App gets Loaded and Started"
-date:   2018-10-04 00:00:04
+title:  "Angular 6 on Windows 10 - The Basics 02 - Understanding the Role of AppModule and Component Declaration
+"
+date:   2018-10-03 00:00:04
 description: Get Start with Angular 6 on Windows.
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">
-Angular 6 on Windows 10 - The Basics 02 - How an Angular App gets Loaded and Started</h2>
+Angular 6 on Windows 10 - The Basics 02 - Understanding the Role of AppModule and Component Declaration
+</h2>
 
 <small>Angular 6, Javascript, Framework, Tutorial, Install Angular 6 on Windows 10</small>
 
