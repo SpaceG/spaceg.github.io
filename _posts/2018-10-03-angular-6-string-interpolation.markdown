@@ -14,6 +14,9 @@ Angular 6 on Windows 10 -  String Interpolation</h2>
 
 
 
+Let's get start and create a new Angular 6 Project with your Command Line / CLI
+
+
 
 {% highlight ruby %}
 https://angular.io
