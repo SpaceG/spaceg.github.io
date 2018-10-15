@@ -10,6 +10,7 @@ Angular 6 on Windows 10 - The Basics 04 - Creating Components with the CLI & Nes
 
 <iframe width="100%" height="615" src="https://www.youtube.com/embed/TvM-8VlPk6c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
 <small>Angular 6, Javascript, Framework, Tutorial, Install Angular 6 on Windows 10</small>
 
 Go to your Terminal and Type these following comand Lines /Nesting  : 
