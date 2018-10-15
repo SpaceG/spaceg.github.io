@@ -8,6 +8,9 @@ Angular 6 on Windows 10 - The Basics 04 - Using The Custome Components</h2>
 
 <small>Angular 6, Javascript, Framework, Tutorial, Install Angular 6 on Windows 10</small>
 
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/ymesijGNrdE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 in the <strong>app.component.html</strong>
 {% highlight ruby %}
