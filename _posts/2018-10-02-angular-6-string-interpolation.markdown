@@ -10,7 +10,7 @@ Angular 6 on Windows 10 -  String Interpolation</h2>
 
 <small>Angular 6, Javascript, Framework, Tutorial, Install Angular 6 on Windows 10</small>
 
-
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/_6faii1jJRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
