@@ -10,6 +10,9 @@ Angular 6 on Windows 10 - The Basics 01 - Install Angular/CLI</h2>
 
 <small>Angular 6, Javascript, Framework, Tutorial, Install Angular 6 on Windows 10</small>
 
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/t2d6vWlk378" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <strong>Step 1. </strong> Set up the Development Environment 
 You need to set up your development environment before you can do anything.
 
