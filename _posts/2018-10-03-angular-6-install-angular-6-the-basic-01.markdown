@@ -1,10 +1,11 @@
 ---
-title:  "Angular 6 on Windows 10 - The Basics 01 - Install Angular/CLI"
+title:  "Angular 6 on Windows 10 - The Basics 01 - Angular 6 - Install & Introduction - Basic Part#01
+ - Install Angular/CLI"
 date:   2018-10-03 00:00:03
 description: Get Start with Angular 6 on Windows.
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">
-Angular 6 on Windows 10 - The Basics 01 - Install Angular/CLI</h2>
+Angular 6 on Windows 10 - The Basics 01 - Angular 6 - Install & Introduction - Basic Part#01 - Install Angular/CLI</h2>
 
 
 
