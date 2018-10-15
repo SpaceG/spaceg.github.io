@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 on Windows 10 - The Basics 05 - Creating Components with the CLI & Nesting Component"
+title:  "Angular 6 on Windows 10 - The Basics 05 - Creating Components with the CLI & Nesting Component - Part#05"
 date:   2018-10-14 00:00:20
 description: Get Start with Angular 6 on Windows.
 ---

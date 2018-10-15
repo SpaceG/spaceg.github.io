@@ -1,6 +1,6 @@
 ---
-title:  "Angular 6 on Windows 10 - The Basics 01 - Angular 6 - Install & Introduction - Basic Part#01
- - Install Angular/CLI"
+title:  "Angular 6 on Windows 10 - The Basics 01 - Angular 6 - Install & Introduction - Basic 
+ - Install Angular/CLI - Part#01"
 date:   2018-10-03 00:00:03
 description: Get Start with Angular 6 on Windows.
 ---

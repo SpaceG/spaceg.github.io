@@ -1,5 +1,5 @@
 ---
-title:  "Angular 6 on Windows 10 - The Basics 03 - Create Components in Angular 6"
+title:  "Angular 6 on Windows 10 - The Basics 03 - Create Components in Angular 6 - Part#03"
 date:   2018-10-04 00:00:04
 description: Get Start with Angular 6 on Windows.
 ---
