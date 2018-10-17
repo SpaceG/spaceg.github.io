@@ -4,7 +4,7 @@ date:   2018-10-14 00:00:20
 description: Get Start with Angular 6 on Windows.
 ---
 <h2 id="this-post-is-the-last-of-a-series-of-posts-in-which-i-write-about-the-observable-type-in-the-first-post-we-went-ahead-writing-an-observable-from-scratch-in-order-to-fully-understand-it-we-then-explored-how-to-create-observables-from-values-arrays-dom-events-and-promises-this-time-well-focus-on-compositions-by-rewriting-some-basic-composition-operators">
-Angular 6 on Windows 10 - The Basics 04 - Creating Components with the CLI & Nesting Component</h2>
+Angular 6 on Windows 10 - The Basics 05 - Creating Components with the CLI & Nesting Component</h2>
 
 
 
