@@ -10,20 +10,6 @@ Angular 6 on Windows 10 - The Basics 04 - Using Custom Component - Part#04</h2>
 
 <iframe width="100%" height="615" src="https://www.youtube.com/embed/ymesijGNrdE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-in the <strong>app.component.html</strong>
-{% highlight ruby %}
-app.component.html
-{% endhighlight %}
-
-we include also our, custome component:
-
-{% highlight ruby %}
-<app-server></app-server>
-{% endhighlight %}
-
-
-this how we can include also and create custome components in Angular 6. ! 
-
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
 
 

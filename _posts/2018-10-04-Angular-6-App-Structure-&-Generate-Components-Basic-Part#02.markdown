@@ -12,54 +12,6 @@ Angular 6 on Windows 10 - The Basics 02 - Angular 6 - App Structure & Generate C
 
 <iframe width="100%" height="615" src="https://www.youtube.com/embed/QBJCgWQ39M4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<strong>Step 1. </strong> Set up the Development Environment 
-You need to set up your development environment before you can do anything.
-
-Install Node.js® and npm if they are not already on your machine.
-
-<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>
-<a href="https://www.npmjs.com/">https://www.npmjs.com/</a>
-
-
-Let's get start and create a new Angular 6 Project with your Command Line / CLI
-
-
-Then install the Angular CLI globally.
-
-{% highlight ruby %}
-$ npm install -g @angular/cli
-{% endhighlight %}
-
-
-<strong>Step 2. </strong>Create a new project 
-Open a terminal window.
-
-Generate a new project and default app by running the following command:
-
-{% highlight ruby %}
-$ ng new my-app
-{% endhighlight %}
-
-
-The Angular CLI installs the necessary npm packages, creates the project files, and populates the project with a simple default app. This can take some time.
-
-
-Step 3: Serve the application 
-Go to the project directory and launch the server.
-
-
-{% highlight ruby %}
-cd my-app
-ng serve --open
-{% endhighlight %}
-
-The ng serve command launches the server, watches your files, and rebuilds the app as you make changes to those files.
-
-Using the --open (or just -o) option will automatically open your browser on http://localhost:4200/.
-
-Your app greets you with a message: Welcome to the App.
-
-
 
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
 
