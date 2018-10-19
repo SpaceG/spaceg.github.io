@@ -8,7 +8,7 @@ Angular 6 - Event Binding - Basic Part#13</h2>
 
 <small>Angular 6, Javascript, Framework, Tutorial, Install Angular 6 on Windows 10</small>
 
-<iframe width="100" height="615" src="https://www.youtube.com/embed/-iT55Dp8_ZQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/-iT55Dp8_ZQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
 
