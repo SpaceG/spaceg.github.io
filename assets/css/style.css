@@ -663,7 +663,7 @@ h2.month {
 }
 
 .eupopup-container {
-	background-color: rgba(25, 25, 25, 0.9);
+	background-color: rgba(255, 255, 255, 0.9);
 	color: #efefef;
 	padding: 5px 20px;
 	font-size: 12px;
@@ -723,7 +723,7 @@ h2.month {
 	font-size: 1.2em;
 	font-weight: bold;
 	padding: 7px;
-	color: #fff;
+	color:  rgb(28, 70, 242);
 }
 
 .eupopup-body {
