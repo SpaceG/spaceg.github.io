@@ -10,6 +10,7 @@ Angular 6 - Applying Classes Dynamically with ngStyle - Basic Part#20</h2>
 
 <iframe width="100%" height="615" src="https://www.youtube.com/embed/fwb1YlZfyWg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
 Donate Me and my Work as Developer: PayPal <a href="https://www.paypal.me/sysadmincat">https://www.paypal.me/sysadmincat </a>
 
 
