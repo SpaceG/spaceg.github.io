@@ -1,6 +1,6 @@
-name: Lucas Gatsas
+name: L.G
 description: I'm Angular 6, Ui/Ux, Sys-Admin & Front End Engineer 
-meta_description: "Lucas Gatsas Front End Engineer"
+meta_description: "Front End Engineer"
 
 aboutPage: true
 
@@ -16,7 +16,7 @@ disqus_shortname: 'spaceg-1'
 
 # Details for the RSS feed generator
 url:            'http://spaceg.github.io'
-author:         'Lucas Gatsas'
+author:         'Space G'
 authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
