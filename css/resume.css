@@ -125,6 +125,7 @@ p.lead {
     display: -ms-flexbox;
     display: flex;
     padding: 0.5rem;
+    margin: auto auto 0;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
