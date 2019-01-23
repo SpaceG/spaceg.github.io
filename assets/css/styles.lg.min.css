@@ -37955,7 +37955,7 @@ pre[class*=language-] .toolbar-item a {
     }
     .g-py-100 {
         padding-top: 7.14286rem!important;
-        padding-bottom: 7.14286rem!important
+       /* padding-bottom: 7.14286rem!important*/
     }
     .g-py-105 {
         padding-top: 7.5rem!important;
