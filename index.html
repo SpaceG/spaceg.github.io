@@ -1,675 +1,401 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<title>Lucas Gatsas - Front End Developer + SysAdmin </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link href="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg" rel="icon">
-	<link href="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg" rel="apple-touch-icon">
-	<link href="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg" rel="apple-touch-icon" sizes="76x76" />
-	<link href="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg" rel="apple-touch-icon" sizes="120x120" />
-	<link href="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg" rel="apple-touch-icon" sizes="152x152" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/toolkit.min.css">
-	<link rel="stylesheet" href="assets/vendor/chosen/chosen.css">
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/styles.lg.min.css">
+    <title>Lucas Gatsas - Software Entwickler & Front End Entwickler - St. Gallen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link rel="stylesheet" href="lucasgatsas.min.css">
+    <script>
+        $(document).ready(function () {
+
+            $('a.terms').click(function () {
+                window.open(this.href);
+                return false;
+            });
+
+        });
+
+    </script>
 </head>
-
 <body>
-		<a id="mlh-trust-badge" style="    display: block;
-		max-width: 90px;
-		min-width: 60px;
-		position: fixed;
-		right: 0.2%;
-		top: 95px;
-		width: 10%;
-		z-index: 10000;
-		outline: none;" href="https://mlh.io/seasons/eu-2019/events?utm_source=eu-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-season&amp;utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>	<!-- Header -->
-	<header id="js-header" class="u-header u-header--static">
-		<div class="u-header__section u-header__section--light">
-			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg">
-					<!-- Logo -->
-					<a href="index.html" class="navbar-brand">
-							<img src="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg" class="rounded-left rounded-right "width="45">
-						</a>
-					<!-- End Logo -->
-					<!-- Responsive Toggle Button -->
-					<button class="navbar-toggler navbar-toggler-right btn g-brd-gray-light-v4" type="button" aria-label="Toggle navigation"
-					 aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-						<span class="g-font-size-default">
-							<i class="icon-menu g-pos-rel g-top-1 mr-1"></i> Menu
-						</span>
-					</button>
-					<!-- End Responsive Toggle Button -->
-					<!-- Navigation -->
-					<div class="collapse navbar-collapse g-pt-10 g-pt-0--lg" id="navBar">
-						<!-- Menu -->
-						<ul class="navbar-nav g-font-size-default m-auto">
-							<li class="nav-item g-mx-15--lg active">
-								<a href="/" class="nav-link g-color-primary--hover px-0">Home</a>
-							</li>
-							<li class="nav-item g-mx-15--lg">
-								<a href="https://github.com/spaceg" class="nav-link g-color-primary--hover px-0">Github</a>
-							</li>
-							<li class="nav-item g-mx-15--lg">
-								<a href="https://spaceg.github.io/blog" class="nav-link g-color-primary--hover px-0">Blog</a>
-							</li>
-							<li class="nav-item g-mx-15--lg">
-								<a href="about.html" class="nav-link g-color-primary--hover px-0">About</a>
-							</li>
-							<li class="nav-item g-mx-15--lg">
-									<a href="https://spaceg.github.io/source.html" class="nav-link g-color-primary--hover px-0">OpenSource</a>
-								</li>
-							<li class="nav-item g-mx-15--lg">
-								<a href="https://t.me/spacedigs" class="nav-link g-color-primary--hover px-0" target="_blank">Telegram</a>
-							</li>
-							<li class="nav-item g-mx-15--lg">
-								<a href="https://www.paypal.me/sysadmincat"  target="_blank" class="nav-link g-color-primary--hover px-0">Donate</a>
-							</li>
-						</ul>
-						<!-- End Menu -->
-					</div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://spaceg.github.io/img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg"
+                    class="rounded-left rounded-right " width="45">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-					<!-- Login/Signup -->
-					<ul class="u-list-inline ml-auto">
-						<li class="list-inline-item g-ml-0">
-							<a class="btn u-btn-primary" href="mailto:lucasgatsas@gmail.com" data-modal-target="#modal-sign-up" data-modal-effect="fadein">Contact</a>
-						</li>
-					</ul>
-					<!-- End Login/Signup -->
-				</nav>
-			</div>
-		</div>
-	</header>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://t.me/spacedigs" target="_blank">t.me/spacedigs</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Social: <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.linkedin.com/in/lucas-gatsas/"><i
+                                class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://github.com/spaceg"><i class="fab fa-github"></i></a>
+                    </li>
+                    <!-- 
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Open Source</a>
+                          <div class="dropdown-menu" aria-labelledby="dropdown08">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                                
+                    -->
+                </ul>
+                <form class="form-inline">
+                    <a href="https://www.paypal.me/sysadmincat" target="_blank"
+                        class="btn btn-outline-primary my-2 my-sm-0 " type="submit">Donate
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="lg-padding-1">
+            <h1>Hello Welcome! </h1>
+        </div>
+    </div>
+    <div class="lg-front-section-1">
+        <div class="container animated fadeInUp">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="icon-holder">
+                        <img src="img/QC.svg" class="new-image-lg img-fluid animated fadeInUp">
+                        <h2>Front & Back End Development </h2>
+                        <p>High Level Skills in Web Development, Awesome Custom Mobile & Web Apps. 
+                        </p>
+                        <p><a href="https://github.com/spaceg" role="button">View details »</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-holder">
+                        <img src="img/Exceptionally-Skilled-Developers.svg"
+                            class="new-image-lg img-fluid animated  fadeInUp">
+                        <h2>Node.JS App Development </h2>
+                        <p>Using High Rated today best up to dated Web Technologies to get best quality.
+                        </p>
+                        <p><a href="https://github.com/spaceg" role="button">View details »</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-holder">
+                        <img src="img/Brainstorm.svg" class="new-image-lg img-fluid animated fadeInUp">
 
-	<!-- End Header -->
-	<main class="g-bg-secondary">
-		<!-- Content -->
+                        <h2>Wordpress Development</h2>
+                        <p>I'm also create Sick very Fast Wordpress Apps, Intergrated with Asynchronous Programming.
+                        </p>
+                        <p><a href="https://github.com/spaceg" role="button">View details »</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="container lg-max-middle">
+        <div class="lg-padding-1">
+            <h1>Quick FAQs </h1>
+        </div>
+    </div>
+    <div class="container lg-max-middle lg-padding-2">
+        <!-- Container -->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <i class="fas fa-plus"></i> About Me
+                        </button>
+                    </h5>
+                </div>
 
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        I'm Senior Web Developer & Software Developer based in St. Gallen (Switzerland). Read More About
+                        me on my LinkedIn
+                        <a href="https://www.linkedin.com/in/lucas-gatsas/" target="_blank">Friendly Question Ask <span
+                                class="sr-only">(current)</span></a>
+                        Profile.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fas fa-plus"></i> My Skills in Development
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        During 6 years, I developed several high quality production level websites and customized it.
+                        Most of projects were developed by Angular 6, SailsJS, ExpressJS, MEAN Stack / Ruby on Rails /
+                        One of my other core skills are Server administration and Infrastructure building for services
+                        and websites.
+                        My core skills are MEAN stack Administration, LAMP stack Administration, Docker, Jenkins etc..
 
-		
-		<section class="g-pt-40 g-pb-80">
-			<div class="container">
-				
-				<article class="u-shadow-v22 g-bg-white g-pos-rel rounded g-mb-40">
-					<div class="g-flex-middle g-min-height-400 g-pa-30">
-						<div class="d-inline-block">
-								<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Html5</a>
-								<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS3</a>
-								<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a>
-								<a class="btn btn-xs u-btn-outline-darkpurple g-mr-5" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap 4</a>
-								<a class="btn btn-xs u-btn-outline-black g-mr-5" href="https://en.wikipedia.org/wiki/Node.js" target="_blank">NodeJS</a>
-								<a class="btn btn-xs u-btn-outline-black g-mr-5" href="https://en.wikipedia.org/wiki/Git" target="_blank">GIT</a>
-								<a class="btn btn-xs u-btn-outline-pink g-mr-5" href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank">Sass</a>
-						</div>
+                        <a href="https://www.linkedin.com/in/lucas-gatsas/" target="_blank">Friendly Question Ask <span
+                                class="sr-only">(current)</span></a> </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fas fa-plus"></i> Programming Languages, Skills + Frameworks in Use
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
 
-						<div class="d-inline-block g-width-60x--lg">
-								<img src="img/lucas-gatsas 2.png" class="rounded-circle" width="83">
-							<h1 class="h2 g-font-weight-300 g-mb-5">
-								<a class="u-link-v5 g-color-main g-color-primary--hover" href="#">
-									Lucas Gatsas
-								</a>
-							</h1>
-							<p class="text-muted">+6 years of web & mobile development</p>
-						</div>
-						<div class="d-inline-block">
-							<div class="media g-font-size-12">
-								<img class="d-flex u-shadow-v25 g-width-40 g-height-40 rounded-circle g-mr-10" src="img/github.png">
-								<div class="media-body align-self-center">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="#">
-										Github
-									</a>
-									<p class="small g-color-accent mb-0">
-										<a href="https://github.com/spaceg" target="_blank" class="u-link-v5 g-color-main g-color-primary--hover"><time>github.com/spaceg</time></a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="g-pos-abs d-none d-lg-block g-right-0 g-bottom-0">
-						<img class="img-fluid" src="img/front-1.png">
-					</div>
-				</article>
+                        Javascript / Angular / Software Developer, with 6+ years experience of building and customizing
+                        high quality websites and web apps. And also, I love to build the hybrid mobile applications
+                        using
+                        Ionic framework (Angular 6) or Higher /, and React Native(React.js). High Skills in :
+                        <br>
+                        - JavaScript Frameworks<br>
+                        - Front End Framework<br>
+                        - Experience with CSS Preprocessors<br>
+                        - Experience with RESTful Services and APIs<br>
+                        - Responsive and Mobile Design<br>
+                        - Cross-Browser Development<br>
+                        - Testing and Debugging<br>
+                        - Git and Version Control Systems<br>
+                        - Problem Solving Skills<br>
 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                            aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fas fa-plus"></i> Database, Frameworks, Web Development, SysAdmin, Technology
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        ★ Front-end: - Angular 6 or Higher 7 - Vue.JS - React.JS, React/Ruby - Backbone, Ember, pdf.js,
+                        d3.js, paper.js, video.js... - Electron - Ionic, React Native - HTML5, Javascript, JQuery, CSS3,
+                        SASS, SCSS, LESS
+                        <br><br>
+                        ★ Back-end: - Sails.JS, Express.JS, Meteor, Koa and etc... - API: PayPal API & Stripe API - PHP:
+                        PHP, Wordpress - Shopify, Paypal, - MEAN Stack
+                        <br><br>
+                        ★ Database: Mongo DB, MySQL, PostgreSQL, Rethink DB, Redis, etc..
+                        <br><br>
+                        ★ Web host cloud Servers: - AWS (EC2, Lambda, S3, ElastiCache...) - Digital Ocean - Heroku -
+                        Google Cloud - Microsoft Azure - Firebase
+                        <br><br>
+                        ★ Dev/Testing Tools: - Testing framework: Mocha, Chai, Jasmine, etc.. - Git, Bitbucket, Slack,
+                        Jira, Trello - Webpack / Gulp / Grunt
+                        <br><br>
 
+                        If you are interested in me, please feel free to contact me. I will reply asap and advise
+                        technical solution that you want.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fas fa-plus"></i> Current Projects Mobile & Web Apps & OpenSources, Code,
+                            Prototypes
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        ∙ As a Senior Front-End Developer & Software Developer I led numerous prototypes at
+                        <a href="https://tomsfive.com" target="_blank"> Tomsfive AG<span
+                                class="sr-only">(current)</span></a>
+                        for the Web App. <br>
+                        I also created the whole WebApp in PHP & Wordpress which is connected to the Apple Store &
+                        Android (Google Play) Store. <br>
+                        ∙ As a Senior Front-End Developer & Software Developer I led numerous prototypes at Tomsfive AG
+                        for the Web App. The Alpha Test are finish, now we work on the Beta Version.
 
-				<ul class="list-inline dev-icons g-mb-40">
-						<li class="list-inline-item">
-						  <i class="fab fa-html5"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-css3-alt"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-js-square"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-angular"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-react"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-node-js"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-sass"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-less"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-wordpress"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-gulp"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-grunt"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-npm"></i>
-						</li>
-						<li class="list-inline-item">
-						  <i class="fab fa-node"></i>
-						</li>
-					  </ul>
-		
-				<div class="row">
-					<div class="col-lg-6">
-						<!-- Article 1-->
-						<div class="row no-gutters u-shadow-v22 g-bg-white rounded g-mx-5--sm g-mb-30">
-							<!-- Article Image -->
-							<div class="col-sm-5 g-min-height-300 g-bg-size-cover rounded-left" style="background-image: url('img/teleswipe-front.png');"></div>
-							<!-- End Article Image -->
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fas fa-plus"></i> My Excited Skills in SysAdmin and Back-End Development,
+                            Hackathons
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        here some reference:<br>
+                        Major League Hacking - Hackathon<br>
+                        StartHack St. Gallen - Hackathon<br>
+                        Hack Zuerich - Hackathon Europe 500 Best Hackers<br>
+                        <br>
+                        HSR Hochschule für Technik Rapperswil
+                        Switzerland
+                        Student & Self Taught
+                        2015 - 2018
+                        After some Lessions and lot of self-taught learning to write Softwares, I went to the HighSchool
+                        for Technical in Rapperswil - Switzerland to expand my programming skills.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Container -->
+    <hr>
+    <footer class="footer" style="background:white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h3>Want to connect?</h3>
+                    <p>Working on the TeleSwipe App. Currently, if you have any Question, contact me : https://t.me/spacedigs
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <ul>
+                        <h3>Resource</h3>
+                        <li class="nav-item">
+                            <a href="https://teleswipe.co">Teleswipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Aphexthemes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <ul>
+                        <h3>Open Source</h3>
+                        <li class="nav-item">
+                            <a href="https://github.com/SpaceG?tab=repositories">Source Code</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <ul>
+                        <h3>Github</h3>
+                        <li class="nav-item">
+                            <a href="https://github.com/spaceg">Source</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/spaceg">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/spaceg">Github PRO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    Follow Me: <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/lucas-gatsas/">
+                        LinkedIN</a> <i class="fab fa-instagram"></i><a href="https://linkedin.com"> Instagram </a>
+                </div>
+                <div class="col-4">
 
-							<!-- Article Content -->
-							<div class="col-sm-7">
-								<article class="g-flex-middle g-pos-rel g-z-index-1 g-pa-30">
-									<div class="g-mb-30">
-										<a class="btn btn-xs u-btn-outline-darkgray  g-mr-5" href="https://de.wikipedia.org/wiki/Cocoa_(API)" target="_blank">Cocoa Framework</a>
-										<a class="btn btn-xs u-btn-outline-darkgray g-mr-5" href="https://en.wikipedia.org/wiki/Objective-C" target="_blank">Object -C</a>
-										<a class="btn btn-xs u-btn-outline-darkgray g-mr-5" href="https://developer.apple.com/swift/" target="_blank">Apple Swift</a>
-										<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Xcode" target="_blank">Xcode</a>
-										<a class="btn btn-xs u-btn-outline-blue g-mr-5" href="https://en.wikipedia.org/wiki/Angular_(application_platform)" target="_blank">Angular 6</a>
-									</div>
-									<div class="g-mb-30">
-										<h2 class="h4 g-font-weight-300 g-mb-5">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/teleswipe.html">
-												TeleSwipe App
-											</a>
-										</h2>
-									</div>
-									<div class="media g-font-size-12">
-										<img class="d-flex u-shadow-v25 g-width-40 g-height-40 rounded-circle g-mr-10" src="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg">
-										<div class="media-body align-self-center">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" href="#">TeleSwipe</a>
-											<p class="small g-color-accent mb-0">
-												<time>January 07, 2019</time>
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
-							<!-- End Article Content -->
-						</div>
-						<!-- End Article -->
-					</div>
-					<div class="col-lg-6">
-						<!-- Article 2-->
-						<div class="row no-gutters u-shadow-v22 g-bg-white rounded g-mx-5--sm g-mb-30">
-							<!-- Article Image -->
-							<div class="col-sm-5 g-min-height-300 g-bg-size-cover rounded-left" style="background-image: url('img/t-2.jpg');"></div>
-							<!-- End Article Image -->
+                    <ul class="list-inline dev-icons g-mb-40">
+                        <li class="list-inline-item">
+                            <i class="fab fa-html5"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-css3-alt"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-js-square"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-angular"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-react"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-node-js"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-sass"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-less"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-wordpress"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-gulp"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-grunt"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-npm"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-node"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <br>
 
-							<!-- Article Content -->
-							<div class="col-sm-7">
-								<article class="g-flex-middle g-pos-rel g-z-index-1 g-pa-30">
-									<div class="g-mb-30">
-										<a class="btn btn-xs u-btn-outline-darkpurple g-mr-5" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap 4</a>
-										<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Css</a>
-										<a class="btn btn-xs u-btn-outline-darkpurple g-mr-5" href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a>
-										<a class="btn btn-xs u-btn-outline-blue g-mr-5" href="https://en.wikipedia.org/wiki/Angular_(application_platform)" target="_blank">Angular 6</a>
-									</div>
-									<div class="g-mb-30">
-										<h2 class="h4 g-font-weight-300 g-mb-5">
-											<a class="u-link-v5 g-color-main g-color-primary--hover"   href="https://spaceg.github.io/works/tomsfive.html">
-												Tomsfive Prototype
-											</a>
-										</h2>
-									</div>
-									<div class="media g-font-size-12">
-										<img class="d-flex u-shadow-v25 g-width-40 g-height-40 rounded-circle g-mr-10" src="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg">
-										<div class="media-body align-self-center">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="#">Tomsfive</a>
-											<p class="small g-color-accent mb-0">
-												<time>June 03, 2018</time>
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
-							<!-- End Article Content -->
-						</div>
-						<!-- End Article -->
-					</div>
-					<div class="col-lg-6">
-						<!-- Article 3-->
-						<div class="row no-gutters u-shadow-v22 g-bg-white rounded g-mx-5--sm g-mb-30">
-							<!-- Article Image -->
-							<div class="col-sm-5 g-min-height-300 g-bg-size-cover rounded-left" style="background-image: url('img/uiuxfy-8.jpg');"></div>
-							<!-- End Article Image -->
+    <div class="copyright footer-1">
+        <div class="container">
+            <span class="lg-copy-flex-collabs">© 2011 - 2019 <a href="https://www.linkedin.com/in/lucas-gatsas/"
+                    target="_blank">Lucas Gatsas</a>. All Rights Reserved. build with <a href="https://rubyonrails.org/"
+                    target="_blank">Ruby on Rails Language</a></span>
+        </div>
 
-							<!-- Article Content -->
-							<div class="col-sm-7">
-								<article class="g-flex-middle g-pos-rel g-z-index-1 g-pa-30">
-									<div class="g-mb-30">
-										<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Css</a>
-										<a class="btn btn-xs u-btn-outline-darkpurple g-mr-5" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap 4</a>
-										<a class="btn btn-xs u-btn-outline-darkpurple g-mr-5" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a>
-									</div>
+    </div>
 
-									<div class="g-mb-30">
-										<h2 class="h4 g-font-weight-300 g-mb-5">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" href="works/uiuxfy.html">
-												UiUxfy - Css
-											</a>
-										</h2>
-									</div>
-
-									<div class="media g-font-size-12">
-										<img class="d-flex u-shadow-v25 g-width-40 g-height-40 rounded-circle g-mr-10" src="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg">
-										<div class="media-body align-self-center">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" href="#">UiUxfy</a>
-											<p class="small g-color-accent mb-0">
-												<time>April 20, 2018</time>
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
-							<!-- End Article Content -->
-						</div>
-						<!-- End Article -->
-					</div>
-
-					<div class="col-lg-6">
-						<!-- Article 4-->
-						<div class="row no-gutters u-shadow-v22 g-bg-white rounded g-mx-5--sm g-mb-30">
-							<!-- Article Image -->
-							<div class="col-sm-5 g-min-height-300 g-bg-size-cover rounded-left" style="background-image: url('img/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app-1.png');"></div>
-							<!-- End Article Image -->
-
-							<!-- Article Content -->
-							<div class="col-sm-7">
-								<article class="g-flex-middle g-pos-rel g-z-index-1 g-pa-30">
-									<div class="g-mb-30">
-										<a class="btn btn-xs u-btn-outline-darkpurple g-mr-5" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap 4</a>
-										<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Css</a>
-										<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Node.js" target="_blank">Node JS</a>
-										<a class="btn btn-xs u-btn-outline-indigo g-mr-5" href="https://en.wikipedia.org/wiki/Sails.js" target="_blank">Sails JS</a>
-									</div>
-									<div class="g-mb-30">
-										<h2 class="h4 g-font-weight-300 g-mb-5">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/gitlist.html">
-												Gitlist - OpenSource
-											</a>
-										</h2>
-									</div>
-									<div class="media g-font-size-12">
-										<img class="d-flex u-shadow-v25 g-width-40 g-height-40 rounded-circle g-mr-10" src="img/8cc0314fc2fbd058c2e7dbc6f099452e.jpg">
-										<div class="media-body align-self-center">
-											<a class="u-link-v5 g-color-main g-color-primary--hover" target="_blank" href="#">Gitlist</a>
-											<p class="small g-color-accent mb-0">
-												<time>April 13, 2016</time>
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
-
-							<!-- End Article Content -->
-						</div>
-						<!-- End Article -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Content -->
-		<section class="g-pt-20 g-pb-70">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 g-mb-40 g-mb-40--lg">
-						<!-- Card -->
-						<div class="card h-100 u-block-hover u-shadow-v22 u-shadow-v21--hover g-brd-gray-light-v4 g-transition-0_3">
-							<figure class="u-block-hover-image-overlay">
-								<img src="img/teteswipe-2019.png" class="card-img-top img-fluid">
-								<figcaption class="u-block-hover__additional--fade g-flex-centered g-z-index-1 g-bg-primary-opacity-0_4 g-pa-30">
-									<div class="g-flex-centered-item text-center">
-								
-										<a class="u-icon-v3 u-icon-size--lg u-shadow-v20 g-font-size-20 g-bg-white rounded-circle" 
-										 data-toggle="tooltip" data-placement="top" title="" href="works/teleswipe.html"
-										 data-original-title="Live Preview">
-											<i class="fa fa-tv g-color-accent"></i>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-
-							<div class="card-body g-pa-25 g-pb-15">
-								<h4 class="g-font-size-12 g-color-accent g-mb-5">Teleswipe App - App to Scan PhoneNumbers. </h4>
-								<h3 class="card-title h4 g-font-weight-300">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/teleswipe.html">TeleSwipe App</a>
-								</h3>
-							</div>
-
-							<div class="card-footer d-flex align-items-center justify-content-between g-bg-white g-brd-gray-light-v4 g-px-25">
-								<span class="g-color-accent g-mr-10">
-									<span class="g-mr-10">
-											<i class="fa fa-eye"></i> Website
-									</span>
-									<span>
-										<a class="u-link-v5 g-color-main" href="https://spaceg.github.io/works/teleswipe.html">
-											<i class="fa fa-clone"></i>  Link
-											</a>
-									</span>
-								</span>
-								<span class="u-label u-label--sm g-line-height-1_2 g-bg-primary text-uppercase g-rounded-20 g-px-10">See</span>
-							</div>
-						</div>
-						<!-- End Card -->
-					</div>
-					<div class="col-lg-6 g-mb-40 g-mb-40--lg">
-						<!-- Card -->
-						<div class="card h-100 u-block-hover u-shadow-v22 u-shadow-v21--hover g-brd-gray-light-v4 g-transition-0_3">
-							<figure class="u-block-hover-image-overlay">
-								<img src="img/t-4.jpeg" class="card-img-top img-fluid">
-								<figcaption class="u-block-hover__additional--fade g-flex-centered g-z-index-1 g-bg-primary-opacity-0_4 g-pa-30">
-									<div class="g-flex-centered-item text-center">
-										
-										<a class="u-icon-v3 u-icon-size--lg u-shadow-v20 g-font-size-20 g-bg-white rounded-circle" 
-										 data-toggle="tooltip" data-placement="top" title="" href="https://spaceg.github.io/works/tomsfive.html"
-										 data-original-title="Live Preview">
-											<i class="fa fa-tv g-color-accent"></i>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-
-							<div class="card-body g-pa-25 g-pb-15">
-								<h4 class="g-font-size-12 g-color-accent g-mb-5">A Recruting Tool App</h4>
-								<h3 class="card-title h4 g-font-weight-300">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/tomsfive.html">Tomsfive App</a>
-								</h3>
-							</div>
-
-							<div class="card-footer d-flex align-items-center justify-content-between g-bg-white g-brd-gray-light-v4 g-px-25">
-								<span class="g-color-accent g-mr-10">
-									<span class="g-mr-10">
-											<i class="fa fa-eye"></i>  Website
-
-									</span>
-									<span>
-											<a class="u-link-v5 g-color-main" href="https://spaceg.github.io/works/tomsfive.html">
-												<i class="fa fa-clone"></i> Link
-												</a>
-									</span>
-								</span>
-								<span class="u-label u-label--sm g-line-height-1_2 g-bg-primary text-uppercase g-rounded-20 g-px-10">See</span>
-							</div>
-						</div>
-						<!-- End Card -->
-					</div>
-
-					<div class="col-lg-6 g-mb-40 g-mb-40--lg">
-						<!-- Card -->
-						<div class="card h-100 u-block-hover u-shadow-v22 u-shadow-v21--hover g-brd-gray-light-v4 g-transition-0_3">
-							<figure class="u-block-hover-image-overlay">
-								<img src="img/2.png"
-								 class="card-img-top img-fluid">
-								<figcaption class="u-block-hover__additional--fade g-flex-centered g-z-index-1 g-bg-primary-opacity-0_4 g-pa-30">
-									<div class="g-flex-centered-item text-center">
-										<a class="u-icon-v3 u-icon-size--lg u-shadow-v20 g-font-size-20 g-bg-white rounded-circle mr-2" data-toggle="tooltip"
-										 data-placement="top" title="" href="https://spaceg.github.io/works/aphexthemes.html" data-original-title="Item Details">
-											<i class="fa fa-tv g-color-accent"></i>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-
-							<div class="card-body g-pa-25 g-pb-15">
-								<h4 class="g-font-size-12 g-color-accent g-mb-5">Beautiful Bootstrap 4 Themes & Templates</h4>
-								<h3 class="card-title h4 g-font-weight-300">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/aphexthemes.html">AphexThemes- Bootstrap 4 Themes</a>
-								</h3>
-							</div>
-
-							<div class="card-footer d-flex align-items-center justify-content-between g-bg-white g-brd-gray-light-v4 g-px-25">
-								<span class="g-color-accent g-mr-10">
-									<span class="g-mr-10">
-											<i class="fa fa-eye"></i> Website
-									</span>
-									<span>
-										<a class="u-link-v5 g-color-main" href="https://spaceg.github.io/works/aphexthemes.html"><i class="fa fa-clone"></i>
-											Link</a>
-									</span>
-								</span>
-								<span class="u-label u-label--sm g-line-height-1_2 g-bg-primary text-uppercase g-rounded-20 g-px-10">See</span>
-							</div>
-						</div>
-						<!-- End Card -->
-					</div>
-
-					<div class="col-lg-6 g-mb-40 g-mb-40--lg">
-						<!-- Card -->
-						<div class="card h-100 u-block-hover u-shadow-v22 u-shadow-v21--hover g-brd-gray-light-v4 g-transition-0_3">
-							<figure class="u-block-hover-image-overlay">
-								<img src="img/3.png"
-								 class="card-img-top img-fluid">
-								<figcaption class="u-block-hover__additional--fade g-flex-centered g-z-index-1 g-bg-primary-opacity-0_4 g-pa-30">
-									<div class="g-flex-centered-item text-center">
-										<a class="u-icon-v3 u-icon-size--lg u-shadow-v20 g-font-size-20 g-bg-white rounded-circle mr-2" data-toggle="tooltip"
-										 data-placement="top" title="" href="https://spaceg.github.io/works/spacedig.html" data-original-title="Item Details">
-											<i class="fa fa-tv g-color-accent"></i>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-
-							<div class="card-body g-pa-25 g-pb-15">
-								<h4 class="g-font-size-12 g-color-accent g-mb-5">Software Company Spacedig</h4>
-								<h3 class="card-title h4 g-font-weight-300">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/spacedig.html">Spacedig - Software development UK</a>
-								</h3>
-							</div>
-
-							<div class="card-footer d-flex align-items-center justify-content-between g-bg-white g-brd-gray-light-v4 g-px-25">
-								<span class="g-color-accent g-mr-10">
-									<span class="g-mr-10">
-											<i class="fa fa-eye"></i> Website
-									</span>
-									<span>
-										<a class="u-link-v5 g-color-main" href="https://spaceg.github.io/works/spacedig.html"><i class="fa fa-clone"></i>
-											Link</a>
-									</span>
-								</span>
-								<span class="u-label u-label--sm g-line-height-1_2 g-bg-primary text-uppercase g-rounded-20 g-px-10">See</span>
-							</div>
-						</div>
-						<!-- End Card -->
-					</div>
-
-
-					<div class="col-lg-6 g-mb-40 g-mb-40--lg">
-						<!-- Card -->
-						<div class="card h-100 u-block-hover u-shadow-v22 u-shadow-v21--hover g-brd-gray-light-v4 g-transition-0_3">
-							<figure class="u-block-hover-image-overlay">
-								<img src="img/uiuxfy-8.jpg"
-								 class="card-img-top img-fluid">
-								<figcaption class="u-block-hover__additional--fade g-flex-centered g-z-index-1 g-bg-primary-opacity-0_4 g-pa-30">
-									<div class="g-flex-centered-item text-center">
-										<a class="u-icon-v3 u-icon-size--lg u-shadow-v20 g-font-size-20 g-bg-white rounded-circle mr-2" data-toggle="tooltip"
-										 data-placement="top" title="" href="https://spaceg.github.io/works/uiuxfy.html" data-original-title="Item Details">
-											<i class="fa fa-tv g-color-accent"></i>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-
-							<div class="card-body g-pa-25 g-pb-15">
-								<h4 class="g-font-size-12 g-color-accent g-mb-5">A beautiful Open Source UI Kit!</h4>
-								<h3 class="card-title h4 g-font-weight-300">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/uiuxfy.html">UiUxfy - Bootstrap 4 - UI Kit</a>
-								</h3>
-							</div>
-
-							<div class="card-footer d-flex align-items-center justify-content-between g-bg-white g-brd-gray-light-v4 g-px-25">
-								<span class="g-color-accent g-mr-10">
-									<span class="g-mr-10">
-											<i class="fa fa-eye"></i> Website
-									</span>
-									<span>
-										<a class="u-link-v5 g-color-main" href="https://spaceg.github.io/works/uiuxfy.html"><i class="fa fa-clone"></i>
-											Link</a>
-									</span>
-								</span>
-								<span class="u-label u-label--sm g-line-height-1_2 g-bg-primary text-uppercase g-rounded-20 g-px-10">See</span>
-							</div>
-						</div>
-						<!-- End Card -->
-					</div>
-					<div class="col-lg-6 g-mb-40 g-mb-40--lg">
-						<!-- Card -->
-						<div class="card h-100 u-block-hover u-shadow-v22 u-shadow-v21--hover g-brd-gray-light-v4 g-transition-0_3">
-							<figure class="u-block-hover-image-overlay">
-								<img src="img/h3.jpg" class="card-img-top img-fluid">
-								<figcaption class="u-block-hover__additional--fade g-flex-centered g-z-index-1 g-bg-primary-opacity-0_4 g-pa-30">
-									<div class="g-flex-centered-item text-center">
-										
-										<a class="u-icon-v3 u-icon-size--lg u-shadow-v20 g-font-size-20 g-bg-white rounded-circle" 
-										 data-toggle="tooltip" data-placement="top" title="" href="https://spaceg.github.io/works/hypertrack.html"
-										 data-original-title="Live Preview">
-											<i class="fa fa-tv g-color-accent"></i>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-
-							<div class="card-body g-pa-25 g-pb-15">
-								<h4 class="g-font-size-12 g-color-accent g-mb-5">Hypertrack App - Front End Works for Hypertrack App</h4>
-								<h3 class="card-title h4 g-font-weight-300">
-									<a class="u-link-v5 g-color-main g-color-primary--hover" href="https://spaceg.github.io/works/hypertrack.html">Hypertrack </a>
-								</h3>
-							</div>
-
-							<div class="card-footer d-flex align-items-center justify-content-between g-bg-white g-brd-gray-light-v4 g-px-25">
-								<span class="g-color-accent g-mr-10">
-									<span class="g-mr-10">
-											<i class="fa fa-eye"></i> Website
-									</span>
-									<span>
-										<a class="u-link-v5 g-color-main" href="https://spaceg.github.io/works/hypertrack.html">
-											<i class="fa fa-clone"></i> Link
-											</a>
-									</span>
-								</span>
-								<span class="u-label u-label--sm g-line-height-1_2 g-bg-primary text-uppercase g-rounded-20 g-px-10">See</span>
-							</div>
-						</div>
-						<!-- End Card -->
-					</div>
-				</div>
-
-				<div class="text-center">
-					<p>Have questions or suggestions? <a class="text-nowrap"  href="mailto:lucasgatsas@gmail.com">Contact Me</a></p>
-				</div>
-			</div>
-		</section>
-
-
-
-	</main>
-	<!-- Subscribe -->
-	<section class="g-bg-pos-center g-bg-no-repeat g-brd-y g-brd-gray-light-v4 g-py-50 g-py-100--lg">
-		<div class="container text-center">
-			<h2 class="h4 g-font-weight-300 g-mb-30">Have any Question? Contact Me</h2>
-			<div class="g-max-width-600 mx-auto">
-
-				<button class="btn btn-primary g-py-14 g-px-25 g-rounded-right-0 g-rounded-left-0"  href="mailto:lucasgatsas@gmail.com" type="submit">Contact</button>
-				</span>
-			</div>
-			</form>
-		</div>
-		</div>
-	</section>
-	<!-- End Subscribe -->
-	<!-- Footer -->
-	<footer class="g-bg-white g-pt-30 g-pb-15">
-		<div class="container">
-			<!-- Go To Top -->
-			<div class="text-center g-pos-rel g-mt-minus-55">
-				<a class="js-go-to u-go-to-v2 u-shadow-v22 g-bg-white g-color-gray-light-v1 g-color-primary--hover g-rounded-50x g-pa-5"
-				 href="" data-type="static">
-					<i class="hs-icon hs-icon-arrow-top"></i>
-				</a>
-			</div>
-			<!-- End Go To Top -->
-
-			<div class="row justify-content-between align-items-center">
-				<!-- Copyright & Social Links -->
-				<div class="col-lg g-mt-30 g-mt-0--lg g-mb-20 g-mb-0--lg">
-					<small class="d-block g-font-size-default g-mb-10">2019 &copy; Lucas Gatsas. All Rights Reserved.</small>
-
-					<ul class="u-list-inline">
-
-						<li class="list-inline-item g-mr-15">
-							<a target="_blank" data-toggle="tooltip" data-placement="top" title="Github" href="https://github.com/spaceg">
-								<i class="fab fa-github g-color-black"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Copyright & Social Links -->
-
-				<!-- Footer Menu -->
-				<div class="col-lg text-lg-right">
-					<ul class="u-list-inline">
-
-						<li class="list-inline-item g-mr-15">
-							<a class="g-color-main g-color-primary--hover" href="mailto:lucasgatsas@gmail.com">Contact Me</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Footer Menu -->
-			</div>
-		</div>
-	</footer>
-	<!-- End Footer -->
-
-	<!-- JS Global Compulsory -->
-	<script src="assets/vendor/jquery/jquery.min.js"></script>
-	<script>console.log('Hello You are Watching the Console Log ;) ! email: lucasgatsas@gmail.com');</script>
-	<script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-	<script src="assets/vendor/popper.min.js"></script>
-	<script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98626242-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-98626242-1');
-</script>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 
