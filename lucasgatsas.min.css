@@ -158,7 +158,10 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
-
+a:hover {
+    color: #6b6b6b;
+    text-decoration: underline;
+}
 /* 
 ===============================================================
 Section lg-max-middle - Front End  V.0.1 
