@@ -231,6 +231,20 @@ Button Links for the Accordion  - Front End  V.0.1
     color: #000; 
     text-decoration: underline;
 }
+
+.btn-outline-primary {
+    color: #000000;
+    border-color: #000000;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(165 165 165 / 50%);
+}
+
 /* 
 ===============================================================
 Front End 3 Columns Top of the Front End  V.0.1 
