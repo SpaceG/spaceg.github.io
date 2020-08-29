@@ -250,6 +250,14 @@ Button Links for the Accordion  - Front End  V.0.1
 .btn-outline-primary.focus, .btn-outline-primary:focus {
     box-shadow: 0 0 0 0.2rem rgb(183 183 183 / 50%);
 }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #232323;
+    border-color: #232323;
+}
+
+
 /* 
 ===============================================================
 Front End 3 Columns Top of the Front End  V.0.1 
