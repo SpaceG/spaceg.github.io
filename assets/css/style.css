@@ -23,7 +23,7 @@ a{text-decoration:none;}
 .main-nav a{color:#777;padding:0.5rem 1rem;margin-left:0.5rem;}
 .main-nav a:hover{color:#000;}
 main{margin:3rem auto;}
-.page-title{margin-bottom:2rem;font-size:2rem;}
+.page-title{margin-bottom:2rem;font-size:2rem;font-family: monospace;}
 .page-title a{color:#000;}
 article {
     line-height: 23px;
