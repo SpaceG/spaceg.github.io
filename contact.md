@@ -6,4 +6,4 @@ permalink: /contact/
 
 ## Contact
 
-Kontaktinformationen oder Formular.
+Kontaktinformationen.

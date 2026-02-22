@@ -5,4 +5,4 @@ title: Home
 
 # Willkommen
 
-Dies ist eine **saubere, professionelle Jekyll-Basis**.
+Sauberes, professionelles Jekyll-Layout mit klarem Header & Footer.

@@ -1,24 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: system-ui, sans-serif;
   margin: 0;
-  background: #0f0f0f;
-  color: #eee;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #000000;
 }
-header, footer {
-  background: #111;
-  padding: 1rem;
-}
-nav a {
-  margin-right: 1rem;
-  color: #4caf50;
+
+a {
   text-decoration: none;
 }
-main {
+
+.container {
   max-width: 900px;
-  margin: 4rem auto;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #777;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* Main */
+main {
+  margin: 4rem auto;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #eee;
+  padding: 2rem 0;
+  background: #fff;
+}
+
+.footer-inner {
+  text-align: center;
+}
+
+.social {
+  margin-bottom: 1rem;
+}
+
 .social a {
-  margin-right: 1rem;
-  color: #aaa;
+  margin: 0 0.6rem;
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.social a:hover {
+  color: #000;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #999;
 }
