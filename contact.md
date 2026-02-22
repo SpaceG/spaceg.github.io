@@ -3,4 +3,4 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
-Contact page.
+Want to contact me? Just click the mail icon. Thanks!
