@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Lucas Gatsas
 ---
 
 {% for post in site.posts %}
