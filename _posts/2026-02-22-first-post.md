@@ -3,4 +3,7 @@ layout: default
 title: First Post
 date: 2026-02-22
 ---
-This is the first post.
+
+Dies ist der **erste Blogpost**.
+
+Der Titel wird jetzt korrekt angezeigt.
