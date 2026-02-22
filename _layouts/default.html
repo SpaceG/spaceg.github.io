@@ -8,8 +8,9 @@
 </head>
 <body>
 {% include header.html %}
-{% include profile-card.html %}
+
 <main class="container">
+  {% include profile-card.html %}
   {% unless page.url == "/" %}
   <h1 class="page-title">
     <a href="{{ '/' | relative_url }}">{{ page.title }}</a>
