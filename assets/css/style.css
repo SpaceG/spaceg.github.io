@@ -5,13 +5,16 @@ body {
                "SF Pro Text", "SF Pro Display",
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: #fff;
-  color: #000;
+  color: #828282;
       line-height: 33px;
 }
 a{text-decoration:none;}
 .container{max-width:700px;width:100%;margin:0 auto;padding:0 1.25rem;}
 .site-header,.site-footer{background:#fff;border-bottom:1px solid #eee;}
 .header-inner{display:flex;justify-content:space-between;align-items:center;height:70px;}
+.logo {
+    color: black;
+}
 .logo a{color:#000;font-weight:600;}
 .main-nav a{color:#777;padding:0.5rem 1rem;margin-left:0.5rem;}
 .main-nav a:hover{color:#000;}
@@ -27,6 +30,9 @@ small {
     font-family: georgia;
     font-style: italic;
     color: gray;
+}
+strong {
+    color: black;
 }
 
 /* FORCE ALL LINKS TO BE COLOR-NEUTRAL */
