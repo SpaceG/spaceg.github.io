@@ -22,7 +22,11 @@ article h2 a:hover{color:#000;}
 .footer-inner{padding:90px;text-align:center;}
 .social a{margin:0 .6rem;font-size:1.2rem;color:#777;}
 .site-footer p{color:#999;font-size:.85rem;}
-
+small {
+    font-family: georgia;
+    font-style: italic;
+    color: gray;
+}
 
 /* FORCE ALL LINKS TO BE COLOR-NEUTRAL */
 a,
@@ -46,18 +50,18 @@ a:focus {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  background: #111;
+  background: #ffffff;
   border-radius: 16px;
   padding: 1.5rem 2rem;
   max-width: 900px;
   width: 100%;
-  box-shadow: 0 10px 30px rgba(0,0,0,.4);
-  color: #fff;
+ 
+  color: #060606;
 }
 
 .profile-avatar {
-  width: 96px;
-  height: 96px;
+  width: 136px;
+  height: 136px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -66,13 +70,13 @@ a:focus {
 .profile-name {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #fff;
+  color: #2b2b2b;
 }
 
 .profile-meta {
   font-size: 0.95rem;
   opacity: 0.8;
-  color: #fff;
+  color: #070707;
 }
 
 .profile-social {
@@ -85,7 +89,7 @@ a:focus {
 .profile-social a {
   margin-left: 0.75rem;
   font-size: 1.2rem;
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .profile-social a:hover {
