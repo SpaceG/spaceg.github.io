@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First Post
+title: Reboot
 date: 2013-04-04
 ---
 
