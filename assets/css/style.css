@@ -75,21 +75,26 @@ h2 {
 }
 
 .profile-card {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 1.5rem 2rem;
-  max-width: 900px;
-  width: 100%;
- 
-  color: #060606;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    min-width: 320px;
+    max-width: 400px;
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+    background: var(--surface-card-strong);
+    backdrop-filter: blur(8px);
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all .25s cubic-bezier(.4, 0, .2, 1);
+    flex-shrink: 0;
 }
 
 .profile-avatar {
-  width: 136px;
-  height: 136px;
+    width: 56px;
+    height: 56px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -126,9 +131,9 @@ h2 {
 
 @media (max-width: 600px) {
   .profile-card {
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;
     gap: 1rem;
-    padding: 1.25rem;
+    padding: 1.25rem;*/
   }
   .profile-social {
     margin-left: 0;
