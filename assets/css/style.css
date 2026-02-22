@@ -50,7 +50,9 @@ a:focus {
  /* color: inherit !important;*/
   text-decoration: none;
 }
-
+h2 {
+    font-size: 2rem;
+}
 /* Profile Card */
 .profile-wrapper {
   display: flex;
