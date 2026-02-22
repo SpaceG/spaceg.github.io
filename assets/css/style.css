@@ -52,6 +52,7 @@ a:focus {
 }
 h2 {
     font-size: 2rem;
+    color: black;
 }
 /* Profile Card */
 .profile-wrapper {
