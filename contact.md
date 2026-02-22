@@ -3,7 +3,4 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
-
-## Contact
-
-Kontaktinformationen.
+Contact page.
