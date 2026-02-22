@@ -2,12 +2,55 @@
   box-sizing: border-box;
 }
 
+/* ========================================
+   CSS VARIABLES - LIGHT MODE (DEFAULT)
+   ======================================== */
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-card: #ffffff;
+  --border-color: #eee;
+  --text-primary: #000000;
+  --text-secondary: #828282;
+  --text-muted: #999999;
+  --text-meta: #555555;
+  --link-color: #000000;
+  --link-hover: #333333;
+  --nav-color: #777777;
+  --icon-color: #000000;
+}
+
+/* ========================================
+   DARK MODE
+   ======================================== */
+
+[data-theme="dark"] {
+  --bg-primary: #0d0d0d;
+  --bg-secondary: #1a1a1a;
+  --bg-card: #141414;
+  --border-color: #2a2a2a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --text-muted: #666666;
+  --text-meta: #888888;
+  --link-color: #ffffff;
+  --link-hover: #cccccc;
+  --nav-color: #999999;
+  --icon-color: #ffffff;
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: #fff;
-  color: #828282;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
   line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 p {
@@ -17,7 +60,8 @@ p {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--link-color);
+  transition: color 0.2s ease;
 }
 
 a:visited,
@@ -25,7 +69,11 @@ a:hover,
 a:active,
 a:focus {
   text-decoration: none;
-  color: #000;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
 }
 
 /* Container */
@@ -36,13 +84,17 @@ a:focus {
   padding: 0 1.25rem;
 }
 
-/* Header */
+/* ========================================
+   HEADER
+   ======================================== */
+
 .site-header {
-  background: #fff;
-  border-bottom: 1px solid #eee;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
   position: sticky;
   top: 0;
   z-index: 100;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .header-inner {
@@ -54,33 +106,56 @@ a:focus {
 }
 
 .logo {
-  color: black;
   flex-shrink: 0;
 }
 
 .logo a {
-  color: #000;
+  color: var(--text-primary);
   font-weight: 600;
   font-size: 1rem;
 }
 
 .main-nav {
   display: flex;
+  align-items: center;
   gap: 0.25rem;
 }
 
 .main-nav a {
-  color: #777;
+  color: var(--nav-color);
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
   white-space: nowrap;
 }
 
 .main-nav a:hover {
-  color: #000;
+  color: var(--text-primary);
 }
 
-/* Main */
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  color: var(--icon-color);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--bg-secondary);
+}
+
+/* ========================================
+   MAIN CONTENT
+   ======================================== */
+
 main {
   margin: 2rem auto;
 }
@@ -93,7 +168,7 @@ main {
 }
 
 .page-title a {
-  color: #000;
+  color: var(--text-primary);
 }
 
 /* Article */
@@ -104,23 +179,23 @@ article {
 
 article h2 {
   font-size: 1.5rem;
-  color: black;
+  color: var(--text-primary);
   padding: 0;
   margin: 0 0 0.25rem 0;
 }
 
 article h2 a {
-  color: #000;
+  color: var(--text-primary);
   font-family: monospace;
 }
 
 article h2 a:hover {
-  color: #000;
+  color: var(--link-hover);
 }
 
 h2 {
   font-size: 1.75rem;
-  color: black;
+  color: var(--text-primary);
   padding: 0;
   margin: 0;
 }
@@ -128,16 +203,16 @@ h2 {
 small {
   font-family: georgia, serif;
   font-style: italic;
-  color: gray;
+  color: var(--text-muted);
   font-size: 0.85rem;
 }
 
 strong {
-  color: black;
+  color: var(--text-primary);
 }
 
 /* ========================================
-   PROFILE CARD - IMMER HORIZONTAL (ROW)
+   PROFILE CARD - IMMER HORIZONTAL
    ======================================== */
 
 .profile-wrapper {
@@ -155,8 +230,9 @@ strong {
   padding: 12px 16px;
   width: 100%;
   border-radius: 12px;
-  border: 1px solid #eee;
-  background: #fff;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .profile-avatar {
@@ -176,7 +252,7 @@ strong {
 .profile-name {
   font-size: 1rem;
   font-weight: 600;
-  color: #2b2b2b;
+  color: var(--text-primary);
   line-height: 1.3;
   white-space: nowrap;
   overflow: hidden;
@@ -185,7 +261,7 @@ strong {
 
 .profile-meta {
   font-size: 0.7rem;
-  color: #555;
+  color: var(--text-meta);
   line-height: 1.3;
   margin-top: 1px;
   white-space: nowrap;
@@ -202,7 +278,7 @@ strong {
 
 .profile-social a {
   font-size: 0.95rem;
-  color: #000 !important;
+  color: var(--icon-color) !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,11 +288,15 @@ strong {
   opacity: 0.7;
 }
 
-/* Footer */
+/* ========================================
+   FOOTER
+   ======================================== */
+
 .site-footer {
-  background: #fff;
-  border-top: 1px solid #eee;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-color);
   margin-top: 3rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .footer-inner {
@@ -233,7 +313,7 @@ strong {
 
 .social a {
   font-size: 1.2rem;
-  color: #000 !important;
+  color: var(--icon-color) !important;
 }
 
 .social a:hover {
@@ -241,13 +321,13 @@ strong {
 }
 
 .site-footer p {
-  color: #999;
+  color: var(--text-muted);
   font-size: 0.85rem;
   margin: 0;
 }
 
 .site-footer a {
-  color: black !important;
+  color: var(--text-primary) !important;
 }
 
 /* ========================================
@@ -268,6 +348,11 @@ strong {
   .main-nav a {
     padding: 0.4rem 0.5rem;
     font-size: 0.75rem;
+  }
+
+  .theme-toggle {
+    padding: 0.4rem;
+    font-size: 0.9rem;
   }
 
   main {

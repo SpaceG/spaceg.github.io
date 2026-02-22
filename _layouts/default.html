@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Primary Meta Tags -->
 <title>{{ page.title }} | {{ site.title }}</title>
+<meta name="title" content="{{ page.title }} | {{ site.title }}">
+<meta name="description" content="Lucas Gatsas – AI Systems Engineer & Founder of Spacedig AI Lab. Experte für künstliche Intelligenz, Machine Learning und AI-Systeme in der Schweiz.">
+<meta name="keywords" content="AI, Artificial Intelligence, künstliche Intelligenz, Machine Learning, AI Engineer, Schweiz, Switzerland, AI Lab, Spacedig, Lucas Gatsas, AI Experte, Deep Learning, AI Entwicklung, Zürich, St. Gallen, AI Beratung, KI Schweiz">
+<meta name="author" content="Lucas Gatsas">
+<meta name="robots" content="index, follow">
+<meta name="language" content="German">
+<meta name="geo.region" content="CH">
+<meta name="geo.country" content="Switzerland">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://spaceg.github.io{{ page.url }}">
+<meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+<meta property="og:description" content="Lucas Gatsas – AI Systems Engineer & Founder of Spacedig AI Lab. Experte für künstliche Intelligenz und AI-Systeme in der Schweiz.">
+<meta property="og:image" content="https://spacedig.co/welcome/images/20220209_002402.jpg">
+<meta property="og:site_name" content="SpaceG">
+<meta property="og:locale" content="de_CH">
+
+<!-- X (Twitter) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://spaceg.github.io{{ page.url }}">
+<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
+<meta name="twitter:description" content="Lucas Gatsas – AI Systems Engineer & Founder of Spacedig AI Lab. Experte für künstliche Intelligenz und AI-Systeme in der Schweiz.">
+<meta name="twitter:image" content="https://spacedig.co/welcome/images/20220209_002402.jpg">
+<meta name="twitter:site" content="@LucasGatsas">
+<meta name="twitter:creator" content="@LucasGatsas">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://spaceg.github.io{{ page.url }}">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="https://spacedig.co/welcome/images/20220209_002402.jpg">
+
+<!-- Structured Data (JSON-LD) for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Lucas Gatsas",
+  "url": "https://spaceg.github.io",
+  "image": "https://spacedig.co/welcome/images/20220209_002402.jpg",
+  "jobTitle": "AI Systems Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Spacedig AI Lab"
+  },
+  "sameAs": [
+    "https://x.com/LucasGatsas",
+    "https://www.linkedin.com/in/lucas-gatsas/",
+    "https://github.com/SpaceG",
+    "https://www.instagram.com/lucasgatsas/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CH"
+  },
+  "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Deep Learning", "AI Systems", "Neural Networks"]
+}
+</script>
+
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Theme Detection -->
+<script>
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
 </head>
 <body>
 {% include header.html %}
@@ -21,5 +94,29 @@
   {{ content }}
 </main>
 {% include footer.html %}
+
+<!-- Theme Toggle Script -->
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+  }
+
+  function updateThemeIcon(theme) {
+    const icon = document.querySelector('.theme-toggle i');
+    if (icon) {
+      icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    updateThemeIcon(currentTheme);
+  });
+</script>
 </body>
 </html>
