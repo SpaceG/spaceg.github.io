@@ -33,3 +33,73 @@ a:focus {
   color: inherit !important;
   text-decoration: none;
 }
+
+/* Profile Card */
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0;
+  padding: 0 1.25rem;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #111;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+  color: #fff;
+}
+
+.profile-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profile-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.profile-meta {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.profile-social {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.profile-social a {
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+  color: #fff !important;
+}
+
+.profile-social a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+  .profile-card {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+  .profile-social {
+    margin-left: 0;
+    width: 100%;
+  }
+}
