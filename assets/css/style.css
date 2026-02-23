@@ -7,7 +7,7 @@
    ======================================== */
 
 :root {
-  --bg-primary: #ffffff;
+  --bg-primary: #fdfdfd;
   --bg-secondary: #f8f9fa;
   --bg-card: #ffffff;
   --border-color: #eee;
@@ -46,7 +46,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family:  "Space Mono", monospace, s-apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg-primary);
   color: var(--text-secondary);
   line-height: 1.6;
@@ -212,6 +212,7 @@ small {
 
 strong {
   color: var(--text-primary);
+      font-size: x-large;
 }
 
 /* ========================================
