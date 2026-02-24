@@ -9,6 +9,7 @@
 :root {
   --bg-primary: #fdfdfd;
   --bg-secondary: #f8f9fa;
+    --bg-nav: #ffffff;
   --bg-card: #ffffff;
   --border-color: #eee;
   --text-primary: #000000;
@@ -93,7 +94,7 @@ a:hover {
    ======================================== */
 
 .site-header {
-  background: var(--bg-primary);
+  background: var(--bg-nav);
   border-bottom: 1px solid var(--border-color);
   position: sticky;
   top: 0;
